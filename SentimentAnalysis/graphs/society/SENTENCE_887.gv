@@ -1,0 +1,24 @@
+digraph SENTENCE_887 {
+	graph [label="Направление заявки не означает автоматическое получение аккредитации."]
+	node [style=filled]
+		0 [label="Направление
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="заявки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="означает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="автоматическое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="получение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аккредитации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="примыкат"]
+			0 -> 1 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+}

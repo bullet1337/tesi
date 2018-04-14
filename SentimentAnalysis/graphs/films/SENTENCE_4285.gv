@@ -1,0 +1,24 @@
+digraph SENTENCE_4285 {
+	graph [label="Посмотрим на главного героя глазами нормального человека."]
+	node [style=filled]
+		0 [label="Посмотрим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глазами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нормального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 4 [label="обст"]
+			4 -> 6 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			6 -> 5 [label="опред"]
+}

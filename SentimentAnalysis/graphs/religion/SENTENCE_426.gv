@@ -1,0 +1,57 @@
+digraph SENTENCE_426 {
+	graph [label="Особый жанр этого праздника — Пуримшпиль (на идишe \"пуримское представление\"), исполняемый одним или несколькими актерами во время праздничной трапезы."]
+	node [style=filled]
+		0 [label="Особый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жанр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="праздника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Пуримшпиль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="идишe
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пуримское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="представление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="исполняемый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="несколькими
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="актерами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="праздничной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="трапезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="квазиагент"]
+			1 -> 7 [label="атриб"]
+			15 -> 16 [label="агент"]
+			19 -> 18 [label="количест"]
+			19 -> 20 [label="атриб"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="аппоз"]
+			17 -> 19 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			20 -> 21 [label="предл"]
+			11 -> 1 [label="предик"]
+			11 -> 10 [label="опред"]
+			11 -> 15 [label="опред"]
+			11 -> 17 [label="сочин"]
+			11 -> 23 [label="разъяснит"]
+			23 -> 22 [label="опред"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_4590 {
+	graph [label="Ситуацию спасает лишь неплохой визуальный ряд."]
+	node [style=filled]
+		0 [label="Ситуацию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="спасает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неплохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="визуальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 5 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			3 -> 2 [label="огранич"]
+}

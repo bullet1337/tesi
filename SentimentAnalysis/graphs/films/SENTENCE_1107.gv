@@ -1,0 +1,12 @@
+digraph SENTENCE_1107 {
+	graph [label="Катрин Денёв тоже молодец."]
+	node [style=filled]
+		0 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молодец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+}

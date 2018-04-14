@@ -1,0 +1,24 @@
+digraph SENTENCE_4850 {
+	graph [label="Но апогеем идиотизма конечно является концовка фильма."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="апогеем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="идиотизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="концовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="вводн"]
+			4 -> 5 [label="предик"]
+			5 -> 6 [label="квазиагент"]
+}

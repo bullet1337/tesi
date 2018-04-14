@@ -1,0 +1,42 @@
+digraph SENTENCE_1202 {
+	graph [label="Так, постоянно действующие лицензированные медпункты для бездомных есть только в Москве и Санкт-Петербурге."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постоянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="действующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лицензированные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="медпункты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бездомных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Санкт-Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			3 -> 2 [label="обст"]
+			8 -> 0 [label="обст"]
+			8 -> 5 [label="предик"]
+			8 -> 10 [label="присвяз"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 12 [label="сочин"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_14 {
+	graph [label="Вот уж никогда раньше не думал, что в фильме мне понравится такая, с первого взгляда незаметная вещь, как монтаж."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="думал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="понравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="взгляда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="незаметная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вещь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="монтаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			5 -> 2 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 18 [label="предик"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			18 -> 14 [label="вводн"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="сравнит"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="предл"]
+			7 -> 11 [label="подч_союзн"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			20 -> 21 [label="сравн_союзн"]
+}

@@ -1,0 +1,25 @@
+digraph SENTENCE_4467 {
+	graph [label="Ненамного дольше задержится и Уолтер Уайт, то есть Брайан Крэнстон."]
+	node [style=filled]
+		0 [label="Ненамного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дольше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="задержится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Уолтер Уайт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Брайан Крэнстон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="предик"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+}

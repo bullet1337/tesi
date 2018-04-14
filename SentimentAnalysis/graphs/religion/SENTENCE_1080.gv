@@ -1,0 +1,94 @@
+digraph SENTENCE_1080 {
+	graph [label="В Прощеное воскресенье во всех православных храмах читается отрывок из Евангелия со словами Спасителя: \"Если вы не будете прощать людям согрешения их, то и Отец ваш Небесный не простит вам согрешений ваших\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="читается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отрывок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Евангелия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="словами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Спасителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Если
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="будете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прощать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="согрешения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Отец
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="ваш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Небесный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="простит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="согрешений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="ваших
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="_2_компл"]
+			20 -> 22 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			16 -> 19 [label="подч_союзн"]
+			19 -> 17 [label="предик"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="аналит"]
+			28 -> 31 [label="релят"]
+			2 -> 1 [label="опред"]
+			3 -> 6 [label="предл"]
+			27 -> 26 [label="огранич"]
+			12 -> 13 [label="аппоз"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			31 -> 29 [label="предик"]
+			31 -> 30 [label="огранич"]
+			31 -> 32 [label="_2_компл"]
+			31 -> 33 [label="_1_компл"]
+			31 -> 34 [label="_2_компл"]
+			9 -> 10 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="предик"]
+			7 -> 11 [label="обст"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_3085 {
+	graph [label="Сами они себе все проблемы придумали."]
+	node [style=filled]
+		0 [label="Сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="придумали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			4 -> 3 [label="опред"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="неакт_компл"]
+			5 -> 4 [label="_1_компл"]
+}

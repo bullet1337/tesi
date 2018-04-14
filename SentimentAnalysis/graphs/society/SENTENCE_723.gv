@@ -1,0 +1,38 @@
+digraph SENTENCE_723 {
+	graph [label="В итоге было принято решение, что \"Радиоприбор\" станет филиалом Дубненского машиностроительного завода."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="принято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Радиоприбор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="филиалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Дубненского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="машиностроительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="завода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="предик"]
+			10 -> 11 [label="присвяз"]
+			6 -> 10 [label="подч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 3
+			2 -> 4 [label="предик"]
+			0 -> 1 [label="предл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			11 -> 14 [label="_1_компл"]
+}

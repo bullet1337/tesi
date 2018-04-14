@@ -1,0 +1,33 @@
+digraph SENTENCE_2267 {
+	graph [label="Так вот, Ларс, я не почувстовала ничего, кроме нелепости ситуации."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="почувстовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нелепости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			8 -> 10 [label="атриб"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_715 {
+	graph [label="Был бы вклад и капали бы проценты."]
+	node [style=filled]
+		0 [label="Был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вклад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="капали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проценты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="аналит"]
+			0 -> 2 [label="предик"]
+			0 -> 3 [label="сент_соч"]
+			4 -> 5 [label="аналит"]
+			4 -> 6 [label="предик"]
+			3 -> 4 [label="соч_союзн"]
+}

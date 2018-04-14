@@ -1,0 +1,75 @@
+digraph SENTENCE_819 {
+	graph [label="Депутат считает несправедливым, что критикующие РФ актеры получают гонорары в несколько сотен тысяч рублей \"из бюджетных денег, которые формируются за счет поступления налогов, сборов\"."]
+	node [style=filled]
+		0 [label="Депутат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="несправедливым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="критикующие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="получают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гонорары
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сотен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бюджетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="формируются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="счет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="поступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="налогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="сборов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+			18 -> 17 [label="опред"]
+			4 -> 8 [label="подч_союзн"]
+			16 -> 18 [label="предл"]
+			25 -> 27 [label="квазиагент"]
+			12 -> 11 [label="количест"]
+			12 -> 13 [label="квазиагент"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="обст"]
+			21 -> 24 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			24 -> 25 [label="квазиагент"]
+			13 -> 14 [label="квазиагент"]
+			22 -> 23 [label="предл"]
+			8 -> 5 [label="вводн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			8 -> 16 [label="_1_компл"]
+			8 -> 21 [label="изъясн"]
+			5 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_925 {
+	graph [label="Мне даже в голову не пришло, что эта картина снята в 2000 году!!!"]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="голову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пришло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="снята
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="2000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 10 [label="подч_союзн"]
+			5 -> 0 [label="неакт_компл"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предик"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			9 -> 8 [label="опред"]
+}

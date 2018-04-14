@@ -1,0 +1,62 @@
+digraph SENTENCE_4783 {
+	graph [label="герой пострадавший морально, потеряв отца, при столкновении с монстром, не сильно расстроился и едет домой, конечно не всё так просто."]
+	node [style=filled]
+		0 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пострадавший
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="морально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="потеряв
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="столкновении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="монстром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="расстроился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="едет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="просто
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_1_компл"]
+			21 -> 19 [label="вводн"]
+			21 -> 20 [label="огранич"]
+			7 -> 8 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			16 -> 17 [label="_2_компл"]
+			0 -> 1 [label="аппоз"]
+			23 -> 22 [label="огранич"]
+			9 -> 10 [label="предл"]
+			13 -> 12 [label="огранич"]
+			14 -> 0 [label="предик"]
+			14 -> 4 [label="обст"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="сочин"]
+			14 -> 21 [label="разъяснит"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="обст"]
+}

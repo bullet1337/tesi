@@ -1,0 +1,72 @@
+digraph SENTENCE_1368 {
+	graph [label="Сразу две крупные американские платформы — Amazon Prime и HappyKids — приобрели права на трансляцию российских мультипликационных сериалов \"Лунтик и его друзья\" и \"Барбоскины\" студии \"Мельница\"."]
+	node [style=filled]
+		0 [label="Сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="крупные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="американские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="платформы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Amazon Prime
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="HappyKids
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="приобрели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трансляцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мультипликационных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сериалов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Лунтик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="друзья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Барбоскины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Мельница
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="огранич"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			4 -> 1 [label="количест"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="атриб"]
+			23 -> 25 [label="соч_союзн"]
+			19 -> 21 [label="соч_союзн"]
+			10 -> 4 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 27 [label="неакт_компл"]
+			10 -> 29 [label="_1_компл"]
+			21 -> 20 [label="_1_компл"]
+			21 -> 23 [label="сочин"]
+			13 -> 16 [label="_1_компл"]
+			13 -> 18 [label="аппоз"]
+			13 -> 19 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			6 -> 8 [label="аппоз"]
+			11 -> 12 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+}

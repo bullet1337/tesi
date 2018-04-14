@@ -1,0 +1,60 @@
+digraph SENTENCE_468 {
+	graph [label="Православное христианство должно сохраниться как часть Ближнего Востока, заявил король Иордании Абдалла II во время встречи с патриархом Кириллом."]
+	node [style=filled]
+		0 [label="Православное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="христианство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сохраниться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ближнего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Востока
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="король
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Иордании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Абдалла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="II
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="патриархом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Кириллом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			10 -> 11 [label="атриб"]
+			10 -> 12 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 9 [label="вводн"]
+			12 -> 13
+			9 -> 4 [label="вводн"]
+			9 -> 10 [label="предик"]
+			9 -> 14 [label="обст"]
+			9 -> 16 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			4 -> 5 [label="сравн_союзн"]
+			17 -> 18 [label="предл"]
+			18 -> 19 [label="аппоз"]
+}

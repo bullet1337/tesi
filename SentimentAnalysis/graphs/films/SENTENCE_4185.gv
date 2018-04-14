@@ -1,0 +1,42 @@
+digraph SENTENCE_4185 {
+	graph [label="Его не любит мать, гнобят сверстники, а сам он переживает от неразделенной любви."]
+	node [style=filled]
+		0 [label="Его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гнобят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сверстники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="переживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="неразделенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="предл"]
+			11 -> 9 [label="суб_копр"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			8 -> 11 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+			5 -> 6 [label="предик"]
+			5 -> 8 [label="сент_соч"]
+}

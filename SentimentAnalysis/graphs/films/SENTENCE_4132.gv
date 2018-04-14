@@ -1,0 +1,48 @@
+digraph SENTENCE_4132 {
+	graph [label="В картине наступит тот момент, когда зритель должен будет понять почему фильм называется «Лунный свет»."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="называется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Лунный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 16 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			2 -> 10 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="присвяз"]
+			10 -> 13 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 9 [label="подч_союзн"]
+			0 -> 1 [label="предл"]
+			16 -> 15 [label="опред"]
+}

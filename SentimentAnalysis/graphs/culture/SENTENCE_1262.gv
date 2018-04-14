@@ -1,0 +1,51 @@
+digraph SENTENCE_1262 {
+	graph [label="Главный приз Берлинале, \"Золотого медведя\", вручили картине \"Не трогай меня\" румынского режиссера Адины Пантилии, передает корреспондент РИА Новости."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Берлинале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Золотого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вручили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="трогай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="румынского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Адины Пантилии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 9 [label="релят"]
+			20 -> 21 [label="предик"]
+			6 -> 5 [label="опред"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 10 [label="_2_компл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="аппоз"]
+			13 -> 1 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 17 [label="разъяснит"]
+			13 -> 20 [label="вводн"]
+			21 -> 22 [label="_1_компл"]
+}

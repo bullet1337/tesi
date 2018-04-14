@@ -1,0 +1,42 @@
+digraph SENTENCE_551 {
+	graph [label="И весь саундтрек к фильму это отдельная тема, на которую можно говорить часами."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="саундтрек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отдельная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="часами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			2 -> 1 [label="опред"]
+			7 -> 2 [label="предик"]
+			7 -> 3 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 11 [label="релят"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="предик"]
+			12 -> 13 [label="_3_компл"]
+			0 -> 7 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+}

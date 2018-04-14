@@ -1,0 +1,54 @@
+digraph SENTENCE_986 {
+	graph [label="\"Это не значит, что мы не доверяем науке, но известно немало случаев, когда одна экспертиза опровергала предыдущую."]
+	node [style=filled]
+		1 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="значит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="доверяем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="науке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="немало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="случаев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="экспертиза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="опровергала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="предыдущую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			5 -> 8 [label="подч_союзн"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="сент_соч"]
+			13 -> 14 [label="предик"]
+			14 -> 16 [label="_1_компл"]
+			18 -> 17 [label="количест"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			19 -> 18 [label="предик"]
+			19 -> 20 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			16 -> 19 [label="подч_союзн"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1207 {
+	graph [label="\"Надеемся, что весной проект будет согласован и строительство будет запущено."]
+	node [style=filled]
+		1 [label="Надеемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="весной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="согласован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="строительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="запущено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="_1_компл"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7
+			6 -> 8 [label="сент_соч"]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 6 [label="подч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 11
+}

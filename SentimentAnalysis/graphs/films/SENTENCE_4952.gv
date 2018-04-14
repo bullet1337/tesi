@@ -1,0 +1,45 @@
+digraph SENTENCE_4952 {
+	graph [label="Прибавьте этому тот факт что в фильме полно темных сцен и получите полную картину."]
+	node [style=filled]
+		0 [label="Прибавьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="факт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="получите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="полную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			0 -> 4 [label="_1_компл"]
+			0 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			4 -> 7 [label="подч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			7 -> 5 [label="обст"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="предл"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_504 {
+	graph [label="По мнению главы Духовного собрания мусульман России муфтия Альбира Крганова, сирийский народ должен определить свою судьбу без какого-либо вмешательства извне."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Духовного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="собрания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="муфтия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Альбира Крганова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="сирийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="определить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="судьбу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="какого-либо
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вмешательства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="извне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 12 [label="разъяснит"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			13 -> 15 [label="_1_компл"]
+			13 -> 16 [label="обст"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			16 -> 18 [label="предл"]
+}

@@ -1,0 +1,34 @@
+digraph SENTENCE_383 {
+	graph [label="И глаза тут ни к чему, главное — услышать голос во тьме."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="услышать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 2 [label="обст"]
+			7 -> 4 [label="обст"]
+			7 -> 9 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			10 -> 11 [label="атриб"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+}

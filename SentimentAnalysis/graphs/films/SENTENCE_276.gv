@@ -1,0 +1,47 @@
+digraph SENTENCE_276 {
+	graph [label="Мюзиклы и музыкальные фильмы я не любил никогда, но этот фильм исключение лишь подтверждающее правило."]
+	node [style=filled]
+		0 [label="Мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="исключение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="подтверждающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="огранич"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="сочин"]
+			0 -> 6 [label="релят"]
+			1 -> 3 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 15 [label="ном_аппоз"]
+			9 -> 0 [label="предик"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="обст"]
+			15 -> 12 [label="предик"]
+			15 -> 14 [label="опред"]
+}

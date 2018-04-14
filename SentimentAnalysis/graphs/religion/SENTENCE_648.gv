@@ -1,0 +1,36 @@
+digraph SENTENCE_648 {
+	graph [label="Потому что это не общий крест – у каждого человека он свой."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="общий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="крест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="каждого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="предл"]
+			7 -> 10 [label="предик"]
+			4 -> 3 [label="огранич"]
+			1 -> 5 [label="подч_союзн"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 11 [label="опред"]
+			0 -> 1 [label="эксплет"]
+			11 -> 7 [label="обст"]
+			9 -> 8 [label="опред"]
+}

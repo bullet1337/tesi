@@ -1,0 +1,39 @@
+digraph SENTENCE_1327 {
+	graph [label="Но это очень хорошо, поскольку, таким образом, мы погружаемся в ее мир."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хорошо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="погружаемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="обст"]
+			0 -> 3 [label="соч_союзн"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			5 -> 11 [label="подч_союзн"]
+			14 -> 13 [label="квазиагент"]
+			12 -> 14 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1969 {
+	graph [label="И ты чувствуешь колоссальный холод, обречённость и пустоту."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чувствуешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="колоссальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="холод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обречённость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пустоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сочин"]
+			6 -> 7 [label="сочин"]
+}

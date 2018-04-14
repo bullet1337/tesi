@@ -1,0 +1,75 @@
+digraph SENTENCE_1243 {
+	graph [label="У неё нет медицинской страховки — она беженка из социалистической Чехословакии, прав у неё не на толику больше, чем у индейцев или чернокожих времён рабовладения."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="медицинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="страховки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="беженка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="социалистической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="прав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="толику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="индейцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="чернокожих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="времён
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="рабовладения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="атриб"]
+			7 -> 12 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			22 -> 23 [label="сочин"]
+			8 -> 10 [label="предл"]
+			21 -> 22 [label="предл"]
+			12 -> 16 [label="_1_компл"]
+			12 -> 18 [label="предик"]
+			12 -> 26 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			16 -> 13 [label="обст"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предл"]
+			25 -> 24 [label="опред"]
+			18 -> 20 [label="сравнит"]
+			20 -> 21 [label="сравн_союзн"]
+			23 -> 25 [label="соч_союзн"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			2 -> 7 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			4 -> 3 [label="опред"]
+}

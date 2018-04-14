@@ -1,0 +1,57 @@
+digraph SENTENCE_1478 {
+	graph [label="В картине \"Не трогай меня\" румынского режиссера Адины Пинтилие исследуется сексуальность нескольких людей, пытающихся таким образом лучше понять себя."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="трогай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="румынского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Адины Пинтилие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="исследуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сексуальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пытающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="обст"]
+			13 -> 12 [label="количест"]
+			13 -> 15 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			11 -> 13 [label="об_аппоз"]
+			17 -> 16 [label="опред"]
+			10 -> 11 [label="предик"]
+			10 -> 19 [label="_1_компл"]
+			15 -> 18 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="предик"]
+			4 -> 10 [label="сент_соч"]
+			19 -> 20 [label="_1_компл"]
+}

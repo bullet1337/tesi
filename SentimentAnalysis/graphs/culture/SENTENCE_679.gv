@@ -1,0 +1,48 @@
+digraph SENTENCE_679 {
+	graph [label="Паттинсон приехал на Берлинский международный кинофестиваль, чтобы представить картину \"Девица\", которая участвует в основном конкурсе."]
+	node [style=filled]
+		0 [label="Паттинсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="приехал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Берлинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Девица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="участвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="основном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 15 [label="релят"]
+			16 -> 17 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 18 [label="суб_копр"]
+			9 -> 11 [label="аппоз"]
+			2 -> 5 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 7 [label="обст"]
+			7 -> 8 [label="инф_союзн"]
+			8 -> 9 [label="_1_компл"]
+}

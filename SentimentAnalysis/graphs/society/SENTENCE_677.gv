@@ -1,0 +1,54 @@
+digraph SENTENCE_677 {
+	graph [label="Днем в Москве минус 9 – минус 11, по области минус 8 – минус 13 градусов\", — рассказали в \"Фобосе\"."]
+	node [style=filled]
+		0 [label="Днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Фобосе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="атриб"]
+			7 -> 12 [label="кратн"]
+			7 -> 14 [label="атриб"]
+			7 -> 15 [label="кратн"]
+			7 -> 16 [label="атриб"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 1 [label="атриб"]
+			9 -> 10 [label="предл"]
+			6 -> 7 [label="предл"]
+			20 -> 21 [label="обст"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="атриб"]
+			4 -> 20 [label="вводн"]
+			21 -> 23 [label="предл"]
+			1 -> 2 [label="предл"]
+}

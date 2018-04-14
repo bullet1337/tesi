@@ -1,0 +1,65 @@
+digraph SENTENCE_421 {
+	graph [label="А \"мишлоах манот\" (обмен яствами с друзьями и близкими) и \"подарки бедным\" доказывают, что неотъемлемая часть этой жизни — забота о ближних."]
+	node [style=filled]
+		0 [label="А
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мишлоах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="манот
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обмен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="яствами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="друзьями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="близкими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подарки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="бедным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="доказывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="неотъемлемая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="забота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="ближних
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 18 [label="соч_союзн"]
+			13 -> 15 [label="соч_союзн"]
+			26 -> 22 [label="предик"]
+			26 -> 27 [label="_1_компл"]
+			20 -> 26 [label="подч_союзн"]
+			27 -> 28 [label="предл"]
+			3 -> 6 [label="аппоз"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			11 -> 13 [label="сочин"]
+			18 -> 11 [label="обст"]
+			18 -> 16 [label="_2_компл"]
+			18 -> 20 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="квазиагент"]
+			9 -> 10 [label="сочин"]
+			24 -> 23 [label="опред"]
+			8 -> 9 [label="предл"]
+			2 -> 3 [label="аппоз"]
+}

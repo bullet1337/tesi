@@ -1,0 +1,48 @@
+digraph SENTENCE_23 {
+	graph [label="Сцена, в которой героиня Бьорк шагает по рельсам отпечаталась в моем сознании, наверное, уже навсегда."]
+	node [style=filled]
+		0 [label="Сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="шагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рельсам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отпечаталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="моем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сознании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="навсегда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			10 -> 12 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 9 [label="сочин"]
+			9 -> 10 [label="обст"]
+			9 -> 17 [label="обст"]
+			5 -> 4 [label="опред"]
+			7 -> 8 [label="предл"]
+			17 -> 14 [label="вводн"]
+			17 -> 16 [label="огранич"]
+			2 -> 3 [label="предл"]
+}

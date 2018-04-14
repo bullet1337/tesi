@@ -1,0 +1,42 @@
+digraph SENTENCE_1540 {
+	graph [label="Он отметил, что священнослужители сдают копии загранпаспортов и \"все нормально к этому относятся\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="священнослужители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сдают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="копии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="загранпаспортов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нормально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="относятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 11 [label="соч_союзн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сент_соч"]
+			11 -> 10 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 12 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 14 [label="сент_соч"]
+			3 -> 5 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+}

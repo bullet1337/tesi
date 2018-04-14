@@ -1,0 +1,51 @@
+digraph SENTENCE_4757 {
+	graph [label="Кто-то скажет, что Годзилла Эмериха это «попкорновый» блокбастер, а этот Годзилла это фильм про отношения и философию."]
+	node [style=filled]
+		0 [label="Кто-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="скажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Годзилла Эмериха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="попкорновый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="блокбастер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="философию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="пролепт"]
+			16 -> 17 [label="предл"]
+			18 -> 19 [label="соч_союзн"]
+			3 -> 9 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			11 -> 15 [label="соч_союзн"]
+			17 -> 18 [label="сочин"]
+			9 -> 5 [label="предик"]
+			9 -> 7 [label="опред"]
+			9 -> 11 [label="сент_соч"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			14 -> 13 [label="пролепт"]
+}

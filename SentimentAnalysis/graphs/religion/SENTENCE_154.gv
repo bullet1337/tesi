@@ -1,0 +1,45 @@
+digraph SENTENCE_154 {
+	graph [label="По его словам, ранее в стенах ПСТГУ прошла встреча с генеральным директором ВЦИОМ Валерием Федоровым."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стенах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ПСТГУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="прошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="генеральным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="директором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ВЦИОМ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Валерием Федоровым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			8 -> 0 [label="вводн"]
+			8 -> 4 [label="обст"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="предик"]
+			10 -> 12 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			2 -> 1 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="аппоз"]
+			5 -> 6 [label="предл"]
+}

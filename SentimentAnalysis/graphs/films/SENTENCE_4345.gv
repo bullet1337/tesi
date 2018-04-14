@@ -1,0 +1,18 @@
+digraph SENTENCE_4345 {
+	graph [label="Как же сложится судьба Ширана?"]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сложится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Ширана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="квазиагент"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			0 -> 1 [label="огранич"]
+}

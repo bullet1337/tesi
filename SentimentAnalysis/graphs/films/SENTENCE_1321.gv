@@ -1,0 +1,39 @@
+digraph SENTENCE_1321 {
+	graph [label="Игра актеров Удивительно, но даже новым актерам удается прекрасно исполнить свои роли."]
+	node [style=filled]
+		0 [label="Игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Удивительно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="новым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="актерам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="удается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="исполнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сент_соч"]
+			6 -> 5 [label="огранич"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 10 [label="предик"]
+			7 -> 6 [label="опред"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			4 -> 8 [label="соч_союзн"]
+}

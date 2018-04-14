@@ -1,0 +1,36 @@
+digraph SENTENCE_266 {
+	graph [label="Диалоги чудесны, очень многие из них в последствии разбили на цитаты."]
+	node [style=filled]
+		0 [label="Диалоги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="чудесны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="последствии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разбили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="цитаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			5 -> 6 [label="предл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="электив"]
+			9 -> 10 [label="_2_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="сент_соч"]
+			1 -> 9 [label="вводн"]
+			7 -> 4 [label="предик"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_2492 {
+	graph [label="Зачем например понадобилось показывать, как главная героиня зарубает петуха?"]
+	node [style=filled]
+		0 [label="Зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понадобилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зарубает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="петуха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="вводн"]
+			2 -> 3 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 8 [label="подч_союзн"]
+}

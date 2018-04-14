@@ -1,0 +1,36 @@
+digraph SENTENCE_3519 {
+	graph [label="Извините, но так даже в Голливуде «плохих русских» уже не показывают."]
+	node [style=filled]
+		0 [label="Извините
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Голливуде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="плохих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="русских
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			2 -> 13 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			13 -> 3 [label="обст"]
+			13 -> 5 [label="обст"]
+			13 -> 9 [label="предик"]
+			13 -> 11 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			0 -> 2 [label="сент_соч"]
+}

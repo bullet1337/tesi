@@ -1,0 +1,37 @@
+digraph SENTENCE_1798 {
+	graph [label="8 из 10
+Слишком много эмоций, слишком мало слов для такого фильма."]
+	node [style=filled]
+		0 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Слишком
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мало
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			10 -> 12 [label="предл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="примыкат"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+}

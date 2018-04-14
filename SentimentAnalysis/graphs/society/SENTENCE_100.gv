@@ -1,0 +1,57 @@
+digraph SENTENCE_100 {
+	graph [label="Вирус бездоказательных обвинений, который поразил западные страны и стал способом борьбы с конкурентами, пытается проникнуть и в Россию."]
+	node [style=filled]
+		0 [label="Вирус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бездоказательных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обвинений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="западные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="способом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="борьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="конкурентами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="проникнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="предик"]
+			5 -> 8 [label="сочин"]
+			5 -> 15 [label="сент_соч"]
+			17 -> 18 [label="соч_союзн"]
+			9 -> 10 [label="присвяз"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="сочин"]
+			0 -> 2 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			18 -> 19 [label="предл"]
+}

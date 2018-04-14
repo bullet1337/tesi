@@ -1,0 +1,36 @@
+digraph SENTENCE_1366 {
+	graph [label="Для многомиллионной аудитории зрителей Екатерина Андреева уже давно стала символом программы \"Время\"."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="многомиллионной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="аудитории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Екатерина Андреева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="символом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 4 [label="аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="присвяз"]
+			6 -> 5 [label="огранич"]
+			2 -> 1 [label="опред"]
+}

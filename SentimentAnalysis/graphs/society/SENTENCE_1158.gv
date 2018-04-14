@@ -1,0 +1,69 @@
+digraph SENTENCE_1158 {
+	graph [label="\"Майские указы\" — широкая программа развития социальных гарантий, которую Владимир Путин изложил в 2012 году сразу после вступления в должность президента, исполняя предвыборные обещания."]
+	node [style=filled]
+		1 [label="Майские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="указы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="широкая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="программа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="социальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гарантий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Владимир Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="изложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2012
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="должность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="исполняя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="предвыборные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="обещания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			24 -> 26 [label="_1_компл"]
+			7 -> 9 [label="_1_компл"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 18 [label="обст"]
+			13 -> 24 [label="обст"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="предл"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+			9 -> 8 [label="опред"]
+			21 -> 22 [label="_1_компл"]
+			19 -> 20 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			6 -> 2 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="релят"]
+			26 -> 25 [label="опред"]
+}

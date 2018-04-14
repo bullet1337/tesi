@@ -1,0 +1,54 @@
+digraph SENTENCE_1561 {
+	graph [label="Джованни Баттиста Энрико Антонио Мария Монтини (таково было мирское имя понтифика) родился 26 сентября 1897 года в городке Кончезио на севере Италии."]
+	node [style=filled]
+		0 [label="Джованни Баттиста Энрико Антонио Мария Монтини
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="таково
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мирское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понтифика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="родился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сентября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1897
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="городке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Кончезио
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="севере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Италии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			17 -> 18 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			10 -> 12 [label="атриб"]
+			14 -> 15 [label="аппоз"]
+			14 -> 16 [label="атриб"]
+			9 -> 10 [label="атриб"]
+			16 -> 17 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="присвяз"]
+			3 -> 5 [label="присвяз"]
+			3 -> 8 [label="сент_соч"]
+			8 -> 9 [label="обст"]
+			8 -> 13 [label="обст"]
+			12 -> 11 [label="опред"]
+}

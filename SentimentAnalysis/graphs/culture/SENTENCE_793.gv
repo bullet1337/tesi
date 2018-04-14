@@ -1,0 +1,39 @@
+digraph SENTENCE_793 {
+	graph [label="Эмма Чемберс родилась в городе Донкастер в британском графстве Саут-Йоркшир в 1964 году."]
+	node [style=filled]
+		0 [label="Эмма Чемберс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="родилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Донкастер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="британском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="графстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Саут-Йоркшир
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1964
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="обст"]
+			1 -> 9 [label="обст"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			3 -> 4 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			5 -> 7 [label="предл"]
+			11 -> 10 [label="опред"]
+}

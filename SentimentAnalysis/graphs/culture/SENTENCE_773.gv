@@ -1,0 +1,66 @@
+digraph SENTENCE_773 {
+	graph [label="Его дебют в кинематографе состоялся в 1991 году: на Каннском фестивале он представил картину \"Тото — герой\", получив за нее \"Золотую камеру\"."]
+	node [style=filled]
+		0 [label="Его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дебют
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинематографе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="состоялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="1991
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Каннском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="фестивале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="представил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Тото
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="получив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Золотую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="камеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			22 -> 23 [label="предл"]
+			1 -> 0 [label="квазиагент"]
+			21 -> 22 [label="обст"]
+			21 -> 26 [label="_1_компл"]
+			14 -> 16 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 21 [label="обст"]
+			26 -> 25 [label="опред"]
+			16 -> 18 [label="аппоз"]
+			5 -> 7 [label="предл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="_2_компл"]
+			4 -> 13 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			2 -> 3 [label="предл"]
+}

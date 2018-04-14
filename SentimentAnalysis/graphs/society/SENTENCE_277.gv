@@ -1,0 +1,27 @@
+digraph SENTENCE_277 {
+	graph [label="\"Какие-то тюремные жаргонизмы входят в обиход — \"зашквар\", \"косяк\"."]
+	node [style=filled]
+		1 [label="Какие-то
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="тюремные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жаргонизмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="входят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обиход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зашквар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="косяк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 13 [label="сочин"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 9 [label="_1_компл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="предл"]
+}

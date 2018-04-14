@@ -1,0 +1,18 @@
+digraph SENTENCE_1488 {
+	graph [label="Этот обычай имел языческое происхождение."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обычай
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="языческое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="происхождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

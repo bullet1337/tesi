@@ -1,0 +1,37 @@
+digraph SENTENCE_1723 {
+	graph [label="Ставлю  9 из 10 Из-за зависти, что я на такое не способен!"]
+	node [style=filled]
+		0 [label="Ставлю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Из-за
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="зависти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="способен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="электив"]
+			9 -> 12 [label="предл"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 4 [label="обст"]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="предл"]
+}

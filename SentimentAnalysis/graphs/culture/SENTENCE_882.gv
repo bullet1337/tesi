@@ -1,0 +1,27 @@
+digraph SENTENCE_882 {
+	graph [label="Действие фильма происходит в Советском Союзе начала 1950-х."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Советском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Союзе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="начала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1950-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="вводн"]
+}

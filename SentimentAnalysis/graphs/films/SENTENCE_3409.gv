@@ -1,0 +1,42 @@
+digraph SENTENCE_3409 {
+	graph [label="Так ругались на «К-19», но там художественный вымысел гораздо интересней и понятней."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ругались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="К
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="художественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вымысел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="интересней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="понятней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="нум_аппоз"]
+			12 -> 11 [label="опред"]
+			14 -> 10 [label="обст"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="колич_огран"]
+			14 -> 15 [label="сочин"]
+			15 -> 16 [label="соч_союзн"]
+			9 -> 14 [label="соч_союзн"]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="обст"]
+			1 -> 9 [label="сент_соч"]
+}

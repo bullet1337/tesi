@@ -1,0 +1,21 @@
+digraph SENTENCE_5 {
+	graph [label="\"Никакого пренебрежения, никакого насилия не было."]
+	node [style=filled]
+		1 [label="Никакого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пренебрежения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="никакого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="насилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 2 [label="предик"]
+			7 -> 6 [label="огранич"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+}

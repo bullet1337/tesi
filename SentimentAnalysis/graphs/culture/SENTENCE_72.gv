@@ -1,0 +1,18 @@
+digraph SENTENCE_72 {
+	graph [label="Также Карпова снималась в кино."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Карпова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="снималась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+}

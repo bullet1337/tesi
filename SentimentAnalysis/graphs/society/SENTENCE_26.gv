@@ -1,0 +1,51 @@
+digraph SENTENCE_26 {
+	graph [label="Воздушное сообщение порой дает единственную возможность оперативно оказать медицинскую помощь жителям отдаленных и труднодоступных сел края."]
+	node [style=filled]
+		0 [label="Воздушное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="порой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оперативно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="медицинскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отдаленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="труднодоступных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			12 -> 13 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			10 -> 11 [label="опред"]
+			7 -> 6 [label="обст"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 14 [label="сочин"]
+}

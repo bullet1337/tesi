@@ -1,0 +1,36 @@
+digraph SENTENCE_264 {
+	graph [label="Очень порадовало появление чудесного Стеллана Скарсгарда, которого, к сожалению, было совсем немного."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="порадовало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="появление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чудесного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Стеллана Скарсгарда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 11 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			11 -> 6 [label="предик"]
+			11 -> 8 [label="обст"]
+			11 -> 13 [label="присвяз"]
+			13 -> 12 [label="огранич"]
+			8 -> 9 [label="предл"]
+}

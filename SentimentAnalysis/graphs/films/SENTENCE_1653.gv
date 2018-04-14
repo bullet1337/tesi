@@ -1,0 +1,48 @@
+digraph SENTENCE_1653 {
+	graph [label="И вот всем своим нутром кричишь в голубой экран: «Скажи, я умоляю тебя, скажи правду!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нутром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кричишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="голубой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="экран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Скажи
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="умоляю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="скажи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="правду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="обст"]
+			5 -> 11 [label="разъяснит"]
+			11 -> 14 [label="_1_компл"]
+			11 -> 17 [label="сочин"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="огранич"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			0 -> 5 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+}

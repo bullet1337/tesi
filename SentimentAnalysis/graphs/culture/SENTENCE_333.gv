@@ -1,0 +1,77 @@
+digraph SENTENCE_333 {
+	graph [label="Дополнительной мотивацией рэперам послужил рекордный размер гонорара: Гуф за участие в \"Версусе\" получил два миллиона рублей, а Птаха — один миллион, хотя впоследствии утверждал, что три."]
+	node [style=filled]
+		0 [label="Дополнительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мотивацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рэперам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="послужил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рекордный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="размер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гонорара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Версусе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="миллион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="впоследствии
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="утверждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 24 [label="соч_союзн"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 20 [label="сент_соч"]
+			15 -> 26 [label="обст"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 8 [label="аппоз"]
+			24 -> 21 [label="предик"]
+			24 -> 23 [label="количест"]
+			3 -> 1 [label="_2_компл"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 9 [label="обст"]
+			3 -> 15 [label="сочин"]
+			26 -> 28 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			17 -> 16 [label="количест"]
+			17 -> 18 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			1 -> 0 [label="опред"]
+			11 -> 13 [label="предл"]
+			28 -> 27 [label="обст"]
+			28 -> 30 [label="_1_компл"]
+}

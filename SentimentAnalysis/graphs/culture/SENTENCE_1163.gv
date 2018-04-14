@@ -1,0 +1,55 @@
+digraph SENTENCE_1163 {
+	graph [label="\"Мне очень понравилось делать этот фильм, и я уверен, что сделаю свой следующий фильм на том же языке."]
+	node [style=filled]
+		1 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понравилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="уверен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сделаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="же
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 16 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			18 -> 19 [label="огранич"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 8 [label="сент_соч"]
+			17 -> 20 [label="предл"]
+			12 -> 13 [label="подч_союзн"]
+			20 -> 18 [label="опред"]
+}

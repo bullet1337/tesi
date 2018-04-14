@@ -1,0 +1,46 @@
+digraph SENTENCE_931 {
+	graph [label="Собственно, в память о победе русского воинства на берегах Дона икона и получила наименование \"Донской\"."]
+	node [style=filled]
+		0 [label="Собственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="победе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="русского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="берегах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Дона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="получила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наименование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Донской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			5 -> 7 [label="квазиагент"]
+			5 -> 8 [label="атриб"]
+			5 -> 11 [label="сочин"]
+			8 -> 9 [label="предл"]
+			14 -> 16 [label="опред"]
+			7 -> 6 [label="опред"]
+}

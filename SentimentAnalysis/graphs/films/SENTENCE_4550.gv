@@ -1,0 +1,37 @@
+digraph SENTENCE_4550 {
+	graph [label="3 из 10
+У Голливуда с «Годзиллой» или «Годжирой» трудные отношения."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="У
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Голливуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Годзиллой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Годжирой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="трудные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="атриб"]
+			0 -> 1 [label="электив"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="количест"]
+			3 -> 4 [label="атриб"]
+			5 -> 7 [label="предл"]
+			7 -> 9 [label="сочин"]
+			9 -> 11 [label="соч_союзн"]
+			14 -> 0 [label="предик"]
+			14 -> 13 [label="опред"]
+}

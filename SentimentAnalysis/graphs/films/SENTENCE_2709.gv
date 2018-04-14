@@ -1,0 +1,35 @@
+digraph SENTENCE_2709 {
+	graph [label=") эпизодах, один из которых опять-таки пустой и опять-таки растянутый до безобразия."]
+	node [style=filled]
+		1 [label="эпизодах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="опять-таки
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пустой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="опять-таки
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="растянутый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="безобразия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="сочин"]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="электив"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+}

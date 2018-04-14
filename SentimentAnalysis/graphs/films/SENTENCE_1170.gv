@@ -1,0 +1,39 @@
+digraph SENTENCE_1170 {
+	graph [label="В «Танцующей в темноте», масштабы спасения, на первый взгляд, не так велики."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Танцующей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="масштабы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="велики
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="атриб"]
+			3 -> 4 [label="предл"]
+			12 -> 11 [label="опред"]
+			7 -> 2 [label="опред"]
+			16 -> 0 [label="обст"]
+			16 -> 8 [label="предик"]
+			16 -> 15 [label="огранич"]
+			0 -> 7 [label="предл"]
+			2 -> 3 [label="обст"]
+			15 -> 14 [label="огранич"]
+			10 -> 12 [label="предл"]
+}

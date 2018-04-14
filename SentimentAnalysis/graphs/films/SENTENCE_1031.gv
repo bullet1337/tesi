@@ -1,0 +1,72 @@
+digraph SENTENCE_1031 {
+	graph [label="Открытием для меня стала Бьорк, сумевшая создать цельный образ, вызывающий такие смешанные, порой противоречивые чувства (от глубокого сострадания и восхищения до брезгливой жалости)."]
+	node [style=filled]
+		0 [label="Открытием
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сумевшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="создать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="цельный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вызывающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смешанные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="порой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="противоречивые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="глубокого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сострадания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="восхищения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="брезгливой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="жалости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 23 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			19 -> 21 [label="предл"]
+			7 -> 9 [label="_1_компл"]
+			11 -> 17 [label="_1_компл"]
+			11 -> 19 [label="_2_компл"]
+			11 -> 24 [label="_3_компл"]
+			4 -> 6 [label="опред"]
+			24 -> 26 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="опред"]
+			17 -> 12 [label="опред"]
+			17 -> 13 [label="опред"]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="опред"]
+			26 -> 25 [label="опред"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="сочин"]
+			3 -> 0 [label="присвяз"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="предик"]
+}

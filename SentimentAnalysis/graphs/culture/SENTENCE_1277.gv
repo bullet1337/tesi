@@ -1,0 +1,42 @@
+digraph SENTENCE_1277 {
+	graph [label="В десятку лидеров также вошли Кендрик Ламар, Эминем, Бруно Марс, The Weeknd, Imagine Dragons, Linkin Park и The Chainsmokers."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="десятку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лидеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кендрик Ламар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Эминем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Бруно Марс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="The Weeknd
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Imagine Dragons
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Linkin Park
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="The Chainsmokers
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 13 [label="аппоз"]
+			5 -> 16 [label="сочин"]
+			5 -> 7 [label="аппоз"]
+			16 -> 17 [label="соч_союзн"]
+			13 -> 15 [label="аппоз"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предик"]
+			9 -> 11 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+}

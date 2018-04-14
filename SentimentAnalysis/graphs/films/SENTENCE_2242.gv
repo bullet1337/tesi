@@ -1,0 +1,59 @@
+digraph SENTENCE_2242 {
+	graph [label="Фильм сложный многослойный, с глубокой философией и автобиографичный, когда режиссер пытается рассказать о самом себе, стать ближе к нам."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сложный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="многослойный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глубокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="философией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="автобиографичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рассказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="стать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ближе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			13 -> 14 [label="_3_компл"]
+			13 -> 18 [label="_1_компл"]
+			2 -> 4 [label="сочин"]
+			4 -> 6 [label="предл"]
+			18 -> 19 [label="присвяз"]
+			1 -> 2 [label="сочин"]
+			1 -> 7 [label="сочин"]
+			1 -> 10 [label="обст"]
+			10 -> 12 [label="подч_союзн"]
+			14 -> 16 [label="предл"]
+			20 -> 21 [label="предл"]
+}

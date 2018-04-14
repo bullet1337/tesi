@@ -1,0 +1,81 @@
+digraph SENTENCE_1127 {
+	graph [label="Сельма живет в старом трейлере, работа у нее тяжелая, сыну нужна операция, денег не хватает, в общем, обычных жизненных радостей Сельма уже не чувствовала много лет."]
+	node [style=filled]
+		0 [label="Сельма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="старом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="трейлере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тяжелая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нужна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="операция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="хватает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="обычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="жизненных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="радостей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="чувствовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			7 -> 11 [label="дат_субъект"]
+			28 -> 19 [label="обст"]
+			28 -> 25 [label="предик"]
+			28 -> 26 [label="огранич"]
+			28 -> 27 [label="огранич"]
+			28 -> 29 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			1 -> 12 [label="вводн"]
+			1 -> 17 [label="сент_соч"]
+			6 -> 7 [label="сент_соч"]
+			12 -> 13 [label="предик"]
+			2 -> 4 [label="предл"]
+			11 -> 9 [label="опред"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+			17 -> 28 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			24 -> 20 [label="опред"]
+			24 -> 22 [label="опред"]
+			24 -> 23 [label="опред"]
+			29 -> 30 [label="_1_компл"]
+			19 -> 24 [label="предл"]
+}

@@ -1,0 +1,72 @@
+digraph SENTENCE_806 {
+	graph [label="\"Перечень надо пересматривать, безусловно, из него какие-то профессии должны уходить, потому что условия труда улучшаются, но это не будет полномочиями работодателей\", — заявил Топилин."]
+	node [style=filled]
+		1 [label="Перечень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пересматривать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="какие-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="профессии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="условия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="труда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="улучшаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="полномочиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="работодателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Топилин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 7 [label="_1_компл"]
+			3 -> 10 [label="_2_компл"]
+			29 -> 30 [label="предик"]
+			12 -> 14 [label="обст"]
+			20 -> 23 [label="соч_союзн"]
+			7 -> 5 [label="вводн"]
+			7 -> 8 [label="предл"]
+			15 -> 18 [label="подч_союзн"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="присвяз"]
+			10 -> 9 [label="опред"]
+			24 -> 25 [label="квазиагент"]
+			2 -> 3 [label="предик"]
+			11 -> 1 [label="предик"]
+			11 -> 2 [label="вводн"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 29 [label="вводн"]
+			16 -> 17 [label="квазиагент"]
+			14 -> 15 [label="эксплет"]
+			18 -> 16 [label="предик"]
+			18 -> 20 [label="сент_соч"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_2411 {
+	graph [label="А потому меня трясло, что такую непроходимую тупость я и в жизни не очень спокойно перевариваю."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трясло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="непроходимую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тупость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="перевариваю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			5 -> 16 [label="подч_союзн"]
+			0 -> 3 [label="соч_союзн"]
+			16 -> 8 [label="_1_компл"]
+			16 -> 9 [label="предик"]
+			16 -> 11 [label="обст"]
+			16 -> 15 [label="обст"]
+			15 -> 14 [label="огранич"]
+}

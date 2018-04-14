@@ -1,0 +1,45 @@
+digraph SENTENCE_3207 {
+	graph [label="Я понимаю американских критиков и граждан США, которые в большинстве своем воспевают эту картину."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="американских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="критиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="граждан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большинстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воспевают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			14 -> 13 [label="опред"]
+			12 -> 8 [label="предик"]
+			12 -> 9 [label="обст"]
+			12 -> 14 [label="_1_компл"]
+}

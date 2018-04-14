@@ -1,0 +1,33 @@
+digraph SENTENCE_3365 {
+	graph [label="(Зачем врать-то, ведь это важная характерная черта поведения великого хоккеиста!"]
+	node [style=filled]
+		1 [label="Зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="врать-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="важная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="характерная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="черта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="великого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хоккеиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			8 -> 4 [label="огранич"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			11 -> 2 [label="огранич"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="опред"]
+}

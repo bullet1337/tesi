@@ -1,0 +1,45 @@
+digraph SENTENCE_4968 {
+	graph [label="Даже у Эммериха Бродерик с компанией местами забавляли своей самодеятельностью, тут же — полный ноль эмоций."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Эммериха Бродерик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="компанией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="забавляли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самодеятельностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="полный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ноль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 14 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			1 -> 3 [label="сочин"]
+			3 -> 4 [label="предл"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+}

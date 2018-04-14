@@ -1,0 +1,96 @@
+digraph SENTENCE_2720 {
+	graph [label="С подачи инженера Неандера Уоллеса (Джаред Лето), перекупившего разработки компании Тайрелл, появился как искусственный источник рациона для населения засранной Америки, так и новый выводок «кожаных кукол», которых теперь пасут в два раза строже."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="инженера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Неандера Уоллеса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Джаред Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="перекупившего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разработки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Тайрелл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="появился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="искусственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="источник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рациона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="засранной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Америки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="выводок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="кожаных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="кукол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="пасут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="строже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_1_компл"]
+			13 -> 0 [label="_2_компл"]
+			13 -> 14 [label="сравнит"]
+			13 -> 34 [label="разъяснит"]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="аппоз"]
+			14 -> 16 [label="сравн_союзн"]
+			18 -> 19 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="опред"]
+			37 -> 36 [label="количест"]
+			25 -> 24 [label="огранич"]
+			17 -> 18 [label="атриб"]
+			20 -> 21 [label="агент"]
+			20 -> 23 [label="обст"]
+			29 -> 28 [label="опред"]
+			29 -> 32 [label="атриб"]
+			26 -> 25 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			16 -> 26 [label="сочин"]
+			2 -> 3 [label="аппоз"]
+			19 -> 20 [label="опред"]
+			35 -> 37 [label="предл"]
+			3 -> 5 [label="аппоз"]
+			9 -> 10 [label="_1_компл"]
+			34 -> 29 [label="_1_компл"]
+			34 -> 33 [label="обст"]
+			34 -> 35 [label="обст"]
+			34 -> 38 [label="обст"]
+}

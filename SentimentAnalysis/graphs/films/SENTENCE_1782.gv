@@ -1,0 +1,69 @@
+digraph SENTENCE_1782 {
+	graph [label="Героиня Бьорк была убеждена в первом, а вот Катрин Денев убеждала ее в том, что ребенку прежде всего нужна мать и ее забота."]
+	node [style=filled]
+		0 [label="Героиня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="убеждена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первом
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="убеждала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ребенку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="нужна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="забота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="релят"]
+			4 -> 5 [label="предл"]
+			15 -> 19 [label="подч_союзн"]
+			17 -> 18 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3
+			2 -> 7 [label="сент_соч"]
+			12 -> 13 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			23 -> 22 [label="квазиагент"]
+			7 -> 10 [label="соч_союзн"]
+			20 -> 21 [label="сочин"]
+			3 -> 4 [label="_2_компл"]
+			13 -> 15 [label="эксплет"]
+			9 -> 8 [label="огранич"]
+			19 -> 16 [label="_2_компл"]
+			19 -> 17 [label="обст"]
+			19 -> 20 [label="предик"]
+			21 -> 23 [label="соч_союзн"]
+}

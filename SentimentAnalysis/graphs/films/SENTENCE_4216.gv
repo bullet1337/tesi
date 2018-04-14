@@ -1,0 +1,39 @@
+digraph SENTENCE_4216 {
+	graph [label="Это уже довольно избитая тема, и сказать что-то новое в ней — сложно."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="избитая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="новое
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="опред"]
+			13 -> 7 [label="предик"]
+			13 -> 10 [label="обст"]
+			2 -> 1 [label="огранич"]
+			6 -> 13 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сент_соч"]
+			10 -> 11 [label="предл"]
+}

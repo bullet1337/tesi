@@ -1,0 +1,26 @@
+digraph SENTENCE_3 {
+	graph [label="Возможно, из-за моего предубеждения насчет певиц в кино."]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="предубеждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="насчет
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="певиц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="атриб"]
+			7 -> 8 [label="предл"]
+			5 -> 6 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_4430 {
+	graph [label="Чувство гадливости от прикосновения к какой-то мерзости, к которой не хотелось прикасаться."]
+	node [style=filled]
+		0 [label="Чувство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="гадливости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="прикосновения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мерзости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прикасаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_2_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="атриб"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+}

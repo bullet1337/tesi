@@ -1,0 +1,72 @@
+digraph SENTENCE_866 {
+	graph [label="Сотрудники МЧС убедились в отсутствии травм у нерпы и на аварийно-спасательной машине доставили ее к берегу Авачинской бухты, где выпустили в открытую воду."]
+	node [style=filled]
+		0 [label="Сотрудники
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="убедились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отсутствии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="травм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нерпы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="аварийно-спасательной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="машине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="доставили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="берегу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Авачинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="бухты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="выпустили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="открытую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="воду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			21 -> 23 [label="предл"]
+			8 -> 12 [label="соч_союзн"]
+			23 -> 22 [label="опред"]
+			3 -> 4 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			20 -> 19 [label="обст"]
+			20 -> 21 [label="_3_компл"]
+			12 -> 9 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_2_компл"]
+			12 -> 20 [label="разъяснит"]
+			4 -> 5 [label="квазиагент"]
+			6 -> 7 [label="аппоз"]
+			9 -> 11 [label="предл"]
+			15 -> 17 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+}

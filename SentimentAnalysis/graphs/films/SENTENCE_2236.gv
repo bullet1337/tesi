@@ -1,0 +1,42 @@
+digraph SENTENCE_2236 {
+	graph [label="Он всячески намекал о своей любви к Тарковскому и пытался нас ею заразить."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всячески
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="намекал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Тарковскому
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ею
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заразить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			8 -> 9 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			12 -> 11 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			3 -> 5 [label="предл"]
+			6 -> 7 [label="предл"]
+}

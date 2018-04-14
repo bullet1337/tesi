@@ -1,0 +1,57 @@
+digraph SENTENCE_1684 {
+	graph [label="Повзрослевшим, набравшимся опыта и пережившим конкретные ситуации в жизни, которые позволили мне увидеть, то, что не замечала раньше."]
+	node [style=filled]
+		0 [label="Повзрослевшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="набравшимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="опыта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пережившим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конкретные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="позволили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="замечала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			14 -> 16 [label="_1_компл"]
+			18 -> 20 [label="подч_союзн"]
+			3 -> 0 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			12 -> 3 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 14 [label="сочин"]
+			16 -> 18 [label="эксплет"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="обст"]
+			8 -> 9 [label="предл"]
+}

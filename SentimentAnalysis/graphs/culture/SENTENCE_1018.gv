@@ -1,0 +1,45 @@
+digraph SENTENCE_1018 {
+	graph [label="Этот блистательный трагифарс о разрушительной силе ревности режиссер поставила на сцене Театра имени Моссовета."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="блистательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трагифарс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разрушительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="силе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ревности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поставила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Театра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Моссовета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			12 -> 13 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			8 -> 2 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+			11 -> 12 [label="атриб"]
+}

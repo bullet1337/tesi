@@ -1,0 +1,61 @@
+digraph SENTENCE_842 {
+	graph [label="\"В отличие от многих других оперных либретто, пригодных только для музыкального спектакля, это либретто можно ставить и в драматическом театре."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оперных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="либретто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пригодных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыкального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="либретто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="драматическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="_2_компл"]
+			3 -> 7 [label="предл"]
+			3 -> 16 [label="сент_соч"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="предл"]
+			13 -> 12 [label="опред"]
+			7 -> 4 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="предл"]
+			16 -> 15 [label="предик"]
+			1 -> 2 [label="предл"]
+			22 -> 21 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+}

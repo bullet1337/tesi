@@ -1,0 +1,45 @@
+digraph SENTENCE_2099 {
+	graph [label="А нужно попробовать жить одной душой с природой — так, как будто мы тоже вечны."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="попробовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="душой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="природой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вечны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предик"]
+			0 -> 1 [label="соч_союзн"]
+			5 -> 4 [label="количест"]
+			5 -> 6 [label="атриб"]
+			11 -> 15 [label="сравн_союзн"]
+			9 -> 11 [label="эксплет"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 9 [label="обст"]
+			6 -> 7 [label="предл"]
+			15 -> 12 [label="огранич"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+}

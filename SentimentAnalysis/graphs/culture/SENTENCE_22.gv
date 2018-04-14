@@ -1,0 +1,66 @@
+digraph SENTENCE_22 {
+	graph [label="Сын известного живописца, Брюллов рано погрузился в творчество: несмотря на слабое здоровье маленького Карла, отец заставлял его практиковаться наравне с братьями."]
+	node [style=filled]
+		0 [label="Сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="живописца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Брюллов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="рано
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="погрузился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="творчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слабое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="здоровье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="маленького
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Карла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="заставлял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="практиковаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="наравне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="братьями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+			18 -> 0 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="_2_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="аппоз"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 6 [label="примыкат"]
+			0 -> 15 [label="_1_компл"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="предл"]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="предл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="обст"]
+			6 -> 11 [label="_1_компл"]
+}

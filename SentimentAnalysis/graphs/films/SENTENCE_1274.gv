@@ -1,0 +1,30 @@
+digraph SENTENCE_1274 {
+	graph [label="Питер Стормаре наконец-то не играет психопатов, а это уже хорошо."]
+	node [style=filled]
+		0 [label="Питер Стормаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="наконец-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="психопатов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хорошо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сент_соч"]
+			6 -> 9 [label="соч_союзн"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

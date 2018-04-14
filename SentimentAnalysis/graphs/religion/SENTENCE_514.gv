@@ -1,0 +1,84 @@
+digraph SENTENCE_514 {
+	graph [label="\"Груз был очень качественным, потому что наши коллеги и друзья в Сирии отмечали, что все было тщательно отобрано, это было именно то, что нужно сирийцам\", — заверил он."]
+	node [style=filled]
+		1 [label="Груз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="качественным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="коллеги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="друзья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="отмечали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тщательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отобрано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сирийцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="заверил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			2 -> 6 [label="обст"]
+			2 -> 23 [label="сент_соч"]
+			14 -> 9 [label="предик"]
+			14 -> 12 [label="обст"]
+			14 -> 16 [label="_1_компл"]
+			27 -> 28 [label="подч_союзн"]
+			6 -> 7 [label="эксплет"]
+			20 -> 19 [label="обст"]
+			7 -> 14 [label="подч_союзн"]
+			25 -> 24 [label="огранич"]
+			25 -> 27 [label="эксплет"]
+			4 -> 3 [label="огранич"]
+			23 -> 22 [label="предик"]
+			23 -> 25 [label="присвяз"]
+			23 -> 33 [label="сент_соч"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+			18 -> 17 [label="предик"]
+			18 -> 20
+			33 -> 29 [label="_1_компл"]
+			33 -> 34 [label="предик"]
+			12 -> 13 [label="предл"]
+			16 -> 18 [label="подч_союзн"]
+}

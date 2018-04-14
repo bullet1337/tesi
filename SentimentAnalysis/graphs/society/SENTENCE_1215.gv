@@ -1,0 +1,59 @@
+digraph SENTENCE_1215 {
+	graph [label="Все это должно уместиться или в 10-15 килограммов и предложенные габариты, или в сверхнормативные рюкзак и дамскую сумочку."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уместиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="килограммов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предложенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="габариты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сверхнормативные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рюкзак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="дамскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сумочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="сочин"]
+			1 -> 0 [label="опред"]
+			18 -> 20 [label="соч_союзн"]
+			6 -> 8 [label="кратн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="сочин"]
+			2 -> 10 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="сочин"]
+			20 -> 19 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			5 -> 9 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+			9 -> 6 [label="количест"]
+			15 -> 17 [label="предл"]
+}

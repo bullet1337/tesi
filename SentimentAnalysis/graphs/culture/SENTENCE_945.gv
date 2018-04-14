@@ -1,0 +1,72 @@
+digraph SENTENCE_945 {
+	graph [label="Гостей Дома музыки ждут встречи с выдающимися музыкальными коллективами: Национальным филармоническим оркестром России, Государственным камерным оркестром \"Виртуозы Москвы\", Московским камерным оркестром Musica Viva и другими."]
+	node [style=filled]
+		0 [label="Гостей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Дома
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ждут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выдающимися
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="музыкальными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="коллективами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Национальным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="филармоническим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Государственным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="камерным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Виртуозы Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Московским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="камерным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Musica Viva
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 12 [label="сочин"]
+			26 -> 27 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+			24 -> 22 [label="опред"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="аппоз"]
+			24 -> 26 [label="сочин"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="сочин"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="сочин"]
+			5 -> 8 [label="предл"]
+			19 -> 24 [label="сочин"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1025 {
+	graph [label="Нина Чусова, уже ставившая на сцене театра им."]
+	node [style=filled]
+		0 [label="Нина Чусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ставившая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			0 -> 3 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 7 [label="неакт_компл"]
+}

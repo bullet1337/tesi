@@ -1,0 +1,51 @@
+digraph SENTENCE_342 {
+	graph [label="Птаха отвечает в интервью Рен-ТВ, где обвиняет бывшего коллегу в подлости, лицемерии и многих других грехах."]
+	node [style=filled]
+		0 [label="Птаха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отвечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Рен-ТВ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обвиняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бывшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="коллегу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="подлости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лицемерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="грехах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="_2_компл"]
+			7 -> 9 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			9 -> 13 [label="аппоз"]
+			9 -> 14 [label="сочин"]
+			14 -> 17 [label="соч_союзн"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			2 -> 3 [label="предл"]
+}

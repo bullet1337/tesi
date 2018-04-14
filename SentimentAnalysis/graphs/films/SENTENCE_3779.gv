@@ -1,0 +1,82 @@
+digraph SENTENCE_3779 {
+	graph [label="За это 1 из 10
+Ещё до выхода фильма режиссёр сказал что для него важно срубить побольше бабла с нашего не в чём не разбирающегося зрителя."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ещё
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссёр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="срубить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="побольше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бабла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="чём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="разбирающегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="электив"]
+			11 -> 14 [label="подч_союзн"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 15 [label="предик"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			24 -> 21 [label="обст"]
+			24 -> 23 [label="огранич"]
+			7 -> 8 [label="квазиагент"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="сочин"]
+			3 -> 4 [label="предл"]
+			12 -> 13 [label="предл"]
+			25 -> 19 [label="опред"]
+			25 -> 24 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			18 -> 25 [label="предл"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="предл"]
+			17 -> 18 [label="_2_компл"]
+			10 -> 0 [label="обст"]
+			10 -> 6 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+}

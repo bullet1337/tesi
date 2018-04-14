@@ -1,0 +1,30 @@
+digraph SENTENCE_23 {
+	graph [label="Уже будучи студентом Академии художеств Брюллов показал свою одаренность."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будучи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="студентом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Академии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="художеств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Брюллов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="показал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одаренность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="присвяз"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="разъяснит"]
+			8 -> 7 [label="опред"]
+}

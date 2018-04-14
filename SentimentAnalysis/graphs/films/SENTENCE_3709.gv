@@ -1,0 +1,76 @@
+digraph SENTENCE_3709 {
+	graph [label="С самого начала образ Тарасова не стал сглаживаться — его показали эксцентричным самодуром, не исключено даже, что и в большей степени, чем было на самом деле."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тарасова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сглаживаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="эксцентричным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самодуром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="исключено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="большей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="степени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			28 -> 27 [label="опред"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			10 -> 15 [label="сочин"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="предик"]
+			25 -> 26 [label="обст"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			12 -> 11 [label="опред"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="предл"]
+			18 -> 16 [label="огранич"]
+			24 -> 25 [label="сравн_союзн"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="сочин"]
+			22 -> 21 [label="опред"]
+			26 -> 28 [label="предл"]
+}

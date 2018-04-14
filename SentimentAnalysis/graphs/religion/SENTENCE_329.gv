@@ -1,0 +1,24 @@
+digraph SENTENCE_329 {
+	graph [label="\"Впервые такое было 27 апреля 1990 года."]
+	node [style=filled]
+		1 [label="Впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="апреля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="1990
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			5 -> 7 [label="атриб"]
+			4 -> 5 [label="атриб"]
+}

@@ -1,0 +1,41 @@
+digraph SENTENCE_2032 {
+	graph [label="Композиция «Зеркала» произвольная: вспоминания в разнобой чередуются с современностью, а реальность со сном."]
+	node [style=filled]
+		0 [label="Композиция
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Зеркала
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="произвольная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вспоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="разнобой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чередуются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="современностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="опред"]
+			6 -> 9 [label="релят"]
+			0 -> 2 [label="квазиагент"]
+			14 -> 15 [label="атриб"]
+			7 -> 8 [label="предл"]
+			9 -> 7 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="сент_соч"]
+			15 -> 16 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_2783 {
+	graph [label="В «Бегущем» все это выполнено достойно и профессионально."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бегущем
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выполнено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="достойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="профессионально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			5 -> 0 [label="пролепт"]
+			5 -> 4 [label="опред"]
+}

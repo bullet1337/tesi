@@ -1,0 +1,43 @@
+digraph SENTENCE_3479 {
+	graph [label="Когда я увидел, как ведет себя человек, которого играл Бэйл, я был поражён сходством."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="увидел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ведет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="играл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Бэйл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поражён
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сходством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="подч_союзн"]
+			0 -> 2 [label="подч_союзн"]
+			10 -> 11 [label="предик"]
+			10 -> 14 [label="сент_соч"]
+			14 -> 13 [label="предик"]
+			14 -> 15
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			15 -> 16 [label="_2_компл"]
+}

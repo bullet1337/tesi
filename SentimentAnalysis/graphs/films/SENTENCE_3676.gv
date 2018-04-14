@@ -1,0 +1,39 @@
+digraph SENTENCE_3676 {
+	graph [label="Биографческие фильмы, это совсем другое… Это чья то жизнь, это реальная история."]
+	node [style=filled]
+		0 [label="Биографческие
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Это
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="чья
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="реальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 8 [label="разъяснит"]
+			5 -> 9 [label="сент_соч"]
+			3 -> 1 [label="пролепт"]
+			12 -> 10 [label="пролепт"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="опред"]
+			9 -> 14 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			1 -> 0 [label="опред"]
+}

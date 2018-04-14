@@ -1,0 +1,30 @@
+digraph SENTENCE_4038 {
+	graph [label="Показаны сытые и слегка одуревшие от своей свободы люди."]
+	node [style=filled]
+		0 [label="Показаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сытые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слегка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одуревшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свободы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			1 -> 2 [label="сочин"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 4 [label="соч_союзн"]
+			5 -> 7 [label="предл"]
+			8 -> 1 [label="опред"]
+			0 -> 8 [label="предик"]
+}

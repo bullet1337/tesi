@@ -1,0 +1,45 @@
+digraph SENTENCE_4742 {
+	graph [label="Вместо Годзиллы нам показывают людей, которые носятся со своей ядерной бомбой, эвакуируют гражданских, болтают."]
+	node [style=filled]
+		0 [label="Вместо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="носятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ядерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бомбой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эвакуируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="гражданских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="болтают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 11 [label="предл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 13 [label="сочин"]
+			0 -> 1 [label="предл"]
+			4 -> 7 [label="релят"]
+			13 -> 16 [label="сочин"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			16 -> 14 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_2_компл"]
+			3 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_2210 {
+	graph [label="Тот случай, когда оценку надо выставлять не произведению, а самому себе."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="случай
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оценку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выставлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="произведению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="самому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предик"]
+			10 -> 4 [label="вводн"]
+			10 -> 5 [label="вводн"]
+			10 -> 12 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			3 -> 10 [label="подч_союзн"]
+			12 -> 11 [label="опред"]
+			6 -> 8 [label="_2_компл"]
+}

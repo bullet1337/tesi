@@ -1,0 +1,36 @@
+digraph SENTENCE_2237 {
+	graph [label="Что ж попробуем через эту рецензию-отзыв осмыслить то, что я посмотрел."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="попробуем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рецензию-отзыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="осмыслить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			7 -> 9 [label="эксплет"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="сочин"]
+			5 -> 4 [label="опред"]
+			11 -> 10 [label="предик"]
+			3 -> 5 [label="предл"]
+			9 -> 11 [label="подч_союзн"]
+}

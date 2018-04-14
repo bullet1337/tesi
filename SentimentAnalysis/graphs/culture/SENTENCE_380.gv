@@ -1,0 +1,69 @@
+digraph SENTENCE_380 {
+	graph [label="Весь первый раунд Гуф провел в шутливой манере, предположив в конце выступления, что Птаха читает рэп не тем органом, которым бы стоило."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раунд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="провел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шутливой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="манере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="предположив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="читает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рэп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="органом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="стоило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 19 [label="опред"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			9 -> 10 [label="обст"]
+			9 -> 12 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			24 -> 20 [label="_2_компл"]
+			24 -> 22 [label="_1_компл"]
+			24 -> 23 [label="аналит"]
+			14 -> 16 [label="подч_союзн"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 9 [label="обст"]
+			4 -> 14 [label="_1_компл"]
+			4 -> 24 [label="сент_соч"]
+}

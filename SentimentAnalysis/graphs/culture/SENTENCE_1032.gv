@@ -1,0 +1,18 @@
+digraph SENTENCE_1032 {
+	graph [label="\"Здесь все — цирк, комедия, драма."]
+	node [style=filled]
+		8 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="цирк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="комедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 1 [label="обст"]
+			8 -> 4 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 6 [label="аппоз"]
+}

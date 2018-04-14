@@ -1,0 +1,45 @@
+digraph SENTENCE_2742 {
+	graph [label="Людишки трясутся по поводу того, что один неверный шаг может привести к восстанию андроидов."]
+	node [style=filled]
+		0 [label="Людишки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трясутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поводу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неверный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шаг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="привести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="восстанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="андроидов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			6 -> 10 [label="подч_союзн"]
+			13 -> 14 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			9 -> 7 [label="количест"]
+			9 -> 8 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 6 [label="эксплет"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_486 {
+	graph [label="Над сценарием продолжения \"Последнего богатыря\" работает авторская группа первого фильма под руководством Виталия Шляппо."]
+	node [style=filled]
+		0 [label="Над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сценарием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продолжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Последнего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="богатыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="авторская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Виталия Шляппо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="обст"]
+			7 -> 2 [label="предик"]
+			7 -> 9 [label="предик"]
+			7 -> 12 [label="обст"]
+			7 -> 14 [label="предик"]
+			12 -> 13 [label="предл"]
+			2 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="опред"]
+			5 -> 4 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+}

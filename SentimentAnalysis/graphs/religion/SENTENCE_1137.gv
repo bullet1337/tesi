@@ -1,0 +1,30 @@
+digraph SENTENCE_1137 {
+	graph [label="\"История евреев Болгарии в годы войны и Холокоста уникальна."]
+	node [style=filled]
+		1 [label="История
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Болгарии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Холокоста
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="уникальна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+			2 -> 3 [label="аппоз"]
+			6 -> 7 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="предл"]
+			4 -> 9 [label="вводн"]
+}

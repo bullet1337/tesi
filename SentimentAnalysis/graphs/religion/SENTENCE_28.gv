@@ -1,0 +1,54 @@
+digraph SENTENCE_28 {
+	graph [label="Они просто не досчитаются миллионов, может быть, миллиардов шекелей в своей казне, если так поступят\", — говорит он."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="досчитаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="миллиардов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="шекелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="казне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="поступят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="присвяз"]
+			7 -> 11 [label="обст"]
+			17 -> 16 [label="обст"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			3 -> 21 [label="вводн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 15 [label="обст"]
+			21 -> 22 [label="предик"]
+			2 -> 1 [label="огранич"]
+			9 -> 10 [label="квазиагент"]
+			15 -> 17 [label="подч_союзн"]
+}

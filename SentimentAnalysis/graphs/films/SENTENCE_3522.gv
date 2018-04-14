@@ -1,0 +1,34 @@
+digraph SENTENCE_3522 {
+	graph [label="В целом, фильм хороший, в том смысле, что есть гораздо хуже."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 13 [label="присвяз"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			6 -> 8 [label="предл"]
+			10 -> 11 [label="подч_союзн"]
+			8 -> 7 [label="опред"]
+			13 -> 12 [label="колич_огран"]
+}

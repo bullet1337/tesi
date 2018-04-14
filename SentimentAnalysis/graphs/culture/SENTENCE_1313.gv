@@ -1,0 +1,48 @@
+digraph SENTENCE_1313 {
+	graph [label="Драган Куюнджич решил обратиться к первоисточнику и лично убедиться, насколько совпадает публичный образ Шнура с \"оригиналом\"."]
+	node [style=filled]
+		0 [label="Драган Куюнджич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обратиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первоисточнику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="убедиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="совпадает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="публичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Шнура
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оригиналом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="сочин"]
+			5 -> 7 [label="соч_союзн"]
+			7 -> 6 [label="обст"]
+			7 -> 10 [label="разъяснит"]
+			3 -> 4 [label="предл"]
+			14 -> 16 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="предик"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			12 -> 14 [label="атриб"]
+}

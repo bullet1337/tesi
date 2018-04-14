@@ -1,0 +1,24 @@
+digraph SENTENCE_2422 {
+	graph [label="Вам как, хорошо в мюзикле живется, м?.."]
+	node [style=filled]
+		0 [label="Вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мюзикле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="живется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="сравн_союзн"]
+			0 -> 1 [label="сравнит"]
+			4 -> 5 [label="предл"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="предик"]
+}

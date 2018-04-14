@@ -1,0 +1,24 @@
+digraph SENTENCE_3725 {
+	graph [label="Когда почти физически ощущаешь, что вот оно."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="физически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ощущаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="подч_союзн"]
+			7 -> 6 [label="огранич"]
+			0 -> 3 [label="подч_союзн"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+}

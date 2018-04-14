@@ -1,0 +1,45 @@
+digraph SENTENCE_779 {
+	graph [label="В четверг Жако ван Дормель отправится в Санкт-Петербург, чтобы представить зрителям сатирический \"Новейший завет\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Жако
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="ван
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дормель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="отправится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Санкт-Петербург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="зрителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сатирический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Новейший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="завет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="_1_компл"]
+			4 -> 3
+			9 -> 10 [label="инф_союзн"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 9 [label="обст"]
+			5 -> 15 [label="предик"]
+			15 -> 12 [label="опред"]
+			15 -> 14 [label="опред"]
+			6 -> 7 [label="предл"]
+			2 -> 4 [label="аппоз"]
+			0 -> 1 [label="предл"]
+}

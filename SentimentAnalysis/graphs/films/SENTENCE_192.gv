@@ -1,0 +1,33 @@
+digraph SENTENCE_192 {
+	graph [label="Бросается в глаза чередование съёмок с плеча и обычных штативных."]
+	node [style=filled]
+		0 [label="Бросается
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чередование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="съёмок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="плеча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="штативных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			4 -> 5 [label="атриб"]
+			5 -> 6 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 3 [label="предик"]
+			1 -> 2 [label="предл"]
+			7 -> 9 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+}

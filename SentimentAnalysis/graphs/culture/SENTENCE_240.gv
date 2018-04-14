@@ -1,0 +1,36 @@
+digraph SENTENCE_240 {
+	graph [label="И посещаемость мы увеличили в разы — сейчас она составляет более 90%\"."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="посещаемость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увеличили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="90
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_4_компл"]
+			3 -> 9 [label="разъяснит"]
+			4 -> 5 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			10 -> 11 [label="сравнит"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+}

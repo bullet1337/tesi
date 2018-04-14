@@ -1,0 +1,24 @@
+digraph SENTENCE_3591 {
+	graph [label="Уже одно это создало устойчивое чувство предубеждения."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="создало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="устойчивое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чувство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="предубеждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="суб_копр"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_1004 {
+	graph [label="Мордовия вошла в топ-10 регионов России по доле жителей, использующих механизм получения государственных и муниципальных услуг в электронной форме, сообщает пресс-служба главы региона."]
+	node [style=filled]
+		0 [label="Мордовия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="топ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="регионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="доле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="использующих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="механизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="получения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="государственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="муниципальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="услуг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="электронной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="главы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			21 -> 20 [label="опред"]
+			14 -> 18 [label="_1_компл"]
+			14 -> 19 [label="атриб"]
+			15 -> 16 [label="сочин"]
+			2 -> 6 [label="предл"]
+			19 -> 21 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="_1_компл"]
+			24 -> 25 [label="квазиагент"]
+			10 -> 12 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 8 [label="обст"]
+			1 -> 23 [label="вводн"]
+			6 -> 3 [label="композ"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="квазиагент"]
+			18 -> 15 [label="опред"]
+			23 -> 24 [label="предик"]
+			25 -> 26 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+}

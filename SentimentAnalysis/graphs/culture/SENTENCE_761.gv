@@ -1,0 +1,48 @@
+digraph SENTENCE_761 {
+	graph [label="В театре ее трактуют по-разному: в драме часто уходят в буффонаду, в опере в трагизм."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трактуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по-разному
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="драме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="уходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="буффонаду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="опере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="трагизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="сочин"]
+			15 -> 16 [label="предл"]
+			4 -> 6 [label="разъяснит"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 13 [label="обст"]
+			9 -> 15 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			0 -> 1 [label="предл"]
+			6 -> 7 [label="предл"]
+}

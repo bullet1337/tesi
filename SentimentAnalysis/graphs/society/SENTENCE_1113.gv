@@ -1,0 +1,66 @@
+digraph SENTENCE_1113 {
+	graph [label="Ранее корреспондент телеканала \"Дождь\", работающая в Госдуме, во время эфира с лидером ЛДПР Владимиром Жириновским заявила, что член фракции \"пристает к девушкам-журналисткам\"."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="телеканала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дождь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="работающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Госдуме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эфира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лидером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ЛДПР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Владимиром Жириновским
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="заявила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="член
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="фракции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пристает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="девушкам-журналисткам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="обст"]
+			7 -> 11 [label="обст"]
+			25 -> 26 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			24 -> 21 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			2 -> 4 [label="аппоз"]
+			2 -> 7 [label="опред"]
+			11 -> 12 [label="предл"]
+			18 -> 0 [label="обст"]
+			18 -> 1 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			12 -> 13 [label="_1_компл"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="аппоз"]
+			8 -> 9 [label="предл"]
+			21 -> 22 [label="_1_компл"]
+			20 -> 24 [label="подч_союзн"]
+			14 -> 15 [label="предл"]
+			13 -> 14 [label="атриб"]
+}

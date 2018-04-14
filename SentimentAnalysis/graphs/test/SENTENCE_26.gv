@@ -1,0 +1,12 @@
+digraph SENTENCE_26 {
+	graph [label="Пенелопа Крус хорошая убийца."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="хорошая
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		2 [label="убийца
+S" color="" fillcolor=red penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+}

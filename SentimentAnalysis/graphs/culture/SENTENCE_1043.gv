@@ -1,0 +1,69 @@
+digraph SENTENCE_1043 {
+	graph [label="\"Это история про то, как дурная мысль, бацилла попадает в голову и как она, особенно если этот человек талантливый, начинает его менять."]
+	node [style=filled]
+		1 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дурная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мысль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бацилла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="попадает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="голову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="талантливый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="начинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="менять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			19 -> 16 [label="предик"]
+			19 -> 18 [label="огранич"]
+			26 -> 25 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			3 -> 4 [label="предл"]
+			24 -> 15 [label="вводн"]
+			24 -> 21 [label="предик"]
+			24 -> 22 [label="предик"]
+			24 -> 26 [label="_1_компл"]
+			14 -> 24 [label="соч_союзн"]
+			4 -> 11 [label="эксплет"]
+			15 -> 19 [label="сравн_союзн"]
+			21 -> 20 [label="опред"]
+			8 -> 7 [label="опред"]
+			11 -> 6 [label="обст"]
+			11 -> 8 [label="длительн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 14 [label="сент_соч"]
+}

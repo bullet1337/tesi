@@ -1,0 +1,21 @@
+digraph SENTENCE_1064 {
+	graph [label="А потом долго не забываешь его."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="забываешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 4 [label="соч_союзн"]
+}

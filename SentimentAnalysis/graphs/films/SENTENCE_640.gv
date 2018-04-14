@@ -1,0 +1,54 @@
+digraph SENTENCE_640 {
+	graph [label="В каждой своей киноленте фон Триер показывает главных героев в не совсем ординарных ситуациях для современного кинематографа."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="каждой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="киноленте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ординарных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ситуациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="современного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			5 -> 4
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			12 -> 11 [label="огранич"]
+			16 -> 15 [label="опред"]
+			11 -> 10 [label="огранич"]
+			8 -> 7 [label="опред"]
+			14 -> 16 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			9 -> 13 [label="предл"]
+}

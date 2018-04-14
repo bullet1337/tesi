@@ -1,0 +1,42 @@
+digraph SENTENCE_1634 {
+	graph [label="Особое место в службе занял чин анафематствования тех, кто тяжко погрешил против православия."]
+	node [style=filled]
+		0 [label="Особое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="занял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="анафематствования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тяжко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="погрешил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="православия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			12 -> 13 [label="предл"]
+			2 -> 3 [label="предл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			6 -> 7 [label="разъяснит"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 11 [label="релят"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+}

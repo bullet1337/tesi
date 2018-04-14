@@ -1,0 +1,36 @@
+digraph SENTENCE_4987 {
+	graph [label="Даже насквозь аттракционно-развлекательный «Рубеж» местами на порядок драматичнее, эмоциональнее и трагичнее."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="насквозь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="аттракционно-развлекательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Рубеж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="порядок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="драматичнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="эмоциональнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трагичнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="огранич"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 12 [label="сочин"]
+			4 -> 2 [label="опред"]
+			6 -> 7 [label="_3_компл"]
+			9 -> 1 [label="обст"]
+			9 -> 4 [label="предик"]
+			9 -> 6 [label="колич_огран"]
+			9 -> 11 [label="сочин"]
+}

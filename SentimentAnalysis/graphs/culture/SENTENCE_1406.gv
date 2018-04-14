@@ -1,0 +1,33 @@
+digraph SENTENCE_1406 {
+	graph [label="Цикл \"Земля лишних\" был написан в соавторстве с женой Марией Круз."]
+	node [style=filled]
+		0 [label="Цикл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Земля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="лишних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="написан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="соавторстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="женой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Марией Круз
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="аппоз"]
+			0 -> 5 [label="релят"]
+			5 -> 3 [label="предик"]
+			5 -> 6
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="агент"]
+			9 -> 10 [label="предл"]
+			8 -> 9 [label="атриб"]
+}

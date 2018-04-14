@@ -1,0 +1,30 @@
+digraph SENTENCE_124 {
+	graph [label="Автор либретто, написанного по одноименном роману Льва Толстого, — также Ноймайер."]
+	node [style=filled]
+		0 [label="Автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="либретто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="написанного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="одноименном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="роману
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Льва Толстого
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Ноймайер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			1 -> 3 [label="опред"]
+			11 -> 10 [label="огранич"]
+			3 -> 4 [label="обст"]
+			3 -> 11 [label="агент"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+}

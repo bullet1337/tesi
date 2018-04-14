@@ -1,0 +1,54 @@
+digraph SENTENCE_122 {
+	graph [label="Насколько поражает ее самоотверженность, выносливость и некая непосредственность, способность держать слово, даже когда жизнь твоя под угрозой."]
+	node [style=filled]
+		0 [label="Насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самоотверженность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выносливость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="некая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="непосредственность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="способность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="держать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="твоя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="угрозой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="сочин"]
+			16 -> 17 [label="опред"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="обст"]
+			8 -> 7 [label="опред"]
+			5 -> 6 [label="сочин"]
+			18 -> 16 [label="предик"]
+			18 -> 19 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 10 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+}

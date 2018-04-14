@@ -1,0 +1,21 @@
+digraph SENTENCE_196 {
+	graph [label="Думаю, Ларс прекрасно осознавал все неровности."]
+	node [style=filled]
+		0 [label="Думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="осознавал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неровности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+}

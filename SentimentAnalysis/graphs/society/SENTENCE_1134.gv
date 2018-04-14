@@ -1,0 +1,45 @@
+digraph SENTENCE_1134 {
+	graph [label="Возможно ли от этой организации ожидать того, что они принесут извинения за свои заявления?"]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="принесут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="извинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заявления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			12 -> 14 [label="предл"]
+			8 -> 10 [label="подч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_3_компл"]
+			6 -> 8 [label="эксплет"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 6 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+}

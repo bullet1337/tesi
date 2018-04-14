@@ -1,0 +1,52 @@
+digraph SENTENCE_2183 {
+	graph [label="В-третьих, нереально красивые контрасты: огонь под дождем, изысканные платья на фоне облупленных стен и много еще чего."]
+	node [style=filled]
+		0 [label="В-третьих
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нереально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="красивые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="контрасты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="огонь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дождем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="изысканные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="платья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="облупленных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сочин"]
+			17 -> 19 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			11 -> 16 [label="сочин"]
+			2 -> 0 [label="вводн"]
+			12 -> 13 [label="предл"]
+			6 -> 7 [label="атриб"]
+			6 -> 11 [label="сочин"]
+			13 -> 15 [label="квазиагент"]
+			19 -> 18 [label="огранич"]
+			7 -> 8 [label="предл"]
+}

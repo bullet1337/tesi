@@ -1,0 +1,72 @@
+digraph SENTENCE_1992 {
+	graph [label="Не зря он начинается сценой с заикающимся парнем, который наконец-то, после сеанса лечения, смог произнести в первый раз связную фразу: «Я могу говорить»."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заикающимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="парнем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наконец-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сеанса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="произнести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="связную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="фразу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="огранич"]
+			12 -> 13 [label="предл"]
+			1 -> 0 [label="огранич"]
+			18 -> 20 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			16 -> 9 [label="предик"]
+			16 -> 12 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 26 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			26 -> 25 [label="предик"]
+			26 -> 27 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			20 -> 19 [label="опред"]
+			5 -> 7 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			3 -> 16 [label="разъяснит"]
+			17 -> 18 [label="обст"]
+			17 -> 22 [label="_1_компл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_768 {
+	graph [label="В спектакле задействованы более 60 кукол, сделанных из бамбука, которыми управляют 16 артистов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="задействованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="60
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кукол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сделанных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бамбука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="управляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="артистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 12 [label="сент_соч"]
+			5 -> 4 [label="количест"]
+			5 -> 7 [label="опред"]
+			3 -> 5 [label="сравнит"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 14 [label="предик"]
+			14 -> 13 [label="количест"]
+			7 -> 8 [label="обст"]
+}

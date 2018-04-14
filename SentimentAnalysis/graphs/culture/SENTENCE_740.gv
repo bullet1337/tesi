@@ -1,0 +1,57 @@
+digraph SENTENCE_740 {
+	graph [label="Фильм рассказывает историю алкоголика Джона Каллахана в исполнении Хоакина Феникса, который попадает в аварию, из-за чего оказывается практически полностью парализованным."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="алкоголика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Джона Каллахана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Хоакина Феникса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="попадает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="аварию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="парализованным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 10 [label="изъясн"]
+			1 -> 16 [label="разъяснит"]
+			16 -> 14 [label="обст"]
+			16 -> 19 [label="присвяз"]
+			19 -> 18 [label="огранич"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			18 -> 17 [label="огранич"]
+			11 -> 12 [label="предл"]
+			3 -> 4 [label="аппоз"]
+}

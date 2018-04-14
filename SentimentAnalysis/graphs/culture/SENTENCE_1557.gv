@@ -1,0 +1,57 @@
+digraph SENTENCE_1557 {
+	graph [label="В российский прокат выходит фильм \"Человек, который спас мир\" — история советского офицера, предотвратившего в 1983 году ядерную войну."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Человек
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спас
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="офицера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="предотвратившего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="1983
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ядерную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="войну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			18 -> 20 [label="предл"]
+			2 -> 1 [label="опред"]
+			9 -> 8 [label="_1_компл"]
+			9 -> 10 [label="предик"]
+			22 -> 21 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="опред"]
+			17 -> 18 [label="обст"]
+			17 -> 22 [label="_1_компл"]
+			4 -> 6 [label="ном_аппоз"]
+			4 -> 9 [label="релят"]
+			4 -> 13 [label="ном_аппоз"]
+			20 -> 19 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1483 {
+	graph [label="«Танцующая в темноте» — фильм о жизни человека, попавшего в беду."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="попавшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="беду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			9 -> 11 [label="опред"]
+			2 -> 3 [label="предл"]
+			12 -> 13 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			11 -> 12 [label="_2_компл"]
+			1 -> 2 [label="обст"]
+			6 -> 1 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+}

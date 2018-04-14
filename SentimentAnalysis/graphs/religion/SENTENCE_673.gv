@@ -1,0 +1,33 @@
+digraph SENTENCE_673 {
+	graph [label="Пищу ему привозил знакомый корабельщик, для которого монах плел карзины."]
+	node [style=filled]
+		0 [label="Пищу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="привозил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знакомый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="корабельщик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="монах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="плел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="карзины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			6 -> 7 [label="предл"]
+			0 -> 2 [label="релят"]
+			4 -> 3 [label="опред"]
+			9 -> 0 [label="_1_компл"]
+			9 -> 6 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="предик"]
+}

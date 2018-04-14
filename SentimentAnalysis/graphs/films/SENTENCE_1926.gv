@@ -1,0 +1,24 @@
+digraph SENTENCE_1926 {
+	graph [label="Смотришь и думаешь, ты бы так поступил?"]
+	node [style=filled]
+		0 [label="Смотришь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="думаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="аналит"]
+			7 -> 6 [label="обст"]
+			2 -> 7 [label="_1_компл"]
+}

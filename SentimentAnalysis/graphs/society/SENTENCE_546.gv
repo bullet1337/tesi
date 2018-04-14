@@ -1,0 +1,30 @@
+digraph SENTENCE_546 {
+	graph [label="Если поступит жалоба, конечно, (вопрос) будет рассмотрен\", — сказал Аршба РИА Новости."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жалоба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рассмотрен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Аршба РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="подч_союзн"]
+			9 -> 0 [label="обст"]
+			9 -> 4 [label="вводн"]
+			9 -> 7 [label="предик"]
+			9 -> 10
+			9 -> 14 [label="вводн"]
+			1 -> 2 [label="предик"]
+			14 -> 15 [label="предик"]
+}

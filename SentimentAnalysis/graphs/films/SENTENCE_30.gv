@@ -1,0 +1,45 @@
+digraph SENTENCE_30 {
+	graph [label="Катрин Денев с ее благородными чертами лица на заводе в ночную смену смотрелась удивительно органично."]
+	node [style=filled]
+		0 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="благородными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чертами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заводе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ночную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смотрелась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="удивительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="органично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 0 [label="предик"]
+			11 -> 13 [label="обст"]
+			0 -> 1 [label="атриб"]
+			0 -> 6 [label="атриб"]
+			0 -> 8 [label="примыкат"]
+			13 -> 12 [label="огранич"]
+			6 -> 7 [label="предл"]
+			10 -> 9 [label="опред"]
+			1 -> 4 [label="предл"]
+			8 -> 10 [label="предл"]
+			4 -> 2 [label="атриб"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+}

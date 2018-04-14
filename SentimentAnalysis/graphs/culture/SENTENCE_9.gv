@@ -1,0 +1,72 @@
+digraph SENTENCE_9 {
+	graph [label="В итоге, в конце ноября суд удовлетворил иск о разводе, а в начале декабря следствие предъявило Цымбалюк-Романовской обвинение в нарушении тайны личной жизни."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ноября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удовлетворил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="иск
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="разводе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="декабря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="следствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="предъявило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Цымбалюк-Романовской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="обвинение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нарушении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="тайны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="личной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="предл"]
+			24 -> 23 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="сент_соч"]
+			4 -> 5 [label="квазиагент"]
+			22 -> 24 [label="_1_компл"]
+			14 -> 15 [label="квазиагент"]
+			21 -> 22 [label="_1_компл"]
+			19 -> 20 [label="_2_компл"]
+			17 -> 13 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 19 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 17 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="предл"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,71 @@
+digraph SENTENCE_380 {
+	graph [label="В это время Римской империей правил Троян — первый из императоров законодательно оформивший гонения на христиан, подведя их под закон о запрете тайных обществ."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Римской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="империей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="правил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Троян
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="императоров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="законодательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оформивший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гонения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="подведя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="закон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="запрете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="тайных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="обществ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 8 [label="суб_копр"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="обст"]
+			22 -> 24 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			6 -> 4 [label="агент"]
+			6 -> 12 [label="опред"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			19 -> 20 [label="предл"]
+			9 -> 10 [label="предл"]
+			8 -> 9 [label="электив"]
+			13 -> 14 [label="_1_компл"]
+			21 -> 22 [label="предл"]
+			14 -> 15 [label="предл"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="_3_компл"]
+			24 -> 23 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+}

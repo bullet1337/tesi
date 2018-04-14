@@ -1,0 +1,44 @@
+digraph SENTENCE_2319 {
+	graph [label="Кроме того, что в самых неожиданных местах героиня вдруг начинала глупо улыбаться и… петь."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неожиданных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="местах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вдруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="начинала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="глупо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="улыбаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 10 [label="подч_союзн"]
+			7 -> 6 [label="опред"]
+			6 -> 5 [label="опред"]
+			13 -> 15 [label="соч_союзн"]
+			4 -> 7 [label="предл"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="сочин"]
+			8 -> 4 [label="огранич"]
+}

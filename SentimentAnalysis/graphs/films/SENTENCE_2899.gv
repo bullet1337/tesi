@@ -1,0 +1,38 @@
+digraph SENTENCE_2899 {
+	graph [label="Возможно, но даже детишки, сидевшие в зале смеялись только первые 15 минут."]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="детишки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сидевшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смеялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			9 -> 4 [label="предик"]
+			9 -> 13 [label="_1_компл"]
+			13 -> 12 [label="количест"]
+			12 -> 11 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="опред"]
+			7 -> 8 [label="предл"]
+}

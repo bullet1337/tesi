@@ -1,0 +1,54 @@
+digraph SENTENCE_1536 {
+	graph [label="Фильм \"Довлатов\" Алексея Германа-младшего занял второе место в рейтинге конкурсных картин Берлинале по мнению кинокритиков, сообщается в журнале."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Алексея Германа-младшего
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="занял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рейтинге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="конкурсных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Берлинале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кинокритиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="журнале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			13 -> 14 [label="предл"]
+			0 -> 2 [label="аппоз"]
+			5 -> 0 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 17 [label="сочин"]
+			18 -> 19 [label="предл"]
+			17 -> 13 [label="обст"]
+			17 -> 18 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			14 -> 15 [label="квазиагент"]
+			2 -> 4 [label="аппоз"]
+			8 -> 9 [label="предл"]
+			9 -> 11 [label="квазиагент"]
+}

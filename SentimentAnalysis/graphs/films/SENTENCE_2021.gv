@@ -1,0 +1,59 @@
+digraph SENTENCE_2021 {
+	graph [label="Очевидно те же проблемы волновали тогда и самого Тарковского, ибо к моменту выхода фильма он был разведен с первой женой."]
+	node [style=filled]
+		0 [label="Очевидно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="волновали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="ибо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="моменту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="разведен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="женой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			1 -> 2 [label="огранич"]
+			11 -> 12 [label="предл"]
+			18 -> 20 [label="предл"]
+			8 -> 7 [label="опред"]
+			20 -> 19 [label="опред"]
+			17 -> 18 [label="обст"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 6 [label="сент_соч"]
+			12 -> 13 [label="квазиагент"]
+			13 -> 14 [label="квазиагент"]
+			16 -> 15 [label="предик"]
+			16 -> 17
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_3990 {
+	graph [label="С другой — подверженный лечению Алекс вызывает в основном жалость, и получается что зритель оправдывает убийцу и насильника."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подверженный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лечению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Алекс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вызывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="основном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жалость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="оправдывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="убийцу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="насильника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="огранич"]
+			16 -> 17 [label="сочин"]
+			0 -> 4 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+			12 -> 13 [label="предик"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="сочин"]
+			4 -> 1 [label="опред"]
+			4 -> 3 [label="опред"]
+			13 -> 15 [label="подч_союзн"]
+			17 -> 18 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+}

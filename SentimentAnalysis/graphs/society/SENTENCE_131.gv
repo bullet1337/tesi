@@ -1,0 +1,27 @@
+digraph SENTENCE_131 {
+	graph [label="Инициатива ЛДПР направлена и на защиту третьих лиц."]
+	node [style=filled]
+		0 [label="Инициатива
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ЛДПР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="направлена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="защиту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="третьих
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лиц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_4_компл"]
+			0 -> 1 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			5 -> 7 [label="_1_компл"]
+}

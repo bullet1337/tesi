@@ -1,0 +1,84 @@
+digraph SENTENCE_1414 {
+	graph [label="За звание лучшей актрисы будут бороться Салли Хокинс (\"Форма воды\"), Марго Робби (\"Тоня против всех\"), Сирша Ронан (\"Леди Берд\"), Мерил Стрип (\"Секретное досье\") и Фрэнсис Макдорманд (\"Три билборда на границе Эббинга, Миссури\")."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="звание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лучшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бороться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Салли Хокинс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Форма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Марго Робби
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Тоня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Сирша Ронан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="Леди Берд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Мерил
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="Стрип
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="Секретное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		35 [label="досье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="Фрэнсис Макдорманд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		42 [label="Три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="билборда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="границе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		46 [label="Эббинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		48 [label="Миссури
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			31 -> 35 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 3 [label="_1_компл"]
+			43 -> 42 [label="количест"]
+			43 -> 44 [label="атриб"]
+			18 -> 19 [label="предл"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 14 [label="атриб"]
+			46 -> 48 [label="квазиагент"]
+			23 -> 26 [label="аппоз"]
+			35 -> 34 [label="опред"]
+			35 -> 38 [label="сочин"]
+			44 -> 45 [label="предл"]
+			3 -> 2 [label="опред"]
+			14 -> 17 [label="аппоз"]
+			30 -> 31 [label="предик"]
+			38 -> 39 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="аналит"]
+			4 -> 9 [label="предик"]
+			4 -> 18 [label="присвяз"]
+			4 -> 23 [label="предик"]
+			4 -> 30 [label="вводн"]
+			4 -> 43 [label="предик"]
+			45 -> 46 [label="квазиагент"]
+}

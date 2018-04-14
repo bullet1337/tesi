@@ -1,0 +1,39 @@
+digraph SENTENCE_1058 {
+	graph [label="Накануне начала поста он совершил вечерню с чином прощения в храме Христа Спасителя."]
+	node [style=filled]
+		0 [label="Накануне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="совершил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вечерню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чином
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прощения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Христа Спасителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 9 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			9 -> 10 [label="предл"]
+}

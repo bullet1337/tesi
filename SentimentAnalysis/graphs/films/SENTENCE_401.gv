@@ -1,0 +1,57 @@
+digraph SENTENCE_401 {
+	graph [label="Играющая повсюду и выстраиваемая из обычных, рутинных звуков, за которыми никто из зрячих кроме шума ничего не услышит."]
+	node [style=filled]
+		0 [label="Играющая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="повсюду
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выстраиваемая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рутинных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="звуков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зрячих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="шума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="услышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 0 [label="предик"]
+			19 -> 10 [label="обст"]
+			19 -> 12 [label="предик"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			12 -> 13 [label="атриб"]
+			12 -> 15 [label="атриб"]
+			10 -> 11 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			4 -> 8 [label="предл"]
+			0 -> 1 [label="обст"]
+			0 -> 2 [label="сочин"]
+			3 -> 4 [label="обст"]
+			15 -> 16 [label="предл"]
+			13 -> 14 [label="предл"]
+			8 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+}

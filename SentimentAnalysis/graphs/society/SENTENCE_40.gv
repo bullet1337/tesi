@@ -1,0 +1,27 @@
+digraph SENTENCE_40 {
+	graph [label="Специалисты надеются, что медведь сможет вернуться в лес."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="надеются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="медведь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сможет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вернуться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 5 [label="подч_союзн"]
+			6 -> 7 [label="_2_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+}

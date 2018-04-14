@@ -1,0 +1,51 @@
+digraph SENTENCE_1439 {
+	graph [label="Я всегда уважала Бьерк как певицу, но я даже не предполагала, что она такая хорошая актриса."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уважала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бьерк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="певицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предполагала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="хорошая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 17 [label="подч_союзн"]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			4 -> 5 [label="сравн_союзн"]
+			7 -> 11 [label="соч_союзн"]
+			17 -> 14 [label="предик"]
+			17 -> 16 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="сравнит"]
+			2 -> 7 [label="сент_соч"]
+			16 -> 15 [label="опред"]
+}

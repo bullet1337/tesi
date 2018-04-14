@@ -1,0 +1,39 @@
+digraph SENTENCE_899 {
+	graph [label="Несчастную женщину ведут на казнь, а она представляет себе сцену из мюзикла."]
+	node [style=filled]
+		0 [label="Несчастную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="женщину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ведут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="казнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сцену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мюзикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_3_компл"]
+			2 -> 6 [label="сент_соч"]
+			10 -> 11 [label="атриб"]
+			6 -> 8 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9
+			8 -> 10 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="опред"]
+}

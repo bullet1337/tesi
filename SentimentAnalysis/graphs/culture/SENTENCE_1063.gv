@@ -1,0 +1,48 @@
+digraph SENTENCE_1063 {
+	graph [label="Создатели представили и красочный 15-минутный фильм о мистериях, многие пейзажи сняты с высоты птичьего полета."]
+	node [style=filled]
+		0 [label="Создатели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="представили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="красочный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="15-минутный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мистериях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пейзажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="высоты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="птичьего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="полета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			13 -> 15 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			7 -> 10 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="_1_компл"]
+			5 -> 2 [label="огранич"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="примыкат"]
+			11 -> 12 [label="_2_компл"]
+			12 -> 13 [label="предл"]
+			10 -> 9 [label="опред"]
+}

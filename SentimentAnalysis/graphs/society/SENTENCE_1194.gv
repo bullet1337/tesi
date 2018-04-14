@@ -1,0 +1,42 @@
+digraph SENTENCE_1194 {
+	graph [label="На следующий год здесь был открыт мемориал, ключевым элементом которого стал Вечный огонь."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="открыт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мемориал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ключевым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="элементом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Вечный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="огонь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			6 -> 11 [label="релят"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 5
+			4 -> 6 [label="предик"]
+			0 -> 2 [label="предл"]
+			13 -> 12 [label="опред"]
+			11 -> 9 [label="присвяз"]
+			11 -> 13 [label="предик"]
+}

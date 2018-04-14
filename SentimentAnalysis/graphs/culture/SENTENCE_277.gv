@@ -1,0 +1,66 @@
+digraph SENTENCE_277 {
+	graph [label="Главным героем картины стал неизвестный широкой публике советский офицер Станислав Петров, чьи героические действия в 1983 году предотвратили начало ядерной мировой войны."]
+	node [style=filled]
+		0 [label="Главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неизвестный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="широкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="публике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="советский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="офицер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Станислав Петров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="чьи
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="героические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="действия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="1983
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="предотвратили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="начало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ядерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			17 -> 13 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+			3 -> 1 [label="присвяз"]
+			3 -> 6 [label="предик"]
+			3 -> 8 [label="вводн"]
+			3 -> 9 [label="предик"]
+			3 -> 17 [label="сент_соч"]
+			16 -> 15 [label="опред"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			18 -> 21 [label="квазиагент"]
+			14 -> 16 [label="предл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1182 {
+	graph [label="Медведев отметил, что ценности буддизма и традиции Сагаалгана неотделимы от историко-культурного наследия России."]
+	node [style=filled]
+		0 [label="Медведев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ценности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="буддизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сагаалгана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="неотделимы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="историко-культурного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наследия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="сочин"]
+			4 -> 5 [label="квазиагент"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			9 -> 4 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			3 -> 9 [label="подч_союзн"]
+}

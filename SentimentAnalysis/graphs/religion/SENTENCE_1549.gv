@@ -1,0 +1,33 @@
+digraph SENTENCE_1549 {
+	graph [label="В епархии расценивают происходящее в деревне как \"действие \"духов злобы\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="епархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="расценивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="происходящее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="деревне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="духов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="злобы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="сравн_союзн"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 10 [label="квазиагент"]
+			10 -> 11 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+}

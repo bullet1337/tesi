@@ -1,0 +1,39 @@
+digraph SENTENCE_3326 {
+	graph [label="Третирование в сборной Мальцева, Якушева, Ляпкина… еще можно понять, хоть и с трудом."]
+	node [style=filled]
+		0 [label="Третирование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сборной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мальцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Якушева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Ляпкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="трудом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+			15 -> 13 [label="огранич"]
+			15 -> 16 [label="предл"]
+			0 -> 1 [label="атриб"]
+			0 -> 3 [label="аппоз"]
+			13 -> 14
+			11 -> 15 [label="обст"]
+			1 -> 2 [label="предл"]
+}

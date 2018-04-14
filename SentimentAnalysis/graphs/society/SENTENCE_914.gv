@@ -1,0 +1,36 @@
+digraph SENTENCE_914 {
+	graph [label="\"По методике Организации труда результаты поскромнее, но они тоже весьма позитивны."]
+	node [style=filled]
+		1 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="методике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Организации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="труда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="результаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поскромнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="позитивны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 12 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			5 -> 1 [label="вводн"]
+			5 -> 6 [label="атриб"]
+			5 -> 8 [label="сент_соч"]
+}

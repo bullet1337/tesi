@@ -1,0 +1,84 @@
+digraph SENTENCE_901 {
+	graph [label="Около ста педагогов из районов и городов Липецкой области принимают участие в муниципальном этапе конкурса \"Учитель года\", который продлится до конца февраля, сообщает пресс-служба администрации Липецкой области."]
+	node [style=filled]
+		0 [label="Около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ста
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="педагогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="районов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="городов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="принимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="муниципальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этапе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Учитель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="продлится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="администрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="сочин"]
+			6 -> 8 [label="атриб"]
+			0 -> 2 [label="предл"]
+			8 -> 7 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			23 -> 24 [label="квазиагент"]
+			9 -> 0 [label="_1_несобст_компл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 21 [label="изъясн"]
+			9 -> 26 [label="вводн"]
+			22 -> 23 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			30 -> 29 [label="опред"]
+			27 -> 28 [label="квазиагент"]
+			21 -> 16 [label="предик"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="обст"]
+			16 -> 17 [label="атриб"]
+			2 -> 1 [label="количест"]
+			2 -> 3 [label="атриб"]
+			28 -> 30 [label="_1_компл"]
+			26 -> 27 [label="предик"]
+}

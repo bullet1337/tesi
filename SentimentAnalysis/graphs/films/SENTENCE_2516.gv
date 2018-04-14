@@ -1,0 +1,36 @@
+digraph SENTENCE_2516 {
+	graph [label="Так называемый быт показан крайне странно и ещё более странно — нравы."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="называемый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="быт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="крайне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="странно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нравы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="сочин"]
+			11 -> 9 [label="вводн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			3 -> 11 [label="предик"]
+}

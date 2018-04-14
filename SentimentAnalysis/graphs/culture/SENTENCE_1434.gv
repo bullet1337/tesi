@@ -1,0 +1,57 @@
+digraph SENTENCE_1434 {
+	graph [label="Энистон прославилась благодаря роли Рэйчел Грин в телесериале \"Друзья\", за которую она была удостоена премий \"Эмми\" и \"Золотой глобус\"."]
+	node [style=filled]
+		0 [label="Энистон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="прославилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Рэйчел Грин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="телесериале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Друзья
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="удостоена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="премий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Эмми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Золотой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="глобус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			23 -> 22 [label="опред"]
+			16 -> 18 [label="квазиагент"]
+			15 -> 16 [label="_2_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 14 [label="сент_соч"]
+			20 -> 23 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+			18 -> 20 [label="сочин"]
+			11 -> 12 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="_2_компл"]
+			14 -> 8 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 15
+}

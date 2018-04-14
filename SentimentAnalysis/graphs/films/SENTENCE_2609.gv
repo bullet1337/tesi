@@ -1,0 +1,39 @@
+digraph SENTENCE_2609 {
+	graph [label="И именно так Дени должен именовать свои мастер-классы, если он их дает."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Дени
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="именовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мастер-классы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 12 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="_1_компл"]
+			0 -> 4 [label="соч_союзн"]
+}

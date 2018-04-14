@@ -1,0 +1,50 @@
+digraph SENTENCE_79 {
+	graph [label="Символом премии стал \"светлый образ великой княгини Елизаветы Федоровны Романовой, второго председателя ИППО, впоследствии прославленной в лике святых\"."]
+	node [style=filled]
+		0 [label="Символом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="светлый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="великой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="княгини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Елизаветы Федоровны Романовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="председателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ИППО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="впоследствии
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="прославленной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="святых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="квазиагент"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			5 -> 11 [label="сочин"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			2 -> 0 [label="присвяз"]
+			2 -> 5 [label="предик"]
+			16 -> 17 [label="предл"]
+}

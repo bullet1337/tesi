@@ -1,0 +1,69 @@
+digraph SENTENCE_277 {
+	graph [label="Предстоятель Русской церкви призвал верующих обратиться к Господу, чтобы Он оградил всех от пустых слов и внешних влияний, способных разрушать внутренний мир."]
+	node [style=filled]
+		0 [label="Предстоятель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="призвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="верующих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обратиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Господу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Он
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="оградил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пустых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="внешних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="влияний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="способных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="разрушать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="внутренний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+			16 -> 18 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			9 -> 11 [label="подч_союзн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="опред"]
+			23 -> 22 [label="опред"]
+			2 -> 1 [label="опред"]
+			21 -> 23 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+			6 -> 7 [label="предл"]
+			20 -> 21 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_395 {
+	graph [label="Также Долматов отметил, что ему немного стыдно выступать на \"Версусе\", потому что он уже взрослый и его сыну восемь лет."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Долматов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стыдно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Версусе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="взрослый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="восемь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 21 [label="соч_союзн"]
+			4 -> 7 [label="подч_союзн"]
+			21 -> 20 [label="_1_компл"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="сочин"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 9 [label="обст"]
+			8 -> 14 [label="обст"]
+			8 -> 23 [label="длительн"]
+			9 -> 11 [label="предл"]
+			23 -> 22 [label="количест"]
+			14 -> 15 [label="эксплет"]
+			15 -> 18 [label="подч_союзн"]
+			7 -> 5 [label="дат_субъект"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предик"]
+}

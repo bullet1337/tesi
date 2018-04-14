@@ -1,0 +1,28 @@
+digraph SENTENCE_1561 {
+	graph [label="10 из 10
+Скандинавия издавна славилась своим кинематографом."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Скандинавия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="издавна
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="славилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кинематографом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 0
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+}

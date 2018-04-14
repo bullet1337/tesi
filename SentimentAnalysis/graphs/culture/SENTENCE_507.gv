@@ -1,0 +1,51 @@
+digraph SENTENCE_507 {
+	graph [label="Поляков подчеркнул, что и у жанра черной комедии есть свои грани, есть вещи, которые переступать нельзя."]
+	node [style=filled]
+		0 [label="Поляков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жанра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="черной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="комедии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="грани
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="переступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			3 -> 9 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 13 [label="сент_соч"]
+			9 -> 5 [label="_1_компл"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="предик"]
+			8 -> 7 [label="опред"]
+			17 -> 16 [label="_1_компл"]
+			14 -> 17 [label="разъяснит"]
+			13 -> 14 [label="предик"]
+			13 -> 18 [label="присвяз"]
+}

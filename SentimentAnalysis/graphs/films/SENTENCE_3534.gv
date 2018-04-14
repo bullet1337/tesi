@@ -1,0 +1,37 @@
+digraph SENTENCE_3534 {
+	graph [label="Вот русские они добрые и сильные, вот канадцы они злые и подлые."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="русские
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="добрые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="канадцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="злые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="подлые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="огранич"]
+			8 -> 2 [label="предик"]
+			8 -> 3 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 8 [label="об_аппоз"]
+			11 -> 12 [label="соч_союзн"]
+			3 -> 4 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+}

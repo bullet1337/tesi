@@ -1,0 +1,51 @@
+digraph SENTENCE_908 {
+	graph [label="Очень рад, что наконец посмотрел этот фильм и рад что это были первые впечатления о нем."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рад
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рад
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="впечатления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="соч_союзн"]
+			15 -> 16 [label="предл"]
+			10 -> 12 [label="подч_союзн"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="присвяз"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			3 -> 5 [label="подч_союзн"]
+			3 -> 10 [label="сент_соч"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1011 {
+	graph [label="Популярны также услуги органов ЗАГС, запись в детский сад, информационные услуги о результатах ЕГЭ, успеваемости учащихся и другие."]
+	node [style=filled]
+		0 [label="Популярны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="услуги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="органов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ЗАГС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="запись
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="информационные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="услуги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="результатах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ЕГЭ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="успеваемости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="учащихся
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="предик"]
+			0 -> 4 [label="_1_компл"]
+			0 -> 6 [label="предик"]
+			0 -> 12 [label="разъяснит"]
+			19 -> 20 [label="соч_союзн"]
+			15 -> 17 [label="сочин"]
+			9 -> 8 [label="опред"]
+			18 -> 19 [label="сочин"]
+			6 -> 7 [label="атриб"]
+			17 -> 18 [label="сочин"]
+			7 -> 9 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			14 -> 15 [label="квазиагент"]
+}

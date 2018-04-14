@@ -1,0 +1,45 @@
+digraph SENTENCE_1027 {
+	graph [label="А это может отразиться на общем результате всех мероприятий по очистке Волги\", — сказал парламентарий."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отразиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мероприятий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="очистке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Волги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="парламентарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 15 [label="разъяснит"]
+			3 -> 4 [label="_2_компл"]
+			4 -> 6 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			15 -> 9 [label="обст"]
+			15 -> 16 [label="предик"]
+}

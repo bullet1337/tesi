@@ -1,0 +1,30 @@
+digraph SENTENCE_2996 {
+	graph [label="Хаос поглощает наш мир, только не все это видят."]
+	node [style=filled]
+		0 [label="Хаос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поглощает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="видят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 9 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			3 -> 2 [label="опред"]
+			6 -> 5 [label="огранич"]
+			8 -> 7 [label="опред"]
+			9 -> 8 [label="_1_компл"]
+}

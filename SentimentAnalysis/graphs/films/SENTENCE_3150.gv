@@ -1,0 +1,57 @@
+digraph SENTENCE_3150 {
+	graph [label="Естественно, я знал, что это за «чудо», и мало-по-малу моё любопытство топило в себе все мои страхи."]
+	node [style=filled]
+		0 [label="Естественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чудо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мало-по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="малу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="моё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="любопытство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="топило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="страхи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			5 -> 7 [label="подч_союзн"]
+			12 -> 13 [label="соч_союзн"]
+			13 -> 15 [label="предл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="предл"]
+			7 -> 12 [label="сочин"]
+			17 -> 16 [label="опред"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 23 [label="_1_компл"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 18 [label="сент_соч"]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+}

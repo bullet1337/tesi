@@ -1,0 +1,40 @@
+digraph SENTENCE_4339 {
+	graph [label="В школе его дела обстоят не лучше, сверстники его всяческий оскорбляют и избивают."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обстоят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сверстники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всяческий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оскорбляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="избивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 8 [label="предик"]
+			3 -> 2 [label="квазиагент"]
+			12 -> 13 [label="соч_союзн"]
+			6 -> 5 [label="огранич"]
+			0 -> 1 [label="предл"]
+			8 -> 6 [label="атриб"]
+}

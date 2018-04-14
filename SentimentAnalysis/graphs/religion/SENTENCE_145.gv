@@ -1,0 +1,78 @@
+digraph SENTENCE_145 {
+	graph [label="\"Там, где есть потребность, мы уже начинаем строить храмы с учетом реновации старого пятиэтажного жилого фонда, которая предполагает наличие всей необходимой инфраструктуры в обновленных кварталах."]
+	node [style=filled]
+		1 [label="Там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потребность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начинаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="строить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="храмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="учетом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="реновации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="старого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пятиэтажного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жилого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фонда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="предполагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="наличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="необходимой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="инфраструктуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="обновленных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="кварталах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 18 [label="квазиагент"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="атриб"]
+			28 -> 27 [label="опред"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="предик"]
+			4 -> 21 [label="сент_соч"]
+			22 -> 25 [label="квазиагент"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			25 -> 26 [label="атриб"]
+			5 -> 9 [label="релят"]
+			13 -> 14 [label="_1_компл"]
+			18 -> 15 [label="опред"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			26 -> 28 [label="предл"]
+			12 -> 13 [label="предл"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+}

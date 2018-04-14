@@ -1,0 +1,24 @@
+digraph SENTENCE_1240 {
+	graph [label="Киноактер вошел в группу поддержки молодого певца."]
+	node [style=filled]
+		0 [label="Киноактер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="группу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поддержки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="молодого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="певца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="суб_копр"]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="опред"]
+}

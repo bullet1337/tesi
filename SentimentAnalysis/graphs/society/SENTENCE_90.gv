@@ -1,0 +1,42 @@
+digraph SENTENCE_90 {
+	graph [label="И кажется, что так всегда и было, кажется, что это нормально\", — сказал Путин."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кажется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нормально
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="соч_союзн"]
+			3 -> 7 [label="подч_союзн"]
+			11 -> 13 [label="подч_союзн"]
+			13 -> 12 [label="предик"]
+			7 -> 4 [label="обст"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="присвяз"]
+			7 -> 11 [label="предик"]
+			17 -> 18 [label="предик"]
+			1 -> 3 [label="предик"]
+			1 -> 17 [label="вводн"]
+}

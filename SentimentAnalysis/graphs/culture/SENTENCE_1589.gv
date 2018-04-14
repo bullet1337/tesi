@@ -1,0 +1,30 @@
+digraph SENTENCE_1589 {
+	graph [label="\"Анимация — это очень медленное искусство, особенно по меркам кинематографа."]
+	node [style=filled]
+		1 [label="Анимация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="медленное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меркам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="обст"]
+			5 -> 4 [label="огранич"]
+			3 -> 1 [label="пролепт"]
+			10 -> 11 [label="квазиагент"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="предл"]
+}

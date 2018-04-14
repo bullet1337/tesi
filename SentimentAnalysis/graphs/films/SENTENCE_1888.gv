@@ -1,0 +1,57 @@
+digraph SENTENCE_1888 {
+	graph [label="Добавив в фильм музыкальные вставки, режиссер четко дал понять, что переживает героиня, как она себе представляет все вокруг."]
+	node [style=filled]
+		0 [label="Добавив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="четко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="переживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			12 -> 13 [label="предик"]
+			8 -> 0 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 18 [label="сент_соч"]
+			9 -> 11 [label="_1_компл"]
+			20 -> 19 [label="предик"]
+			18 -> 15 [label="обст"]
+			18 -> 16 [label="предик"]
+			18 -> 17
+			18 -> 20 [label="_1_компл"]
+			2 -> 4 [label="ном_аппоз"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			11 -> 12 [label="подч_союзн"]
+}

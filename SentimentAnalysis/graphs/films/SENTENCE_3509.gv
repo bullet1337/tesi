@@ -1,0 +1,41 @@
+digraph SENTENCE_3509 {
+	graph [label="То вдумчиво смакуют час жизни героя, то без видимых причин перепрыгивают через год."]
+	node [style=filled]
+		0 [label="То
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вдумчиво
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смакуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="видимых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="причин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="перепрыгивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 2 [label="обст"]
+			11 -> 8 [label="обст"]
+			11 -> 12 [label="обст"]
+			3 -> 4 [label="квазиагент"]
+			8 -> 10 [label="предл"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="соотнос"]
+			10 -> 9 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+}

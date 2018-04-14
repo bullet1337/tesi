@@ -1,0 +1,34 @@
+digraph SENTENCE_1373 {
+	graph [label="Эти права, мол, выше каких бы то ни было религиозных установок."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мол
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="религиозных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="установок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 7 [label="аналит"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="предик"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="вводн"]
+			1 -> 0 [label="опред"]
+			12 -> 11 [label="опред"]
+}

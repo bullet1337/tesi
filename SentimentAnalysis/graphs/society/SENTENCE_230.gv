@@ -1,0 +1,42 @@
+digraph SENTENCE_230 {
+	graph [label="Не новость, что языки в ходе своего развития заимствуют слова из других языков."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="новость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="языки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заимствуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="языков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предик"]
+			3 -> 9 [label="подч_союзн"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="атриб"]
+			9 -> 4 [label="предик"]
+			9 -> 5 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			6 -> 8 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+}

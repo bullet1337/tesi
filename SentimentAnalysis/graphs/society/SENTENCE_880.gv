@@ -1,0 +1,54 @@
+digraph SENTENCE_880 {
+	graph [label="Объявлена аккредитация журналистов на участие в освещении ежегодного послания президента Российской Федерации Федеральному Собранию, сообщает пресс-служба Кремля."]
+	node [style=filled]
+		0 [label="Объявлена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="аккредитация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="освещении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ежегодного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="послания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Федерации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Федеральному
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Собранию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Кремля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 13 [label="_2_компл"]
+			0 -> 1 [label="предик"]
+			0 -> 3 [label="обст"]
+			0 -> 8 [label="предик"]
+			0 -> 15 [label="вводн"]
+			11 -> 10 [label="опред"]
+			5 -> 6 [label="предл"]
+			15 -> 16 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			16 -> 17 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+}

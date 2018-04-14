@@ -1,0 +1,30 @@
+digraph SENTENCE_715 {
+	graph [label="И дальше будем требовать повышения зарплаты и повышения соцгарантии."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="требовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="повышения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зарплаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повышения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="соцгарантии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="присвяз"]
+			2 -> 3 [label="аналит"]
+			5 -> 6 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+}

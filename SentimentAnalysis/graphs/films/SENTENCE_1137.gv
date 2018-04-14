@@ -1,0 +1,38 @@
+digraph SENTENCE_1137 {
+	graph [label="Сильный настолько, что пересмотреть его я решилась только лет через 6-7."]
+	node [style=filled]
+		0 [label="Сильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пересмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="решилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			3 -> 7 [label="подч_союзн"]
+			7 -> 4 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="предик"]
+			7 -> 10 [label="обст"]
+			9 -> 8 [label="огранич"]
+			0 -> 1 [label="огранич"]
+			11 -> 13 [label="кратн"]
+}

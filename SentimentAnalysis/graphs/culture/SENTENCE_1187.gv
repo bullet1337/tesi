@@ -1,0 +1,56 @@
+digraph SENTENCE_1187 {
+	graph [label="Съемки \"Т-34\" проходили в Москве, Калужской и Московской областях, а также в Чехии — Праге, Локете и Терезине."]
+	node [style=filled]
+		0 [label="Съемки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Т
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="34
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проходили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Калужской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Московской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="областях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Чехии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Праге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Локете
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Терезине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="соч_союзн"]
+			18 -> 20 [label="сочин"]
+			7 -> 8 [label="предл"]
+			23 -> 24 [label="соч_союзн"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			10 -> 11 [label="сочин"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 13 [label="_1_компл"]
+			6 -> 15 [label="сент_соч"]
+			20 -> 22 [label="сочин"]
+			22 -> 23 [label="сочин"]
+			13 -> 10 [label="опред"]
+			0 -> 2 [label="аппоз"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_93 {
+	graph [label="В его фигуре есть что-то тревожащее, вызывающее вопросы… Конечно, фигура — это и есть Лю Болин, который \"исчезает в городе\", становясь \"человеком-невидимкой\", — отмечают организаторы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фигуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тревожащее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вызывающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Конечно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="фигура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Лю Болин
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="исчезает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="становясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="человеком-невидимкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="отмечают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="организаторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="опред"]
+			4 -> 16 [label="релят"]
+			32 -> 33 [label="предик"]
+			22 -> 23 [label="предл"]
+			16 -> 7 [label="предик"]
+			16 -> 10 [label="вводн"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="присвяз"]
+			0 -> 2 [label="предл"]
+			21 -> 4 [label="_1_компл"]
+			21 -> 19 [label="предик"]
+			21 -> 22 [label="обст"]
+			21 -> 26 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			14 -> 12 [label="пролепт"]
+			26 -> 28 [label="присвяз"]
+			2 -> 1 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 21 [label="сент_соч"]
+			3 -> 32 [label="вводн"]
+}

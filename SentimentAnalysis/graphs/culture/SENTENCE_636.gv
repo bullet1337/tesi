@@ -1,0 +1,60 @@
+digraph SENTENCE_636 {
+	graph [label="Роли в фильме так же исполнили Майкл Б. Джордан, Лупита Нионго, Данай Гурира, Дэниэл Калуя, Летишиа Райт, Уинстон Дьюк, при участии Анджелы Бассет, Фореста Уитакера и Энди Серкиса."]
+	node [style=filled]
+		0 [label="Роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исполнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Майкл Б
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Джордан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Лупита Нионго
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Данай Гурира
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Дэниэл Калуя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Летишиа Райт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Уинстон Дьюк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="участии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Анджелы Бассет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Фореста Уитакера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Энди Серкиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="огранич"]
+			20 -> 21 [label="предл"]
+			18 -> 20 [label="атриб"]
+			22 -> 24 [label="аппоз"]
+			25 -> 26 [label="соч_союзн"]
+			21 -> 22 [label="квазиагент"]
+			10 -> 12 [label="сочин"]
+			1 -> 2 [label="предл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			6 -> 8 [label="об_аппоз"]
+			24 -> 25 [label="сочин"]
+			14 -> 16 [label="аппоз"]
+			8 -> 10 [label="сочин"]
+			12 -> 18 [label="сочин"]
+			12 -> 14 [label="аппоз"]
+			0 -> 1 [label="_2_компл"]
+}

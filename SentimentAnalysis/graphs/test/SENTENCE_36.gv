@@ -1,0 +1,21 @@
+digraph SENTENCE_36 {
+	graph [label="игра Пенелопы Крус лучше, чем игра Мэнди Петинкина."]
+	node [style=filled]
+		0 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Пенелопы Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="лучше
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		4 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мэнди Петинкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="сравн_союзн"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сравнит"]
+			0 -> 1 [label="квазиагент"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_2345 {
+	graph [label="Причём, зная остальное творчество Триера, всем нутром ощущаешь излишнюю пафосность и ненатуральность всех этих сантиментов."]
+	node [style=filled]
+		0 [label="Причём
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="остальное
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="творчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нутром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ощущаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="излишнюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пафосность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ненатуральность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сантиментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			12 -> 13 [label="соч_союзн"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 8 [label="_2_компл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			9 -> 2 [label="обст"]
+			9 -> 11 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			0 -> 9 [label="соч_союзн"]
+			13 -> 16 [label="квазиагент"]
+}

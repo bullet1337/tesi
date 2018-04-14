@@ -1,0 +1,24 @@
+digraph SENTENCE_4641 {
+	graph [label="Хотелось простого зрелищного действия с красивыми спецэффектами."]
+	node [style=filled]
+		0 [label="Хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="простого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зрелищного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="действия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="красивыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спецэффектами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предик"]
+			4 -> 6 [label="предл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			6 -> 5 [label="опред"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_160 {
+	graph [label="Действуют смело, решительно, мужественно."]
+	node [style=filled]
+		0 [label="Действуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="решительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мужественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="обст"]
+			3 -> 5 [label="сочин"]
+			1 -> 3 [label="сочин"]
+}

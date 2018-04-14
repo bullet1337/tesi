@@ -1,0 +1,21 @@
+digraph SENTENCE_1398 {
+	graph [label="Зато финальная сцена была снята блестяще."]
+	node [style=filled]
+		0 [label="Зато
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="финальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снята
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="блестяще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="обст"]
+}

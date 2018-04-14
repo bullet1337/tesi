@@ -1,0 +1,57 @@
+digraph SENTENCE_403 {
+	graph [label="Да и героиня так же добра и невинна, и окружающий мир также непредсказуем: он состоит из разных людей."]
+	node [style=filled]
+		0 [label="Да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="добра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="невинна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="окружающий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="непредсказуем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="состоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="сочин"]
+			0 -> 1 [label="огранич"]
+			13 -> 0 [label="вводн"]
+			13 -> 2 [label="предик"]
+			13 -> 3 [label="огранич"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 16 [label="сент_соч"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			17 -> 19 [label="предл"]
+			19 -> 18 [label="опред"]
+}

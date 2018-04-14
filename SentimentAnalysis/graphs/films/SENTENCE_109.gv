@@ -1,0 +1,36 @@
+digraph SENTENCE_109 {
+	graph [label="Очень наглядны переходы из серого цеха фабрики в яркий мир мюзикла."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наглядны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="переходы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="серого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="цеха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фабрики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="яркий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мюзикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			3 -> 5 [label="предл"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 7 [label="атриб"]
+			2 -> 10 [label="квазиагент"]
+}

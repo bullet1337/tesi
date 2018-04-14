@@ -1,0 +1,54 @@
+digraph SENTENCE_48 {
+	graph [label="Когда-то это проходило спокойно, когда-то на наши счета налагались аресты, но потом наши юристы это все оспаривали."]
+	node [style=filled]
+		0 [label="Когда-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проходило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="счета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="налагались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="аресты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="юристы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оспаривали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="сент_соч"]
+			12 -> 15 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			9 -> 5 [label="обст"]
+			9 -> 6 [label="обст"]
+			9 -> 10 [label="предик"]
+			9 -> 12 [label="сент_соч"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="опред"]
+			15 -> 18 [label="релят"]
+			16 -> 17 [label="опред"]
+			6 -> 8 [label="предл"]
+			18 -> 16 [label="_1_компл"]
+}

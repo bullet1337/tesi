@@ -1,0 +1,21 @@
+digraph SENTENCE_356 {
+	graph [label="И что ты на это ответишь?.."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ответишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_3_компл"]
+			0 -> 5 [label="соч_союзн"]
+}

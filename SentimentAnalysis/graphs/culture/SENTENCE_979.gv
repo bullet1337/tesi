@@ -1,0 +1,42 @@
+digraph SENTENCE_979 {
+	graph [label="Спектакль Театра Наций \"Рассказы Шукшина\" объездил с гастролями полмира и везде имел большой успех."]
+	node [style=filled]
+		0 [label="Спектакль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Театра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Наций
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Рассказы Шукшина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="объездил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="гастролями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="полмира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="везде
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="успех
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="соч_союзн"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="сочин"]
+			0 -> 1 [label="квазиагент"]
+			1 -> 2 [label="атриб"]
+			7 -> 8 [label="предл"]
+			14 -> 13 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			12 -> 11 [label="обст"]
+			12 -> 14 [label="_1_компл"]
+			2 -> 4 [label="сочин"]
+}

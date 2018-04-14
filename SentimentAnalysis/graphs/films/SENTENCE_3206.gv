@@ -1,0 +1,42 @@
+digraph SENTENCE_3206 {
+	graph [label="Извращенцы, которым нечем занять себя в горах и некуда направить свою сексуальную энергию."]
+	node [style=filled]
+		0 [label="Извращенцы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нечем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="занять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="горах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="некуда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="направить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сексуальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="энергию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="дат_субъект"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			4 -> 8 [label="сочин"]
+			4 -> 10 [label="_1_компл"]
+			10 -> 13 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+}

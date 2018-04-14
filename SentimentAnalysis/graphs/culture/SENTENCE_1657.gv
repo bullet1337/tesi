@@ -1,0 +1,54 @@
+digraph SENTENCE_1657 {
+	graph [label="Из современной реальности Михаил попадает в гущу кровавого сражения на Невском пятачке во время Второй мировой войны."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="реальности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Михаил
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="попадает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гущу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кровавого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сражения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Невском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="пятачке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Второй
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			0 -> 2 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			9 -> 11 [label="предл"]
+			12 -> 13 [label="предл"]
+			11 -> 10 [label="опред"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 8 [label="предик"]
+			4 -> 12 [label="обст"]
+			4 -> 16 [label="предик"]
+}

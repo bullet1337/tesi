@@ -1,0 +1,39 @@
+digraph SENTENCE_227 {
+	graph [label="Конечно, ставить Шекспира — всегда непросто, но я никогда не боялся сложных проектов."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Шекспира
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="непросто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="боялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сложных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проектов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 12 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			6 -> 5 [label="обст"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+			2 -> 0 [label="вводн"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			2 -> 8 [label="сент_соч"]
+}

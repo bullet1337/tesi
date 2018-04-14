@@ -1,0 +1,36 @@
+digraph SENTENCE_2980 {
+	graph [label="А персонаж Джилленхола под конец уже просто начинает удовлетворять свою похоть."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Джилленхола
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="начинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="удовлетворять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="похоть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			1 -> 3 [label="атриб"]
+			0 -> 1 [label="соч_союзн"]
+			0 -> 7 [label="вводн"]
+			7 -> 5 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 10 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			10 -> 9 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_3695 {
+	graph [label="1 из 10 Только потому, что меньше поставить просто невозможно!"]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Только
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="подч_союзн"]
+			1 -> 2 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="эксплет"]
+			4 -> 8 [label="сочин"]
+			4 -> 10 [label="сент_соч"]
+			0 -> 1 [label="электив"]
+			10 -> 9 [label="огранич"]
+}

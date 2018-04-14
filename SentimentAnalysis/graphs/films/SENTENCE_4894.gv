@@ -1,0 +1,27 @@
+digraph SENTENCE_4894 {
+	graph [label="Как и все персонажи, произносит пустые банальные фразы."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="персонажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="произносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пустые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="банальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фразы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 8 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			0 -> 3 [label="сравн_союзн"]
+			3 -> 2 [label="опред"]
+}

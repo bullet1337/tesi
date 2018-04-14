@@ -1,0 +1,42 @@
+digraph SENTENCE_1130 {
+	graph [label="Соболезнования в связи со смертью актрисы ранее выразил президент Индии Рам Натх‏ Ковинд."]
+	node [style=filled]
+		0 [label="Соболезнования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смертью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Индии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Рам
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Натх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ковинд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="_1_компл"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="предик"]
+			7 -> 11 [label="вводн"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			11 -> 13 [label="аппоз"]
+			2 -> 3 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="атриб"]
+}

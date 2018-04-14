@@ -1,0 +1,39 @@
+digraph SENTENCE_4503 {
+	graph [label="В итоге мы имеем блокбастер без сюжета, без персонажей и без зрелища."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имеем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="блокбастер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрелища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			8 -> 10 [label="сочин"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+			5 -> 8 [label="сочин"]
+}

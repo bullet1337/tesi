@@ -1,0 +1,33 @@
+digraph SENTENCE_735 {
+	graph [label="Россияне чествуют тех, кто служил или служит в Вооруженных Силах."]
+	node [style=filled]
+		0 [label="Россияне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="чествуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="служил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="служит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Вооруженных
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Силах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			2 -> 5 [label="релят"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="сочин"]
+			7 -> 8 [label="_2_компл"]
+			10 -> 9 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+}

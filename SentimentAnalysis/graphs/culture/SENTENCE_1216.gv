@@ -1,0 +1,48 @@
+digraph SENTENCE_1216 {
+	graph [label="Актеры отметили особую атмосферу Петербурга и рассказали о съемках, которые проходили в период белых ночей."]
+	node [style=filled]
+		0 [label="Актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="особую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="атмосферу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Петербурга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="съемках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проходили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="белых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ночей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="_3_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 5 [label="сочин"]
+			1 -> 11 [label="сент_соч"]
+			15 -> 14 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			13 -> 15 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+}

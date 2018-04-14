@@ -1,0 +1,35 @@
+digraph SENTENCE_1081 {
+	graph [label="В 395 году святилище было разрушено во время нашествия готов Алариха."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="395
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="святилище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разрушено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нашествия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="готов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Алариха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="обст"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5
+			4 -> 8 [label="предик"]
+			6 -> 7 [label="предл"]
+			9 -> 10 [label="предик"]
+}

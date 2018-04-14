@@ -1,0 +1,61 @@
+digraph SENTENCE_913 {
+	graph [label="Зарегистрированная безработица в среднем снизилась практически втрое с почти полумиллиона человек до 135 тысяч\", — сказал Медведев, открывая встречу в Грозном."]
+	node [style=filled]
+		0 [label="Зарегистрированная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="безработица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="среднем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снизилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="втрое
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="полумиллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="135
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Медведев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="открывая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="встречу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Грозном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 22 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			9 -> 8 [label="огранич"]
+			10 -> 11 [label="атриб"]
+			17 -> 10 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			13 -> 12 [label="количест"]
+			22 -> 23 [label="предл"]
+			2 -> 3 [label="предл"]
+			11 -> 13 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 6 [label="_3_компл"]
+			4 -> 17 [label="сент_соч"]
+			7 -> 9 [label="предл"]
+}

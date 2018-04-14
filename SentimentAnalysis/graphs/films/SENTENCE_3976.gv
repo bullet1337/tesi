@@ -1,0 +1,18 @@
+digraph SENTENCE_3976 {
+	graph [label="Алекс немедленно подписывает все бумажки."]
+	node [style=filled]
+		0 [label="Алекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="немедленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подписывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бумажки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,32 @@
+digraph SENTENCE_1352 {
+	graph [label="\"Новый человек всегда похож на старого, но его сложнее удивить."]
+	node [style=filled]
+		1 [label="Новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="похож
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="старого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сложнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="удивить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			8 -> 11 [label="соч_союзн"]
+			6 -> 8 [label="сочин"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 10 [label="обст"]
+			2 -> 1 [label="опред"]
+}

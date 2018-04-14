@@ -1,0 +1,33 @@
+digraph SENTENCE_4008 {
+	graph [label="3 из 10 Только за неформатность и ресницы со шляпами."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Только
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неформатность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ресницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шляпами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="атриб"]
+			6 -> 7 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			5 -> 6 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="электив"]
+			8 -> 9 [label="предл"]
+}

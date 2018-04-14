@@ -1,0 +1,51 @@
+digraph SENTENCE_4928 {
+	graph [label="По мне так он ничуть не хуже того же расфуфыренного «Армагеддона» от Миши Заливного, того же года."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ничуть
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="расфуфыренного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Армагеддона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Миши Заливного
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 7 [label="опред"]
+			11 -> 9 [label="опред"]
+			7 -> 8 [label="огранич"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="огранич"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 11 [label="сравнит"]
+			6 -> 13 [label="атриб"]
+			5 -> 4 [label="огранич"]
+			14 -> 18 [label="атриб"]
+			13 -> 14 [label="предл"]
+			16 -> 17 [label="огранич"]
+			18 -> 16 [label="опред"]
+}

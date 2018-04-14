@@ -1,0 +1,94 @@
+digraph SENTENCE_321 {
+	graph [label="Суд здесь-это фарс в чистом виде, эдакая трагикомедия которая показывает всю ничтожность человеческой жизни перед обществом, это усмешка Триера, он как будто бы плюёт в зрителя и насмехается над всеми нами."]
+	node [style=filled]
+		0 [label="Суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь-это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фарс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чистом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="виде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эдакая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="трагикомедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ничтожность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="человеческой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обществом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="усмешка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="плюёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="насмехается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			24 -> 25
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_2_компл"]
+			23 -> 26 [label="сравн_союзн"]
+			18 -> 19 [label="предик"]
+			26 -> 24 [label="огранич"]
+			26 -> 27 [label="_2_компл"]
+			26 -> 29 [label="сочин"]
+			3 -> 5 [label="предл"]
+			33 -> 32 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="атриб"]
+			2 -> 8 [label="сочин"]
+			2 -> 10 [label="релят"]
+			2 -> 18 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="опред"]
+			19 -> 20 [label="аппоз"]
+			27 -> 28 [label="предл"]
+			29 -> 30 [label="соч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			31 -> 33 [label="предл"]
+			30 -> 31 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+}

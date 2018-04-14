@@ -1,0 +1,21 @@
+digraph SENTENCE_1096 {
+	graph [label="Выставочный зал сделан в форме Телестериона."]
+	node [style=filled]
+		0 [label="Выставочный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сделан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Телестериона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_390 {
+	graph [label="Смотреть всем, кому нравится драма и творчество Бьорк."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="творчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="соч_союзн"]
+			0 -> 1 [label="дат_субъект"]
+			0 -> 8 [label="вводн"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			1 -> 4 [label="релят"]
+			5 -> 6 [label="сочин"]
+}

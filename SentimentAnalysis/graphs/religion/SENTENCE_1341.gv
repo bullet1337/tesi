@@ -1,0 +1,73 @@
+digraph SENTENCE_1341 {
+	graph [label="Пастухи уже готовятся выгонять скот на пастбища, и потому, по словам верховного ламы, это время посвящено не столько празднествам, сколько религиозным ритуалам, способствующим процветанию."]
+	node [style=filled]
+		0 [label="Пастухи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="готовятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выгонять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скот
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пастбища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="верховного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ламы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="посвящено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="празднествам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="религиозным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ритуалам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="способствующим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="процветанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			8 -> 18 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			17 -> 16 [label="опред"]
+			5 -> 6 [label="предл"]
+			20 -> 19 [label="огранич"]
+			14 -> 13 [label="опред"]
+			18 -> 9 [label="обст"]
+			18 -> 11 [label="обст"]
+			18 -> 17 [label="предик"]
+			12 -> 14 [label="квазиагент"]
+			25 -> 24 [label="опред"]
+			25 -> 27 [label="опред"]
+			23 -> 25 [label="сочин"]
+			27 -> 28 [label="_1_компл"]
+			21 -> 23 [label="сочин"]
+}

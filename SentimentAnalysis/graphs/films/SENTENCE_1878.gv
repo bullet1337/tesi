@@ -1,0 +1,30 @@
+digraph SENTENCE_1878 {
+	graph [label="Катрин Денев по-прежнему является украшением любого фильма, несмотря на возраст."]
+	node [style=filled]
+		0 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="украшением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="возраст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="обст"]
+			2 -> 8 [label="обст"]
+			3 -> 5 [label="квазиагент"]
+}

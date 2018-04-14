@@ -1,0 +1,24 @@
+digraph SENTENCE_306 {
+	graph [label="У нас пока ситуация лучше\", — заключает Елистратов."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заключает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Елистратов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			8 -> 0 [label="_1_компл"]
+			8 -> 2 [label="обст"]
+			8 -> 3 [label="предик"]
+			8 -> 9 [label="предик"]
+			3 -> 4 [label="квазиагент"]
+}

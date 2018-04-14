@@ -1,0 +1,30 @@
+digraph SENTENCE_1672 {
+	graph [label="Сельма своими фантазиями окрашивает яркими цветами тусклый мир вокруг."]
+	node [style=filled]
+		0 [label="Сельма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фантазиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="окрашивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="яркими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="цветами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тусклый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 8 [label="обст"]
+			2 -> 1 [label="опред"]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="опред"]
+}

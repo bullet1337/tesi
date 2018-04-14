@@ -1,0 +1,27 @@
+digraph SENTENCE_4644 {
+	graph [label="За них не переживаешь, на них вообще плевать."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="переживаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			8 -> 5 [label="_2_компл"]
+			8 -> 7 [label="обст"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 8 [label="_1_компл"]
+}

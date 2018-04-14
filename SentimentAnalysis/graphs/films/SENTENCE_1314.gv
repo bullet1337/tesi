@@ -1,0 +1,33 @@
+digraph SENTENCE_1314 {
+	graph [label="Вам кажется, что все окружающие вас люди презирают вас, ненавидят."]
+	node [style=filled]
+		0 [label="Вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="окружающие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="презирают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ненавидят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 8 [label="подч_союзн"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 11 [label="вводн"]
+			7 -> 4 [label="опред"]
+			7 -> 5 [label="опред"]
+}

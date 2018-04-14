@@ -1,0 +1,93 @@
+digraph SENTENCE_24 {
+	graph [label="Первый специализированный вертолет санитарной авиации МИ-8 МТВ прибыл на Камчатку, он будет обслуживать камчатский Центр медицины катастроф, что позволит значительно повысить качество экстренной медицинской помощи, сообщила пресс-служба краевого правительства."]
+	node [style=filled]
+		0 [label="Первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="специализированный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вертолет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="санитарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="авиации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="МИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="МТВ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="прибыл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Камчатку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="обслуживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="камчатский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Центр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="медицины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="катастроф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="позволит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="значительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="повысить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="качество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="экстренной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="медицинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="краевого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 23 [label="огранич"]
+			24 -> 25 [label="_1_компл"]
+			9 -> 2 [label="_1_компл"]
+			9 -> 5 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 14 [label="сент_соч"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="атриб"]
+			17 -> 22 [label="релят"]
+			5 -> 8 [label="_1_компл"]
+			22 -> 21 [label="предик"]
+			22 -> 24 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="количест"]
+			15 -> 17 [label="_1_компл"]
+			30 -> 31 [label="предик"]
+			25 -> 28 [label="квазиагент"]
+			31 -> 33 [label="квазиагент"]
+			33 -> 32 [label="опред"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="аналит"]
+			14 -> 30 [label="сент_соч"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			28 -> 26 [label="опред"]
+			28 -> 27 [label="опред"]
+}

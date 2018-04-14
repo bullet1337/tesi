@@ -1,0 +1,20 @@
+digraph SENTENCE_1822 {
+	graph [label="Да и сложно назвать фильм обычным."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обычным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предик"]
+			4 -> 5 [label="опред"]
+			0 -> 1 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+}

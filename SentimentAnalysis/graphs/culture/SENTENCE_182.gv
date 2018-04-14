@@ -1,0 +1,35 @@
+digraph SENTENCE_182 {
+	graph [label="Ему была присуждена IV премия, но зрители принимали его как победителя."]
+	node [style=filled]
+		0 [label="Ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="присуждена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="IV
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="премия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="принимали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="победителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="соч_союзн"]
+			4 -> 3 [label="количест"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			10 -> 11 [label="сравн_союзн"]
+			9 -> 10 [label="сравнит"]
+			1 -> 2
+			1 -> 4 [label="предик"]
+			1 -> 6 [label="сент_соч"]
+}

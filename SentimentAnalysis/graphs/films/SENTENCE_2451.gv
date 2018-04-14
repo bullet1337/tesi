@@ -1,0 +1,60 @@
+digraph SENTENCE_2451 {
+	graph [label="После его просмотра я только убедился в том, что фильм снимали ради пропаганды, показать как ужасно в Северной Кореи."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="убедился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снимали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пропаганды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ужасно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Кореи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 13 [label="предл"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="обст"]
+			7 -> 9 [label="эксплет"]
+			6 -> 7 [label="предл"]
+			18 -> 20 [label="предл"]
+			20 -> 19 [label="опред"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 15 [label="сочин"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="атриб"]
+			9 -> 11 [label="подч_союзн"]
+			15 -> 17 [label="_1_компл"]
+}

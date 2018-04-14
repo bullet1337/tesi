@@ -1,0 +1,21 @@
+digraph SENTENCE_438 {
+	graph [label="Одна сторона — это ее тотальное самопожертвование."]
+	node [style=filled]
+		0 [label="Одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сторона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тотальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самопожертвование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			3 -> 1 [label="пролепт"]
+			1 -> 0 [label="опред"]
+}

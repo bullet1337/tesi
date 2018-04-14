@@ -1,0 +1,66 @@
+digraph SENTENCE_1501 {
+	graph [label="В Дании обычно посылают друг другу засушенные белые цветы, а в Испании верхом страсти считается отправить любовное послание с почтовым голубем."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Дании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="обычно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посылают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="другу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="засушенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="белые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="цветы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Испании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="верхом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="страсти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="считается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отправить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="любовное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="послание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="почтовым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="голубем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 21 [label="предл"]
+			0 -> 1 [label="предл"]
+			16 -> 18 [label="_1_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 4
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 8 [label="предик"]
+			3 -> 10 [label="сент_соч"]
+			10 -> 15 [label="соч_союзн"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="атриб"]
+			15 -> 11 [label="обст"]
+			15 -> 13 [label="_2_компл"]
+			15 -> 16 [label="предик"]
+			13 -> 14 [label="квазиагент"]
+			21 -> 20 [label="опред"]
+			11 -> 12 [label="предл"]
+}

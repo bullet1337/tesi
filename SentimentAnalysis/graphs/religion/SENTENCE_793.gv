@@ -1,0 +1,30 @@
+digraph SENTENCE_793 {
+	graph [label="Воинскую часть 42754 не просто так прозвали \"православным полком\"."]
+	node [style=filled]
+		0 [label="Воинскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="42754
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прозвали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="православным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="полком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			9 -> 8 [label="опред"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 9 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="примыкат"]
+			4 -> 3 [label="огранич"]
+}

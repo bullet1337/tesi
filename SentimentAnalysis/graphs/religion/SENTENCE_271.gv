@@ -1,0 +1,27 @@
+digraph SENTENCE_271 {
+	graph [label="\"Пустословие — не пустая забава, не просто безобидное времяпрепровождение."]
+	node [style=filled]
+		1 [label="Пустословие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пустая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="забава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="безобидное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="времяпрепровождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 10 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			10 -> 9 [label="опред"]
+}

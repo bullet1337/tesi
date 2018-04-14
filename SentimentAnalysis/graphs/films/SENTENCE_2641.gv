@@ -1,0 +1,36 @@
+digraph SENTENCE_2641 {
+	graph [label="Ну и пусть, что сюжет якобы «детектива» прост, как две копейки."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="якобы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детектива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прост
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="копейки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="количест"]
+			10 -> 8 [label="предик"]
+			10 -> 12 [label="сравнит"]
+			12 -> 14 [label="сравн_союзн"]
+			1 -> 0 [label="вводн"]
+			1 -> 10 [label="соч_союзн"]
+			8 -> 2 [label="огранич"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="огранич"]
+			2 -> 4
+}

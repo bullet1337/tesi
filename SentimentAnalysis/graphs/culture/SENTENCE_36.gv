@@ -1,0 +1,56 @@
+digraph SENTENCE_36 {
+	graph [label="Вместе с Туминасом над новой сценической версией работали его постоянный соавтор, художник Адомас Яцовскис и автор костюмов Мария Данилова."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Туминасом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сценической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="версией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="постоянный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="соавтор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Адомас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Яцовскис
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="костюмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Мария Данилова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 10 [label="предик"]
+			7 -> 14 [label="сент_соч"]
+			14 -> 15 [label="сент_соч"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="аппоз"]
+			3 -> 6 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="аппоз"]
+			12 -> 13 [label="аппоз"]
+			0 -> 1 [label="_1_компл"]
+}

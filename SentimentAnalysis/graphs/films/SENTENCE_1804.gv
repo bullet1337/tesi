@@ -1,0 +1,50 @@
+digraph SENTENCE_1804 {
+	graph [label="Беженка из Чехословакии приезжает в США спасти своего сына от грядущей ему передающейся по наследству слепоты."]
+	node [style=filled]
+		0 [label="Беженка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="приезжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="спасти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="грядущей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="передающейся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наследству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слепоты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			14 -> 15 [label="квазиагент"]
+			10 -> 12 [label="примыкат"]
+			0 -> 1 [label="атриб"]
+			13 -> 14 [label="предл"]
+			1 -> 2 [label="предл"]
+			8 -> 7 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="обст"]
+			12 -> 11 [label="_2_компл"]
+			12 -> 13 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="_2_компл"]
+}

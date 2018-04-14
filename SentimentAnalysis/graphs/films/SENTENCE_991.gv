@@ -1,0 +1,33 @@
+digraph SENTENCE_991 {
+	graph [label="По мере продвижения сюжета становится понятно, что главная героиня полуслепая."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продвижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="полуслепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="присвяз"]
+			4 -> 7 [label="предик"]
+			7 -> 10 [label="подч_союзн"]
+			9 -> 8 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			10 -> 9 [label="предик"]
+}

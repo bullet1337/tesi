@@ -1,0 +1,21 @@
+digraph SENTENCE_15 {
+	graph [label="Но и он оказался на высоте!"]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="высоте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="присвяз"]
+			2 -> 1 [label="огранич"]
+}

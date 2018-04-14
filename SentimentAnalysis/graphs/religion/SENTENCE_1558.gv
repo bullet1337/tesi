@@ -1,0 +1,33 @@
+digraph SENTENCE_1558 {
+	graph [label="А (почетный папа) Бенедикт XVI и я — на листе ожидания."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="почетный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Бенедикт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="XVI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="листе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="квазиагент"]
+			5 -> 6
+			0 -> 10 [label="соч_союзн"]
+			10 -> 3 [label="предик"]
+			10 -> 11 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="аппоз"]
+			3 -> 7 [label="сочин"]
+}

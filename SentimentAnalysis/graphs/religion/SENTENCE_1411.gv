@@ -1,0 +1,69 @@
+digraph SENTENCE_1411 {
+	graph [label="Этот вопрос обсуждается в Дании более 15 лет, и большинство населения выступает за запрет, поэтому опасность популистского решения вполне реальна\", — говорит он."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обсуждается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выступает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="запрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="опасность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="популистского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="решения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вполне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="реальна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			25 -> 26 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 21 [label="сочин"]
+			2 -> 25 [label="вводн"]
+			3 -> 4 [label="предл"]
+			21 -> 5 [label="огранич"]
+			21 -> 16 [label="обст"]
+			21 -> 17 [label="предик"]
+			21 -> 20 [label="огранич"]
+			5 -> 7 [label="сравнит"]
+			5 -> 9 [label="примыкат"]
+			17 -> 19 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			7 -> 6 [label="количест"]
+			12 -> 10 [label="предик"]
+			12 -> 13 [label="обст"]
+			1 -> 0 [label="опред"]
+			9 -> 12 [label="соч_союзн"]
+			10 -> 11 [label="квазиагент"]
+}

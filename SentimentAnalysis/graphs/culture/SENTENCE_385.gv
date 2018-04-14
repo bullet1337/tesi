@@ -1,0 +1,41 @@
+digraph SENTENCE_385 {
+	graph [label="Но самое интересное в раунде, да и во всем выступлении Птахи, было впереди."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интересное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раунде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выступлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="впереди
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 2 [label="соч_союзн"]
+			6 -> 7 [label="огранич"]
+			6 -> 8 [label="соч_союзн"]
+			13 -> 14 [label="присвяз"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			2 -> 6 [label="сочин"]
+			3 -> 4 [label="предл"]
+			8 -> 10 [label="предл"]
+}

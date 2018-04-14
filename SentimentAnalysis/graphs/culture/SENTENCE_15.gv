@@ -1,0 +1,126 @@
+digraph SENTENCE_15 {
+	graph [label="Ребенок, мучимый страшными воспоминаниями, просит волонтеров установить ему дверь в палатку, угрожает им ножом для резки бумаги, в ходе скитаний по лагерю лишается единственной ценной вещи, которая у него была – часов, и в итоге от отчаяния и гнева поджигает свою палатку."]
+	node [style=filled]
+		0 [label="Ребенок
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="мучимый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="страшными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="воспоминаниями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="волонтеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="установить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дверь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="палатку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="угрожает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ножом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="резки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="бумаги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="скитаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="лагерю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="лишается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="единственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="ценной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="отчаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="гнева
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="поджигает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		46 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		47 [label="палатку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 14 [label="сент_соч"]
+			16 -> 17 [label="атриб"]
+			2 -> 4 [label="агент"]
+			21 -> 22 [label="предл"]
+			45 -> 39 [label="обст"]
+			45 -> 47 [label="_1_компл"]
+			39 -> 40 [label="предл"]
+			39 -> 41 [label="сочин"]
+			4 -> 3 [label="опред"]
+			41 -> 42 [label="предл"]
+			29 -> 27 [label="опред"]
+			29 -> 28 [label="опред"]
+			32 -> 33 [label="предл"]
+			47 -> 46 [label="опред"]
+			43 -> 44 [label="соч_союзн"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 16 [label="агент"]
+			14 -> 19 [label="предик"]
+			14 -> 21 [label="_2_компл"]
+			14 -> 24 [label="обст"]
+			14 -> 26 [label="сент_соч"]
+			10 -> 11 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			24 -> 25 [label="предл"]
+			34 -> 31 [label="предик"]
+			34 -> 32 [label="_1_компл"]
+			34 -> 36 [label="присвяз"]
+			34 -> 38 [label="сент_соч"]
+			0 -> 2 [label="опред"]
+			17 -> 18 [label="предл"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 10 [label="_1_компл"]
+			42 -> 43 [label="сочин"]
+			26 -> 29 [label="предик"]
+			26 -> 34 [label="сент_соч"]
+			38 -> 45 [label="соч_союзн"]
+			22 -> 23 [label="квазиагент"]
+}

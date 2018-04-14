@@ -1,0 +1,75 @@
+digraph SENTENCE_490 {
+	graph [label="Мировой судебный участок 208 на 100 тысяч рублей оштрафовал московский кинотеатр \"Пионер\", который показал фильм \"Смерть Сталина\" без прокатного удостоверения, сообщили РИА Новости в суде."]
+	node [style=filled]
+		0 [label="Мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="судебный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="208
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оштрафовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кинотеатр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="показал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="суде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="нум_аппоз"]
+			2 -> 4 [label="атриб"]
+			28 -> 29 [label="предл"]
+			19 -> 20 [label="квазиагент"]
+			8 -> 2 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 26 [label="вводн"]
+			17 -> 19 [label="ном_аппоз"]
+			17 -> 22 [label="атриб"]
+			26 -> 27 [label="предик"]
+			26 -> 28 [label="обст"]
+			22 -> 24 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="аппоз"]
+			10 -> 16 [label="релят"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="квазиагент"]
+			4 -> 6 [label="предл"]
+			24 -> 23 [label="опред"]
+			16 -> 15 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+}

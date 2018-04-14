@@ -1,0 +1,33 @@
+digraph SENTENCE_2198 {
+	graph [label="Это глубокий катарсис, на душе было так, словно после исповеди."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="глубокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="катарсис
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="душе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="исповеди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="эксплет"]
+			6 -> 7 [label="обст"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			2 -> 6 [label="разъяснит"]
+			4 -> 5 [label="предл"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="сравн_союзн"]
+}

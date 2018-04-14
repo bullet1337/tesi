@@ -1,0 +1,48 @@
+digraph SENTENCE_209 {
+	graph [label="От Римско-католической церкви на конференции присутствует глава Папского совета по содействию христианскому единству кардинал Курт Кох."]
+	node [style=filled]
+		0 [label="От
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Римско-католической
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="присутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Папского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="содействию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="христианскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="единству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кардинал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Курт Кох
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 12 [label="аппоз"]
+			6 -> 13 [label="сочин"]
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="_2_компл"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			12 -> 11 [label="опред"]
+			2 -> 1 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			9 -> 10 [label="предл"]
+			3 -> 4 [label="предл"]
+}

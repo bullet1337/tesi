@@ -1,0 +1,30 @@
+digraph SENTENCE_1351 {
+	graph [label="Реальность была не такой идеальной, как она хотела бы."]
+	node [style=filled]
+		0 [label="Реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="идеальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="аналит"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="присвяз"]
+			1 -> 6 [label="сравнит"]
+			3 -> 2 [label="огранич"]
+			6 -> 8 [label="сравн_союзн"]
+}

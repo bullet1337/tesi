@@ -1,0 +1,45 @@
+digraph SENTENCE_1867 {
+	graph [label="Не видя красок мира, она слышит, слышит свою музыку, заглушающую резкий шум заводских станков."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="красок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заглушающую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="резкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="шум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заводских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="станков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			12 -> 14 [label="_1_компл"]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="вводн"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 10 [label="предик"]
+}

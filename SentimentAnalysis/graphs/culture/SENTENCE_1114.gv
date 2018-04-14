@@ -1,0 +1,42 @@
+digraph SENTENCE_1114 {
+	graph [label="Цели, наверное, ставили себе в какой-то степени благороднее и жили беднее\", — заметил он."]
+	node [style=filled]
+		0 [label="Цели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ставили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="степени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="благороднее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="беднее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="вводн"]
+			4 -> 5 [label="неакт_компл"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 9 [label="обст"]
+			4 -> 10 [label="сент_соч"]
+			4 -> 16 [label="вводн"]
+			16 -> 17 [label="предик"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+			11 -> 12 [label="обст"]
+}

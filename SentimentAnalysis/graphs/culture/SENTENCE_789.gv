@@ -1,0 +1,30 @@
+digraph SENTENCE_789 {
+	graph [label="Коллега Чэмберс по фильму \"Ноттинг-Хилл\" Хью Грант выразил соболезнования в своем."]
+	node [style=filled]
+		0 [label="Коллега Чэмберс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Ноттинг-Хилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Хью Грант
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="соболезнования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="аппоз"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="атриб"]
+			2 -> 4 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="_3_компл"]
+}

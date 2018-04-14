@@ -1,0 +1,50 @@
+digraph SENTENCE_3599 {
+	graph [label="Козловский так же далек и внешне и по темпераменту от Харламова, как и Меньшиков от Тарасова."]
+	node [style=filled]
+		0 [label="Козловский
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="далек
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="внешне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темпераменту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Меньшиков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Тарасова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 7 [label="вводн"]
+			9 -> 10 [label="предл"]
+			1 -> 2 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			3 -> 6 [label="сент_соч"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="атриб"]
+			6 -> 9 [label="соч_союзн"]
+			12 -> 14 [label="сравн_союзн"]
+			7 -> 8 [label="предл"]
+			15 -> 16 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+}

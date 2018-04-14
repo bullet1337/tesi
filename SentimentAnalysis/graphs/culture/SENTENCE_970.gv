@@ -1,0 +1,36 @@
+digraph SENTENCE_970 {
+	graph [label="Государственный театр Наций представит спектакль \"Рассказы Шукшина\" на 46-ом Гонконгском Фестивале Искусства."]
+	node [style=filled]
+		0 [label="Государственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Наций
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Рассказы Шукшина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="46-ом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Гонконгском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Фестивале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Искусства
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			4 -> 6 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="_2_компл"]
+			3 -> 11 [label="_1_компл"]
+}

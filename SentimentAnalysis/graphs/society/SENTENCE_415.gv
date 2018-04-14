@@ -1,0 +1,18 @@
+digraph SENTENCE_415 {
+	graph [label="Похороны также состоятся в столице."]
+	node [style=filled]
+		0 [label="Похороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="состоятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_539 {
+	graph [label="Фильм об обычных проблемах: о нехватке денег, о проблемах со здоровьем, но как только Сельма начинает мечтать, это все превращается в сказку."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проблемах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нехватке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проблемах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="здоровьем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="начинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мечтать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="превращается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сказку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="сравн_союзн"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 14 [label="сочин"]
+			17 -> 16 [label="огранич"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			21 -> 22 [label="опред"]
+			14 -> 18 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			23 -> 21 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+			1 -> 3 [label="предл"]
+			5 -> 6 [label="предл"]
+			24 -> 25 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 9 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			18 -> 15 [label="сравнит"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 23 [label="разъяснит"]
+}

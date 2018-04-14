@@ -1,0 +1,18 @@
+digraph SENTENCE_464 {
+	graph [label="Потому что только они настоящие."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="настоящие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="эксплет"]
+			3 -> 2 [label="огранич"]
+			1 -> 4 [label="подч_союзн"]
+			4 -> 3 [label="предик"]
+}

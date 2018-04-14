@@ -1,0 +1,24 @@
+digraph SENTENCE_2462 {
+	graph [label="И таких примеров множество еще в фильме."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="примеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+}

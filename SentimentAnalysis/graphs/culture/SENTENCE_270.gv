@@ -1,0 +1,60 @@
+digraph SENTENCE_270 {
+	graph [label="Ее продюсером стал Джеймс Форд, основатель дуэта Simian Mobile Disco, чьи недавние работы включают сотрудничество с Florence and the Machine и Arctic Monkeys."]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продюсером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Джеймс Форд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="основатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дуэта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Simian Mobile Disco
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="чьи
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="недавние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="включают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сотрудничество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Florence
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="and
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="the
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Machine
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Arctic Monkeys
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="_1_компл"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="_1_компл"]
+			2 -> 1 [label="присвяз"]
+			2 -> 3 [label="предик"]
+			2 -> 12 [label="сент_соч"]
+			19 -> 20 [label="соч_союзн"]
+			16 -> 17 [label="аппоз"]
+			6 -> 7 [label="аппоз"]
+			17 -> 18 [label="аппоз"]
+			12 -> 5 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="аппоз"]
+			14 -> 15 [label="предл"]
+			15 -> 16 [label="аппоз"]
+			15 -> 19 [label="сочин"]
+}

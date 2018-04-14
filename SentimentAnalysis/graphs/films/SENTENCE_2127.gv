@@ -1,0 +1,75 @@
+digraph SENTENCE_2127 {
+	graph [label="Арсений Тарковский был не просто отцом по крови, он был отцом духовным и по признанию режиссера, он обязан всем, что есть в нем именно отцу."]
+	node [style=filled]
+		0 [label="Арсений Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отцом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="крови
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отцом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="духовным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="признанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="обязан
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="отцу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 18 [label="соч_союзн"]
+			26 -> 19 [label="_1_компл"]
+			26 -> 25 [label="огранич"]
+			19 -> 22 [label="релят"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="присвяз"]
+			1 -> 9 [label="сент_соч"]
+			3 -> 2 [label="огранич"]
+			22 -> 21 [label="предик"]
+			22 -> 23 [label="присвяз"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="атриб"]
+			5 -> 6 [label="предл"]
+			13 -> 14 [label="предл"]
+			18 -> 13 [label="вводн"]
+			18 -> 17 [label="предик"]
+			18 -> 26 [label="_1_компл"]
+			10 -> 11 [label="оп_опред"]
+			14 -> 15 [label="квазиагент"]
+			23 -> 24 [label="предл"]
+			11 -> 12 [label="сочин"]
+}

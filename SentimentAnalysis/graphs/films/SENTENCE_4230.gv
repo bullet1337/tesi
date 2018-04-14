@@ -1,0 +1,24 @@
+digraph SENTENCE_4230 {
+	graph [label="Сюжет, несмотря на тройной тайм скип, затянут."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тройной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тайм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="скип
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="затянут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			8 -> 6 [label="предик"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предл"]
+			3 -> 8 [label="сент_соч"]
+}

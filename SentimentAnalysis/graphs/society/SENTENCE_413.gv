@@ -1,0 +1,39 @@
+digraph SENTENCE_413 {
+	graph [label="Кандидат технических наук, профессор Мирзоев также написал несколько научных трудов по автомобилестроению."]
+	node [style=filled]
+		0 [label="Кандидат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="технических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="профессор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Мирзоев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="научных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трудов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="автомобилестроению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 10 [label="_1_компл"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 4 [label="аппоз"]
+			10 -> 8 [label="количест"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 5 [label="аппоз"]
+			2 -> 1 [label="опред"]
+}

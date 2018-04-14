@@ -1,0 +1,56 @@
+digraph SENTENCE_518 {
+	graph [label="Ларс фон Триер любит ставить своих персонажей в такие ситуации, в которых нужно выбрать — либо все, либо ничего."]
+	node [style=filled]
+		0 [label="Ларс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="любит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выбрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="либо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="либо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ничего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			11 -> 12 [label="предл"]
+			16 -> 20 [label="соч_союзн"]
+			7 -> 9 [label="предл"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="предик"]
+			0 -> 2 [label="аппоз"]
+			4 -> 6 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			2 -> 1
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 13 [label="сент_соч"]
+			20 -> 17 [label="предик"]
+			20 -> 19 [label="огранич"]
+}

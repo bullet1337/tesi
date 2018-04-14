@@ -1,0 +1,50 @@
+digraph SENTENCE_1748 {
+	graph [label="Автор более 20 произведений, в том числе \"Матерь человеческая\", \"Плавучая станица\", \"Сотворение мира\", \"Мать сыра земля\"."]
+	node [style=filled]
+		0 [label="Автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="произведений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Матерь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="человеческая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Плавучая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="станица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Сотворение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Мать
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="сыра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="земля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			20 -> 24 [label="сочин"]
+			9 -> 5 [label="огранич"]
+			9 -> 15 [label="сочин"]
+			3 -> 2 [label="количест"]
+			3 -> 9 [label="разъяснит"]
+			25 -> 26 [label="сочин"]
+			7 -> 6 [label="опред"]
+			15 -> 10 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 19 [label="сочин"]
+			1 -> 3 [label="сравнит"]
+			19 -> 20 [label="_1_компл"]
+			24 -> 25 [label="сочин"]
+}

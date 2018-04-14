@@ -1,0 +1,57 @@
+digraph SENTENCE_1176 {
+	graph [label="Российский военный экшн-фильм Алексея Сидорова \"Т-34\" выйдет в прокат в канун Нового года, 27 декабря, сообщила пресс-служба картины."]
+	node [style=filled]
+		0 [label="Российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="военный
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="экшн-фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алексея Сидорова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Т
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="34
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выйдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="канун
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Нового
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="декабря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			20 -> 1 [label="предик"]
+			20 -> 17 [label="обст"]
+			20 -> 21 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 9 [label="релят"]
+			3 -> 5 [label="аппоз"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 12 [label="обст"]
+			17 -> 18 [label="атриб"]
+			10 -> 11 [label="предл"]
+			12 -> 13 [label="предл"]
+			13 -> 15 [label="атриб"]
+			21 -> 22 [label="квазиагент"]
+}

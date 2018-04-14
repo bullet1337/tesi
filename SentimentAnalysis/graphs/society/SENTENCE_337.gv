@@ -1,0 +1,48 @@
+digraph SENTENCE_337 {
+	graph [label="О диагностике и лечении ишемической болезни сердца расскажут ведущие кардиологи в городской клинической больнице №4."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="диагностике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лечении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ишемической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="болезни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сердца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расскажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ведущие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кардиологи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="клинической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="больнице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="нум_аппоз"]
+			1 -> 2 [label="сочин"]
+			0 -> 1 [label="предл"]
+			5 -> 4 [label="опред"]
+			7 -> 0 [label="_3_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="предик"]
+			2 -> 3 [label="соч_союзн"]
+			3 -> 5 [label="_1_компл"]
+			10 -> 13 [label="предл"]
+}

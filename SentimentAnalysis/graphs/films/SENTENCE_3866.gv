@@ -1,0 +1,36 @@
+digraph SENTENCE_3866 {
+	graph [label="Говоря об ультро-насилии, за которое многие хвалят фильм, возникает некое недопонимание."]
+	node [style=filled]
+		0 [label="Говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ультро-насилии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хвалят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возникает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="некое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="недопонимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="обст"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="сент_соч"]
+			10 -> 12 [label="предик"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_3_компл"]
+			12 -> 11 [label="опред"]
+			4 -> 5 [label="предл"]
+}

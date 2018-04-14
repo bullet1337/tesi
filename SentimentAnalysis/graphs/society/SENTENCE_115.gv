@@ -1,0 +1,66 @@
+digraph SENTENCE_115 {
+	graph [label="главного редактора телеканала \"Дождь\" Александра Перепелова выразила надежду, что Лебедев вместо того, чтобы \"угрожать журналистам\" лишением аккредитации, проведет расследование в отношении Слуцкого."]
+	node [style=filled]
+		0 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="редактора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="телеканала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дождь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Александра Перепелова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выразила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="надежду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Лебедев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="вместо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="угрожать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="лишением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="аккредитации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="проведет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="расследование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Слуцкого
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 20 [label="сочин"]
+			12 -> 13 [label="предл"]
+			25 -> 26 [label="предл"]
+			20 -> 21 [label="_1_компл"]
+			23 -> 11 [label="предик"]
+			23 -> 12 [label="обст"]
+			23 -> 24 [label="_1_компл"]
+			13 -> 15 [label="эксплет"]
+			10 -> 23 [label="подч_союзн"]
+			17 -> 18 [label="_2_компл"]
+			15 -> 17 [label="инф_союзн"]
+			8 -> 10 [label="_1_компл"]
+			2 -> 4 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="аппоз"]
+			7 -> 1 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			26 -> 27 [label="квазиагент"]
+			24 -> 25 [label="атриб"]
+}

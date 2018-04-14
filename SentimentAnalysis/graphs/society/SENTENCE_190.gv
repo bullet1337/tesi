@@ -1,0 +1,47 @@
+digraph SENTENCE_190 {
+	graph [label="Ранее источник в правоохранительных органах сообщил РИА Новости, что тело сотрудника Высшей школы экономики в понедельник."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="источник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правоохранительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="органах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сотрудника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Высшей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="экономики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			4 -> 3 [label="опред"]
+			1 -> 2 [label="атриб"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			10 -> 12 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="атриб"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_664 {
+	graph [label="\" поставлен режиссером Глебом Черепановым по оригинальной пьесе Марии Виткиной, созданной на основе произведений писателя, его воспоминаний, писем и документов."]
+	node [style=filled]
+		1 [label="поставлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Глебом Черепановым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оригинальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Марии Виткиной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="созданной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="основе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="произведений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="воспоминаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="писем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="документов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="атриб"]
+			2 -> 3 [label="аппоз"]
+			10 -> 11 [label="предл"]
+			11 -> 12 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			9 -> 10 [label="обст"]
+			9 -> 16 [label="агент"]
+			9 -> 18 [label="_1_компл"]
+			1 -> 2 [label="агент"]
+			1 -> 7 [label="предик"]
+			18 -> 19 [label="сочин"]
+			16 -> 15 [label="квазиагент"]
+			7 -> 4 [label="огранич"]
+			7 -> 9 [label="опред"]
+			4 -> 6 [label="предл"]
+			19 -> 20 [label="соч_союзн"]
+}

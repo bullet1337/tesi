@@ -1,0 +1,44 @@
+digraph SENTENCE_114 {
+	graph [label="Для нас большая честь, что следующий визит состоится в год празднования столетия Эстонской Республики."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="визит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="празднования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Эстонской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Республики
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="атриб"]
+			8 -> 5 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+			12 -> 14 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 8 [label="релят"]
+			14 -> 13 [label="опред"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_276 {
+	graph [label="Зато часто можно услышать о чем-то \"няшном\" и \"мимимишном\"."]
+	node [style=filled]
+		0 [label="Зато
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="услышать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чем-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="няшном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мимимишном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="сочин"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			9 -> 11 [label="соч_союзн"]
+			0 -> 2 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			5 -> 7 [label="опред"]
+			3 -> 4 [label="_2_компл"]
+}

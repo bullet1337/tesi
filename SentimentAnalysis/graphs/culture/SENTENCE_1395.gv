@@ -1,0 +1,18 @@
+digraph SENTENCE_1395 {
+	graph [label="Сериал смотрят в 90 странах."]
+	node [style=filled]
+		0 [label="Сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смотрят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="90
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="странах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 3 [label="количест"]
+			2 -> 4 [label="предл"]
+}

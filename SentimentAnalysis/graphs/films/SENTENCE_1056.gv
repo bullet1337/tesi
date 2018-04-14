@@ -1,0 +1,21 @@
+digraph SENTENCE_1056 {
+	graph [label="Они мешают работать, но питают надежду."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мешают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="питают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="надежду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="сочин"]
+}

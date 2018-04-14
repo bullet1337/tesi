@@ -1,0 +1,63 @@
+digraph SENTENCE_1239 {
+	graph [label="По факту нападения возбуждено уголовное дело по статьям \"убийство двух и более лиц\" и \"посягательство на жизнь сотрудника правоохранительных органов\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="факту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нападения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возбуждено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уголовное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="статьям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="убийство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лиц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="посягательство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сотрудника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="правоохранительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="органов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 13 [label="_1_компл"]
+			7 -> 9 [label="квазиагент"]
+			7 -> 15 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			3 -> 6 [label="обст"]
+			3 -> 20 [label="предик"]
+			11 -> 12 [label="соч_союзн"]
+			22 -> 21 [label="опред"]
+			15 -> 17 [label="соч_союзн"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 11 [label="сочин"]
+			0 -> 1 [label="предл"]
+			20 -> 22 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			6 -> 7 [label="предл"]
+			13 -> 10 [label="количест"]
+			17 -> 18 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+}

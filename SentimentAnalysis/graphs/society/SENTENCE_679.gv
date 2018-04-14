@@ -1,0 +1,57 @@
+digraph SENTENCE_679 {
+	graph [label="При этом она отметила, что небольшое повышение температуры ожидается в первых числах марта, однако температура по-прежнему останется низкой."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отметила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="небольшое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повышение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="температуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="первых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="числах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="низкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="атриб"]
+			18 -> 7 [label="предик"]
+			18 -> 15 [label="огранич"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="присвяз"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 18 [label="подч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="релят"]
+			10 -> 12 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="обст"]
+}

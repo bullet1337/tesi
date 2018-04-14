@@ -1,0 +1,48 @@
+digraph SENTENCE_3376 {
+	graph [label=") Да, Харламов был звездой, но он был человеком команды — той, которая напрочь в картине отсутствует."]
+	node [style=filled]
+		1 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="звездой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="команды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="напрочь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="отсутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			19 -> 13 [label="_1_компл"]
+			19 -> 15 [label="предик"]
+			19 -> 17 [label="_1_компл"]
+			10 -> 11 [label="атриб"]
+			7 -> 9 [label="соч_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			9 -> 19 [label="сент_соч"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="присвяз"]
+			4 -> 7 [label="сент_соч"]
+}

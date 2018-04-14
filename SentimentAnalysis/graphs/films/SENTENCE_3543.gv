@@ -1,0 +1,66 @@
+digraph SENTENCE_3543 {
+	graph [label="На спортивные темы вообще очень сложно фильмы ставить и зачастую получается такой примитив и халтура как в случае с «Легендой N17»."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спортивные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сложно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зачастую
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="примитив
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="халтура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Легендой N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предик"]
+			7 -> 8 [label="сочин"]
+			8 -> 10 [label="соч_союзн"]
+			20 -> 21 [label="нум_аппоз"]
+			0 -> 2 [label="предл"]
+			15 -> 16 [label="сравн_союзн"]
+			18 -> 20 [label="предл"]
+			17 -> 18 [label="атриб"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="предик"]
+			10 -> 15 [label="сравнит"]
+			6 -> 7 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			16 -> 17 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+}

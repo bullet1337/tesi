@@ -1,0 +1,42 @@
+digraph SENTENCE_4260 {
+	graph [label="Но потом я опомнился, какое это к черту авторское кино, это же мейнстрим."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="опомнился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="черту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="авторское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мейнстрим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 5 [label="опред"]
+			14 -> 6 [label="предик"]
+			14 -> 7 [label="вводн"]
+			14 -> 12 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+			12 -> 13 [label="огранич"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			10 -> 9 [label="опред"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 14 [label="предик"]
+}

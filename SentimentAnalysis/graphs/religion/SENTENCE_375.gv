@@ -1,0 +1,39 @@
+digraph SENTENCE_375 {
+	graph [label="Святитель Иоанн Златоуст называет Игнатия \"образцом добродетелей, явившим в лице своем все достоинства епископа\"."]
+	node [style=filled]
+		0 [label="Святитель Иоанн Златоуст
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="называет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Игнатия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="образцом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="добродетелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="явившим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="достоинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="епископа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 7 [label="опред"]
+			2 -> 4 [label="аппоз"]
+			4 -> 5 [label="_1_компл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			7 -> 8 [label="обст"]
+			7 -> 12 [label="_1_компл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4221 {
+	graph [label="Oscar bait — самое точное описание данного кино."]
+	node [style=filled]
+		0 [label="Oscar
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="bait
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="точное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="описание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="данного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="опред"]
+			4 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="аппоз"]
+}

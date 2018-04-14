@@ -1,0 +1,30 @@
+digraph SENTENCE_1471 {
+	graph [label="Международный берлинский кинофестиваль в 68-й раз объявил своих победителей."]
+	node [style=filled]
+		0 [label="Международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="берлинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="68-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="объявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="победителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 2 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="опред"]
+}

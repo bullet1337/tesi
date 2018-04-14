@@ -1,0 +1,51 @@
+digraph SENTENCE_2 {
+	graph [label="\"Именно 27 февраля над зданием Верховного Совета (сейчас Госсовет) и над Советом министром взвились флаги России."]
+	node [style=filled]
+		1 [label="Именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зданием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Верховного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Совета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Госсовет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Советом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="министром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="взвились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="флаги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 13 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="атриб"]
+			2 -> 4 [label="уточн"]
+			17 -> 18 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			16 -> 2 [label="обст"]
+			16 -> 9 [label="обст"]
+			16 -> 10 [label="предик"]
+			16 -> 17 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_694 {
+	graph [label="С одной стороны, не люблю Ларса фон Триера, за его ложное самомнение."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ларса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ложное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самомнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="обст"]
+			2 -> 1 [label="опред"]
+			10 -> 13 [label="предл"]
+			6 -> 8 [label="аппоз"]
+			13 -> 11 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+}

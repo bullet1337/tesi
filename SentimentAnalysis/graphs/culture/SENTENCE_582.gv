@@ -1,0 +1,54 @@
+digraph SENTENCE_582 {
+	graph [label="Жюри российского конкурса возглавит Гармаш, Тодоровский возглавит режиссерское жюри российского конкурса, куда также войдут Петр Буслов и Андрей Сильвестров."]
+	node [style=filled]
+		0 [label="Жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возглавит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гармаш
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Тодоровский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="возглавит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссерское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="куда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="войдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Петр Буслов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Андрей Сильвестров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			9 -> 15 [label="релят"]
+			15 -> 13 [label="_2_компл"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="предик"]
+			11 -> 10 [label="опред"]
+			17 -> 18 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			4 -> 6 [label="аппоз"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 7 [label="вводн"]
+			0 -> 2 [label="атриб"]
+			7 -> 9 [label="предик"]
+			16 -> 17 [label="сочин"]
+}

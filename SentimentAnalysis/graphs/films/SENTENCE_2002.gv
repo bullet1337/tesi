@@ -1,0 +1,60 @@
+digraph SENTENCE_2002 {
+	graph [label="Сестра его обвиняет, что он украл чужую книгу (а мы уже знаем, что он её так и не вернул)."]
+	node [style=filled]
+		0 [label="Сестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обвиняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="украл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чужую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="книгу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="знаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="вернул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 13 [label="соч_союзн"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 15 [label="_1_компл"]
+			4 -> 6 [label="подч_союзн"]
+			18 -> 19
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="сент_соч"]
+			15 -> 21 [label="подч_союзн"]
+			8 -> 7 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="_1_компл"]
+			21 -> 16 [label="предик"]
+			21 -> 17 [label="_1_компл"]
+			21 -> 18 [label="обст"]
+			21 -> 20 [label="огранич"]
+}

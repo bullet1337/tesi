@@ -1,0 +1,36 @@
+digraph SENTENCE_638 {
+	graph [label="Точная дата будет зависеть от срока выхода в телевизионный эфир программы."]
+	node [style=filled]
+		0 [label="Точная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зависеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="срока
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="телевизионный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="эфир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="аналит"]
+			2 -> 10 [label="присвяз"]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			6 -> 7 [label="_2_компл"]
+}

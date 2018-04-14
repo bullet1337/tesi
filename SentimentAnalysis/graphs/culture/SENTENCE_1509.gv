@@ -1,0 +1,49 @@
+digraph SENTENCE_1509 {
+	graph [label="\"Эта история была для нас большим вызовом, потому что сохранилось очень мало вещей из того времени."]
+	node [style=filled]
+		1 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вызовом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сохранилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вещей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			10 -> 11 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			17 -> 16 [label="опред"]
+			7 -> 6 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="присвяз"]
+			2 -> 1 [label="опред"]
+			15 -> 17 [label="предл"]
+			11 -> 13 [label="предик"]
+			9 -> 10 [label="эксплет"]
+}

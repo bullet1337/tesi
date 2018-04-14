@@ -1,0 +1,36 @@
+digraph SENTENCE_281 {
+	graph [label="Сейчас эти слова никого не удивляют, они стали общепринятыми\", — подчеркивает Михеев."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="удивляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="общепринятыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="подчеркивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Михеев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 13 [label="вводн"]
+			13 -> 14 [label="предик"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="присвяз"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_780 {
+	graph [label="Главным героем картины становится сам Бог, у которого, помимо сына, обнаруживается юная бунтарка-дочь."]
+	node [style=filled]
+		0 [label="Главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Бог
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обнаруживается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="юная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бунтарка-дочь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			15 -> 14 [label="опред"]
+			7 -> 8 [label="предл"]
+			13 -> 7 [label="_1_компл"]
+			13 -> 10 [label="обст"]
+			13 -> 15 [label="предик"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 1 [label="присвяз"]
+			3 -> 5 [label="предик"]
+			3 -> 13 [label="разъяснит"]
+}

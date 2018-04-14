@@ -1,0 +1,23 @@
+digraph SENTENCE_2707 {
+	graph [label="А антагонист в фильме и вовсе отсутствует."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="антагонист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отсутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			1 -> 4 [label="сочин"]
+			6 -> 5 [label="огранич"]
+			4 -> 6 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+}

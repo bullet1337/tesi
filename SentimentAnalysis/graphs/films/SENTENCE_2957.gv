@@ -1,0 +1,37 @@
+digraph SENTENCE_2957 {
+	graph [label="3 из 10
+Наконец и я посмотрела нашумевшую мелодраму «Горбатая гора»."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Наконец
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нашумевшую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мелодраму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Горбатая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="гора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 3 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="разъяснит"]
+			8 -> 11 [label="сочин"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="электив"]
+			5 -> 4 [label="огранич"]
+			11 -> 10 [label="опред"]
+}

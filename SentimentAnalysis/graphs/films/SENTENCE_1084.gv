@@ -1,0 +1,39 @@
+digraph SENTENCE_1084 {
+	graph [label="На первый взгляд можно подумать что она просто «охотница» за Американской мечтой."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="охотница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Американской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="мечтой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="подч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			0 -> 2 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			9 -> 6 [label="предик"]
+			9 -> 7 [label="огранич"]
+			9 -> 11 [label="атриб"]
+}

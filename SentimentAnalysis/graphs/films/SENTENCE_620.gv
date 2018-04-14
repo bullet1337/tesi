@@ -1,0 +1,51 @@
+digraph SENTENCE_620 {
+	graph [label="«Догвилль» учит силе, «Танцующая» — слабости, и теперь сострадательные христиане могут выставлять свои справедливые «Нет» моей рецензии."]
+	node [style=filled]
+		1 [label="Догвилль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="учит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="силе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="слабости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сострадательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="христиане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выставлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="справедливые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Нет
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="рецензии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 18 [label="опред"]
+			24 -> 23 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 12 [label="сочин"]
+			10 -> 7 [label="опред"]
+			18 -> 21 [label="релят"]
+			21 -> 19 [label="предик"]
+			4 -> 10 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			17 -> 24 [label="_2_компл"]
+			16 -> 13 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			12 -> 16 [label="соч_союзн"]
+}

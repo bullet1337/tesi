@@ -1,0 +1,60 @@
+digraph SENTENCE_425 {
+	graph [label="В результате от участия в Олимпиадах были пожизненно отстранены 43 российских спортсмена, их результаты на Играх в Сочи аннулированы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Олимпиадах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пожизненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отстранены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="43
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="спортсмена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="результаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Играх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Сочи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="аннулированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 8
+			6 -> 11 [label="предик"]
+			6 -> 19
+			2 -> 3 [label="предл"]
+			17 -> 18 [label="предл"]
+			8 -> 7 [label="обст"]
+			15 -> 16 [label="предл"]
+			14 -> 13 [label="квазиагент"]
+			14 -> 15 [label="атриб"]
+			0 -> 1 [label="предл"]
+			11 -> 9 [label="количест"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="разъяснит"]
+			16 -> 17 [label="атриб"]
+}

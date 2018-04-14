@@ -1,0 +1,33 @@
+digraph SENTENCE_2773 {
+	graph [label="Конечно же я давно хотел лицезреть сие творение режиссера «Чужого»."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хотел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лицезреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="творение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Чужого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="_1_компл"]
+			8 -> 10 [label="аппоз"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="разъяснит"]
+			0 -> 1 [label="огранич"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_16 {
+	graph [label="По словам синоптика, столица по-прежнему будет находиться под влиянием антициклона, но поток арктического холода усилится и отрицательное отклонение от температурной нормы составит примерно 8-10 градусов."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="синоптика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="находиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="влиянием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="антициклона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="поток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="арктического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="холода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="усилится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отрицательное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="отклонение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="температурной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="нормы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="составит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="примерно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="предл"]
+			13 -> 15 [label="квазиагент"]
+			16 -> 13 [label="предик"]
+			16 -> 19 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			25 -> 27 [label="кратн"]
+			9 -> 10 [label="квазиагент"]
+			28 -> 24 [label="огранич"]
+			28 -> 25 [label="количест"]
+			12 -> 16 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			15 -> 14 [label="опред"]
+			23 -> 28 [label="_1_компл"]
+			18 -> 17 [label="огранич"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="аналит"]
+			6 -> 12 [label="сент_соч"]
+			6 -> 23 [label="вводн"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_2770 {
+	graph [label="Так же чувствует себя Блэйд-раннер в руках Вильнёва."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чувствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Блэйд-раннер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="руках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Вильнёва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			4 -> 5 [label="атриб"]
+			0 -> 1 [label="огранич"]
+			6 -> 7 [label="квазиагент"]
+}

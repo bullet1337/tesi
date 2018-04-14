@@ -1,0 +1,68 @@
+digraph SENTENCE_1022 {
+	graph [label="Программа по спасению Волги была инициирована президентом Владимиром Путиным, ее реализация рассчитана на несколько лет и обойдется федеральному бюджету в несколько миллиардов рублей."]
+	node [style=filled]
+		0 [label="Программа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спасению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Волги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="инициирована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="президентом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Владимиром Путиным
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реализация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рассчитана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обойдется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="федеральному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бюджету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="миллиардов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="_2_компл"]
+			16 -> 19 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 5
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			6 -> 7 [label="аппоз"]
+			15 -> 16 [label="соч_союзн"]
+			18 -> 17 [label="опред"]
+			10 -> 9 [label="_1_компл"]
+			12 -> 14 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 15 [label="сочин"]
+			14 -> 13 [label="количест"]
+			21 -> 20 [label="количест"]
+			21 -> 22 [label="квазиагент"]
+			5 -> 6 [label="агент"]
+			19 -> 21 [label="предл"]
+}

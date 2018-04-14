@@ -1,0 +1,30 @@
+digraph SENTENCE_2828 {
+	graph [label="И все актеры роются в нем и что-то делают."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="делают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			8 -> 7 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+}

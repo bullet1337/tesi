@@ -1,0 +1,36 @@
+digraph SENTENCE_2062 {
+	graph [label="Так, когда же герой фильма был максимально близок к своей Самости?"]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="максимально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="близок
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Самости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="_1_компл"]
+			6 -> 2 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="присвяз"]
+			2 -> 0 [label="огранич"]
+			2 -> 3 [label="огранич"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="предл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+}

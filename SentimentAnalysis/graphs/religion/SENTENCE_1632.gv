@@ -1,0 +1,60 @@
+digraph SENTENCE_1632 {
+	graph [label="Императрица-регентша Феодора созвала в Крнстантинополе собор, провозгласивший необходимость восстановления почитания икон, подтвердивший законность постановлений семи Вселенских соборов и анафематствовавший иконоборчество."]
+	node [style=filled]
+		0 [label="Императрица-регентша Феодора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="созвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Крнстантинополе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="провозгласивший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="необходимость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="восстановления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="почитания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="икон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="подтвердивший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="законность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="постановлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="семи
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Вселенских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="соборов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="анафематствовавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="иконоборчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 15 [label="количест"]
+			17 -> 16 [label="опред"]
+			14 -> 17 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			4 -> 6 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 18 [label="сочин"]
+			2 -> 3 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			18 -> 19 [label="соч_союзн"]
+}

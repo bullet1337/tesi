@@ -1,0 +1,27 @@
+digraph SENTENCE_1361 {
+	graph [label="Что уж говорить о Билле и его жене."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Билле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			3 -> 4 [label="предл"]
+			7 -> 6 [label="_1_компл"]
+			5 -> 7 [label="соч_союзн"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_3_компл"]
+}

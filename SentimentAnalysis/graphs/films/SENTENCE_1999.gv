@@ -1,0 +1,33 @@
+digraph SENTENCE_1999 {
+	graph [label="И там, где режиссёру не хватает слов, там говорит музыка."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="режиссёру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хватает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="_2_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предик"]
+			6 -> 10 [label="сент_соч"]
+			0 -> 6 [label="соч_союзн"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="предик"]
+}

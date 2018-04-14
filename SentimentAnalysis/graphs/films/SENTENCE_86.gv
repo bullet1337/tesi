@@ -1,0 +1,24 @@
+digraph SENTENCE_86 {
+	graph [label="«Потому что в мюзиклах не бывает плохого»."]
+	node [style=filled]
+		1 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мюзиклах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="плохого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 6 [label="подч_союзн"]
+			1 -> 2 [label="эксплет"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="присвяз"]
+			3 -> 4 [label="предл"]
+}

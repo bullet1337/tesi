@@ -1,0 +1,63 @@
+digraph SENTENCE_435 {
+	graph [label="Общественность обеспокоена судьбой Исаакия, несмотря на заявление представителей Церкви, что музейные функции будут расширены, а вход в собор станет бесплатным."]
+	node [style=filled]
+		0 [label="Общественность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обеспокоена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="судьбой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Исаакия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заявление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Церкви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музейные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="функции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="расширены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="бесплатным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			11 -> 14 [label="подч_союзн"]
+			17 -> 21 [label="соч_союзн"]
+			18 -> 19 [label="_2_компл"]
+			21 -> 18 [label="предик"]
+			21 -> 22 [label="присвяз"]
+			13 -> 12 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 6 [label="_2_компл"]
+			1 -> 11 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+			14 -> 13 [label="предик"]
+			14 -> 15
+			14 -> 17 [label="сент_соч"]
+			6 -> 7 [label="предл"]
+}

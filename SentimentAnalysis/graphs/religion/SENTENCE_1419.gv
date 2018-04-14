@@ -1,0 +1,33 @@
+digraph SENTENCE_1419 {
+	graph [label="А в Финляндии оглушение и перерезание горла должны осуществляться одновременно."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Финляндии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="оглушение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="перерезание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="горла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="осуществляться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одновременно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="сочин"]
+			3 -> 7 [label="сент_соч"]
+			1 -> 2 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			8 -> 9 [label="обст"]
+}

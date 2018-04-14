@@ -1,0 +1,78 @@
+digraph SENTENCE_2629 {
+	graph [label="Из плюсов: - работа дизайнеров и художников-постановщиков; - вполне приличная актерская игра, не способная, впрочем, демонстрировать что-либо новое и ощутимое; - Ана де Армас, девушка небесной красоты; - фон-графон."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плюсов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дизайнеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="художников-постановщиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вполне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="приличная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актерская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="способная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="впрочем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="демонстрировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="что-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="новое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ощутимое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Ана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="де
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Армас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="девушка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="небесной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="красоты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="фон-графон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="квазиагент"]
+			16 -> 15 [label="огранич"]
+			16 -> 20 [label="_1_компл"]
+			22 -> 23 [label="сочин"]
+			33 -> 32 [label="опред"]
+			20 -> 18 [label="вводн"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 27 [label="_2_компл"]
+			20 -> 29 [label="_1_компл"]
+			6 -> 7 [label="соч_союзн"]
+			21 -> 22 [label="опред"]
+			7 -> 13 [label="сочин"]
+			29 -> 28
+			31 -> 33 [label="атриб"]
+			31 -> 36 [label="сочин"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 16 [label="оп_опред"]
+			13 -> 31 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			5 -> 6 [label="сочин"]
+			0 -> 1 [label="предл"]
+			23 -> 24 [label="соч_союзн"]
+}

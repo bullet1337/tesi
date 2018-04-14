@@ -1,0 +1,48 @@
+digraph SENTENCE_1175 {
+	graph [label="Их тело было так же слабо и немощно, но сила духа позволила совершить настоящие подвиги."]
+	node [style=filled]
+		0 [label="Их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="слабо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="немощно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="духа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="позволила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="совершить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="настоящие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подвиги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			1 -> 0 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			3 -> 4 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="присвяз"]
+			2 -> 9 [label="сент_соч"]
+			13 -> 15 [label="_1_компл"]
+			12 -> 10 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			9 -> 12 [label="соч_союзн"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="сочин"]
+}

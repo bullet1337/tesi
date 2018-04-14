@@ -1,0 +1,24 @@
+digraph SENTENCE_77 {
+	graph [label="Ведущими вечера станут телеведущие Арина Шарапова и Антон Курилович."]
+	node [style=filled]
+		0 [label="Ведущими
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вечера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="станут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="телеведущие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Арина Шарапова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Антон Курилович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="присвяз"]
+			2 -> 3 [label="предик"]
+			5 -> 6 [label="соч_союзн"]
+			0 -> 1 [label="атриб"]
+			3 -> 4 [label="аппоз"]
+			3 -> 5 [label="сочин"]
+}

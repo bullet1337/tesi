@@ -1,0 +1,51 @@
+digraph SENTENCE_4781 {
+	graph [label="В итоге чудовище просыпается, вызывая ЭМИ(электромагнитный импульс), разрушая всё на своём пути и наводит беспорядок."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чудовище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просыпается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вызывая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ЭМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="электромагнитный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="импульс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разрушая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="наводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="беспорядок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			18 -> 19 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 12 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="предл"]
+			0 -> 1 [label="предл"]
+			16 -> 15 [label="опред"]
+			9 -> 8 [label="опред"]
+			12 -> 14 [label="обст"]
+			12 -> 17 [label="сочин"]
+}

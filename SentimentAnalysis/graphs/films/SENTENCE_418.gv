@@ -1,0 +1,61 @@
+digraph SENTENCE_418 {
+	graph [label="Но, заполучив его, некоторые тянутся к нему, другие — его отвергают, не желая признавать собственную ничтожность и не желая верить и надеяться."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заполучив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тянутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отвергают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="желая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="признавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="собственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ничтожность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="желая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="верить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="надеяться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 24 [label="сочин"]
+			24 -> 25 [label="соч_союзн"]
+			0 -> 6 [label="соч_союзн"]
+			2 -> 3 [label="_1_компл"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="_1_компл"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			17 -> 19 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			19 -> 18 [label="опред"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 20 [label="сочин"]
+}

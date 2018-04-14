@@ -1,0 +1,27 @@
+digraph SENTENCE_338 {
+	graph [label="Глаза, которые видят мир совсем иначе, чем остальные."]
+	node [style=filled]
+		0 [label="Глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="видят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="иначе
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="сравнит"]
+			8 -> 9 [label="сравн_союзн"]
+			0 -> 3 [label="разъяснит"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="_2_компл"]
+}

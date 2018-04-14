@@ -1,0 +1,27 @@
+digraph SENTENCE_2205 {
+	graph [label="Фильм словно музыка Баха, которую так ценил Тарковский."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Баха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ценил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="сравн_союзн"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="предик"]
+			2 -> 3 [label="аппоз"]
+			0 -> 1 [label="сравнит"]
+			0 -> 7 [label="ном_аппоз"]
+}

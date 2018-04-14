@@ -1,0 +1,18 @@
+digraph SENTENCE_266 {
+	graph [label="Выставка продлится до 4 марта."]
+	node [style=filled]
+		0 [label="Выставка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продлится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+}

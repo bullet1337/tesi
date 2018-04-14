@@ -1,0 +1,45 @@
+digraph SENTENCE_1451 {
+	graph [label="Шериф подтвердил задержание подозреваемого в стрельбе — бывшего ученика этой школы Николаса Круза 1999 года рождения."]
+	node [style=filled]
+		0 [label="Шериф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подтвердил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="задержание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подозреваемого
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стрельбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бывшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ученика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Николаса Круза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="1999
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 14 [label="сочин"]
+			11 -> 13 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="обст"]
+			1 -> 10 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="атриб"]
+			4 -> 5 [label="предл"]
+			8 -> 7 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="разъяснит"]
+			13 -> 12 [label="опред"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_3190 {
+	graph [label="А кровь-то молодая бурлит, требует."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кровь-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молодая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бурлит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="требует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="сочин"]
+}

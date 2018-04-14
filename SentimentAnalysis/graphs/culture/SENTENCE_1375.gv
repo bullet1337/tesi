@@ -1,0 +1,63 @@
+digraph SENTENCE_1375 {
+	graph [label="Вместе с ним дети с раннего детства учатся вежливости, открытости, умению дружить, делиться игрушками и приходить друг другу на помощь."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раннего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="детства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="учатся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вежливости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="открытости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="умению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дружить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="делиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="игрушками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="приходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="другу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			17 -> 18 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 8 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="сочин"]
+			4 -> 6 [label="предл"]
+			20 -> 19
+			21 -> 22 [label="предл"]
+			13 -> 15 [label="_1_компл"]
+			10 -> 12 [label="сочин"]
+			8 -> 10 [label="квазиагент"]
+			18 -> 20 [label="неакт_компл"]
+			18 -> 21 [label="_2_компл"]
+			3 -> 4 [label="атриб"]
+}

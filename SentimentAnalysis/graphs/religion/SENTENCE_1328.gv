@@ -1,0 +1,42 @@
+digraph SENTENCE_1328 {
+	graph [label="Традиционно это также и праздник весны, который отмечался в Тибете с незапамятных времен."]
+	node [style=filled]
+		0 [label="Традиционно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="весны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отмечался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Тибете
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="незапамятных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="времен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="аппоз"]
+			4 -> 8 [label="релят"]
+			11 -> 13 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			8 -> 11 [label="обст"]
+			9 -> 10 [label="предл"]
+}

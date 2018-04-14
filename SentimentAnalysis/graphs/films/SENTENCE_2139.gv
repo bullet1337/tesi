@@ -1,0 +1,24 @@
+digraph SENTENCE_2139 {
+	graph [label="«Зеркало» говорит нам и о миссии Человека."]
+	node [style=filled]
+		1 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="миссии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Человека
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="квазиагент"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_3_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

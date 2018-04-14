@@ -1,0 +1,35 @@
+digraph SENTENCE_244 {
+	graph [label="Во многом из-за скандального признания Иерусалима столицей Израиля со стороны США."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="многом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скандального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="признания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="столицей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Израиля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="агент"]
+			4 -> 8 [label="атриб"]
+			2 -> 4 [label="предл"]
+			8 -> 9 [label="предл"]
+}

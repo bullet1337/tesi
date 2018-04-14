@@ -1,0 +1,65 @@
+digraph SENTENCE_2226 {
+	graph [label="Кадры в рапиде сменяются кислотным черно-белым фильтром, своеобразным делителем на было/стало, а начальные русские берёзки — холодным урбанизмом вечно спешащей хмурой Москвы."]
+	node [style=filled]
+		0 [label="Кадры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рапиде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сменяются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кислотным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="черно-белым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильтром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своеобразным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="делителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="начальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="русские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="берёзки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="холодным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="урбанизмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="спешащей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="хмурой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 22 [label="обст"]
+			23 -> 25 [label="_1_компл"]
+			11 -> 13 [label="сравн_союзн"]
+			11 -> 15 [label="сент_соч"]
+			21 -> 20 [label="опред"]
+			21 -> 23 [label="опред"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 6 [label="_2_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="разъяснит"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			25 -> 24 [label="опред"]
+}

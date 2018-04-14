@@ -1,0 +1,45 @@
+digraph SENTENCE_4974 {
+	graph [label="А уж когда самец и самочка «целовались» и ворковали, там уж весь зал умилялся."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самочка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="целовались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ворковали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="зал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="умилялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			10 -> 12 [label="обст"]
+			10 -> 15 [label="_1_компл"]
+			0 -> 16 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 7 [label="подч_союзн"]
+			16 -> 2 [label="обст"]
+			7 -> 3 [label="предик"]
+			7 -> 9 [label="сочин"]
+			14 -> 13 [label="огранич"]
+			3 -> 4 [label="сочин"]
+}

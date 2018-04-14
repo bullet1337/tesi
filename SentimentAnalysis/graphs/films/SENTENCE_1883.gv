@@ -1,0 +1,36 @@
+digraph SENTENCE_1883 {
+	graph [label="Спасибо вам за великолепные 135 минут, которые я не забуду никогда."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="великолепные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="135
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="забуду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="количест"]
+			2 -> 5 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 10 [label="вводн"]
+			10 -> 7 [label="_2_компл"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="обст"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_162 {
+	graph [label="В спектакле \"Современника\" о свадьбе рассказывают великие писатели, признанные сатирики."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Современника
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свадьбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рассказывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="великие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="писатели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="признанные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сатирики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 9 [label="предик"]
+			0 -> 1 [label="предл"]
+			0 -> 5 [label="сочин"]
+			5 -> 6 [label="предл"]
+			12 -> 11 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="аппоз"]
+}

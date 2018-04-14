@@ -1,0 +1,83 @@
+digraph SENTENCE_535 {
+	graph [label="Герман-младший находится на Берлинском кинофестивале, где  его фильм \"Довлатов\" участвует в основном конкурсе и поборется за \"Золотого медведя\" наравне с картинами Гаса Ван Сента, Бенуа Жако и Уэса Андерсона."]
+	node [style=filled]
+		0 [label="Герман-младший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Берлинском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="кинофестивале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="участвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="основном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="поборется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Золотого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="наравне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="картинами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Гаса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Сента
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Бенуа Жако
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="и
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Уэса Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 20 [label="опред"]
+			16 -> 17 [label="соч_союзн"]
+			8 -> 7 [label="квазиагент"]
+			8 -> 10 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 28 [label="предик"]
+			2 -> 4 [label="предл"]
+			25 -> 26 [label="аппоз"]
+			12 -> 6 [label="обст"]
+			12 -> 8 [label="предик"]
+			12 -> 15 [label="предик"]
+			15 -> 13 [label="огранич"]
+			15 -> 16 [label="сочин"]
+			18 -> 21 [label="предл"]
+			4 -> 3 [label="опред"]
+			30 -> 31 [label="сочин"]
+			13 -> 14 [label="предл"]
+			31 -> 32 [label="соч_союзн"]
+			17 -> 18 [label="_1_компл"]
+			28 -> 27
+			28 -> 30 [label="разъяснит"]
+			24 -> 25 [label="предл"]
+}

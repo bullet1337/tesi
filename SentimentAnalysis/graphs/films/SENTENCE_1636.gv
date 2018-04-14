@@ -1,0 +1,33 @@
+digraph SENTENCE_1636 {
+	graph [label="Неужели есть люди, которые могут «играть» на чувствах любящей матери?"]
+	node [style=filled]
+		0 [label="Неужели
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чувствах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="любящей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			7 -> 9 [label="обст"]
+			10 -> 12 [label="квазиагент"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			2 -> 5 [label="релят"]
+}

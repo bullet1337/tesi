@@ -1,0 +1,27 @@
+digraph SENTENCE_1700 {
+	graph [label="Ни для кого не секрет, что жизнь — дерьмо."]
+	node [style=filled]
+		0 [label="Ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дерьмо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			9 -> 7 [label="предик"]
+			6 -> 9 [label="подч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+}

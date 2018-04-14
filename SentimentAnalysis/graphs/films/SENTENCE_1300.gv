@@ -1,0 +1,19 @@
+digraph SENTENCE_1300 {
+	graph [label="Тут или «твоё», или не смотри."]
+	node [style=filled]
+		0 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="твоё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смотри
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="сочин"]
+			6 -> 8 [label="соч_союзн"]
+			8 -> 7 [label="огранич"]
+}

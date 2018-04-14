@@ -1,0 +1,48 @@
+digraph SENTENCE_3496 {
+	graph [label="К сожалению, зрительские симпатии, вкупе с хорошей кассой, без сомнений, породят ещё дюжину подобных творений."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрительские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="симпатии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вкупе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хорошей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кассой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сомнений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="породят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дюжину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="творений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 0 [label="вводн"]
+			14 -> 4 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 16 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="квазиагент"]
+			11 -> 6 [label="огранич"]
+			11 -> 12 [label="предл"]
+			18 -> 17 [label="опред"]
+			4 -> 3 [label="опред"]
+}

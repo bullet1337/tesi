@@ -1,0 +1,39 @@
+digraph SENTENCE_4084 {
+	graph [label="Он попросту не нужен, как скрипач из старой советской комедии «Кин-дза-дза»."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="попросту
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нужен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="скрипач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="старой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="советской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="комедии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Кин-дза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="дза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="атриб"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сравнит"]
+			5 -> 6 [label="сравн_союзн"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="квазиагент"]
+			12 -> 14 [label="аппоз"]
+			7 -> 10 [label="предл"]
+}

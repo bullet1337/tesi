@@ -1,0 +1,30 @@
+digraph SENTENCE_1212 {
+	graph [label="Мой персонаж приглашает ребят поехать в Питер на \"Сапсане\"."]
+	node [style=filled]
+		0 [label="Мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приглашает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ребят
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поехать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Питер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сапсане
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="атриб"]
+			5 -> 6 [label="предл"]
+			7 -> 9 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+}

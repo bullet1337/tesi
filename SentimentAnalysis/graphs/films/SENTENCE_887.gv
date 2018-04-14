@@ -1,0 +1,33 @@
+digraph SENTENCE_887 {
+	graph [label="Кино о многом, и написать о всем не представляется возможным."]
+	node [style=filled]
+		0 [label="Кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="многом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="написать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="представляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возможным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_2_компл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 1 [label="_3_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_3_компл"]
+			5 -> 9 [label="обст"]
+}

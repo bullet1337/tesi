@@ -1,0 +1,78 @@
+digraph SENTENCE_1890 {
+	graph [label="Последнее музыкальное исполнение в фильме, которое раздается в тюрьме и то с каким лицом она ее исполняет, доводит до предела и так напряженные нервы зрителя."]
+	node [style=filled]
+		0 [label="Последнее
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="музыкальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="раздается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тюрьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="каким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лицом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="исполняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="доводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="предела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="напряженные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="нервы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 12 [label="обст"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="_1_компл"]
+			7 -> 2 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="сочин"]
+			7 -> 19 [label="разъяснит"]
+			10 -> 11 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			25 -> 26 [label="аппоз"]
+			20 -> 21 [label="предл"]
+			8 -> 9 [label="предл"]
+			3 -> 4 [label="предл"]
+			22 -> 24 [label="соч_союзн"]
+			19 -> 20 [label="_2_компл"]
+			19 -> 22 [label="сочин"]
+			19 -> 25 [label="предик"]
+			11 -> 17 [label="эксплет"]
+			12 -> 14 [label="предл"]
+			24 -> 23 [label="огранич"]
+}

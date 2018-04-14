@@ -1,0 +1,42 @@
+digraph SENTENCE_3847 {
+	graph [label="И, читая с интересом приключения Алекса, я чуть не уснул при просмотре фильма."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="читая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="интересом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приключения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Алекса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уснул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="просмотре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="обст"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			0 -> 11 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			11 -> 2 [label="обст"]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="обст"]
+}

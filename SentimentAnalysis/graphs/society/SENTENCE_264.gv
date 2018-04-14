@@ -1,0 +1,25 @@
+digraph SENTENCE_264 {
+	graph [label="Времени у людей нет, лени много\", — поясняет эксперт."]
+	node [style=filled]
+		0 [label="Времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поясняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="эксперт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="_1_компл"]
+			6 -> 10 [label="вводн"]
+			10 -> 11 [label="предик"]
+}

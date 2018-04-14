@@ -1,0 +1,21 @@
+digraph SENTENCE_1211 {
+	graph [label="Для бизнес-класса ограничение составляет 15 килограммов."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бизнес-класса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ограничение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="килограммов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="количест"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+}

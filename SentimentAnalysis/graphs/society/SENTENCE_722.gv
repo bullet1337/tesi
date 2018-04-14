@@ -1,0 +1,33 @@
+digraph SENTENCE_722 {
+	graph [label="Сложная финансовая ситуация на \"Радиоприборе\" возникла в конце 2014 года."]
+	node [style=filled]
+		0 [label="Сложная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="финансовая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Радиоприборе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="возникла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="квазиагент"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			7 -> 2 [label="предик"]
+			7 -> 8 [label="обст"]
+			11 -> 10 [label="опред"]
+			3 -> 5 [label="предл"]
+}

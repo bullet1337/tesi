@@ -1,0 +1,45 @@
+digraph SENTENCE_211 {
+	graph [label="\"Создание условий для регулируемого туризма и отдыха является одной из основных задач создаваемого парка."]
+	node [style=filled]
+		1 [label="Создание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="условий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="регулируемого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="туризма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отдыха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="основных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="задач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="создаваемого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="парка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 3 [label="_3_компл"]
+			3 -> 5 [label="предл"]
+			14 -> 13 [label="опред"]
+			8 -> 1 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			9 -> 10 [label="электив"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+}

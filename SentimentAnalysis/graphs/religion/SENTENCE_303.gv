@@ -1,0 +1,66 @@
+digraph SENTENCE_303 {
+	graph [label="Относительно евреев, причастных к преступлениям Холокоста, Союз считает, что их вина меньше, чем вина совершивших те же преступления поляков или украинцев."]
+	node [style=filled]
+		0 [label="Относительно
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="причастных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="преступлениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Холокоста
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Союз
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="совершивших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="преступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="поляков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="украинцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="аппоз"]
+			11 -> 14 [label="подч_союзн"]
+			5 -> 6 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="сравнит"]
+			9 -> 0 [label="обст"]
+			9 -> 11 [label="_1_компл"]
+			16 -> 17 [label="сравн_союзн"]
+			17 -> 18 [label="опред"]
+			1 -> 3 [label="опред"]
+			19 -> 20 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			18 -> 21 [label="_1_компл"]
+			22 -> 23 [label="сочин"]
+			13 -> 12 [label="квазиагент"]
+			21 -> 19 [label="опред"]
+			21 -> 22 [label="квазиагент"]
+			23 -> 24 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+}

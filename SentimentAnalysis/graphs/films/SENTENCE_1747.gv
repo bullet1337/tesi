@@ -1,0 +1,21 @@
+digraph SENTENCE_1747 {
+	graph [label="Вот оно, подлинное нутро этой картины."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подлинное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нутро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сочин"]
+}

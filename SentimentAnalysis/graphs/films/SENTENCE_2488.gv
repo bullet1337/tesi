@@ -1,0 +1,49 @@
+digraph SENTENCE_2488 {
+	graph [label="3 из 10  (из них 2 балла за красоту Маргариты Тереховой)
+«Зеркало» я смотрела 2 раза."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="балла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="красоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Маргариты Тереховой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="смотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			2 -> 4 [label="электив"]
+			1 -> 2 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="атриб"]
+			7 -> 13 [label="сочин"]
+			7 -> 16 [label="сент_соч"]
+			9 -> 10 [label="квазиагент"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="обст"]
+			0 -> 1 [label="электив"]
+			8 -> 9 [label="предл"]
+			18 -> 17 [label="количест"]
+}

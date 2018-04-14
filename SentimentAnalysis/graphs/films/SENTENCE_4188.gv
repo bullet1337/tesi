@@ -1,0 +1,15 @@
+digraph SENTENCE_4188 {
+	graph [label="О чем он думает?"]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="думает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 2 [label="предик"]
+}

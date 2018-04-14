@@ -1,0 +1,27 @@
+digraph SENTENCE_463 {
+	graph [label="Их принимают каждый день в столичной Марфо-Мариинской обители."]
+	node [style=filled]
+		0 [label="Их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="принимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="столичной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Марфо-Мариинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="обители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			4 -> 7 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+}

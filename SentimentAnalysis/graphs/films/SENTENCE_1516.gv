@@ -1,0 +1,18 @@
+digraph SENTENCE_1516 {
+	graph [label="Потому фильм воспринимается очень неоднозначно."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="воспринимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неоднозначно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4468 {
+	graph [label="Его персонаж в «Годзилле» и в самом деле напоминает героя культового сериала."]
+	node [style=filled]
+		0 [label="Его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Годзилле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="культового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сериала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			6 -> 10 [label="соч_союзн"]
+			1 -> 0 [label="квазиагент"]
+			1 -> 2 [label="атриб"]
+			1 -> 6 [label="сочин"]
+			13 -> 12 [label="опред"]
+			2 -> 4 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+			10 -> 7 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+}

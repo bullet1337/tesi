@@ -1,0 +1,21 @@
+digraph SENTENCE_4128 {
+	graph [label="Назвать мальца особенным, думаю, не стоит."]
+	node [style=filled]
+		0 [label="Назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мальца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="особенным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 2 [label="_1_компл"]
+			7 -> 4 [label="вводн"]
+			7 -> 6 [label="огранич"]
+}

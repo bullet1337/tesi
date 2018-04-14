@@ -1,0 +1,45 @@
+digraph SENTENCE_884 {
+	graph [label="Это то, что приковывает тебя к креслу, заставляет отбросить все посторонние мысли и проблемы."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="приковывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="креслу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отбросить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="посторонние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="эксплет"]
+			1 -> 9 [label="разъяснит"]
+			10 -> 13 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			9 -> 10 [label="_2_компл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="сочин"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+}

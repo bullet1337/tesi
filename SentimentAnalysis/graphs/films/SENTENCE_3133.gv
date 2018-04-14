@@ -1,0 +1,27 @@
+digraph SENTENCE_3133 {
+	graph [label="А поэтому давайте снимем о любви двух мужчин."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="давайте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="снимем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="_2_компл"]
+			0 -> 2 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			5 -> 7 [label="аппоз"]
+			7 -> 6 [label="количест"]
+}

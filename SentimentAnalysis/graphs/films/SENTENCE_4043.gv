@@ -1,0 +1,42 @@
+digraph SENTENCE_4043 {
+	graph [label="Вот именно эти слова «модно» и «обыкновенно» — делают для меня любой фильм неинтересным."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="модно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обыкновенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="делают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="неинтересным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			13 -> 14 [label="предл"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="сочин"]
+			5 -> 12 [label="сент_соч"]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="_1_компл"]
+			12 -> 17 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+}

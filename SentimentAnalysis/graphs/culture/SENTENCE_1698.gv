@@ -1,0 +1,60 @@
+digraph SENTENCE_1698 {
+	graph [label="Он выступил продюсером картины \"Как Витька Чеснок вез Леху Штыря в дом инвалидов\", где Серебряков исполнил одну из главных ролей."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продюсером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Как
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Витька
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Чеснок
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="вез
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Леху Штыря
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="инвалидов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Серебряков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="исполнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="сочин"]
+			18 -> 19 [label="электив"]
+			17 -> 15 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			11 -> 12 [label="аппоз"]
+			8 -> 5 [label="вводн"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_3_компл"]
+			8 -> 17 [label="сочин"]
+			2 -> 3 [label="сочин"]
+			21 -> 20 [label="опред"]
+			5 -> 6 [label="сравн_союзн"]
+			19 -> 21 [label="предл"]
+			10 -> 11 [label="предл"]
+}

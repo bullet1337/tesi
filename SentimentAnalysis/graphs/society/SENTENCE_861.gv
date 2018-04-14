@@ -1,0 +1,69 @@
+digraph SENTENCE_861 {
+	graph [label="Сергей Марков, Денис Ермолаев, Владимир Шарый и Владимир Кривошапов осмотрели животное, убедились, что у него нет травм, и помогли нерпе добраться до полыньи\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="Сергей Марков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Денис Ермолаев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Владимир Шарый
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Владимир Кривошапов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="осмотрели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="животное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="убедились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="травм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="помогли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нерпе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="добраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="полыньи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			4 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 21 [label="_2_компл"]
+			22 -> 23 [label="предл"]
+			28 -> 29 [label="предл"]
+			12 -> 15 [label="подч_союзн"]
+			0 -> 2 [label="аппоз"]
+			0 -> 4 [label="об_аппоз"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 27 [label="сочин"]
+			15 -> 13 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			15 -> 18 [label="сент_соч"]
+			18 -> 19 [label="соч_союзн"]
+			21 -> 22 [label="_2_компл"]
+			27 -> 28 [label="обст"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="сочин"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1593 {
+	graph [label="И тут мне попался очень интересный мюзикл под названием «Танцующая в темноте»."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="попался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="интересный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="названием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			6 -> 11 [label="атриб"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			8 -> 10 [label="компл_аппоз"]
+			5 -> 4 [label="огранич"]
+			7 -> 8 [label="предл"]
+}

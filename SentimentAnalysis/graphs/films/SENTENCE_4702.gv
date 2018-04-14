@@ -1,0 +1,36 @@
+digraph SENTENCE_4702 {
+	graph [label="Плохо, скучно, первый час спал, второй час пытался снова не заснуть."]
+	node [style=filled]
+		0 [label="Плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="скучно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снова
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заснуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 6 [label="сент_соч"]
+			0 -> 10 [label="вводн"]
+			5 -> 4 [label="опред"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="длительн"]
+			6 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1029 {
+	graph [label="И мне кажется, что выбор оказался удачным."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удачным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_2_компл"]
+			2 -> 4 [label="предик"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			0 -> 2 [label="соч_союзн"]
+			4 -> 6 [label="подч_союзн"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_2034 {
+	graph [label="Кроме того, в текст повествование вклинено множество разных символов, трактовка которых неоднозначна."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="текст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="повествование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вклинено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="символов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="трактовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="неоднозначна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="предик"]
+			6 -> 13 [label="сент_соч"]
+			13 -> 11 [label="предик"]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="опред"]
+}

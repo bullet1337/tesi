@@ -1,0 +1,30 @@
+digraph SENTENCE_1657 {
+	graph [label="Смешно, когда взрослый человек занимается маскарадом, превращается в ряженого."]
+	node [style=filled]
+		0 [label="Смешно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="взрослый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="занимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="маскарадом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="превращается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ряженого
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 5 [label="подч_союзн"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="предик"]
+			0 -> 8 [label="разъяснит"]
+			8 -> 9 [label="_2_компл"]
+}

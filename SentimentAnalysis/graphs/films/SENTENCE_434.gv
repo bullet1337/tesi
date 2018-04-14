@@ -1,0 +1,33 @@
+digraph SENTENCE_434 {
+	graph [label="Абсолютно беззаботный мир мюзиклов, где «никогда не происходит ничего плохого»."]
+	node [style=filled]
+		0 [label="Абсолютно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="беззаботный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="плохого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			9 -> 2 [label="предик"]
+			9 -> 5 [label="обст"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 11 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+}

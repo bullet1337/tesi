@@ -1,0 +1,42 @@
+digraph SENTENCE_3640 {
+	graph [label="Член Зала хоккейной славы в Торонто, Член Зала славы канадского спорта — настоящая Легенда."]
+	node [style=filled]
+		0 [label="Член
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Зала
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="хоккейной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Торонто
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Член
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Зала
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="канадского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="спорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="настоящая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Легенда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 11 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 7 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			3 -> 2 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 14 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			14 -> 13 [label="опред"]
+			1 -> 3 [label="квазиагент"]
+			1 -> 4 [label="атриб"]
+}

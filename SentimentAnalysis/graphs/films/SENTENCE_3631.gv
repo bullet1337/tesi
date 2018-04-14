@@ -1,0 +1,27 @@
+digraph SENTENCE_3631 {
+	graph [label="А легендами «вот-вот-ушедших-лет» были Валерий Харламов и Фил Эспозито."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="легендами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вот-вот
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ушедших-лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Валерий Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Фил Эспозито
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 1 [label="присвяз"]
+			7 -> 3 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="предик"]
+			9 -> 10 [label="соч_союзн"]
+			0 -> 7 [label="соч_союзн"]
+			8 -> 9 [label="сочин"]
+}

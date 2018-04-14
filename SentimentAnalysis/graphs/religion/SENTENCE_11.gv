@@ -1,0 +1,36 @@
+digraph SENTENCE_11 {
+	graph [label="\"На протяжении исторического пространства, насколько можно вспомнить, такого не было никогда."]
+	node [style=filled]
+		1 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исторического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пространства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вспомнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 12 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			4 -> 3 [label="опред"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="обст"]
+			7 -> 1 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предик"]
+			2 -> 4 [label="квазиагент"]
+}

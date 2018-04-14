@@ -1,0 +1,42 @@
+digraph SENTENCE_119 {
+	graph [label="Премьера балета состоялась в Гамбургском балете, который возглавляет хореограф, 2 июля 2017 года."]
+	node [style=filled]
+		0 [label="Премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="балета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гамбургском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="балете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возглавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хореограф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="июля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="сент_соч"]
+			9 -> 11 [label="аппоз"]
+			0 -> 1 [label="аппоз"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			11 -> 12 [label="атриб"]
+			12 -> 14 [label="атриб"]
+}

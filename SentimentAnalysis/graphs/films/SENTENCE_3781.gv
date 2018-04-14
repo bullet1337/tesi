@@ -1,0 +1,41 @@
+digraph SENTENCE_3781 {
+	graph [label="Во время просмотр а этого фильма люди блевали в прямом смысле этого слова."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="блевали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прямом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			5 -> 4 [label="опред"]
+			2 -> 3 [label="сочин"]
+			2 -> 7 [label="релят"]
+			0 -> 1 [label="предл"]
+			10 -> 9 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 12 [label="_1_компл"]
+			3 -> 5 [label="соч_союзн"]
+			8 -> 10 [label="предл"]
+}

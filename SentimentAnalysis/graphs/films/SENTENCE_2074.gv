@@ -1,0 +1,18 @@
+digraph SENTENCE_2074 {
+	graph [label="А может всё это сон?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="может
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="предик"]
+}

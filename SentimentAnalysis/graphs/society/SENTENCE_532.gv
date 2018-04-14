@@ -1,0 +1,45 @@
+digraph SENTENCE_532 {
+	graph [label="Добиться лечения, если пациент не попадает ни под одну из существующих программ, довольно сложно."]
+	node [style=filled]
+		0 [label="Добиться
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="лечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пациент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="попадает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="существующих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="программ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			15 -> 14 [label="огранич"]
+			12 -> 11 [label="опред"]
+			9 -> 10 [label="электив"]
+			3 -> 6 [label="подч_союзн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 15 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+}

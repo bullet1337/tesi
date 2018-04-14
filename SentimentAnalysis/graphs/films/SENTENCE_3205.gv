@@ -1,0 +1,53 @@
+digraph SENTENCE_3205 {
+	graph [label="А значит они геи всего процентов на 30, а если выразиться более простым языком, то просто извращенцы."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="значит
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="геи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="процентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выразиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="простым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="языком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="извращенцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			10 -> 11 [label="инф_союзн"]
+			10 -> 16 [label="соотнос"]
+			18 -> 10 [label="обст"]
+			18 -> 17 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			9 -> 18 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			6 -> 5 [label="предл"]
+			3 -> 1 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="атриб"]
+			3 -> 7 [label="атриб"]
+			11 -> 14 [label="_1_компл"]
+}

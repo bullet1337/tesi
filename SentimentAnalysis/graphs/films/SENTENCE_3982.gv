@@ -1,0 +1,21 @@
+digraph SENTENCE_3982 {
+	graph [label="На том прекрасный день и закончился."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прекрасный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="закончился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="огранич"]
+			0 -> 3 [label="предл"]
+}

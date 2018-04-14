@@ -1,0 +1,51 @@
+digraph SENTENCE_562 {
+	graph [label="\"И всегда он достойно справлялся с поставленными задачами, честно служил делу, людям, Отечеству\", — подчеркнул глава РФ."]
+	node [style=filled]
+		1 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="достойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="справлялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поставленными
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="задачами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="служил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="делу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Отечеству
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 5 [label="соч_союзн"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 20 [label="сент_соч"]
+			20 -> 14 [label="неакт_компл"]
+			20 -> 16 [label="_2_компл"]
+			20 -> 21 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="разъяснит"]
+			21 -> 22 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_1340 {
+	graph [label="А \"традиционный\" Цаган-Сар действительно посвящен весне, хотя в республике сейчас всего два градуса тепла."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="традиционный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Цаган-Сар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="посвящен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="весне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="республике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="градуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тепла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="обст"]
+			0 -> 6 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+			4 -> 2 [label="опред"]
+			14 -> 13 [label="огранич"]
+			9 -> 15 [label="подч_союзн"]
+			15 -> 10 [label="обст"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="квазиагент"]
+}

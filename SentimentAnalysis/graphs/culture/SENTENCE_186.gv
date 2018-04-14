@@ -1,0 +1,36 @@
+digraph SENTENCE_186 {
+	graph [label="Рахманинова \"Филармонии-2\" с сольной программой из сочинений Шопена и Бетховена."]
+	node [style=filled]
+		0 [label="Рахманинова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Филармонии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сольной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="программой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сочинений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Шопена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Бетховена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			9 -> 10 [label="предл"]
+			6 -> 8 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			0 -> 2 [label="аппоз"]
+			0 -> 6 [label="атриб"]
+			11 -> 12 [label="сочин"]
+			10 -> 11 [label="квазиагент"]
+}

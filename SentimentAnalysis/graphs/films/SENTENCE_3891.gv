@@ -1,0 +1,60 @@
+digraph SENTENCE_3891 {
+	graph [label="Вот уж ни за что не пропущу — подумалось — интеллектуальный уровень меня нынешней позволит мне оценить произведение мастера по достоинству."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пропущу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подумалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="интеллектуальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уровень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нынешней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="позволит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="произведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мастера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="достоинству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			17 -> 18 [label="квазиагент"]
+			18 -> 19 [label="атриб"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="релят"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 13 [label="_2_компл"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 16 [label="предик"]
+			8 -> 11 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="вводн"]
+}

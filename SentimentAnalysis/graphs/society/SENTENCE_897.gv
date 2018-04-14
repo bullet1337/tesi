@@ -1,0 +1,33 @@
+digraph SENTENCE_897 {
+	graph [label="\"Сегодня мы ожидаем в Москве переменную облачность без существенных осадков."]
+	node [style=filled]
+		1 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ожидаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="переменную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="облачность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="существенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="осадков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 8 [label="обст"]
+			8 -> 10 [label="предл"]
+			7 -> 6 [label="опред"]
+			4 -> 5 [label="предл"]
+			10 -> 9 [label="опред"]
+}

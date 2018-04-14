@@ -1,0 +1,54 @@
+digraph SENTENCE_2531 {
+	graph [label="Лишь однажды Андрей Рублёв совершает понятный осмысленный жест: в обстановке всеобщего хаоса убивает насильника и защищает беззащитную женщину."]
+	node [style=filled]
+		0 [label="Лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Андрей Рублёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="совершает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="понятный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="осмысленный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обстановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всеобщего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хаоса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="убивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="насильника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="защищает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="беззащитную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="женщину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 8 [label="обст"]
+			3 -> 12 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			1 -> 0 [label="огранич"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="сочин"]
+			11 -> 10 [label="опред"]
+			15 -> 17 [label="_1_компл"]
+			9 -> 11 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+}

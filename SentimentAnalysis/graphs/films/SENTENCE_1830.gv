@@ -1,0 +1,50 @@
+digraph SENTENCE_1830 {
+	graph [label="Но лучше, лучше всего будет если вы не прочтете ни одной рецензии, а сразу сядете смотреть."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прочтете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рецензии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сядете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="подч_союзн"]
+			5 -> 6 [label="обст"]
+			5 -> 14 [label="сочин"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="атриб"]
+			3 -> 4 [label="сравнит"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 12 [label="_1_компл"]
+			14 -> 16 [label="соч_союзн"]
+			12 -> 11 [label="количест"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			11 -> 10 [label="огранич"]
+}

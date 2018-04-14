@@ -1,0 +1,18 @@
+digraph SENTENCE_91 {
+	graph [label="Что было на первом месте?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="первом
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+}

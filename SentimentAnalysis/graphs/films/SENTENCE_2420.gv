@@ -1,0 +1,69 @@
+digraph SENTENCE_2420 {
+	graph [label="Героев жалко, ну не железная же я. Вот только кино в этом замысловатом сочетании идеи и формы ее передачи я не увидела."]
+	node [style=filled]
+		0 [label="Героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жалко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="железная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Вот
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="замысловатом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сочетании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="идеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="формы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="передачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 19 [label="_1_компл"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="огранич"]
+			17 -> 18 [label="соч_союзн"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 11 [label="сент_соч"]
+			18 -> 20 [label="квазиагент"]
+			16 -> 17 [label="сочин"]
+			5 -> 3 [label="вводн"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="огранич"]
+			7 -> 5 [label="оп_опред"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			12 -> 15 [label="предл"]
+			10 -> 9 [label="огранич"]
+			11 -> 7 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="атриб"]
+			11 -> 16 [label="сочин"]
+			11 -> 23 [label="сент_соч"]
+}

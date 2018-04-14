@@ -1,0 +1,70 @@
+digraph SENTENCE_2017 {
+	graph [label="И действительно, работу над сценарием Андрей Тарковский начал в 1967, когда ему было 35 лет, т. е. выражаясь современной терминологией, переживал кризис среднего возраста."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сценарием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Андрей Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1967
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="35
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="выражаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="терминологией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="переживал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="кризис
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="среднего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="возраста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 19 [label="предик"]
+			25 -> 21 [label="обст"]
+			25 -> 26 [label="_1_компл"]
+			5 -> 6 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			21 -> 23 [label="_1_компл"]
+			0 -> 7 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			23 -> 22 [label="опред"]
+			28 -> 27 [label="опред"]
+			15 -> 14 [label="количест"]
+			15 -> 17 [label="квазиагент"]
+			13 -> 15 [label="предик"]
+			13 -> 25 [label="сент_соч"]
+			26 -> 28 [label="квазиагент"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			7 -> 3 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 11 [label="обст"]
+}

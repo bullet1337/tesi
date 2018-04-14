@@ -1,0 +1,39 @@
+digraph SENTENCE_851 {
+	graph [label="Ее персонаж Кэти — пожалуй, единственный лучик света в темном царстве, окружающем Сельму."]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кэти
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="единственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="темном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="царстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="окружающем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сельму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="атриб"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 1 [label="предик"]
+			7 -> 4 [label="вводн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			7 -> 9 [label="обст"]
+			7 -> 14 [label="сочин"]
+			14 -> 13 [label="опред"]
+			9 -> 11 [label="предл"]
+}

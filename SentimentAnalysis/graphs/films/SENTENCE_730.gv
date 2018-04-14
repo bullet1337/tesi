@@ -1,0 +1,54 @@
+digraph SENTENCE_730 {
+	graph [label="А это для нее стало бы невероятным ударом в самое сердце, ведь только его она и слушала."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="невероятным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ударом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="слушала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			12 -> 17 [label="подч_союзн"]
+			14 -> 13 [label="огранич"]
+			17 -> 14 [label="_1_компл"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="аналит"]
+			4 -> 7 [label="присвяз"]
+			4 -> 12 [label="обст"]
+			0 -> 4 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_1928 {
+	graph [label="Она могла рассказать всю правду, но она не такой человек, она до конца будет сдержать свое слово, они, же клялись «сердцем матери»."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рассказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сдержать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="клялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сердцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="обст"]
+			20 -> 22 [label="огранич"]
+			18 -> 17 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+			25 -> 26 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			10 -> 7 [label="предик"]
+			10 -> 9 [label="опред"]
+			10 -> 15 [label="релят"]
+			10 -> 16 [label="сент_соч"]
+			10 -> 23 [label="релят"]
+			2 -> 4 [label="_1_компл"]
+			6 -> 10 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			23 -> 20 [label="предик"]
+			23 -> 25 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			13 -> 14 [label="предл"]
+}

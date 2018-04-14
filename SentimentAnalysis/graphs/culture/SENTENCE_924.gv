@@ -1,0 +1,39 @@
+digraph SENTENCE_924 {
+	graph [label="Ты никогда не знаешь, каков твой герой, пока не начинаешь его играть."]
+	node [style=filled]
+		0 [label="Ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="каков
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="твой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="начинаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предик"]
+			5 -> 11 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			13 -> 12 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+}

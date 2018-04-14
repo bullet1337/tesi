@@ -1,0 +1,24 @@
+digraph SENTENCE_160 {
+	graph [label="\"Думаю, мы такой проект постараемся сформулировать и предложить."]
+	node [style=filled]
+		1 [label="Думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="постараемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сформулировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="предложить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+}

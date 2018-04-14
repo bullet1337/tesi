@@ -1,0 +1,57 @@
+digraph SENTENCE_133 {
+	graph [label="Открытие и закрытие музыкального форума пройдет в Концертном зале в сопровождении Симфонического оркестра Мариинского театра под управлением Ивана Столбова."]
+	node [style=filled]
+		0 [label="Открытие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="закрытие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыкального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Концертном
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сопровождении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Симфонического
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="оркестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Мариинского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="управлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Ивана Столбова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="соч_союзн"]
+			2 -> 4 [label="_1_компл"]
+			0 -> 1 [label="сочин"]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="опред"]
+			15 -> 16 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="обст"]
+			5 -> 15 [label="обст"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			10 -> 12 [label="квазиагент"]
+			16 -> 17 [label="квазиагент"]
+			6 -> 8 [label="предл"]
+			14 -> 13 [label="опред"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_1573 {
+	graph [label="Такую агрессию режиссер объясняет тем, что после сентябрьской ночи 1983-го, вошедшей в историю, непосредственное командование Петрова не оценило его поступок."]
+	node [style=filled]
+		0 [label="Такую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="агрессию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="объясняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сентябрьской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ночи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1983-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вошедшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="непосредственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="командование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Петрова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="оценило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="поступок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="предл"]
+			20 -> 7 [label="обст"]
+			20 -> 10 [label="предик"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			6 -> 20 [label="подч_союзн"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_4_компл"]
+			4 -> 6 [label="эксплет"]
+			10 -> 12 [label="опред"]
+			1 -> 0 [label="опред"]
+			17 -> 16 [label="опред"]
+			9 -> 8 [label="опред"]
+			22 -> 21 [label="квазиагент"]
+			12 -> 13 [label="_2_компл"]
+}

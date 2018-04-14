@@ -1,0 +1,24 @@
+digraph SENTENCE_2482 {
+	graph [label="Такое же ощущение вызвал и фильм Тарковского."]
+	node [style=filled]
+		0 [label="Такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вызвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="аппоз"]
+			2 -> 0 [label="опред"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+			0 -> 1 [label="огранич"]
+}

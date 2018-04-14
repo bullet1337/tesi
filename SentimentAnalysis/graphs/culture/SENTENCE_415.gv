@@ -1,0 +1,63 @@
+digraph SENTENCE_415 {
+	graph [label="\"У Алексея, как и прогнозировалось, было \"Киньте в меня камень тот, кто без греха\", — сказал Баста, отдав свой голос Гуфу."]
+	node [style=filled]
+		1 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Алексея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прогнозировалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="было
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Киньте
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="камень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="греха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Баста
+INTJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="отдав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Гуфу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="аппоз"]
+			4 -> 6 [label="сравн_союзн"]
+			25 -> 27 [label="_1_компл"]
+			27 -> 26 [label="опред"]
+			6 -> 5 [label="огранич"]
+			1 -> 2 [label="предл"]
+			14 -> 22 [label="релят"]
+			8 -> 1 [label="_1_компл"]
+			8 -> 10 [label="разъяснит"]
+			17 -> 18 [label="предл"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="_1_компл"]
+			10 -> 14 [label="сочин"]
+			28 -> 23 [label="вводн"]
+			28 -> 25 [label="обст"]
+			22 -> 16 [label="предик"]
+			22 -> 17 [label="обст"]
+			22 -> 28 [label="_1_компл"]
+}

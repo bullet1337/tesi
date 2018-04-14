@@ -1,0 +1,45 @@
+digraph SENTENCE_581 {
+	graph [label="В буддийской традиции празднование Нового года приходится на первое весеннее новолуние по лунному календарю."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буддийской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="празднование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Нового
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="весеннее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="новолуние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лунному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="календарю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			3 -> 5 [label="атриб"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="обст"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			7 -> 10 [label="предл"]
+}

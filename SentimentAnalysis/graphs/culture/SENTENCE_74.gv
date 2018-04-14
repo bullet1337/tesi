@@ -1,0 +1,24 @@
+digraph SENTENCE_74 {
+	graph [label="(1956), \"Игра без правил\" (1965), \"Теща\" (1973)."]
+	node [style=filled]
+		1 [label="1956
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Игра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1965
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Теща
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="1973
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			17 -> 14 [label="предик"]
+			5 -> 1 [label="количест"]
+			5 -> 6 [label="атриб"]
+			5 -> 17 [label="сент_соч"]
+			14 -> 10 [label="количест"]
+}

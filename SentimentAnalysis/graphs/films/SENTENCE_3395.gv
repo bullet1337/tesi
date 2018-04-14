@@ -1,0 +1,59 @@
+digraph SENTENCE_3395 {
+	graph [label="Резкие оценки не люблю, но считаю, что фильм Лебедева, в прямом смысле этого слова, оклеветал нашего с вами Валерия Харламова."]
+	node [style=filled]
+		0 [label="Резкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оценки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Лебедева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прямом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оклеветал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="вами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Валерия Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сочин"]
+			19 -> 20 [label="атриб"]
+			5 -> 6 [label="соч_союзн"]
+			20 -> 21 [label="предл"]
+			6 -> 8 [label="_1_компл"]
+			12 -> 14 [label="предл"]
+			14 -> 13 [label="опред"]
+			16 -> 15 [label="опред"]
+			18 -> 16 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 12 [label="атриб"]
+			9 -> 18 [label="ном_аппоз"]
+			9 -> 22 [label="аппоз"]
+}

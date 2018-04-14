@@ -1,0 +1,27 @@
+digraph SENTENCE_843 {
+	graph [label="Если можно остановить зло, то нужно это делать."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="остановить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зло
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 8 [label="предик"]
+			1 -> 2 [label="предик"]
+			8 -> 7 [label="_1_компл"]
+			0 -> 1 [label="подч_союзн"]
+			0 -> 5 [label="соотнос"]
+}

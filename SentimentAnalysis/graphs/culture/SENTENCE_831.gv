@@ -1,0 +1,66 @@
+digraph SENTENCE_831 {
+	graph [label="Экспозиция откроется премьерой перформанса художников \"Post-mortem Mohography\", который создан специально для пространства Пушкинского, уточнила заведующая отделом кино и медиа искусства музея Ольга Шишко."]
+	node [style=filled]
+		0 [label="Экспозиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="откроется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="премьерой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="перформанса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="художников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Post-mortem Mohography
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="специально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пространства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Пушкинского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="уточнила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заведующая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отделом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="медиа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="искусства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="музея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Ольга Шишко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 18 [label="аппоз"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="обст"]
+			10 -> 16 [label="сент_соч"]
+			19 -> 20 [label="сочин"]
+			18 -> 19 [label="_1_компл"]
+			22 -> 23 [label="сочин"]
+			2 -> 3 [label="аппоз"]
+			3 -> 4 [label="аппоз"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			23 -> 24 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 10 [label="сент_соч"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			4 -> 6 [label="аппоз"]
+			21 -> 22 [label="сочин"]
+			20 -> 21 [label="соч_союзн"]
+}

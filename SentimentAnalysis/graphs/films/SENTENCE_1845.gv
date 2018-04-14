@@ -1,0 +1,30 @@
+digraph SENTENCE_1845 {
+	graph [label="Однажды эти деньги у нее обманом отбирают (читай, воруют)."]
+	node [style=filled]
+		0 [label="Однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обманом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отбирают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="читай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воруют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			8 -> 10 [label="сочин"]
+			3 -> 4 [label="предл"]
+}

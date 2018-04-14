@@ -1,0 +1,60 @@
+digraph SENTENCE_1297 {
+	graph [label="Фильм \"Лед\" дебютанта Олега Трофимова возглавил российский прокат, собрав за первые выходные 451, 9 миллиона рублей, сообщил в понедельник портал."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Лед
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="дебютанта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Олега Трофимова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="возглавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собрав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выходные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="451
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="портал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="атриб"]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="обст"]
+			6 -> 20 [label="вводн"]
+			21 -> 22 [label="предл"]
+			13 -> 12 [label="опред"]
+			14 -> 16 [label="кратн"]
+			8 -> 7 [label="опред"]
+			11 -> 13 [label="предл"]
+			20 -> 21 [label="обст"]
+			20 -> 23 [label="предик"]
+			0 -> 2 [label="ном_аппоз"]
+			0 -> 5 [label="аппоз"]
+			17 -> 14 [label="количест"]
+			17 -> 18 [label="квазиагент"]
+			10 -> 11 [label="обст"]
+			10 -> 17 [label="_1_компл"]
+}

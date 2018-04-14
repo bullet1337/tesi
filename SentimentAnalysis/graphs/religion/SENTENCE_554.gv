@@ -1,0 +1,72 @@
+digraph SENTENCE_554 {
+	graph [label="Он — праведный еврей, воплощение Ветхого Завета, сперва усомнившись, затем уверовал и написал \"Дева…\", после чего был удостоен увидеть исполнение пророчества в Новом Завете."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="праведный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="еврей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="воплощение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ветхого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Завета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="сперва
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="усомнившись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уверовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Дева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="удостоен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="исполнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пророчества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Новом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Завете
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 21 [label="обст"]
+			23 -> 24
+			28 -> 30 [label="предл"]
+			5 -> 7 [label="_1_компл"]
+			24 -> 25 [label="_2_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="сочин"]
+			3 -> 10 [label="обст"]
+			3 -> 13 [label="разъяснит"]
+			21 -> 22 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="сочин"]
+			30 -> 29 [label="опред"]
+			15 -> 17 [label="_1_компл"]
+			17 -> 23 [label="релят"]
+			25 -> 26 [label="_1_компл"]
+			25 -> 28 [label="обст"]
+			7 -> 6 [label="опред"]
+			26 -> 27 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+}

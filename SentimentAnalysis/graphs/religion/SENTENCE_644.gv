@@ -1,0 +1,51 @@
+digraph SENTENCE_644 {
+	graph [label="По его словам, пост – это \"оставление того, что оскверняет твою жизнь, дело тут не в пище\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оставление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оскверняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="твою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			0 -> 2 [label="предл"]
+			9 -> 12 [label="эксплет"]
+			8 -> 0 [label="вводн"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 16 [label="атриб"]
+			8 -> 19 [label="сент_соч"]
+			6 -> 4 [label="пролепт"]
+			2 -> 1 [label="квазиагент"]
+			19 -> 17 [label="обст"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="предл"]
+}

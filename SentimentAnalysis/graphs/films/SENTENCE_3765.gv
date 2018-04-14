@@ -1,0 +1,36 @@
+digraph SENTENCE_3765 {
+	graph [label="С историей я знаком хорошо, но не с историей всевозможных шоу."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="историей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="историей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всевозможных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="шоу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="соч_союзн"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="предик"]
+			3 -> 6 [label="сочин"]
+}

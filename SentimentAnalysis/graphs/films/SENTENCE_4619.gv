@@ -1,0 +1,36 @@
+digraph SENTENCE_4619 {
+	graph [label="Все уже давно привыкли, что в дорогих красивых блокбастерах много клише."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="привыкли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дорогих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="красивых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="блокбастерах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="клише
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			5 -> 10 [label="подч_союзн"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			10 -> 6 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			6 -> 9 [label="предл"]
+}

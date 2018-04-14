@@ -1,0 +1,30 @@
+digraph SENTENCE_3137 {
+	graph [label="Никто бы не пошевелился чтобы купить на него билет."]
+	node [style=filled]
+		0 [label="Никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пошевелился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="купить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="билет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_3_компл"]
+			5 -> 8 [label="_1_компл"]
+			4 -> 5 [label="инф_союзн"]
+			6 -> 7 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="аналит"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="обст"]
+}

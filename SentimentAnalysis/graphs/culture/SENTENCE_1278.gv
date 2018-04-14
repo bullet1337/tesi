@@ -1,0 +1,60 @@
+digraph SENTENCE_1278 {
+	graph [label="Автор-исполнитель и актер Эд Ширан в прошлом году за свои достижения в области музыки стал кавалером почетного Ордена Британской империи."]
+	node [style=filled]
+		0 [label="Автор-исполнитель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Эд Ширан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошлом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="достижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кавалером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="почетного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ордена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Британской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="империи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			18 -> 17 [label="опред"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			7 -> 0 [label="предик"]
+			7 -> 4 [label="огранич"]
+			7 -> 9 [label="предл"]
+			7 -> 13 [label="вводн"]
+			13 -> 14 [label="присвяз"]
+			4 -> 6 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			2 -> 3 [label="аппоз"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="атриб"]
+			11 -> 12 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+}

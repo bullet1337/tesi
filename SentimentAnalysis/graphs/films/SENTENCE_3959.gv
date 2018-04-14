@@ -1,0 +1,34 @@
+digraph SENTENCE_3959 {
+	graph [label="В целом фильм не вызвал ни злости, ни отвращения, ни жалости."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вызвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="злости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отвращения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жалости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			6 -> 8 [label="сочин"]
+			9 -> 11 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			11 -> 12 [label="соч_союзн"]
+}

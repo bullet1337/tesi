@@ -1,0 +1,24 @@
+digraph SENTENCE_1109 {
+	graph [label="Роль небольшая, но тем неменее очень важная."]
+	node [style=filled]
+		0 [label="Роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="небольшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неменее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="важная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 4 [label="атриб"]
+			7 -> 5 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			3 -> 7 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сент_соч"]
+}

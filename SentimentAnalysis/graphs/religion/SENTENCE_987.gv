@@ -1,0 +1,57 @@
+digraph SENTENCE_987 {
+	graph [label="Помните историю с плащаницей Христа: после нескольких исследований сначала утверждали, что это фальшивка, а потом оказалось, что правда."]
+	node [style=filled]
+		0 [label="Помните
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плащаницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Христа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="исследований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сначала
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="утверждали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фальшивка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оказалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="правда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			20 -> 21 [label="подч_союзн"]
+			16 -> 18 [label="соч_союзн"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="сочин"]
+			18 -> 17 [label="обст"]
+			18 -> 20 [label="предик"]
+			2 -> 3 [label="предл"]
+			8 -> 7 [label="количест"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 6 [label="обст"]
+			0 -> 10 [label="сент_соч"]
+			3 -> 4 [label="аппоз"]
+			12 -> 14 [label="подч_союзн"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_406 {
+	graph [label="В целом раунд Птахи, как большая часть выступления, не имел четкой структуры, ударных панчей и впечатляющих рифм."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раунд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="четкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="структуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ударных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="панчей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="впечатляющих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="рифм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 19 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			13 -> 16 [label="квазиагент"]
+			5 -> 7 [label="сравн_союзн"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 5 [label="сравнит"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="сочин"]
+			19 -> 18 [label="опред"]
+			11 -> 0 [label="обст"]
+			11 -> 2 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

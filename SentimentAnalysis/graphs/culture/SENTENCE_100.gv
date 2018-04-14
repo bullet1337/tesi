@@ -1,0 +1,42 @@
+digraph SENTENCE_100 {
+	graph [label="Народная артистка СССР, оперная певица Тамара Нижникова умерла в Минске на 93-м году жизни."]
+	node [style=filled]
+		0 [label="Народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="оперная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Тамара Нижникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="умерла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Минске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="93-м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 5 [label="об_аппоз"]
+			8 -> 9 [label="предл"]
+			10 -> 11 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="обст"]
+			7 -> 12 [label="неакт_компл"]
+			7 -> 13 [label="_1_компл"]
+}

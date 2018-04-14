@@ -1,0 +1,51 @@
+digraph SENTENCE_235 {
+	graph [label="Она сама работает день и ночь, но при всём ужасе собственной жизни она не перестаёт мечтать."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ночь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ужасе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="перестаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мечтать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="сочин"]
+			8 -> 10 [label="предл"]
+			12 -> 11 [label="опред"]
+			7 -> 15 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 7 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="атриб"]
+			0 -> 1 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			15 -> 8 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+}

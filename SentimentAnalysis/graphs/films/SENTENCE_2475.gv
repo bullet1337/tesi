@@ -1,0 +1,39 @@
+digraph SENTENCE_2475 {
+	graph [label="Фильм пытались выдать за какой-то запретный, интригующий, шокирующий, но это не соответствует увиденному."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="запретный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="интригующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шокирующий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="соответствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="увиденному
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			5 -> 7 [label="сочин"]
+			5 -> 11 [label="сент_соч"]
+			7 -> 9 [label="сочин"]
+			11 -> 14 [label="соч_союзн"]
+}

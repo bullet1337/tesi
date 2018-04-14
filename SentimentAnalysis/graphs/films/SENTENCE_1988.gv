@@ -1,0 +1,45 @@
+digraph SENTENCE_1988 {
+	graph [label="Смотреть Тарковского намного приятнее тому зрителю, который подкован в литературе, истории, живописи и музыке."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="намного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приятнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подкован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="литературе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="живописи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="сочин"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="колич_огран"]
+			3 -> 5 [label="сравнит"]
+			3 -> 8 [label="сент_соч"]
+			12 -> 14 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			8 -> 12 [label="_2_компл"]
+			9 -> 10 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			5 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_218 {
+	graph [label="Песни которые исполняла неподражаемая Бьорк так будто это ее личные истории!"]
+	node [style=filled]
+		0 [label="Песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неподражаемая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будто
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="личные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="предик"]
+			2 -> 10 [label="сент_соч"]
+			5 -> 6
+			4 -> 3 [label="опред"]
+			7 -> 5 [label="огранич"]
+}

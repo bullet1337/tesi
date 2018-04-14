@@ -1,0 +1,42 @@
+digraph SENTENCE_2360 {
+	graph [label="И на кинопоиске можно видеть этот жанр в соответствующей графе вместе с «драмой»."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кинопоиске
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жанр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="соответствующей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="графе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="драмой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 10 [label="обст"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 9 [label="предл"]
+}

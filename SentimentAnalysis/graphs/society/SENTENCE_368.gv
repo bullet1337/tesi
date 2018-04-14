@@ -1,0 +1,51 @@
+digraph SENTENCE_368 {
+	graph [label="Лидер компартии Геннадий Зюганов, выступая со сцены, сказал, что \"сегодня народ должен опереться на тысячелетия наших побед\"."]
+	node [style=filled]
+		0 [label="Лидер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="компартии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Геннадий Зюганов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="выступая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="опереться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тысячелетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="наших
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="побед
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			15 -> 16 [label="_1_компл"]
+			17 -> 19 [label="атриб"]
+			10 -> 14 [label="подч_союзн"]
+			5 -> 6 [label="предл"]
+			8 -> 0 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 10 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+}

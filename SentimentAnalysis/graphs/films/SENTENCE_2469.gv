@@ -1,0 +1,54 @@
+digraph SENTENCE_2469 {
+	graph [label="Понятно, что большинству мое мнение не понравится, но этот фильм явно снят с целью пропаганды не более."]
+	node [style=filled]
+		0 [label="Понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большинству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="целью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пропаганды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			2 -> 7 [label="подч_союзн"]
+			5 -> 4 [label="опред"]
+			18 -> 17 [label="огранич"]
+			9 -> 13 [label="соч_союзн"]
+			3 -> 5 [label="квазиагент"]
+			0 -> 2 [label="предик"]
+			14 -> 15 [label="предл"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="сент_соч"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="обст"]
+			13 -> 18 [label="колич_копред"]
+			15 -> 16 [label="квазиагент"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_4705 {
+	graph [label="А еще в фильме играет Элизабет Олсен."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Элизабет Олсен
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			0 -> 4 [label="соч_союзн"]
+}

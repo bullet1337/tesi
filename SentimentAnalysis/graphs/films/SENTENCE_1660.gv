@@ -1,0 +1,21 @@
+digraph SENTENCE_1660 {
+	graph [label="Проживаешь с героями каждый момент фильма."]
+	node [style=filled]
+		0 [label="Проживаешь
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 4 [label="предик"]
+			1 -> 2 [label="предл"]
+}

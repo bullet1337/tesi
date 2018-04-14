@@ -1,0 +1,27 @@
+digraph SENTENCE_726 {
+	graph [label="Чего стоит только не говорить со своим сыном."]
+	node [style=filled]
+		0 [label="Чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сыном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 4 [label="предик"]
+			5 -> 7 [label="предл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="обст"]
+			3 -> 2 [label="огранич"]
+			7 -> 6 [label="опред"]
+}

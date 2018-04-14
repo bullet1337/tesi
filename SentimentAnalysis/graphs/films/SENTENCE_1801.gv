@@ -1,0 +1,39 @@
+digraph SENTENCE_1801 {
+	graph [label="И только песни и танцы дают возможность расслабиться и порадоваться за героиню."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="танцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расслабиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="порадоваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="героиню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			3 -> 4 [label="соч_союзн"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="сочин"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			9 -> 10 [label="_2_компл"]
+}

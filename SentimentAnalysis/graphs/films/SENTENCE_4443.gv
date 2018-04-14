@@ -1,0 +1,45 @@
+digraph SENTENCE_4443 {
+	graph [label="Меня смущало назначение Гарета Эдвардса на пост режиссёра, но тизер развеял сомнения — иду на премьеру!"]
+	node [style=filled]
+		0 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смущало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="назначение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гарета Эдвардса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тизер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="развеял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сомнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="иду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="премьеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 8 [label="сент_соч"]
+			8 -> 10 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 13 [label="сочин"]
+			2 -> 3 [label="аппоз"]
+			2 -> 4 [label="_2_компл"]
+			13 -> 14 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+}

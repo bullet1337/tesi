@@ -1,0 +1,24 @@
+digraph SENTENCE_441 {
+	graph [label="Однако… Она делает все, чтобы спасти сына."]
+	node [style=filled]
+		0 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Она
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спасти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 7 [label="инф_союзн"]
+}

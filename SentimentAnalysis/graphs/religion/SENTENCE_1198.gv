@@ -1,0 +1,54 @@
+digraph SENTENCE_1198 {
+	graph [label="В данный момент он находится в командировке в Сочи, где 15-16 февраля состоится Российский инвестиционный форум."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="командировке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сочи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Российский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="инвестиционный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="атриб"]
+			11 -> 13 [label="кратн"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 15 [label="сент_соч"]
+			13 -> 14 [label="атриб"]
+			0 -> 2 [label="предл"]
+			15 -> 10 [label="обст"]
+			15 -> 11 [label="предик"]
+			15 -> 18 [label="предик"]
+			7 -> 8 [label="предл"]
+}

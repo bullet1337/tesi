@@ -1,0 +1,12 @@
+digraph SENTENCE_499 {
+	graph [label="Фон Триер гениален."]
+	node [style=filled]
+		0 [label="Фон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="гениален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0
+			2 -> 1 [label="предик"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4980 {
+	graph [label="Медведоподобный звероящер, большущий, толстющий(комплимент, если что), ревущий и подраться не дурак."]
+	node [style=filled]
+		0 [label="Медведоподобный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="звероящер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="толстющий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="комплимент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ревущий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дурак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			9 -> 17 [label="подч_союзн"]
+			14 -> 15 [label="соч_союзн"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 7 [label="аппоз"]
+			5 -> 9 [label="обст"]
+			17 -> 10 [label="предик"]
+			17 -> 13 [label="опред"]
+			17 -> 16 [label="огранич"]
+			13 -> 14 [label="сочин"]
+}

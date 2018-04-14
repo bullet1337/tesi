@@ -1,0 +1,45 @@
+digraph SENTENCE_724 {
+	graph [label="На прошлой неделе власти сообщали, что долг перед экс-сотрудниками \"Радиоприбора\" составляет 381,7 миллиона рублей."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошлой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сообщали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="долг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="экс-сотрудниками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Радиоприбора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="381,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 13 [label="подч_союзн"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="квазиагент"]
+			7 -> 8 [label="_2_компл"]
+			2 -> 1 [label="опред"]
+			13 -> 7 [label="_1_компл"]
+			13 -> 11 [label="предик"]
+			13 -> 15 [label="предик"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="предл"]
+}

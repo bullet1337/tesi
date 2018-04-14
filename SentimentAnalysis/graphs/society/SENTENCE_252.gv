@@ -1,0 +1,27 @@
+digraph SENTENCE_252 {
+	graph [label="Вообще, главный тренд в большинстве языков мира — упрощение."]
+	node [style=filled]
+		0 [label="Вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тренд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большинстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="языков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="упрощение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			9 -> 0 [label="огранич"]
+			9 -> 3 [label="предик"]
+			9 -> 4 [label="огранич"]
+			4 -> 5 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+}

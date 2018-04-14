@@ -1,0 +1,45 @@
+digraph SENTENCE_4508 {
+	graph [label="Тёмные тона, мрачные краски создают правильное настроение фильму, добавляют нужные эффекты к окружающим декорациям."]
+	node [style=filled]
+		0 [label="Тёмные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="тона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мрачные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="краски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="создают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правильное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="настроение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="добавляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нужные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эффекты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="окружающим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="декорациям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			7 -> 6 [label="опред"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="обст"]
+			5 -> 10 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="опред"]
+			10 -> 8 [label="_2_компл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="_2_компл"]
+			10 -> 15 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_2009 {
+	graph [label="И опять звучит Бах, на сей раз шествие на казнь из «Страстей по Иоанну»."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="опять
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="звучит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="шествие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="казнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Страстей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Иоанну
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="предл"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="_2_компл"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			14 -> 15 [label="предл"]
+			11 -> 13 [label="предл"]
+			5 -> 7 [label="предл"]
+			0 -> 2 [label="соч_союзн"]
+			10 -> 11 [label="атриб"]
+			13 -> 14 [label="атриб"]
+}

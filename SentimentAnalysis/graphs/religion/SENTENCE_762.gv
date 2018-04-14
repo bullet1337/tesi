@@ -1,0 +1,39 @@
+digraph SENTENCE_762 {
+	graph [label="Автор нынешнего проекта в сербско-византийском стиле — знаменитый сербский и югославский архитектор Александр Дероко."]
+	node [style=filled]
+		0 [label="Автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нынешнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сербско-византийском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стиле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знаменитый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сербский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="югославский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="архитектор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Александр Дероко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="сочин"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+			0 -> 11 [label="аппоз"]
+			9 -> 10 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			11 -> 7 [label="опред"]
+			11 -> 8 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			3 -> 5 [label="предл"]
+}

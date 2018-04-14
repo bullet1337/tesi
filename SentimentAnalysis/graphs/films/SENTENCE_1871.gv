@@ -1,0 +1,30 @@
+digraph SENTENCE_1871 {
+	graph [label="Зрения, здоровья, средств к существованию, уверенности в завтрашнем дне?"]
+	node [style=filled]
+		0 [label="Зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="средств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="существованию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уверенности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="завтрашнем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			0 -> 2 [label="сочин"]
+			0 -> 5 [label="_1_компл"]
+			6 -> 8 [label="квазиагент"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 4 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_4249 {
+	graph [label="Название красивое и поэтичное."]
+	node [style=filled]
+		0 [label="Название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="красивое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поэтичное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="сочин"]
+			2 -> 3 [label="соч_союзн"]
+}

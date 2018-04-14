@@ -1,0 +1,33 @@
+digraph SENTENCE_4358 {
+	graph [label="Для меня остается загадкой за что получил Оскар, Махершала Али?"]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="загадкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Махершала
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Али
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="присвяз"]
+			2 -> 6 [label="вводн"]
+			2 -> 9 [label="вводн"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="предик"]
+			6 -> 7 [label="предик"]
+}

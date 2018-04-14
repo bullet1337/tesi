@@ -1,0 +1,18 @@
+digraph SENTENCE_2580 {
+	graph [label="Училка била Гослинга по голове."]
+	node [style=filled]
+		0 [label="Училка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="била
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гослинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="голове
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="обст"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_5 {
+	graph [label="Надеюсь, что они примут взвешенное решение\", — сказал Мединский на встрече со студентами ВГИКа."]
+	node [style=filled]
+		0 [label="Надеюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="взвешенное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мединский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="встрече
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="студентами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ВГИКа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			14 -> 15 [label="предл"]
+			2 -> 4 [label="подч_союзн"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 10 [label="вводн"]
+			6 -> 5 [label="опред"]
+			10 -> 11 [label="предик"]
+			10 -> 12 [label="обст"]
+			15 -> 16 [label="аппоз"]
+			13 -> 14 [label="_1_компл"]
+}

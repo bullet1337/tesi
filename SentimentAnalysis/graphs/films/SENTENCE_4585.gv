@@ -1,0 +1,51 @@
+digraph SENTENCE_4585 {
+	graph [label="На протяжение получаса нам показывают одномерных и совершенно невыразительных актёров, пытающихся разыгрывать перед нами душещипательные сцены."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="протяжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="получаса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="одномерных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="невыразительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актёров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пытающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разыгрывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="душещипательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 9 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+			11 -> 12 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			8 -> 7 [label="огранич"]
+			9 -> 5 [label="опред"]
+			9 -> 11 [label="опред"]
+			5 -> 6 [label="сочин"]
+			13 -> 14 [label="предл"]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="_1_компл"]
+}

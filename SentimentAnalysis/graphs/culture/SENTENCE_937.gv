@@ -1,0 +1,27 @@
+digraph SENTENCE_937 {
+	graph [label="Это возможность создать тайну и поэзию\", — пояснил он."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="создать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тайну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поэзию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пояснил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="вводн"]
+			4 -> 5 [label="соч_союзн"]
+			9 -> 10 [label="предик"]
+}

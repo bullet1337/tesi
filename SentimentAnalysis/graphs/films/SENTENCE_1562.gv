@@ -1,0 +1,24 @@
+digraph SENTENCE_1562 {
+	graph [label="Особенно хорошо там умели раскрывать человеческую душу."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="умели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раскрывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="человеческую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="душу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			1 -> 0 [label="огранич"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+}

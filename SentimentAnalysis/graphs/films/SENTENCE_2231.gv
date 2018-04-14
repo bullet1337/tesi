@@ -1,0 +1,55 @@
+digraph SENTENCE_2231 {
+	graph [label="10 из 10
+Когда Земля канет в Небытие Человечеству ничего не останется кроме как исчезнуть в никуда."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Когда
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Земля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="канет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Небытие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Человечеству
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="исчезнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="никуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			14 -> 12 [label="обст"]
+			14 -> 15 [label="_2_компл"]
+			15 -> 16 [label="предл"]
+			11 -> 8 [label="неакт_компл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 14 [label="предик"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+}

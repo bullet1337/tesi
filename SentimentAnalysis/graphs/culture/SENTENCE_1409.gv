@@ -1,0 +1,46 @@
+digraph SENTENCE_1409 {
+	graph [label="В течение недели члены академии могут голосовать как в интернете, так и заполнив бумажные бюллетени."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="члены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="академии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="голосовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="интернете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заполнив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бумажные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бюллетени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 8 [label="сравн_союзн"]
+			3 -> 4 [label="_1_компл"]
+			11 -> 12
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			13 -> 11 [label="обст"]
+			13 -> 15 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_372 {
+	graph [label="О себе Сельма беспокоится в последнюю очередь."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="беспокоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="последнюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			2 -> 0 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			6 -> 5 [label="опред"]
+}

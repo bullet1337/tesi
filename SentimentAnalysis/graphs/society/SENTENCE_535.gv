@@ -1,0 +1,51 @@
+digraph SENTENCE_535 {
+	graph [label="Специалисты медико-социальной экспертизы не могут оценить тяжесть заболевания, а критерии для этого не определены\", — добавила она."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="медико-социальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="экспертизы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тяжесть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заболевания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="критерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="определены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="атриб"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 9 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 14 [label="сент_соч"]
+			4 -> 18 [label="вводн"]
+			18 -> 19 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="огранич"]
+}

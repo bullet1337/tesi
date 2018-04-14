@@ -1,0 +1,36 @@
+digraph SENTENCE_1650 {
+	graph [label="Кто она, главная героиня, чья история не может оставить вас равнодушными?"]
+	node [style=filled]
+		0 [label="Кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чья
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="равнодушными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 4 [label="разъяснит"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 9 [label="релят"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="об_копр"]
+}

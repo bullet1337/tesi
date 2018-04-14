@@ -1,0 +1,39 @@
+digraph SENTENCE_4588 {
+	graph [label="Когда же дело наконец доходит до экшена, то и тут случается разочарование."]
+	node [style=filled]
+		0 [label="Когда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="доходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="экшена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="случается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разочарование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="предик"]
+			10 -> 9 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			0 -> 4 [label="подч_союзн"]
+			0 -> 8 [label="соотнос"]
+}

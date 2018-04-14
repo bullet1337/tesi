@@ -1,0 +1,36 @@
+digraph SENTENCE_1073 {
+	graph [label="НТВ в комментарии на сайте принес извинения телезрителям, ставшим свидетелями инцидента."]
+	node [style=filled]
+		0 [label="НТВ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="комментарии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="принес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="извинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="телезрителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ставшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свидетелями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="инцидента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="атриб"]
+			2 -> 3 [label="атриб"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="сочин"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			7 -> 9 [label="опред"]
+			9 -> 10 [label="присвяз"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_1813 {
+	graph [label="Я жила с героиней Бьорк, я с ней пела и танцевала."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="героиней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="танцевала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="сент_соч"]
+			10 -> 11 [label="соч_союзн"]
+			3 -> 4 [label="аппоз"]
+			9 -> 6 [label="предик"]
+			9 -> 7 [label="обст"]
+			9 -> 10 [label="сочин"]
+}

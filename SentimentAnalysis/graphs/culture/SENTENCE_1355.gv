@@ -1,0 +1,27 @@
+digraph SENTENCE_1355 {
+	graph [label="Это напоминание о времени заставляет профессора завершить разговор."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="напоминание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="профессора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="завершить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разговор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предик"]
+			4 -> 6 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="вводн"]
+			6 -> 7 [label="_1_компл"]
+}

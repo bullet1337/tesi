@@ -1,0 +1,30 @@
+digraph SENTENCE_601 {
+	graph [label="\"Сегодня все артисты соберутся, чтобы посмотреть мультик про собак."]
+	node [style=filled]
+		1 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="артисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="соберутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мультик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			3 -> 2 [label="опред"]
+			6 -> 7 [label="инф_союзн"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+}

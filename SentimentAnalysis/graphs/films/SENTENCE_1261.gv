@@ -1,0 +1,47 @@
+digraph SENTENCE_1261 {
+	graph [label="С трудом-то можно обозначить жанрово «Танцующаю в темноте» мюзиклом, но всё же некоторая схожесть наблюдается."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трудом-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обозначить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жанрово
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Танцующаю
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мюзиклом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="некоторая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="схожесть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="наблюдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="_2_компл"]
+			6 -> 12 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			12 -> 17 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			17 -> 13 [label="обст"]
+			17 -> 16 [label="предик"]
+			13 -> 14 [label="огранич"]
+			2 -> 3 [label="предик"]
+			7 -> 8 [label="предл"]
+}

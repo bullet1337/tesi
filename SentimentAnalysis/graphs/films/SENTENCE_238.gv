@@ -1,0 +1,48 @@
+digraph SENTENCE_238 {
+	graph [label="И весь мир для неё — одно большое представление, а в каждом звуке она слышит музыку."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="каждом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="звуке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			13 -> 12 [label="опред"]
+			3 -> 4 [label="предл"]
+			10 -> 15 [label="соч_союзн"]
+			0 -> 8 [label="соч_союзн"]
+			8 -> 2 [label="предик"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="количест"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сент_соч"]
+			11 -> 13 [label="предл"]
+			15 -> 11 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+}

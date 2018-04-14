@@ -1,0 +1,42 @@
+digraph SENTENCE_1322 {
+	graph [label="Сейчас в стране особенно распространена тибетская школа буддизма, считающаяся среди верующих наиболее канонической."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="распространена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тибетская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="школа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="буддизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="считающаяся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="верующих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="канонической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="обст"]
+			9 -> 13 [label="_2_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			13 -> 12 [label="огранич"]
+			10 -> 11 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="опред"]
+}

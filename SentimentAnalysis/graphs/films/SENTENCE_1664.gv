@@ -1,0 +1,50 @@
+digraph SENTENCE_1664 {
+	graph [label="Она прожила жизнь этой женщины и не дала ни на секунду засомневаться, что перед тобой Сельма."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прожила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="женщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="секунду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="засомневаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тобой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="сочин"]
+			5 -> 7 [label="соч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			14 -> 16 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="обст"]
+			7 -> 11 [label="_1_компл"]
+			2 -> 4 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="предл"]
+}

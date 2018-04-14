@@ -1,0 +1,36 @@
+digraph SENTENCE_3745 {
+	graph [label="Типовой болельщик жрет пиво перед телевизором и никаким спортом не занимается."]
+	node [style=filled]
+		0 [label="Типовой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="болельщик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жрет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пиво
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="телевизором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никаким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спортом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="занимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="обст"]
+			2 -> 6 [label="сент_соч"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="предл"]
+			6 -> 10 [label="соч_союзн"]
+}

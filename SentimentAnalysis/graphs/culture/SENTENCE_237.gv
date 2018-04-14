@@ -1,0 +1,42 @@
+digraph SENTENCE_237 {
+	graph [label="Также сделан косметический ремонт, обновлено звуковое и световое оборудование, скоро появится новый занавес."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сделан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="косметический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ремонт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обновлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="звуковое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="световое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оборудование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="скоро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="появится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="занавес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			5 -> 9 [label="предик"]
+			5 -> 12 [label="сент_соч"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предик"]
+			1 -> 5 [label="сент_соч"]
+			7 -> 8 [label="соч_союзн"]
+			9 -> 6 [label="опред"]
+			14 -> 13 [label="опред"]
+			12 -> 11 [label="обст"]
+			12 -> 14 [label="предик"]
+			3 -> 2 [label="опред"]
+}

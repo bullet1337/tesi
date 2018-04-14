@@ -1,0 +1,63 @@
+digraph SENTENCE_1594 {
+	graph [label="В пост отказываются не только от определенных видов еды, но и от страстных увлечений, многословия, лжи, ругательств и других грехов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отказываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="определенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="видов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="страстных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="увлечений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="многословия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лжи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ругательств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="грехов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			18 -> 20 [label="сочин"]
+			16 -> 18 [label="сочин"]
+			14 -> 13 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предл"]
+			20 -> 21 [label="сочин"]
+			23 -> 22 [label="опред"]
+			0 -> 1 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 10 [label="сочин"]
+			21 -> 23 [label="соч_союзн"]
+			10 -> 11 [label="огранич"]
+			10 -> 12 [label="соч_союзн"]
+			12 -> 14 [label="предл"]
+			12 -> 16 [label="предик"]
+}

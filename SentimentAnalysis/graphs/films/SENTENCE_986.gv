@@ -1,0 +1,24 @@
+digraph SENTENCE_986 {
+	graph [label="Но нужно вникнуть в саму суть фильма."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вникнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="саму
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="суть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 5 [label="предл"]
+			0 -> 1 [label="соч_союзн"]
+}

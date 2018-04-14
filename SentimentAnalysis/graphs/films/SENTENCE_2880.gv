@@ -1,0 +1,33 @@
+digraph SENTENCE_2880 {
+	graph [label="Обычно злодеи обоятельны и харизматичны, но здесь этого не наблюдается."]
+	node [style=filled]
+		0 [label="Обычно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="злодеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обоятельны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="харизматичны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наблюдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 7 [label="обст"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сочин"]
+			2 -> 6 [label="сент_соч"]
+			3 -> 4 [label="соч_союзн"]
+			6 -> 10 [label="соч_союзн"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_1390 {
+	graph [label="С таким предложением выступила входящая в правящую коалицию \"Партия прогресса\" — третья по популярности политическая сила в стране."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предложением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="входящая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правящую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="коалицию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Партия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="прогресса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="третья
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="популярности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="политическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="атриб"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			17 -> 13 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="атриб"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			4 -> 5 [label="_2_компл"]
+			5 -> 7 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="сочин"]
+			3 -> 9 [label="предик"]
+			3 -> 17 [label="разъяснит"]
+			18 -> 19 [label="предл"]
+}

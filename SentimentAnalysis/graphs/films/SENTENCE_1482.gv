@@ -1,0 +1,30 @@
+digraph SENTENCE_1482 {
+	graph [label="Благодаря им мы попадаем в её мир, мир добра."]
+	node [style=filled]
+		0 [label="Благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="попадаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="добра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 8 [label="_1_компл"]
+			3 -> 9 [label="предик"]
+}

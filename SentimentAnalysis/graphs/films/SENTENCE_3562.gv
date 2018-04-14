@@ -1,0 +1,53 @@
+digraph SENTENCE_3562 {
+	graph [label="Биографические факты из жизни Харламова взяты подлинные, но затем они мелко нашинкованы и перемешаны в угоду сценарию."]
+	node [style=filled]
+		0 [label="Биографические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="факты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="взяты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подлинные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мелко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нашинкованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="перемешаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="угоду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сценарию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			13 -> 14 [label="соч_союзн"]
+			3 -> 4 [label="квазиагент"]
+			14 -> 15 [label="обст"]
+			14 -> 17 [label="_2_компл"]
+			6 -> 8 [label="сочин"]
+			5 -> 1 [label="предик"]
+			8 -> 12 [label="соч_союзн"]
+			12 -> 9 [label="обст"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="сочин"]
+			2 -> 3 [label="предл"]
+}

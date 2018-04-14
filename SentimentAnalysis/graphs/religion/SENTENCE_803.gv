@@ -1,0 +1,27 @@
+digraph SENTENCE_803 {
+	graph [label="Здесь понимают, что мы соработники, а не противники."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="понимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="соработники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="противники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 5 [label="подч_союзн"]
+}

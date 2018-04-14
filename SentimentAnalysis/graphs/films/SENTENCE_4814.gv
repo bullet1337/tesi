@@ -1,0 +1,39 @@
+digraph SENTENCE_4814 {
+	graph [label="Как и количество клише, вроде солдат, стреляющих по монстру из М16."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="количество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="клише
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вроде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="солдат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стреляющих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="монстру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="М
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="атриб"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="обст"]
+			6 -> 8 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="сравн_союзн"]
+			12 -> 13 [label="аппоз"]
+}

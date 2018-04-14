@@ -1,0 +1,21 @@
+digraph SENTENCE_3270 {
+	graph [label="Впрочем авторам фильма не привыкать врать."]
+	node [style=filled]
+		0 [label="Впрочем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="авторам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="привыкать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="врать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="_1_компл"]
+			4 -> 1 [label="дат_субъект"]
+			4 -> 3 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_2821 {
+	graph [label="Зачем нужно было 4 репликанта, если про них мы ничего не узнаем."]
+	node [style=filled]
+		0 [label="Зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="репликанта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="узнаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="присвяз"]
+			2 -> 4 [label="предик"]
+			2 -> 6 [label="обст"]
+			6 -> 12 [label="подч_союзн"]
+			4 -> 3 [label="количест"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="огранич"]
+			12 -> 7 [label="_2_компл"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+}

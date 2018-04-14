@@ -1,0 +1,30 @@
+digraph SENTENCE_1082 {
+	graph [label=") Елена Бойко била <…> ногами по лицу (но не попадала…)\"."]
+	node [style=filled]
+		1 [label="Елена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Бойко
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="била
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ногами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="попадала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 7 [label="_3_компл"]
+			3 -> 8 [label="обст"]
+			3 -> 11 [label="сочин"]
+			8 -> 9 [label="предл"]
+			13 -> 12 [label="огранич"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_2668 {
+	graph [label="Вас усаживают в уютном кинозале, раздают попкорн, колу и прочие атрибуты, а затем включают фильм."]
+	node [style=filled]
+		0 [label="Вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="усаживают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уютном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кинозале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раздают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="попкорн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="колу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прочие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="атрибуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="включают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="сочин"]
+			10 -> 12 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 14 [label="сочин"]
+			14 -> 16 [label="соч_союзн"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="сочин"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			9 -> 10 [label="сочин"]
+			2 -> 4 [label="предл"]
+}

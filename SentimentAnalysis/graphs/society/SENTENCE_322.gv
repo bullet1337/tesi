@@ -1,0 +1,45 @@
+digraph SENTENCE_322 {
+	graph [label="\"Зарегистрировано более одной тысячи участников, среди них известные в России эксперты в области медиаиндустрии."]
+	node [style=filled]
+		1 [label="Зарегистрировано
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тысячи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="участников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="известные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="эксперты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="медиаиндустрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 9 [label="оп_опред"]
+			13 -> 14 [label="предл"]
+			9 -> 10 [label="атриб"]
+			9 -> 12 [label="предик"]
+			14 -> 15 [label="квазиагент"]
+			5 -> 7 [label="атриб"]
+			12 -> 13 [label="атриб"]
+			3 -> 2 [label="огранич"]
+			7 -> 8 [label="предл"]
+			10 -> 11 [label="предл"]
+			1 -> 4 [label="предик"]
+}

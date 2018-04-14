@@ -1,0 +1,57 @@
+digraph SENTENCE_1109 {
+	graph [label="Я помню, как родители откачивали Ролана Быкова, которому не дали роль, запретили, потому что он выглядел не совсем героем."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="помню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="родители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="откачивали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ролана Быкова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="запретили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="выглядел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 20 [label="огранич"]
+			16 -> 18 [label="подч_союзн"]
+			3 -> 5 [label="подч_союзн"]
+			13 -> 15 [label="обст"]
+			15 -> 16 [label="эксплет"]
+			10 -> 8 [label="_2_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 13 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 10 [label="сочин"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			18 -> 17 [label="предик"]
+			18 -> 21 [label="_1_компл"]
+}

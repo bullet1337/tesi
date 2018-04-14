@@ -1,0 +1,69 @@
+digraph SENTENCE_1254 {
+	graph [label="\"Мне очень приятно, это очень важно, потому что мы сняли фильм о замечательных талантливых людях, людях, которые очень важны для русской культуры."]
+	node [style=filled]
+		1 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="замечательных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="талантливых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="людях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="людях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="важны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="русской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 17 [label="предл"]
+			9 -> 10 [label="эксплет"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="обст"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="атриб"]
+			17 -> 23 [label="релят"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 7 [label="разъяснит"]
+			10 -> 12 [label="подч_союзн"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			26 -> 25 [label="опред"]
+			24 -> 26 [label="предл"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="_1_компл"]
+			13 -> 14 [label="_1_компл"]
+}

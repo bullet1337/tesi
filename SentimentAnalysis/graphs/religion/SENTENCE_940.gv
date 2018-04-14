@@ -1,0 +1,93 @@
+digraph SENTENCE_940 {
+	graph [label="Летописец начала царствования Ивана Грозного сообщает, что накануне Казанского похода царь пришел в Успенский собор Коломны и там молился перед иконой Богородицы, \"иже на Дону была с преславным великим князем Димитрием Ивановичем\"."]
+	node [style=filled]
+		0 [label="Летописец
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="начала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="царствования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ивана Грозного
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Казанского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="похода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="царь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пришел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Успенский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Коломны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="молился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="иконой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Богородицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="иже
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Дону
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="преславным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="великим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="князем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Димитрием Ивановичем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="предл"]
+			12 -> 14 [label="предл"]
+			6 -> 11 [label="подч_союзн"]
+			31 -> 29 [label="опред"]
+			31 -> 30 [label="опред"]
+			31 -> 32 [label="аппоз"]
+			24 -> 25 [label="атриб"]
+			25 -> 26 [label="предл"]
+			19 -> 20 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			9 -> 8 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+			16 -> 18 [label="соч_союзн"]
+			4 -> 6 [label="предик"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 15 [label="предик"]
+			11 -> 16 [label="сент_соч"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="вводн"]
+			1 -> 27 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 24 [label="_1_компл"]
+			28 -> 31 [label="предл"]
+			27 -> 28 [label="_1_компл"]
+}

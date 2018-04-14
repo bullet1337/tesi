@@ -1,0 +1,54 @@
+digraph SENTENCE_1393 {
+	graph [label="В итоге буквально в последний момент рассмотрение законопроекта отложили, а лидеру \"прогрессистов\" Сив Йенсен пришлось публично оправдываться."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рассмотрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="законопроекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отложили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лидеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прогрессистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Сив
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Йенсен
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="пришлось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="публично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="оправдываться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 17 [label="соч_союзн"]
+			19 -> 18 [label="обст"]
+			5 -> 4 [label="опред"]
+			17 -> 11 [label="_1_компл"]
+			17 -> 16 [label="предик"]
+			17 -> 19 [label="предик"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 10 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 15 [label="аппоз"]
+}

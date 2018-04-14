@@ -1,0 +1,36 @@
+digraph SENTENCE_2083 {
+	graph [label="А вот живёт человек — он радуется, переживает, расстраивается, сомневается — он вершина."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="живёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="радуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="переживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="расстраивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сомневается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вершина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="сочин"]
+			2 -> 12 [label="разъяснит"]
+			0 -> 2 [label="соч_союзн"]
+			3 -> 6 [label="релят"]
+			8 -> 10 [label="сочин"]
+			12 -> 14 [label="предик"]
+			12 -> 15 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+}

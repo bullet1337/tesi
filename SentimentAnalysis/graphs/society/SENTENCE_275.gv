@@ -1,0 +1,38 @@
+digraph SENTENCE_275 {
+	graph [label="Сейчас эти конструкции преданы забвению, современные школьники про них и не знают."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конструкции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="преданы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="забвению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="современные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="школьники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="соч_союзн"]
+			12 -> 11 [label="огранич"]
+			8 -> 9 [label="предл"]
+			8 -> 10 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 7 [label="предик"]
+			7 -> 6 [label="опред"]
+			2 -> 1 [label="опред"]
+}

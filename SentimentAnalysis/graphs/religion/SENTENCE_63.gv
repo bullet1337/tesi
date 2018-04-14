@@ -1,0 +1,78 @@
+digraph SENTENCE_63 {
+	graph [label="Власти восточной части страны действуют независимо от Триполи и сотрудничают с Ливийской национальной армией во главе с маршалом Халифой Хафтаром, которая ведет затяжную войну с исламистами."]
+	node [style=filled]
+		0 [label="Власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="восточной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="действуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="независимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Триполи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сотрудничают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Ливийской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="национальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="армией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="главе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="маршалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Халифой Хафтаром
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ведет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="затяжную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="войну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="исламистами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 8 [label="сочин"]
+			4 -> 21 [label="сент_соч"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			10 -> 13 [label="предл"]
+			24 -> 25 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 14 [label="обст"]
+			9 -> 16 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+			0 -> 2 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			6 -> 7 [label="предл"]
+			23 -> 22 [label="опред"]
+			23 -> 24 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			17 -> 18 [label="аппоз"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_578 {
+	graph [label="Всего в Югру приедут молодые кинематографисты из 15 стран."]
+	node [style=filled]
+		0 [label="Всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Югру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="приедут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молодые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кинематографисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			8 -> 7 [label="количест"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="обст"]
+			3 -> 5 [label="предик"]
+			6 -> 8 [label="предл"]
+}

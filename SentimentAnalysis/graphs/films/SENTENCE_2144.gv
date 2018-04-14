@@ -1,0 +1,57 @@
+digraph SENTENCE_2144 {
+	graph [label="Сила искусства в фильме противостоит семейным катастрофам и нравственным коллапсам, оно объединяет Человека с мирозданием, помогает понять себя."]
+	node [style=filled]
+		0 [label="Сила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="искусства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="противостоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="семейным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="катастрофам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нравственным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="коллапсам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="объединяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Человека
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мирозданием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="помогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 12 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="квазиагент"]
+			7 -> 9 [label="соч_союзн"]
+			17 -> 14 [label="обст"]
+			17 -> 18 [label="_2_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			1 -> 2 [label="атриб"]
+			13 -> 17 [label="релят"]
+			14 -> 15 [label="предл"]
+			2 -> 3 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+}

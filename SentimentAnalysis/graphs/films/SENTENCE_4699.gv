@@ -1,0 +1,42 @@
+digraph SENTENCE_4699 {
+	graph [label="Два раза она пыхнула огнем, больше я ничего не смог разглядеть, извините меня."]
+	node [style=filled]
+		0 [label="Два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пыхнула
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="огнем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разглядеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="извините
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 10 [label="сочин"]
+			3 -> 13 [label="вводн"]
+			13 -> 14 [label="_1_компл"]
+			1 -> 0 [label="количест"]
+			10 -> 6 [label="обст"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+}

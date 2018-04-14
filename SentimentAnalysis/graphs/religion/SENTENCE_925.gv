@@ -1,0 +1,19 @@
+digraph SENTENCE_925 {
+	graph [label="Написана икона предположительно в XIV веке."]
+	node [style=filled]
+		0 [label="Написана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предположительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="XIV
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			0 -> 1 [label="предик"]
+}

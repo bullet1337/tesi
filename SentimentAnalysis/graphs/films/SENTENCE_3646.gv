@@ -1,0 +1,27 @@
+digraph SENTENCE_3646 {
+	graph [label="Да и вообще не производит впечатление цельного человека."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="производит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="цельного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="огранич"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 7 [label="_1_компл"]
+}

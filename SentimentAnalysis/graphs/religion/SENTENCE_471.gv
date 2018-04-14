@@ -1,0 +1,54 @@
+digraph SENTENCE_471 {
+	graph [label="Если мы не сумеем добиться этого, то будем вынуждены заплатить за это большую цену\", — заявил король Иордании."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сумеем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="добиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вынуждены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заплатить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="большую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="цену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="король
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Иордании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 3 [label="подч_союзн"]
+			0 -> 7 [label="соотнос"]
+			14 -> 13 [label="опред"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="_3_компл"]
+			10 -> 14 [label="_1_компл"]
+			8 -> 0 [label="обст"]
+			8 -> 9
+			8 -> 18 [label="вводн"]
+			18 -> 19 [label="предик"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			9 -> 10 [label="_2_компл"]
+			19 -> 20 [label="аппоз"]
+}

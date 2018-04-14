@@ -1,0 +1,35 @@
+digraph SENTENCE_3971 {
+	graph [label="Это идёт безжалостная банда подростков-извращенцев во главе со своим лидером Алексом."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="идёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="безжалостная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="банда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подростков-извращенцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лидером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Алексом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="атриб"]
+			3 -> 7 [label="атриб"]
+}

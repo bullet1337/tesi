@@ -1,0 +1,24 @@
+digraph SENTENCE_884 {
+	graph [label="Работа над памятником поручена молодому скульптору Олегу Данилову."]
+	node [style=filled]
+		0 [label="Работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="памятником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поручена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молодому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скульптору
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Олегу Данилову
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_3132 {
+	graph [label="Этот фильм типичный «ход лошадью»: мы снимаем мелодраму, но надо же показать свою необычность, выделиться."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="типичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лошадью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="снимаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мелодраму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="необычность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="выделиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="ном_аппоз"]
+			13 -> 14 [label="огранич"]
+			13 -> 15 [label="предик"]
+			17 -> 16 [label="опред"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 19 [label="сочин"]
+			9 -> 1 [label="_1_компл"]
+			9 -> 5 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="примыкат"]
+			9 -> 12 [label="сент_соч"]
+			4 -> 2 [label="опред"]
+}

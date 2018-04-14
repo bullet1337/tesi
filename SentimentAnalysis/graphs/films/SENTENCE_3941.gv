@@ -1,0 +1,27 @@
+digraph SENTENCE_3941 {
+	graph [label="Мир плохой, люди ублюдки грязные — вот основная идеология."]
+	node [style=filled]
+		0 [label="Мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ублюдки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="грязные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="основная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="идеология
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="огранич"]
+			9 -> 8 [label="опред"]
+			0 -> 3 [label="сочин"]
+			3 -> 1 [label="опред"]
+			3 -> 4 [label="сочин"]
+			3 -> 5 [label="опред"]
+			3 -> 9 [label="сочин"]
+}

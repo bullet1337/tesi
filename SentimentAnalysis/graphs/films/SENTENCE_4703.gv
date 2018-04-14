@@ -1,0 +1,59 @@
+digraph SENTENCE_4703 {
+	graph [label="Мне очень не понравился новый «Кинг Конг», я поставил ему где-то четверочку, но фильм Эдвардса — это уже за гранью ада."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понравился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кинг Конг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="где-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="четверочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Эдвардса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="гранью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ада
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 19 [label="предик"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="предл"]
+			12 -> 13 [label="предик"]
+			12 -> 15 [label="сент_соч"]
+			22 -> 23 [label="квазиагент"]
+			16 -> 17 [label="аппоз"]
+			16 -> 21 [label="ном_аппоз"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 12 [label="сент_соч"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 6 [label="предик"]
+			3 -> 10 [label="сент_соч"]
+			6 -> 4 [label="опред"]
+}

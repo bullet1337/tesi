@@ -1,0 +1,51 @@
+digraph SENTENCE_563 {
+	graph [label="\"Светлая память о Валентине Михайловиче Фалине сохранится в сердцах его близких, друзей, коллег – в наших сердцах\", — добавил Путин."]
+	node [style=filled]
+		1 [label="Светлая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Валентине Михайловиче Фалине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="сохранится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сердцах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="близких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="коллег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="наших
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сердцах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			21 -> 22 [label="предик"]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="предл"]
+			11 -> 8 [label="_1_компл"]
+			11 -> 9 [label="опред"]
+			11 -> 13 [label="аппоз"]
+			11 -> 15 [label="сочин"]
+			17 -> 16 [label="опред"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+			5 -> 21 [label="вводн"]
+			15 -> 17 [label="предл"]
+}

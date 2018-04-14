@@ -1,0 +1,21 @@
+digraph SENTENCE_5020 {
+	graph [label="Это только то, что сразу вспомнилось."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вспомнилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="эксплет"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+}

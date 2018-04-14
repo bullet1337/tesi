@@ -1,0 +1,54 @@
+digraph SENTENCE_4749 {
+	graph [label="Вернее схватки тут нет, потому что Годзилла дерётся с монстрами с помощью какого-то луча из своей пасти."]
+	node [style=filled]
+		0 [label="Вернее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="схватки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="дерётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="монстрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="помощью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="какого-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="луча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пасти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			6 -> 8 [label="подч_союзн"]
+			3 -> 0 [label="вводн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 15 [label="_2_компл"]
+			12 -> 14 [label="квазиагент"]
+			5 -> 6 [label="эксплет"]
+			11 -> 12 [label="предл"]
+			15 -> 11 [label="вводн"]
+			15 -> 17 [label="предл"]
+			17 -> 16 [label="опред"]
+			14 -> 13 [label="опред"]
+}

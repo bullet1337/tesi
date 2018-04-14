@@ -1,0 +1,54 @@
+digraph SENTENCE_61 {
+	graph [label="После свержения и убийства в 2011 году во время вооруженного конфликта Муаммара Каддафи Ливия переживает период острого кризиса."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свержения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="убийства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вооруженного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="конфликта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Муаммара Каддафи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Ливия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="переживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="острого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кризиса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="сочин"]
+			2 -> 3 [label="соч_союзн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="предл"]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="атриб"]
+			3 -> 7 [label="атриб"]
+			8 -> 10 [label="_1_компл"]
+			11 -> 0
+			11 -> 13 [label="релят"]
+			7 -> 8 [label="предл"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="квазиагент"]
+}

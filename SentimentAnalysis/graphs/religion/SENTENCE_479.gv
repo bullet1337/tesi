@@ -1,0 +1,33 @@
+digraph SENTENCE_479 {
+	graph [label="Решением властей города 20 февраля в Кизляре объявлен днем траура."]
+	node [style=filled]
+		0 [label="Решением
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="властей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="объявлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="траура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="атриб"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 3 [label="атриб"]
+			0 -> 5 [label="атриб"]
+			7 -> 0 [label="_2_компл"]
+			7 -> 8 [label="обст"]
+			8 -> 9 [label="квазиагент"]
+			1 -> 2 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+}

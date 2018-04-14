@@ -1,0 +1,45 @@
+digraph SENTENCE_2624 {
+	graph [label="Бесхитростная интрига есть, но она любезно заранее раскрывается самим фильмом из страха перегрузить зрителей."]
+	node [style=filled]
+		0 [label="Бесхитростная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="интрига
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любезно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раскрывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="страха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перегрузить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сент_соч"]
+			11 -> 12 [label="предл"]
+			10 -> 9 [label="опред"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="обст"]
+			8 -> 10 [label="агент"]
+			8 -> 11 [label="обст"]
+			8 -> 13 [label="сочин"]
+			1 -> 0 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 8 [label="соч_союзн"]
+}

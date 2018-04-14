@@ -1,0 +1,27 @@
+digraph SENTENCE_1669 {
+	graph [label="События в фильме развиваются в течение одной ночи."]
+	node [style=filled]
+		0 [label="События
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="развиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ночи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			7 -> 6 [label="количест"]
+			0 -> 1 [label="атриб"]
+			1 -> 2 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="обст"]
+}

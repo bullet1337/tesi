@@ -1,0 +1,36 @@
+digraph SENTENCE_1612 {
+	graph [label="\"Может скоро заведу новую, ирландского сеттера по имени Билл Мюррей\", — пошутил актер."]
+	node [style=filled]
+		1 [label="Может
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="скоро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заведу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="новую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ирландского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сеттера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Билл Мюррей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="пошутил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			7 -> 4 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			7 -> 10 [label="аппоз"]
+			3 -> 1 [label="вводн"]
+			3 -> 2 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 14 [label="вводн"]
+			14 -> 15 [label="предик"]
+}

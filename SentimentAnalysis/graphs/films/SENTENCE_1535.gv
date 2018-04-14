@@ -1,0 +1,21 @@
+digraph SENTENCE_1535 {
+	graph [label="Материнская любовь, слепая, бессмысленная и беспощадная."]
+	node [style=filled]
+		0 [label="Материнская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бессмысленная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="беспощадная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="сочин"]
+			5 -> 6 [label="сочин"]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+}

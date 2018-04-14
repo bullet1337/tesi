@@ -1,0 +1,39 @@
+digraph SENTENCE_3134 {
+	graph [label="И ведь это действительно беспроигрышный вариант: заметят все, побегут в кино все."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="беспроигрышный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вариант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заметят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="побегут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 1 [label="огранич"]
+			7 -> 5 [label="предик"]
+			7 -> 10 [label="_1_компл"]
+			7 -> 13 [label="предик"]
+			10 -> 8 [label="предик"]
+			10 -> 11 [label="обст"]
+			0 -> 7 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			11 -> 12 [label="предл"]
+			5 -> 2 [label="опред"]
+			5 -> 4 [label="опред"]
+}

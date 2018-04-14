@@ -1,0 +1,42 @@
+digraph SENTENCE_3258 {
+	graph [label="Они настолько мультяшны что чуть зубами не скрежещут и искры глазами не мечут."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мультяшны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зубами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="скрежещут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="искры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="глазами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мечут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 7 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="сочин"]
+			7 -> 3 [label="предик"]
+			7 -> 4 [label="огранич"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 12 [label="сочин"]
+			12 -> 11 [label="огранич"]
+}

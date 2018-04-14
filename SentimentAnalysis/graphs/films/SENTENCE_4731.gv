@@ -1,0 +1,39 @@
+digraph SENTENCE_4731 {
+	graph [label=") фильма нам показывают то из-за чего мне захотелось треснуть себе по лицу."]
+	node [style=filled]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="захотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="треснуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 5 [label="обст"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="_2_компл"]
+			3 -> 4 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="неакт_компл"]
+			9 -> 11 [label="обст"]
+			5 -> 6 [label="предл"]
+			4 -> 8 [label="эксплет"]
+}

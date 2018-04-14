@@ -1,0 +1,27 @@
+digraph SENTENCE_1621 {
+	graph [label="Также хороша Катрин Денёв в роли близкой подруги Сельмы."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хороша
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="близкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подруги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="аппоз"]
+			3 -> 4 [label="предл"]
+			4 -> 6 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			1 -> 3 [label="обст"]
+}

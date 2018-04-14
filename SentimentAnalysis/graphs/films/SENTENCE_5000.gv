@@ -1,0 +1,75 @@
+digraph SENTENCE_5000 {
+	graph [label="Некоторые вопросы, которые у меня возникли по ходу фильма:  1) Зачем нужно было столько лет «окучивать» гнуса, чтоб он потом встал и всех перебил?"]
+	node [style=filled]
+		0 [label="Некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возникли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ходу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Зачем
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="окучивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="гнуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="чтоб
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="встал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="перебил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="предик"]
+			26 -> 24 [label="предик"]
+			26 -> 25 [label="обст"]
+			26 -> 29 [label="разъяснит"]
+			1 -> 0 [label="опред"]
+			9 -> 11 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			29 -> 28 [label="_1_компл"]
+			23 -> 26 [label="подч_союзн"]
+			28 -> 27 [label="огранич"]
+			6 -> 1 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 14 [label="разъяснит"]
+			19 -> 16 [label="_1_компл"]
+			16 -> 17 [label="_1_компл"]
+			15 -> 19 [label="предик"]
+			15 -> 21 [label="присвяз"]
+			15 -> 23 [label="обст"]
+			8 -> 9 [label="квазиагент"]
+}

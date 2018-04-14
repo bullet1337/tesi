@@ -1,0 +1,93 @@
+digraph SENTENCE_666 {
+	graph [label="В ближайшие сутки, по прогнозам синоптика, преобладающая температура в Москве будет минус 20 – минус 22 градуса, по области местами до минус 29 градусов, дневная температура минус 14 – минус 15 градусов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ближайшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сутки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прогнозам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="синоптика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="преобладающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="22
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="градуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="29
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="дневная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			31 -> 33 [label="атриб"]
+			12 -> 0 [label="обст"]
+			12 -> 4 [label="обст"]
+			12 -> 9 [label="предик"]
+			12 -> 13 [label="предик"]
+			12 -> 22 [label="присвяз"]
+			12 -> 23 [label="обст"]
+			12 -> 29 [label="предик"]
+			33 -> 35 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			13 -> 14 [label="аппрокс_колич"]
+			13 -> 16 [label="атриб"]
+			5 -> 6 [label="квазиагент"]
+			26 -> 25 [label="количест"]
+			0 -> 2 [label="предл"]
+			16 -> 18 [label="предл"]
+			10 -> 11 [label="предл"]
+			35 -> 34 [label="количест"]
+			23 -> 24 [label="предл"]
+			20 -> 21 [label="предл"]
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="предл"]
+			24 -> 26 [label="предл"]
+			18 -> 17 [label="количест"]
+			18 -> 20 [label="атриб"]
+			29 -> 28 [label="опред"]
+			29 -> 30 [label="атриб"]
+			29 -> 31 [label="примыкат"]
+}

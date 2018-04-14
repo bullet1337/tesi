@@ -1,0 +1,48 @@
+digraph SENTENCE_485 {
+	graph [label="Главной целью проведения Дня редких заболеваний является повышение осведомленности людей о редких (или орфанных) болезнях."]
+	node [style=filled]
+		0 [label="Главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Дня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повышение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="осведомленности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="орфанных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="болезнях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="квазиагент"]
+			10 -> 16 [label="предл"]
+			6 -> 1 [label="_1_компл"]
+			6 -> 7 [label="предик"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 10 [label="_1_компл"]
+			11 -> 13 [label="сочин"]
+			16 -> 11 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			13 -> 14 [label="соч_союзн"]
+}

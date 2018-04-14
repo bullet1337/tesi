@@ -1,0 +1,50 @@
+digraph SENTENCE_109 {
+	graph [label="Артистка награждена многими орденами и медалями, в том числе орденом Трудового Красного знамени, Дружбы народов, Франциска Скорины."]
+	node [style=filled]
+		0 [label="Артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="награждена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="многими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="орденами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="медалями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="орденом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Трудового
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Красного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="знамени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Дружбы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="народов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Франциска Скорины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_3_компл"]
+			1 -> 10 [label="агент"]
+			15 -> 16 [label="квазиагент"]
+			15 -> 18 [label="аппоз"]
+			9 -> 8 [label="опред"]
+			10 -> 7 [label="огранич"]
+			10 -> 13 [label="атриб"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+}

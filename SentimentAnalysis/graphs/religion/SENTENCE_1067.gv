@@ -1,0 +1,60 @@
+digraph SENTENCE_1067 {
+	graph [label="По Библии это событие — выдворение первых людей, Адама и Евы, из рая за непослушание Богу — положило начало земной истории."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Библии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="событие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выдворение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="первых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Адама
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Евы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="непослушание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Богу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="положило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="начало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="земной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="сочин"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="предик"]
+			3 -> 15 [label="сент_соч"]
+			3 -> 19 [label="вводн"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="предл"]
+			19 -> 17 [label="неакт_компл"]
+			19 -> 20 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			5 -> 9 [label="аппоз"]
+			13 -> 14 [label="предл"]
+			11 -> 13 [label="атриб"]
+			10 -> 11 [label="соч_союзн"]
+			20 -> 22 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+}

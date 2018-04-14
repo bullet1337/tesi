@@ -1,0 +1,66 @@
+digraph SENTENCE_2119 {
+	graph [label="Эту запись Тарковский сделал в своем «Мартирологе» в 1970 году, когда работа над «Солярисом» только началась и продвигалась медленно и мучительно."]
+	node [style=filled]
+		0 [label="Эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="запись
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="сделал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Мартирологе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1970
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Солярисом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="началась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="продвигалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="медленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="мучительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="обст"]
+			3 -> 13 [label="обст"]
+			4 -> 7 [label="предл"]
+			7 -> 5 [label="опред"]
+			9 -> 11 [label="предл"]
+			15 -> 17 [label="предл"]
+			22 -> 23 [label="обст"]
+			24 -> 25 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			20 -> 14 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			13 -> 20 [label="подч_союзн"]
+			23 -> 24 [label="сочин"]
+			21 -> 22 [label="соч_союзн"]
+}

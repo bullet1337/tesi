@@ -1,0 +1,21 @@
+digraph SENTENCE_424 {
+	graph [label="Все билеты на них были проданы."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="билеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проданы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 5
+			1 -> 0 [label="опред"]
+			2 -> 3 [label="предл"]
+}

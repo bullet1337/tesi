@@ -1,0 +1,51 @@
+digraph SENTENCE_221 {
+	graph [label="По мнению экологов, подобное загрязнение реки Ардон не представляет угрозы для речной фауны, информирует региональное Минприроды."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="экологов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подобное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="загрязнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ардон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="угрозы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="речной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фауны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="информирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="региональное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Минприроды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 16 [label="опред"]
+			10 -> 11 [label="атриб"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="предл"]
+			15 -> 17 [label="предик"]
+			1 -> 2 [label="квазиагент"]
+			9 -> 0 [label="вводн"]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 15 [label="вводн"]
+			6 -> 5 [label="композ"]
+			6 -> 7 [label="аппоз"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+}

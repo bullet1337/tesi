@@ -1,0 +1,36 @@
+digraph SENTENCE_1957 {
+	graph [label="Особенно в России, которая, увы, тоже имеет опыт жизни при диктатуре."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="увы
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="опыт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="диктатуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			9 -> 1 [label="обст"]
+			9 -> 4 [label="предик"]
+			9 -> 6 [label="вводн"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+}

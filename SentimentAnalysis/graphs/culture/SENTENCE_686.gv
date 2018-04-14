@@ -1,0 +1,48 @@
+digraph SENTENCE_686 {
+	graph [label="Когда я прочитал его, мне сразу захотелось прочитать его вслух\", — сказал Паттинсон журналистам в пятницу."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прочитал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="захотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прочитать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вслух
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Паттинсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="атриб"]
+			2 -> 1 [label="предик"]
+			0 -> 2 [label="подч_союзн"]
+			14 -> 15 [label="предик"]
+			15 -> 16 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			17 -> 18 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="предик"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 14 [label="вводн"]
+}

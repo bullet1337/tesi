@@ -1,0 +1,63 @@
+digraph SENTENCE_1208 {
+	graph [label="Теперь разрешается провозить ручную кладь не более 55 сантиметров в длину, 40 сантиметров в ширину и 25 сантиметров в высоту."]
+	node [style=filled]
+		0 [label="Теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="разрешается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="провозить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ручную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кладь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="55
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сантиметров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="длину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сантиметров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ширину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сантиметров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="высоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="распред"]
+			8 -> 14 [label="атриб"]
+			14 -> 15 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="сравнит"]
+			16 -> 18 [label="соч_союзн"]
+			10 -> 13 [label="квазиагент"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="длительн"]
+			13 -> 12 [label="количест"]
+			19 -> 20 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="предик"]
+			9 -> 10 [label="предл"]
+			15 -> 16 [label="сочин"]
+			18 -> 17 [label="количест"]
+			18 -> 19 [label="атриб"]
+}

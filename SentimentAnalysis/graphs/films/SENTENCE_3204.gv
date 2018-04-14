@@ -1,0 +1,45 @@
+digraph SENTENCE_3204 {
+	graph [label="Наши ковбои вовсе не те геи, которые с рождения чувствуют себя в чужом теле."]
+	node [style=filled]
+		0 [label="Наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ковбои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="геи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чувствуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чужом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="теле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="обст"]
+			14 -> 13 [label="опред"]
+			3 -> 2 [label="огранич"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="аппоз"]
+			1 -> 10 [label="релят"]
+			12 -> 14 [label="предл"]
+}

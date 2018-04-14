@@ -1,0 +1,42 @@
+digraph SENTENCE_1442 {
+	graph [label="Вообще актёры очень хорошо справились (Катрин Денёв, Дэвид Морс, Петер Стормаре, Джоэл Грей, Кэра Сеймур и др.)."]
+	node [style=filled]
+		0 [label="Вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актёры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="справились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Дэвид Морс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Петер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Стормаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Джоэл Грей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Кэра Сеймур
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="др
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="предик"]
+			3 -> 2 [label="огранич"]
+			16 -> 17 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			10 -> 11 [label="атриб"]
+			10 -> 13 [label="аппоз"]
+			8 -> 10 [label="об_аппоз"]
+			13 -> 15 [label="аппоз"]
+}

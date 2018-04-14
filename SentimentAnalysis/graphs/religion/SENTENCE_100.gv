@@ -1,0 +1,18 @@
+digraph SENTENCE_100 {
+	graph [label="Медресе находится в пригороде Бахчисарая."]
+	node [style=filled]
+		0 [label="Медресе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пригороде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бахчисарая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 4 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+}

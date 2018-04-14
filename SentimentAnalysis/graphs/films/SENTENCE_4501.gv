@@ -1,0 +1,24 @@
+digraph SENTENCE_4501 {
+	graph [label="Даже в Asylum до этого не додумались!"]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Asylum
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="додумались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			6 -> 1 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="огранич"]
+			3 -> 4 [label="предл"]
+}

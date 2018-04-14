@@ -1,0 +1,15 @@
+digraph SENTENCE_825 {
+	graph [label="Андрей Норкин отказался комментировать инцидент."]
+	node [style=filled]
+		0 [label="Андрей Норкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="отказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="комментировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="инцидент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

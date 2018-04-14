@@ -1,0 +1,44 @@
+digraph SENTENCE_1825 {
+	graph [label="10 из 10
+Все таки не могу я объективно написать рецензию на данный фильм."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Все
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="объективно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="написать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рецензию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="данный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			4 -> 3 [label="опред"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			11 -> 13 [label="предл"]
+			7 -> 9 [label="_1_компл"]
+			0 -> 1 [label="электив"]
+			13 -> 12 [label="опред"]
+}

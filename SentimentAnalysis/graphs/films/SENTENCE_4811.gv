@@ -1,0 +1,51 @@
+digraph SENTENCE_4811 {
+	graph [label="А на втором часу мне и это наскучило и я просто ждал, когда этот идиотизм закончится."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="втором
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="наскучило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="идиотизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="закончится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 16 [label="подч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="обст"]
+			1 -> 3 [label="предл"]
+			7 -> 1 [label="обст"]
+			7 -> 4 [label="неакт_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="сент_соч"]
+			16 -> 15 [label="предик"]
+			8 -> 11 [label="соч_союзн"]
+			0 -> 7 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			6 -> 5 [label="огранич"]
+			3 -> 2 [label="опред"]
+}

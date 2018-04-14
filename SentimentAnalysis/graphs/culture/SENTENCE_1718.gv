@@ -1,0 +1,15 @@
+digraph SENTENCE_1718 {
+	graph [label="\"Мы раздали все деньги."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раздали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

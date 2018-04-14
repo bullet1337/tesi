@@ -1,0 +1,24 @@
+digraph SENTENCE_1991 {
+	graph [label="«Заркало» — это, пожалуй, самый личный фильм режиссёра."]
+	node [style=filled]
+		1 [label="Заркало
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="личный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="предик"]
+			1 -> 10 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			10 -> 6 [label="вводн"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+}

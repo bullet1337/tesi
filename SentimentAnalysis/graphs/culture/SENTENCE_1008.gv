@@ -1,0 +1,42 @@
+digraph SENTENCE_1008 {
+	graph [label="Версия\" театра \"Et Cetera\", \"Турандот\" \"Геликон — оперы\", \"Царь Эдип\" Вахтанговского театра и \"Анна Каренина\" Театра оперетты."]
+	node [style=filled]
+		0 [label="Версия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Et Cetera
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Турандот
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Геликон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Царь Эдип
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Вахтанговского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Анна Каренина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Театра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="оперетты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 23 [label="соч_союзн"]
+			2 -> 4 [label="аппоз"]
+			23 -> 25 [label="об_аппоз"]
+			25 -> 26 [label="сочин"]
+			8 -> 0 [label="предик"]
+			8 -> 11 [label="сочин"]
+			13 -> 17 [label="аппоз"]
+			13 -> 21 [label="сочин"]
+			17 -> 20 [label="аппоз"]
+			11 -> 13 [label="сочин"]
+			0 -> 2 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+}

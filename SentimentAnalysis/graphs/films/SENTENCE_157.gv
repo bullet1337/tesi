@@ -1,0 +1,63 @@
+digraph SENTENCE_157 {
+	graph [label="Как-то она не сориентировалась, когда полицейскому в голову стукнуло… Хотя, в экстренных ситуациях человеческий разум отказывается работать в нужном направлении."]
+	node [style=filled]
+		0 [label="Как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сориентировалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полицейскому
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="голову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стукнуло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Хотя
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="экстренных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ситуациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="человеческий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="разум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нужном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="направлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 18 [label="подч_союзн"]
+			18 -> 13 [label="обст"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			22 -> 21 [label="опред"]
+			5 -> 9 [label="подч_союзн"]
+			15 -> 14 [label="опред"]
+			19 -> 20 [label="обст"]
+			13 -> 15 [label="предл"]
+			20 -> 22 [label="предл"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 7 [label="обст"]
+			9 -> 11 [label="обст"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="обст"]
+			17 -> 16 [label="опред"]
+}

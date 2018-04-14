@@ -1,0 +1,24 @@
+digraph SENTENCE_2362 {
+	graph [label="По крайней мере вместе они не сочетаются."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="крайней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сочетаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			0 -> 2 [label="предл"]
+}

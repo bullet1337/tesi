@@ -1,0 +1,81 @@
+digraph SENTENCE_1054 {
+	graph [label="В октябре 2005 года Кяров принимал участие в отражении нападения боевиков на Нальчик, в ноябре 2006 года в Кремле президент Владимир Путин лично вручил ему орден Мужества."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="октябре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2005
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Кяров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="принимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отражении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нападения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="боевиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Нальчик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ноябре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="2006
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Кремле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Владимир Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="вручил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="орден
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Мужества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			1 -> 3 [label="атриб"]
+			20 -> 18 [label="огранич"]
+			20 -> 21 [label="аппоз"]
+			15 -> 17 [label="атриб"]
+			17 -> 16 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			18 -> 19 [label="предл"]
+			25 -> 26 [label="_1_компл"]
+			23 -> 20 [label="предик"]
+			23 -> 22 [label="обст"]
+			23 -> 24 [label="_2_компл"]
+			23 -> 25 [label="_1_компл"]
+			5 -> 0 [label="_1_несобст_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="_2_компл"]
+			5 -> 14 [label="обст"]
+			5 -> 23 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+}

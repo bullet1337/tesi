@@ -1,0 +1,74 @@
+digraph SENTENCE_639 {
+	graph [label="Современный человек, признал он, гибнет \"от гордости, саможаления, тщеславия\", творит с \"маленькую пригоршню\" добрых дел, живет \"в страшном унынии\" и не умеет \"ценить дарованное\"."]
+	node [style=filled]
+		0 [label="Современный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="признал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гибнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гордости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="саможаления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тщеславия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="творит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="маленькую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пригоршню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="добрых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="дел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="страшном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="унынии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="умеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="ценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="дарованное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 20 [label="предл"]
+			25 -> 23 [label="предик"]
+			25 -> 27 [label="_1_компл"]
+			25 -> 31 [label="сочин"]
+			27 -> 29 [label="предл"]
+			11 -> 16 [label="релят"]
+			20 -> 19 [label="опред"]
+			20 -> 25 [label="релят"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 11 [label="сент_соч"]
+			23 -> 22 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 6 [label="сент_соч"]
+			29 -> 28 [label="опред"]
+			16 -> 13 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			31 -> 33 [label="соч_союзн"]
+			33 -> 32 [label="огранич"]
+			33 -> 35 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+}

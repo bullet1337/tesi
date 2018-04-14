@@ -1,0 +1,45 @@
+digraph SENTENCE_359 {
+	graph [label="Но это сразу станет заметно, потому что все хорошо знают, кто на что способен."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заметно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="способен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 6 [label="обст"]
+			6 -> 4 [label="огранич"]
+			6 -> 7 [label="эксплет"]
+			7 -> 10 [label="подч_союзн"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 15 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="_1_компл"]
+}

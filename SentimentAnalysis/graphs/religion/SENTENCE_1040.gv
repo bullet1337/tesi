@@ -1,0 +1,78 @@
+digraph SENTENCE_1040 {
+	graph [label="С точки зрения канонов, Великий пост оканчивается Лазаревой субботой, на следующий день после которой — в праздник Входа Господня в Иерусалим (Вербное воскресенье) — начинается Страстная неделя."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="точки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="канонов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оканчивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Лазаревой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="субботой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Входа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Иерусалим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Вербное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Страстная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			1 -> 2
+			25 -> 24 [label="опред"]
+			13 -> 12 [label="опред"]
+			18 -> 19 [label="аппоз"]
+			2 -> 3 [label="квазиагент"]
+			3 -> 7 [label="релят"]
+			30 -> 29 [label="опред"]
+			14 -> 15 [label="предл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="обст"]
+			7 -> 11 [label="обст"]
+			17 -> 18 [label="предл"]
+			20 -> 0 [label="вводн"]
+			20 -> 14 [label="обст"]
+			20 -> 17 [label="огранич"]
+			20 -> 21 [label="атриб"]
+			20 -> 28 [label="сент_соч"]
+			28 -> 25 [label="предик"]
+			28 -> 30 [label="длительн"]
+			11 -> 13 [label="предл"]
+			0 -> 1 [label="предл"]
+			21 -> 22 [label="предл"]
+}

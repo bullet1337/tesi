@@ -1,0 +1,48 @@
+digraph SENTENCE_2013 {
+	graph [label="И идут эти трое мимо заросших брёвен, мимо развалин дома, но всё же идут вместе."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="идут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трое
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заросших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="брёвен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="развалин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="идут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			1 -> 4 [label="обст"]
+			1 -> 5 [label="сочин"]
+			3 -> 2 [label="опред"]
+			4 -> 3 [label="количест"]
+			0 -> 1 [label="соч_союзн"]
+			12 -> 15 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 12 [label="сочин"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			13 -> 14 [label="огранич"]
+}

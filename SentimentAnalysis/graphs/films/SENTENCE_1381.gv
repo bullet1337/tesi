@@ -1,0 +1,51 @@
+digraph SENTENCE_1381 {
+	graph [label="Он слаб, она запутался, он любит свою жену, и потому не говорит ей то, что думает."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слаб
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запутался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="думает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 14 [label="соч_союзн"]
+			19 -> 18 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="сент_соч"]
+			9 -> 8 [label="опред"]
+			16 -> 19 [label="эксплет"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 11 [label="сочин"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="сент_соч"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 16 [label="_1_компл"]
+}

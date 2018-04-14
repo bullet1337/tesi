@@ -1,0 +1,48 @@
+digraph SENTENCE_5010 {
+	graph [label="5) Среди всей группы, которую направляют сопровождать ядерную бомбу, никто ничего не смыслит в бомбах."]
+	node [style=filled]
+		0 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Среди
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="направляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сопровождать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ядерную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бомбу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смыслит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бомбах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="_1_компл"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="обст"]
+			16 -> 17 [label="предл"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			7 -> 0
+			7 -> 2 [label="обст"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 15 [label="изъясн"]
+}

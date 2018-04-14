@@ -1,0 +1,69 @@
+digraph SENTENCE_1291 {
+	graph [label="Семьи здесь — от семи человек и выше, поэтому мы приняли решение оказать помощь именно в этом населенном пункте\", — сообщил журналистам представитель ЦПВС Дмитрий Неутолимов."]
+	node [style=filled]
+		0 [label="Семьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="семи
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="населенном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пункте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="представитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="ЦПВС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="Дмитрий Неутолимов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			3 -> 6 [label="сочин"]
+			5 -> 4 [label="количест"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			16 -> 15 [label="огранич"]
+			16 -> 19 [label="предл"]
+			23 -> 24 [label="_2_компл"]
+			23 -> 25 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="обст"]
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 23 [label="вводн"]
+			11 -> 27 [label="предик"]
+			6 -> 7 [label="соч_союзн"]
+			25 -> 26 [label="аппоз"]
+}

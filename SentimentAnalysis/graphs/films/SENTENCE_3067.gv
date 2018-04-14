@@ -1,0 +1,54 @@
+digraph SENTENCE_3067 {
+	graph [label="Потом еще двадцать минут смотрим на то, как герои живут жизнью, который вроде как жить не хотят."]
+	node [style=filled]
+		0 [label="Потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="двадцать
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смотрим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="живут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вроде
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="хотят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			6 -> 10 [label="эксплет"]
+			18 -> 17 [label="огранич"]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст_тавт"]
+			10 -> 16 [label="сочин"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="длительн"]
+			4 -> 5 [label="_1_компл"]
+			16 -> 13 [label="_1_компл"]
+			16 -> 14 [label="огранич"]
+			16 -> 15 [label="обст"]
+			16 -> 18 [label="сочин"]
+			3 -> 2 [label="количест"]
+			2 -> 1 [label="огранич"]
+}

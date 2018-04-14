@@ -1,0 +1,66 @@
+digraph SENTENCE_18 {
+	graph [label="Иерархи трех церквей, составляющих \"святогробское братство\", в воскресенье около полудня вместе вышли к верующим и объявили о коллективном решении закрыть храм."]
+	node [style=filled]
+		0 [label="Иерархи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церквей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="составляющих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="святогробское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="братство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="полудня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вышли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="верующим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="объявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="коллективном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="решении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="закрыть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 10 [label="обст"]
+			4 -> 12 [label="_1_компл"]
+			23 -> 24 [label="_1_компл"]
+			20 -> 22 [label="предл"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+			15 -> 18 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="количест"]
+			2 -> 4 [label="опред"]
+			2 -> 15 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			12 -> 13 [label="предл"]
+			18 -> 19 [label="соч_союзн"]
+			19 -> 20 [label="_1_компл"]
+}

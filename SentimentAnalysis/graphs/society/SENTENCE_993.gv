@@ -1,0 +1,60 @@
+digraph SENTENCE_993 {
+	graph [label="\"В настоящее время бюджет здравоохранения Тамбовской области достигает 14,2 миллиарда рублей, что составляет более трети от консолидированного бюджета области."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бюджет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="здравоохранения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Тамбовской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="достигает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="14,2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миллиарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="трети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="консолидированного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="бюджета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 19 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 4 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 14 [label="сент_соч"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="квазиагент"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			1 -> 3 [label="предл"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="квазиагент"]
+			15 -> 16 [label="сравнит"]
+			15 -> 17 [label="атриб"]
+			7 -> 6 [label="опред"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+}

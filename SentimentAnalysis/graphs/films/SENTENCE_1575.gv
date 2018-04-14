@@ -1,0 +1,42 @@
+digraph SENTENCE_1575 {
+	graph [label="Мы видим, насколько Сельме дорого здоровье ребёнка, которому больше не на кого положиться."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сельме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="дорого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="здоровье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ребёнка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="положиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 14 [label="_1_компл"]
+			6 -> 7 [label="квазиагент"]
+			5 -> 3 [label="огранич"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="предик"]
+			14 -> 5 [label="обст"]
+			14 -> 9 [label="_1_компл"]
+			14 -> 10 [label="обст"]
+			14 -> 12 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+}

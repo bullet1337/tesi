@@ -1,0 +1,30 @@
+digraph SENTENCE_1914 {
+	graph [label="Оставить такой грандиозный талант нераскрытым было бы просто преступлением."]
+	node [style=filled]
+		0 [label="Оставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="грандиозный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="талант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нераскрытым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="преступлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="присвяз"]
+			5 -> 6 [label="аналит"]
+			5 -> 8 [label="присвяз"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			0 -> 3 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+}

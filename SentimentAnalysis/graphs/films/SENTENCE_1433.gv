@@ -1,0 +1,39 @@
+digraph SENTENCE_1433 {
+	graph [label="До последнего момента надеешься на чудо, но умом понимаешь, чем всё закончится."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="момента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="надеешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чудо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="умом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="понимаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="закончится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="предик"]
+			7 -> 9 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			9 -> 8 [label="обст"]
+			9 -> 13 [label="_1_компл"]
+}

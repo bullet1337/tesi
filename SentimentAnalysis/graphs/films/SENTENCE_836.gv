@@ -1,0 +1,27 @@
+digraph SENTENCE_836 {
+	graph [label="Во-первых, это любительская камера, за которой стоял Робби Мюллер."]
+	node [style=filled]
+		0 [label="Во-первых
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любительская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="камера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стоял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Робби Мюллер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 8 [label="релят"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 9 [label="предик"]
+			6 -> 7 [label="предл"]
+}

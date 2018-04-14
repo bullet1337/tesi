@@ -1,0 +1,50 @@
+digraph SENTENCE_1381 {
+	graph [label="В Исландии всего 250 евреев (у них даже нет своего раввина) и около полутора тысяч мусульман."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Исландии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="250
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раввина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="полутора
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			14 -> 16 [label="предл"]
+			9 -> 0 [label="_1_компл"]
+			9 -> 4 [label="предик"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="предик"]
+			9 -> 13 [label="сент_соч"]
+			4 -> 3 [label="количест"]
+			3 -> 2 [label="огранич"]
+			6 -> 7 [label="предл"]
+			16 -> 15 [label="количест"]
+			16 -> 17 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+}

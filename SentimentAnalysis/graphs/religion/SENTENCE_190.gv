@@ -1,0 +1,45 @@
+digraph SENTENCE_190 {
+	graph [label="Каждую среду в Рим на аудиенцию к понтифику приезжают влюбленные пары со всего мира."]
+	node [style=filled]
+		0 [label="Каждую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="среду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Рим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аудиенцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понтифику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="приезжают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="влюбленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пары
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 1 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 6 [label="_2_компл"]
+			8 -> 10 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			2 -> 3 [label="предл"]
+			6 -> 7 [label="предл"]
+			4 -> 2 [label="огранич"]
+			4 -> 5 [label="предл"]
+}

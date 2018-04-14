@@ -1,0 +1,39 @@
+digraph SENTENCE_805 {
+	graph [label="По идее это мюзикл, но у меня язык не поворачивается называть его так."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="идее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="язык
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поворачивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="называть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 7 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="сент_соч"]
+}

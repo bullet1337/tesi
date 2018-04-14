@@ -1,0 +1,21 @@
+digraph SENTENCE_689 {
+	graph [label="Для Сэльми он и не кончился."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Сэльми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кончился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			0 -> 1 [label="предл"]
+}

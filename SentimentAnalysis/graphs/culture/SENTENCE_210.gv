@@ -1,0 +1,54 @@
+digraph SENTENCE_210 {
+	graph [label="Студия \"Союзмультфильм\" планирует представить свой новый анимационный фильм \"Гофманиада\" на Каннском кинорынке, сообщил РИА Новости глава студии Борис Машковцев."]
+	node [style=filled]
+		0 [label="Студия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Союзмультфильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="планирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="анимационный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гофманиада
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Каннском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="кинорынке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Борис Машковцев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 9 [label="_1_компл"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			9 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="ном_аппоз"]
+			9 -> 13 [label="атриб"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 21 [label="аппоз"]
+			13 -> 15 [label="предл"]
+			17 -> 0 [label="предик"]
+			17 -> 4 [label="_1_компл"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 19 [label="обст"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_884 {
+	graph [label="Добавляется, что аккредитация журналистов проводится только на сайте."]
+	node [style=filled]
+		0 [label="Добавляется
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="аккредитация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проводится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="обст"]
+			3 -> 4 [label="квазиагент"]
+			2 -> 5 [label="подч_союзн"]
+			0 -> 2 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+}

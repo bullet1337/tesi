@@ -1,0 +1,39 @@
+digraph SENTENCE_503 {
+	graph [label="Между тем члены делегации высказали свое мнение, как Сирии выйти из кризиса."]
+	node [style=filled]
+		0 [label="Между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="члены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делегации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="высказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="выйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кризиса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="сравн_союзн"]
+			11 -> 12 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сравнит"]
+			4 -> 10 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+}

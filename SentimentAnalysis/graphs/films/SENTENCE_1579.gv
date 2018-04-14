@@ -1,0 +1,48 @@
+digraph SENTENCE_1579 {
+	graph [label="Я не буду говорить, что случилось в конце, но не смогу опустить упоминания о нём."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="буду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смогу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="опустить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="упоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			3 -> 5 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="аналит"]
+			2 -> 10 [label="сочин"]
+			5 -> 6 [label="подч_союзн"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 15 [label="_3_компл"]
+			6 -> 7 [label="обст"]
+			10 -> 12 [label="соч_союзн"]
+			15 -> 16 [label="предл"]
+}

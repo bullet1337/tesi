@@ -1,0 +1,47 @@
+digraph SENTENCE_1566 {
+	graph [label="Монтини был избран на Апостольский престол 21 июня 1963 года во время Второго Ватиканского собора."]
+	node [style=filled]
+		0 [label="Монтини
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="избран
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Апостольский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="престол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="июня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="1963
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Второго
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ватиканского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="атриб"]
+			2 -> 3 [label="_2_компл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			9 -> 8 [label="опред"]
+			5 -> 4 [label="опред"]
+			6 -> 7 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			1 -> 6 [label="обст"]
+			11 -> 14 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+			3 -> 5 [label="предл"]
+}

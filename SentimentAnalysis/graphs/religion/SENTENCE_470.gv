@@ -1,0 +1,52 @@
+digraph SENTENCE_470 {
+	graph [label="Православное христианство — часть нашего прошлого, является частью нашего настоящего и должно быть сохранено как часть нашего будущего."]
+	node [style=filled]
+		0 [label="Православное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="христианство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошлого
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="частью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="настоящего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сохранено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="будущего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="сочин"]
+			5 -> 4 [label="опред"]
+			15 -> 16 [label="сравн_союзн"]
+			18 -> 17 [label="опред"]
+			16 -> 18 [label="квазиагент"]
+			12 -> 13 [label="_1_компл"]
+			7 -> 1 [label="_1_компл"]
+			7 -> 3 [label="предик"]
+			7 -> 8 [label="предик"]
+			3 -> 5 [label="квазиагент"]
+			11 -> 12 [label="соч_союзн"]
+			14 -> 15 [label="сравнит"]
+			13 -> 14
+}

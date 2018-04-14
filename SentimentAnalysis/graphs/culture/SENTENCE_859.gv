@@ -1,0 +1,30 @@
+digraph SENTENCE_859 {
+	graph [label="Многие драматические режиссеры хотят создать драматическую картинку, и только."]
+	node [style=filled]
+		0 [label="Многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="драматические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хотят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="драматическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картинку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+}

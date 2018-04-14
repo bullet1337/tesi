@@ -1,0 +1,27 @@
+digraph SENTENCE_1578 {
+	graph [label="Отдельного внимания заслуживает наиболее известная сцена — сама развязка."]
+	node [style=filled]
+		0 [label="Отдельного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="внимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заслуживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="развязка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_1_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 8 [label="разъяснит"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="опред"]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+}

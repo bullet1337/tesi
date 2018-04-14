@@ -1,0 +1,36 @@
+digraph SENTENCE_538 {
+	graph [label="7,14), он решил, что слово \"дева\" употреблено ошибочно, вместо слова \"жена\"."]
+	node [style=filled]
+		0 [label="7,14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дева
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="употреблено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ошибочно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вместо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 11 [label="подч_союзн"]
+			11 -> 7 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 14 [label="обст"]
+			11 -> 17 [label="разъяснит"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			7 -> 9 [label="аппоз"]
+			14 -> 15 [label="предл"]
+}

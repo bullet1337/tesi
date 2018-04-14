@@ -1,0 +1,66 @@
+digraph SENTENCE_195 {
+	graph [label="Тогда папа римский во время специальной мессы в честь Дня святого Валентина благословил около 20 тысяч влюбленных из 28 стран мира."]
+	node [style=filled]
+		0 [label="Тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="римский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="специальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мессы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Дня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="благословил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="около
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="влюбленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="28
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			2 -> 3 [label="обст"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="квазиагент"]
+			8 -> 9 [label="квазиагент"]
+			1 -> 2 [label="опред"]
+			17 -> 19 [label="предл"]
+			11 -> 10 [label="опред"]
+			13 -> 15 [label="предл"]
+			19 -> 18 [label="количест"]
+			19 -> 20 [label="квазиагент"]
+			6 -> 0 [label="обст"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			6 -> 12 [label="сент_соч"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			12 -> 17 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+}

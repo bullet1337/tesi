@@ -1,0 +1,25 @@
+digraph SENTENCE_2150 {
+	graph [label="Какими были бы мы сегодня, посмотрев его фильмы?"]
+	node [style=filled]
+		0 [label="Какими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="посмотрев
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="присвяз"]
+			1 -> 2 [label="аналит"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="квазиагент"]
+}

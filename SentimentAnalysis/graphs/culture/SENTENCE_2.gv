@@ -1,0 +1,30 @@
+digraph SENTENCE_2 {
+	graph [label="К счастью, в наших театрах такие вещи не возможны."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="счастью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наших
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="возможны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			7 -> 3 [label="огранич"]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			5 -> 4 [label="опред"]
+}

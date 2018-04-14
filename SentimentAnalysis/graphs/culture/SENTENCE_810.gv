@@ -1,0 +1,33 @@
+digraph SENTENCE_810 {
+	graph [label="Арт-объект представляет собой образ Микки Мауса и изготовлен из черной резины."]
+	node [style=filled]
+		0 [label="Арт-объект
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Микки Мауса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="изготовлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="черной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="резины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			1 -> 3 [label="_1_компл"]
+			1 -> 5 [label="сочин"]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			6 -> 7 [label="_2_компл"]
+			7 -> 9 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+}

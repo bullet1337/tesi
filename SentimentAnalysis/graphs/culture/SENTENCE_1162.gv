@@ -1,0 +1,48 @@
+digraph SENTENCE_1162 {
+	graph [label="Картина основана на реальной истории и снята в формате, который сам Бекмамбетов называет screen life."]
+	node [style=filled]
+		0 [label="Картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="основана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="реальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="снята
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="формате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Бекмамбетов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="называет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="screen
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="life
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			12 -> 11 [label="опред"]
+			13 -> 10 [label="_1_компл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			14 -> 15 [label="аппоз"]
+			6 -> 7 [label="_2_компл"]
+			2 -> 4 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="сочин"]
+			1 -> 13 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+}

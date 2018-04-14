@@ -1,0 +1,58 @@
+digraph SENTENCE_960 {
+	graph [label="И поэтому мы каждое утро, когда сверяли программу (а нас сопровождало 28 журналистов из разных стран), ждали этой встречи."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="каждое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="утро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сверяли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сопровождало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="28
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ждали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="предл"]
+			17 -> 16 [label="опред"]
+			14 -> 13 [label="количест"]
+			14 -> 15 [label="атриб"]
+			22 -> 21 [label="опред"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			20 -> 22 [label="_1_компл"]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 7 [label="релят"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 14 [label="предик"]
+			10 -> 12 [label="соч_союзн"]
+			0 -> 4 [label="соч_союзн"]
+}

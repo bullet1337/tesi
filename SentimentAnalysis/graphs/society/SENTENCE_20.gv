@@ -1,0 +1,85 @@
+digraph SENTENCE_20 {
+	graph [label="Холодный воздух – он всегда, если можно так сказать, как тяжелый панцирь над нами, и для того, чтобы его разрушить южным или атлантическим циклоном, нужно приложить значительные усилия\", — сказала она."]
+	node [style=filled]
+		0 [label="Холодный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="воздух
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тяжелый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="панцирь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="разрушить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="южным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="атлантическим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="циклоном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="приложить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="значительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="усилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			30 -> 32 [label="_1_компл"]
+			29 -> 30 [label="предик"]
+			29 -> 36 [label="вводн"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 17 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+			27 -> 24 [label="опред"]
+			24 -> 25 [label="сочин"]
+			14 -> 15 [label="предл"]
+			18 -> 19 [label="предл"]
+			32 -> 31 [label="опред"]
+			23 -> 22 [label="_1_компл"]
+			23 -> 27 [label="_2_компл"]
+			7 -> 9 [label="предик"]
+			6 -> 7 [label="подч_союзн"]
+			21 -> 23 [label="инф_союзн"]
+			36 -> 37 [label="предик"]
+			9 -> 8 [label="обст"]
+			1 -> 0 [label="опред"]
+			25 -> 26 [label="соч_союзн"]
+			19 -> 21 [label="эксплет"]
+			12 -> 11 [label="огранич"]
+}

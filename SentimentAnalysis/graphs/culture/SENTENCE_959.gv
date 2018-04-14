@@ -1,0 +1,57 @@
+digraph SENTENCE_959 {
+	graph [label="Народная артистка Ирина Алферова выступит в премьерном спектакле \"Тариф \"Случайные связи\" на сцене московского театра \"Школа современной пьесы\" (ШСП)."]
+	node [style=filled]
+		0 [label="Народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Ирина Алферова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="выступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="премьерном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Тариф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Случайные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="московского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Школа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пьесы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ШСП
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="опред"]
+			14 -> 16 [label="квазиагент"]
+			4 -> 6 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			8 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="аппоз"]
+			16 -> 20 [label="сочин"]
+			20 -> 19 [label="опред"]
+			20 -> 23 [label="примыкат"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_3721 {
+	graph [label="Понятное дело, что глупо сравнивать Россию с тамошней Океанией."]
+	node [style=filled]
+		0 [label="Понятное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глупо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сравнивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тамошней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Океанией
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			3 -> 4 [label="подч_союзн"]
+}

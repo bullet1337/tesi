@@ -1,0 +1,26 @@
+digraph SENTENCE_161 {
+	graph [label="Свадьба бывает торжественная, веселая, но порой, и смешная."]
+	node [style=filled]
+		0 [label="Свадьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="торжественная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="веселая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="порой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смешная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 9 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			2 -> 4 [label="сочин"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_49 {
+	graph [label="Восемь тигров выпустили в дикую природу, пять из них адаптировались."]
+	node [style=filled]
+		0 [label="Восемь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тигров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выпустили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дикую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="природу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="адаптировались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_3_компл"]
+			2 -> 10 [label="сент_соч"]
+			10 -> 7 [label="предик"]
+			1 -> 0 [label="количест"]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="электив"]
+			3 -> 5 [label="предл"]
+}

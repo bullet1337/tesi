@@ -1,0 +1,48 @@
+digraph SENTENCE_667 {
+	graph [label="При этом небольшое повышение температуры ожидается в первых числах марта, однако температура по-прежнему останется низкой."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="небольшое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="повышение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="температуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="первых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="числах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="низкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			14 -> 11 [label="огранич"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="присвяз"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="длительн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 14 [label="сент_соч"]
+}

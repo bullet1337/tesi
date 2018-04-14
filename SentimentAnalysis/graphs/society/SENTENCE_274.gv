@@ -1,0 +1,24 @@
+digraph SENTENCE_274 {
+	graph [label="Так появились \"превед\", \"кросавчег\", \"креведко\" и другие."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="появились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="превед
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кросавчег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="креведко
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			7 -> 11 [label="аппоз"]
+			13 -> 14 [label="соч_союзн"]
+			3 -> 7 [label="аппоз"]
+			3 -> 13 [label="сочин"]
+}

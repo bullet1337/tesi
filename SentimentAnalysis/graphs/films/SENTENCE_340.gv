@@ -1,0 +1,18 @@
+digraph SENTENCE_340 {
+	graph [label="И прекрасная рассеянно-беспечная улыбка Сельмы."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прекрасная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рассеянно-беспечная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="улыбка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			0 -> 3 [label="соч_союзн"]
+}

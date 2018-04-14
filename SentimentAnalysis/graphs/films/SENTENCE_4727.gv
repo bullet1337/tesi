@@ -1,0 +1,42 @@
+digraph SENTENCE_4727 {
+	graph [label="А затем главный учёный даже берёт отца и сына с собой, вот зачем?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="учёный
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="берёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			12 -> 9 [label="вводн"]
+			12 -> 13 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			0 -> 5 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 12 [label="разъяснит"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_2900 {
+	graph [label="Затем в зале воцарилась тишина."]
+	node [style=filled]
+		0 [label="Затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="воцарилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тишина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="предик"]
+}

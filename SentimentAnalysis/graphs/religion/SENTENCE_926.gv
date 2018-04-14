@@ -1,0 +1,72 @@
+digraph SENTENCE_926 {
+	graph [label="С 1919 года святыня хранится в Третьяковской галерее, однако последние 20 лет накануне 1 сентября ее регулярно доставляют для поклонения в Донской монастырь."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1919
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="святыня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хранится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Третьяковской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="галерее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сентября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="регулярно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="доставляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="поклонения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Донской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="монастырь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="атриб"]
+			19 -> 20 [label="предл"]
+			18 -> 9 [label="огранич"]
+			18 -> 13 [label="обст"]
+			18 -> 14 [label="обст"]
+			18 -> 16 [label="_1_компл"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			0 -> 2 [label="предл"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 18 [label="сочин"]
+			2 -> 1 [label="опред"]
+			5 -> 7 [label="предл"]
+			7 -> 6 [label="опред"]
+			11 -> 10 [label="опред"]
+			23 -> 22 [label="опред"]
+			21 -> 23 [label="предл"]
+			12 -> 11 [label="количест"]
+			20 -> 21 [label="атриб"]
+			13 -> 12 [label="предл"]
+}

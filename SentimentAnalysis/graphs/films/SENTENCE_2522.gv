@@ -1,0 +1,21 @@
+digraph SENTENCE_2522 {
+	graph [label="Окружающий мир фантасмагоричен и почти нереален."]
+	node [style=filled]
+		0 [label="Окружающий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фантасмагоричен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нереален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сочин"]
+			3 -> 5 [label="соч_союзн"]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="опред"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_794 {
+	graph [label="Уникальные взаимоотношения между монастырем и командованием подразделения позволяли солдатам трудиться в обители."]
+	node [style=filled]
+		0 [label="Уникальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взаимоотношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="монастырем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="командованием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подразделения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="позволяли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="солдатам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="трудиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="сочин"]
+			9 -> 10 [label="обст"]
+			10 -> 11 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 9 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			1 -> 7 [label="релят"]
+}

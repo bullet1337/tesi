@@ -1,0 +1,42 @@
+digraph SENTENCE_1452 {
+	graph [label="Помимо Бекмамбетова, выступившего в качестве продюсера, над \"Профилем\" работали российские сценаристы и монтажеры."]
+	node [style=filled]
+		0 [label="Помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Бекмамбетова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="выступившего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="продюсера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Профилем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сценаристы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="монтажеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			8 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			15 -> 16 [label="соч_союзн"]
+			12 -> 0 [label="обст"]
+			12 -> 14 [label="предик"]
+			3 -> 4 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			1 -> 3 [label="опред"]
+			4 -> 5 [label="предл"]
+}

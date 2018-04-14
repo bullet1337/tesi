@@ -1,0 +1,78 @@
+digraph SENTENCE_560 {
+	graph [label="На премию в номинации \"Лучшая мужская роль второго плана\" претендует Кристофер Пламмер, в рекордные сроки снявшийся в фильме \"Все деньги мира\" в роли, первоначально сыгранной Кевином Спейси."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="премию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="номинации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="мужская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="плана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="претендует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Кристофер Пламмер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рекордные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сроки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="снявшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Все
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="первоначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сыгранной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Кевином Спейси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			1 -> 2 [label="атриб"]
+			0 -> 1 [label="предл"]
+			3 -> 7 [label="аппоз"]
+			29 -> 28 [label="обст"]
+			29 -> 30 [label="агент"]
+			2 -> 3 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			11 -> 14 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			26 -> 29 [label="опред"]
+			17 -> 18 [label="обст"]
+			17 -> 22 [label="_1_компл"]
+			17 -> 25 [label="обст"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="квазиагент"]
+			25 -> 26 [label="предл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="опред"]
+			18 -> 19 [label="предл"]
+}

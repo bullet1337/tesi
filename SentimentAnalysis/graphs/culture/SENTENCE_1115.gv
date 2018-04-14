@@ -1,0 +1,42 @@
+digraph SENTENCE_1115 {
+	graph [label="Режиссер подчеркнул, что семья Довлатова считает, что он удачно попал в образ писателя."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="семья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Довлатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="удачно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="попал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_2_компл"]
+			13 -> 14 [label="квазиагент"]
+			4 -> 5 [label="квазиагент"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			3 -> 6 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			8 -> 11 [label="подч_союзн"]
+}

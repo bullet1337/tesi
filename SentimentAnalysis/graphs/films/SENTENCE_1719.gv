@@ -1,0 +1,39 @@
+digraph SENTENCE_1719 {
+	graph [label="Можно со снобизмом сравнивать его с другими фильмами Триера и других режиссёров."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снобизмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сравнивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режиссёров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="обст"]
+			0 -> 3 [label="предик"]
+			11 -> 10 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			9 -> 11 [label="соч_союзн"]
+			5 -> 7 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="сочин"]
+}

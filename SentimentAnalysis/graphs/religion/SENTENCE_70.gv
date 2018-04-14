@@ -1,0 +1,54 @@
+digraph SENTENCE_70 {
+	graph [label="\"Русская церковь выражает глубокую обеспокоенность случившимся и настаивает на самом тщательном расследовании этого преступления\", — добавил пресс-секретарь патриарха."]
+	node [style=filled]
+		1 [label="Русская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глубокую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обеспокоенность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="случившимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="настаивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тщательном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="расследовании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="преступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пресс-секретарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			12 -> 11 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 18 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="опред"]
+			19 -> 20 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			14 -> 13 [label="опред"]
+			6 -> 7 [label="сочин"]
+			9 -> 12 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 14 [label="длительн"]
+			18 -> 19 [label="предик"]
+			7 -> 8 [label="соч_союзн"]
+}

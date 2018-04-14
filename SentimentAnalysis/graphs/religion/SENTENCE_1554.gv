@@ -1,0 +1,36 @@
+digraph SENTENCE_1554 {
+	graph [label="Эта встреча состоялась в минувший четверг за закрытыми дверями Собора Св."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="минувший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="закрытыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дверями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Собора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Св
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			6 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			1 -> 0 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 10 [label="атриб"]
+}

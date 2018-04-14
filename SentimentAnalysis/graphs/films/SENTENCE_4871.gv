@@ -1,0 +1,27 @@
+digraph SENTENCE_4871 {
+	graph [label="И так же уходит: куда и зачем — непонятно."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="куда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="непонятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 9 [label="_2_компл"]
+			9 -> 5 [label="колич_огран"]
+			5 -> 6 [label="сочин"]
+			1 -> 2 [label="огранич"]
+			0 -> 3 [label="соч_союзн"]
+			6 -> 7 [label="соч_союзн"]
+}

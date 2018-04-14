@@ -1,0 +1,60 @@
+digraph SENTENCE_1330 {
+	graph [label="Незамысловатые, но моментально запоминающиеся строки хитов \"Ленинграда\" не должны вводить слушателей в заблуждение, тексты Шнуров пишет долго и основательно."]
+	node [style=filled]
+		0 [label="Незамысловатые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="моментально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запоминающиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="строки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хитов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ленинграда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вводить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="слушателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заблуждение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тексты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Шнуров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="пишет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="основательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 0 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 19 [label="разъяснит"]
+			14 -> 15 [label="предл"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			21 -> 22 [label="соч_союзн"]
+			6 -> 8 [label="квазиагент"]
+			2 -> 4 [label="соч_союзн"]
+			5 -> 6 [label="квазиагент"]
+			20 -> 21 [label="сочин"]
+			19 -> 17 [label="предик"]
+			19 -> 20 [label="обст"]
+			0 -> 2 [label="сочин"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_3_компл"]
+			17 -> 18 [label="квазиагент"]
+}

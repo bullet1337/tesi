@@ -1,0 +1,30 @@
+digraph SENTENCE_4200 {
+	graph [label="Есть только какие-то обрывочные фразы с закосом под философию."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="какие-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обрывочные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фразы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="закосом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="философию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+			2 -> 1 [label="огранич"]
+			5 -> 6 [label="предл"]
+			0 -> 4 [label="предик"]
+			0 -> 7 [label="присвяз"]
+			7 -> 8 [label="предл"]
+}

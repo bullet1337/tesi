@@ -1,0 +1,45 @@
+digraph SENTENCE_886 {
+	graph [label="Министр культуры РФ Владимир Мединский, открывая фестиваль искусств в Сочи, назвал его \"нашим ответом Зальцбургу\"."]
+	node [style=filled]
+		0 [label="Министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Владимир Мединский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="открывая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="искусств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сочи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нашим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ответом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Зальцбургу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			5 -> 6 [label="_1_компл"]
+			11 -> 0 [label="предик"]
+			11 -> 5 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="_2_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="атриб"]
+			1 -> 2 [label="квазиагент"]
+}

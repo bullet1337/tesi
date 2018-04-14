@@ -1,0 +1,45 @@
+digraph SENTENCE_1263 {
+	graph [label="Пантилия исследует сексуальность нескольких людей, которые через эту сторону жизни пытаются лучше понять себя."]
+	node [style=filled]
+		0 [label="Пантилия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="исследует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сексуальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пытаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="количест"]
+			4 -> 11 [label="релят"]
+			4 -> 13 [label="сочин"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="разъяснит"]
+			13 -> 14 [label="_1_компл"]
+			11 -> 6 [label="предик"]
+			11 -> 7 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+}

@@ -1,0 +1,20 @@
+digraph SENTENCE_86 {
+	graph [label="Лю Болин родом из китайской провинции Шаньдун."]
+	node [style=filled]
+		0 [label="Лю Болин
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="родом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="китайской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="провинции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Шаньдун
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			2 -> 4 [label="предл"]
+			1 -> 2 [label="атриб"]
+}

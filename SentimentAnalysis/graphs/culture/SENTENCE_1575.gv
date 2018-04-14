@@ -1,0 +1,72 @@
+digraph SENTENCE_1575 {
+	graph [label="\"Молодежь сегодня не понимает, как велика была ядерная угроза\", — говорит Питер Энтони, который сам как раз принадлежит к поколению, взрослевшему в годы холодной войны."]
+	node [style=filled]
+		1 [label="Молодежь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="понимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="велика
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ядерная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="угроза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Питер Энтони
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="принадлежит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="поколению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="взрослевшему
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="холодной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 21 [label="релят"]
+			27 -> 29 [label="квазиагент"]
+			25 -> 26 [label="обст"]
+			7 -> 6 [label="огранич"]
+			21 -> 17 [label="предик"]
+			21 -> 18 [label="суб_копр"]
+			21 -> 19 [label="обст"]
+			21 -> 20 [label="обст"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 25 [label="сочин"]
+			8 -> 10 [label="предик"]
+			8 -> 14 [label="сент_соч"]
+			14 -> 15 [label="предик"]
+			22 -> 23 [label="предл"]
+			26 -> 27 [label="предл"]
+			10 -> 9 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 8 [label="сент_соч"]
+			29 -> 28 [label="опред"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1520 {
+	graph [label="На ее лице улыбка, и она танцует!"]
+	node [style=filled]
+		0 [label="На
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="улыбка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="танцует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="соч_союзн"]
+			7 -> 6 [label="предик"]
+			2 -> 1 [label="квазиагент"]
+			2 -> 3 [label="сочин"]
+			0 -> 2 [label="предл"]
+			0 -> 5 [label="сочин"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_387 {
+	graph [label="Как ни удивительно, но Гуф подтвердил эту информацию."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="удивительно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="подтвердил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="информацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+			0 -> 2 [label="сравн_союзн"]
+			8 -> 7 [label="опред"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+}

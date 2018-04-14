@@ -1,0 +1,83 @@
+digraph SENTENCE_1613 {
+	graph [label="В Чистый понедельник во время первого великопостного повечерия начинается чтение Великого покаянного канона святого Андрея Критского, состоящего из 250 тропарей (строф) и считающегося самым длинным из существующих канонов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Чистый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="великопостного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повечерия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чтение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="покаянного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="канона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Андрея Критского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="состоящего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="250
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тропарей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="строф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="считающегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="самым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="длинным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="существующих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="канонов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 12 [label="_1_компл"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 23 [label="сочин"]
+			27 -> 29 [label="предл"]
+			3 -> 4 [label="предл"]
+			26 -> 25 [label="опред"]
+			26 -> 27 [label="электив"]
+			23 -> 24 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="опред"]
+			24 -> 26 [label="_2_компл"]
+			19 -> 18 [label="количест"]
+			19 -> 21 [label="квазиагент"]
+			17 -> 19 [label="предл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			29 -> 28 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="предик"]
+			0 -> 2 [label="предл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			2 -> 1 [label="опред"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1220 {
+	graph [label="Когда просто ходишь по этому городу, у тебя в душе явно что-то происходит\", — отметил Ростислав Хаит."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ходишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="душе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Ростислав Хаит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			17 -> 18 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			2 -> 7 [label="обст"]
+			0 -> 2 [label="подч_союзн"]
+			9 -> 10 [label="предл"]
+			5 -> 4 [label="опред"]
+			13 -> 0 [label="обст"]
+			13 -> 9 [label="обст"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 17 [label="вводн"]
+			7 -> 8 [label="предл"]
+}

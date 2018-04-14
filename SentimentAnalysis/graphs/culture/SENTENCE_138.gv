@@ -1,0 +1,41 @@
+digraph SENTENCE_138 {
+	graph [label="Жан Кокто создал пьесу \"Человеческий голос\", передав словами состояние женской души в минуты отчаяния."]
+	node [style=filled]
+		0 [label="Жан Кокто
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="создал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пьесу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Человеческий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="передав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="словами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="женской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="отчаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="обст"]
+			12 -> 11 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			2 -> 5 [label="квазиагент"]
+			13 -> 14 [label="предл"]
+			10 -> 12 [label="квазиагент"]
+			10 -> 13 [label="атриб"]
+}

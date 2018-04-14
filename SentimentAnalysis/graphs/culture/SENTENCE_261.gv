@@ -1,0 +1,75 @@
+digraph SENTENCE_261 {
+	graph [label="Гости Дарвиновского музея увидят более 150 снимков Токио глазами 20 фотографов из Японии, Италии, России, США, Китая, Финляндии и Испании на выставке \"Токийские истории\"."]
+	node [style=filled]
+		0 [label="Гости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Дарвиновского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="музея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увидят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="150
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="снимков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Токио
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="глазами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фотографов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Японии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Италии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Китая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Финляндии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Испании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="выставке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Токийские
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="сочин"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="атриб"]
+			26 -> 29 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			29 -> 28 [label="опред"]
+			20 -> 22 [label="сочин"]
+			22 -> 23 [label="сочин"]
+			23 -> 24 [label="соч_союзн"]
+			12 -> 14 [label="сочин"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="атриб"]
+			11 -> 12 [label="предл"]
+			4 -> 6 [label="сравнит"]
+			14 -> 16 [label="сочин"]
+			18 -> 20 [label="сочин"]
+			25 -> 26 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="обст"]
+			3 -> 10 [label="_1_компл"]
+			3 -> 25 [label="обст"]
+}

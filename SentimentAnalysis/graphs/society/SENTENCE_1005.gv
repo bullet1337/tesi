@@ -1,0 +1,68 @@
+digraph SENTENCE_1005 {
+	graph [label="\"Мордовия вошла в топ-10 регионов России по достижению показателя \"Доля граждан, использующих механизм получения государственных и муниципальных услуг в электронной форме\"."]
+	node [style=filled]
+		1 [label="Мордовия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="топ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="регионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="достижению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="показателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Доля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="граждан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="использующих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="механизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="получения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="государственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="муниципальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="услуг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="электронной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="опред"]
+			19 -> 20 [label="сочин"]
+			22 -> 19 [label="опред"]
+			7 -> 4 [label="композ"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="квазиагент"]
+			18 -> 22 [label="_1_компл"]
+			18 -> 23 [label="атриб"]
+			13 -> 14 [label="квазиагент"]
+			23 -> 25 [label="предл"]
+			9 -> 10 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 9 [label="обст"]
+			3 -> 7 [label="предл"]
+			20 -> 21 [label="соч_союзн"]
+			25 -> 24 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			16 -> 17 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+}

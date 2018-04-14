@@ -1,0 +1,48 @@
+digraph SENTENCE_4954 {
+	graph [label="Кстати, если кто-то вдруг ожидал увидеть «Тихоокеанский рубеж 2,0», выбросьте эти дурацкие мысли из головы!"]
+	node [style=filled]
+		0 [label="Кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вдруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Тихоокеанский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="рубеж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2,0
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выбросьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="дурацкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			2 -> 5 [label="подч_союзн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="обст"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			13 -> 0 [label="вводн"]
+			13 -> 2 [label="обст"]
+			13 -> 16 [label="_1_компл"]
+			13 -> 17 [label="_3_компл"]
+			17 -> 18 [label="предл"]
+}

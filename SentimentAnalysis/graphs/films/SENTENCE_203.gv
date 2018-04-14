@@ -1,0 +1,39 @@
+digraph SENTENCE_203 {
+	graph [label="Напоследок хочу отметить то, что мне понравилось как режиссёр вставил «мюзикловую» часть."]
+	node [style=filled]
+		0 [label="Напоследок
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понравилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссёр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мюзикловую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 12 [label="опред"]
+			8 -> 9 [label="сравн_союзн"]
+			3 -> 7 [label="эксплет"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 10 [label="сочин"]
+			10 -> 14 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="сравнит"]
+			2 -> 3 [label="_1_компл"]
+}

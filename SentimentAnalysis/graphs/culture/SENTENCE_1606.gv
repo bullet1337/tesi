@@ -1,0 +1,48 @@
+digraph SENTENCE_1606 {
+	graph [label="\"У меня есть наполовину терьер, наполовину Джек Рассел, который выжил после атаки койотов\", — рассказал журналистам Мюррей."]
+	node [style=filled]
+		1 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наполовину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="терьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="наполовину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Джек Рассел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выжил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="атаки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="койотов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Мюррей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			19 -> 20 [label="аппоз"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 5 [label="предик"]
+			3 -> 8 [label="предик"]
+			3 -> 18 [label="вводн"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="релят"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			12 -> 13 [label="предл"]
+}

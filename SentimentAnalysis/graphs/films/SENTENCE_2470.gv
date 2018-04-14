@@ -1,0 +1,51 @@
+digraph SENTENCE_2470 {
+	graph [label="Я не выступаю защитником властей в КНДР, жизнь там не сахар конечно, я объективно оцениваю фильм."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выступаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="защитником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="властей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="КНДР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="там
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сахар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="объективно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оцениваю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 8 [label="предик"]
+			16 -> 12 [label="вводн"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			11 -> 9
+			11 -> 10 [label="огранич"]
+			5 -> 6 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 16 [label="сент_соч"]
+			8 -> 11 [label="квазиагент"]
+			3 -> 4 [label="квазиагент"]
+}

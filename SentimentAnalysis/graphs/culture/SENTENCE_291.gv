@@ -1,0 +1,45 @@
+digraph SENTENCE_291 {
+	graph [label="Первым в рамках мероприятия в Дохе выступил Государственный академический ансамбль народного танца имени Игоря Моисеева."]
+	node [style=filled]
+		0 [label="Первым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Дохе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="выступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Государственный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="академический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ансамбль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="народного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="танца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Игоря Моисеева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			6 -> 0 [label="суб_копр"]
+			6 -> 1 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 9 [label="_1_компл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			9 -> 13 [label="аппоз"]
+}

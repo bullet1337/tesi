@@ -1,0 +1,15 @@
+digraph SENTENCE_3390 {
+	graph [label="Кругом сплошное враньё-враньё-враньё."]
+	node [style=filled]
+		0 [label="Кругом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сплошное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="враньё-враньё
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="враньё
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+}

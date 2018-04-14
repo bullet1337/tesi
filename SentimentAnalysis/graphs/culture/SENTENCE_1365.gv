@@ -1,0 +1,36 @@
+digraph SENTENCE_1365 {
+	graph [label="Информационная телепрограмма \"Время\" впервые вышла в эфир 1 января 1968 года."]
+	node [style=filled]
+		0 [label="Информационная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="телепрограмма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вышла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эфир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="января
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1968
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="атриб"]
+			12 -> 11 [label="опред"]
+			6 -> 1 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="обст"]
+			1 -> 0 [label="опред"]
+			7 -> 8 [label="предл"]
+			9 -> 10 [label="атриб"]
+}

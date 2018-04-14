@@ -1,0 +1,36 @@
+digraph SENTENCE_3600 {
+	graph [label="Меньшикова вообще привели из «Утомленных солнцем» мимикрировав, похоже, лишь вязанной шапочкой."]
+	node [style=filled]
+		0 [label="Меньшикова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="привели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Утомленных
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="солнцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мимикрировав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="похоже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вязанной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="шапочкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="предл"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="агент"]
+			8 -> 10 [label="вводн"]
+			8 -> 13 [label="сочин"]
+			6 -> 5 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="обст"]
+}

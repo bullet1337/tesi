@@ -1,0 +1,56 @@
+digraph SENTENCE_794 {
+	graph [label="По данным ведомства, заболеваемость гриппом и другими острыми респираторными вирусными инфекциями в Петербурге находится сейчас на неэпидемическом уровне."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ведомства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заболеваемость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гриппом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="острыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="респираторными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вирусными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="инфекциями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="неэпидемическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="уровне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="опред"]
+			4 -> 5 [label="сочин"]
+			5 -> 6 [label="сочин"]
+			12 -> 13 [label="предл"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 15 [label="обст"]
+			14 -> 16 [label="обст"]
+			1 -> 2 [label="квазиагент"]
+			11 -> 7 [label="опред"]
+			11 -> 8 [label="опред"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="релят"]
+			16 -> 18 [label="предл"]
+			6 -> 11 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+}

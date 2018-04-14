@@ -1,0 +1,54 @@
+digraph SENTENCE_2687 {
+	graph [label="Как мантру каждый критик повторяет, что с точки зрения стиля и техники исполнения «Блейдраннер» заслуживает всяческих похвал."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мантру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="критик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="повторяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="точки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стиля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="техники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="исполнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Блейдраннер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="заслуживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всяческих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="похвал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			6 -> 17 [label="подч_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			15 -> 7 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			0 -> 1 [label="сравн_союзн"]
+			7 -> 8 [label="предл"]
+			10 -> 11 [label="сочин"]
+			17 -> 15 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+			8 -> 9
+			12 -> 13 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+}

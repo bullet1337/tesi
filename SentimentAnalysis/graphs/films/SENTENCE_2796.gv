@@ -1,0 +1,27 @@
+digraph SENTENCE_2796 {
+	graph [label="И уже намного позже я посмотрела сам фильм."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="намного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="позже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="колич_огран"]
+			3 -> 5 [label="разъяснит"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+}

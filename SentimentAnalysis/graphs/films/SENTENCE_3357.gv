@@ -1,0 +1,42 @@
+digraph SENTENCE_3357 {
+	graph [label="Это что же получается — гордость советского спорта Валерия Борисовича Харламова обстоятельно, всеобъемлюще ПЕРЕВРАЛИ и обгадили!?"]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гордость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Валерия Борисовича Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="обстоятельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всеобъемлюще
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ПЕРЕВРАЛИ
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обгадили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="сочин"]
+			5 -> 7 [label="квазиагент"]
+			1 -> 2 [label="огранич"]
+			11 -> 9 [label="огранич"]
+			3 -> 0 [label="сент_предик"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="предик"]
+			3 -> 8 [label="вводн"]
+			3 -> 11 [label="_1_компл"]
+			3 -> 12 [label="сочин"]
+			7 -> 6 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+}

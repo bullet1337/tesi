@@ -1,0 +1,54 @@
+digraph SENTENCE_1405 {
+	graph [label="По одну сторону слепая мать убивает соседа — вора, отнявшего у нее последние, такие нужные для дочери деньги."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="убивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="соседа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отнявшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нужные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дочери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 19 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			6 -> 8 [label="аппоз"]
+			6 -> 10 [label="опред"]
+			17 -> 18 [label="предл"]
+			11 -> 12 [label="предл"]
+			4 -> 3 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 16 [label="оп_опред"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 15 [label="_1_компл"]
+}

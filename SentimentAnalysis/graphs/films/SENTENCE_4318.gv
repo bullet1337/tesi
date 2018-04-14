@@ -1,0 +1,27 @@
+digraph SENTENCE_4318 {
+	graph [label="Простор для фантазии и качественного продукта просто необъятный."]
+	node [style=filled]
+		0 [label="Простор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фантазии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="качественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="продукта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="необъятный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="сочин"]
+			0 -> 1 [label="атриб"]
+			5 -> 4 [label="опред"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="огранич"]
+			1 -> 2 [label="предл"]
+			3 -> 5 [label="соч_союзн"]
+}

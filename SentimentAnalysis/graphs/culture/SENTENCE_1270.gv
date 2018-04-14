@@ -1,0 +1,21 @@
+digraph SENTENCE_1270 {
+	graph [label="Россию представляет драма Алексея Германа-младшего \"Довлатов\"."]
+	node [style=filled]
+		0 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алексея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Германа-младшего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			3 -> 6 [label="аппоз"]
+			2 -> 3 [label="квазиагент"]
+			6 -> 4 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_400 {
+	graph [label="Музыка как надежда, как неведомая сила, помогающая в минуты отчаяния."]
+	node [style=filled]
+		0 [label="Музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надежда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неведомая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="помогающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отчаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="квазиагент"]
+			8 -> 9 [label="_2_компл"]
+			0 -> 1 [label="сравнит"]
+			0 -> 4 [label="сравнит"]
+			1 -> 2 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			4 -> 6 [label="сравн_союзн"]
+			9 -> 10 [label="предл"]
+}

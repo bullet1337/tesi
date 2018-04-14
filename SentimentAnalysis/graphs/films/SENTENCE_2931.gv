@@ -1,0 +1,37 @@
+digraph SENTENCE_2931 {
+	graph [label="3 из 10
+Мультик настолько ни о чем, что даже тошно."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мультик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тошно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="количест"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			6 -> 11 [label="разъяснит"]
+			0 -> 1 [label="электив"]
+			1 -> 3 [label="предл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+}

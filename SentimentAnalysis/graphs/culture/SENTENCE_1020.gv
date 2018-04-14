@@ -1,0 +1,24 @@
+digraph SENTENCE_1020 {
+	graph [label="Премьера состоится на основной сцене Театра им."]
+	node [style=filled]
+		0 [label="Премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="основной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Театра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="_1_компл"]
+}

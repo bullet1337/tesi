@@ -1,0 +1,33 @@
+digraph SENTENCE_2502 {
+	graph [label="Будут и те, кто просто бессмысленно примкнет к большинству восхищающихся."]
+	node [style=filled]
+		0 [label="Будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бессмысленно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="примкнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="большинству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="восхищающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="релят"]
+			0 -> 2 [label="предик"]
+			0 -> 7 [label="сент_соч"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			9 -> 10 [label="квазиагент"]
+}

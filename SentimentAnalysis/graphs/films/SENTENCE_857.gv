@@ -1,0 +1,42 @@
+digraph SENTENCE_857 {
+	graph [label="Второстепенные роли Кэры Сеймур (жена Билла) и Джоэла Грэя (Олдридж Новый) особенно ничем не выделяются."]
+	node [style=filled]
+		0 [label="Второстепенные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кэры Сеймур
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="жена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Билла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Джоэла Грэя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Олдридж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Новый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ничем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выделяются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 1 [label="предик"]
+			16 -> 13 [label="огранич"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 5 [label="сочин"]
+			5 -> 7 [label="сочин"]
+			8 -> 10 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 4 [label="об_аппоз"]
+			1 -> 11 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_34 {
+	graph [label="По ее словам, до сих пор рейсы санавиации выполнялись на обычных вертолетах Ми-8."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рейсы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="санавиации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выполнялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вертолетах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Ми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			4 -> 6 [label="предл"]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="аппоз"]
+			7 -> 4 [label="огранич"]
+			7 -> 8 [label="квазиагент"]
+			13 -> 15 [label="аппоз"]
+			0 -> 2 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="обст"]
+			6 -> 5 [label="опред"]
+}

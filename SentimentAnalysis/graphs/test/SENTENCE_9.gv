@@ -1,0 +1,33 @@
+digraph SENTENCE_9 {
+	graph [label="Пенелопа Крус убийца хороших, добрых, но странных детей и заботливых мам."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="убийца
+S" color="" fillcolor=red penwidth=1 shape=ellipse]
+		2 [label="хороших
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		4 [label="добрых
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="странных
+A" color="" fillcolor=red penwidth=1 shape=ellipse]
+		8 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заботливых
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		11 [label="мам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="сочин"]
+			9 -> 11 [label="соч_союзн"]
+			6 -> 7 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 8 [label="_1_компл"]
+			8 -> 2 [label="опред"]
+			8 -> 9 [label="сочин"]
+			4 -> 6 [label="сочин"]
+}

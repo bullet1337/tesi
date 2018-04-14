@@ -1,0 +1,21 @@
+digraph SENTENCE_225 {
+	graph [label="Никаких изменений в этом отношении нет."]
+	node [style=filled]
+		0 [label="Никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="изменений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4665 {
+	graph [label="А так,  4 из 10 Я не мог не посмотреть этот фильм."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			3 -> 4 [label="электив"]
+			8 -> 1 [label="обст"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			0 -> 8 [label="соч_союзн"]
+}

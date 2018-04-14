@@ -1,0 +1,39 @@
+digraph SENTENCE_1487 {
+	graph [label="Настроение нагнетается очень плавно, медленно, долго, и важно не потерять внимание зрителя."]
+	node [style=filled]
+		0 [label="Настроение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нагнетается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плавно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="медленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="потерять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="соч_союзн"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="обст"]
+			7 -> 3 [label="огранич"]
+			7 -> 5 [label="огранич"]
+			7 -> 9 [label="сочин"]
+			13 -> 14 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			10 -> 12 [label="предик"]
+}

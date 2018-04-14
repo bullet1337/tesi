@@ -1,0 +1,17 @@
+digraph SENTENCE_2010 {
+	graph [label="Вопросы, которые задаёт толпа: «Кто?"]
+	node [style=filled]
+		0 [label="Вопросы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="задаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="толпа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Кто
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="предик"]
+}

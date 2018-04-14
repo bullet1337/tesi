@@ -1,0 +1,42 @@
+digraph SENTENCE_3580 {
+	graph [label="Переврали исторические факты, слепили отвратительный сюжет и кличут это творение прорывом русского кинематографа.. ."]
+	node [style=filled]
+		0 [label="Переврали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="исторические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="факты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слепили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отвратительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кличут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="творение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прорывом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="русского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			6 -> 5 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 4 [label="сочин"]
+			13 -> 12 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="_2_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="сочин"]
+			10 -> 9 [label="предик"]
+			11 -> 13 [label="квазиагент"]
+}

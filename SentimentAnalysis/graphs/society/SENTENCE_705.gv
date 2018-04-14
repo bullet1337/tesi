@@ -1,0 +1,39 @@
+digraph SENTENCE_705 {
+	graph [label="Нацпарк \"Земля леопарда\" является местом обитания значительной части популяции краснокнижного дальневосточного леопарда."]
+	node [style=filled]
+		0 [label="Нацпарк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Земля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="леопарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="местом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обитания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="значительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="популяции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="краснокнижного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дальневосточного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="леопарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="квазиагент"]
+			10 -> 13 [label="квазиагент"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 5 [label="сент_соч"]
+}

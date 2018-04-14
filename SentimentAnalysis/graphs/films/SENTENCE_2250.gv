@@ -1,0 +1,30 @@
+digraph SENTENCE_2250 {
+	graph [label="Маргарите Тереховой и Олегу Янковскому довелось представить нам два разных образа."]
+	node [style=filled]
+		0 [label="Маргарите Тереховой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Олегу Янковскому
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="довелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="соч_союзн"]
+			8 -> 6 [label="количест"]
+			8 -> 7 [label="опред"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 8 [label="_1_компл"]
+			0 -> 1 [label="сочин"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

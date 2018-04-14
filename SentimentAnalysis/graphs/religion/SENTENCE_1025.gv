@@ -1,0 +1,82 @@
+digraph SENTENCE_1025 {
+	graph [label="При входе в храм Богородицу и Иосифа Обручника встретили старец Симеон, которому было пророчество, что он не умрет, пока не увидит Мессию, и старица Анна, обитавшая при храме."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="входе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Богородицу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Иосифа Обручника
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="встретили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="старец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Симеон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пророчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="умрет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="увидит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Мессию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="старица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Анна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="обитавшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="_2_компл"]
+			12 -> 13 [label="предик"]
+			12 -> 15 [label="_1_компл"]
+			5 -> 6 [label="соч_союзн"]
+			20 -> 22 [label="подч_союзн"]
+			7 -> 0 [label="обст"]
+			7 -> 8 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			23 -> 25 [label="сочин"]
+			29 -> 30 [label="обст"]
+			2 -> 3 [label="предл"]
+			15 -> 18 [label="подч_союзн"]
+			25 -> 26 [label="соч_союзн"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="_1_компл"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			18 -> 20 [label="обст"]
+			8 -> 9 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			26 -> 27 [label="аппоз"]
+			26 -> 29 [label="опред"]
+			30 -> 31 [label="предл"]
+}

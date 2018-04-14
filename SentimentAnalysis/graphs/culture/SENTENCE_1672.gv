@@ -1,0 +1,65 @@
+digraph SENTENCE_1672 {
+	graph [label="По мере того, как игроки пытаются решить головоломку, они начинают осознавать, что и \"квест\", и Брукс – совсем не такие, как кажутся."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="игроки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пытаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="решить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="головоломку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="начинают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="осознавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="квест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Брукс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="кажутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 17 [label="предик"]
+			25 -> 24 [label="огранич"]
+			25 -> 27 [label="сравнит"]
+			2 -> 6 [label="эксплет"]
+			27 -> 28 [label="сравн_союзн"]
+			15 -> 25 [label="соч_союзн"]
+			20 -> 21 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 0 [label="вводн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			24 -> 23 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+			17 -> 20 [label="сочин"]
+			0 -> 1 [label="предл"]
+}

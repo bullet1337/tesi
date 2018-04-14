@@ -1,0 +1,36 @@
+digraph SENTENCE_4168 {
+	graph [label="Вряд ли, потому что за весь фильм он сказал 169 слов."]
+	node [style=filled]
+		0 [label="Вряд
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="169
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			11 -> 10 [label="количест"]
+			9 -> 5 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			3 -> 4 [label="эксплет"]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="огранич"]
+			0 -> 3 [label="обст"]
+			4 -> 9 [label="подч_союзн"]
+}

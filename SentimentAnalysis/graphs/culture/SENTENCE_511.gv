@@ -1,0 +1,93 @@
+digraph SENTENCE_511 {
+	graph [label="Депутат Госдумы РФ Наталья Поклонская после отзыва прокатного удостоверения фильма заявила, что обсуждение \"Смерти Сталина\" показало защитникам свободы творчества ее пределы: она заканчивается там, где начинается посягательство на права других людей."]
+	node [style=filled]
+		0 [label="Депутат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Госдумы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Наталья Поклонская
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отзыва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заявила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обсуждение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Смерти
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="показало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="защитникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="свободы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="творчества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="пределы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="заканчивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="посягательство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			0 -> 4 [label="атриб"]
+			11 -> 17 [label="подч_союзн"]
+			12 -> 14 [label="_1_компл"]
+			34 -> 33 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			22 -> 21 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			25 -> 24 [label="предик"]
+			25 -> 26 [label="_1_компл"]
+			29 -> 28 [label="_2_компл"]
+			29 -> 30 [label="предик"]
+			9 -> 0 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 25 [label="сент_соч"]
+			18 -> 19 [label="_1_компл"]
+			17 -> 12 [label="предик"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 22 [label="_1_компл"]
+			19 -> 20 [label="_1_компл"]
+			32 -> 34 [label="квазиагент"]
+			30 -> 31 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			1 -> 2 [label="атриб"]
+			26 -> 29 [label="релят"]
+			31 -> 32 [label="предл"]
+}

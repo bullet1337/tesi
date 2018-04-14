@@ -1,0 +1,27 @@
+digraph SENTENCE_1460 {
+	graph [label="Из Берлина \"Гофманиада\" отправится на другие международные фестивали."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Берлина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Гофманиада
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="отправится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="международные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фестивали
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="предл"]
+			0 -> 1 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+}

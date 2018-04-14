@@ -1,0 +1,42 @@
+digraph SENTENCE_983 {
+	graph [label="Люди, которые молятся пред ним, знают, как Божия Матерь помогает через эту икону."]
+	node [style=filled]
+		0 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="молятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пред
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Божия
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Матерь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="помогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="икону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="релят"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 12 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			13 -> 15 [label="предл"]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="предл"]
+}

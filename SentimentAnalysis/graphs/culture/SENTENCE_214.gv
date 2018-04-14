@@ -1,0 +1,36 @@
+digraph SENTENCE_214 {
+	graph [label="По его словам, скорее всего, презентация проекта пройдет на площадке Роскино."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="презентация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="площадке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Роскино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 0 [label="вводн"]
+			9 -> 4 [label="вводн"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="обст"]
+			9 -> 12 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			4 -> 5 [label="сравнит"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 1 [label="квазиагент"]
+}

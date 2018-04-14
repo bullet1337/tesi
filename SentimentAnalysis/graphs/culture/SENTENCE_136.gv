@@ -1,0 +1,27 @@
+digraph SENTENCE_136 {
+	graph [label="Московский театр \"Геликон-опера\" представит моноспектакль Тамары Церетели \"Человеческий голос\"."]
+	node [style=filled]
+		0 [label="Московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Геликон-опера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="моноспектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Тамары Церетели
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Человеческий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="релят"]
+			6 -> 7 [label="квазиагент"]
+			10 -> 1 [label="предик"]
+			10 -> 9 [label="опред"]
+}

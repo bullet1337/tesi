@@ -1,0 +1,29 @@
+digraph SENTENCE_3271 {
+	graph [label="Это фигня, что жену он встретил уже после суперсерии."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фигня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="встретил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="суперсерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="обст"]
+			3 -> 6 [label="подч_союзн"]
+}

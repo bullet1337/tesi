@@ -1,0 +1,55 @@
+digraph SENTENCE_996 {
+	graph [label="Вроде бы этот персонаж не имеет никаких физически привлекательны черт, но она привлекает, она притягивает, заставляет сопереживать ей."]
+	node [style=filled]
+		0 [label="Вроде
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="физически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="привлекательны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="черт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="привлекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="притягивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сопереживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="сочин"]
+			13 -> 12 [label="предик"]
+			13 -> 16 [label="разъяснит"]
+			8 -> 7 [label="атриб"]
+			8 -> 9 [label="предик"]
+			8 -> 11 [label="сент_соч"]
+			11 -> 13 [label="соч_союзн"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="сочин"]
+			3 -> 2 [label="опред"]
+			0 -> 1
+			5 -> 0 [label="огранич"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			19 -> 20 [label="_2_компл"]
+}

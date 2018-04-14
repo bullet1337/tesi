@@ -1,0 +1,51 @@
+digraph SENTENCE_1270 {
+	graph [label="В одной из финальных сцен, когда она прибегает на крик Сельмы, с трудом можно сдержать слезу."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="финальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прибегает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="крик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="трудом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сдержать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="слезу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			13 -> 14 [label="предл"]
+			2 -> 4 [label="предл"]
+			6 -> 8 [label="подч_союзн"]
+			1 -> 2 [label="электив"]
+			9 -> 10 [label="предл"]
+			16 -> 17 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			15 -> 0 [label="обст"]
+			15 -> 6 [label="обст"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="предик"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+}

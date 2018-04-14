@@ -1,0 +1,69 @@
+digraph SENTENCE_701 {
+	graph [label="По мнению инженера-исследователя отдела науки ФГБУ \"Земля леопарда\" Алексея Титова, некоторые звери могли еще не попасть в базу национального парка, отмечается в сообщении."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="инженера-исследователя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отдела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="науки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ФГБУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Земля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="леопарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Алексея Титова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="звери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="могли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="попасть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="базу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="национального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="парка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="сочин"]
+			13 -> 12 [label="опред"]
+			23 -> 24 [label="обст"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			7 -> 8 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 10 [label="сочин"]
+			24 -> 25 [label="предл"]
+			18 -> 19 [label="предл"]
+			14 -> 0 [label="вводн"]
+			14 -> 13 [label="предик"]
+			14 -> 17 [label="_1_компл"]
+			14 -> 23 [label="вводн"]
+			19 -> 21 [label="квазиагент"]
+			21 -> 20 [label="опред"]
+			5 -> 7 [label="сочин"]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_2_компл"]
+}

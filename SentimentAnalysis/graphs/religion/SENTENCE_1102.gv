@@ -1,0 +1,23 @@
+digraph SENTENCE_1102 {
+	graph [label="И в этом главный урок этого дня."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="урок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="разъяснит"]
+			6 -> 5 [label="опред"]
+			1 -> 4 [label="предл"]
+}

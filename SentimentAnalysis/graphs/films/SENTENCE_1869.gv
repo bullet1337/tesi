@@ -1,0 +1,18 @@
+digraph SENTENCE_1869 {
+	graph [label="Но здесь уместно, как нигде."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уместно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нигде
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="сравнит"]
+			4 -> 5 [label="сравн_союзн"]
+}

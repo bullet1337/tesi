@@ -1,0 +1,37 @@
+digraph SENTENCE_3715 {
+	graph [label="В смысле, не так плохо, как что-то, что можно ругать или чему возмущаться."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="плохо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ругать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="возмущаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			11 -> 12 [label="предик"]
+			15 -> 14 [label="_1_компл"]
+			13 -> 15 [label="соч_союзн"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="огранич"]
+			0 -> 1 [label="предл"]
+}

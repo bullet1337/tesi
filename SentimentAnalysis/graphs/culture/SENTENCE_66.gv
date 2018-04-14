@@ -1,0 +1,66 @@
+digraph SENTENCE_66 {
+	graph [label="Карпова играла в более чем пятидесяти спектаклях, среди них \"Гамлет\", \"Собака на сене\", \"Простые сердца\", \"Чайка\", \"Мамаша Кураж и ее дети\", \"Мария Стюарт\"."]
+	node [style=filled]
+		0 [label="Карпова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="играла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пятидесяти
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спектаклях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гамлет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="Мария Стюарт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Собака
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Простые
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="сердца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Чайка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Мамаша Кураж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			30 -> 31 [label="сочин"]
+			11 -> 3 [label="огранич"]
+			11 -> 15 [label="аппоз"]
+			4 -> 6 [label="сравн_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 16 [label="обст"]
+			1 -> 22 [label="_1_компл"]
+			1 -> 26 [label="разъяснит"]
+			6 -> 5 [label="количест"]
+			6 -> 8 [label="атриб"]
+			3 -> 4 [label="сравнит"]
+			2 -> 11 [label="предл"]
+			26 -> 30 [label="сочин"]
+			26 -> 37 [label="аппоз"]
+			33 -> 32 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			8 -> 9 [label="предл"]
+			31 -> 33 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+}

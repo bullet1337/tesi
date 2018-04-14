@@ -1,0 +1,33 @@
+digraph SENTENCE_2145 {
+	graph [label="Всю свою жизнь Тарковский считал именно «Зеркало» своим лучшим фильмом."]
+	node [style=filled]
+		0 [label="Всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="считал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="длительн"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			7 -> 5 [label="огранич"]
+			7 -> 11 [label="_1_компл"]
+}

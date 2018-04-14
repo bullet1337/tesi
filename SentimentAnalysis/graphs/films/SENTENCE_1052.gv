@@ -1,0 +1,21 @@
+digraph SENTENCE_1052 {
+	graph [label="Но жизнь остаётся серой и холодной."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="остаётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="серой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="холодной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 2 [label="соч_союзн"]
+			3 -> 4 [label="сочин"]
+}

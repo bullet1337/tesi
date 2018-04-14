@@ -1,0 +1,24 @@
+digraph SENTENCE_274 {
+	graph [label="Описание фильма не даст ровным счётом ничего."]
+	node [style=filled]
+		0 [label="Описание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="даст
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ровным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="счётом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 6 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_1434 {
+	graph [label="Предполагается, что все погибли."]
+	node [style=filled]
+		0 [label="Предполагается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="погибли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предик"]
+			4 -> 3 [label="предик"]
+			2 -> 4 [label="подч_союзн"]
+}

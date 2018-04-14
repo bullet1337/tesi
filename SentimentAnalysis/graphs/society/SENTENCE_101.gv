@@ -1,0 +1,24 @@
+digraph SENTENCE_101 {
+	graph [label="Характер провокации слишком очевиден\", — подчеркивается в заявлении."]
+	node [style=filled]
+		0 [label="Характер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="провокации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очевиден
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подчеркивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заявлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 7 [label="разъяснит"]
+			7 -> 8 [label="обст"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+}

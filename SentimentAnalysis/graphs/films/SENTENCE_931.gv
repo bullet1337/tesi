@@ -1,0 +1,48 @@
+digraph SENTENCE_931 {
+	graph [label="после фильма тебя тоже не «отпускает»… Очень тяжелая картина Я не могу советовать ее всем."]
+	node [style=filled]
+		0 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отпускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Очень
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="тяжелая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="советовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="опред"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="_2_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 3 [label="огранич"]
+			6 -> 4 [label="огранич"]
+			6 -> 11 [label="предик"]
+			6 -> 14 [label="сент_соч"]
+}

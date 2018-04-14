@@ -1,0 +1,21 @@
+digraph SENTENCE_916 {
+	graph [label="Это название появилось в VI веке."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="появилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="VI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			1 -> 0 [label="опред"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+}

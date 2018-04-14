@@ -1,0 +1,27 @@
+digraph SENTENCE_454 {
+	graph [label="За это время зрители увидели 17 сезонов \"Солдат\"."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="увидели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сезонов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Солдат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			6 -> 5 [label="количест"]
+			6 -> 8 [label="квазиагент"]
+}

@@ -1,0 +1,38 @@
+digraph SENTENCE_738 {
+	graph [label="Причиной отъезда он назвал неблагоприятную социальную обстановку в России и рост нетерпимости."]
+	node [style=filled]
+		0 [label="Причиной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="отъезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неблагоприятную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="социальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обстановку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нетерпимости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 7 [label="обст"]
+			3 -> 9 [label="сент_соч"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			7 -> 8 [label="предл"]
+}

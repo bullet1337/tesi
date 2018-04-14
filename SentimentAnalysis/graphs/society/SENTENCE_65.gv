@@ -1,0 +1,25 @@
+digraph SENTENCE_65 {
+	graph [label="Только теперь я понял, сколько у Романа друзей."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Романа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+}

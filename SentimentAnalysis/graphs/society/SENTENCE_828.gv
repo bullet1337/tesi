@@ -1,0 +1,45 @@
+digraph SENTENCE_828 {
+	graph [label="В результате инцидента никто не пострадал, по данным Мосгортранса, авария произошла по вине водителя."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="инцидента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пострадал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Мосгортранса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="авария
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="произошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="водителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="_1_компл"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="обст"]
+			5 -> 12 [label="_1_компл"]
+			14 -> 15 [label="квазиагент"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="обст"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+}

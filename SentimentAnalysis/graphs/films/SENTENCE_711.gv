@@ -1,0 +1,67 @@
+digraph SENTENCE_711 {
+	graph [label="9 из 10
+И вот закончился фильм, выжав из меня море слез, в котором чуть не утонула моя соседка по комнате."]
+	node [style=filled]
+		0 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="И
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="закончился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выжав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="море
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слез
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="утонула
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="соседка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="комнате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_2_компл"]
+			8 -> 12 [label="_1_компл"]
+			21 -> 22 [label="предл"]
+			0 -> 1 [label="электив"]
+			1 -> 3 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 18 [label="_1_компл"]
+			12 -> 11 [label="_1_компл"]
+			3 -> 2 [label="количест"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="атриб"]
+			14 -> 15 [label="предл"]
+			9 -> 10 [label="предл"]
+			18 -> 14 [label="обст"]
+			18 -> 16 [label="огранич"]
+			18 -> 17 [label="огранич"]
+			18 -> 20 [label="предик"]
+}

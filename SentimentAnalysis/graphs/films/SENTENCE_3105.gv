@@ -1,0 +1,30 @@
+digraph SENTENCE_3105 {
+	graph [label="Я не понимаю для какой аудитории снят этот фильм."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="какой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аудитории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			6 -> 3 [label="обст"]
+			6 -> 8 [label="предик"]
+			8 -> 7 [label="опред"]
+}

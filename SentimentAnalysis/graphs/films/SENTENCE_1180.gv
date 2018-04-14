@@ -1,0 +1,35 @@
+digraph SENTENCE_1180 {
+	graph [label="Нет чувства более отчаянного и надёжного, чем материнская любовь к сыну."]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отчаянного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="надёжного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="материнская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			3 -> 7 [label="сравнит"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			7 -> 9 [label="сравн_союзн"]
+			10 -> 11 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 1 [label="предик"]
+}

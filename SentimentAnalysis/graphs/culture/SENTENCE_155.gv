@@ -1,0 +1,30 @@
+digraph SENTENCE_155 {
+	graph [label="В этой постановке примут участие и писатели, поэты, режиссеры."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="писатели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поэты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="режиссеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			0 -> 2 [label="предл"]
+			3 -> 0 [label="_1_несобст_компл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="предик"]
+			5 -> 6 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			8 -> 10 [label="аппоз"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_90 {
+	graph [label="Правоохранительные органы региона связывают подобные общины с вербовкой и подготовкой религиозных экстремистов."]
+	node [style=filled]
+		0 [label="Правоохранительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="органы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="связывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подобные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="общины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вербовкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подготовкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="религиозных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="экстремистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+			11 -> 10 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 6 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+}

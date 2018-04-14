@@ -1,0 +1,48 @@
+digraph SENTENCE_4075 {
+	graph [label="Во-вторых, юные коллеги мистера Широна относятся к нему, мягко говоря, без должного уважения и пиитета."]
+	node [style=filled]
+		0 [label="Во-вторых
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="юные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="коллеги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мистера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Широна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="относятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мягко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="должного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="уважения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пиитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="обст"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			16 -> 17 [label="соч_союзн"]
+			4 -> 5 [label="аппоз"]
+			13 -> 15 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_814 {
+	graph [label="И радостно видеть солдат, которые к нам приходят, интересуются верой."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="радостно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="солдат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="приходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="интересуются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="верой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 8 [label="релят"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="_2_компл"]
+			8 -> 10 [label="сочин"]
+			6 -> 7 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+}

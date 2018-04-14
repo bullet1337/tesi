@@ -1,0 +1,24 @@
+digraph SENTENCE_134 {
+	graph [label="Он очень сильно полюбил их\", — сказал Ряховский."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полюбил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Ряховский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="вводн"]
+			2 -> 1 [label="огранич"]
+			8 -> 9 [label="предик"]
+}

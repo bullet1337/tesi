@@ -1,0 +1,63 @@
+digraph SENTENCE_3977 {
+	graph [label="Остается всего ничего — посидеть несколько дней с железками в глазах, смотря содержащие всяческую жестокость тошнотворные киноленты — и новый Алекс ДеЛардж готов."]
+	node [style=filled]
+		0 [label="Остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="железками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="глазах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="содержащие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всяческую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жестокость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тошнотворные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="киноленты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Алекс ДеЛардж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="готов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="сочин"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 6 [label="длительн"]
+			1 -> 4 [label="релят"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="атриб"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="сочин"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="предик"]
+			0 -> 12 [label="обст"]
+			0 -> 22 [label="присвяз"]
+			21 -> 20 [label="опред"]
+			7 -> 8 [label="предл"]
+			19 -> 21 [label="соч_союзн"]
+			12 -> 9 [label="обст"]
+			12 -> 15 [label="_1_компл"]
+}

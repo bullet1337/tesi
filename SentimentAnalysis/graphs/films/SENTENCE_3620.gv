@@ -1,0 +1,24 @@
+digraph SENTENCE_3620 {
+	graph [label="Зато вот на тренере авторы Тарасове выложились."]
+	node [style=filled]
+		0 [label="Зато
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тренере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Тарасове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="выложились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="аппоз"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			0 -> 6 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+}

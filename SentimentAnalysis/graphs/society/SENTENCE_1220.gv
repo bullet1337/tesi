@@ -1,0 +1,48 @@
+digraph SENTENCE_1220 {
+	graph [label="Заместитель директора по организации гастролей цирка ранее уточнил агентству, что причиной падения стал незакрепленный карабин."]
+	node [style=filled]
+		0 [label="Заместитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="директора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гастролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="цирка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="агентству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="причиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="падения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="незакрепленный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="карабин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			10 -> 13 [label="подч_союзн"]
+			15 -> 14 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			13 -> 11 [label="присвяз"]
+			13 -> 15 [label="предик"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 10 [label="_1_компл"]
+}

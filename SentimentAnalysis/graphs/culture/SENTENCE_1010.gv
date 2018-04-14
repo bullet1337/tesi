@@ -1,0 +1,54 @@
+digraph SENTENCE_1010 {
+	graph [label="\"Гвоздь сезона\" — ежегодная московская театральная премия, которую получают лучшие спектакли, созданные в театрах Москвы в прошедшем сезоне."]
+	node [style=filled]
+		1 [label="Гвоздь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сезона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ежегодная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="московская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="театральная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="премия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="получают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лучшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спектакли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="созданные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="театрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прошедшем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сезоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 1 [label="_1_компл"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			1 -> 2 [label="квазиагент"]
+			17 -> 18 [label="атриб"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="опред"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			15 -> 16 [label="обст"]
+			15 -> 19 [label="обст"]
+			21 -> 20 [label="опред"]
+			16 -> 17 [label="предл"]
+			19 -> 21 [label="предл"]
+}

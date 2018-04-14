@@ -1,0 +1,51 @@
+digraph SENTENCE_3360 {
+	graph [label="Меня, как зрителя, пытаются убедить, что мегапопулярный нынче актёр Данила Козловский «имеет большое внешнее сходство» с Валерием Харламовым."]
+	node [style=filled]
+		0 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пытаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="убедить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мегапопулярный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нынче
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="актёр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Данила Козловский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="внешнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сходство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Валерием Харламовым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="сравн_союзн"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="аппоз"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="_1_компл"]
+			14 -> 11 [label="предик"]
+			14 -> 17 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			0 -> 2 [label="сравнит"]
+			8 -> 14 [label="подч_союзн"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			6 -> 8 [label="_2_компл"]
+}

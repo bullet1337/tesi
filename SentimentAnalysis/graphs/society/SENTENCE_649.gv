@@ -1,0 +1,51 @@
+digraph SENTENCE_649 {
+	graph [label="Министр посетил площадку, посвященную киберспорту, и школу юного журналиста, где с детьми занималась ведущая Тина Канделаки."]
+	node [style=filled]
+		0 [label="Министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="посетил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="площадку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посвященную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="киберспорту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="школу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="юного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="журналиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="детьми
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="занималась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ведущая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Тина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Канделаки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 15 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			15 -> 12 [label="обст"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="предик"]
+			2 -> 4 [label="опред"]
+			2 -> 10 [label="сочин"]
+			5 -> 7 [label="сочин"]
+			10 -> 9 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			16 -> 18 [label="сочин"]
+			4 -> 5 [label="_2_компл"]
+}

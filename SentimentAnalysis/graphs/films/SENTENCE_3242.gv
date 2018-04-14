@@ -1,0 +1,21 @@
+digraph SENTENCE_3242 {
+	graph [label="Он что, простите, первую любовь увидел?"]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="простите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="увидел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="вводн"]
+			6 -> 5 [label="опред"]
+			3 -> 1 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_12 {
+	graph [label="На протяжении всего фильма оператору удавалось выхватывать самую суть, квинтэссенцию сцен."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оператору
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="удавалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выхватывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="суть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="квинтэссенцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="квазиагент"]
+			10 -> 11 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="опред"]
+			6 -> 8 [label="_1_компл"]
+}

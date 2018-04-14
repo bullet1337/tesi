@@ -1,0 +1,45 @@
+digraph SENTENCE_245 {
+	graph [label="\"Возможно, столь необычное решение муниципалитета, нарушающее привычный статус-кво, во многом и связано с этим."]
+	node [style=filled]
+		1 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="столь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="необычное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="муниципалитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нарушающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="привычный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="статус-кво
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="многом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="связано
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="предл"]
+			12 -> 13 [label="предл"]
+			15 -> 1 [label="вводн"]
+			15 -> 5 [label="предик"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 8 [label="опред"]
+			4 -> 3 [label="огранич"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+}

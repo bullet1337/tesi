@@ -1,0 +1,48 @@
+digraph SENTENCE_22 {
+	graph [label="\"Поэтому рассчитывать, что низкие температуры быстро сменятся или хотя бы вернутся к норме, не приходится."]
+	node [style=filled]
+		1 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рассчитывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="низкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="температуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="быстро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сменятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вернутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="норме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="аналит"]
+			12 -> 13 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="сочин"]
+			9 -> 17 [label="соч_союзн"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			17 -> 10 [label="обст"]
+			17 -> 16 [label="огранич"]
+			4 -> 8 [label="подч_союзн"]
+			6 -> 5 [label="опред"]
+			10 -> 12 [label="подч_союзн"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_25 {
+	graph [label="\"Санитарная авиация для Камчатского края жизненно необходима."]
+	node [style=filled]
+		1 [label="Санитарная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="авиация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Камчатского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жизненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="необходима
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 2 [label="предик"]
+			7 -> 6 [label="огранич"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+}

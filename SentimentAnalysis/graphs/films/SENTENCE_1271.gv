@@ -1,0 +1,51 @@
+digraph SENTENCE_1271 {
+	graph [label="Персонаж Дэвида Морса вызывает двоякие ощущения, вроде неплохой человек, но именно с ним начались проблемы у Сельмы."]
+	node [style=filled]
+		0 [label="Персонаж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Дэвида Морса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="вызывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="двоякие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ощущения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вроде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="неплохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="начались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 14 [label="соч_союзн"]
+			15 -> 16 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 10 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			16 -> 17 [label="предл"]
+			6 -> 8 [label="предл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="атриб"]
+			0 -> 1 [label="квазиагент"]
+			14 -> 12 [label="обст"]
+			14 -> 15 [label="предик"]
+}

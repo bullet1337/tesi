@@ -1,0 +1,36 @@
+digraph SENTENCE_2994 {
+	graph [label="Тот, кто сможет достичь его чертогов, одновременно испытает пытку и удовольствие."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сможет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="достичь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чертогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одновременно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="испытает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пытку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="удовольствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="сочин"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 3 [label="релят"]
+			6 -> 5 [label="квазиагент"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			9 -> 0 [label="предик"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+}

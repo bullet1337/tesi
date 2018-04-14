@@ -1,0 +1,18 @@
+digraph SENTENCE_1442 {
+	graph [label="По предварительным данным, все погибли."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предварительным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="погибли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			2 -> 1 [label="опред"]
+}

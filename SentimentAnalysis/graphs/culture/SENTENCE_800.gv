@@ -1,0 +1,24 @@
+digraph SENTENCE_800 {
+	graph [label="Аналогичные обвинения высказала экс-помощник актера Ван Барсс."]
+	node [style=filled]
+		0 [label="Аналогичные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="высказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экс-помощник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Барсс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			6 -> 5
+			4 -> 6 [label="аппоз"]
+			3 -> 4 [label="аппоз"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+}

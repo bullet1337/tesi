@@ -1,0 +1,39 @@
+digraph SENTENCE_67 {
+	graph [label="\"Святейший патриарх Кирилл глубоко потрясен сегодняшними кровавыми событиями у храма в Кизляре."]
+	node [style=filled]
+		1 [label="Святейший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="глубоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потрясен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сегодняшними
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кровавыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="событиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 8 [label="_2_компл"]
+			10 -> 11 [label="атриб"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			9 -> 10 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+}

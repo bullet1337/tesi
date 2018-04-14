@@ -1,0 +1,18 @@
+digraph SENTENCE_1423 {
+	graph [label="Про саундтрек сказать что-либо сложно."]
+	node [style=filled]
+		0 [label="Про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="саундтрек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сложно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="_3_компл"]
+			2 -> 3 [label="_1_компл"]
+}

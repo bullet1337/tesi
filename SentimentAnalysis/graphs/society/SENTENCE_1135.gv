@@ -1,0 +1,27 @@
+digraph SENTENCE_1135 {
+	graph [label="Я, честно говоря, в этом сомневаюсь\", — отметил эксперт."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сомневаюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эксперт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="предик"]
+			7 -> 3 [label="вводн"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 11 [label="вводн"]
+			5 -> 6 [label="предл"]
+			3 -> 2 [label="обст"]
+			11 -> 12 [label="предик"]
+}

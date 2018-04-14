@@ -1,0 +1,51 @@
+digraph SENTENCE_960 {
+	graph [label="Постановку пьесы современного автора Владимира Жеребцова осуществил режиссер Константин Солдатов, премьера состоится 17 февраля, сообщили в пресс-службе театра."]
+	node [style=filled]
+		0 [label="Постановку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="пьесы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="современного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="автора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Владимира Жеребцова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="осуществил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Константин Солдатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			6 -> 7 [label="аппоз"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			5 -> 10 [label="сент_соч"]
+			5 -> 14 [label="вводн"]
+			7 -> 9 [label="аппоз"]
+			11 -> 12 [label="атриб"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			1 -> 3 [label="квазиагент"]
+			16 -> 17 [label="квазиагент"]
+			15 -> 16 [label="предл"]
+}

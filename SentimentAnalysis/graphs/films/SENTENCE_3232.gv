@@ -1,0 +1,21 @@
+digraph SENTENCE_3232 {
+	graph [label="Ладно спрыгнуть за собачкой — естественный порыв."]
+	node [style=filled]
+		0 [label="Ладно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спрыгнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="собачкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="естественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="порыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_156 {
+	graph [label="\"На будущее мы обсуждали вопрос об изучении места и роли Русской православной церкви в современном российском обществе."]
+	node [style=filled]
+		1 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будущее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обсуждали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="изучении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="места
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="современном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="российском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="обществе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="соч_союзн"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			10 -> 13 [label="_2_компл"]
+			8 -> 9 [label="сочин"]
+			6 -> 7 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 14 [label="атриб"]
+			1 -> 2 [label="предл"]
+			14 -> 17 [label="предл"]
+}

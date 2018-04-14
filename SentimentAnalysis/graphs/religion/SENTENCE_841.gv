@@ -1,0 +1,72 @@
+digraph SENTENCE_841 {
+	graph [label="\"Если действовать в отношении зла только таким образом, что нужно потерпеть — захватили Петербург, ну пусть и Москву тогда, — так же нельзя, наверное, да?"]
+	node [style=filled]
+		1 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="действовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="потерпеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="захватили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Петербург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Москву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="огранич"]
+			18 -> 17 [label="огранич"]
+			1 -> 2 [label="инф_союзн"]
+			24 -> 25 [label="огранич"]
+			8 -> 7 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="обст"]
+			26 -> 8 [label="вводн"]
+			26 -> 10 [label="предик"]
+			26 -> 11 [label="вводн"]
+			26 -> 18 [label="обст"]
+			26 -> 20 [label="_1_компл"]
+			26 -> 21 [label="обст"]
+			26 -> 24 [label="обст"]
+			26 -> 28 [label="вводн"]
+			26 -> 30 [label="сент_соч"]
+			5 -> 1 [label="обст"]
+			5 -> 26 [label="разъяснит"]
+			11 -> 12 [label="предик"]
+			20 -> 19 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+}

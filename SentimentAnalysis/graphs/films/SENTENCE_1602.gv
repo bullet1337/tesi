@@ -1,0 +1,21 @@
+digraph SENTENCE_1602 {
+	graph [label="Музыка и тексты потрясающие, заставляют задуматься."]
+	node [style=filled]
+		0 [label="Музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тексты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="потрясающие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заставляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			1 -> 2 [label="соч_союзн"]
+			0 -> 1 [label="сочин"]
+			0 -> 5 [label="релят"]
+}

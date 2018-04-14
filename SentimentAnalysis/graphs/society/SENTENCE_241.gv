@@ -1,0 +1,27 @@
+digraph SENTENCE_241 {
+	graph [label="\"Пик нашествия иностранных слов пришелся на 1990-е годы."]
+	node [style=filled]
+		1 [label="Пик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нашествия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="иностранных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пришелся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1990-е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			4 -> 3 [label="опред"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="предик"]
+			1 -> 2 [label="квазиагент"]
+}

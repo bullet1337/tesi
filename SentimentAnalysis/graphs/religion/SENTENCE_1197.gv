@@ -1,0 +1,47 @@
+digraph SENTENCE_1197 {
+	graph [label="В 2018 году глава Крыма не написал соответствующий пост про 14 февраля в социальных сетях."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="соответствующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="социальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сетях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="атриб"]
+			12 -> 14 [label="предл"]
+			14 -> 13 [label="опред"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_240 {
+	graph [label="Центральный персонаж этой трагической повести несчастная женщина Сельма, которая забыв о себе, жертвует всем ради спасения сына."]
+	node [style=filled]
+		0 [label="Центральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трагической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="повести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="несчастная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="забыв
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жертвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="_1_компл"]
+			10 -> 11 [label="_2_компл"]
+			14 -> 9 [label="предик"]
+			14 -> 10 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="обст"]
+			16 -> 17 [label="предл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="квазиагент"]
+			1 -> 6 [label="об_аппоз"]
+			1 -> 14 [label="релят"]
+			11 -> 12 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="аппоз"]
+}

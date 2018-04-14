@@ -1,0 +1,48 @@
+digraph SENTENCE_1224 {
+	graph [label="Каждый расценит поступки Сельмы и весь её жизненный путь по-своему — едва ли найдётся однозначная трактовка."]
+	node [style=filled]
+		0 [label="Каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="расценит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поступки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жизненный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="путь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по-своему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="едва
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="найдётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="однозначная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="трактовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="огранич"]
+			13 -> 8 [label="предик"]
+			13 -> 9 [label="обст"]
+			13 -> 11 [label="огранич"]
+			4 -> 13 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сент_соч"]
+			1 -> 15 [label="вводн"]
+			2 -> 3 [label="квазиагент"]
+}

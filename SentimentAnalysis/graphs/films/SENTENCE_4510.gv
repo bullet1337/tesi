@@ -1,0 +1,36 @@
+digraph SENTENCE_4510 {
+	graph [label="И наверное именно так бы выглядел конец света глазами простого обывателя."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выглядел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="глазами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="простого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обывателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="вводн"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			6 -> 7 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			3 -> 4
+			0 -> 5 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_3424 {
+	graph [label="Какой пересматривать — смотреть с каждым годом желания всё меньше и меньше."]
+	node [style=filled]
+		0 [label="Какой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пересматривать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="каждым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="годом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="желания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			9 -> 0 [label="опред"]
+			9 -> 1 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+}

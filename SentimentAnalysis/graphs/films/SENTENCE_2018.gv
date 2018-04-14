@@ -1,0 +1,83 @@
+digraph SENTENCE_2018 {
+	graph [label="Заикающийся юноша в прологе фильма, благодаря психотерапии заговорил, так и Тарковский усилием воли снял с себя психологические защиты и « заговорил», при чем о самом интимном для него."]
+	node [style=filled]
+		0 [label="Заикающийся
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="юноша
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="прологе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="психотерапии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заговорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="усилием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="воли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="психологические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="защиты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="заговорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="интимном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 15 [label="соч_союзн"]
+			22 -> 25 [label="обст"]
+			13 -> 14 [label="квазиагент"]
+			26 -> 27 [label="сравн_союзн"]
+			20 -> 22 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+			2 -> 3 [label="предл"]
+			25 -> 26 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			3 -> 4 [label="квазиагент"]
+			8 -> 1 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 10 [label="обст"]
+			8 -> 11 [label="сент_соч"]
+			19 -> 18 [label="опред"]
+			30 -> 31 [label="предл"]
+			29 -> 28 [label="опред"]
+			29 -> 30 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+			15 -> 19 [label="_1_компл"]
+			15 -> 20 [label="сочин"]
+}

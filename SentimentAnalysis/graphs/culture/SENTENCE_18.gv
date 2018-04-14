@@ -1,0 +1,27 @@
+digraph SENTENCE_18 {
+	graph [label="Было бы здорово\", — сказала Евдокименко в интервью РИА Новости."]
+	node [style=filled]
+		0 [label="Было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="здорово
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Евдокименко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="_1_компл"]
+			6 -> 7 [label="предик"]
+			6 -> 8 [label="обст"]
+			0 -> 1 [label="аналит"]
+			0 -> 2 [label="присвяз"]
+			0 -> 6 [label="вводн"]
+			8 -> 9 [label="предл"]
+}

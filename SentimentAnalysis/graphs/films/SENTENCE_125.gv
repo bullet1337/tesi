@@ -1,0 +1,33 @@
+digraph SENTENCE_125 {
+	graph [label="Настолько мое отношение к жизни не менял ни один фильм."]
+	node [style=filled]
+		0 [label="Настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="менял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="количест"]
+			3 -> 4 [label="предл"]
+			8 -> 7 [label="огранич"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_1134 {
+	graph [label="Московский кинотеатр \"Пионер\", оштрафованный мировым судом за показ картины \"Смерть Сталина\" британского режиссера Армандо Ианнуччи, планирует подать апелляцию, сообщили РИА Новости в кинотеатре."]
+	node [style=filled]
+		0 [label="Московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кинотеатр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="оштрафованный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мировым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="судом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="британского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Армандо Ианнуччи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="планирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="подать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="апелляцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="кинотеатре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="агент"]
+			6 -> 9 [label="_2_компл"]
+			24 -> 1 [label="предик"]
+			24 -> 25 [label="_2_компл"]
+			24 -> 26 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			20 -> 17 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			13 -> 14 [label="квазиагент"]
+			26 -> 27 [label="предл"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="аппоз"]
+			21 -> 22 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="аппоз"]
+			1 -> 6 [label="опред"]
+			1 -> 20 [label="релят"]
+}

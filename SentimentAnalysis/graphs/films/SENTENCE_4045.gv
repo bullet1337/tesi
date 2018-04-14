@@ -1,0 +1,53 @@
+digraph SENTENCE_4045 {
+	graph [label="У европейцев очень много, к сожалению, таких вот размеренных лент, где все чувства преподносятся пустыми и неискренними."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="европейцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="размеренных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="преподносятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пустыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="неискренними
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 16 [label="разъяснит"]
+			8 -> 9 [label="огранич"]
+			16 -> 5 [label="обст"]
+			16 -> 11 [label="предик"]
+			16 -> 13 [label="обст"]
+			16 -> 15 [label="предик"]
+			17 -> 18 [label="сочин"]
+			11 -> 8 [label="опред"]
+			11 -> 10 [label="опред"]
+			18 -> 19 [label="соч_союзн"]
+			5 -> 6 [label="предл"]
+}

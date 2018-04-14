@@ -1,0 +1,36 @@
+digraph SENTENCE_1136 {
+	graph [label="Он также подчеркнул, что такого рода обвинения носят совершенно возмутительный характер."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="носят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возмутительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 8 [label="подч_союзн"]
+			7 -> 6 [label="атриб"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 11 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			11 -> 10 [label="опред"]
+}

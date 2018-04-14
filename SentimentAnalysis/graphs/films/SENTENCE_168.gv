@@ -1,0 +1,18 @@
+digraph SENTENCE_168 {
+	graph [label="Меня не бесили музыкальные вставки."]
+	node [style=filled]
+		0 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бесили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+			4 -> 3 [label="опред"]
+}

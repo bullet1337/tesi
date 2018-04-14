@@ -1,0 +1,48 @@
+digraph SENTENCE_474 {
+	graph [label="Женщин, погибших в результате стрельбы в Кизляре, похоронили на территории Свято-Георгиевского храма, где произошла трагедия."]
+	node [style=filled]
+		0 [label="Женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стрельбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="похоронили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="территории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Свято-Георгиевского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="произошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="трагедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			16 -> 15 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			0 -> 2 [label="опред"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			5 -> 6 [label="атриб"]
+			10 -> 11 [label="предл"]
+			9 -> 0 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 16 [label="сент_соч"]
+			2 -> 3 [label="обст"]
+}

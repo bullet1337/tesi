@@ -1,0 +1,48 @@
+digraph SENTENCE_1307 {
+	graph [label="Снято жизненно, без «ненужного» макияжа, без сцен, в которые не веришь, полное погружение в картину."]
+	node [style=filled]
+		0 [label="Снято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жизненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ненужного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="макияжа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="веришь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="полное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="погружение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="обст"]
+			0 -> 3 [label="обст"]
+			0 -> 9 [label="обст"]
+			0 -> 12 [label="_2_компл"]
+			0 -> 15 [label="сочин"]
+			12 -> 13 [label="предл"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="_1_компл"]
+			15 -> 19 [label="сочин"]
+			3 -> 7 [label="предл"]
+			19 -> 20 [label="предл"]
+			18 -> 17 [label="опред"]
+			7 -> 5 [label="опред"]
+			9 -> 10 [label="предл"]
+}

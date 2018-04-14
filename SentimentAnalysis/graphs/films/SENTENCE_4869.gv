@@ -1,0 +1,36 @@
+digraph SENTENCE_4869 {
+	graph [label="А вот о чем этот фильм я так и не понял."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="понял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 10 [label="релят"]
+			7 -> 8
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			2 -> 5 [label="предик"]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 9 [label="огранич"]
+			0 -> 2 [label="соч_союзн"]
+}

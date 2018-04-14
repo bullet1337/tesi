@@ -1,0 +1,18 @@
+digraph SENTENCE_1233 {
+	graph [label="И вы останетесь в восторге."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="останетесь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="восторге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			0 -> 2 [label="соч_союзн"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_2659 {
+	graph [label="Нас интересуют только оценки, поскольку у этого явления есть и обратная сторона."]
+	node [style=filled]
+		0 [label="Нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="интересуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оценки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="явления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обратная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сторона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			8 -> 7 [label="опред"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 12 [label="предик"]
+			11 -> 10 [label="огранич"]
+			6 -> 8 [label="предл"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 5 [label="обст"]
+			5 -> 9 [label="подч_союзн"]
+			3 -> 2 [label="огранич"]
+}

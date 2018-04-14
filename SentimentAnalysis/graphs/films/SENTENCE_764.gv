@@ -1,0 +1,45 @@
+digraph SENTENCE_764 {
+	graph [label="С первого дня после просмотра советую его всем и, наверное, буду продолжать советовать всегда."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="советую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="буду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="продолжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="советовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			0 -> 2 [label="предл"]
+			14 -> 15 [label="обст"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 12 [label="сочин"]
+			12 -> 8 [label="огранич"]
+			12 -> 10 [label="вводн"]
+			12 -> 13 [label="аналит"]
+			13 -> 14 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

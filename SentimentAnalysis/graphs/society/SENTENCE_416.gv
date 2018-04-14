@@ -1,0 +1,39 @@
+digraph SENTENCE_416 {
+	graph [label="Пользователи соцсетей отреагировали на интервью бывшего главы Московской антидопинговой лаборатории Григория Родченкова телеканалу."]
+	node [style=filled]
+		0 [label="Пользователи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="соцсетей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отреагировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бывшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Московской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="антидопинговой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лаборатории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Григория Родченкова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="телеканалу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 10 [label="аппоз"]
+			6 -> 11 [label="_1_компл"]
+}

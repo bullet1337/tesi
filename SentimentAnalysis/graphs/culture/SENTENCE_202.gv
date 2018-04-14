@@ -1,0 +1,39 @@
+digraph SENTENCE_202 {
+	graph [label="Грандиозный концерт, который организует Фонд Елены Образцовой, станет путешествием в оперный мир художника."]
+	node [style=filled]
+		0 [label="Грандиозный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="организует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Фонд Елены
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Образцовой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="путешествием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оперный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="художника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			1 -> 0 [label="опред"]
+			8 -> 6 [label="присвяз"]
+			8 -> 9 [label="обст"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+			4 -> 8 [label="сент_соч"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 13 [label="квазиагент"]
+}

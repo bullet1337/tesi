@@ -1,0 +1,54 @@
+digraph SENTENCE_69 {
+	graph [label="Среди последних ролей — Большая Ма в \"Кошке на раскаленной крыше\", Клавдия в \"Детях Ванюшина\", Сваха в \"Банкроте\"."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Большая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Ма
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кошке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="раскаленной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="крыше
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Клавдия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Детях
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Ванюшина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Сваха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Банкроте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="атриб"]
+			14 -> 0 [label="обст"]
+			14 -> 6 [label="обст"]
+			14 -> 15 [label="обст"]
+			14 -> 18 [label="аппоз"]
+			14 -> 21 [label="сочин"]
+			9 -> 11 [label="предл"]
+			6 -> 8 [label="предл"]
+			6 -> 9 [label="сочин"]
+			21 -> 22 [label="атриб"]
+			0 -> 2 [label="предл"]
+			11 -> 10 [label="опред"]
+			22 -> 24 [label="предл"]
+			15 -> 17 [label="предл"]
+			5 -> 4 [label="опред"]
+}

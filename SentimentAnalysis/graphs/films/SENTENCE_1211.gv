@@ -1,0 +1,59 @@
+digraph SENTENCE_1211 {
+	graph [label="Хоть немного проанализировать техническую сторону фильма мне удалось лишь после второго просмотра, да и то по прошествии нескольких часов."]
+	node [style=filled]
+		0 [label="Хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проанализировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="техническую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="прошествии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="предл"]
+			9 -> 13 [label="сочин"]
+			13 -> 14 [label="огранич"]
+			13 -> 15 [label="соотнос"]
+			19 -> 18 [label="количест"]
+			17 -> 19 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="разъяснит"]
+			16 -> 17 [label="предл"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 9 [label="обст"]
+}

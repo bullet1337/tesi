@@ -1,0 +1,69 @@
+digraph SENTENCE_409 {
+	graph [label="Вакуленко Долматов припомнил выступления в Кремлевском дворце и упрекнул его в том, что тот пришел в судьи на \"Версус\" исключительно \"ради хайпа\"."]
+	node [style=filled]
+		0 [label="Вакуленко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Долматов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="припомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кремлевском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="дворце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="упрекнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пришел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="судьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Версус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="исключительно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="хайпа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_2_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_2_компл"]
+			15 -> 18 [label="обст"]
+			15 -> 24 [label="обст"]
+			3 -> 4 [label="атриб"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			11 -> 13 [label="эксплет"]
+			4 -> 6 [label="предл"]
+			24 -> 22 [label="огранич"]
+			24 -> 25 [label="предл"]
+			16 -> 17 [label="предл"]
+			10 -> 11 [label="предл"]
+			18 -> 20 [label="предл"]
+			13 -> 15 [label="подч_союзн"]
+}

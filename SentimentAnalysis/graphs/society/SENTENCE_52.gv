@@ -1,0 +1,45 @@
+digraph SENTENCE_52 {
+	graph [label="Торжественная церемония вручения государственных наград прошла в Георгиевском зале Кремля в День защитника Отечества."]
+	node [style=filled]
+		0 [label="Торжественная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церемония
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="государственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наград
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Георгиевском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кремля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			11 -> 12 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 10 [label="обст"]
+			5 -> 13 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+}

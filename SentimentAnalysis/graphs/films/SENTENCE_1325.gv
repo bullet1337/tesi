@@ -1,0 +1,36 @@
+digraph SENTENCE_1325 {
+	graph [label="Режиссура «Танцующая в темноте» не похож на предыдущие фильмы фон Триера."]
+	node [style=filled]
+		0 [label="Режиссура
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="похож
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="предыдущие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="предл"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 7 [label="сочин"]
+			3 -> 4 [label="предл"]
+			12 -> 11
+}

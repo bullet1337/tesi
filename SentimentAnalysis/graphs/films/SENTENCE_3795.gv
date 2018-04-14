@@ -1,0 +1,24 @@
+digraph SENTENCE_3795 {
+	graph [label="Настроив зрителя на отторжение, Кубрик идет дальше."]
+	node [style=filled]
+		0 [label="Настроив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отторжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кубрик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+}

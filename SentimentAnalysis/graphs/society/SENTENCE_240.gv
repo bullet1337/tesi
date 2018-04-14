@@ -1,0 +1,54 @@
+digraph SENTENCE_240 {
+	graph [label="Причем до 1917 года ситуация была гораздо хуже — целые сословия изъяснялись, вели переписку исключительно на иностранных языках."]
+	node [style=filled]
+		0 [label="Причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1917
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="целые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сословия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изъяснялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="переписку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="исключительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="иностранных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="языках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="соч_союзн"]
+			0 -> 13 [label="разъяснит"]
+			1 -> 3 [label="предл"]
+			10 -> 9 [label="опред"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="предл"]
+			13 -> 11 [label="вводн"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="_2_компл"]
+			18 -> 17 [label="опред"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="присвяз"]
+			5 -> 10 [label="предик"]
+			3 -> 2 [label="опред"]
+			7 -> 6 [label="огранич"]
+}

@@ -1,0 +1,126 @@
+digraph SENTENCE_3 {
+	graph [label="Гора Голгофа, на которой казнили Иисуса, камень помазания, где снятое с креста тело оборачивали в погребальные пелена, пещера, в которой был похоронен и воскрес Христос, а теперь в канун Пасхи возгорается Благодатный огонь — все это впервые за столетия недоступно для паломников."]
+	node [style=filled]
+		0 [label="Гора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Голгофа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="казнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Иисуса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="камень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="помазания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="снятое
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="креста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оборачивали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="погребальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пелена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пещера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="похоронен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="воскрес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Христос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="канун
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="Пасхи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		36 [label="возгорается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="Благодатный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		38 [label="огонь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="недоступно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		46 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		47 [label="паломников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			46 -> 47 [label="предл"]
+			25 -> 23 [label="обст"]
+			25 -> 26
+			25 -> 27 [label="сочин"]
+			3 -> 4 [label="предл"]
+			13 -> 14 [label="предл"]
+			41 -> 40 [label="опред"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="предик"]
+			5 -> 9 [label="_1_компл"]
+			5 -> 16 [label="сент_соч"]
+			34 -> 35 [label="квазиагент"]
+			27 -> 28 [label="соч_союзн"]
+			9 -> 12 [label="опред"]
+			33 -> 34 [label="предл"]
+			23 -> 24 [label="предл"]
+			36 -> 32 [label="обст"]
+			36 -> 33 [label="обст"]
+			36 -> 38 [label="предик"]
+			38 -> 37 [label="опред"]
+			38 -> 45 [label="релят"]
+			16 -> 15 [label="_1_компл"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 21 [label="предик"]
+			16 -> 25 [label="сент_соч"]
+			19 -> 18 [label="опред"]
+			31 -> 36 [label="соч_союзн"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_2_компл"]
+			43 -> 44 [label="предл"]
+			28 -> 29 [label="предик"]
+			28 -> 31 [label="сент_соч"]
+			45 -> 41 [label="предик"]
+			45 -> 42 [label="обст"]
+			45 -> 43 [label="обст"]
+			45 -> 46 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="сент_соч"]
+			17 -> 19 [label="предл"]
+}

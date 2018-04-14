@@ -1,0 +1,75 @@
+digraph SENTENCE_4048 {
+	graph [label="Столько возможностей творить, прекрасная погода за окнами, вся жизнь под музыку — но герои фильма «Песня за песней» ничего этого не ценят и не понимают."]
+	node [style=filled]
+		0 [label="Столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="возможностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="творить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прекрасная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="погода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="окнами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Песня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="песней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ценят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="понимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 22 [label="_3_компл"]
+			25 -> 23 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			25 -> 26 [label="сочин"]
+			5 -> 4 [label="опред"]
+			26 -> 28 [label="соч_союзн"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 6 [label="обст"]
+			2 -> 11 [label="обст"]
+			7 -> 10 [label="атриб"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			11 -> 12 [label="предл"]
+			19 -> 20 [label="предл"]
+			10 -> 9 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 18 [label="аппоз"]
+			15 -> 19 [label="атриб"]
+			15 -> 25 [label="релят"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 14 [label="сочин"]
+			28 -> 27 [label="огранич"]
+}

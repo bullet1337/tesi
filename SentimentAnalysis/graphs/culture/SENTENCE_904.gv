@@ -1,0 +1,45 @@
+digraph SENTENCE_904 {
+	graph [label="Сюжет картины основан на малоизвестной истории отношений музыканта Майка Науменко, его жены Натальи и Виктора Цоя."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="основан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="малоизвестной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отношений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="музыканта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Майка Науменко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Натальи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Виктора Цоя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="квазиагент"]
+			8 -> 11 [label="об_аппоз"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			13 -> 14 [label="соч_союзн"]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			0 -> 1 [label="квазиагент"]
+			12 -> 13 [label="сочин"]
+			7 -> 8 [label="аппоз"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+}

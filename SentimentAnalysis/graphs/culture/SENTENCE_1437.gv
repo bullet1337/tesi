@@ -1,0 +1,45 @@
+digraph SENTENCE_1437 {
+	graph [label="Спустя пять лет они расстались, причиной развода СМИ называли роман Питта с актрисой Анджелиной Джоли."]
+	node [style=filled]
+		0 [label="Спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="расстались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="причиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="развода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="называли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="роман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Питта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="актрисой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Анджелиной Джоли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="количест"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 9 [label="разъяснит"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			13 -> 14 [label="аппоз"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 12 [label="атриб"]
+			12 -> 13 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+}

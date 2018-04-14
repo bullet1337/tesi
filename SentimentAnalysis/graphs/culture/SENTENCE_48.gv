@@ -1,0 +1,36 @@
+digraph SENTENCE_48 {
+	graph [label="Роли в фильме исполнили оскароносный Жан Дюжарден и известная французская актриса Мелани Лоран."]
+	node [style=filled]
+		0 [label="Роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исполнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оскароносный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Жан Дюжарден
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="французская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Мелани Лоран
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+			6 -> 9 [label="соч_союзн"]
+			0 -> 1 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			1 -> 2 [label="предл"]
+}

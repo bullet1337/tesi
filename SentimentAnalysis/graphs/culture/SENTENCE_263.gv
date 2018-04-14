@@ -1,0 +1,48 @@
+digraph SENTENCE_263 {
+	graph [label="Авторы снимков запечатлели спокойную красоту городского ландшафта и уникальность отдельных районов города, например квартала гейш."]
+	node [style=filled]
+		0 [label="Авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="снимков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="запечатлели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спокойную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="красоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ландшафта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уникальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отдельных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="районов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="квартала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="гейш
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			11 -> 14 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			8 -> 10 [label="квазиагент"]
+			14 -> 13 [label="вводн"]
+			14 -> 15 [label="квазиагент"]
+}

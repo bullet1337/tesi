@@ -1,0 +1,33 @@
+digraph SENTENCE_737 {
+	graph [label="В 2012 году актер эмигрировал в Канаду вместе с семьей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2012
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эмигрировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Канаду
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="семьей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			5 -> 6 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 7 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+}

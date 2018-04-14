@@ -1,0 +1,45 @@
+digraph SENTENCE_1271 {
+	graph [label="По последним данным, пожар разгорелся в вентиляционной камере, которая была построена в 1980-х годах."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пожар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разгорелся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вентиляционной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="камере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="построена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="1980-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			0 -> 2 [label="предл"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 11 [label="сент_соч"]
+			11 -> 10 [label="предик"]
+			11 -> 12
+			11 -> 15 [label="сент_соч"]
+			12 -> 13 [label="обст"]
+}

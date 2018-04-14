@@ -1,0 +1,39 @@
+digraph SENTENCE_1916 {
+	graph [label="Выдающаяся, «на разрыв аорты» игра Бьорк делает этот фильм обязательным к просмотру!"]
+	node [style=filled]
+		0 [label="Выдающаяся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разрыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аорты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обязательным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="просмотру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 12 [label="_2_компл"]
+			0 -> 3 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			7 -> 0 [label="опред"]
+			7 -> 9 [label="разъяснит"]
+			4 -> 5 [label="_1_компл"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+}

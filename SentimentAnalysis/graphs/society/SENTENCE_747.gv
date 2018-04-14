@@ -1,0 +1,33 @@
+digraph SENTENCE_747 {
+	graph [label="Мама новорожденных поблагодарила за \"такой шикарный подарок для нашей семьи\"."]
+	node [style=filled]
+		0 [label="Мама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="новорожденных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поблагодарила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шикарный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подарок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="семьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			2 -> 0 [label="вводн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			3 -> 7 [label="предл"]
+}

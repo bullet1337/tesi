@@ -1,0 +1,21 @@
+digraph SENTENCE_1339 {
+	graph [label="Я воспринимал его как блатного авторитета\"."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="воспринимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="блатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="авторитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="сравн_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+}

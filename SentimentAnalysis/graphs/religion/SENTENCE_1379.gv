@@ -1,0 +1,44 @@
+digraph SENTENCE_1379 {
+	graph [label="Предложение парламентариев возмутило евреев и мусульман как в Исландии, так и за пределами страны."]
+	node [style=filled]
+		0 [label="Предложение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="парламентариев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возмутило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Исландии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пределами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сравн_союзн"]
+			5 -> 6 [label="сравнит"]
+			13 -> 14 [label="квазиагент"]
+			7 -> 8 [label="предл"]
+			3 -> 4 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 10 [label="обст"]
+			2 -> 11 [label="сент_соч"]
+			12 -> 13 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			4 -> 5 [label="соч_союзн"]
+}

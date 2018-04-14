@@ -1,0 +1,33 @@
+digraph SENTENCE_2921 {
+	graph [label="Но разве можно это увидеть через вот этот вот кошмар?"]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="разве
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кошмар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+			5 -> 9 [label="предл"]
+			9 -> 7 [label="опред"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="огранич"]
+			0 -> 2 [label="соч_союзн"]
+}

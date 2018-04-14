@@ -1,0 +1,57 @@
+digraph SENTENCE_777 {
+	graph [label="Например, двумя часами ранее посол написал, что \"рад встретиться с заместителем премьер-министра и министром промышленности и торговли РТ Альбертом Каримовым\"."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="двумя
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рад
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="встретиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заместителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="премьер-министра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="министром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="промышленности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="торговли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="РТ Альбертом Каримовым
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="аппоз"]
+			16 -> 20 [label="сочин"]
+			3 -> 2 [label="количест"]
+			10 -> 11 [label="_1_компл"]
+			18 -> 19 [label="соч_союзн"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="длительн"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			15 -> 16 [label="соч_союзн"]
+			13 -> 14 [label="аппоз"]
+			13 -> 15 [label="сочин"]
+			11 -> 12 [label="_1_компл"]
+			17 -> 18 [label="сочин"]
+			12 -> 13 [label="предл"]
+			8 -> 10 [label="подч_союзн"]
+}

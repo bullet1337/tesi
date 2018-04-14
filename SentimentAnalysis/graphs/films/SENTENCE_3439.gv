@@ -1,0 +1,30 @@
+digraph SENTENCE_3439 {
+	graph [label="К слову, это единственная фраза от Меньшикова, покоробившая меня."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единственная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фраза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Меньшикова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="покоробившая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			5 -> 9 [label="опред"]
+}

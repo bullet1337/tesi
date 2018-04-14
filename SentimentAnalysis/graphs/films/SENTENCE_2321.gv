@@ -1,0 +1,39 @@
+digraph SENTENCE_2321 {
+	graph [label="Например, после убийства, героиня бегает, поет и пляшет, загадочно при этом улыбаясь."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="убийства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бегает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пляшет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="загадочно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="улыбаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="обст"]
+			10 -> 12 [label="обст"]
+			10 -> 15 [label="обст"]
+			2 -> 3 [label="предл"]
+			8 -> 9 [label="сочин"]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+}

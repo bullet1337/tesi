@@ -1,0 +1,69 @@
+digraph SENTENCE_1133 {
+	graph [label="Известность ей принесли роли в картинах \"Грустная история\" (1983), \"Подарок\" (1984), \"Чандни\" (1987), \"Плутовка\" (1987), \"Мгновения любви\" (1991) и \"Сбившиеся с пути\" (1993)."]
+	node [style=filled]
+		0 [label="Известность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="принесли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="картинах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Грустная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1983
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Подарок
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="1984
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Чандни
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="1987
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Плутовка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="1987
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="Мгновения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="1991
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="Сбившиеся
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		45 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		46 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		49 [label="1993
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			45 -> 46 [label="предл"]
+			46 -> 49 [label="нум_аппоз"]
+			25 -> 22 [label="огранич"]
+			22 -> 18
+			4 -> 5 [label="предл"]
+			29 -> 32 [label="аппоз"]
+			29 -> 36 [label="сочин"]
+			29 -> 42 [label="сент_соч"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="неакт_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="неакт_компл"]
+			2 -> 15 [label="_1_компл"]
+			15 -> 11 [label="количест"]
+			37 -> 40 [label="сочин"]
+			8 -> 7 [label="опред"]
+			36 -> 37 [label="сочин"]
+			44 -> 45 [label="_1_компл"]
+			3 -> 4 [label="_2_компл"]
+}

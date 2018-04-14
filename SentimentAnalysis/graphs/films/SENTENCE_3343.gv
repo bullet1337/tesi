@@ -1,0 +1,54 @@
+digraph SENTENCE_3343 {
+	graph [label="«Легенду N17» я посмотрел ещё в апреле, но пишу свои соображения о фильме только сейчас, спустя пол-года."]
+	node [style=filled]
+		1 [label="Легенду N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="апреле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пишу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="соображения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пол-года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			1 -> 2 [label="аппоз"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 20 [label="предик"]
+			19 -> 17 [label="предл"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="обст"]
+			5 -> 10 [label="сочин"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_2_компл"]
+			17 -> 16 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+			14 -> 15 [label="предл"]
+			14 -> 19 [label="сочин"]
+}

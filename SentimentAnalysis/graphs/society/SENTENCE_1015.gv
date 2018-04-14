@@ -1,0 +1,33 @@
+digraph SENTENCE_1015 {
+	graph [label="Все это способствует формированию информационного общества, реальному развитию \"цифровой экономики\"."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="способствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="формированию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="информационного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="реальному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="развитию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="цифровой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="экономики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="опред"]
+			11 -> 10 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="_1_компл"]
+			3 -> 5 [label="_1_компл"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_361 {
+	graph [label="Сильная сторона Гуфа — это его \"Да, я такой плохой, киньте в меня камнем тот, кто без греха\", — отмечал Баста."]
+	node [style=filled]
+		0 [label="Сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сторона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Да
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="киньте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="камнем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="греха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="отмечал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Баста
+INTJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 11 [label="оп_опред"]
+			2 -> 1 [label="предик"]
+			2 -> 13 [label="разъяснит"]
+			14 -> 15 [label="предл"]
+			13 -> 4 [label="вводн"]
+			13 -> 5 [label="_1_компл"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 16 [label="_1_компл"]
+			13 -> 17 [label="сочин"]
+			17 -> 25 [label="релят"]
+			11 -> 7 [label="вводн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="опред"]
+			25 -> 19 [label="предик"]
+			25 -> 20 [label="обст"]
+			25 -> 26 [label="_1_компл"]
+			20 -> 21 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4817 {
+	graph [label="И никакая тут музыка, которая явно отдает «Космической Одиссеей 2001» не спасает."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никакая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отдает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Космической
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Одиссеей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="2001
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="спасает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			0 -> 14 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			14 -> 11 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="обст"]
+			3 -> 7 [label="релят"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 10 [label="_2_компл"]
+}

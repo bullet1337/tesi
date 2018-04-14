@@ -1,0 +1,27 @@
+digraph SENTENCE_403 {
+	graph [label="Госкорпорация провела огромную работу по созданию Союза работодателей."]
+	node [style=filled]
+		0 [label="Госкорпорация
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="провела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="созданию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Союза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="работодателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 7 [label="квазиагент"]
+}

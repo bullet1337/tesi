@@ -1,0 +1,36 @@
+digraph SENTENCE_4685 {
+	graph [label="Нет, кино вышло в 2014 году, пора уже было стряхивать пыль."]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вышло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пора
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стряхивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пыль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			0 -> 2 [label="предик"]
+			0 -> 3 [label="разъяснит"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="предик"]
+			3 -> 10 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+}

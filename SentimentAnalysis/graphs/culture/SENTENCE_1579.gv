@@ -1,0 +1,66 @@
+digraph SENTENCE_1579 {
+	graph [label="Но у него никак не получается разобрать, а потом и выучить, как же зовут \"этого молодого парня рядом с Де Ниро\"."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разобрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выучить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="зовут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="молодого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="парня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Де
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Ниро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="сочин"]
+			15 -> 13 [label="_2_компл"]
+			15 -> 17 [label="_1_компл"]
+			13 -> 14 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			23 -> 22
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="огранич"]
+			11 -> 15 [label="_1_компл"]
+			11 -> 19 [label="примыкат"]
+			11 -> 20 [label="обст"]
+			8 -> 11 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			21 -> 23 [label="предл"]
+			19 -> 18 [label="опред"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+}

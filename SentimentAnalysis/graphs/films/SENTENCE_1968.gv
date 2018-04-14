@@ -1,0 +1,42 @@
+digraph SENTENCE_1968 {
+	graph [label="Всё, что скрыто, далее развивается где-то в голове, пускаясь в далёкие глубины воображения."]
+	node [style=filled]
+		0 [label="Всё
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скрыто
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="развивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="где-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="голове
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пускаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="далёкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="глубины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="воображения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="_3_компл"]
+			12 -> 14 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="обст"]
+			6 -> 11 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_3_компл"]
+			0 -> 3 [label="релят"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+}

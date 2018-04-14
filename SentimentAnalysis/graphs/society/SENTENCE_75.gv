@@ -1,0 +1,54 @@
+digraph SENTENCE_75 {
+	graph [label="За героизм, мужество и отвагу, проявленные при исполнении воинского долга, президент Владимир Путин присвоил Филипову звание Героя России."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мужество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отвагу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проявленные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воинского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="долга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Владимир Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="присвоил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Филипову
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="звание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Героя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 8 [label="обст"]
+			16 -> 17 [label="сочин"]
+			15 -> 0 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="_2_компл"]
+			17 -> 18 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="сочин"]
+			8 -> 9 [label="предл"]
+			5 -> 7 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			13 -> 3 [label="опред"]
+			13 -> 14 [label="аппоз"]
+}

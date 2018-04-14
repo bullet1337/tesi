@@ -1,0 +1,48 @@
+digraph SENTENCE_881 {
+	graph [label="Хочется влезть в экран и все исправить, потому что смотреть на эту несправедиливость больше невозможно."]
+	node [style=filled]
+		0 [label="Хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="влезть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исправить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несправедиливость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 10 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 14 [label="обст"]
+			8 -> 9 [label="эксплет"]
+			13 -> 12 [label="опред"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="обст"]
+			11 -> 13 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 4 [label="сент_соч"]
+			2 -> 3 [label="предл"]
+			1 -> 2 [label="_2_компл"]
+			4 -> 6 [label="соч_союзн"]
+			9 -> 15 [label="подч_союзн"]
+}

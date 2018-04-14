@@ -1,0 +1,33 @@
+digraph SENTENCE_1210 {
+	graph [label="В рамках поездки члены делегации Ингушетии представили инвестиционный потенциал республики."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поездки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="члены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="делегации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ингушетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="представили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="инвестиционный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потенциал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="квазиагент"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			6 -> 8 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="сочин"]
+			3 -> 6 [label="сент_соч"]
+}

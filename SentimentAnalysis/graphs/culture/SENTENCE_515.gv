@@ -1,0 +1,36 @@
+digraph SENTENCE_515 {
+	graph [label="В конкурсе участвуют 19 картин из Норвегии, Германии, Франции, Филиппин, Уругвая."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участвуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Норвегии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Германии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Франции
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Филиппин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Уругвая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 14 [label="сочин"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			10 -> 12 [label="сочин"]
+			8 -> 10 [label="сочин"]
+			6 -> 8 [label="сочин"]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="атриб"]
+}

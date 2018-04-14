@@ -1,0 +1,21 @@
+digraph SENTENCE_685 {
+	graph [label="- Но меня раздражает заключительная песня фильма."]
+	node [style=filled]
+		1 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="раздражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заключительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="песня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 3 [label="соч_союзн"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+}

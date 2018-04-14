@@ -1,0 +1,24 @@
+digraph SENTENCE_2264 {
+	graph [label="Надо признаться, мюзиклы я не очень понимаю."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="признаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предик"]
+			0 -> 7 [label="сент_соч"]
+			7 -> 4 [label="предик"]
+			7 -> 6 [label="огранич"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+}

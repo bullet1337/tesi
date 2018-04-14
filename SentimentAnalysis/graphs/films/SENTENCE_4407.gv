@@ -1,0 +1,54 @@
+digraph SENTENCE_4407 {
+	graph [label="Возникновение подобных вещей у нас — следствие проникновение западных идей в наше общество, копирования их некоторыми нашими людьми."]
+	node [style=filled]
+		0 [label="Возникновение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вещей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="следствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проникновение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="западных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="идей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наше
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="копирования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="некоторыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нашими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="людьми
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			12 -> 11 [label="опред"]
+			3 -> 4 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="сочин"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			7 -> 10 [label="_2_компл"]
+			7 -> 14 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 18 [label="агент"]
+			10 -> 12 [label="предл"]
+}

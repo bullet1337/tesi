@@ -1,0 +1,18 @@
+digraph SENTENCE_1216 {
+	graph [label="Больно, больно, холодно и больно!"]
+	node [style=filled]
+		0 [label="Больно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="больно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="холодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="больно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="огранич"]
+			4 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+}

@@ -1,0 +1,47 @@
+digraph SENTENCE_2546 {
+	graph [label="Вероятно, это у него получилось, — молодец, снял фильм про себя, любимого, спрятавшись за именем Рублёва."]
+	node [style=filled]
+		0 [label="Вероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="молодец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любимого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="спрятавшись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="именем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Рублёва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 20 [label="квазиагент"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			12 -> 13 [label="предл"]
+			15 -> 17 [label="сочин"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 8 [label="предик"]
+			5 -> 10 [label="разъяснит"]
+			17 -> 18 [label="обст"]
+			18 -> 19 [label="предл"]
+}

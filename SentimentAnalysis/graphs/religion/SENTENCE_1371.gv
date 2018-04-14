@@ -1,0 +1,36 @@
+digraph SENTENCE_1371 {
+	graph [label="С тех пор мощи святителя хранятся в Большом соборе Донского монастыря."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="святителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хранятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Большом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="соборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Донского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="монастыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			10 -> 0 [label="вводн"]
+			10 -> 3 [label="предик"]
+			10 -> 9 [label="опред"]
+			3 -> 5 [label="релят"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

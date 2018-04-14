@@ -1,0 +1,68 @@
+digraph SENTENCE_1416 {
+	graph [label="Помимо вопроса об обрезании, евреев и мусульман беспокоит запрет на ритуальный забой скота, действующий сейчас в Дании, Польше, Латвии, Нидерландах и Швеции."]
+	node [style=filled]
+		0 [label="Помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопроса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обрезании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="беспокоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="запрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ритуальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="забой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="скота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="действующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Дании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Польше
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Латвии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Нидерландах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Швеции
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="_1_компл"]
+			8 -> 0 [label="обст"]
+			8 -> 9 [label="предик"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			17 -> 18 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			20 -> 22 [label="сочин"]
+			0 -> 1 [label="предл"]
+			25 -> 26 [label="соч_союзн"]
+			15 -> 16 [label="обст"]
+			15 -> 17 [label="обст"]
+			18 -> 20 [label="сочин"]
+			22 -> 24 [label="сочин"]
+			3 -> 5 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			24 -> 25 [label="сочин"]
+}

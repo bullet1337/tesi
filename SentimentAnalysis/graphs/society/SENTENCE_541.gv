@@ -1,0 +1,36 @@
+digraph SENTENCE_541 {
+	graph [label="И это реально делается, в Москве есть такие пациенты\", — добавила Мясникова."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="реально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пациенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Мясникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="обст"]
+			3 -> 7 [label="сент_соч"]
+			7 -> 9 [label="предик"]
+			7 -> 13 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			13 -> 14 [label="предик"]
+			9 -> 8 [label="опред"]
+}

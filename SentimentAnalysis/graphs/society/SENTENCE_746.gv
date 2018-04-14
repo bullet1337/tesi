@@ -1,0 +1,24 @@
+digraph SENTENCE_746 {
+	graph [label="Многодетной семье вручили шестиместный автомобиль \"Соболь\" \"Группы ГАЗ\"."]
+	node [style=filled]
+		0 [label="Многодетной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="семье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вручили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="шестиместный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="автомобиль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Соболь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Группы ГАЗ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="_2_компл"]
+			2 -> 4 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="аппоз"]
+			4 -> 9 [label="сочин"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_420 {
+	graph [label="В феврале стало известно, что Родченков перенес пластическую операцию по изменению внешности."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="феврале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Родченков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="перенес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пластическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изменению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="внешности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			5 -> 7 [label="подч_союзн"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 10 [label="_3_компл"]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="присвяз"]
+			2 -> 5 [label="предик"]
+			9 -> 8 [label="опред"]
+}

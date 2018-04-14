@@ -1,0 +1,39 @@
+digraph SENTENCE_1128 {
+	graph [label="Институт развития образования был создан постановлением правительства от 31 мая 2005 года."]
+	node [style=filled]
+		0 [label="Институт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="постановлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="31
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2005
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="агент"]
+			0 -> 1 [label="_1_компл"]
+			8 -> 9 [label="атриб"]
+			7 -> 8 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 4
+			3 -> 7 [label="обст"]
+			9 -> 11 [label="атриб"]
+			11 -> 10 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+}

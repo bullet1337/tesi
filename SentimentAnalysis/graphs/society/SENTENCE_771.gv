@@ -1,0 +1,51 @@
+digraph SENTENCE_771 {
+	graph [label="Посол США в РФ Джон Хантсман на странице американского посольства в. поделился впечатлениями от визита в Казань."]
+	node [style=filled]
+		0 [label="Посол
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Джон Хантсман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="странице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="американского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посольства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поделился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="впечатлениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Казань
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 4 [label="аппоз"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			14 -> 15 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="предл"]
+			5 -> 8 [label="разъяснит"]
+			5 -> 11 [label="вводн"]
+			2 -> 3 [label="предл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_656 {
+	graph [label="В течение 2017 года и с начала 2018 года режим \"черного неба\" вводился в Красноярске несколько раз."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="черного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="неба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вводился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Красноярске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			12 -> 11 [label="опред"]
+			15 -> 16 [label="предл"]
+			3 -> 2 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			14 -> 0 [label="обст"]
+			14 -> 9 [label="предик"]
+			14 -> 15 [label="обст"]
+			14 -> 18 [label="обст"]
+			9 -> 12 [label="_1_компл"]
+			18 -> 17 [label="количест"]
+			6 -> 8 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			1 -> 3 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			0 -> 4 [label="сочин"]
+}

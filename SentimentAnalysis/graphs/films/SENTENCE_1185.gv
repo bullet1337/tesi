@@ -1,0 +1,30 @@
+digraph SENTENCE_1185 {
+	graph [label="Музыкальные аллегории, как и весь фильм в целом, гениальны."]
+	node [style=filled]
+		0 [label="Музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="аллегории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="гениальны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 1 [label="предик"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="сравнит"]
+			3 -> 4 [label="огранич"]
+			3 -> 6 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			7 -> 8 [label="предл"]
+}

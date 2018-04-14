@@ -1,0 +1,30 @@
+digraph SENTENCE_1502 {
+	graph [label="В Японии в День святого Валентина уже несколько десятилетий."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Японии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="десятилетий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			8 -> 2 [label="обст"]
+			8 -> 7 [label="количест"]
+			7 -> 6 [label="огранич"]
+			2 -> 0 [label="огранич"]
+			2 -> 3 [label="предл"]
+}

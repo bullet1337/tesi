@@ -1,0 +1,48 @@
+digraph SENTENCE_172 {
+	graph [label="Спектакль по роману французского писателя Гюстава Флобера поставила режиссер Ольга Субботина в соавторстве с художником Максимом Обрезковым."]
+	node [style=filled]
+		0 [label="Спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роману
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="французского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гюстава Флобера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="поставила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ольга Субботина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="соавторстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="художником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Максимом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Обрезковым
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="атриб"]
+			12 -> 13 [label="аппоз"]
+			9 -> 10 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 9 [label="обст"]
+			6 -> 11 [label="_2_компл"]
+			6 -> 14 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			11 -> 12 [label="предл"]
+			2 -> 4 [label="квазиагент"]
+}

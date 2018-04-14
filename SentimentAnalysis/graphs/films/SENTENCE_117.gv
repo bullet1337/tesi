@@ -1,0 +1,51 @@
+digraph SENTENCE_117 {
+	graph [label="В общем, я очень хочу посмотреть на человека, который скажет, что этот фильм — пустая трата времени."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="скажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пустая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="трата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			15 -> 14 [label="опред"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 18 [label="подч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			18 -> 15 [label="предик"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+}

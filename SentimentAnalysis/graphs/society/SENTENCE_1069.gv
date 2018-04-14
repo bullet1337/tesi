@@ -1,0 +1,51 @@
+digraph SENTENCE_1069 {
+	graph [label="Суворов, который участвовал в программе в качестве эксперта от Украины, потребовал от депутата показать фотографии погибших."]
+	node [style=filled]
+		0 [label="Суворов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эксперта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Украины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="потребовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="депутата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="погибших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="релят"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="атриб"]
+			6 -> 7 [label="предл"]
+			12 -> 0 [label="предик"]
+			12 -> 9 [label="обст"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 15 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			15 -> 16 [label="_1_компл"]
+			16 -> 17 [label="опред"]
+}

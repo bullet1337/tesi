@@ -1,0 +1,39 @@
+digraph SENTENCE_2992 {
+	graph [label="Во Вселенной Warhammer 40000 среди четырех Богов Хаоса есть Слаанеш, Бог извращенных наслаждений."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Вселенной Warhammer
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="40000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="четырех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Богов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Хаоса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Слаанеш
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Бог
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="извращенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наслаждений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="присвяз"]
+			7 -> 8 [label="предик"]
+			12 -> 11 [label="опред"]
+			8 -> 10 [label="аппоз"]
+			8 -> 12 [label="об_аппоз"]
+			3 -> 5 [label="предл"]
+			0 -> 1 [label="предл"]
+			0 -> 3 [label="сочин"]
+			5 -> 4 [label="количест"]
+			5 -> 6 [label="атриб"]
+			1 -> 2 [label="аппоз"]
+}

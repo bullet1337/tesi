@@ -1,0 +1,51 @@
+digraph SENTENCE_1760 {
+	graph [label="Смит известен, как создатель фильмов \"Клерки\", \"Догма\", \"Джей и Молчаливый Боб наносят ответный удар\" и другие."]
+	node [style=filled]
+		0 [label="Смит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="известен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Клерки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Догма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Джей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Молчаливый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Боб
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="наносят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ответный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="удар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 11 [label="разъяснит"]
+			1 -> 19 [label="сочин"]
+			5 -> 7 [label="ном_аппоз"]
+			11 -> 15 [label="сочин"]
+			3 -> 4 [label="сравн_союзн"]
+			16 -> 18 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			21 -> 20 [label="опред"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 23 [label="сочин"]
+			18 -> 17 [label="опред"]
+			23 -> 24 [label="соч_союзн"]
+			4 -> 5 [label="_1_компл"]
+}

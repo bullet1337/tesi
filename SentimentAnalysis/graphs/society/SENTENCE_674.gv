@@ -1,0 +1,18 @@
+digraph SENTENCE_674 {
+	graph [label="\"Погода будет облачной, с прояснениями."]
+	node [style=filled]
+		1 [label="Погода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="облачной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прояснениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 5 [label="обст"]
+}

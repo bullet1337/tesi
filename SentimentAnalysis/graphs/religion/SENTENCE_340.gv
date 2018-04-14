@@ -1,0 +1,66 @@
+digraph SENTENCE_340 {
+	graph [label="С другой стороны, если не получится попасть сейчас, то будет причина еще раз приехать\", — говорит жительница Ростовской области по имени Ольга."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="попасть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="причина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="приехать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="жительница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Ростовской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Ольга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="обст"]
+			23 -> 24 [label="предл"]
+			11 -> 0 [label="вводн"]
+			11 -> 4 [label="обст"]
+			11 -> 12 [label="предик"]
+			11 -> 19 [label="вводн"]
+			24 -> 25 [label="компл_аппоз"]
+			20 -> 22 [label="_1_компл"]
+			20 -> 23 [label="атриб"]
+			15 -> 14 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предик"]
+			14 -> 13 [label="огранич"]
+			22 -> 21 [label="опред"]
+			0 -> 2 [label="предл"]
+			12 -> 15 [label="_1_компл"]
+			19 -> 20 [label="предик"]
+			4 -> 6 [label="подч_союзн"]
+			8 -> 10 [label="огранич"]
+			2 -> 1 [label="опред"]
+}

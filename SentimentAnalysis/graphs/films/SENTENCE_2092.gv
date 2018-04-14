@@ -1,0 +1,39 @@
+digraph SENTENCE_2092 {
+	graph [label="«А вам никогда не казалось, что растения чувствуют, познают, может даже постигают»."]
+	node [style=filled]
+		1 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="растения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чувствуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="познают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="постигают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="подч_союзн"]
+			1 -> 5 [label="соч_союзн"]
+			1 -> 15 [label="соч_союзн"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предик"]
+			5 -> 11 [label="сочин"]
+			9 -> 8 [label="_1_компл"]
+			15 -> 13 [label="вводн"]
+			15 -> 14 [label="огранич"]
+}

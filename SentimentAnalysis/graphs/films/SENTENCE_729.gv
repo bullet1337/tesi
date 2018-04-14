@@ -1,0 +1,51 @@
+digraph SENTENCE_729 {
+	graph [label="Оглянувшись таким образом назад, оступилась бы и упала в пропасть на пути к своей заветной цели."]
+	node [style=filled]
+		0 [label="Оглянувшись
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оступилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="упала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пропасть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заветной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="цели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="атриб"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="аналит"]
+			5 -> 8 [label="разъяснит"]
+			11 -> 12 [label="предл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="предл"]
+			12 -> 13 [label="_3_компл"]
+			3 -> 2 [label="предл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_2_компл"]
+			13 -> 16 [label="предл"]
+			2 -> 1 [label="опред"]
+}

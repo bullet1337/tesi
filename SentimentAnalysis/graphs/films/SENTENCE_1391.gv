@@ -1,0 +1,27 @@
+digraph SENTENCE_1391 {
+	graph [label="Спасибо Катрин Денев, персонаж которой отчаянно стремился постичь мир сельмы."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отчаянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стремился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="постичь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сельмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_2_компл"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="квазиагент"]
+}

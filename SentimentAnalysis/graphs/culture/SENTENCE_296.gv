@@ -1,0 +1,51 @@
+digraph SENTENCE_296 {
+	graph [label="Фестиваль телевизионного художественного кино \"Утро Родины\" пройдет с 8 по 14 марта 2018 года в Южно-Сахалинске."]
+	node [style=filled]
+		0 [label="Фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="телевизионного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Утро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Родины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Южно-Сахалинске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 3 [label="квазиагент"]
+			0 -> 6 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			12 -> 13 [label="атриб"]
+			16 -> 17 [label="предл"]
+			13 -> 15 [label="атриб"]
+			8 -> 0 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 16 [label="обст"]
+			9 -> 10 [label="предл"]
+			9 -> 11 [label="соотнос"]
+			15 -> 14 [label="опред"]
+			6 -> 5 [label="композ"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+}

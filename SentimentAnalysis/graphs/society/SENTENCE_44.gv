@@ -1,0 +1,39 @@
+digraph SENTENCE_44 {
+	graph [label="Медвежонок уже прибавил в весе на целых 500 граммов\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="Медвежонок
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прибавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="весе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="целых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="500
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="граммов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="количест"]
+			12 -> 13 [label="обст"]
+			13 -> 14 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="обст"]
+			2 -> 12 [label="вводн"]
+			5 -> 8 [label="предл"]
+}

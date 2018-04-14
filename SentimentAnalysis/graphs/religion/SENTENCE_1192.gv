@@ -1,0 +1,45 @@
+digraph SENTENCE_1192 {
+	graph [label="\"Тут необходимо разделять, самим учащимся мы не можем говорить о том, праздновать или нет."]
+	node [style=filled]
+		1 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="необходимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разделять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="учащимся
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="праздновать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 9 [label="сент_соч"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			3 -> 6 [label="_2_компл"]
+			14 -> 15 [label="сочин"]
+			12 -> 14 [label="эксплет"]
+			15 -> 16 [label="соч_союзн"]
+			10 -> 11 [label="_3_компл"]
+}

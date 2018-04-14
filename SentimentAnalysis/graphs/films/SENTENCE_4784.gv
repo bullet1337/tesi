@@ -1,0 +1,75 @@
+digraph SENTENCE_4784 {
+	graph [label="Тут начинается «квест N2», став невольным свидетелем, когда двери поезда в метро разлучили японских родителей с их сыном, наш герой не перестаёт удивлять."]
+	node [style=filled]
+		0 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="квест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="став
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="невольным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свидетелем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="двери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="поезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="метро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="разлучили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="японских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="родителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сыном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="перестаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="удивлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			27 -> 25 [label="предик"]
+			27 -> 26 [label="огранич"]
+			27 -> 28 [label="_1_компл"]
+			22 -> 21 [label="_1_компл"]
+			4 -> 5 [label="нум_аппоз"]
+			8 -> 10 [label="присвяз"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 8 [label="обст"]
+			1 -> 27 [label="разъяснит"]
+			3 -> 4 [label="аппоз"]
+			15 -> 16 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="_1_компл"]
+			17 -> 13 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+			17 -> 20 [label="_2_компл"]
+			20 -> 22 [label="предл"]
+			25 -> 24 [label="опред"]
+			12 -> 17 [label="подч_союзн"]
+			13 -> 14 [label="квазиагент"]
+			13 -> 15 [label="атриб"]
+}

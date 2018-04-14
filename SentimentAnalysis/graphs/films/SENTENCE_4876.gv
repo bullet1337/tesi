@@ -1,0 +1,53 @@
+digraph SENTENCE_4876 {
+	graph [label="Но с Годзиллой за своих близких не дерется, а если кого и спасает, так это японского мальчика."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзиллой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="близких
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дерется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спасает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="японского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 13 [label="подч_союзн"]
+			3 -> 1 [label="вводн"]
+			3 -> 5 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="сент_соч"]
+			9 -> 18 [label="соч_союзн"]
+			18 -> 10 [label="обст"]
+			18 -> 15 [label="обст"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="опред"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			1 -> 2 [label="предл"]
+			5 -> 4 [label="опред"]
+}

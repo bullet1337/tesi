@@ -1,0 +1,63 @@
+digraph SENTENCE_977 {
+	graph [label="Это не просто разрекламированная «звезда», о которой вскоре забудут, а настоящий мастер своего дела, занимающийся им прежде всего для души."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разрекламированная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="звезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="забудут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="настоящий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мастер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="занимающийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="опред"]
+			23 -> 24 [label="предл"]
+			3 -> 2 [label="огранич"]
+			8 -> 9 [label="предл"]
+			11 -> 8 [label="_2_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="сент_соч"]
+			13 -> 17 [label="соч_союзн"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 11 [label="разъяснит"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 21 [label="обст"]
+			19 -> 23 [label="обст"]
+			21 -> 22 [label="предл"]
+			2 -> 1 [label="огранич"]
+}

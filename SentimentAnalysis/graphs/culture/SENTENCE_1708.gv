@@ -1,0 +1,36 @@
+digraph SENTENCE_1708 {
+	graph [label="В фильме будут сниматься певица Женя Любич, Вячеслав Бутусов и актеры театра Комик-Трест."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сниматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Женя Любич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Вячеслав Бутусов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Комик-Трест
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="аппоз"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="аналит"]
+			2 -> 4 [label="предик"]
+			2 -> 7 [label="вводн"]
+			2 -> 8 [label="сент_соч"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="аппоз"]
+			0 -> 1 [label="предл"]
+}

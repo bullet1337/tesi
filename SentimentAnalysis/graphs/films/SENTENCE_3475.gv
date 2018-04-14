@@ -1,0 +1,81 @@
+digraph SENTENCE_3475 {
+	graph [label="Актёр, по моему субъективному мнению, исполняя роль в биографическом фильме не должен забывать, что он играет реальных людей, а не просто персонажей, ведь это немножко другое."]
+	node [style=filled]
+		0 [label="Актёр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="моему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="субъективному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исполняя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="биографическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="забывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="реальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="немножко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			18 -> 22 [label="сочин"]
+			11 -> 10 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			9 -> 11 [label="предл"]
+			29 -> 28 [label="предик"]
+			20 -> 19 [label="опред"]
+			28 -> 27 [label="огранич"]
+			22 -> 25 [label="соч_союзн"]
+			7 -> 2 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			14 -> 16 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			25 -> 29 [label="релят"]
+			16 -> 18 [label="подч_союзн"]
+			13 -> 0 [label="предик"]
+			13 -> 7 [label="обст"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 30 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			2 -> 5 [label="предл"]
+			24 -> 23 [label="огранич"]
+}

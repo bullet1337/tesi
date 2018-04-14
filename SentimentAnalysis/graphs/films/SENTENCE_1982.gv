@@ -1,0 +1,42 @@
+digraph SENTENCE_1982 {
+	graph [label="Тарковского люблю уже очень давно, и началась моя любовь к нему с «Соляриса»."]
+	node [style=filled]
+		0 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="началась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Соляриса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			1 -> 6 [label="сент_соч"]
+			6 -> 7 [label="соч_союзн"]
+			12 -> 14 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="атриб"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			10 -> 11 [label="предл"]
+			7 -> 9 [label="предик"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_898 {
+	graph [label="Температура днём минус 12-14 градусов в мегаполисе, по области от минус 10 до минус 15 градусов\", — сказал собеседник агентства."]
+	node [style=filled]
+		0 [label="Температура
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="днём
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мегаполисе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="собеседник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			2 -> 6 [label="предл"]
+			8 -> 10 [label="атриб"]
+			18 -> 17 [label="количест"]
+			3 -> 5 [label="кратн"]
+			7 -> 8 [label="предл"]
+			12 -> 13 [label="предл"]
+			12 -> 15 [label="соотнос"]
+			16 -> 18 [label="предл"]
+			10 -> 11 [label="предл"]
+			6 -> 3 [label="количест"]
+			6 -> 7 [label="атриб"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 12 [label="атриб"]
+			15 -> 16 [label="предл"]
+			13 -> 14 [label="предл"]
+			22 -> 0 [label="предик"]
+			22 -> 23 [label="_2_компл"]
+			22 -> 24 [label="_1_компл"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_5 {
+	graph [label="Но Бьорк стала исключением."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исключением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			0 -> 2 [label="соч_союзн"]
+}

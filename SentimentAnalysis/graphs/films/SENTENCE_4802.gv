@@ -1,0 +1,49 @@
+digraph SENTENCE_4802 {
+	graph [label="Эти фильмы похожи, конечно, друг на друга как две капли воды, но никого это особо не волнует."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="капли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="волнует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 15 [label="_1_компл"]
+			19 -> 16 [label="предик"]
+			19 -> 17 [label="обст"]
+			19 -> 18 [label="огранич"]
+			9 -> 11 [label="сравн_союзн"]
+			14 -> 19 [label="соч_союзн"]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			7 -> 8 [label="предл"]
+			2 -> 1 [label="предик"]
+}

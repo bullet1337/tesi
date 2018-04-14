@@ -1,0 +1,45 @@
+digraph SENTENCE_3812 {
+	graph [label="Проще уж совсем отказаться от этой истории, чем пытаться отмыть, обелить и оправдать животное."]
+	node [style=filled]
+		0 [label="Проще
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отказаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пытаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отмыть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обелить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="оправдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="животное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 12 [label="_1_компл"]
+			13 -> 14 [label="соч_союзн"]
+			8 -> 9 [label="сравн_союзн"]
+			0 -> 3 [label="разъяснит"]
+			0 -> 8 [label="сравнит"]
+			12 -> 13 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+}

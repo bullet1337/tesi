@@ -1,0 +1,51 @@
+digraph SENTENCE_4610 {
+	graph [label="Предыдущий же фильм, хоть и не является шедевром, но был намного более интересным и менее предсказуемым."]
+	node [style=filled]
+		0 [label="Предыдущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="намного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="интересным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="предсказуемым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			15 -> 17 [label="соч_союзн"]
+			10 -> 11 [label="соч_союзн"]
+			13 -> 12 [label="колич_огран"]
+			11 -> 14 [label="присвяз"]
+			17 -> 16 [label="огранич"]
+			7 -> 2 [label="предик"]
+			7 -> 4 [label="огранич"]
+			7 -> 5 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="сочин"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="сочин"]
+			2 -> 0 [label="опред"]
+}

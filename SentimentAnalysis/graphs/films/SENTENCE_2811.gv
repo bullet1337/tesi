@@ -1,0 +1,33 @@
+digraph SENTENCE_2811 {
+	graph [label="Фильм адинамичен, сюжет не развивается, а просто стоит на месте."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="адинамичен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="развивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+}

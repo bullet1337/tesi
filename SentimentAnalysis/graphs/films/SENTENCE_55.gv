@@ -1,0 +1,21 @@
+digraph SENTENCE_55 {
+	graph [label="Самому искреннему, светлому и мудрому существу."]
+	node [style=filled]
+		0 [label="Самому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="искреннему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="светлому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мудрому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="существу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			3 -> 4 [label="сочин"]
+}

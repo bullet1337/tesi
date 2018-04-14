@@ -1,0 +1,27 @@
+digraph SENTENCE_442 {
+	graph [label="\"Они пали жертвой человеческой ненависти и человеческого безумия."]
+	node [style=filled]
+		1 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жертвой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человеческой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ненависти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человеческого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="безумия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_3518 {
+	graph [label="Самое слабое место фильма это то, как поданы канадцы."]
+	node [style=filled]
+		0 [label="Самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слабое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поданы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="канадцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="эксплет"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="предик"]
+			4 -> 2 [label="пролепт"]
+}

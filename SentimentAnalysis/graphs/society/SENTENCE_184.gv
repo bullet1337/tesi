@@ -1,0 +1,42 @@
+digraph SENTENCE_184 {
+	graph [label="\"Небольшие улучшения у него есть…Ему сделали КТ (компьютерная томография головного мозга – ред."]
+	node [style=filled]
+		1 [label="Небольшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="улучшения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ему
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="сделали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="КТ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="компьютерная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="томография
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="головного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мозга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			12 -> 16 [label="аппоз"]
+			8 -> 7 [label="неакт_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 12 [label="предик"]
+			2 -> 1 [label="опред"]
+			14 -> 13 [label="опред"]
+			3 -> 4 [label="предл"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 8 [label="вводн"]
+}

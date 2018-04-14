@@ -1,0 +1,54 @@
+digraph SENTENCE_1017 {
+	graph [label="Такое чувство, что злой режиссер подключал проводки к моим нервам и по очереди пускал по ним ток."]
+	node [style=filled]
+		0 [label="Такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чувство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="злой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подключал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проводки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="моим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нервам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="очереди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пускал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 14 [label="сочин"]
+			10 -> 9 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="предик"]
+			3 -> 6 [label="подч_союзн"]
+			14 -> 15 [label="_3_компл"]
+			14 -> 17 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			8 -> 10 [label="предл"]
+			8 -> 11 [label="сочин"]
+			12 -> 13 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+}

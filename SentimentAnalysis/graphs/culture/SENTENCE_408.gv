@@ -1,0 +1,64 @@
+digraph SENTENCE_408 {
+	graph [label="Завершив жалобную часть, Долматов напомнил, что у Птахи нет \"ни продаж, ни концертов, ни просмотров\", а затем неожиданно обратился к Басте."]
+	node [style=filled]
+		0 [label="Завершив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жалобную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Долматов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="напомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="продаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="концертов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="просмотров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="неожиданно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="обратился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Басте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			0 -> 2 [label="_1_компл"]
+			13 -> 15 [label="сочин"]
+			13 -> 22 [label="примыкат"]
+			18 -> 19 [label="соч_союзн"]
+			26 -> 27 [label="предл"]
+			25 -> 23 [label="обст"]
+			25 -> 24 [label="обст"]
+			25 -> 26 [label="_1_компл"]
+			7 -> 10 [label="подч_союзн"]
+			10 -> 8 [label="_1_компл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			22 -> 25 [label="соч_союзн"]
+			16 -> 18 [label="сочин"]
+			15 -> 16 [label="соч_союзн"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1538 {
+	graph [label="<…> Очень плохо, что документ попал в интернет."]
+	node [style=filled]
+		3 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="документ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="интернет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="подч_союзн"]
+			9 -> 10 [label="предл"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+}

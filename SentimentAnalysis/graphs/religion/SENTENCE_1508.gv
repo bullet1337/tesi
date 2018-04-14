@@ -1,0 +1,36 @@
+digraph SENTENCE_1508 {
+	graph [label="Для самых близких мужчин жительницы Южной Кореи готовят шоколад своими руками."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="близких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жительницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Южной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Кореи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="готовят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="шоколад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="руками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			4 -> 6 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			0 -> 3 [label="предл"]
+}

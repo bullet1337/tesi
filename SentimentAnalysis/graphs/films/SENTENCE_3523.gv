@@ -1,0 +1,39 @@
+digraph SENTENCE_3523 {
+	graph [label="Наверное полезен (не уверен что интересен) он будет детям до 18 лет."]
+	node [style=filled]
+		0 [label="Наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полезен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уверен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="интересен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="атриб"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="сент_соч"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сент_соч"]
+			11 -> 13 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			1 -> 0 [label="вводн"]
+			1 -> 4 [label="суб_копр"]
+			13 -> 12 [label="количест"]
+}

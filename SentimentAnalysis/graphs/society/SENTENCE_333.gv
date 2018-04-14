@@ -1,0 +1,24 @@
+digraph SENTENCE_333 {
+	graph [label="Кроме того, запланированы экскурсии по родильным отделениям."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="запланированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="экскурсии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="родильным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отделениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="предл"]
+			4 -> 5 [label="_3_компл"]
+			3 -> 0 [label="вводн"]
+			3 -> 4 [label="предик"]
+			5 -> 7 [label="предл"]
+}

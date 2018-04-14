@@ -1,0 +1,33 @@
+digraph SENTENCE_30 {
+	graph [label="Гости арт-пространства познакомятся с \"Казановой\", \"Мадонной\" и удивительным божеством \"Единокотом\"."]
+	node [style=filled]
+		0 [label="Гости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="арт-пространства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="познакомятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Казановой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Мадонной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="удивительным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="божеством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Единокотом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 15 [label="обст"]
+			9 -> 11 [label="сочин"]
+			3 -> 5 [label="предл"]
+			5 -> 9 [label="сочин"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+}

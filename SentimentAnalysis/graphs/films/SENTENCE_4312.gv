@@ -1,0 +1,66 @@
+digraph SENTENCE_4312 {
+	graph [label="Мало трудились и много ленились, потому и не дали, а не потому что кинокритики все как один в Ку-Клукс-Клане состоят."]
+	node [style=filled]
+		0 [label="Мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трудились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ленились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кинокритики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Ку-Клукс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Клане
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="состоят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			19 -> 16 [label="предик"]
+			19 -> 20 [label="предл"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="сочин"]
+			14 -> 23 [label="подч_союзн"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="обст"]
+			2 -> 4 [label="соч_союзн"]
+			16 -> 17 [label="сравнит"]
+			7 -> 9 [label="соч_союзн"]
+			15 -> 19 [label="ном_аппоз"]
+			17 -> 18 [label="сравн_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="сочин"]
+			11 -> 13 [label="соч_союзн"]
+			23 -> 15 [label="_1_компл"]
+			23 -> 22 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="эксплет"]
+}

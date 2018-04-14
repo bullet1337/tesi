@@ -1,0 +1,53 @@
+digraph SENTENCE_325 {
+	graph [label="Очень важно посмотреть эту картину полностью от начала и до конца иначе вы можете упустить что-то важное."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="иначе
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="упустить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="важное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="_1_компл"]
+			11 -> 13 [label="соч_союзн"]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			2 -> 4 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			4 -> 3 [label="опред"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			6 -> 8 [label="сочин"]
+			15 -> 16 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+}

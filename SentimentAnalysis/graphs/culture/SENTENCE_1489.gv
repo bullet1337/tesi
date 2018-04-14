@@ -1,0 +1,48 @@
+digraph SENTENCE_1489 {
+	graph [label="От имени режиссера \"Серебряного медведя\" забрал актер Билл Мюррей, который озвучил одну из собак в картине."]
+	node [style=filled]
+		0 [label="От
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Серебряного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="забрал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Билл Мюррей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="озвучил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="предл"]
+			2 -> 5 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="об_копр"]
+			12 -> 16 [label="обст"]
+			16 -> 17 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			8 -> 12 [label="релят"]
+			13 -> 14 [label="электив"]
+}

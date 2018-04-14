@@ -1,0 +1,42 @@
+digraph SENTENCE_1710 {
+	graph [label="Картинка серая, действие в кадре напрягает и не сулит ничего хорошего в результате."]
+	node [style=filled]
+		0 [label="Картинка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="серая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="напрягает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сулит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хорошего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			12 -> 13 [label="предл"]
+			11 -> 12 [label="обст"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 4 [label="атриб"]
+			3 -> 6 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+			10 -> 11 [label="опред"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+}

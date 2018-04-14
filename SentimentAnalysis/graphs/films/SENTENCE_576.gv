@@ -1,0 +1,23 @@
+digraph SENTENCE_576 {
+	graph [label="Фильм тяжелый, психологический, жестокий, короче о жизни."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тяжелый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="психологический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жестокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="короче
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="сочин"]
+			5 -> 8 [label="соч_союзн"]
+			8 -> 7 [label="вводн"]
+			8 -> 9 [label="предл"]
+			3 -> 5 [label="сочин"]
+}

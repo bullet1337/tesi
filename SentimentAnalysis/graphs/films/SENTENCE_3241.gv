@@ -1,0 +1,24 @@
+digraph SENTENCE_3241 {
+	graph [label="Сцена первой встречи с Тарасовым — замедленная съёмка."]
+	node [style=filled]
+		0 [label="Сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тарасовым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="замедленная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="съёмка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			0 -> 2 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="опред"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_2622 {
+	graph [label="Фильм эмоционально стерилен, он не затрагивает почти никаких чувств, благодаря плохо прописанным героям и однообразному линейному повествованию."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эмоционально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стерилен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="затрагивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чувств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прописанным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="героям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="однообразному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="линейному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="повествованию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="разъяснит"]
+			15 -> 18 [label="соч_союзн"]
+			8 -> 7 [label="огранич"]
+			13 -> 12 [label="обст"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			9 -> 8 [label="опред"]
+			11 -> 14 [label="предл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_110 {
+	graph [label="Показано, как человек видит прекрасное в повседневной жизни, которая не отличается особой радостью."]
+	node [style=filled]
+		0 [label="Показано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прекрасное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повседневной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отличается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="особой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="радостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_2_компл"]
+			2 -> 4 [label="подч_союзн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+			0 -> 2 [label="предик"]
+			0 -> 12 [label="сент_соч"]
+			5 -> 6 [label="атриб"]
+}

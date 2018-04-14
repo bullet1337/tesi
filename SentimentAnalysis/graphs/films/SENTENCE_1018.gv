@@ -1,0 +1,24 @@
+digraph SENTENCE_1018 {
+	graph [label="Заклинание «Это все не по-настоящему» не срабатывало."]
+	node [style=filled]
+		0 [label="Заклинание
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Это
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="срабатывало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			8 -> 0 [label="предик"]
+			8 -> 2 [label="_1_компл"]
+			8 -> 3 [label="предик"]
+			8 -> 5 [label="обст"]
+			8 -> 7 [label="огранич"]
+}

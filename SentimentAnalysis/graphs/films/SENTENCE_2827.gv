@@ -1,0 +1,42 @@
+digraph SENTENCE_2827 {
+	graph [label="У меня сложилось впечатление, будто это не декорации, а большая свалка техногенного мусора."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сложилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будто
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="декорации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="свалка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="техногенного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мусора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="сочин"]
+			5 -> 8 [label="соч_союзн"]
+			10 -> 12 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+}

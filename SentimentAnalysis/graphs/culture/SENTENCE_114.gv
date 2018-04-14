@@ -1,0 +1,66 @@
+digraph SENTENCE_114 {
+	graph [label="Станиславского и Немировича-Данченко и ГАБТе, где шли и идут его балеты \"Сон в летнюю ночь\", \"Дама с камелиями\", \"Чайка\" и \"Татьяна\"."]
+	node [style=filled]
+		0 [label="Станиславского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Немировича-Данченко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ГАБТе
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="идут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="балеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Сон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="летнюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ночь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Дама
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="камелиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Чайка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Татьяна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="квазиагент"]
+			11 -> 13 [label="сочин"]
+			16 -> 15 [label="опред"]
+			28 -> 30 [label="соч_союзн"]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 11 [label="предик"]
+			0 -> 1 [label="сочин"]
+			26 -> 28 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			21 -> 22 [label="предл"]
+			14 -> 16 [label="предл"]
+			4 -> 3 [label="огранич"]
+			20 -> 21 [label="атриб"]
+			7 -> 0 [label="предик"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="сочин"]
+			22 -> 26 [label="сочин"]
+			13 -> 14 [label="атриб"]
+			13 -> 20 [label="сочин"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_54 {
+	graph [label="\"Мы не ожидали, что кто-то будет посягать на церкви или мечети."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ожидали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посягать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мечети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="аналит"]
+			5 -> 7 [label="подч_союзн"]
+			10 -> 11 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+}

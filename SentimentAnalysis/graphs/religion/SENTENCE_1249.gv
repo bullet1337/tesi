@@ -1,0 +1,42 @@
+digraph SENTENCE_1249 {
+	graph [label="\"Перед каждым крупным турниром Алина приходит в Соборную мечеть вместе с бабушкой Надилей Фаатовной."]
+	node [style=filled]
+		1 [label="Перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каждым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="крупным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="турниром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Алина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="приходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Соборную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="мечеть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бабушкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Надилей Фаатовной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			7 -> 9 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			12 -> 13 [label="аппоз"]
+			9 -> 8 [label="опред"]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="обст"]
+			1 -> 4 [label="предл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_535 {
+	graph [label=") пожелал пополнить знаменитую Александрийскую библиотеку текстами священных книг, он пригласил из Иерусалима книжников."]
+	node [style=filled]
+		1 [label="пожелал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пополнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаменитую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Александрийскую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="библиотеку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="текстами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="священных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="книг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пригласил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="книжников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_3_компл"]
+			11 -> 14 [label="_1_компл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			6 -> 8 [label="квазиагент"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 11 [label="разъяснит"]
+			2 -> 5 [label="_1_компл"]
+}

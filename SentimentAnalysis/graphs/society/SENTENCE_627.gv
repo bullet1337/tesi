@@ -1,0 +1,51 @@
+digraph SENTENCE_627 {
+	graph [label="По решению адвоката, все иски подадут в Ленинский районный суд Перми — по месту нахождения регионального Минздрава."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="решению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="адвоката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="иски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подадут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ленинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="районный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Перми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="месту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нахождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="регионального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Минздрава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="квазиагент"]
+			7 -> 10 [label="предл"]
+			5 -> 4 [label="опред"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			13 -> 14 [label="предл"]
+			0 -> 1 [label="предл"]
+			15 -> 13 [label="вводн"]
+			15 -> 17 [label="_1_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 7 [label="_4_компл"]
+			6 -> 15 [label="_1_компл"]
+			2 -> 5 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+}

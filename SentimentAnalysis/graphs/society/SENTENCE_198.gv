@@ -1,0 +1,51 @@
+digraph SENTENCE_198 {
+	graph [label="Перейдя во ВШЭ, он стал соруководителем магистерской программы \"Управление образованием\", которая готовит, прежде всего, директоров школ."]
+	node [style=filled]
+		0 [label="Перейдя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ВШЭ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="соруководителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="магистерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Управление
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="образованием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="готовит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="директоров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="школ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_2_компл"]
+			20 -> 18 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="обст"]
+			15 -> 20 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			5 -> 15 [label="сент_соч"]
+}

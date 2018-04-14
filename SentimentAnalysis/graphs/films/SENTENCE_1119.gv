@@ -1,0 +1,24 @@
+digraph SENTENCE_1119 {
+	graph [label="Не каждому по вкусу слишком специфические фильмы."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="каждому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вкусу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="специфические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="огранич"]
+			6 -> 1 [label="опред"]
+			6 -> 5 [label="опред"]
+}

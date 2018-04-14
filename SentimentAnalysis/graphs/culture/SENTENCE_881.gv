@@ -1,0 +1,30 @@
+digraph SENTENCE_881 {
+	graph [label="Картина \"Диван Сталина\" основана на одноименном романе Жан-Даниэля Бальтасса."]
+	node [style=filled]
+		0 [label="Картина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Диван
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="основана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одноименном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="романе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Жан-Даниэля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Бальтасса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			0 -> 2 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="ном_аппоз"]
+			8 -> 10 [label="квазиагент"]
+			2 -> 3 [label="атриб"]
+}

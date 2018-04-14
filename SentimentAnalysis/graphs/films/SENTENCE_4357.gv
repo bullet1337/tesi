@@ -1,0 +1,27 @@
+digraph SENTENCE_4357 {
+	graph [label="Как говорится, кто в лес, кто по дрова."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дрова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 3 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+}

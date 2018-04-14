@@ -1,0 +1,30 @@
+digraph SENTENCE_629 {
+	graph [label="\"Будут ли в суде учитывать результаты ДНК-экспертизы, говорить рано."]
+	node [style=filled]
+		1 [label="Будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="суде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="учитывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="результаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ДНК-экспертизы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рано
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="квазиагент"]
+			9 -> 10 [label="обст"]
+			1 -> 2 [label="огранич"]
+			1 -> 3 [label="обст"]
+			1 -> 5 [label="аналит"]
+			1 -> 9 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

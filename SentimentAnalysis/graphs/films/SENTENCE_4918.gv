@@ -1,0 +1,52 @@
+digraph SENTENCE_4918 {
+	graph [label="4 из 10
+Эта рецензия ни в коем случае не является противопоказанием для похода в кинотеатр."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Эта
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="рецензия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="коем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="противопоказанием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="похода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кинотеатр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="предл"]
+			13 -> 14 [label="_2_компл"]
+			0 -> 1 [label="электив"]
+			10 -> 6 [label="обст"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 10 [label="релят"]
+			11 -> 12 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			14 -> 15 [label="предл"]
+}

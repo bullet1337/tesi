@@ -1,0 +1,57 @@
+digraph SENTENCE_2708 {
+	graph [label="Ниандер Уоллес (Джаред Лето), ещё до фильма представленный в единственной (из трёх) любопытной короткометражке «Возрождение Nеxus», есть ровно в двух (!"]
+	node [style=filled]
+		0 [label="Ниандер Уоллес
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Джаред Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представленный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="единственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трёх
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любопытной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="короткометражке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Возрождение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Nеxus
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ровно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="примыкат"]
+			12 -> 16 [label="предл"]
+			22 -> 24 [label="присвяз"]
+			9 -> 10 [label="предл"]
+			8 -> 9 [label="обст"]
+			0 -> 2 [label="аппоз"]
+			7 -> 8 [label="опред"]
+			24 -> 23 [label="огранич"]
+			24 -> 25 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			6 -> 22 [label="сент_соч"]
+			10 -> 12 [label="электив"]
+			16 -> 13 [label="количест"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="аппоз"]
+}

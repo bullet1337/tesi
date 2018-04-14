@@ -1,0 +1,42 @@
+digraph SENTENCE_2775 {
+	graph [label="Всему виной невыносимая скука и тягомотина, которая преследовала меня на протяжении всего фильма."]
+	node [style=filled]
+		0 [label="Всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="виной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="невыносимая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тягомотина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="преследовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="об_аппоз"]
+			8 -> 1 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			10 -> 11 [label="предл"]
+			11 -> 13 [label="квазиагент"]
+}

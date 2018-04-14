@@ -1,0 +1,30 @@
+digraph SENTENCE_883 {
+	graph [label="Дата окончания аккредитации — 21.00 мск 25 февраля 2018 года."]
+	node [style=filled]
+		0 [label="Дата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="окончания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="аккредитации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="21.00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мск
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 6 [label="атриб"]
+			2 -> 5 [label="нум_аппоз"]
+			5 -> 4 [label="количест"]
+			7 -> 9 [label="атриб"]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="атриб"]
+}

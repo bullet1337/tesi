@@ -1,0 +1,24 @@
+digraph SENTENCE_23 {
+	graph [label="\"Как патриархи сегодня объявили, не назначен срок."]
+	node [style=filled]
+		1 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="патриархи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="объявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="назначен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="срок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предик"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="обст"]
+			4 -> 7 [label="обст"]
+			1 -> 2 [label="сравн_союзн"]
+}

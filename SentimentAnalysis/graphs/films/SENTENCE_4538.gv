@@ -1,0 +1,21 @@
+digraph SENTENCE_4538 {
+	graph [label="Шутка ли, планета под угрозой вымирания."]
+	node [style=filled]
+		0 [label="Шутка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="планета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="угрозой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вымирания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			0 -> 1 [label="огранич"]
+			0 -> 3 [label="предик"]
+			0 -> 4 [label="обст"]
+			4 -> 5 [label="предл"]
+}

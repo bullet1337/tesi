@@ -1,0 +1,66 @@
+digraph SENTENCE_3116 {
+	graph [label="Мне вспомнилась фраза владельца ранчо сказанная главным героям когда они загоняли овец: «Вы ни на что не пригодны»… этим все сказано!"]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вспомнилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фраза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="владельца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ранчо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сказанная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="героям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="загоняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="овец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Вы
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пригодны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сказано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 24 [label="сент_соч"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 8 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			22 -> 23 [label="опред"]
+			2 -> 19 [label="_1_компл"]
+			8 -> 10 [label="подч_союзн"]
+			19 -> 3 [label="_1_компл"]
+			19 -> 14 [label="предик"]
+			19 -> 16 [label="обст"]
+			19 -> 18 [label="огранич"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			24 -> 22 [label="_2_компл"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предл"]
+}

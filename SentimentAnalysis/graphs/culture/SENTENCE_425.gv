@@ -1,0 +1,54 @@
+digraph SENTENCE_425 {
+	graph [label="Как заявили РИА Новости в кинотеатре, в реестре Минкультуры было указано, что прокатное удостоверение на картину продолжает действовать."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кинотеатре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="реестре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Минкультуры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="указано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прокатное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="удостоверение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="действовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="вводн"]
+			9 -> 8 [label="предик"]
+			9 -> 10
+			9 -> 12 [label="предик"]
+			6 -> 7 [label="предл"]
+			12 -> 17 [label="подч_союзн"]
+			1 -> 2 [label="предик"]
+			1 -> 3 [label="обст"]
+			1 -> 6 [label="обст"]
+			17 -> 14 [label="предик"]
+			17 -> 15 [label="обст"]
+			17 -> 18 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			15 -> 16 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			3 -> 4 [label="предл"]
+}

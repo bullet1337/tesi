@@ -1,0 +1,30 @@
+digraph SENTENCE_2084 {
+	graph [label="«Человек — вот правда!» — написано в произведении нашего великого классика."]
+	node [style=filled]
+		1 [label="Человек
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="написано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="произведении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="великого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="классика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 1 [label="предик"]
+			8 -> 4 [label="вводн"]
+			8 -> 9 [label="обст"]
+			8 -> 13 [label="разъяснит"]
+			9 -> 10 [label="предл"]
+			4 -> 3 [label="огранич"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+}

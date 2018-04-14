@@ -1,0 +1,39 @@
+digraph SENTENCE_3537 {
+	graph [label="А это хоккеисты из провинциальной команды они пьют водку и сдают матчи."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хоккеисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="провинциальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="команды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пьют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="водку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сдают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="матчи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			3 -> 5 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="атриб"]
+			2 -> 7 [label="сент_соч"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="сочин"]
+}

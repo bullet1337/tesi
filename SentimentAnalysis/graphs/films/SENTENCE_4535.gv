@@ -1,0 +1,30 @@
+digraph SENTENCE_4535 {
+	graph [label="Ироничные блокбастеры — не так плохо, есть хотя бы оправдание."]
+	node [style=filled]
+		0 [label="Ироничные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="блокбастеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="плохо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оправдание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="огранич"]
+			10 -> 9
+			1 -> 0 [label="опред"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="сент_соч"]
+			4 -> 3 [label="огранич"]
+			7 -> 10 [label="предик"]
+}

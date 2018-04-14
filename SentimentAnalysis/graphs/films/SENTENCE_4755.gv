@@ -1,0 +1,77 @@
+digraph SENTENCE_4755 {
+	graph [label="это тупой, скучный, пафосный фильм, в котором Годзилла это не то, что второ, это четверостепенный персонаж, появляющийся всего три-четыре раза и то на долю секунды."]
+	node [style=filled]
+		0 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тупой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скучный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пафосный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="второ
+COM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="четверостепенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="появляющийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="три-четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="долю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="секунды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="пролепт"]
+			15 -> 30 [label="подч_союзн"]
+			26 -> 27 [label="соч_союзн"]
+			20 -> 16 [label="атриб"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="опред"]
+			20 -> 22 [label="опред"]
+			8 -> 9 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 1 [label="опред"]
+			6 -> 3 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 13 [label="сент_соч"]
+			22 -> 25 [label="обст"]
+			22 -> 26 [label="сочин"]
+			13 -> 8 [label="обст"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			25 -> 24 [label="количест"]
+			24 -> 23 [label="огранич"]
+			30 -> 20 [label="предик"]
+			30 -> 28 [label="обст"]
+			28 -> 29 [label="предл"]
+}

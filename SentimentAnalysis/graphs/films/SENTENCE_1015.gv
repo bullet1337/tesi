@@ -1,0 +1,47 @@
+digraph SENTENCE_1015 {
+	graph [label="Положение осложняет то, что зрение самой Сальмы ухудшается каждый день, и надо успеть собрать сумму."]
+	node [style=filled]
+		0 [label="Положение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="осложняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сальмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="ухудшается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="успеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="собрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сумму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			8 -> 5 [label="предик"]
+			8 -> 10 [label="длительн"]
+			8 -> 12 [label="сент_соч"]
+			15 -> 16 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			13 -> 14 [label="предик"]
+			2 -> 4 [label="эксплет"]
+			5 -> 7 [label="квазиагент"]
+			4 -> 8 [label="подч_союзн"]
+			10 -> 9 [label="опред"]
+}

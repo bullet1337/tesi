@@ -1,0 +1,83 @@
+digraph SENTENCE_175 {
+	graph [label="По словам режиссера, она не хочет выделять только Эмму Бовари, так как она в романе не одна, вокруг нее все провинциальное общество — все это такое собирательное понятие \"бовари\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выделять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Эмму Бовари
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="романе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="одна
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="провинциальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="собирательное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="понятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="бовари
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="эксплет"]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+			17 -> 13 [label="предик"]
+			17 -> 14 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			17 -> 19 [label="сент_соч"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			19 -> 23 [label="предик"]
+			19 -> 26 [label="сент_соч"]
+			28 -> 27 [label="опред"]
+			29 -> 28 [label="опред"]
+			29 -> 31 [label="аппоз"]
+			14 -> 15 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			26 -> 25 [label="опред"]
+			12 -> 17 [label="сравн_союзн"]
+			9 -> 8 [label="огранич"]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 11 [label="обст"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_1375 {
+	graph [label="\"Известно немало случаев проведения обрезания за пределами хирургических центров, например на дому, где не может быть стерильности."]
+	node [style=filled]
+		1 [label="Известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="немало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="случаев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обрезания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пределами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хирургических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="центров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дому
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стерильности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 11 [label="вводн"]
+			17 -> 12 [label="обст"]
+			17 -> 15 [label="обст"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="предик"]
+			7 -> 9 [label="квазиагент"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="предик"]
+			1 -> 6 [label="обст"]
+			1 -> 17 [label="вводн"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_716 {
+	graph [label="Я не думаю, что страх останавливает ее перед тем, чтобы выпустить свой репортаж, а именно личные чувства\", — сказал Бекмамбетов."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="страх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="останавливает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выпустить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="репортаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="личные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Бекмамбетов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 11 [label="эксплет"]
+			16 -> 23 [label="соч_союзн"]
+			4 -> 6 [label="подч_союзн"]
+			19 -> 18 [label="опред"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+			12 -> 16 [label="сочин"]
+			23 -> 19 [label="_1_компл"]
+			23 -> 24 [label="предик"]
+			11 -> 12 [label="инф_союзн"]
+			18 -> 17 [label="огранич"]
+}

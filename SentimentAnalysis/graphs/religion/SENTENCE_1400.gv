@@ -1,0 +1,60 @@
+digraph SENTENCE_1400 {
+	graph [label="Датская медицинская ассоциация призвала власти принять незамедлительные меры по его запрету, поскольку обрезание, убеждены врачи, требует \"информированного согласия лица\"."]
+	node [style=filled]
+		0 [label="Датская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="медицинская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ассоциация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="призвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="принять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="незамедлительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="запрету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обрезание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="убеждены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="врачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="требует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="информированного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="согласия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="лица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			15 -> 13 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 12 [label="обст"]
+			18 -> 16 [label="предик"]
+			18 -> 21 [label="_1_компл"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			12 -> 15 [label="подч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 18 [label="разъяснит"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			10 -> 9 [label="квазиагент"]
+}

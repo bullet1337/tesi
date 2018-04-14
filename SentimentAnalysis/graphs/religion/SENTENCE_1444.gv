@@ -1,0 +1,45 @@
+digraph SENTENCE_1444 {
+	graph [label="\"Папа Франциск был глубоко опечален, узнав о трагической стрельбе, которая состоялась в школе в Парклэнде."]
+	node [style=filled]
+		1 [label="Папа Франциск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="глубоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="опечален
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="узнав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="трагической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стрельбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Парклэнде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			6 -> 7 [label="_2_компл"]
+			9 -> 8 [label="опред"]
+			15 -> 16 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 4
+			2 -> 12 [label="сент_соч"]
+			7 -> 9 [label="предл"]
+}

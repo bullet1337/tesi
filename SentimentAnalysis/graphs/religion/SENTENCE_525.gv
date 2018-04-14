@@ -1,0 +1,83 @@
+digraph SENTENCE_525 {
+	graph [label="Самолет Ан-148 \"Саратовских авиалиний\" Москва — Орск разбился в воскресенье, 11 февраля, через несколько минут после взлета из \"Домодедово\", на борту находились 65 пассажиров и шесть членов экипажа."]
+	node [style=filled]
+		0 [label="Самолет Ан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="148
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Саратовских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="авиалиний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Москва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Орск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="разбился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="взлета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Домодедово
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="борту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="находились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="65
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="пассажиров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="шесть
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="членов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="экипажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 22 [label="атриб"]
+			21 -> 27 [label="атриб"]
+			19 -> 18 [label="количест"]
+			5 -> 4 [label="опред"]
+			14 -> 15 [label="атриб"]
+			27 -> 28 [label="предл"]
+			29 -> 0 [label="предик"]
+			29 -> 31 [label="длительн"]
+			29 -> 32 [label="сент_соч"]
+			31 -> 30 [label="количест"]
+			20 -> 21 [label="предл"]
+			0 -> 5 [label="атриб"]
+			0 -> 7 [label="аппоз"]
+			0 -> 10 [label="релят"]
+			0 -> 2 [label="аппоз"]
+			17 -> 19 [label="предл"]
+			34 -> 33 [label="количест"]
+			34 -> 35 [label="_1_компл"]
+			22 -> 24 [label="предл"]
+			11 -> 12 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 14 [label="обст"]
+			10 -> 17 [label="обст"]
+			10 -> 20 [label="обст"]
+}

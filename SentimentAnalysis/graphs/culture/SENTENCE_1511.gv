@@ -1,0 +1,27 @@
+digraph SENTENCE_1511 {
+	graph [label="Это было настоящим испытанием и очень тяжелой работой."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настоящим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="испытанием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тяжелой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="работой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			3 -> 2 [label="опред"]
+			4 -> 7 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="присвяз"]
+			1 -> 4 [label="сочин"]
+			7 -> 6 [label="опред"]
+}

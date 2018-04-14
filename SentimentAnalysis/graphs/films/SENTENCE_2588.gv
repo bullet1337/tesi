@@ -1,0 +1,27 @@
+digraph SENTENCE_2588 {
+	graph [label="Вот что бывает, когда режиссеру снятся электронные овцы."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="режиссеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="снятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="электронные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="овцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="предик"]
+			8 -> 7 [label="опред"]
+			4 -> 6 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+			1 -> 0 [label="огранич"]
+}

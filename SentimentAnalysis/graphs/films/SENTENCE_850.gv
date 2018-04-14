@@ -1,0 +1,39 @@
+digraph SENTENCE_850 {
+	graph [label="Легенда французского кинематографа Катрин Денев также вносит свою значительную лепту в восприятие фильма."]
+	node [style=filled]
+		0 [label="Легенда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="французского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="значительную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лепту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="восприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 9 [label="_2_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 2 [label="сочин"]
+}

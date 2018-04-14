@@ -1,0 +1,42 @@
+digraph SENTENCE_1285 {
+	graph [label="Она выглядит беззащитной, но она сильная, она выглядит одинокой, но она не одна."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выглядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="беззащитной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выглядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="одинокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="сент_соч"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			12 -> 15 [label="соч_союзн"]
+			6 -> 5 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сент_соч"]
+			1 -> 9 [label="разъяснит"]
+			4 -> 6 [label="соч_союзн"]
+}

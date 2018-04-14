@@ -1,0 +1,33 @@
+digraph SENTENCE_33 {
+	graph [label="Композитор написал ее на либретто Модеста Чайковского по одноименной повести Александра Пушкина."]
+	node [style=filled]
+		0 [label="Композитор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="либретто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Модеста Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одноименной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="повести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Александра Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 6 [label="обст"]
+			1 -> 9 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_452 {
+	graph [label="Хотя ей самой зрение не важно, она об этом не раз говорит."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="важно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3
+			11 -> 10 [label="огранич"]
+			0 -> 5 [label="подч_союзн"]
+			0 -> 12 [label="вводн"]
+			8 -> 9 [label="предл"]
+			1 -> 2 [label="опред"]
+			12 -> 8 [label="_3_компл"]
+			12 -> 11 [label="обст"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предик"]
+}

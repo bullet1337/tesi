@@ -1,0 +1,75 @@
+digraph SENTENCE_1118 {
+	graph [label="Мы больше не будем требовать от жителей Иерусалима нести это бремя и субсидировать этот колоссальный долг\", — сказано в заявлении Барката, которое распространила пресс-служба мэрии."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="требовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="нести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бремя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="субсидировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="колоссальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="долг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сказано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="заявлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Барката
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="распространила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="мэрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="сочин"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="аналит"]
+			3 -> 19
+			3 -> 25 [label="сент_соч"]
+			26 -> 27 [label="квазиагент"]
+			19 -> 20 [label="обст"]
+			5 -> 6 [label="предл"]
+			21 -> 22 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+			10 -> 9 [label="опред"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 8 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			25 -> 24 [label="_1_компл"]
+			25 -> 26 [label="предик"]
+			12 -> 15 [label="_1_компл"]
+}

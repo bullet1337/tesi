@@ -1,0 +1,36 @@
+digraph SENTENCE_1141 {
+	graph [label="\"На стороне евреев были болгарская православная церковь, интеллигенция и общественное мнение."]
+	node [style=filled]
+		1 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стороне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="болгарская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="интеллигенция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="общественное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="сочин"]
+			4 -> 1 [label="обст"]
+			4 -> 7 [label="присвяз"]
+			10 -> 12 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="сочин"]
+}

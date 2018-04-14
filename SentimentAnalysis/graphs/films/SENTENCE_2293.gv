@@ -1,0 +1,63 @@
+digraph SENTENCE_2293 {
+	graph [label="Я люблю фильмы со смыслом, такие, чтобы «взрывали» мозг и мне почему-то казалось, что этот фильм должен быть именно таким."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смыслом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="взрывали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мозг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="почему-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="_1_компл"]
+			6 -> 13 [label="сочин"]
+			16 -> 15 [label="обст"]
+			16 -> 18 [label="предик"]
+			2 -> 3 [label="атриб"]
+			18 -> 21 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сочин"]
+			1 -> 16 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			22 -> 24 [label="присвяз"]
+			13 -> 14 [label="соч_союзн"]
+			10 -> 12 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+			8 -> 10 [label="подч_союзн"]
+			24 -> 23 [label="огранич"]
+}

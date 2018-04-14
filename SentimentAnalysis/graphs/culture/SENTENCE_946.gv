@@ -1,0 +1,51 @@
+digraph SENTENCE_946 {
+	graph [label="Среди абонементов с участием знаменитых солистов одной из знаковых серий станет \"Grand piano masters/Мастера рояля\"."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="абонементов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знаменитых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="солистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знаковых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="серий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Grand
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="piano
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="masters
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Мастера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="рояля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			13 -> 14 [label="аппоз"]
+			10 -> 12 [label="предик"]
+			16 -> 17 [label="сочин"]
+			0 -> 1 [label="предл"]
+			9 -> 8 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 7 [label="электив"]
+			6 -> 10 [label="разъяснит"]
+			12 -> 13 [label="аппоз"]
+			12 -> 16 [label="сочин"]
+			2 -> 3 [label="предл"]
+			7 -> 9 [label="предл"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="квазиагент"]
+}

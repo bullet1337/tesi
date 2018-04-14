@@ -1,0 +1,51 @@
+digraph SENTENCE_3743 {
+	graph [label="Обычное шоу, вроде гладиаторских боев для римского плебса (даже постер здесь скопирован из одноименного американского фильма)."]
+	node [style=filled]
+		0 [label="Обычное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="шоу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вроде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гладиаторских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="боев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="римского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плебса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="постер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="скопирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одноименного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="американского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="атриб"]
+			3 -> 5 [label="предл"]
+			6 -> 8 [label="предл"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="_2_компл"]
+			14 -> 17 [label="предл"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			11 -> 1 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="релят"]
+}

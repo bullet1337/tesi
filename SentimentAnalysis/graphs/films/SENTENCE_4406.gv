@@ -1,0 +1,45 @@
+digraph SENTENCE_4406 {
+	graph [label="Мы такое явление не создаём, нормальным не считаем и, следовательно, своей ответственности не чувствуем."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="явление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создаём
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нормальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="считаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="следовательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ответственности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чувствуем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 8 [label="сочин"]
+			14 -> 13 [label="опред"]
+			9 -> 16 [label="соч_союзн"]
+			16 -> 11 [label="вводн"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			8 -> 6 [label="_2_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="сочин"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_256 {
+	graph [label="\"Иерусалим — священный город трех монотеистических религий, его особый статус и характер должны всеми сохраняться и защищаться\", — отметила Могерини."]
+	node [style=filled]
+		1 [label="Иерусалим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="священный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="город
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="монотеистических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="религий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="особый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сохраняться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="защищаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="отметила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Могерини
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			22 -> 23 [label="предик"]
+			11 -> 9 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			7 -> 5 [label="количест"]
+			7 -> 6 [label="опред"]
+			7 -> 11 [label="сочин"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 7 [label="сочин"]
+			4 -> 14 [label="разъяснит"]
+			4 -> 22 [label="вводн"]
+			17 -> 18 [label="соч_союзн"]
+			14 -> 16 [label="_1_компл"]
+			16 -> 15 [label="_1_компл"]
+			16 -> 17 [label="сочин"]
+}

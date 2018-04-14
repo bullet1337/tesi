@@ -1,0 +1,42 @@
+digraph SENTENCE_1605 {
+	graph [label="У меня был самый настоящий шок, я пару минут потом сидела в ступоре."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="настоящий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пару
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ступоре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="квазиагент"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="разъяснит"]
+			12 -> 13 [label="предл"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 11 [label="сент_соч"]
+}

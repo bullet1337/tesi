@@ -1,0 +1,60 @@
+digraph SENTENCE_579 {
+	graph [label="Раз в семь лет, по старой традиции, ее выставляют для поклонения и происходит знаменитое на весь мир Ахенское паломничество."]
+	node [style=filled]
+		0 [label="Раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="семь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="старой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выставляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="поклонения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знаменитое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Ахенское
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="паломничество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="распред"]
+			5 -> 7 [label="предл"]
+			16 -> 18 [label="предл"]
+			3 -> 2 [label="количест"]
+			18 -> 17 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			20 -> 15 [label="опред"]
+			20 -> 19 [label="опред"]
+			11 -> 12 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 5 [label="обст"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 13 [label="сочин"]
+			14 -> 20 [label="предик"]
+			1 -> 3 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1571 {
+	graph [label="В 2012 году Конгрегации по канонизации святых вынесла положительное решение по данному вопросу."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2012
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Конгрегации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="канонизации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="святых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вынесла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="положительное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="данному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вопросу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			10 -> 12 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			12 -> 11 [label="опред"]
+}

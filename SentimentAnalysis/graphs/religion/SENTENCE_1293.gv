@@ -1,0 +1,39 @@
+digraph SENTENCE_1293 {
+	graph [label="\"В основном помощь будет оказана семьям погибших, раненых и наиболее нуждающимся людям."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="основном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оказана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="семьям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="раненых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нуждающимся
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 13 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			6 -> 9 [label="квазиагент"]
+			5 -> 6 [label="_2_компл"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5
+			4 -> 10 [label="сент_соч"]
+			9 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			12 -> 11 [label="огранич"]
+}

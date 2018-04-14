@@ -1,0 +1,27 @@
+digraph SENTENCE_1504 {
+	graph [label="Она вообще одиночка, никого к себе не подпускает."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="одиночка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подпускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 8 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+			8 -> 4 [label="_1_компл"]
+			8 -> 5 [label="_2_компл"]
+			8 -> 7 [label="огранич"]
+}

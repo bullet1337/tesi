@@ -1,0 +1,46 @@
+digraph SENTENCE_3853 {
+	graph [label="О ней говорили многие и многое, каждый хоть раз, да видел кадры из этого фильма."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="говорили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="многое
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кадры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 12 [label="подч_союзн"]
+			4 -> 5 [label="соч_союзн"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="вводн"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+			2 -> 0 [label="_3_компл"]
+			3 -> 4 [label="сочин"]
+			0 -> 1 [label="предл"]
+			14 -> 16 [label="предл"]
+			5 -> 7 [label="опред"]
+}

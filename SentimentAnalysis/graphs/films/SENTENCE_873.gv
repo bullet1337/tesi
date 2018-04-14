@@ -1,0 +1,21 @@
+digraph SENTENCE_873 {
+	graph [label="Так случилось и с нашей Сельмой."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сельмой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="обст"]
+}

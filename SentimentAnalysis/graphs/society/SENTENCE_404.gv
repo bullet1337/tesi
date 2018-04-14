@@ -1,0 +1,42 @@
+digraph SENTENCE_404 {
+	graph [label="Это — новая социальная конституция отрасли\", — отметил председатель Общероссийского профсоюза работников общего машиностроения Станислав Щорба."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="новая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="социальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конституция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отрасли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Общероссийского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="профсоюза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="работников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="машиностроения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Станислав Щорба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			13 -> 15 [label="_1_компл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 16 [label="аппоз"]
+			9 -> 10 [label="предик"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 9 [label="вводн"]
+			15 -> 14 [label="опред"]
+}

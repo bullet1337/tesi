@@ -1,0 +1,27 @@
+digraph SENTENCE_821 {
+	graph [label="\"Как будет проходить эта процедура (отбора актеров — ред."]
+	node [style=filled]
+		1 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="процедура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отбора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			8 -> 10 [label="аппоз"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			3 -> 5 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_347 {
+	graph [label="В Крыму проживает 277,3 тысячи крымских татар."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Крыму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="проживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="277,3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тысячи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="крымских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="татар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+			4 -> 3 [label="количест"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+}

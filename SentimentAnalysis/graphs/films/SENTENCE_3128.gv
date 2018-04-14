@@ -1,0 +1,65 @@
+digraph SENTENCE_3128 {
+	graph [label="Только из любви к актерам, исполняющим две главные роли, ставлю: 4 из 10
+Немного личного: Ничего не могу с собой поделать."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актерам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исполняющим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ставлю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="личного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Ничего
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="поделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 22 [label="_1_компл"]
+			4 -> 6 [label="опред"]
+			6 -> 9 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			11 -> 1 [label="_2_компл"]
+			11 -> 13 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			13 -> 14 [label="электив"]
+			17 -> 16 [label="огранич"]
+			17 -> 21 [label="примыкат"]
+			9 -> 7 [label="количест"]
+			9 -> 8 [label="опред"]
+			22 -> 23 [label="предл"]
+			21 -> 19 [label="предик"]
+			21 -> 20 [label="огранич"]
+			21 -> 24 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

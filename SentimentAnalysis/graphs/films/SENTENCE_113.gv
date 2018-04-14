@@ -1,0 +1,23 @@
+digraph SENTENCE_113 {
+	graph [label="Он поступил типично для многих и многих."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="типично
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			2 -> 3 [label="_1_компл"]
+			4 -> 5 [label="сочин"]
+}

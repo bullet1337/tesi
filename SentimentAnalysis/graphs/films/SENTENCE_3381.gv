@@ -1,0 +1,33 @@
+digraph SENTENCE_3381 {
+	graph [label=") Что за фантастику — «тренировка на тросах ТЭЦ» — вы нам показываете!?"]
+	node [style=filled]
+		1 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фантастику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тренировка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тросах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ТЭЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="показываете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			3 -> 1 [label="опред"]
+			6 -> 7 [label="атриб"]
+			14 -> 3 [label="_1_компл"]
+			14 -> 6 [label="предик"]
+			14 -> 9 [label="_1_компл"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="_2_компл"]
+			1 -> 2
+}

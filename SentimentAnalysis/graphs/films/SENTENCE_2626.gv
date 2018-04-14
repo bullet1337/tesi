@@ -1,0 +1,46 @@
+digraph SENTENCE_2626 {
+	graph [label="«Совершенство достигнуто не тогда, когда нечего добавить, а когда нечего убрать.» (с) Антуан де Сент-Экзюпери."]
+	node [style=filled]
+		1 [label="Совершенство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="достигнуто
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="добавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="убрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Антуан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="де
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Сент-Экзюпери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предик"]
+			7 -> 10 [label="сент_соч"]
+			19 -> 21 [label="аппоз"]
+			4 -> 3 [label="огранич"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="обст"]
+			13 -> 17 [label="_2_компл"]
+			21 -> 20
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+			10 -> 13 [label="соч_союзн"]
+			17 -> 19 [label="предл"]
+}

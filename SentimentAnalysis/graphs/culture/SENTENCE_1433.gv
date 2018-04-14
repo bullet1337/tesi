@@ -1,0 +1,42 @@
+digraph SENTENCE_1433 {
+	graph [label="Свадьба Энистон и Теру состоялась в августе 2015 года, через четыре года после помолвки."]
+	node [style=filled]
+		0 [label="Свадьба Энистон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Теру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="августе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="помолвки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сочин"]
+			11 -> 10 [label="количест"]
+			4 -> 5 [label="предл"]
+			1 -> 2 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="_1_компл"]
+			3 -> 12 [label="обст"]
+			9 -> 11 [label="предл"]
+			7 -> 6 [label="опред"]
+			12 -> 13 [label="предл"]
+			5 -> 7 [label="атриб"]
+}

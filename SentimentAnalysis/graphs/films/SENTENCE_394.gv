@@ -1,0 +1,33 @@
+digraph SENTENCE_394 {
+	graph [label="Тьма, неизбежно становящаяся все более кромешной, поглощающая каждую частичку света."]
+	node [style=filled]
+		0 [label="Тьма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неизбежно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="становящаяся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кромешной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поглощающая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каждую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="частичку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			0 -> 3 [label="опред"]
+			10 -> 0 [label="предик"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			3 -> 2 [label="обст"]
+			3 -> 6 [label="присвяз"]
+}

@@ -1,0 +1,87 @@
+digraph SENTENCE_733 {
+	graph [label="В 1938 году в \"Кратком курсе истории ВКП(б)\" изложена новая версия происхождения праздника: день отпора \"войскам германского империализма\" под Нарвой и Псковом стал днем рождения Красной Армии."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1938
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кратком
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="курсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ВКП
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="б
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="изложена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="новая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="версия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="происхождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="праздника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отпора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="войскам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="германского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="империализма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Нарвой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Псковом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Красной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="Армии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 3 [label="огранич"]
+			10 -> 8 [label="количест"]
+			24 -> 23 [label="опред"]
+			27 -> 28 [label="сочин"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			32 -> 34 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			13 -> 0 [label="обст"]
+			13 -> 10 [label="агент"]
+			13 -> 15 [label="предик"]
+			13 -> 30 [label="сент_соч"]
+			30 -> 31 [label="присвяз"]
+			19 -> 20 [label="сочин"]
+			22 -> 24 [label="_1_компл"]
+			22 -> 26 [label="атриб"]
+			28 -> 29 [label="соч_союзн"]
+			26 -> 27 [label="предл"]
+			16 -> 17 [label="сочин"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="разъяснит"]
+			17 -> 19 [label="сочин"]
+			34 -> 33 [label="опред"]
+			20 -> 22 [label="сочин"]
+			3 -> 6 [label="предл"]
+			31 -> 32 [label="квазиагент"]
+}

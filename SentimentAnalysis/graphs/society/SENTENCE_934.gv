@@ -1,0 +1,51 @@
+digraph SENTENCE_934 {
+	graph [label="Вместе с министром ветерана посетили начальник ГУМЧС РФ по Москве Илья Денисов и представители ветеранской организации министерства."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="министром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ветерана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посетили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="начальник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ГУМЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Илья Денисов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ветеранской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="министерства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="аппоз"]
+			11 -> 12 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="аппоз"]
+			5 -> 11 [label="сочин"]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 8 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+}

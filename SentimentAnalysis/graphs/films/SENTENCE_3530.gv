@@ -1,0 +1,51 @@
+digraph SENTENCE_3530 {
+	graph [label="На 80-е место фильма в ТОП250 (выше почти всей мировой киноклассики) мне смотреть невыносимо больно."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="80-е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ТОП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="250
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="киноклассики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="невыносимо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="больно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			9 -> 8 [label="огранич"]
+			0 -> 1 [label="предл"]
+			10 -> 9 [label="огранич"]
+			8 -> 6
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			15 -> 0 [label="обст"]
+			15 -> 2 [label="_1_компл"]
+			15 -> 14 [label="дат_субъект"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="обст"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 4 [label="атриб"]
+			2 -> 12 [label="квазиагент"]
+}

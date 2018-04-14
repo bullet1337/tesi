@@ -1,0 +1,60 @@
+digraph SENTENCE_473 {
+	graph [label="Композиция построена на произведениях трех авторов: одноименной пьесе Михаила Булгакова, поэме Александра Пушкина \"Медный всадник\" и новой пьесе Бориса Акунина \"Убить Змееныша\"."]
+	node [style=filled]
+		0 [label="Композиция
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="построена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="произведениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="авторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одноименной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Михаила Булгакова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="поэме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Александра Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Медный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="всадник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Бориса Акунина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Убить
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Змееныша
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 19 [label="соч_союзн"]
+			9 -> 20 [label="аппоз"]
+			9 -> 11 [label="аппоз"]
+			19 -> 18 [label="опред"]
+			2 -> 3 [label="предл"]
+			11 -> 12 [label="ном_аппоз"]
+			11 -> 15 [label="примыкат"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="количест"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 9 [label="аппоз"]
+			5 -> 22 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="сочин"]
+			22 -> 23 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="разъяснит"]
+}

@@ -1,0 +1,50 @@
+digraph SENTENCE_1035 {
+	graph [label="И дурные мысли приводят к разрушению и самого человека, и близких ему людей, и всего вокруг."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дурные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приводят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разрушению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="близких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="атриб"]
+			0 -> 3 [label="соч_союзн"]
+			15 -> 16 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			10 -> 13 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			13 -> 11 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+			8 -> 15 [label="сочин"]
+}

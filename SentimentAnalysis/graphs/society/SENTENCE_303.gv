@@ -1,0 +1,24 @@
+digraph SENTENCE_303 {
+	graph [label="Он не чувствует себя сопричастным французскому обществу."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чувствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сопричастным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="французскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обществу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+}

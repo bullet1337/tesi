@@ -1,0 +1,30 @@
+digraph SENTENCE_3367 {
+	graph [label="Экранный Всеволод Бобров, вообще, не имеет никакого сходства с реальным."]
+	node [style=filled]
+		0 [label="Экранный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Всеволод Бобров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никакого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сходства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			6 -> 1 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			8 -> 7 [label="опред"]
+			9 -> 10 [label="предл"]
+}

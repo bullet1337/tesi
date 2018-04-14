@@ -1,0 +1,45 @@
+digraph SENTENCE_4361 {
+	graph [label="В заключение скажу фильм мне не понравился, если не посмотрите то ничего не потеряете."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заключение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понравился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посмотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="потеряете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 11 [label="огранич"]
+			2 -> 14 [label="_1_компл"]
+			8 -> 10 [label="подч_союзн"]
+			10 -> 9 [label="огранич"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="обст"]
+			3 -> 6 [label="релят"]
+			0 -> 1 [label="предл"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+}

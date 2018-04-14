@@ -1,0 +1,32 @@
+digraph SENTENCE_3208 {
+	graph [label="У них же демократия… в некоторых аспектах доходящая до абсурда."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="демократия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="аспектах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="доходящая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="абсурда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			3 -> 8 [label="опред"]
+			5 -> 7 [label="предл"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+}

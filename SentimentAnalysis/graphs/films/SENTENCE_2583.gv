@@ -1,0 +1,27 @@
+digraph SENTENCE_2583 {
+	graph [label="А здесь, наверное, не по фэн-шую было бы."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фэн-шую
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			0 -> 8 [label="соч_союзн"]
+			8 -> 1 [label="обст"]
+			8 -> 3 [label="вводн"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="аналит"]
+}

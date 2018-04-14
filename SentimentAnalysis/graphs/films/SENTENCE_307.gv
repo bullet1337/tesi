@@ -1,0 +1,39 @@
+digraph SENTENCE_307 {
+	graph [label="А понять её очень сложно, такого противоречивого персонажа я ещё не видел."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="противоречивого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="персонажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			12 -> 8 [label="_1_компл"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			0 -> 4 [label="соч_союзн"]
+			0 -> 12 [label="соч_союзн"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_866 {
+	graph [label="Эта стена сегодня не существует, сегодня все вместе — сотрудники и образовательных, и церковных учреждений — трудятся для блага нашего общего Отечества."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="существует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сотрудники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="образовательных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="церковных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="учреждений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="трудятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="блага
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+			16 -> 12 [label="опред"]
+			11 -> 16 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="обст"]
+			4 -> 8 [label="обст"]
+			4 -> 10 [label="разъяснит"]
+			4 -> 18 [label="сент_соч"]
+			14 -> 15 [label="соч_союзн"]
+			18 -> 19 [label="обст"]
+			1 -> 0 [label="опред"]
+			12 -> 14 [label="сочин"]
+			19 -> 20 [label="предл"]
+			8 -> 7 [label="огранич"]
+			20 -> 23 [label="квазиагент"]
+			10 -> 11 [label="сочин"]
+}

@@ -1,0 +1,100 @@
+digraph SENTENCE_1015 {
+	graph [label="Группа \"Алиса\" была образована в 1983 году в Ленинграде — тогда состоялись первые концерты юных ленинградцев под руководством Святослава Задерия, а когда год спустя к ним присоединился Константин Кинчев, то эпидемию \"алисомании\" было уже не остановить."]
+	node [style=filled]
+		0 [label="Группа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Алиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="образована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1983
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Ленинграде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="состоялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="концерты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="юных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ленинградцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Святослава Задерия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="присоединился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Константин Кинчев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="эпидемию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="алисомании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="остановить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			39 -> 36 [label="_1_компл"]
+			39 -> 37 [label="огранич"]
+			39 -> 38 [label="огранич"]
+			5 -> 6 [label="обст"]
+			6 -> 8 [label="предл"]
+			17 -> 16 [label="опред"]
+			0 -> 2 [label="аппоз"]
+			25 -> 24 [label="предл"]
+			28 -> 25 [label="обст"]
+			28 -> 26 [label="_1_компл"]
+			28 -> 29 [label="предик"]
+			13 -> 9 [label="_1_компл"]
+			13 -> 12 [label="обст"]
+			13 -> 15 [label="предик"]
+			13 -> 22 [label="сент_соч"]
+			26 -> 27 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 5
+			4 -> 13 [label="сент_соч"]
+			18 -> 19 [label="предл"]
+			8 -> 7 [label="опред"]
+			36 -> 34 [label="предик"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="квазиагент"]
+			15 -> 18 [label="атриб"]
+			23 -> 28 [label="подч_союзн"]
+			23 -> 31 [label="соотнос"]
+			19 -> 20 [label="квазиагент"]
+			32 -> 39 [label="_1_компл"]
+}

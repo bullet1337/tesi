@@ -1,0 +1,24 @@
+digraph SENTENCE_1191 {
+	graph [label="Мероприятие завершилось маршем колонн военнослужащих президентского полка."]
+	node [style=filled]
+		0 [label="Мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="завершилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="маршем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="колонн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="военнослужащих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="президентского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 4 [label="сочин"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="сочин"]
+			4 -> 6 [label="_1_компл"]
+}

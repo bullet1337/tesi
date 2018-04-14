@@ -1,0 +1,75 @@
+digraph SENTENCE_1332 {
+	graph [label="На музыканта еще в детстве произвела большое впечатление трагическая судьба нидерландского живописца, и даже один из своих ранних коллективов он назвал \"Ухо Ван Гога\"."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыканта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="детстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="произвела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="трагическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нидерландского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="живописца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ранних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="коллективов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Ухо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Гога
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 19 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			9 -> 13 [label="сочин"]
+			25 -> 24
+			21 -> 9 [label="_2_компл"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="_1_компл"]
+			21 -> 25 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 21 [label="разъяснит"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="электив"]
+			13 -> 15 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="опред"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+}

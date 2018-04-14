@@ -1,0 +1,27 @@
+digraph SENTENCE_386 {
+	graph [label="Вместе со всеми народами мы строим новую Россию!"]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="народами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="строим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="новую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			1 -> 3 [label="предл"]
+}

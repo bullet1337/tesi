@@ -1,0 +1,45 @@
+digraph SENTENCE_616 {
+	graph [label="По словам адвоката, в поисках правды Швецова обратилась в программу \"Пусть говорят\" Первого канала."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="адвоката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поисках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Швецова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="обратилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Пусть
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Первого
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="канала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			13 -> 16 [label="предик"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 4 [label="огранич"]
+			8 -> 0 [label="вводн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 13 [label="сент_соч"]
+			9 -> 10 [label="предл"]
+			16 -> 15 [label="опред"]
+}

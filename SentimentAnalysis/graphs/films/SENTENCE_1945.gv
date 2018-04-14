@@ -1,0 +1,51 @@
+digraph SENTENCE_1945 {
+	graph [label="Серые цвета, плохо освещенные помещения, пустынные улицы — и по контрасту с этим — гротескно яркие праздники и церемонии."]
+	node [style=filled]
+		0 [label="Серые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="цвета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="освещенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="помещения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пустынные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="контрасту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="гротескно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="яркие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="праздники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="обст"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сент_соч"]
+			16 -> 18 [label="сочин"]
+			5 -> 1 [label="атриб"]
+			5 -> 4 [label="опред"]
+			19 -> 20 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="сочин"]
+			11 -> 12 [label="предл"]
+}

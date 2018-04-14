@@ -1,0 +1,48 @@
+digraph SENTENCE_4076 {
+	graph [label="Моральные надругательства и физические унижения — вот путь, который уготован Широну в сумрачных джунглях школьного двора."]
+	node [style=filled]
+		0 [label="Моральные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="надругательства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="физические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="унижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="путь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="уготован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Широну
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сумрачных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="джунглях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="школьного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="двора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+			7 -> 1 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 10 [label="релят"]
+			12 -> 14 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 12 [label="обст"]
+			10 -> 16 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			16 -> 15 [label="опред"]
+}

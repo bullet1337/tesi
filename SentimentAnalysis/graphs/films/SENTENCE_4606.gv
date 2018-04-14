@@ -1,0 +1,56 @@
+digraph SENTENCE_4606 {
+	graph [label="Остальные персонажи так заштампованы и не интересны, что не привнесли ничего нового и слились в безликую серую массовку."]
+	node [style=filled]
+		0 [label="Остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заштампованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="интересны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="привнесли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="слились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="безликую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="серую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="массовку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 13 [label="сочин"]
+			8 -> 10 [label="подч_союзн"]
+			13 -> 14 [label="соч_союзн"]
+			6 -> 5 [label="огранич"]
+			14 -> 15 [label="_2_компл"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			4 -> 6 [label="соч_союзн"]
+			15 -> 18 [label="предл"]
+			11 -> 12 [label="опред"]
+}

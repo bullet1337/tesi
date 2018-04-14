@@ -1,0 +1,18 @@
+digraph SENTENCE_704 {
+	graph [label="Исполнители — хор театра, Михаил Уманец, Дмитрий Репин."]
+	node [style=filled]
+		0 [label="Исполнители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Михаил Уманец
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Дмитрий Репин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="квазиагент"]
+			2 -> 5 [label="сочин"]
+			0 -> 2 [label="сочин"]
+			5 -> 7 [label="сочин"]
+}

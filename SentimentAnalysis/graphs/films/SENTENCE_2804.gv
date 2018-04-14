@@ -1,0 +1,42 @@
+digraph SENTENCE_2804 {
+	graph [label="Как известно, автором романа «Мечтают ли андроиды об электроовцах» является Ф. К. Дик."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="автором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="романа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мечтают
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="ли
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="андроиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="электроовцах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Ф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="К
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Дик
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+			9 -> 10 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 7 [label="огранич"]
+			6 -> 8 [label="предик"]
+			6 -> 12 [label="разъяснит"]
+			0 -> 1 [label="сравн_союзн"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			12 -> 17 [label="_1_компл"]
+}

@@ -1,0 +1,53 @@
+digraph SENTENCE_1005 {
+	graph [label="Такое кино надо смотреть- оно учит простым человеческим истинам, без которых так трудно жить в современном мире."]
+	node [style=filled]
+		0 [label="Такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="учит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="простым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человеческим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="истинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="трудно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="современном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="предик"]
+			16 -> 18 [label="предл"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="_2_компл"]
+			6 -> 14 [label="сент_соч"]
+			11 -> 12 [label="предл"]
+			3 -> 6 [label="разъяснит"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			18 -> 17 [label="опред"]
+			1 -> 0 [label="опред"]
+			2 -> 3 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_4355 {
+	graph [label="Оператор, трясучая временами камера просто вымораживает, ну почему нельзя снять нормально?"]
+	node [style=filled]
+		0 [label="Оператор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трясучая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="временами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="камера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вымораживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нормально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 10 [label="разъяснит"]
+			11 -> 12 [label="обст"]
+			10 -> 8 [label="вводн"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="предик"]
+}

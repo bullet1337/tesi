@@ -1,0 +1,39 @@
+digraph SENTENCE_601 {
+	graph [label="\"Конечно, алкоголь в любом случае не может быть полезным для здоровья граждан."]
+	node [style=filled]
+		1 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="алкоголь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="полезным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="граждан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 1 [label="вводн"]
+			8 -> 3 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			12 -> 13 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="присвяз"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+}

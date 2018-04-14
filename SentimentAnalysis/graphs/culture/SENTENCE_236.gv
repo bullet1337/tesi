@@ -1,0 +1,42 @@
+digraph SENTENCE_236 {
+	graph [label="— Выпущено шесть премьер за год, две из них для детей, создана детская студия."]
+	node [style=filled]
+		1 [label="Выпущено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="шесть
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="премьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="создана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="детская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="студия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="кратн"]
+			8 -> 9 [label="предл"]
+			1 -> 3 [label="предик"]
+			1 -> 13 [label="сент_соч"]
+			7 -> 8 [label="электив"]
+			3 -> 2 [label="количест"]
+			3 -> 4 [label="распред"]
+			10 -> 11 [label="предл"]
+			15 -> 14 [label="опред"]
+			4 -> 5 [label="предл"]
+			13 -> 10 [label="обст"]
+			13 -> 15 [label="предик"]
+}

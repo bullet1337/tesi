@@ -1,0 +1,33 @@
+digraph SENTENCE_723 {
+	graph [label="Кто-то назовет это стойкостью, кто-то глупостью, но равнодушных не будет."]
+	node [style=filled]
+		0 [label="Кто-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="назовет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стойкостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="глупостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="равнодушных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="адр_присв"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 6 [label="_1_компл"]
+			1 -> 8 [label="сент_соч"]
+			8 -> 11 [label="соч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+}

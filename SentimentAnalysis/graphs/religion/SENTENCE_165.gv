@@ -1,0 +1,42 @@
+digraph SENTENCE_165 {
+	graph [label="По словам Рязанцева, в ПСТГУ сейчас \"вплотную подошли к задаче исследования массового православия\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Рязанцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ПСТГУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вплотную
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="задаче
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="исследования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="массового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="православия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="_1_компл"]
+			9 -> 0 [label="вводн"]
+			9 -> 4 [label="обст"]
+			9 -> 6 [label="обст"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_2_компл"]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			4 -> 5 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+}

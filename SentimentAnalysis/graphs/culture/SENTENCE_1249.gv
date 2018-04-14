@@ -1,0 +1,30 @@
+digraph SENTENCE_1249 {
+	graph [label="\", проводимый телекомпанией НТВ и Международным информационным агентством и радио."]
+	node [style=filled]
+		2 [label="проводимый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="телекомпанией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="НТВ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Международным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="информационным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="агентством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="радио
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="соч_союзн"]
+			9 -> 10 [label="соч_союзн"]
+			3 -> 4 [label="аппоз"]
+			3 -> 5 [label="сочин"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			2 -> 3 [label="агент"]
+}

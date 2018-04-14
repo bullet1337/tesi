@@ -1,0 +1,36 @@
+digraph SENTENCE_227 {
+	graph [label="Эксперты говорят, что главной тенденцией в ближайшее время станет упрощение речи."]
+	node [style=filled]
+		0 [label="Эксперты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тенденцией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ближайшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="упрощение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="речи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+			9 -> 5 [label="присвяз"]
+			9 -> 6 [label="обст"]
+			9 -> 10 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 9 [label="подч_союзн"]
+			5 -> 4 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+}

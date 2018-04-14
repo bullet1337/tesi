@@ -1,0 +1,72 @@
+digraph SENTENCE_487 {
+	graph [label="В первой части главный герой фильма Иван по воле случая переносится из современной Москвы в фантастическую страну Белогорье, где живут герои русских сказок."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Иван
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="воле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="случая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="переносится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фантастическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="страну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Белогорье
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="живут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="русских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сказок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 23 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="уточн"]
+			14 -> 16 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="аппоз"]
+			20 -> 19 [label="_1_компл"]
+			20 -> 21 [label="предик"]
+			0 -> 2 [label="предл"]
+			0 -> 7 [label="сочин"]
+			23 -> 22 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			16 -> 20 [label="релят"]
+			11 -> 13 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 14 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+			13 -> 12 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+}

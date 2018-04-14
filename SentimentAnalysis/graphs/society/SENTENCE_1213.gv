@@ -1,0 +1,45 @@
+digraph SENTENCE_1213 {
+	graph [label="В частности, список вещей сверх установленной нормы и без доплаты сократился в три раза."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="список
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вещей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сверх
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="установленной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нормы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="доплаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сократился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 5 [label="обст"]
+			11 -> 12 [label="_3_компл"]
+			5 -> 7 [label="предл"]
+			5 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 11 [label="разъяснит"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="предл"]
+			14 -> 13 [label="количест"]
+			0 -> 1 [label="предл"]
+			12 -> 14 [label="предл"]
+}

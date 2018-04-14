@@ -1,0 +1,36 @@
+digraph SENTENCE_3294 {
+	graph [label="Главный герой предстаёт перед зрителем сверхэкспрессивным, но, к счастью, не инфантильным."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предстаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зрителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сверхэкспрессивным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="счастью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="инфантильным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			13 -> 9 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			9 -> 10 [label="предл"]
+			7 -> 13 [label="соч_союзн"]
+}

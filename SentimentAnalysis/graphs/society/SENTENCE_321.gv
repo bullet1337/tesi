@@ -1,0 +1,50 @@
+digraph SENTENCE_321 {
+	graph [label="Он проводится по инициативе вице-премьера, полпреда президента РФ в ДФО Юрия Трутнева при поддержке правительства Хабаровского края."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проводится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="инициативе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вице-премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полпреда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ДФО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Юрия Трутнева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="поддержке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Хабаровского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			2 -> 3 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			4 -> 6 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="_2_компл"]
+			6 -> 11 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="разъяснит"]
+			9 -> 10 [label="предл"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+}

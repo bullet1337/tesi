@@ -1,0 +1,24 @@
+digraph SENTENCE_3311 {
+	graph [label="За что Анатолий Владимирович лютой ненавистью ненавидел юношу?"]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Анатолий Владимирович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="лютой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ненавистью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ненавидел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="юношу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="сочин"]
+}

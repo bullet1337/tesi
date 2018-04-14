@@ -1,0 +1,60 @@
+digraph SENTENCE_500 {
+	graph [label="С ним соглашается секретарь по межхристианским отношениям отдела внешних церковных связей Московского патриархата иеромонах Стефан (Игумнов), который возглавляет делегацию."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="соглашается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="секретарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="межхристианским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отношениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отдела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="внешних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="церковных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="связей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Московского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="патриархата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="иеромонах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Стефан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Игумнов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="возглавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="делегацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			12 -> 11 [label="опред"]
+			14 -> 16 [label="аппоз"]
+			7 -> 10 [label="_1_компл"]
+			7 -> 12 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="аппоз"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 13 [label="аппоз"]
+			20 -> 19 [label="_1_компл"]
+			20 -> 21 [label="предик"]
+			2 -> 0 [label="_2_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 20 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+}

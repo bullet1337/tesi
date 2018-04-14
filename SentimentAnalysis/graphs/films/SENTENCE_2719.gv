@@ -1,0 +1,24 @@
+digraph SENTENCE_2719 {
+	graph [label="Разбивать нос о грабли полюбили до одури."]
+	node [style=filled]
+		0 [label="Разбивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="грабли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полюбили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одури
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 4 [label="сочин"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+}

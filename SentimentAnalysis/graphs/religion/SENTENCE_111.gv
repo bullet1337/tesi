@@ -1,0 +1,39 @@
+digraph SENTENCE_111 {
+	graph [label="В период с 2015 по 2017 год Эстония приняла 155 сирийских беженцев."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Эстония
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="приняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="155
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сирийских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="беженцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="соотнос"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 2 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 11 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			11 -> 9 [label="количест"]
+			11 -> 10 [label="опред"]
+}

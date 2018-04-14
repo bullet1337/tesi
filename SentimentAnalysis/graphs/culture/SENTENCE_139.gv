@@ -1,0 +1,18 @@
+digraph SENTENCE_139 {
+	graph [label="Франсис Пуленк сделал это языком музыки."]
+	node [style=filled]
+		0 [label="Франсис Пуленк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сделал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="языком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_3943 {
+	graph [label="Честно говоря, странно, что все такое однобокое и плоское — весь фильм состоит из негативных клише."]
+	node [style=filled]
+		0 [label="Честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="однобокое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="плоское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="состоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="негативных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="клише
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="вводн"]
+			3 -> 5 [label="предик"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			15 -> 17 [label="предл"]
+			13 -> 8 [label="опред"]
+			13 -> 12 [label="опред"]
+			7 -> 6 [label="опред"]
+			5 -> 14 [label="подч_союзн"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			1 -> 0 [label="обст"]
+			17 -> 16 [label="опред"]
+}

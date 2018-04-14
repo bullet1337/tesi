@@ -1,0 +1,24 @@
+digraph SENTENCE_1097 {
+	graph [label="Любишь ребенка — отведи в ЦДМ на Лубянку!\"."]
+	node [style=filled]
+		0 [label="Любишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отведи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ЦДМ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Лубянку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_3_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="сочин"]
+			4 -> 5 [label="предл"]
+}

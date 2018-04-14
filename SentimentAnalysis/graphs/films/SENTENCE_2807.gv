@@ -1,0 +1,45 @@
+digraph SENTENCE_2807 {
+	graph [label="Мне казалось, что это будет, что-то на подобии фильма «Гаттака», так горячо любимого мной."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подобии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Гаттака
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="горячо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="любимого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мной
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="квазиагент"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 18 [label="_1_компл"]
+			17 -> 16 [label="огранич"]
+			3 -> 5 [label="подч_союзн"]
+			16 -> 15 [label="огранич"]
+			18 -> 17 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="присвяз"]
+			7 -> 8 [label="атриб"]
+			8 -> 9 [label="предл"]
+			10 -> 12 [label="аппоз"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1010 {
+	graph [label="Как правило, это добрые беззащитные люди, попавшие в сети обстоятельств, злой воли окружающих и собственного одиночества."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="добрые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="беззащитные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попавшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обстоятельств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="злой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="воли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="окружающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="собственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="одиночества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+			10 -> 11 [label="квазиагент"]
+			16 -> 18 [label="соч_союзн"]
+			8 -> 9 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			11 -> 15 [label="опред"]
+			18 -> 17 [label="опред"]
+			3 -> 0 [label="вводн"]
+}

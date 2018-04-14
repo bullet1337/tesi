@@ -1,0 +1,45 @@
+digraph SENTENCE_411 {
+	graph [label="Раунд Гуф завершил тем, что похвалился новой машиной, которую купил себе за гонорар от \"Версуса\"."]
+	node [style=filled]
+		0 [label="Раунд Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="завершил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="похвалился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="машиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="купил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гонорар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Версуса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 13 [label="предл"]
+			4 -> 5 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 10 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			14 -> 16 [label="предл"]
+			2 -> 4 [label="эксплет"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="неакт_компл"]
+			10 -> 12 [label="обст"]
+			10 -> 14 [label="_2_компл"]
+			5 -> 7 [label="_2_компл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4601 {
+	graph [label="Предыдущим фильмом Гарета Эдвардса были «Монстры», где главными героями были пара молодых людей."]
+	node [style=filled]
+		0 [label="Предыдущим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гарета Эдвардса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Монстры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="главными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="героями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="квазиагент"]
+			3 -> 1 [label="присвяз"]
+			3 -> 5 [label="предик"]
+			10 -> 9 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="присвяз"]
+			11 -> 12 [label="предик"]
+			14 -> 13 [label="опред"]
+			5 -> 11 [label="релят"]
+}

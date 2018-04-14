@@ -1,0 +1,84 @@
+digraph SENTENCE_1026 {
+	graph [label="\"Как стало ясно на заседании круглого стола из доклада представителя Роспотребнадзора, не все регионы подошли к составлению своих паспортов программы ответственно, многие важные мероприятия не были учтены."]
+	node [style=filled]
+		1 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ясно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заседании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="круглого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="доклада
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="представителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Роспотребнадзора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="регионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="подошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="составлению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="паспортов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ответственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="важные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="учтены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="предл"]
+			28 -> 21 [label="предик"]
+			28 -> 22 [label="обст"]
+			28 -> 26 [label="предик"]
+			28 -> 27 [label="огранич"]
+			28 -> 29
+			7 -> 6 [label="опред"]
+			14 -> 13 [label="огранич"]
+			9 -> 10 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			20 -> 19 [label="опред"]
+			20 -> 28 [label="релят"]
+			15 -> 14 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			5 -> 8 [label="атриб"]
+			16 -> 1 [label="вводн"]
+			16 -> 17 [label="_2_компл"]
+			1 -> 2 [label="сравн_союзн"]
+			18 -> 20 [label="_1_компл"]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="присвяз"]
+			2 -> 4 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 15 [label="аппоз"]
+}

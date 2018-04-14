@@ -1,0 +1,24 @@
+digraph SENTENCE_1528 {
+	graph [label="Будущее — это дети и счастливая судьба детей."]
+	node [style=filled]
+		0 [label="Будущее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="счастливая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="пролепт"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			4 -> 6 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сочин"]
+}

@@ -1,0 +1,32 @@
+digraph SENTENCE_1204 {
+	graph [label="«А на что смотреть-то?», — произносит Сельма в одном из диалогов."]
+	node [style=filled]
+		1 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смотреть-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="произносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="одном
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="диалогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="электив"]
+			9 -> 2 [label="обст"]
+			9 -> 4 [label="обст"]
+			9 -> 10 [label="предик"]
+			2 -> 3 [label="предл"]
+			11 -> 12 [label="предл"]
+			13 -> 14 [label="предл"]
+			1 -> 9 [label="соч_союзн"]
+}

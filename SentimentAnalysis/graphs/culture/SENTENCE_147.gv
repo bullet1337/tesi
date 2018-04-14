@@ -1,0 +1,39 @@
+digraph SENTENCE_147 {
+	graph [label="Премьера состоится на основной сцене театра 28 марта в день 150-летия писателя."]
+	node [style=filled]
+		0 [label="Премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="основной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="28
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="150-летия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			6 -> 7 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 8 [label="_1_компл"]
+			1 -> 10 [label="разъяснит"]
+			5 -> 6 [label="аппоз"]
+			10 -> 11 [label="сочин"]
+			2 -> 4 [label="предл"]
+			8 -> 9 [label="предл"]
+}

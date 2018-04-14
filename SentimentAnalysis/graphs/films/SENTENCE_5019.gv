@@ -1,0 +1,55 @@
+digraph SENTENCE_5019 {
+	graph [label="В мире столько АЭС понастроено, но нет, гнездо нужно сделать обязательно в центре города, и присобачить туда ракету."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="АЭС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="понастроено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гнездо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обязательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="присобачить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="туда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ракету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 7 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="сочин"]
+			11 -> 12 [label="обст"]
+			11 -> 13 [label="обст"]
+			11 -> 17 [label="сочин"]
+			10 -> 11 [label="предик"]
+			14 -> 15 [label="квазиагент"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 20 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			17 -> 18 [label="соч_союзн"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_1347 {
+	graph [label="12 тысяч подписей под обращением было собрано в течение трех дней\", — сообщили в пресс-службе."]
+	node [style=filled]
+		0 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подписей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обращением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собрано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="количест"]
+			1 -> 2 [label="квазиагент"]
+			14 -> 10 [label="обст"]
+			14 -> 15 [label="обст"]
+			15 -> 16 [label="предл"]
+			10 -> 9 [label="количест"]
+			5 -> 1 [label="предик"]
+			5 -> 6
+			5 -> 14 [label="вводн"]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="обст"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="атриб"]
+}

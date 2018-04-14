@@ -1,0 +1,57 @@
+digraph SENTENCE_730 {
+	graph [label="Историки связывают этот день с событиями 1918 года, когда Совнарком в январе принял декрет о создании Красной Армии."]
+	node [style=filled]
+		0 [label="Историки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="связывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="событиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="1918
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Совнарком
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="январе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="принял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="декрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="создании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Красной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Армии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="_2_компл"]
+			1 -> 9 [label="обст"]
+			11 -> 12 [label="предл"]
+			18 -> 17 [label="опред"]
+			7 -> 6 [label="опред"]
+			4 -> 5 [label="предл"]
+			5 -> 7 [label="атриб"]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			9 -> 13 [label="подч_союзн"]
+			16 -> 18 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_126 {
+	graph [label="Главным балетным событием станет торжественный гала-концерт, посвященный 200-летию со дня рождения Мариуса Петипа."]
+	node [style=filled]
+		0 [label="Главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="балетным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="событием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="торжественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гала-концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="посвященный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="200-летию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мариуса Петипа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="присвяз"]
+			3 -> 5 [label="предик"]
+			10 -> 11 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			11 -> 12 [label="квазиагент"]
+			7 -> 8 [label="_2_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+}

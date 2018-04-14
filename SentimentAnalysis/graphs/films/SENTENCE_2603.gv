@@ -1,0 +1,30 @@
+digraph SENTENCE_2603 {
+	graph [label="Я видел перед собой только памятник Вильнева самому себе."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="памятник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Вильнева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="самому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 8 [label="неакт_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="квазиагент"]
+}

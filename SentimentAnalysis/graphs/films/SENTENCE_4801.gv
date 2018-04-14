@@ -1,0 +1,45 @@
+digraph SENTENCE_4801 {
+	graph [label="Тем более, народ любит фильмы, в которых какая-нибудь тварюга крушит города на своем пути."]
+	node [style=filled]
+		0 [label="Тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="какая-нибудь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тварюга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="крушит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			15 -> 14 [label="опред"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="сент_соч"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="атриб"]
+			13 -> 15 [label="предл"]
+}

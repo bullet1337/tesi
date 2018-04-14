@@ -1,0 +1,42 @@
+digraph SENTENCE_136 {
+	graph [label="Кроме того, он, как отметил главный епископ РОСХВЕ, неоднократно встречался с российским духовенством."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="РОСХВЕ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="встречался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="российским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="духовенством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="сравн_союзн"]
+			12 -> 0 [label="вводн"]
+			12 -> 3 [label="предик"]
+			12 -> 5 [label="вводн"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="опред"]
+			6 -> 8 [label="предик"]
+}

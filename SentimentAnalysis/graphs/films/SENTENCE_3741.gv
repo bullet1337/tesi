@@ -1,0 +1,58 @@
+digraph SENTENCE_3741 {
+	graph [label="1 из 10
+Наверное главный недостаток этого фильма в том, что авторы выбрали героя с довольно неоднозначной профессией."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Наверное
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="недостаток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выбрали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="неоднозначной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="профессией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 18 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="обст"]
+			7 -> 6 [label="опред"]
+			9 -> 11 [label="эксплет"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			11 -> 13 [label="подч_союзн"]
+			18 -> 17 [label="опред"]
+			8 -> 0 [label="предик"]
+			8 -> 3 [label="вводн"]
+			8 -> 5 [label="предик"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="электив"]
+			17 -> 16 [label="огранич"]
+}

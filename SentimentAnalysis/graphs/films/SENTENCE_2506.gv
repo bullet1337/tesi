@@ -1,0 +1,12 @@
+digraph SENTENCE_2506 {
+	graph [label="«Андрея Рублёва», стало быть."]
+	node [style=filled]
+		1 [label="Андрея Рублёва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+}

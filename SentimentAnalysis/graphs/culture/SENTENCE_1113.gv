@@ -1,0 +1,48 @@
+digraph SENTENCE_1113 {
+	graph [label="\"Мне кажется, они в этом плане были смелее, чем мы, и глубже, они раньше взрослели."]
+	node [style=filled]
+		1 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смелее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="глубже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="взрослели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_2_компл"]
+			2 -> 4 [label="предик"]
+			2 -> 8 [label="сент_соч"]
+			19 -> 17 [label="предик"]
+			19 -> 18 [label="обст"]
+			11 -> 15 [label="сравн_союзн"]
+			9 -> 11 [label="сравнит"]
+			15 -> 12 [label="предик"]
+			15 -> 14 [label="огранич"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="присвяз"]
+			8 -> 19 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+}

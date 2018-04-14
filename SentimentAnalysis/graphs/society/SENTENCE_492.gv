@@ -1,0 +1,35 @@
+digraph SENTENCE_492 {
+	graph [label="Существует также определенный постановлением правительства перечень тяжелых жизнеугрожающих прогрессирующих редких заболеваний."]
+	node [style=filled]
+		0 [label="Существует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="определенный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="постановлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="перечень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тяжелых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жизнеугрожающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прогрессирующих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="предик"]
+			6 -> 7 [label="сочин"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			7 -> 10 [label="_1_компл"]
+			5 -> 2 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="агент"]
+			3 -> 4 [label="квазиагент"]
+}

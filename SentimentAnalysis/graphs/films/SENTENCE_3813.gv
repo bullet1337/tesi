@@ -1,0 +1,45 @@
+digraph SENTENCE_3813 {
+	graph [label="Главная идея фильма идет в полный разлад с идей книги, как я ее понимаю."]
+	node [style=filled]
+		0 [label="Главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="идея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="полный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разлад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="идей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 11 [label="обст"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			9 -> 14 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="_1_несобст_компл"]
+			3 -> 9 [label="сент_соч"]
+			4 -> 6 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+}

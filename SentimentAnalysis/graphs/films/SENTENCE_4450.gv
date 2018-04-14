@@ -1,0 +1,42 @@
+digraph SENTENCE_4450 {
+	graph [label="Ну вы поняли… а дальше действо и вовсе начинает напоминать шедевры от Asylum."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="действо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="напоминать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="шедевры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Asylum
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="атриб"]
+			6 -> 5 [label="опред"]
+			2 -> 0 [label="вводн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сент_соч"]
+			4 -> 9 [label="соч_союзн"]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+}

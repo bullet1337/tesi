@@ -1,0 +1,54 @@
+digraph SENTENCE_3606 {
+	graph [label="Такое кино пытается привить «ура-патриотизм», который не позволит стоя аплодировать не НАШИМ, показавшим красоту этой мужественной игры."]
+	node [style=filled]
+		0 [label="Такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="привить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ура-патриотизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="позволит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стоя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="аплодировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="НАШИМ
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="показавшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="красоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мужественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 10 [label="сент_соч"]
+			3 -> 5 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			12 -> 17 [label="_1_компл"]
+			17 -> 14 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 20 [label="квазиагент"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="обст"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			1 -> 0 [label="опред"]
+}

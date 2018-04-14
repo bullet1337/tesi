@@ -1,0 +1,45 @@
+digraph SENTENCE_1565 {
+	graph [label="Сколько на неё не сыпалось критики, она всё равно влияла на психологию простых людей."]
+	node [style=filled]
+		0 [label="Сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сыпалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="критики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="равно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="влияла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="психологию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="простых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 10 [label="сочин"]
+			11 -> 12 [label="предл"]
+			1 -> 2 [label="предл"]
+			10 -> 7 [label="агент"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 14 [label="предик"]
+			14 -> 13 [label="опред"]
+}

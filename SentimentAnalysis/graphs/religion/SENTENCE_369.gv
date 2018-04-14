@@ -1,0 +1,33 @@
+digraph SENTENCE_369 {
+	graph [label="Сведений о жизни святителя Игнатия до нас дошло не много."]
+	node [style=filled]
+		0 [label="Сведений
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="святителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Игнатия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="аппоз"]
+}

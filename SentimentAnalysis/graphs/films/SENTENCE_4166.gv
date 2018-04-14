@@ -1,0 +1,24 @@
+digraph SENTENCE_4166 {
+	graph [label="Так, например, было в фильме «Эдвард руки-ножницы»."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Эдвард
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="руки-ножницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="вводн"]
+			4 -> 5 [label="присвяз"]
+			6 -> 8 [label="аппоз"]
+			8 -> 9 [label="аппоз"]
+			5 -> 6 [label="предл"]
+}

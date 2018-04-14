@@ -1,0 +1,48 @@
+digraph SENTENCE_977 {
+	graph [label="Также в рамках форума пройдет более 300 дополнительных образовательных мероприятий, вошедших в параллельную программу \"Плюс\"."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="300
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дополнительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образовательных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мероприятий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вошедших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="параллельную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Плюс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 9 [label="сравнит"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="обст"]
+			4 -> 5 [label="предик"]
+			9 -> 6 [label="количест"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="опред"]
+			11 -> 12 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="аппоз"]
+			12 -> 14 [label="предл"]
+}

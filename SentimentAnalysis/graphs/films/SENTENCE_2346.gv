@@ -1,0 +1,18 @@
+digraph SENTENCE_2346 {
+	graph [label="Но недоверие начинается ещё раньше."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="недоверие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4056 {
+	graph [label="Сама атмосфера тоже есть, её не отнять."]
+	node [style=filled]
+		0 [label="Сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="атмосфера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отнять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 7 [label="сент_соч"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			1 -> 0 [label="опред"]
+}

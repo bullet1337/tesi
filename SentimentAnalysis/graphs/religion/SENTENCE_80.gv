@@ -1,0 +1,69 @@
+digraph SENTENCE_80 {
+	graph [label="\"Ее жертвенное служение России, благочестие, милосердие, любовь к людям, бескорыстность и сегодня являются достойным примером для подражания новым поколениям\", — отмечается в сообщении."]
+	node [style=filled]
+		1 [label="Ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жертвенное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="служение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="благочестие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="милосердие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бескорыстность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="являются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="достойным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="примером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="подражания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="новым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="поколениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="соч_союзн"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="атриб"]
+			19 -> 23 [label="_1_компл"]
+			17 -> 16 [label="обст"]
+			17 -> 19 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			6 -> 3 [label="предик"]
+			6 -> 8 [label="сочин"]
+			6 -> 15 [label="сент_соч"]
+			6 -> 27 [label="вводн"]
+			8 -> 10 [label="сочин"]
+			3 -> 1 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 14 [label="сочин"]
+			20 -> 21 [label="предл"]
+			27 -> 28 [label="обст"]
+			28 -> 29 [label="предл"]
+}

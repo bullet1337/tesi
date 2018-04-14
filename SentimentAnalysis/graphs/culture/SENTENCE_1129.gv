@@ -1,0 +1,48 @@
+digraph SENTENCE_1129 {
+	graph [label="Актриса приехала в ОАЭ с мужем, продюсером Бони Капуром и младшей дочерью на свадьбу своего племянника."]
+	node [style=filled]
+		0 [label="Актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приехала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ОАЭ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мужем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="продюсером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Бони Капуром
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="младшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дочерью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свадьбу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="племянника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="опред"]
+			4 -> 5 [label="предл"]
+			5 -> 7 [label="сочин"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="обст"]
+			1 -> 15 [label="сент_соч"]
+			7 -> 8 [label="аппоз"]
+			7 -> 9 [label="сочин"]
+			11 -> 10 [label="опред"]
+}

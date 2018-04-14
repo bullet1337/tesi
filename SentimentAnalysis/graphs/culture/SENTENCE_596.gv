@@ -1,0 +1,21 @@
+digraph SENTENCE_596 {
+	graph [label="Россия представлена фильмом Алексея Германа-младшего \"Довлатов\"."]
+	node [style=filled]
+		0 [label="Россия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="представлена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алексея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Германа-младшего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 6 [label="аппоз"]
+			2 -> 3 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="агент"]
+			6 -> 4 [label="опред"]
+}

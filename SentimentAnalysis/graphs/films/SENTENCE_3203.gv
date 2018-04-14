@@ -1,0 +1,60 @@
+digraph SENTENCE_3203 {
+	graph [label="И дело тут вовсе не в теме фильма, а в том как она раскрыта, а она не раскрыта совсем."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="теме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="раскрыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="раскрыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			5 -> 9 [label="сочин"]
+			5 -> 16 [label="предл"]
+			0 -> 19 [label="соч_союзн"]
+			19 -> 1 [label="предик"]
+			19 -> 2 [label="обст"]
+			19 -> 5 [label="обст"]
+			19 -> 17 [label="предик"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			9 -> 10 [label="соч_союзн"]
+			12 -> 14 [label="подч_союзн"]
+			10 -> 11 [label="предл"]
+			14 -> 13 [label="предик"]
+			11 -> 12 [label="эксплет"]
+}

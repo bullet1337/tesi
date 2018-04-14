@@ -1,0 +1,57 @@
+digraph SENTENCE_701 {
+	graph [label="\"Я хочу подчеркнуть, что в рамках этой акции мы отвечаем за каждую коробку, за каждый килограмм переданного груза."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подчеркнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="акции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отвечаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="каждую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="коробку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="килограмм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="переданного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="груза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			9 -> 8 [label="опред"]
+			5 -> 11 [label="подч_союзн"]
+			12 -> 14 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="атриб"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="квазиагент"]
+			11 -> 6 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_3_компл"]
+			3 -> 5 [label="_1_компл"]
+			7 -> 9 [label="квазиагент"]
+			16 -> 18 [label="предл"]
+			20 -> 19 [label="опред"]
+}

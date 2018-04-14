@@ -1,0 +1,76 @@
+digraph SENTENCE_1608 {
+	graph [label="Прошло 2 недели с момента моего просмотра, а я до сих пор его анализирую и нахожу некоторые интересные вещи, которые на первый взгляд кажутся неважными."]
+	node [style=filled]
+		0 [label="Прошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="момента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="анализирую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нахожу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="интересные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="кажутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="неважными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			0 -> 2 [label="предик"]
+			6 -> 5 [label="опред"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 25 [label="релят"]
+			3 -> 4 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			14 -> 9 [label="предик"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 15 [label="сочин"]
+			25 -> 21 [label="предик"]
+			25 -> 22 [label="обст"]
+			25 -> 26 [label="_1_компл"]
+			8 -> 14 [label="соч_союзн"]
+			16 -> 19 [label="_1_компл"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 1 [label="количест"]
+			22 -> 24 [label="предл"]
+			24 -> 23 [label="опред"]
+}

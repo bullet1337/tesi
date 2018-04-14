@@ -1,0 +1,36 @@
+digraph SENTENCE_853 {
+	graph [label="На особом контроле специалистов \"Мосгортранса\" — состояние отопительного оборудования, состояние трамвайных путей."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="особом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="контроле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="специалистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Мосгортранса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отопительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оборудования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трамвайных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="путей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 10 [label="квазиагент"]
+			8 -> 12 [label="сочин"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			3 -> 5 [label="атриб"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

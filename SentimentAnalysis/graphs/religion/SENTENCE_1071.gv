@@ -1,0 +1,48 @@
+digraph SENTENCE_1071 {
+	graph [label="\"С приходом Великого поста мы должны начать другую жизнь, наступило время оплакивать соделанные нами грехи."]
+	node [style=filled]
+		1 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приходом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="начать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="другую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наступило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оплакивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="соделанные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="грехи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 16 [label="_1_компл"]
+			14 -> 15 [label="агент"]
+			16 -> 14 [label="опред"]
+			6 -> 1 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 11 [label="сент_соч"]
+			11 -> 12 [label="предик"]
+			11 -> 13 [label="сочин"]
+			4 -> 3 [label="опред"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			7 -> 9 [label="_1_компл"]
+}

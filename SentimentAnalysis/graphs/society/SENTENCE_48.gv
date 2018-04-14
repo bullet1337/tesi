@@ -1,0 +1,39 @@
+digraph SENTENCE_48 {
+	graph [label="С этого времени здесь прошли реабилитацию 10 тигров и один африканский лев."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="реабилитацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тигров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="африканский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="предик"]
+			8 -> 11 [label="соч_союзн"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="сочин"]
+			0 -> 2 [label="предл"]
+			11 -> 9 [label="количест"]
+			11 -> 10 [label="опред"]
+}

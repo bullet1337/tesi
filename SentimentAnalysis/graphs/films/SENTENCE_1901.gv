@@ -1,0 +1,30 @@
+digraph SENTENCE_1901 {
+	graph [label="Он гениален, неповторим и он детище воистину великих людей."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="гениален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неповторим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="детище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воистину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="великих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="сочин"]
+			9 -> 7 [label="вводн"]
+			9 -> 8 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сочин"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="разъяснит"]
+			4 -> 6 [label="соч_союзн"]
+}

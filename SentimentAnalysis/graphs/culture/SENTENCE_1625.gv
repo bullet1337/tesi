@@ -1,0 +1,42 @@
+digraph SENTENCE_1625 {
+	graph [label="Юбилейная, 90-я по счету церемония награждения премии \"Оскар\" пройдет в Лос-Анджелесе 4 марта."]
+	node [style=filled]
+		0 [label="Юбилейная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="90-я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="счету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="церемония
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="награждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Лос-Анджелесе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 0 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 14 [label="обст"]
+			0 -> 5 [label="примыкат"]
+			3 -> 4 [label="предл"]
+			14 -> 15 [label="атриб"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 9 [label="аппоз"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="вводн"]
+			5 -> 6 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_472 {
+	graph [label="Он напомнил, что его страна \"принимает наших христианских братьев, которые бегут от насилия из Сирии и Ирака\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="напомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="страна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="принимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наших
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="братьев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бегут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="насилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Ирака
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 19 [label="соч_союзн"]
+			15 -> 16 [label="атриб"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 10 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			17 -> 18 [label="сочин"]
+			5 -> 4 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="релят"]
+			3 -> 7 [label="подч_союзн"]
+}

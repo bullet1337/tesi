@@ -1,0 +1,90 @@
+digraph SENTENCE_1186 {
+	graph [label="По мнению продюсера Антона Златопольского, картина \"Т-34\" может стать событием в российском кинематографе, у него есть \"сравнимый потенциал\" с такими лентами, как \"Экипаж\", \"Легенда 17\", \"Сталинград\", \"Салют 7\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продюсера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Антона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Златопольского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Т
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="34
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="событием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="российском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="кинематографе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сравнимый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="потенциал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="такими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="лентами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Экипаж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		36 [label="Легенда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="Сталинград
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		45 [label="Салют
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		46 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			28 -> 27 [label="опред"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="опред"]
+			6 -> 8 [label="аппоз"]
+			6 -> 12 [label="разъяснит"]
+			2 -> 3 [label="аппоз"]
+			19 -> 20 [label="предл"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			13 -> 14 [label="присвяз"]
+			41 -> 37 [label="количест"]
+			41 -> 45 [label="аппоз"]
+			24 -> 23 [label="опред"]
+			24 -> 26 [label="атриб"]
+			45 -> 46 [label="аппоз"]
+			17 -> 16 [label="опред"]
+			26 -> 28 [label="предл"]
+			15 -> 17 [label="предл"]
+			12 -> 10 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 21 [label="сент_соч"]
+			14 -> 15 [label="атриб"]
+			21 -> 19 [label="_1_компл"]
+			21 -> 24 [label="предик"]
+			21 -> 30 [label="сравнит"]
+			21 -> 36 [label="предик"]
+			36 -> 41 [label="компл_аппоз"]
+			30 -> 32 [label="сравн_союзн"]
+}

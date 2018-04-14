@@ -1,0 +1,63 @@
+digraph SENTENCE_650 {
+	graph [label="Конечно, это выражение не очень подходит к данной ситуации, но тем не менее, не тому человеку она доверила свой секрет."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выражение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="данной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="человеку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="доверила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 18 [label="_2_компл"]
+			20 -> 19 [label="предик"]
+			20 -> 22 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			9 -> 8 [label="опред"]
+			18 -> 12 [label="опред"]
+			18 -> 17 [label="опред"]
+			7 -> 9 [label="предл"]
+			11 -> 20 [label="соч_союзн"]
+			5 -> 4 [label="огранич"]
+			17 -> 14 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			3 -> 2 [label="опред"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 11 [label="сочин"]
+			22 -> 21 [label="опред"]
+}

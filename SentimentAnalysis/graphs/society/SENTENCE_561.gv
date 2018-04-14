@@ -1,0 +1,57 @@
+digraph SENTENCE_561 {
+	graph [label="Путин подчеркнул, что опыт и аналитические способности дипломата всегда были востребованы на самых сложных и ответственных направлениях работы."]
+	node [style=filled]
+		0 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="опыт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аналитические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="способности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дипломата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="востребованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сложных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ответственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="направлениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			3 -> 10 [label="подч_союзн"]
+			5 -> 7 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			17 -> 14 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			12 -> 17 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			10 -> 4 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 11
+			11 -> 12 [label="обст"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_341 {
+	graph [label="Гуф в интервью журналисту Юрию Дудю заявляет, что ему было некомфортно работать с Птахой, причем как в профессиональном, так и в общечеловеческом плане."]
+	node [style=filled]
+		0 [label="Гуф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="журналисту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Юрию Дудю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="заявляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="некомфортно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Птахой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="профессиональном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="общечеловеческом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="сравн_союзн"]
+			12 -> 13 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			22 -> 21 [label="огранич"]
+			22 -> 24 [label="предл"]
+			1 -> 2 [label="предл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="обст"]
+			9 -> 11 [label="предик"]
+			9 -> 15 [label="сент_соч"]
+			24 -> 23 [label="опред"]
+			5 -> 0 [label="предик"]
+			5 -> 1 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 4 [label="аппоз"]
+}

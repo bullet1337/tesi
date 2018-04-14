@@ -1,0 +1,30 @@
+digraph SENTENCE_2138 {
+	graph [label="Голос Иннокентия Смоктуновского растворяется в великой и величественной музыке Баха."]
+	node [style=filled]
+		0 [label="Голос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Иннокентия Смоктуновского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="растворяется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="великой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="величественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Баха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 7 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			7 -> 4 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			0 -> 1 [label="квазиагент"]
+}

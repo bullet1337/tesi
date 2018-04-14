@@ -1,0 +1,39 @@
+digraph SENTENCE_1484 {
+	graph [label="Жизненно описанные события и герои останутся в сердце каждого, смотревшего этот фильм."]
+	node [style=filled]
+		0 [label="Жизненно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="описанные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="события
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="останутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="каждого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смотревшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="соч_союзн"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			5 -> 12 [label="разъяснит"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 0 [label="обст"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_868 {
+	graph [label="Теология была признана научной дисциплиной решением Высшей аттестационной комиссии (ВАК) в 2015 году."]
+	node [style=filled]
+		0 [label="Теология
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="признана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="научной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дисциплиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="решением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Высшей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="аттестационной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="комиссии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ВАК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			5 -> 8 [label="квазиагент"]
+			5 -> 10 [label="_1_компл"]
+			5 -> 12 [label="атриб"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 5 [label="обст"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="предл"]
+}

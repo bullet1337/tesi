@@ -1,0 +1,24 @@
+digraph SENTENCE_2170 {
+	graph [label="Эти воспоминания перемешаны с событиями, происходящими вокруг."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="воспоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перемешаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="событиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="происходящими
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			4 -> 6 [label="опред"]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="обст"]
+}

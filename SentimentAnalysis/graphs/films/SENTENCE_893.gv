@@ -1,0 +1,18 @@
+digraph SENTENCE_893 {
+	graph [label="Проще простого, чего же непонятного."]
+	node [style=filled]
+		0 [label="Проще
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="простого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="непонятного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сравнит"]
+			5 -> 3 [label="предик"]
+			1 -> 5 [label="разъяснит"]
+			3 -> 4 [label="огранич"]
+}

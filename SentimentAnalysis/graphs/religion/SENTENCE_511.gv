@@ -1,0 +1,64 @@
+digraph SENTENCE_511 {
+	graph [label="Участники пресс-конференции напомнили, что гуманитарные грузы стали отправляться из России в Сирию еще в 2011 году, когда конфликт там только разгорался."]
+	node [style=filled]
+		0 [label="Участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пресс-конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="напомнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гуманитарные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="грузы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отправляться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сирию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="конфликт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="там
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="разгорался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 19 [label="предик"]
+			22 -> 20 [label="обст"]
+			22 -> 21 [label="огранич"]
+			6 -> 5 [label="опред"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="предл"]
+			11 -> 12 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 11 [label="обст"]
+			8 -> 14 [label="обст"]
+			8 -> 18 [label="обст"]
+			18 -> 22 [label="подч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			16 -> 15 [label="опред"]
+}

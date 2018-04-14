@@ -1,0 +1,45 @@
+digraph SENTENCE_1499 {
+	graph [label="В итоге фильму достался \"Серебряный медведь\" за выдающийся художественный вклад, его вручили художнику-постановщику Елене Окопной."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="достался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Серебряный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="медведь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="художественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вклад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вручили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="художнику-постановщику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Елене Окопной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 15 [label="_2_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="атриб"]
+			6 -> 14 [label="релят"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			8 -> 11 [label="предл"]
+			15 -> 16 [label="аппоз"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1219 {
+	graph [label="Санкт-Петербург – один из самых красивых городов, которые лично я видел в своей жизни."]
+	node [style=filled]
+		0 [label="Санкт-Петербург
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="красивых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="городов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 8 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="электив"]
+			5 -> 4 [label="опред"]
+			12 -> 14 [label="предл"]
+			3 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 11 [label="релят"]
+			14 -> 13 [label="опред"]
+			10 -> 9 [label="огранич"]
+}

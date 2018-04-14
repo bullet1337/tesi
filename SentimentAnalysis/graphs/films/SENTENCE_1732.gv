@@ -1,0 +1,33 @@
+digraph SENTENCE_1732 {
+	graph [label="Необратимой, если во время не сделать операцию, стоящую больших денег."]
+	node [style=filled]
+		0 [label="Необратимой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стоящую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="больших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="обст"]
+			3 -> 4 [label="предл"]
+			2 -> 6 [label="инф_союзн"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			7 -> 9 [label="опред"]
+}

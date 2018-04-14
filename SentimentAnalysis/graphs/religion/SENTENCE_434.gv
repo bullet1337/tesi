@@ -1,0 +1,45 @@
+digraph SENTENCE_434 {
+	graph [label="Позже они уточнили, что собор передается без смены юридического статуса — его владельцем остается город."]
+	node [style=filled]
+		0 [label="Позже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уточнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="передается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="юридического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="статуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="владельцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="город
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			13 -> 12 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			0 -> 2 [label="подч_союзн"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 14 [label="сент_соч"]
+			14 -> 13 [label="присвяз"]
+			14 -> 15 [label="предик"]
+			4 -> 6 [label="подч_союзн"]
+}

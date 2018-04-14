@@ -1,0 +1,30 @@
+digraph SENTENCE_1580 {
+	graph [label="Мэтт Дэймон — совершенно очевидно, что Петров слышит это имя впервые."]
+	node [style=filled]
+		0 [label="Мэтт Дэймон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очевидно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Петров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="слышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			5 -> 7 [label="подч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="разъяснит"]
+			9 -> 8 [label="опред"]
+}

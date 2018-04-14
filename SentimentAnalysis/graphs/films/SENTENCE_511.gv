@@ -1,0 +1,63 @@
+digraph SENTENCE_511 {
+	graph [label="По моему мнению, это не просто лучший фильм в трилогии, это вообще лучший фильм, который только снимал Ларс фон Триер."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="моему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трилогии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="снимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			9 -> 10 [label="предл"]
+			8 -> 0 [label="вводн"]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 15 [label="сент_соч"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="огранич"]
+			15 -> 14 [label="опред"]
+			15 -> 19 [label="сент_соч"]
+			20 -> 22 [label="аппоз"]
+			6 -> 5 [label="огранич"]
+			0 -> 2 [label="предл"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="предик"]
+			22 -> 21
+			7 -> 6 [label="огранич"]
+}

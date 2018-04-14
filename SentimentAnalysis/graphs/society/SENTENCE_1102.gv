@@ -1,0 +1,78 @@
+digraph SENTENCE_1102 {
+	graph [label="Аксенов также поблагодарил всех, кто принимал участие в этих событиях, \"за то, что вы тогда проявили характер, пришли на площадь, и благодаря этому все состоялось\"."]
+	node [style=filled]
+		0 [label="Аксенов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поблагодарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="принимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="событиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="проявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="пришли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="площадь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="состоялось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			16 -> 19 [label="подч_союзн"]
+			23 -> 24 [label="предл"]
+			22 -> 23 [label="_2_компл"]
+			22 -> 26 [label="сочин"]
+			14 -> 16 [label="эксплет"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			30 -> 27 [label="обст"]
+			30 -> 29 [label="предик"]
+			26 -> 30 [label="соч_союзн"]
+			19 -> 17 [label="предик"]
+			19 -> 18 [label="обст"]
+			19 -> 20 [label="_1_компл"]
+			27 -> 28 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 22 [label="сочин"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="обст"]
+			3 -> 6 [label="релят"]
+}

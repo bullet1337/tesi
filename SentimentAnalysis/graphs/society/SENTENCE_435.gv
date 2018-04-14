@@ -1,0 +1,30 @@
+digraph SENTENCE_435 {
+	graph [label="\"В 13.00 состоится отпевание в Подворье Свято-Троицкой Сергиевой Лавры."]
+	node [style=filled]
+		1 [label="В
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="13.00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отпевание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Подворье
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Свято-Троицкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Сергиевой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Лавры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			6 -> 8 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 9 [label="предик"]
+}

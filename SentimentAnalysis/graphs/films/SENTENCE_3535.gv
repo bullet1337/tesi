@@ -1,0 +1,45 @@
+digraph SENTENCE_3535 {
+	graph [label="Вот Тарасов он поставил Харламова в ворота без защиты что бы тот вырабатывал характер."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ворота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="защиты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вырабатывал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			7 -> 8 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 12 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="разъяснит"]
+			6 -> 7 [label="атриб"]
+			12 -> 9 [label="_1_компл"]
+			12 -> 10 [label="аналит"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="разъяснит"]
+}

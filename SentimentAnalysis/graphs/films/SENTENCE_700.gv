@@ -1,0 +1,45 @@
+digraph SENTENCE_700 {
+	graph [label="Один из лучших фильмов Триера, да и вообще, одна из лучших драм в мире."]
+	node [style=filled]
+		0 [label="Один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="драм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			1 -> 3 [label="предл"]
+			10 -> 8 [label="огранич"]
+			10 -> 11 [label="электив"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			6 -> 7 [label="огранич"]
+			6 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="электив"]
+			0 -> 6 [label="сочин"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			11 -> 13 [label="предл"]
+}

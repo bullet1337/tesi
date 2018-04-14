@@ -1,0 +1,63 @@
+digraph SENTENCE_896 {
+	graph [label="\"Убийство невинных людей на пороге храма — это страшное и циничное преступление, которое не имеет и не может иметь никаких оправданий."]
+	node [style=filled]
+		1 [label="Убийство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="невинных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пороге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="страшное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="циничное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="преступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="иметь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="оправданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			20 -> 22 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+			9 -> 10 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			22 -> 21 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="атриб"]
+			1 -> 12 [label="примыкат"]
+			12 -> 8 [label="предик"]
+			12 -> 9 [label="опред"]
+			16 -> 1 [label="_1_компл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 19 [label="предик"]
+}

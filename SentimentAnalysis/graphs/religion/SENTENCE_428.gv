@@ -1,0 +1,54 @@
+digraph SENTENCE_428 {
+	graph [label="Кандидат в президенты России, сооснователь партии \"Яблоко\" Григорий Явлинский считает, что Исаакиевский собор в Санкт-Петербурге должен остаться музеем."]
+	node [style=filled]
+		0 [label="Кандидат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="президенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="сооснователь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Яблоко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Григорий Явлинский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Исаакиевский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Санкт-Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="остаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="музеем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 18 [label="подч_союзн"]
+			5 -> 6 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			11 -> 0 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			18 -> 15 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			19 -> 20 [label="присвяз"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="атриб"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 5 [label="аппоз"]
+			0 -> 8 [label="примыкат"]
+			0 -> 10 [label="аппоз"]
+			16 -> 17 [label="предл"]
+}

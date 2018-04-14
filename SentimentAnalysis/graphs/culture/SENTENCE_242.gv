@@ -1,0 +1,48 @@
+digraph SENTENCE_242 {
+	graph [label="Режиссер рассказал, что летом он приступит к созданию спектакля по роману-эпопее Льва Толстого \"Война и мир\"."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="летом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="созданию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="роману-эпопее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Льва Толстого
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Война
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="подч_союзн"]
+			9 -> 10 [label="атриб"]
+			9 -> 12 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 15 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			12 -> 14 [label="сочин"]
+}

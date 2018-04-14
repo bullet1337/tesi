@@ -1,0 +1,39 @@
+digraph SENTENCE_1089 {
+	graph [label="Знает Триер на какие рычаги надо жать чтобы у зрителя бежала слеза."]
+	node [style=filled]
+		0 [label="Знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="какие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рычаги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бежала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="слеза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			0 -> 1 [label="предик"]
+			0 -> 5 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			8 -> 9 [label="предл"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="предик"]
+			7 -> 10 [label="подч_союзн"]
+			6 -> 7 [label="обст"]
+			2 -> 4 [label="предл"]
+}

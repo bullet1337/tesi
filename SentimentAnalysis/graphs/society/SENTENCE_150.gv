@@ -1,0 +1,36 @@
+digraph SENTENCE_150 {
+	graph [label="\"Не могу сказать, что победил, но не проиграл однозначно\", — добавил Суворов."]
+	node [style=filled]
+		1 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="победил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проиграл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="однозначно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Суворов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="подч_союзн"]
+			3 -> 5 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 15 [label="вводн"]
+			15 -> 16 [label="предик"]
+			8 -> 10 [label="соч_союзн"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_275 {
+	graph [label="И делает это исподволь\", — приводятся слова патриарха на сайте Русской православной церкви."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исподволь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 14 [label="квазиагент"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="предик"]
+			8 -> 9 [label="аппоз"]
+			8 -> 10 [label="атриб"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="разъяснит"]
+			0 -> 1 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+}

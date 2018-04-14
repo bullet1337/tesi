@@ -1,0 +1,30 @@
+digraph SENTENCE_3342 {
+	graph [label="Нет, еще один вопрос-за что так расхвалмвают этот фильм?"]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вопрос-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расхвалмвают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="предик"]
+			0 -> 7 [label="сент_соч"]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="предл"]
+			9 -> 8 [label="опред"]
+			3 -> 2 [label="огранич"]
+			7 -> 6 [label="обст"]
+			7 -> 9 [label="_1_компл"]
+}

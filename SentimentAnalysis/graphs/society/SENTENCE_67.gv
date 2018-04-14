@@ -1,0 +1,27 @@
+digraph SENTENCE_67 {
+	graph [label="Он добавил, что гордится сыном и российской армией."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гордится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сыном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="армией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="сент_соч"]
+			6 -> 8 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			3 -> 4 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_533 {
+	graph [label="По словам Мясниковой, шанс есть у пациентов, у которых есть статус ребенок-инвалид или для взрослых — инвалидность первой или второй группы."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мясниковой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="шанс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пациентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ребенок-инвалид
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="взрослых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="инвалидность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="сочин"]
+			15 -> 16 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			1 -> 2 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+			19 -> 20 [label="сочин"]
+			22 -> 19 [label="опред"]
+			6 -> 7 [label="предл"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="предик"]
+			11 -> 14 [label="сент_соч"]
+			20 -> 21 [label="соч_союзн"]
+			7 -> 11 [label="релят"]
+			14 -> 18 [label="соч_союзн"]
+			18 -> 15 [label="обст"]
+			18 -> 22 [label="квазиагент"]
+}

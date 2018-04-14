@@ -1,0 +1,60 @@
+digraph SENTENCE_205 {
+	graph [label="Автором идеи представления выступил сам Франко Дзеффирелли, а проработку его концепции осуществит его ученик и ассистент, известный итальянский режиссер Марко Гандини."]
+	node [style=filled]
+		0 [label="Автором
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="идеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="представления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Франко Дзеффирелли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проработку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="концепции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="осуществит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ученик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ассистент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="итальянский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Марко Гандини
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 12 [label="_1_компл"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сочин"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+			3 -> 11 [label="сент_соч"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 10 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			0 -> 1 [label="_1_компл"]
+			10 -> 9 [label="квазиагент"]
+			15 -> 19 [label="об_аппоз"]
+}

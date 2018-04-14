@@ -1,0 +1,27 @@
+digraph SENTENCE_2789 {
+	graph [label="Сценарий слабоват, не удивительно сколько раз его меняли."]
+	node [style=filled]
+		0 [label="Сценарий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="слабоват
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="удивительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="меняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			4 -> 8 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="сент_соч"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+}

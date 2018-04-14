@@ -1,0 +1,21 @@
+digraph SENTENCE_3091 {
+	graph [label="Более того, оно нагружено полным маразмом."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нагружено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="полным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="маразмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_2_компл"]
+			0 -> 1 [label="сравнит"]
+}

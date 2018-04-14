@@ -1,0 +1,33 @@
+digraph SENTENCE_4007 {
+	graph [label="«Заводной апельсин» — кино на любителя, и этих любителей ещё поискать."]
+	node [style=filled]
+		1 [label="Заводной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="апельсин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="любителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="поискать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="сочин"]
+			5 -> 6 [label="атриб"]
+			5 -> 9 [label="сочин"]
+			13 -> 2 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			9 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_137 {
+	graph [label="\"Ушёл из жизни Сергей Леонидович Тихвинский – выдающийся учёный, дипломат, авторитетный общественный деятель."]
+	node [style=filled]
+		1 [label="Ушёл
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сергей Леонидович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Тихвинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="учёный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дипломат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="авторитетный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="общественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="деятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 8 [label="об_аппоз"]
+			4 -> 10 [label="аппоз"]
+			4 -> 14 [label="об_аппоз"]
+			2 -> 3 [label="предл"]
+			8 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="предик"]
+}

@@ -1,0 +1,59 @@
+digraph SENTENCE_810 {
+	graph [label="Звуки работающих станков, мчащегося поезда, вентиляции… Вроде бы ничего такого, чтобы могло заворожить, но они так прекрасно вплетены в фильм!"]
+	node [style=filled]
+		0 [label="Звуки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="станков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мчащегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вентиляции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Вроде
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="могло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="заворожить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вплетены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 20 [label="огранич"]
+			9 -> 10
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="атриб"]
+			23 -> 24 [label="предл"]
+			18 -> 22 [label="соч_союзн"]
+			14 -> 15 [label="подч_союзн"]
+			14 -> 18 [label="сент_соч"]
+			0 -> 2 [label="квазиагент"]
+			15 -> 16 [label="_1_компл"]
+			11 -> 12 [label="опред"]
+			22 -> 19 [label="предик"]
+			22 -> 21 [label="обст"]
+			22 -> 23 [label="обст"]
+}

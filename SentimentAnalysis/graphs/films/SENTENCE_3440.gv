@@ -1,0 +1,31 @@
+digraph SENTENCE_3440 {
+	graph [label="В остальном его игра — эклер, вот-вот готовый лопнуть от крема."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="остальном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эклер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вот-вот
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="готовый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лопнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="крема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+			5 -> 8 [label="опред"]
+}

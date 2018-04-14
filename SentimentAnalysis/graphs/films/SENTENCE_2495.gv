@@ -1,0 +1,47 @@
+digraph SENTENCE_2495 {
+	graph [label="В общем, если хотите посмотреть глубокое кино, смотрите фильмы Балабанова и Звягинцева, а не это."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хотите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="глубокое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Балабанова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="аппоз"]
+			11 -> 12 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			15 -> 17 [label="соч_союзн"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="сочин"]
+			7 -> 6 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 15 [label="сочин"]
+			3 -> 4 [label="подч_союзн"]
+			17 -> 16 [label="огранич"]
+}

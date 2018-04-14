@@ -1,0 +1,51 @@
+digraph SENTENCE_4805 {
+	graph [label="Второй раз был чуть лучше — я имею ввиду мультсериал начала нулевых, который еще по СТС показывали."]
+	node [style=filled]
+		0 [label="Второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="имею
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ввиду
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мультсериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нулевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="СТС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="показывали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 17 [label="сент_соч"]
+			9 -> 10 [label="атриб"]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="опред"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="предл"]
+			17 -> 13 [label="_1_компл"]
+			17 -> 15 [label="обст"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="присвяз"]
+			2 -> 7 [label="сент_соч"]
+			8 -> 9 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_2234 {
+	graph [label="Я практически не знаком с Тарковским, но смотрел его фильм «Сталкер», с иной трактовкой Братьев Стругацких, которая по силе восприятия и глубине смысла ничуть не уступает оригиналу."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Тарковским
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сталкер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="иной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="трактовкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Братьев Стругацких
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="силе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="восприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="глубине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="смысла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ничуть
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="уступает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="оригиналу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			28 -> 27 [label="огранич"]
+			10 -> 9 [label="квазиагент"]
+			10 -> 12 [label="ном_аппоз"]
+			7 -> 8 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="огранич"]
+			21 -> 22 [label="предл"]
+			24 -> 25 [label="соч_союзн"]
+			29 -> 28 [label="огранич"]
+			29 -> 30 [label="_1_компл"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 15 [label="обст"]
+			8 -> 23 [label="разъяснит"]
+			8 -> 29 [label="сочин"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			15 -> 17 [label="предл"]
+			25 -> 26 [label="квазиагент"]
+			23 -> 20 [label="предик"]
+			23 -> 21 [label="вводн"]
+			23 -> 24 [label="сочин"]
+}

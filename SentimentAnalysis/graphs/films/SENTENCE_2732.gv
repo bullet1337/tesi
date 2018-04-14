@@ -1,0 +1,30 @@
+digraph SENTENCE_2732 {
+	graph [label="Будем надеяться, он успел сбежать домой до начала проката."]
+	node [style=filled]
+		0 [label="Будем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="надеяться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="успел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сбежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="аналит"]
+			0 -> 4 [label="сент_соч"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 7 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+}

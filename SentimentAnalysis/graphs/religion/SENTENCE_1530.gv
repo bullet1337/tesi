@@ -1,0 +1,21 @@
+digraph SENTENCE_1530 {
+	graph [label="Документ обязывает священников сдать копии загранпаспортов."]
+	node [style=filled]
+		0 [label="Документ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обязывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="священников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="копии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="загранпаспортов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+}

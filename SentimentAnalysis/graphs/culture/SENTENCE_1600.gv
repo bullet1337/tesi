@@ -1,0 +1,30 @@
+digraph SENTENCE_1600 {
+	graph [label="Анимационный фильм Андерсона открыл в четверг 68-й Берлинский кинофестиваль."]
+	node [style=filled]
+		0 [label="Анимационный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="открыл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="68-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Берлинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 8 [label="сент_соч"]
+}

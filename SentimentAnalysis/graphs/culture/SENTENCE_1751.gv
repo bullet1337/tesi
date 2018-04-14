@@ -1,0 +1,75 @@
+digraph SENTENCE_1751 {
+	graph [label="\"Двадцать седьмого февраля 2018 года в Концертном зале Чайковского состоится концерт Памяти Елизаветы Глинки Московского государственного академического симфонического оркестра под управлением Павла Когана\", — говорится в сообщении."]
+	node [style=filled]
+		1 [label="Двадцать
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="седьмого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Концертном
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Памяти
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Елизаветы Глинки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Московского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="государственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="академического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="симфонического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оркестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="управлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Павла Когана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 26 [label="обст"]
+			13 -> 18 [label="сочин"]
+			6 -> 8 [label="предл"]
+			10 -> 2 [label="предик"]
+			10 -> 6 [label="_2_компл"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 19 [label="_2_компл"]
+			10 -> 21 [label="_1_компл"]
+			10 -> 25 [label="вводн"]
+			11 -> 12 [label="квазиагент"]
+			11 -> 13 [label="сочин"]
+			5 -> 4 [label="опред"]
+			19 -> 20 [label="предл"]
+			18 -> 14 [label="опред"]
+			18 -> 15 [label="опред"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			2 -> 1 [label="колич_вспом"]
+			2 -> 3 [label="атриб"]
+			26 -> 27 [label="предл"]
+			3 -> 5 [label="атриб"]
+}

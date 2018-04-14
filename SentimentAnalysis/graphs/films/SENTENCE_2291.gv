@@ -1,0 +1,66 @@
+digraph SENTENCE_2291 {
+	graph [label="Он получил множество всевозможных международных наград, громкое имя режиссера — Ларс Фон Триер, восторженные отзывы кинокритиков и зрителей (в том числе и на КиноПоиске)."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всевозможных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="международных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="наград
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="громкое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Ларс Фон Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="восторженные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отзывы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кинокритиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="КиноПоиске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 5 [label="квазиагент"]
+			15 -> 16 [label="сочин"]
+			16 -> 17 [label="соч_союзн"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 14 [label="сочин"]
+			23 -> 8 [label="предик"]
+			23 -> 19 [label="огранич"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 23 [label="сент_соч"]
+			9 -> 11 [label="аппоз"]
+			21 -> 20 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			19 -> 21 [label="предл"]
+}

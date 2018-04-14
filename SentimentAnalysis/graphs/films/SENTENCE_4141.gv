@@ -1,0 +1,48 @@
+digraph SENTENCE_4141 {
+	graph [label="Мне нравятся фильмы про однополые отношения, они, как правило интересны, остры и хороши для размышлений."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нравятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="однополые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="интересны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="остры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хороши
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="размышлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			13 -> 14 [label="сочин"]
+			3 -> 5 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			9 -> 10 [label="сравн_союзн"]
+			16 -> 17 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 11 [label="релят"]
+			2 -> 3 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			11 -> 7 [label="предик"]
+			11 -> 9 [label="вводн"]
+			11 -> 13 [label="_1_компл"]
+}

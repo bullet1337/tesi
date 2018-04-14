@@ -1,0 +1,33 @@
+digraph SENTENCE_2484 {
+	graph [label="Даже если он там и есть, я не много потеряю."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="потеряю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			10 -> 1 [label="обст"]
+			10 -> 7 [label="предик"]
+			10 -> 9 [label="_1_компл"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			1 -> 5 [label="подч_союзн"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_3912 {
+	graph [label="Когда ма звала Алекса просыпаться и собираться в школу у меня случился несколькосекундный ступор — «а что этот дядька делает в школе??"]
+	node [style=filled]
+		0 [label="Когда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ма
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="звала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алекса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="просыпаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собираться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="школу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="случился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несколькосекундный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ступор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="дядька
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			0 -> 2 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			9 -> 10 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			11 -> 16 [label="сент_соч"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			16 -> 20 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="сочин"]
+			21 -> 22 [label="предл"]
+}

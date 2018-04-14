@@ -1,0 +1,27 @@
+digraph SENTENCE_662 {
+	graph [label="Да и времена для палестинских христиан были трудные."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="времена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="палестинских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трудные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 2 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			2 -> 3 [label="атриб"]
+			0 -> 1 [label="огранич"]
+			0 -> 6 [label="соч_союзн"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+}

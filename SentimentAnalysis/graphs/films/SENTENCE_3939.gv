@@ -1,0 +1,41 @@
+digraph SENTENCE_3939 {
+	graph [label="Происходят внешние перемены, на уровне физики, но внутри у героя все то же."]
+	node [style=filled]
+		0 [label="Происходят
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="внешние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перемены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уровне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="физики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внутри
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предик"]
+			0 -> 8 [label="сент_соч"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			13 -> 9 [label="огранич"]
+			13 -> 10 [label="обст"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="огранич"]
+			5 -> 6 [label="квазиагент"]
+}

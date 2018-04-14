@@ -1,0 +1,48 @@
+digraph SENTENCE_1353 {
+	graph [label="При этом УПЦ МП неоднократно сообщала о притеснениях священнослужителей и захватах православных храмов представителями УПЦ КП."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="УПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="МП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сообщала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="притеснениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="священнослужителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="захватах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="храмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="представителями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="УПЦ КП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="соч_союзн"]
+			3 -> 2 [label="композ"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_3_компл"]
+			7 -> 8 [label="квазиагент"]
+			8 -> 9 [label="сочин"]
+			0 -> 1 [label="предл"]
+			12 -> 11 [label="опред"]
+			6 -> 7 [label="предл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="агент"]
+			13 -> 14 [label="_1_компл"]
+}

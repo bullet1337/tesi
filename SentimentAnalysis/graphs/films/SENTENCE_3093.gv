@@ -1,0 +1,64 @@
+digraph SENTENCE_3093 {
+	graph [label="1 из 10
+Хороших драматических фильмов не так много, но те которые есть вызывают бурю эмоций (от переживания до слез)."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Хороших
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="драматических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вызывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бурю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="переживания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="слез
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="предл"]
+			11 -> 13 [label="релят"]
+			13 -> 12 [label="предик"]
+			1 -> 5 [label="предл"]
+			7 -> 6 [label="огранич"]
+			14 -> 11 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 18 [label="_2_компл"]
+			14 -> 20 [label="обст"]
+			5 -> 2 [label="количест"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			10 -> 14 [label="соч_союзн"]
+			8 -> 0 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="сент_соч"]
+			20 -> 21 [label="предл"]
+			0 -> 1 [label="электив"]
+			15 -> 16 [label="атриб"]
+}

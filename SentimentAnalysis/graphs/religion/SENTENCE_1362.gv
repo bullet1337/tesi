@@ -1,0 +1,69 @@
+digraph SENTENCE_1362 {
+	graph [label="В 1946 году на панихиде у гробницы патриарха митрополит Крутицкий и Коломенский Николай (Ярушевич) произнес: \"Мы молились сейчас только над могилой Святейшего."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1946
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="панихиде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гробницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="митрополит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Крутицкий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Коломенский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Николай
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Ярушевич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="произнес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Мы
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="молились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="могилой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Святейшего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="аппоз"]
+			24 -> 25 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			3 -> 5 [label="уточн"]
+			3 -> 7 [label="предл"]
+			2 -> 1 [label="опред"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="предл"]
+			5 -> 6 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			16 -> 0 [label="обст"]
+			16 -> 3 [label="обст"]
+			16 -> 20 [label="релят"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="обст"]
+			20 -> 23 [label="_1_компл"]
+			7 -> 8 [label="аппоз"]
+			7 -> 10 [label="сочин"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4199 {
+	graph [label="Однако ничего из этого здесь тоже нет."]
+	node [style=filled]
+		0 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ничего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="огранич"]
+			2 -> 3 [label="предл"]
+			6 -> 0 [label="огранич"]
+			6 -> 1 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 4 [label="_1_компл"]
+}

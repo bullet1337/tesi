@@ -1,0 +1,50 @@
+digraph SENTENCE_411 {
+	graph [label="Под его руководством выпустили первый отечественный переднеприводный автомобиль ВАЗ-2108 (\"восьмерка\"), а также \"Ниву\" и \"пятерку\"."]
+	node [style=filled]
+		0 [label="Под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выпустили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отечественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="переднеприводный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="автомобиль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ВАЗ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="2108
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="восьмерка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Ниву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пятерку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			20 -> 18 [label="огранич"]
+			20 -> 22 [label="сочин"]
+			22 -> 24 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 13 [label="предик"]
+			3 -> 17 [label="сент_соч"]
+			13 -> 10 [label="количест"]
+			7 -> 4 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			0 -> 2 [label="предл"]
+}

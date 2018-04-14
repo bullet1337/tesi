@@ -1,0 +1,63 @@
+digraph SENTENCE_18 {
+	graph [label="(Открою ещё один секрет: это третий фильм за всю мою жизнь, во время просмотра которого, я пустил слезу… даже две."]
+	node [style=filled]
+		1 [label="Открою
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пустил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="слезу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="количест"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			9 -> 12 [label="предл"]
+			3 -> 2 [label="огранич"]
+			20 -> 16 [label="предик"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 24 [label="сент_соч"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			1 -> 8 [label="_1_компл"]
+			1 -> 9 [label="обст"]
+			1 -> 14 [label="обст"]
+			1 -> 20 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			14 -> 15 [label="предл"]
+			24 -> 23 [label="огранич"]
+}

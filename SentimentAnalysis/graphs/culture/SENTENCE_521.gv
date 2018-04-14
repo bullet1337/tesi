@@ -1,0 +1,51 @@
+digraph SENTENCE_521 {
+	graph [label="Так что это адекватный приз, как и приз жюри Звягинцева в Канне за \"Нелюбовь\", — сказал Разлогов."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="адекватный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Канне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Нелюбовь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Разлогов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="аппоз"]
+			0 -> 1
+			13 -> 15 [label="предл"]
+			2 -> 0 [label="пролепт"]
+			19 -> 20 [label="предик"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 11 [label="атриб"]
+			8 -> 13 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			6 -> 7 [label="огранич"]
+			6 -> 8 [label="сравн_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сравнит"]
+			4 -> 19 [label="вводн"]
+}

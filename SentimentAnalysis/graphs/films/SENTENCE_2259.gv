@@ -1,0 +1,42 @@
+digraph SENTENCE_2259 {
+	graph [label="Красивое название, высокие оценки критиков, восторженные рецензии на Кинопоиске, громкое имя режиссера наконец!"]
+	node [style=filled]
+		0 [label="Красивое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высокие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оценки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="критиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="восторженные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рецензии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Кинопоиске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="громкое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="предик"]
+			1 -> 0 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			9 -> 10 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 15 [label="разъяснит"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+}

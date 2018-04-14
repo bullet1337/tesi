@@ -1,0 +1,48 @@
+digraph SENTENCE_2233 {
+	graph [label="Это небольшое философское отступление помогает мне подвести себя к самому сложному фильму в плане восприятия."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="небольшое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="философское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="помогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подвести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сложному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="восприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			12 -> 13 [label="предл"]
+			8 -> 11 [label="предл"]
+			10 -> 9 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_3_компл"]
+			6 -> 12 [label="обст"]
+			6 -> 14 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="вводн"]
+}

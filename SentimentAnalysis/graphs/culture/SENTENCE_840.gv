@@ -1,0 +1,60 @@
+digraph SENTENCE_840 {
+	graph [label="По словам Сохиева, в \"Пиковой даме\" многое неоднозначно, в ней \"многое нужно искать, объяснять для себя, это настоящий русский психологический театр\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сохиева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Пиковой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="даме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="многое
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="неоднозначно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="многое
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="искать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="объяснять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="настоящий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="русский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="психологический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+			12 -> 13 [label="предл"]
+			17 -> 19 [label="_2_компл"]
+			19 -> 20 [label="обст"]
+			19 -> 27 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			27 -> 23 [label="предик"]
+			27 -> 24 [label="опред"]
+			27 -> 25 [label="опред"]
+			27 -> 26 [label="опред"]
+			4 -> 7 [label="предл"]
+			0 -> 1 [label="предл"]
+}

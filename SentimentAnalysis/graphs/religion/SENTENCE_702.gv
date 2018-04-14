@@ -1,0 +1,42 @@
+digraph SENTENCE_702 {
+	graph [label="За то, что б он попал к конкретным людям – нуждающимся сирийцам\", — добавил он."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="б
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="попал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конкретным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нуждающимся
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сирийцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="эксплет"]
+			7 -> 9 [label="предл"]
+			12 -> 11 [label="опред"]
+			3 -> 6 [label="подч_союзн"]
+			0 -> 1 [label="предл"]
+			9 -> 8 [label="опред"]
+			16 -> 0 [label="обст"]
+			16 -> 12 [label="_2_компл"]
+			16 -> 17 [label="предик"]
+			6 -> 4 [label="аналит"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+}

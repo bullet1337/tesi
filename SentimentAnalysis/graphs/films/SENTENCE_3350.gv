@@ -1,0 +1,66 @@
+digraph SENTENCE_3350 {
+	graph [label="Два с лишним часа фильм держал меня в неослабевающем напряжении, а сколько раз за это время я был расстроган сюжетным драмматизмом!"]
+	node [style=filled]
+		0 [label="Два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лишним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="держал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неослабевающем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="напряжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="расстроган
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сюжетным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="драмматизмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="атриб"]
+			7 -> 9 [label="предл"]
+			11 -> 18 [label="соч_союзн"]
+			19 -> 21 [label="агент"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			16 -> 15 [label="опред"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="предл"]
+			18 -> 12 [label="предик"]
+			18 -> 14 [label="обст"]
+			18 -> 17 [label="предик"]
+			18 -> 19
+			3 -> 0 [label="количест"]
+			5 -> 3 [label="длительн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 11 [label="сент_соч"]
+			21 -> 20 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1061 {
+	graph [label="Последний день перед Великим постом православные христиане называют Прощеным воскресеньем."]
+	node [style=filled]
+		0 [label="Последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Великим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="постом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="православные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="христиане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="называют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Прощеным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="воскресеньем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			4 -> 3 [label="опред"]
+			6 -> 5 [label="опред"]
+			9 -> 8 [label="опред"]
+			2 -> 4 [label="предл"]
+			7 -> 1 [label="_1_компл"]
+			7 -> 2 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_2_компл"]
+}

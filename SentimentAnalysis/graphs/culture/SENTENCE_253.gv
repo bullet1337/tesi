@@ -1,0 +1,57 @@
+digraph SENTENCE_253 {
+	graph [label="Она основана на одноименной неоконченной повести американского писателя Германа Мелвилла, сюжет которой разворачивается в 1797 году на военном судне."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="основана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одноименной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неоконченной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="повести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="американского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Германа Мелвилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разворачивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="1797
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="военном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="судне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="предик"]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="обст"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			7 -> 12 [label="релят"]
+			18 -> 17 [label="опред"]
+			2 -> 5 [label="предл"]
+			15 -> 14 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 7 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+			16 -> 18 [label="предл"]
+}

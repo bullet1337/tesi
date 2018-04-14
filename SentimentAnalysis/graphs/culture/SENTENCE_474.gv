@@ -1,0 +1,33 @@
+digraph SENTENCE_474 {
+	graph [label="Премьера состоится 2 марта, 16 февраля прошел предпремьерный показ спектакля."]
+	node [style=filled]
+		0 [label="Премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="предпремьерный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="атриб"]
+			3 -> 5 [label="атриб"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			7 -> 9 [label="предик"]
+			2 -> 3 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="сочин"]
+}

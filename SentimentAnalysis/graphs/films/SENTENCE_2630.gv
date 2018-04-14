@@ -1,0 +1,42 @@
+digraph SENTENCE_2630 {
+	graph [label="Хваленая всеми и всюду музыка лично у меня вызвала только изгиб надбровной дуги."]
+	node [style=filled]
+		0 [label="Хваленая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всеми
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всюду
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вызвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="изгиб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="надбровной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дуги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 4 [label="предик"]
+			8 -> 6 [label="_2_компл"]
+			8 -> 10 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			3 -> 2 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="сочин"]
+			4 -> 0 [label="опред"]
+			4 -> 1 [label="опред"]
+			4 -> 3 [label="огранич"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1130 {
+	graph [label="Напомним, предстоятель Русской церкви неоднократно призывал российские власти вывести аборты из системы ОМС."]
+	node [style=filled]
+		0 [label="Напомним
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предстоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="призывал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вывести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="аборты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="системы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ОМС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="_2_компл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="_2_компл"]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+}

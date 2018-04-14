@@ -1,0 +1,69 @@
+digraph SENTENCE_1412 {
+	graph [label="Главный раввин Финляндии Шимон Ливсон уверяет, что в случае запрета обрезания в отдельно взятой стране евреи ради брит-милы просто будут ездить за границу."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раввин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Финляндии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Шимон Ливсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="уверяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="запрета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обрезания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отдельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="взятой
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="евреи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="брит-милы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ездить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="границу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			6 -> 19 [label="подч_союзн"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 3 [label="аппоз"]
+			20 -> 21 [label="_2_компл"]
+			4 -> 1 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			21 -> 22 [label="предл"]
+			13 -> 12 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="_2_компл"]
+			16 -> 17 [label="предл"]
+			7 -> 8 [label="предл"]
+			15 -> 7 [label="огранич"]
+			15 -> 16 [label="атриб"]
+			19 -> 15 [label="предик"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="аналит"]
+			11 -> 14 [label="предл"]
+}

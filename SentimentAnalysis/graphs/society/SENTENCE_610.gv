@@ -1,0 +1,30 @@
+digraph SENTENCE_610 {
+	graph [label="Но придавать значение этим опасениям молодая мама не стала."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="придавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="значение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="опасениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="молодая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="_2_компл"]
+			0 -> 8 [label="соч_союзн"]
+			8 -> 1 [label="_1_компл"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="опред"]
+}

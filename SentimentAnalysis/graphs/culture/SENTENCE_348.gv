@@ -1,0 +1,48 @@
+digraph SENTENCE_348 {
+	graph [label="\"Гуф лучше умеет шутить в треках, умеет использовать где нужно сарказм, его строчки хорошо запоминаются."]
+	node [style=filled]
+		1 [label="Гуф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="умеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="шутить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="треках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="умеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="использовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сарказм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="строчки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="запоминаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="предик"]
+			11 -> 17 [label="сент_соч"]
+			8 -> 9 [label="_1_компл"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="обст"]
+			15 -> 14 [label="квазиагент"]
+			1 -> 2 [label="аппоз"]
+			4 -> 5 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="сочин"]
+			3 -> 11 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+}

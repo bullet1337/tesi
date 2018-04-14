@@ -1,0 +1,69 @@
+digraph SENTENCE_4770 {
+	graph [label="Спустя 15 лет, мы видим, проживая в США уже, того самого паренька, но уже в роли отца, который возвращается со службы домой."]
+	node [style=filled]
+		0 [label="Спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="видим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проживая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="паренька
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="возвращается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 12 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			19 -> 20 [label="квазиагент"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+			23 -> 18 [label="обст"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+			23 -> 26 [label="обст"]
+			16 -> 23 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			24 -> 25 [label="предл"]
+			2 -> 1 [label="количест"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="обст"]
+			5 -> 14 [label="_1_компл"]
+			5 -> 16 [label="сочин"]
+			12 -> 10 [label="огранич"]
+			12 -> 13 [label="опред"]
+}

@@ -1,0 +1,40 @@
+digraph SENTENCE_1268 {
+	graph [label="Берлинале проходит в 68-й раз в столице Германии с 15 по 25 февраля."]
+	node [style=filled]
+		0 [label="Берлинале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="68-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Германии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			11 -> 12 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			10 -> 11 [label="предл"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			8 -> 5 [label="огранич"]
+			8 -> 9 [label="предл"]
+			8 -> 10 [label="соотнос"]
+}

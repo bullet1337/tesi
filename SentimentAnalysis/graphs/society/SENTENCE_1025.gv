@@ -1,0 +1,21 @@
+digraph SENTENCE_1025 {
+	graph [label="Всего включены в программу 17 регионов."]
+	node [style=filled]
+		0 [label="Всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="включены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="регионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="количест"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+}

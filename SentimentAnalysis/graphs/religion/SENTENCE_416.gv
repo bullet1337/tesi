@@ -1,0 +1,57 @@
+digraph SENTENCE_416 {
+	graph [label="Главная часть празднования — публичное чтение Мегилат Эстер (книги Есфири) по свитку во время вечерней и утренней молитвы в синагоге."]
+	node [style=filled]
+		0 [label="Главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="празднования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="публичное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мегилат Эстер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Есфири
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="свитку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вечерней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="утренней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="молитвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="синагоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			9 -> 11 [label="атриб"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			5 -> 13 [label="обст"]
+			5 -> 18 [label="сочин"]
+			16 -> 17 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			11 -> 12 [label="предл"]
+			6 -> 8 [label="сочин"]
+			13 -> 14 [label="предл"]
+			18 -> 15 [label="опред"]
+			18 -> 19 [label="атриб"]
+			8 -> 9 [label="сочин"]
+			19 -> 20 [label="предл"]
+}

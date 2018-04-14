@@ -1,0 +1,48 @@
+digraph SENTENCE_1122 {
+	graph [label="Наперед скажу, и этот фильм ребята, пахнет некой спецификой в плане операторской и режиссерской постановки."]
+	node [style=filled]
+		0 [label="Наперед
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ребята
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пахнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="некой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="спецификой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="операторской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="режиссерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="постановки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			16 -> 13 [label="опред"]
+			4 -> 3 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			8 -> 6 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="обст"]
+			8 -> 16 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="релят"]
+}

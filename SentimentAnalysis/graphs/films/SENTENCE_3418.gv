@@ -1,0 +1,12 @@
+digraph SENTENCE_3418 {
+	graph [label="Актёры играют хорошо."]
+	node [style=filled]
+		0 [label="Актёры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="играют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+}

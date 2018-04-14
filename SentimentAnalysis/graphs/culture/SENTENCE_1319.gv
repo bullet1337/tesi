@@ -1,0 +1,24 @@
+digraph SENTENCE_1319 {
+	graph [label="Автора фильма интересуют символы в клипах \"Ленинграда\"."]
+	node [style=filled]
+		0 [label="Автора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интересуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="символы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="клипах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ленинграда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			3 -> 4 [label="атриб"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+}

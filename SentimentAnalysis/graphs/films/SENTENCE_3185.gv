@@ -1,0 +1,24 @@
+digraph SENTENCE_3185 {
+	graph [label="Если всеми ты любим, Быть неплохо голубым!"]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всеми
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Быть
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="неплохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="голубым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="присвяз"]
+			5 -> 7 [label="присвяз"]
+			0 -> 3 [label="подч_союзн"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+}

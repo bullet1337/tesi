@@ -1,0 +1,58 @@
+digraph SENTENCE_239 {
+	graph [label="В XIX веке ощущалась экспансия французского языка, до этого — голландского и немецкого, а еще раньше — польского и тюркских языков."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="XIX
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ощущалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="экспансия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="французского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="языка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="голландского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="немецкого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="польского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="тюркских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="языков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			0 -> 2 [label="предл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="_2_компл"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			20 -> 21 [label="соч_союзн"]
+			22 -> 19 [label="опред"]
+			19 -> 20 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			17 -> 16 [label="огранич"]
+			17 -> 22 [label="сравнит"]
+			11 -> 12 [label="сочин"]
+			11 -> 15 [label="сочин"]
+}

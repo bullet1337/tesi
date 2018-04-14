@@ -1,0 +1,66 @@
+digraph SENTENCE_426 {
+	graph [label="В свою очередь в Минкультуры предупредили кинотеатры об ответственности за показ фильма \"Смерть Сталина\", может быть возбуждено дело об административном правонарушении."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Минкультуры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="предупредили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кинотеатры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ответственности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="возбуждено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="административном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="правонарушении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 13 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 20 [label="сент_соч"]
+			6 -> 7 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			21 -> 23 [label="предл"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			18 -> 19
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 17 [label="сент_соч"]
+}

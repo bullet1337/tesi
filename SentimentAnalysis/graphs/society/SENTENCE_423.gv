@@ -1,0 +1,66 @@
+digraph SENTENCE_423 {
+	graph [label="В 2016 году Родченков рассказал New York Times о \"допинговой программе\" в России и стал информатором WADA, что послужило началом крупного спортивного скандала."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Родченков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="New York Times
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="допинговой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="информатором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="WADA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="послужило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="началом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="крупного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="спортивного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="скандала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="соч_союзн"]
+			14 -> 15 [label="присвяз"]
+			19 -> 18 [label="предик"]
+			19 -> 20 [label="_1_компл"]
+			20 -> 23 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+			4 -> 6 [label="_3_компл"]
+			4 -> 13 [label="сочин"]
+			4 -> 19 [label="изъясн"]
+			11 -> 12 [label="предл"]
+			6 -> 9 [label="предл"]
+			15 -> 16 [label="аппоз"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			2 -> 1 [label="опред"]
+}

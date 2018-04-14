@@ -1,0 +1,60 @@
+digraph SENTENCE_4218 {
+	graph [label="Главный герой не вызывает сопереживания — хоть он и «чужой среди своих», он не делает ничего такого, что заставляет ему сопереживать."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вызывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сопереживания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чужой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сопереживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="электив"]
+			1 -> 0 [label="опред"]
+			18 -> 19 [label="опред"]
+			11 -> 12 [label="предл"]
+			8 -> 10 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 22 [label="разъяснит"]
+			22 -> 21 [label="предик"]
+			22 -> 23 [label="_2_компл"]
+			22 -> 24 [label="сочин"]
+}

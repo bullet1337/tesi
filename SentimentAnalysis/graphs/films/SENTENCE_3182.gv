@@ -1,0 +1,15 @@
+digraph SENTENCE_3182 {
+	graph [label="Интересно, сколько им заплатили?"]
+	node [style=filled]
+		0 [label="Интересно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заплатили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="_2_компл"]
+			0 -> 2 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+}

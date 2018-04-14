@@ -1,0 +1,41 @@
+digraph SENTENCE_349 {
+	graph [label="10 из 10
+Что ты будешь делать, если у тебя заберут твою мечту?"]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Что
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заберут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="твою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мечту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			0 -> 1 [label="электив"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="аналит"]
+			6 -> 8 [label="обст"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="предл"]
+			8 -> 11 [label="подч_союзн"]
+}

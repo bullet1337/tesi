@@ -1,0 +1,33 @@
+digraph SENTENCE_4106 {
+	graph [label="Остальные актерские работы, к слову, весьма убедительны — тут отдаю должное."]
+	node [style=filled]
+		0 [label="Остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актерские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="слову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="убедительны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отдаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="должное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			8 -> 2 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="сент_соч"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_272 {
+	graph [label="Лет пять-семь назад популярной была игра в \"олбанский\" интернет-язык."]
+	node [style=filled]
+		0 [label="Лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пять-семь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="популярной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="олбанский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="интернет-язык
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="присвяз"]
+			4 -> 5 [label="предик"]
+			5 -> 6 [label="атриб"]
+			2 -> 0 [label="предл"]
+			10 -> 8 [label="опред"]
+			6 -> 10 [label="предл"]
+			0 -> 1 [label="аппрокс_колич"]
+}

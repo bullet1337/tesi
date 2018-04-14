@@ -1,0 +1,15 @@
+digraph SENTENCE_4821 {
+	graph [label="Единственный, кто отрабатывает — Брайан Крэнстон."]
+	node [style=filled]
+		0 [label="Единственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отрабатывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Брайан Крэнстон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="оп_опред"]
+			3 -> 2 [label="предик"]
+			0 -> 3 [label="релят"]
+}

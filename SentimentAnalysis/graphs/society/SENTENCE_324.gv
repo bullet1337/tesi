@@ -1,0 +1,39 @@
+digraph SENTENCE_324 {
+	graph [label="Кроме того, своим опытом работы поделятся лидеры медиаиндустрии\", — сказал представитель правительства края."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="опытом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поделятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лидеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="медиаиндустрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="представитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="_2_компл"]
+			6 -> 7 [label="предик"]
+			6 -> 12 [label="вводн"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			13 -> 14 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			12 -> 13 [label="предик"]
+}

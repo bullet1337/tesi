@@ -1,0 +1,30 @@
+digraph SENTENCE_1051 {
+	graph [label="Кяров проработал в органах внутренних дел более 26 лет."]
+	node [style=filled]
+		0 [label="Кяров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="проработал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="органах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="внутренних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			8 -> 7 [label="количест"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="обст"]
+			2 -> 3 [label="предл"]
+			6 -> 8 [label="сравнит"]
+			3 -> 5 [label="квазиагент"]
+}

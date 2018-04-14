@@ -1,0 +1,63 @@
+digraph SENTENCE_1222 {
+	graph [label="По словам заместителя директора, врачи решили не оперировать артиста и не транспортировать его куда-либо, чтобы избежать дополнительного стресса для организма."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заместителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="директора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="врачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="решили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оперировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="артиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="транспортировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="куда-либо
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="избежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дополнительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стресса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="организма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="атриб"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="обст"]
+			12 -> 16 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 12 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			20 -> 21 [label="предл"]
+			17 -> 19 [label="_1_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			16 -> 17 [label="инф_союзн"]
+}

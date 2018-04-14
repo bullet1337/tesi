@@ -1,0 +1,24 @@
+digraph SENTENCE_2373 {
+	graph [label="Из-за этого не удавалось погрузиться в фильм."]
+	node [style=filled]
+		0 [label="Из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="удавалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="погрузиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+}

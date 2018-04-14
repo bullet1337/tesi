@@ -1,0 +1,36 @@
+digraph SENTENCE_830 {
+	graph [label="\"Восстановлено трамвайное движение после ДТП на пересечении улиц Таллинской и Маршала Катукова."]
+	node [style=filled]
+		1 [label="Восстановлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трамвайное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="движение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ДТП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пересечении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="улиц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Таллинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Маршала Катукова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="атриб"]
+			5 -> 9 [label="оп_опред"]
+			5 -> 10 [label="сочин"]
+			1 -> 3 [label="предик"]
+			6 -> 7 [label="предл"]
+			10 -> 11 [label="соч_союзн"]
+}

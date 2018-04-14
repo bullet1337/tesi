@@ -1,0 +1,45 @@
+digraph SENTENCE_1318 {
+	graph [label="Символ новолетия в странах Юго-Восточной Азии, откуда буддизм пришел на север, — Желтая земляная собака."]
+	node [style=filled]
+		0 [label="Символ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="новолетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="странах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Юго-Восточной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Азии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="откуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="буддизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пришел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="север
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Желтая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="земляная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="собака
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="атриб"]
+			10 -> 11 [label="предл"]
+			5 -> 4 [label="опред"]
+			9 -> 0 [label="предик"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 16 [label="суб_копр"]
+			3 -> 5 [label="квазиагент"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_1670 {
+	graph [label="Энни и Макс развлекаются тем, что участвуют вместе с несколькими другими парами в ролевых играх детективного характера."]
+	node [style=filled]
+		0 [label="Энни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Макс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="развлекаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="участвуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несколькими
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="парами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ролевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="играх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="детективного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="характера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сочин"]
+			13 -> 15 [label="предл"]
+			17 -> 16 [label="опред"]
+			4 -> 6 [label="эксплет"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="атриб"]
+			12 -> 10 [label="количест"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="атриб"]
+			9 -> 12 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 8 [label="обст"]
+			6 -> 7 [label="подч_союзн"]
+			1 -> 2 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

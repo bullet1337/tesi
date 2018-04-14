@@ -1,0 +1,25 @@
+digraph SENTENCE_3716 {
+	graph [label="Это очень странное чувство, его сложно описать напрямую."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="странное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чувство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="описать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="напрямую
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			6 -> 7 [label="предик"]
+			7 -> 8 [label="обст"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+}

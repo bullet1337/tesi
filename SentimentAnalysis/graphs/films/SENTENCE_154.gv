@@ -1,0 +1,51 @@
+digraph SENTENCE_154 {
+	graph [label="Богатого русского языка не хватит, чтобы в полной мере выразить мою неприязнь к этому самому Биллу."]
+	node [style=filled]
+		0 [label="Богатого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="русского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="языка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хватит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="полной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выразить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="неприязнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="самому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Биллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 16 [label="аппоз"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			16 -> 15 [label="опред"]
+			6 -> 10 [label="инф_союзн"]
+			10 -> 7 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+}

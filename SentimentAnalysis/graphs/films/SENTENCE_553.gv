@@ -1,0 +1,35 @@
+digraph SENTENCE_553 {
+	graph [label="В общем, Бьорк в этом фильме я довольна целиком и полностью."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="довольна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="целиком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="предик"]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			10 -> 11 [label="соч_союзн"]
+			9 -> 10 [label="сочин"]
+}

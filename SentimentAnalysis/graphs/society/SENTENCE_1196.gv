@@ -1,0 +1,76 @@
+digraph SENTENCE_1196 {
+	graph [label="В 2009 году памятнику был присвоен статус Общенационального мемориала воинской славы, а сам комплекс был вскоре дополнен стеллой в честь городов, носящих одноименное почетное звание."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2009
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="памятнику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="присвоен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Общенационального
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="мемориала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="воинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="комплекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дополнен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="стеллой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="городов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="носящих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="одноименное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="почетное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="звание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="атриб"]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+			15 -> 14 [label="предик"]
+			15 -> 17
+			12 -> 15 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+			23 -> 26 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			18 -> 19 [label="атриб"]
+			21 -> 23 [label="опред"]
+			17 -> 16 [label="обст"]
+			17 -> 18 [label="_2_компл"]
+			4 -> 5
+			4 -> 6 [label="предик"]
+			4 -> 12 [label="сент_соч"]
+			0 -> 2 [label="предл"]
+}

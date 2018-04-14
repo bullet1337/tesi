@@ -1,0 +1,27 @@
+digraph SENTENCE_420 {
+	graph [label="Это и всевозможные триллеры, драмы и даже боевики."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всевозможные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="триллеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="драмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="боевики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="сочин"]
+			8 -> 7 [label="огранич"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_1236 {
+	graph [label="Расстрелявший людей у храма в дагестанском Кизляре ничего общего с исламом не имеет, заявляет духовное управление мусульман (ДУМ) Дагестана."]
+	node [style=filled]
+		0 [label="Расстрелявший
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дагестанском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="исламом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заявляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="духовное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="управление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ДУМ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Дагестана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 21 [label="сочин"]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="обст"]
+			0 -> 7 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			7 -> 8 [label="опред"]
+			3 -> 4 [label="атриб"]
+			17 -> 19 [label="сочин"]
+			9 -> 10 [label="предл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="сочин"]
+			14 -> 16 [label="предик"]
+			12 -> 0 [label="предик"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="вводн"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_515 {
+	graph [label="Эта история безупречно чиста, безупречно прекрасна, безупречно обворожительна."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="безупречно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чиста
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="безупречно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прекрасна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="безупречно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обворожительна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="сочин"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 6 [label="сочин"]
+			1 -> 0 [label="опред"]
+			9 -> 8 [label="обст"]
+}

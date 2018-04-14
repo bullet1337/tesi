@@ -1,0 +1,27 @@
+digraph SENTENCE_41 {
+	graph [label="\"У малыша хороший аппетит, зверь активен и здоров."]
+	node [style=filled]
+		1 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="малыша
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="аппетит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зверь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="активен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="здоров
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 1 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="разъяснит"]
+			4 -> 3 [label="опред"]
+			7 -> 8 [label="сочин"]
+}

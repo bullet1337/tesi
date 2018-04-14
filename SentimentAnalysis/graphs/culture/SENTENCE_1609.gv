@@ -1,0 +1,78 @@
+digraph SENTENCE_1609 {
+	graph [label="В свою очередь актриса Гервиг рассказала, что у нее нет собаки, но она всегда хотела ее завести и постоянно гладит всех собак на улицах Нью-Йорка."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гервиг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="рассказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="собаки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="завести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="постоянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="гладит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="улицах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Нью-Йорка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 8 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			10 -> 13 [label="сент_соч"]
+			23 -> 22 [label="опред"]
+			7 -> 10 [label="подч_союзн"]
+			0 -> 2 [label="предл"]
+			19 -> 21 [label="соч_союзн"]
+			21 -> 20 [label="обст"]
+			21 -> 23 [label="_1_компл"]
+			21 -> 24 [label="_2_компл"]
+			3 -> 4 [label="аппоз"]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			25 -> 26 [label="атриб"]
+			24 -> 25 [label="предл"]
+			13 -> 16 [label="соч_союзн"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="сочин"]
+			18 -> 19 [label="сочин"]
+}

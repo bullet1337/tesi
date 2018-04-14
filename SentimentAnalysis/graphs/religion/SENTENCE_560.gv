@@ -1,0 +1,51 @@
+digraph SENTENCE_560 {
+	graph [label="По наиболее распространенному варианту легенды (изложенному, в частности, у святителя Димитрия Ростовского), Симеон прожил 360 лет."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="распространенному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="варианту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="легенды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="изложенному
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="святителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Димитрия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Ростовского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Симеон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="прожил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="360
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="опред"]
+			2 -> 1 [label="огранич"]
+			8 -> 9 [label="предл"]
+			6 -> 8 [label="обст"]
+			6 -> 11 [label="обст"]
+			11 -> 12 [label="предл"]
+			17 -> 14 [label="опред"]
+			18 -> 0 [label="вводн"]
+			18 -> 20 [label="_1_компл"]
+			20 -> 19 [label="количест"]
+			0 -> 3 [label="предл"]
+			12 -> 13 [label="аппоз"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			13 -> 17 [label="аппоз"]
+}

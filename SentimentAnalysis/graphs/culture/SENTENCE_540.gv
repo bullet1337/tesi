@@ -1,0 +1,30 @@
+digraph SENTENCE_540 {
+	graph [label="Если бы она существовала, фильма \"Довлатов\" не было бы."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="существовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 7 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="аналит"]
+			5 -> 10 [label="релят"]
+			0 -> 3 [label="подч_союзн"]
+			3 -> 1 [label="аналит"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+}

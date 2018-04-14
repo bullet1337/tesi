@@ -1,0 +1,66 @@
+digraph SENTENCE_1008 {
+	graph [label="Для сравнения, в 2015 году доля граждан, получавших услуги в электронной форме, составляла 40,9%, в 2016 году — 60,7%\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сравнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="доля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="граждан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="получавших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="услуги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="электронной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="составляла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="40,9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="60,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="обст"]
+			7 -> 9 [label="опред"]
+			28 -> 23 [label="предик"]
+			28 -> 29 [label="обст"]
+			13 -> 12 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			15 -> 0 [label="обст"]
+			15 -> 3 [label="обст"]
+			15 -> 6 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 19 [label="обст"]
+			15 -> 28 [label="сент_соч"]
+			21 -> 20 [label="опред"]
+			11 -> 13 [label="предл"]
+			5 -> 4 [label="опред"]
+			29 -> 30 [label="предл"]
+			19 -> 21 [label="предл"]
+}

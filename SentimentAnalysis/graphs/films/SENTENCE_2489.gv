@@ -1,0 +1,48 @@
+digraph SENTENCE_2489 {
+	graph [label="Оба раза пыталась уловить глубокий смысл, основную цель фильма, но в результате чуть не засыпала."]
+	node [style=filled]
+		0 [label="Оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пыталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уловить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глубокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смысл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="основную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="цель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="засыпала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			16 -> 12 [label="обст"]
+			16 -> 14 [label="огранич"]
+			16 -> 15 [label="огранич"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="предик"]
+			2 -> 11 [label="сент_соч"]
+			11 -> 16 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="количест"]
+			12 -> 13 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+}

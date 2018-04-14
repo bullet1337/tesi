@@ -1,0 +1,60 @@
+digraph SENTENCE_1187 {
+	graph [label="9 из 10
+Наверно, я слегка мазохистка, но, следуя своему твёрдому намерению, посмотрела «Танцующую в темноте» во второй раз."]
+	node [style=filled]
+		0 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Наверно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слегка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мазохистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="следуя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="твёрдому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="намерению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Танцующую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			19 -> 20 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 3 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="сент_соч"]
+			24 -> 23 [label="опред"]
+			18 -> 19 [label="обст"]
+			18 -> 22 [label="обст"]
+			11 -> 14 [label="_1_компл"]
+			16 -> 11 [label="обст"]
+			9 -> 16 [label="соч_союзн"]
+			22 -> 24 [label="предл"]
+}

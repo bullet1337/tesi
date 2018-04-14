@@ -1,0 +1,84 @@
+digraph SENTENCE_506 {
+	graph [label="При этом, программа 24 нозологий включает в себя несколько заболеваний, например, мукополисахаридоз, лечение которых являются сверхдорогостоящими, когда стоимость лечения одного пациента требует десятков миллионов рублей в год."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="программа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="24
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нозологий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="включает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мукополисахаридоз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="лечение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="являются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сверхдорогостоящими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="стоимость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="лечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пациента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="требует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="десятков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			29 -> 30 [label="распред"]
+			7 -> 8 [label="предл"]
+			28 -> 29 [label="квазиагент"]
+			5 -> 4 [label="количест"]
+			22 -> 23 [label="квазиагент"]
+			16 -> 17 [label="_1_компл"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="обст"]
+			21 -> 26 [label="подч_союзн"]
+			27 -> 28 [label="квазиагент"]
+			26 -> 22 [label="_1_компл"]
+			26 -> 25 [label="предик"]
+			26 -> 27 [label="предик"]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			14 -> 12 [label="огранич"]
+			14 -> 16 [label="сочин"]
+			10 -> 9 [label="количест"]
+			10 -> 14 [label="разъяснит"]
+			25 -> 24 [label="количест"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="_1_компл"]
+			6 -> 18 [label="сочин"]
+			30 -> 31 [label="предл"]
+}

@@ -1,0 +1,77 @@
+digraph SENTENCE_2165 {
+	graph [label="10 из 10
+В 1974 году Андрей Тарковский снял фильм «Зеркало», за который получил столько критики, сколько не получал за все свои предыдущие и последующие картины."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="В
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="1974
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Андрей Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="критики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="получал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="предыдущие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="последующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			8 -> 10 [label="ном_аппоз"]
+			8 -> 15 [label="релят"]
+			1 -> 2 [label="предл"]
+			28 -> 23 [label="опред"]
+			28 -> 24 [label="опред"]
+			28 -> 25 [label="опред"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="_2_компл"]
+			26 -> 27 [label="соч_союзн"]
+			22 -> 28 [label="предл"]
+			19 -> 21 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			17 -> 19 [label="сочин"]
+			0 -> 1 [label="электив"]
+			5 -> 4 [label="опред"]
+			15 -> 13 [label="обст"]
+			2 -> 3 [label="атриб"]
+			25 -> 26 [label="сочин"]
+}

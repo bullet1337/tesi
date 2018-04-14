@@ -1,0 +1,24 @@
+digraph SENTENCE_648 {
+	graph [label="Взамен же, Сельма тоже раскрыла сокровенную тайну."]
+	node [style=filled]
+		0 [label="Взамен
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раскрыла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сокровенную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тайну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+}

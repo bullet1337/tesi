@@ -1,0 +1,27 @@
+digraph SENTENCE_450 {
+	graph [label="Грэм также был неформальным советником ряда президентов США."]
+	node [style=filled]
+		0 [label="Грэм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неформальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="советником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ряда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="президентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="присвяз"]
+			6 -> 7 [label="_1_компл"]
+			5 -> 6 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+}

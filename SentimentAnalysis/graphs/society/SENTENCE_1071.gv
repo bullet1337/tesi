@@ -1,0 +1,24 @@
+digraph SENTENCE_1071 {
+	graph [label="Суворов попытался увернуться и начал размахивать руками."]
+	node [style=filled]
+		0 [label="Суворов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="попытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="увернуться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="размахивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="руками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 4 [label="соч_союзн"]
+			4 -> 5 [label="_1_компл"]
+}

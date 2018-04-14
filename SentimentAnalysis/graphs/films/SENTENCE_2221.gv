@@ -1,0 +1,47 @@
+digraph SENTENCE_2221 {
+	graph [label="В фильме «Зеркало» есть что-то божественное и пугающее одновременно, такое не мог снять обычный человек!"]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="божественное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пугающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="одновременно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обычный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="опред"]
+			9 -> 10 [label="обст"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="предик"]
+			5 -> 8 [label="сент_соч"]
+			8 -> 9 [label="соч_союзн"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			15 -> 17 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+}

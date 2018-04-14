@@ -1,0 +1,21 @@
+digraph SENTENCE_1089 {
+	graph [label="\"Это было обязательное жертвоприношение — именно поросенок."]
+	node [style=filled]
+		1 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обязательное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жертвоприношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поросенок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			7 -> 6 [label="огранич"]
+			4 -> 3 [label="опред"]
+			4 -> 7 [label="сочин"]
+}

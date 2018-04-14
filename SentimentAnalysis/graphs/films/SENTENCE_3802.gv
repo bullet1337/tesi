@@ -1,0 +1,45 @@
+digraph SENTENCE_3802 {
+	graph [label="Надо было с распростертыми объятиями принять мальца, подставить вторую щеку — пусть Алекс еще потешится."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="распростертыми
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="объятиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="принять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мальца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вторую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="щеку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Алекс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="потешится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="присвяз"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="предик"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 15 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сочин"]
+			4 -> 3 [label="опред"]
+			15 -> 12 [label="огранич"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			2 -> 4 [label="предл"]
+}

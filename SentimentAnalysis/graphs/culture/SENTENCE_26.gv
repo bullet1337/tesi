@@ -1,0 +1,51 @@
+digraph SENTENCE_26 {
+	graph [label="Эти редкие картины, ранее доступные в основном специалистам, позволят расширить представление зрителей о художественном наследии Брюллова."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="редкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="доступные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="основном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="специалистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="позволят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="расширить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="представление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="художественном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="наследии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Брюллова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			10 -> 2 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="опред"]
+			14 -> 16 [label="предл"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="атриб"]
+			5 -> 8 [label="_1_компл"]
+			12 -> 13 [label="квазиагент"]
+			12 -> 14 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_696 {
+	graph [label="Программу фестиваля по традиции составили самостоятельные работы коллектива ШДИ."]
+	node [style=filled]
+		0 [label="Программу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="составили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самостоятельные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="коллектива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ШДИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 8 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+}

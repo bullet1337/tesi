@@ -1,0 +1,45 @@
+digraph SENTENCE_2149 {
+	graph [label="Воплотились бы в жизнь его мечты снять фильмы о Достоевском и «Чума» по Камю?"]
+	node [style=filled]
+		0 [label="Воплотились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Достоевском
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Чума
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Камю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			5 -> 4 [label="квазиагент"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="аналит"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 5 [label="предик"]
+			10 -> 12 [label="соч_союзн"]
+			14 -> 15 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			12 -> 14 [label="атриб"]
+			7 -> 8 [label="_1_компл"]
+			9 -> 10 [label="сочин"]
+}

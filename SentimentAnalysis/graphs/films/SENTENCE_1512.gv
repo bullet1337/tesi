@@ -1,0 +1,54 @@
+digraph SENTENCE_1512 {
+	graph [label="Хотя конечно как знать, может именно такой герой был нужен Ларсу фон Триеру, как антипод героине Бьорк."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нужен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Ларсу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Триеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="антипод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="героине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="квазиагент"]
+			3 -> 1 [label="вводн"]
+			3 -> 2 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			13 -> 15 [label="сравнит"]
+			10 -> 11 [label="_2_компл"]
+			17 -> 18 [label="аппоз"]
+			12 -> 13 [label="сочин"]
+			5 -> 3 [label="_1_компл"]
+			15 -> 16 [label="сравн_союзн"]
+			7 -> 6 [label="огранич"]
+			11 -> 12 [label="сочин"]
+			8 -> 7 [label="опред"]
+			0 -> 5 [label="подч_союзн"]
+			0 -> 9 [label="сент_соч"]
+}

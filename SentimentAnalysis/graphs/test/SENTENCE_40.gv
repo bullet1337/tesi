@@ -1,0 +1,27 @@
+digraph SENTENCE_40 {
+	graph [label="У Билайна телефоны работают лучше, чем телефоны МТС."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Билайна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="телефоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лучше
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		6 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="телефоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="МТС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="сравн_союзн"]
+			7 -> 8 [label="атриб"]
+			4 -> 6 [label="сравнит"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			0 -> 1 [label="предл"]
+}

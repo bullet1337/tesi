@@ -1,0 +1,43 @@
+digraph SENTENCE_933 {
+	graph [label="Этот фильм навсегда остается в сердце 10 из 10
+Драма, приравненная к ужаснику."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="навсегда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Драма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="приравненная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ужаснику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			11 -> 12 [label="_2_компл"]
+			6 -> 7 [label="электив"]
+			7 -> 9 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="присвяз"]
+			3 -> 6 [label="обст"]
+			9 -> 8 [label="количест"]
+			9 -> 11 [label="опред"]
+			1 -> 0 [label="опред"]
+			12 -> 13 [label="предл"]
+}

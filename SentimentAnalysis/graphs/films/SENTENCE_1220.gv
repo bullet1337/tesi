@@ -1,0 +1,58 @@
+digraph SENTENCE_1220 {
+	graph [label="Мысли, возникающие во время и после просмотра, пересекаются, скрещиваются, наслаиваются и забиваются глубоко в сознание, пульсируя строками завораживающих песен."]
+	node [style=filled]
+		0 [label="Мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возникающие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пересекаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="скрещиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="наслаиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="забиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="глубоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сознание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пульсируя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="строками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="завораживающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="песен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			9 -> 0 [label="предик"]
+			9 -> 11 [label="сочин"]
+			2 -> 3 [label="обст"]
+			0 -> 2 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+			3 -> 5 [label="сочин"]
+			22 -> 23 [label="_1_компл"]
+			11 -> 13 [label="сочин"]
+			21 -> 22 [label="опред"]
+			20 -> 21 [label="обст"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+}

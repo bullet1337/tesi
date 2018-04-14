@@ -1,0 +1,57 @@
+digraph SENTENCE_389 {
+	graph [label="Долматов в ответ обвинил своего оппонента в зависти к его творческим успехам и желании \"стирать его грязное белье\"."]
+	node [style=filled]
+		0 [label="Долматов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ответ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обвинил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оппонента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зависти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="творческим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="успехам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="желании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стирать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="грязное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="белье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			8 -> 11 [label="предл"]
+			15 -> 18 [label="_1_компл"]
+			18 -> 16 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 9 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			13 -> 15 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="_2_компл"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 6 [label="_2_компл"]
+			3 -> 8 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			5 -> 4 [label="опред"]
+}

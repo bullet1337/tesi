@@ -1,0 +1,54 @@
+digraph SENTENCE_669 {
+	graph [label="Если бы я не знала, что Бьорк — певица, никогда бы не поверила, что это её первый фильм."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="поверила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 17 [label="предик"]
+			20 -> 18 [label="квазиагент"]
+			20 -> 19 [label="опред"]
+			7 -> 9 [label="аппоз"]
+			6 -> 14 [label="подч_союзн"]
+			16 -> 20 [label="подч_союзн"]
+			14 -> 7 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 12 [label="аналит"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="_1_компл"]
+			4 -> 1 [label="аналит"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 4 [label="подч_союзн"]
+}

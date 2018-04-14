@@ -1,0 +1,45 @@
+digraph SENTENCE_8 {
+	graph [label="(Открою секрет: ну не поклонник я этого жанра в кинематографе, уж не судите строго."]
+	node [style=filled]
+		1 [label="Открою
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поклонник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жанра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кинематографе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уж
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="судите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="строго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="предик"]
+			1 -> 15 [label="сент_соч"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			15 -> 10 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="обст"]
+			10 -> 11 [label="предл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_3473 {
+	graph [label="Но мы с вами говорим о реальных людях и событиях."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="говорим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="людях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="событиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			2 -> 3 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			5 -> 7 [label="предл"]
+}

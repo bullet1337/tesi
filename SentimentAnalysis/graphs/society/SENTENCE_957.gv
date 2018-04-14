@@ -1,0 +1,61 @@
+digraph SENTENCE_957 {
+	graph [label="\"Так вот, они (семья Смит) приняли приглашение, Саманта приехала, и мне была поручена очень ответственная работа — я была сопровождающим переводчиком."]
+	node [style=filled]
+		1 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="семья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Смит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="приглашение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Саманта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="приехала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="поручена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ответственная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сопровождающим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="переводчиком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="огранич"]
+			26 -> 25 [label="опред"]
+			17 -> 18
+			17 -> 21 [label="предик"]
+			17 -> 24 [label="сент_соч"]
+			6 -> 2 [label="огранич"]
+			6 -> 4 [label="квазиагент"]
+			6 -> 7 [label="аппоз"]
+			9 -> 1 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="сочин"]
+			10 -> 12 [label="аппоз"]
+			20 -> 19 [label="огранич"]
+			24 -> 23 [label="предик"]
+			24 -> 26 [label="присвяз"]
+			21 -> 20 [label="опред"]
+}

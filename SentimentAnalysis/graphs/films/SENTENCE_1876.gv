@@ -1,0 +1,48 @@
+digraph SENTENCE_1876 {
+	graph [label="Чем `меньше` человек, тем больше он в опасности от всего этого, к сожалению это так."]
+	node [style=filled]
+		0 [label="Чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меньше
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="опасности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="предл"]
+			18 -> 15 [label="вводн"]
+			18 -> 17 [label="предик"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="сравн_союзн"]
+			0 -> 6 [label="соотнос"]
+			0 -> 18 [label="сент_соч"]
+			6 -> 7 [label="сравн_союзн"]
+			2 -> 4 [label="предик"]
+			13 -> 12 [label="опред"]
+			7 -> 8 [label="предик"]
+			7 -> 9 [label="обст"]
+			15 -> 16 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+}

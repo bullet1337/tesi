@@ -1,0 +1,48 @@
+digraph SENTENCE_825 {
+	graph [label="«Танцующая в темноте» — едва ли не самый сильный в плане эмоционального напряжения фильм фон Триера."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="едва
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эмоционального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="напряжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="предл"]
+			9 -> 8 [label="огранич"]
+			11 -> 12 [label="предл"]
+			10 -> 2 [label="огранич"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			6 -> 7 [label="огранич"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="сочин"]
+			14 -> 1 [label="опред"]
+			14 -> 13 [label="опред"]
+			1 -> 10 [label="сочин"]
+			16 -> 17 [label="квазиагент"]
+			8 -> 6 [label="огранич"]
+}

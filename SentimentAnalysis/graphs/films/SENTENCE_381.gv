@@ -1,0 +1,45 @@
+digraph SENTENCE_381 {
+	graph [label="Хотя тут были и песни, и танцы, и даже театральные постановки присутвовали в кадре."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="танцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="театральные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="постановки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="присутвовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 12 [label="соч_союзн"]
+			2 -> 1 [label="обст"]
+			14 -> 15 [label="предл"]
+			4 -> 6 [label="сочин"]
+			4 -> 9 [label="сочин"]
+			0 -> 2 [label="подч_союзн"]
+			0 -> 13 [label="вводн"]
+			12 -> 11 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+			11 -> 10 [label="огранич"]
+			13 -> 3 [label="огранич"]
+			13 -> 4 [label="_1_компл"]
+			13 -> 14 [label="обст"]
+}

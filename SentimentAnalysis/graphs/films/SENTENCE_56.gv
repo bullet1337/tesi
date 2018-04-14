@@ -1,0 +1,64 @@
+digraph SENTENCE_56 {
+	graph [label="Богине, которая оберегает свое дитя: иногда бранит и наказывает, иногда ласкает и хвалит, но всегда во имя и ради своего ребенка."]
+	node [style=filled]
+		0 [label="Богине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оберегает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дитя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="иногда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бранит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="иногда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ласкает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хвалит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="релят"]
+			10 -> 13 [label="_1_компл"]
+			8 -> 0 [label="_1_компл"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="сочин"]
+			8 -> 15 [label="сент_соч"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="сент_соч"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			21 -> 22 [label="соч_союзн"]
+			13 -> 12 [label="обст"]
+			5 -> 4 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			22 -> 24 [label="предл"]
+			24 -> 23 [label="опред"]
+			19 -> 20 [label="предл"]
+			19 -> 21 [label="сочин"]
+}

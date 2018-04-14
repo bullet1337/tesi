@@ -1,0 +1,30 @@
+digraph SENTENCE_64 {
+	graph [label="И когда пробил час, выполнил воинский долг до конца."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пробил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выполнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="воинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="долг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			2 -> 3 [label="предик"]
+			1 -> 2 [label="подч_союзн"]
+			0 -> 5 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			5 -> 1 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+}

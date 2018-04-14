@@ -1,0 +1,60 @@
+digraph SENTENCE_1086 {
+	graph [label="\"Элевсина была одной из самых важных святынь страны и прославила Аттику, она получила всеобщую славу во времена Римской империи."]
+	node [style=filled]
+		1 [label="Элевсина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="важных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="святынь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прославила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Аттику
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="получила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всеобщую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="славу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="времена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Римской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="империи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="_1_компл"]
+			14 -> 17 [label="обст"]
+			18 -> 20 [label="_1_компл"]
+			4 -> 7 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			16 -> 15 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 9 [label="сочин"]
+			2 -> 14 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			20 -> 19 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			10 -> 11 [label="_2_компл"]
+			3 -> 4 [label="электив"]
+			17 -> 18 [label="предл"]
+}

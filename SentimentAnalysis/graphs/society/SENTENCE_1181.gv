@@ -1,0 +1,39 @@
+digraph SENTENCE_1181 {
+	graph [label="В столичном аэропорту Шереметьево встречают спортсменов, возвращающихся с Олимпиады в южнокорейском Пхенчхане."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="столичном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="аэропорту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Шереметьево
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="встречают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спортсменов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="возвращающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Олимпиады
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="южнокорейском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Пхенчхане
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			9 -> 10 [label="атриб"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="_2_компл"]
+			5 -> 7 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

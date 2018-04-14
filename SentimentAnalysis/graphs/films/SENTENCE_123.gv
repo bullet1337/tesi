@@ -1,0 +1,60 @@
+digraph SENTENCE_123 {
+	graph [label="Понятно, конечно, что в нашем современном обществе нельзя быть настолько наивным, нельзя верить людям настолько, насколько поверила ее героиня."]
+	node [style=filled]
+		0 [label="Понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нашем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="современном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обществе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наивным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="верить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="поверила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="присвяз"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			12 -> 11 [label="огранич"]
+			0 -> 2 [label="вводн"]
+			0 -> 4 [label="предик"]
+			5 -> 8 [label="предл"]
+			4 -> 9 [label="подч_союзн"]
+			20 -> 17 [label="огранич"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="предик"]
+			22 -> 21 [label="_1_компл"]
+			15 -> 16 [label="_2_компл"]
+			14 -> 15 [label="предик"]
+			14 -> 20 [label="сент_соч"]
+			9 -> 5 [label="обст"]
+			9 -> 10 [label="предик"]
+			9 -> 14 [label="сент_соч"]
+}

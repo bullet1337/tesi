@@ -1,0 +1,23 @@
+digraph SENTENCE_1839 {
+	graph [label="Странная, когда фантазирует о музыке и танцах."]
+	node [style=filled]
+		0 [label="Странная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фантазирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="танцах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 3 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="сочин"]
+}

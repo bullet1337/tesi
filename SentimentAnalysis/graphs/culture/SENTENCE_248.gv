@@ -1,0 +1,36 @@
+digraph SENTENCE_248 {
+	graph [label="На главные роли в своей постановке Чусова пригласила Павла Деревянко и Юлию Хлынину."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Чусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="пригласила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Павла Деревянко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Юлию Хлынину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			9 -> 10 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="сочин"]
+}

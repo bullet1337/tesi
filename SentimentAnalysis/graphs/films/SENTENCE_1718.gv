@@ -1,0 +1,21 @@
+digraph SENTENCE_1718 {
+	graph [label="), за медленность фильма и многое другое."]
+	node [style=filled]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="медленность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="многое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="квазиагент"]
+			6 -> 7 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+			2 -> 5 [label="сочин"]
+}

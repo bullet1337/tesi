@@ -1,0 +1,45 @@
+digraph SENTENCE_4029 {
+	graph [label="Фильм можно было подать как антиутопию, но Кубрик решил предложить перестать волноваться и посмеяться."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="антиутопию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кубрик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="предложить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="перестать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="волноваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="посмеяться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="_1_компл"]
+			4 -> 5 [label="сравн_союзн"]
+			13 -> 14 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 4 [label="сравнит"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="присвяз"]
+			2 -> 3 [label="присвяз"]
+			2 -> 7 [label="сент_соч"]
+}

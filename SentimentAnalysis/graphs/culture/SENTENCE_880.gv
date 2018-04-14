@@ -1,0 +1,39 @@
+digraph SENTENCE_880 {
+	graph [label="Согласно закону о кинематографии, демонстрация картин на фестивалях не требует прокатного удостоверения."]
+	node [style=filled]
+		0 [label="Согласно
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="закону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинематографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="демонстрация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фестивалях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="требует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="атриб"]
+			2 -> 3 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="сочин"]
+			10 -> 0 [label="вводн"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+}

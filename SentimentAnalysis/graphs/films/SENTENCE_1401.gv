@@ -1,0 +1,37 @@
+digraph SENTENCE_1401 {
+	graph [label="Занавес… Но не было эмоционального шока, как, скажем, в «Реквиеме по мечте»."]
+	node [style=filled]
+		0 [label="Занавес
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Но
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эмоционального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шока
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="скажем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Реквиеме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мечте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 12 [label="сравн_союзн"]
+			15 -> 16 [label="предл"]
+			6 -> 5 [label="опред"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			4 -> 8 [label="сравнит"]
+			4 -> 15 [label="присвяз"]
+			12 -> 10 [label="вводн"]
+			12 -> 14 [label="предл"]
+}

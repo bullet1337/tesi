@@ -1,0 +1,51 @@
+digraph SENTENCE_1359 {
+	graph [label="\"Мое \"Время\" закончиться не может — от Волги и до Енисея, — я веду \"Время\" на всю страну."]
+	node [style=filled]
+		1 [label="Мое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="закончиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Волги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Енисея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="веду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="страну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			12 -> 13 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			7 -> 17 [label="разъяснит"]
+			23 -> 22 [label="опред"]
+			9 -> 10 [label="предл"]
+			9 -> 11 [label="сочин"]
+			5 -> 3 [label="_1_компл"]
+			17 -> 9 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+			17 -> 21 [label="_3_компл"]
+			21 -> 23 [label="предл"]
+}

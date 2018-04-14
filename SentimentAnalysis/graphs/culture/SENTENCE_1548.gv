@@ -1,0 +1,15 @@
+digraph SENTENCE_1548 {
+	graph [label="Кинофестиваль завершится 25 февраля."]
+	node [style=filled]
+		0 [label="Кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="завершится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+}

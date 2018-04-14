@@ -1,0 +1,33 @@
+digraph SENTENCE_3079 {
+	graph [label="Так героично быть неспособным хоть что-то в своей жизни сделать."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героично
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неспособным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="присвяз"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="атриб"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			1 -> 9 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+}

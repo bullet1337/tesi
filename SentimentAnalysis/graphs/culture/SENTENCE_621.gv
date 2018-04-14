@@ -1,0 +1,42 @@
+digraph SENTENCE_621 {
+	graph [label="Первые две части успешно прошли в российском прокате в 2010 и 2011 году."]
+	node [style=filled]
+		0 [label="Первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="успешно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="российском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прокате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="2010
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="соч_союзн"]
+			2 -> 1 [label="количест"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			5 -> 7 [label="предл"]
+			8 -> 12 [label="предл"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="обст"]
+			9 -> 10 [label="сочин"]
+			12 -> 9 [label="опред"]
+}

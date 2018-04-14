@@ -1,0 +1,45 @@
+digraph SENTENCE_317 {
+	graph [label="Также он резко высказался по поводу \"закона Димы Яковлева\", запрещающего усыновление российских детей гражданами США."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="резко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поводу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="закона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Димы Яковлева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="запрещающего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="усыновление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="гражданами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="обст"]
+			8 -> 11 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			12 -> 14 [label="сочин"]
+			5 -> 7 [label="_1_компл"]
+			7 -> 8 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+}

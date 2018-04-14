@@ -1,0 +1,39 @@
+digraph SENTENCE_4494 {
+	graph [label="Лично мне Годзилла образца 2014 года напомнил… волка из мультика «Жил-был пёс»."]
+	node [style=filled]
+		0 [label="Лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="образца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="напомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="волка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мультика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Жил-был
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="пёс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предик"]
+			6 -> 1 [label="_2_компл"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 12 [label="вводн"]
+			5 -> 4 [label="опред"]
+			2 -> 3 [label="атриб"]
+			9 -> 10 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="об_аппоз"]
+			8 -> 9 [label="атриб"]
+			3 -> 5 [label="атриб"]
+}

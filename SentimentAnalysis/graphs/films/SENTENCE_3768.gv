@@ -1,0 +1,48 @@
+digraph SENTENCE_3768 {
+	graph [label="Хотя и сейчас хоккей, в отличие от футбола, реально известен только в шести странах мира."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хоккей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="футбола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="известен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="шести
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="странах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			5 -> 6 [label="предл"]
+			13 -> 12 [label="огранич"]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="квазиагент"]
+			2 -> 1 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 11 [label="подч_союзн"]
+			11 -> 2 [label="огранич"]
+			11 -> 3 [label="предик"]
+			11 -> 5 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="атриб"]
+}

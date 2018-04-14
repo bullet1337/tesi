@@ -1,0 +1,24 @@
+digraph SENTENCE_165 {
+	graph [label="Она передала то, что нужно было передать."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="передала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="передать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="присвяз"]
+			6 -> 7 [label="присвяз"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1973 {
+	graph [label="По строчке из стихотворения отца режиссёра, Арсения."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="строчке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стихотворения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Арсения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="атриб"]
+			1 -> 4 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			4 -> 5 [label="аппоз"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1335 {
+	graph [label="И только музыка, прозвучавшая в фильме, стала бальзамом на душе."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прозвучавшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бальзамом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="душе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 2 [label="предик"]
+			8 -> 9 [label="присвяз"]
+			9 -> 10 [label="атриб"]
+			0 -> 8 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+			5 -> 6 [label="предл"]
+			4 -> 5 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="опред"]
+}

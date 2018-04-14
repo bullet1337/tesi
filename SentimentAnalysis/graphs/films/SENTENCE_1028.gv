@@ -1,0 +1,46 @@
+digraph SENTENCE_1028 {
+	graph [label="Эта картина заставляет задуматься над жизнью, переосмыслить некоторые стороны своей собственной и однозначно является шедевром."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="переосмыслить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="однозначно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			11 -> 12 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 7 [label="_1_компл"]
+			7 -> 9 [label="_1_компл"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			1 -> 0 [label="опред"]
+}

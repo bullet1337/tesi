@@ -1,0 +1,48 @@
+digraph SENTENCE_509 {
+	graph [label="Зампред ЦК КПРФ Юрий Афонин согласился с мнением, что картина является частью информационной войны против России."]
+	node [style=filled]
+		0 [label="Зампред
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ЦК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="КПРФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Юрий Афонин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="согласился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мнением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="частью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="информационной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			8 -> 10 [label="подч_союзн"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			5 -> 6 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 8 [label="_1_компл"]
+			11 -> 13 [label="квазиагент"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_84 {
+	graph [label="После публикации в СМИ она вызвала большой резонанс в балканском регионе."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="публикации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вызвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="резонанс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="балканском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="регионе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="_3_компл"]
+			8 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+			10 -> 9 [label="опред"]
+			2 -> 3 [label="предл"]
+			1 -> 2 [label="атриб"]
+}

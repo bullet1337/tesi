@@ -1,0 +1,30 @@
+digraph SENTENCE_773 {
+	graph [label="Патриарх благословил деятельность съезда как важного форума межконфессионального диалога."]
+	node [style=filled]
+		0 [label="Патриарх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="благословил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="деятельность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="съезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="важного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="межконфессионального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="диалога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="сравн_союзн"]
+			8 -> 7 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="атриб"]
+			2 -> 3 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сравнит"]
+}

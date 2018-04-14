@@ -1,0 +1,36 @@
+digraph SENTENCE_206 {
+	graph [label="В гала примут участие: Рамон Варгас, Ён Хун Ли, Юсиф Эйвазов, Вероника Джиоева, Мария Гулегина и другие."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="гала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Рамон Варгас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Ён Хун Ли
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Юсиф Эйвазов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Вероника Джиоева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Мария Гулегина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_1_несобст_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 13 [label="вводн"]
+			2 -> 14 [label="сент_соч"]
+			14 -> 15 [label="соч_союзн"]
+			7 -> 9 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="аппоз"]
+			9 -> 11 [label="аппоз"]
+}

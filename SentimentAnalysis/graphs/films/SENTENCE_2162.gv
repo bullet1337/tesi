@@ -1,0 +1,45 @@
+digraph SENTENCE_2162 {
+	graph [label="Это мой третий фильм Тарковского после `Сталкера` и `Андрея Рублева` и очень хочется посмотреть остальные."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сталкера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Андрея Рублева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="атриб"]
+			3 -> 13 [label="сочин"]
+			16 -> 17 [label="_1_компл"]
+			13 -> 15 [label="соч_союзн"]
+			5 -> 7 [label="предл"]
+			7 -> 9 [label="сочин"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_2_компл"]
+}

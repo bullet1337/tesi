@@ -1,0 +1,66 @@
+digraph SENTENCE_1702 {
+	graph [label="Арт-группа \"Митьки\" снимет продолжение фильма Станислава Говорухина \"Место встречи изменить нельзя\" в Петербурге, сообщил на своей странице в Facebook лидер арт-группы Дмитрий Шагин."]
+	node [style=filled]
+		0 [label="Арт-группа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Митьки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="снимет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="продолжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Станислава Говорухина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Место
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изменить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="странице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Facebook
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="лидер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="арт-группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Дмитрий Шагин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			20 -> 19 [label="опред"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 25 [label="аппоз"]
+			9 -> 10 [label="квазиагент"]
+			6 -> 7 [label="аппоз"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="_1_несобст_компл"]
+			4 -> 12 [label="вводн"]
+			4 -> 14 [label="обст"]
+			4 -> 17 [label="вводн"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 2 [label="квазиагент"]
+			18 -> 20 [label="предл"]
+			21 -> 22 [label="предл"]
+			17 -> 18 [label="обст"]
+			17 -> 21 [label="обст"]
+			17 -> 23 [label="предик"]
+			11 -> 9 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+}

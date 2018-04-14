@@ -1,0 +1,24 @@
+digraph SENTENCE_136 {
+	graph [label="Телеграмма размещена на сайте Кремля в понедельник."]
+	node [style=filled]
+		0 [label="Телеграмма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="размещена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Кремля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+}

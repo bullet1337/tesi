@@ -1,0 +1,42 @@
+digraph SENTENCE_4051 {
+	graph [label="Тут не показана бедность, тут нет социального конфликта, напротив, нам показывают красивую жизнь."]
+	node [style=filled]
+		0 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бедность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="социального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конфликта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="напротив
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="красивую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 10 [label="вводн"]
+			13 -> 12 [label="_2_компл"]
+			13 -> 15 [label="_1_компл"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="предик"]
+			6 -> 13 [label="сент_соч"]
+			15 -> 14 [label="опред"]
+			8 -> 7 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 6 [label="сент_соч"]
+}

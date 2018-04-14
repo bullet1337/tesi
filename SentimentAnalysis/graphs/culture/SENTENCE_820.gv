@@ -1,0 +1,48 @@
+digraph SENTENCE_820 {
+	graph [label="Сухарев также считает, что такие артисты должны сами отказываться от ролей в фильмах с госфинансированием."]
+	node [style=filled]
+		0 [label="Сухарев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="артисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отказываться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="госфинансированием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="подч_союзн"]
+			6 -> 5 [label="опред"]
+			12 -> 13 [label="предл"]
+			9 -> 8 [label="суб_копр"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			11 -> 12 [label="_2_компл"]
+			13 -> 14 [label="атриб"]
+			14 -> 15 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+}

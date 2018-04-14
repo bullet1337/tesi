@@ -1,0 +1,62 @@
+digraph SENTENCE_997 {
+	graph [label="По сообщению пресс-службы Мариинки, накануне открытия фестиваля стало известно, что контракт Валерия Гергиева с Мюнхенским филармоническим оркестром продлен до 2025 года."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пресс-службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мариинки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="открытия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="контракт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Валерия Гергиева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Мюнхенским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="филармоническим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="продлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="2025
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="квазиагент"]
+			8 -> 0 [label="вводн"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="присвяз"]
+			8 -> 11 [label="предик"]
+			11 -> 18 [label="подч_союзн"]
+			5 -> 7 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			12 -> 13 [label="аппоз"]
+			12 -> 14 [label="атриб"]
+			21 -> 20 [label="опред"]
+			14 -> 17 [label="предл"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			18 -> 12 [label="предик"]
+			0 -> 1 [label="предл"]
+			19 -> 21 [label="предл"]
+			7 -> 6 [label="опред"]
+}

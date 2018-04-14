@@ -1,0 +1,57 @@
+digraph SENTENCE_1776 {
+	graph [label="Он третий в трилогии «Золотое сердце», он о том, что такое жертва и стоит ли на нее идти."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трилогии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Золотое
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жертва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="идти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 0 [label="предик"]
+			17 -> 1 [label="обст"]
+			17 -> 9 [label="предик"]
+			17 -> 10 [label="_2_компл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="огранич"]
+			17 -> 19 [label="_1_компл"]
+			17 -> 21 [label="сочин"]
+			6 -> 5 [label="опред"]
+			3 -> 6 [label="аппоз"]
+			11 -> 13 [label="эксплет"]
+			13 -> 14 [label="опред"]
+			13 -> 15 [label="предик"]
+			1 -> 2 [label="атриб"]
+			19 -> 20 [label="предл"]
+			10 -> 11 [label="предл"]
+			2 -> 3 [label="предл"]
+}

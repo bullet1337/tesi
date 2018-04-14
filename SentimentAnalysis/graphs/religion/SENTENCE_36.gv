@@ -1,0 +1,87 @@
+digraph SENTENCE_36 {
+	graph [label="Ужесточение политики произошло в 2003-2006 годах, когда местные власти постановили, что церкви должны платить муниципальный налог в размере 6% полной ставки, а затем повысили его до 33%."]
+	node [style=filled]
+		0 [label="Ужесточение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="политики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2003
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2006
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="местные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="постановили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="платить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="муниципальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="налог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="размере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="полной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="повысили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="33
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="обст"]
+			2 -> 25 [label="предик"]
+			2 -> 27 [label="сент_соч"]
+			20 -> 21 [label="предл"]
+			27 -> 29 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			17 -> 19 [label="_1_компл"]
+			17 -> 20 [label="_3_компл"]
+			4 -> 6 [label="кратн"]
+			31 -> 32 [label="предл"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			29 -> 28 [label="обст"]
+			29 -> 30 [label="_1_компл"]
+			29 -> 31 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			3 -> 7 [label="предл"]
+			14 -> 16 [label="подч_союзн"]
+			7 -> 4 [label="опред"]
+			25 -> 22 [label="количест"]
+			25 -> 24 [label="опред"]
+			9 -> 12 [label="подч_союзн"]
+			0 -> 1 [label="_1_компл"]
+}

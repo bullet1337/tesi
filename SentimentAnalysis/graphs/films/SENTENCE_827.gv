@@ -1,0 +1,45 @@
+digraph SENTENCE_827 {
+	graph [label="Фильм начинается с великолепной увертюры, звучащей на фоне медленно сменяющих друг друга работ Пирса Киркеби."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="великолепной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="увертюры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="звучащей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="медленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сменяющих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="работ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Пирса Киркеби
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 11
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			8 -> 10 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="опред"]
+}

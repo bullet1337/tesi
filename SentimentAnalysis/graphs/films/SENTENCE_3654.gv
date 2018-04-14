@@ -1,0 +1,63 @@
+digraph SENTENCE_3654 {
+	graph [label="Отечественный фильм-биография, повествующий о легендарном хоккейном матче СССР — Канада 1972 года и о личной победе Валерия Харламова, знаменитого хоккеиста советской сборной."]
+	node [style=filled]
+		0 [label="Отечественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм-биография
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="повествующий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="легендарном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хоккейном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="матче
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Канада
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="1972
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="личной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="победе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Валерия Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="знаменитого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="хоккеиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="советской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сборной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="предл"]
+			4 -> 13 [label="сочин"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="предл"]
+			12 -> 11 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			22 -> 21 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			7 -> 12 [label="атриб"]
+			3 -> 4 [label="_3_компл"]
+			8 -> 10 [label="кратн"]
+			20 -> 1 [label="предик"]
+			20 -> 19 [label="опред"]
+			20 -> 22 [label="атриб"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="опред"]
+			1 -> 17 [label="аппоз"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_790 {
+	graph [label="Президент РФ Владимир Путин в прошлом году неоднократно заявлял о необходимости скорейшего решения проблемы с очередями в ясли."]
+	node [style=filled]
+		0 [label="Президент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Владимир Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прошлом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заявлял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="необходимости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="скорейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="решения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="очередями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ясли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			3 -> 5 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			13 -> 14 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 15 [label="_2_компл"]
+}

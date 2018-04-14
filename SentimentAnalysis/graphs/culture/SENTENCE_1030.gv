@@ -1,0 +1,51 @@
+digraph SENTENCE_1030 {
+	graph [label="Эти артисты — Павел и Юлия — работают на одних вибрациях — их невозможно разъединить\", — сказала после прогона Чусова."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Павел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Юлия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одних
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вибрациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="разъединить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прогона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Чусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 12 [label="_1_компл"]
+			18 -> 13 [label="_1_компл"]
+			18 -> 19 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="аппоз"]
+			1 -> 4 [label="сочин"]
+			19 -> 20 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 18 [label="разъяснит"]
+			13 -> 14 [label="предик"]
+			20 -> 21 [label="квазиагент"]
+}

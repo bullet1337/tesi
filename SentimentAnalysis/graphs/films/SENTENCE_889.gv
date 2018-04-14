@@ -1,0 +1,21 @@
+digraph SENTENCE_889 {
+	graph [label="Это кино во многом об Америке."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 2 [label="огранич"]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="_1_компл"]
+}

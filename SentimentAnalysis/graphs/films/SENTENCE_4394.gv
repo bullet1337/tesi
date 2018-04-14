@@ -1,0 +1,57 @@
+digraph SENTENCE_4394 {
+	graph [label="Эта же проблема посетила Америку, стоящую во главе западного мира, и американцы по-другому, изнутри будут воспринимать этот фильм."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посетила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Америку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="стоящую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="западного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="американцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по-другому
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="изнутри
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="воспринимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			10 -> 9 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 17 [label="сент_соч"]
+			4 -> 6 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 12 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			12 -> 13 [label="соч_союзн"]
+			2 -> 0 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			17 -> 14 [label="обст"]
+			17 -> 16 [label="обст"]
+			17 -> 18 [label="аналит"]
+			0 -> 1 [label="огранич"]
+			20 -> 19 [label="опред"]
+}

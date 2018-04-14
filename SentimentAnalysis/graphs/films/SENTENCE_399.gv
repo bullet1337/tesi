@@ -1,0 +1,54 @@
+digraph SENTENCE_399 {
+	graph [label="Но, осознавая наступление темноты, которая рано или поздно все равно придет, Сельма не отчаивается — повсюду играет музыка."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="осознавая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темноты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рано
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поздно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="равно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="придет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отчаивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="повсюду
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 11 [label="соч_союзн"]
+			11 -> 2 [label="обст"]
+			11 -> 6 [label="предик"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="обст"]
+			16 -> 19 [label="сент_соч"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 3 [label="_1_компл"]
+			12 -> 14 [label="предик"]
+			12 -> 16 [label="сент_соч"]
+			19 -> 20 [label="предик"]
+			3 -> 4 [label="квазиагент"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_4105 {
+	graph [label="Как тут обнести человека Оскаром?"]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обнести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Оскаром
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+}

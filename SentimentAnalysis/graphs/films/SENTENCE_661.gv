@@ -1,0 +1,48 @@
+digraph SENTENCE_661 {
+	graph [label="Когда не слышно не единого звука, когда не можно почувствовать лёгкого ветерка или тиканья часов."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слышно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="звука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="почувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лёгкого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ветерка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тиканья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="предик"]
+			2 -> 9 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 15 [label="_2_компл"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="предик"]
+			5 -> 4 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			0 -> 2 [label="подч_союзн"]
+}

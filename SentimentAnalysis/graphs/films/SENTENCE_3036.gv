@@ -1,0 +1,27 @@
+digraph SENTENCE_3036 {
+	graph [label="Есть шаблон, натянутый на некий пейзаж и «идею»."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="шаблон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="натянутый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="некий
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пейзаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="идею
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			1 -> 3 [label="опред"]
+			7 -> 9 [label="соч_союзн"]
+			3 -> 4 [label="_2_компл"]
+			4 -> 6 [label="предл"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_4307 {
+	graph [label="Помним, любим и всё такое."]
+	node [style=filled]
+		0 [label="Помним
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+}

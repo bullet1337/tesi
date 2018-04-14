@@ -1,0 +1,33 @@
+digraph SENTENCE_1108 {
+	graph [label="Одна из немногих кто поддерживает Сэльму во всех её начинаниях."]
+	node [style=filled]
+		0 [label="Одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="немногих
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поддерживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сэльму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начинаниях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			4 -> 0 [label="суб_копр"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			1 -> 2 [label="предл"]
+			6 -> 9 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="квазиагент"]
+}

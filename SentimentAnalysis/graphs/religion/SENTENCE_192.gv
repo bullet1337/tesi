@@ -1,0 +1,42 @@
+digraph SENTENCE_192 {
+	graph [label="В День святого Валентина папа римский старается благословить как можно большее количество пар."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="римский
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="старается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="благословить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="количество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			1 -> 3 [label="квазиагент"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 11 [label="_1_компл"]
+			8 -> 9 [label="сравн_союзн"]
+			3 -> 2 [label="опред"]
+			4 -> 5 [label="опред"]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+}

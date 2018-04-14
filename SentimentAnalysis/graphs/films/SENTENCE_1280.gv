@@ -1,0 +1,51 @@
+digraph SENTENCE_1280 {
+	graph [label="Сколько раз пытался написать хотя бы одну рецензию хотя бы на один фильм — все не удавалось."]
+	node [style=filled]
+		0 [label="Сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="написать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рецензию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="удавалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 8 [label="огранич"]
+			16 -> 9 [label="аналит"]
+			16 -> 10 [label="обст"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			7 -> 4 [label="огранич"]
+			7 -> 5 [label="огранич"]
+			7 -> 6 [label="количест"]
+			0 -> 1 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			3 -> 7 [label="_1_компл"]
+			12 -> 11 [label="количест"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 16 [label="сент_соч"]
+}

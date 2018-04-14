@@ -1,0 +1,54 @@
+digraph SENTENCE_13 {
+	graph [label="Неожиданные ракурсы, переезды камеры с одного положения на другое, даже это проигрывание камерой создают особую атмосферу фильма."]
+	node [style=filled]
+		0 [label="Неожиданные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ракурсы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="переезды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="камеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="положения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="проигрывание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="камерой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="создают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="особую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="атмосферу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 15 [label="релят"]
+			1 -> 0 [label="опред"]
+			13 -> 12 [label="опред"]
+			7 -> 6 [label="количест"]
+			15 -> 5 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="обст"]
+			15 -> 17 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			5 -> 7 [label="предл"]
+			5 -> 8 [label="сочин"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="сочин"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+}

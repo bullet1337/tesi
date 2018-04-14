@@ -1,0 +1,60 @@
+digraph SENTENCE_902 {
+	graph [label="Также свои сомнения в достоверности событий, описанных в фильме, высказал музыкальный критик Артемий Троицкий, лично знакомый с прототипами героев фильма."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сомнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="достоверности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="описанных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="высказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыкальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="критик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Артемий Троицкий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="знакомый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="прототипами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="обст"]
+			3 -> 4 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			13 -> 17 [label="опред"]
+			8 -> 9 [label="предл"]
+			20 -> 21 [label="_1_компл"]
+			19 -> 20 [label="аппоз"]
+			11 -> 0 [label="огранич"]
+			11 -> 2 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			5 -> 7 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+}

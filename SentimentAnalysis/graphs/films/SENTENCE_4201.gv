@@ -1,0 +1,35 @@
+digraph SENTENCE_4201 {
+	graph [label="Для интересной хорошей ленты была прекрасная заготовка в виде острой темы."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="интересной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ленты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прекрасная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заготовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="виде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="острой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			0 -> 3 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="предик"]
+			10 -> 9 [label="опред"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,35 @@
+digraph SENTENCE_1048 {
+	graph [label="\"Гимназии №4 Нальчика присвоено имя Героя Российской Федерации, полковника милиции Анатолия Кярова."]
+	node [style=filled]
+		1 [label="Гимназии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Нальчика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="присвоено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Героя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Федерации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="полковника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="милиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Анатолия Кярова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="количест"]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 11 [label="аппоз"]
+			13 -> 12
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 4 [label="атриб"]
+}

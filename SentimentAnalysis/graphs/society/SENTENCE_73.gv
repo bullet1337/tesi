@@ -1,0 +1,72 @@
+digraph SENTENCE_73 {
+	graph [label="На земле, в районе населенного пункта Телль-Дебес, он вступил в неравный бой с террористами, а когда те подобрались совсем близко, подорвал себя гранатой."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="земле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="районе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="населенного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пункта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Телль-Дебес
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="неравный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="террористами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="подобрались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="близко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="подорвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="гранатой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="подч_союзн"]
+			3 -> 4 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			0 -> 3 [label="сочин"]
+			4 -> 6 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			11 -> 13 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 17 [label="сент_соч"]
+			17 -> 24 [label="соч_союзн"]
+			14 -> 15 [label="предл"]
+			22 -> 21 [label="огранич"]
+			20 -> 19 [label="предик"]
+			20 -> 22 [label="обст"]
+			24 -> 18 [label="обст"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 26 [label="_2_компл"]
+}

@@ -1,0 +1,70 @@
+digraph SENTENCE_3104 {
+	graph [label="Драматизм лишь виден в жизнях второстепенных героев, которым, низменными желаниями главных героев, были испорчены жизни — посмотрите сколько боли доставлено их женам, детям, родителям!!!"]
+	node [style=filled]
+		0 [label="Драматизм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="виден
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизнях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="второстепенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="низменными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="желаниями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="испорчены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="посмотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="доставлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="женам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="родителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 28 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			4 -> 6 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			13 -> 12 [label="опред"]
+			3 -> 4 [label="предл"]
+			20 -> 21 [label="_1_компл"]
+			19 -> 22 [label="_1_компл"]
+			15 -> 11 [label="предик"]
+			15 -> 16
+			15 -> 19 [label="сент_соч"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			22 -> 20 [label="предик"]
+			22 -> 23 [label="агент"]
+			22 -> 24 [label="_2_компл"]
+			24 -> 26 [label="сочин"]
+			16 -> 17 [label="_2_компл"]
+}

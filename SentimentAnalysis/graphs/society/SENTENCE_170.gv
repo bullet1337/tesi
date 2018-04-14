@@ -1,0 +1,27 @@
+digraph SENTENCE_170 {
+	graph [label="Это только ускорило цепочку событий\", — сказал Аксенов журналистам."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ускорило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="цепочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Аксенов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="сочин"]
+			8 -> 9 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="вводн"]
+			3 -> 4 [label="квазиагент"]
+}

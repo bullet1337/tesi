@@ -1,0 +1,42 @@
+digraph SENTENCE_297 {
+	graph [label="Инициатором проведения и президентом фестиваля стал известный российский продюсер, актер и режиссер Сергей Жигунов."]
+	node [style=filled]
+		0 [label="Инициатором
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="проведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="президентом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="продюсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Сергей Жигунов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="_1_компл"]
+			2 -> 3 [label="соч_союзн"]
+			1 -> 2 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="аппоз"]
+			8 -> 11 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 0 [label="присвяз"]
+			5 -> 8 [label="предик"]
+			5 -> 13 [label="вводн"]
+}

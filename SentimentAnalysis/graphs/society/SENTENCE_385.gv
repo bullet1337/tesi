@@ -1,0 +1,84 @@
+digraph SENTENCE_385 {
+	graph [label="\"Сегодня мы живем в новой России, где каждому народу гарантированы реальные права и свободы… Руководство России неоднократно признавало тягчайшим преступлением репрессии против чеченского народа, оно принесло извинения."]
+	node [style=filled]
+		1 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="живем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каждому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="народу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="гарантированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="реальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="свободы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Руководство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="признавало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="тягчайшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="преступлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="репрессии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="чеченского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="народа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="принесло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="извинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			14 -> 15 [label="соч_союзн"]
+			26 -> 25 [label="опред"]
+			4 -> 6 [label="предл"]
+			23 -> 24 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			20 -> 17 [label="предик"]
+			20 -> 19 [label="обст"]
+			20 -> 22 [label="_2_компл"]
+			20 -> 29 [label="сент_соч"]
+			22 -> 21 [label="опред"]
+			29 -> 23 [label="неакт_компл"]
+			29 -> 28 [label="предик"]
+			29 -> 30 [label="_1_компл"]
+			24 -> 26 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="сочин"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 11 [label="сочин"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="_2_компл"]
+			11 -> 13 [label="предик"]
+			11 -> 20 [label="сент_соч"]
+			17 -> 18 [label="_1_компл"]
+}

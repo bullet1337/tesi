@@ -1,0 +1,45 @@
+digraph SENTENCE_2736 {
+	graph [label="И с ними тяжело и без них никак.» И, казалось бы, с какой стати."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ними
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="какой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стати
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="сент_соч"]
+			3 -> 10 [label="разъяснит"]
+			15 -> 17 [label="предл"]
+			12 -> 13 [label="аналит"]
+			12 -> 15 [label="_1_компл"]
+			10 -> 7 [label="огранич"]
+			10 -> 12 [label="соч_союзн"]
+}

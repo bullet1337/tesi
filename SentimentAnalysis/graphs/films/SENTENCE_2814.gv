@@ -1,0 +1,36 @@
+digraph SENTENCE_2814 {
+	graph [label="Главный герой и все остальные, так и остались для меня загадкой."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="остались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="загадкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			8 -> 1 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="обст"]
+			8 -> 11 [label="присвяз"]
+			4 -> 3 [label="опред"]
+			6 -> 7
+			2 -> 4 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+}

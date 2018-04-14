@@ -1,0 +1,15 @@
+digraph SENTENCE_646 {
+	graph [label="Теперь можно и порассуждать."]
+	node [style=filled]
+		0 [label="Теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="порассуждать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			3 -> 2 [label="огранич"]
+}

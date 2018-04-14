@@ -1,0 +1,21 @@
+digraph SENTENCE_373 {
+	graph [label="Ветер 20-25 метров в секунду."]
+	node [style=filled]
+		0 [label="Ветер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="секунду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="компл_аппоз"]
+			4 -> 1 [label="количест"]
+			4 -> 5 [label="распред"]
+			5 -> 6 [label="предл"]
+			1 -> 3 [label="кратн"]
+}

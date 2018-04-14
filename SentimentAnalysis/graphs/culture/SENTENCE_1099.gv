@@ -1,0 +1,57 @@
+digraph SENTENCE_1099 {
+	graph [label="Это уникальная возможность увидеть целостную картину Элевсины, ее связь с Афинами, археологические находки\", — считает директор элевсинского музея Папангели."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уникальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="целостную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Элевсины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="связь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Афинами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="археологические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="находки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="директор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="элевсинского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="музея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Папангели
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			11 -> 14 [label="аппоз"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="_1_компл"]
+			6 -> 9 [label="сочин"]
+			9 -> 8 [label="квазиагент"]
+			9 -> 10 [label="_1_компл"]
+			18 -> 19 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 18 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="разъяснит"]
+			10 -> 11 [label="предл"]
+			19 -> 21 [label="_1_компл"]
+}

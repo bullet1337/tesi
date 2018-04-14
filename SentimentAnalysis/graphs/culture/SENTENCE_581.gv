@@ -1,0 +1,24 @@
+digraph SENTENCE_581 {
+	graph [label="\"Фильмы будут разные и гости будут прекрасные."]
+	node [style=filled]
+		1 [label="Фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прекрасные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 4 [label="сент_соч"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="присвяз"]
+}

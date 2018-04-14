@@ -1,0 +1,44 @@
+digraph SENTENCE_767 {
+	graph [label="Финансирование планируется осуществлять за счет внебюджетных средств, предоставляемых российскими компаниями, ведущими бизнес в Сербии."]
+	node [style=filled]
+		0 [label="Финансирование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="осуществлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="счет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="внебюджетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="средств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="предоставляемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="российскими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="компаниями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ведущими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бизнес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Сербии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 12 [label="опред"]
+			3 -> 4 [label="предл"]
+			1 -> 2 [label="предик"]
+			14 -> 15 [label="предл"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="_1_компл"]
+			2 -> 13 [label="длительн"]
+			2 -> 14 [label="обст"]
+			8 -> 10 [label="агент"]
+			10 -> 9 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+}

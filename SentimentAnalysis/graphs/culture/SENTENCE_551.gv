@@ -1,0 +1,42 @@
+digraph SENTENCE_551 {
+	graph [label="Фильм Звягинцева номинирован на премию BAFTA в категории \"Лучший фильм не на английском языке\"."]
+	node [style=filled]
+		0 [label="Фильм Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="номинирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="премию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="BAFTA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="категории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="английском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			9 -> 8 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			6 -> 9 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 11 [label="обст"]
+}

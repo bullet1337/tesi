@@ -1,0 +1,33 @@
+digraph SENTENCE_829 {
+	graph [label="Далее режиссер резко переключает зрительское внимание непосредственно на сюжет фильма."]
+	node [style=filled]
+		0 [label="Далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="резко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="переключает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зрительское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="непосредственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="_2_компл"]
+			8 -> 9 [label="квазиагент"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+}

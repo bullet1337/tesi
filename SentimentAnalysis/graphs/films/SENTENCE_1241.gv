@@ -1,0 +1,63 @@
+digraph SENTENCE_1241 {
+	graph [label="Она работает на заводе не чуть не хуже мужчин и по крохам собирает деньги, необходимые на операцию сына на глазах."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заводе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="крохам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="собирает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="необходимые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="глазах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="сравнит"]
+			7 -> 9 [label="сочин"]
+			10 -> 11 [label="предл"]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="сочин"]
+			9 -> 12 [label="соч_союзн"]
+			12 -> 10 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			16 -> 17 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			17 -> 18 [label="аппоз"]
+			17 -> 19 [label="атриб"]
+			19 -> 20 [label="предл"]
+			13 -> 15 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_846 {
+	graph [label="Может, боятся, что ракета не туда полетит, не там упадет."]
+	node [style=filled]
+		0 [label="Может
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="боятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ракета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="туда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="полетит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="упадет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			2 -> 0 [label="вводн"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 12 [label="сент_соч"]
+			7 -> 6 [label="огранич"]
+			4 -> 8 [label="подч_союзн"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="_2_компл"]
+			8 -> 11 [label="_2_компл"]
+}

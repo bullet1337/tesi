@@ -1,0 +1,36 @@
+digraph SENTENCE_1470 {
+	graph [label="Начиная с 1990-х годов этот праздник стал популярным и в России."]
+	node [style=filled]
+		0 [label="Начиная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1990-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="годов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="популярным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 3 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			9 -> 10 [label="предл"]
+			3 -> 2 [label="опред"]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			6 -> 8 [label="сочин"]
+}

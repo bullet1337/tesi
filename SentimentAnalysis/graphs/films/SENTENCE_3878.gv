@@ -1,0 +1,48 @@
+digraph SENTENCE_3878 {
+	graph [label="Стоит ли говорить о том, что эпизод, ради которого писалось все произведение, в фильме отсутствует?"]
+	node [style=filled]
+		0 [label="Стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эпизод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="писалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="произведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="отсутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			15 -> 16 [label="предл"]
+			6 -> 11 [label="подч_союзн"]
+			17 -> 15 [label="_1_компл"]
+			4 -> 6 [label="эксплет"]
+			11 -> 7 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="предик"]
+			0 -> 17 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="_3_компл"]
+}

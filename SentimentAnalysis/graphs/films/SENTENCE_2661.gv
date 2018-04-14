@@ -1,0 +1,48 @@
+digraph SENTENCE_2661 {
+	graph [label="Если присмотреться, то можно заметить, что мнения критиков и рядового зрителя совпадают с подозрительной частотой."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="присмотреться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="критиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рядового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="совпадают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подозрительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="частотой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 13 [label="подч_союзн"]
+			13 -> 8 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			10 -> 12 [label="соч_союзн"]
+			5 -> 7 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="предик"]
+			9 -> 10 [label="сочин"]
+			14 -> 16 [label="предл"]
+			0 -> 1 [label="инф_союзн"]
+			0 -> 3 [label="соотнос"]
+			8 -> 9 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			12 -> 11 [label="опред"]
+}

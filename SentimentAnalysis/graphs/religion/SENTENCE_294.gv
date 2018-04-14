@@ -1,0 +1,48 @@
+digraph SENTENCE_294 {
+	graph [label="Во время чтений проводился научно-практический семинар \"Основные направления и перспективы научных исследований Болгарской исламской академии\"."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чтений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проводился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="научно-практический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="семинар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Основные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="направления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="перспективы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="научных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="исследований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Болгарской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="исламской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="академии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			8 -> 15 [label="квазиагент"]
+			9 -> 10 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+			10 -> 12 [label="квазиагент"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="разъяснит"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1351 {
+	graph [label="В УПЦ отметили, что сбор подписей продолжится."]
+	node [style=filled]
+		0 [label="В
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="УПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="отметили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подписей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="продолжится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			4 -> 7 [label="подч_союзн"]
+			0 -> 1 [label="предл"]
+}

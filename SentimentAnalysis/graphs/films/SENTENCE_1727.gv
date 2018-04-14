@@ -1,0 +1,48 @@
+digraph SENTENCE_1727 {
+	graph [label="В основном, благодаря творчеству Тима Бартона, соединяющему в своих проектах вокал и местами приправленную кровью готику."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="основном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="творчеству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Тима Бартона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="соединяющему
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проектах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вокал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="приправленную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кровью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="готику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			14 -> 15 [label="агент"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 16 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			13 -> 14 [label="опред"]
+			11 -> 12 [label="сочин"]
+			4 -> 5 [label="квазиагент"]
+			5 -> 7 [label="опред"]
+			3 -> 0 [label="огранич"]
+			3 -> 4 [label="предл"]
+			8 -> 10 [label="предл"]
+}

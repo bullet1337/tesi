@@ -1,0 +1,48 @@
+digraph SENTENCE_1203 {
+	graph [label="\"В рамках пилотного проекта в Иркутской области планируется создать сразу несколько медицинских пунктов для бездомных."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пилотного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Иркутской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="создать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="медицинских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пунктов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бездомных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 1 [label="обст"]
+			8 -> 9 [label="предик"]
+			7 -> 6 [label="опред"]
+			14 -> 15 [label="предл"]
+			4 -> 3 [label="опред"]
+			9 -> 10 [label="обст"]
+			9 -> 13 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			1 -> 5 [label="сочин"]
+			13 -> 11 [label="количест"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			2 -> 4 [label="квазиагент"]
+			5 -> 7 [label="предл"]
+}

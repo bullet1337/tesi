@@ -1,0 +1,51 @@
+digraph SENTENCE_2045 {
+	graph [label="Даже природа и та бушует — бесподобно переданное оператором движение травы — она будто бы одушевленная: волнуется, «гневается»."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="природа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бушует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бесподобно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="переданное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оператором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="движение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="травы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одушевленная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="волнуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="гневается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="агент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="сочин"]
+			4 -> 3 [label="предик"]
+			17 -> 9 [label="_1_компл"]
+			17 -> 12 [label="предик"]
+			17 -> 13 [label="огранич"]
+			17 -> 15 [label="предик"]
+			17 -> 20 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+			6 -> 1 [label="предик"]
+			6 -> 17 [label="разъяснит"]
+			9 -> 7 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			13 -> 14
+}

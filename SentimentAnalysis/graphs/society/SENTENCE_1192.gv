@@ -1,0 +1,33 @@
+digraph SENTENCE_1192 {
+	graph [label="Могила Неизвестного солдата — памятник-символ в честь воинов, погибших в боях."]
+	node [style=filled]
+		0 [label="Могила
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Неизвестного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="солдата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="памятник-символ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воинов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="погибших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="боях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="аппоз"]
+			7 -> 9 [label="опред"]
+			6 -> 7 [label="сочин"]
+			9 -> 10 [label="обст"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 5 [label="атриб"]
+			10 -> 11 [label="предл"]
+			5 -> 6 [label="предл"]
+}

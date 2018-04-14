@@ -1,0 +1,18 @@
+digraph SENTENCE_2831 {
+	graph [label="Она не отстает от фильма."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отстает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

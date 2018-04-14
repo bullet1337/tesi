@@ -1,0 +1,69 @@
+digraph SENTENCE_782 {
+	graph [label="При этом по Московской области разброс температур составил от минус 17,1 градуса (Балчуг) до минус 29,3 градуса (Клин), добавили в погодном центре."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Московской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разброс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="температур
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="составил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="17,1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="градуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Балчуг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="29,3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="градуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Клин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="добавили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="погодном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 2 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 23 [label="изъясн"]
+			24 -> 26 [label="предл"]
+			2 -> 4 [label="предл"]
+			9 -> 11 [label="предл"]
+			26 -> 25 [label="опред"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			8 -> 15 [label="соотнос"]
+			15 -> 16 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			18 -> 17 [label="количест"]
+			11 -> 10 [label="количест"]
+			11 -> 13 [label="квазиагент"]
+			16 -> 18 [label="предл"]
+			23 -> 20 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+}

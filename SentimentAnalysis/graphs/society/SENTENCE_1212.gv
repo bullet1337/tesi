@@ -1,0 +1,45 @@
+digraph SENTENCE_1212 {
+	graph [label="Ранее в феврале ужесточение правил перевозки личных вещей в самолетах \"Аэрофлота\" вызвало активную полемику."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="феврале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ужесточение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="перевозки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="личных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вещей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самолетах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Аэрофлота
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="вызвало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="активную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="полемику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="атриб"]
+			1 -> 2 [label="предл"]
+			15 -> 14 [label="опред"]
+			5 -> 7 [label="атриб"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			7 -> 6 [label="опред"]
+			8 -> 9 [label="предл"]
+			13 -> 0 [label="обст"]
+			13 -> 3 [label="предик"]
+			13 -> 8 [label="обст"]
+			13 -> 15 [label="_1_компл"]
+}

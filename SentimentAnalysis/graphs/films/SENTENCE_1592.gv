@@ -1,0 +1,64 @@
+digraph SENTENCE_1592 {
+	graph [label="8 из 10
+Я, разумеется, слышала много о Ларсе фон Триере, но пока его фильмов смотреть мне как-то не доводилось."]
+	node [style=filled]
+		0 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="разумеется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слышала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Ларсе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Триере
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="доводилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="электив"]
+			10 -> 12 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			12 -> 11
+			17 -> 16 [label="квазиагент"]
+			14 -> 18 [label="соч_союзн"]
+			22 -> 20 [label="обст"]
+			22 -> 21 [label="огранич"]
+			18 -> 15 [label="обст"]
+			18 -> 17 [label="_1_компл"]
+			18 -> 19 [label="неакт_компл"]
+			18 -> 22 [label="сочин"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 3 [label="предик"]
+			7 -> 5 [label="вводн"]
+			7 -> 8 [label="предик"]
+			7 -> 9 [label="_3_компл"]
+			7 -> 14 [label="сент_соч"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1310 {
+	graph [label="Кроме блинов, в центре будут рады и другим традиционным масленичным угощениям: сметане, сгущенке, меду и варенью."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="блинов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рады
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="традиционным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="масленичным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="угощениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сметане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сгущенке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="меду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="варенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="сочин"]
+			7 -> 11 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+			11 -> 8 [label="опред"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="присвяз"]
+			5 -> 13 [label="предик"]
+			18 -> 19 [label="соч_союзн"]
+			13 -> 15 [label="сочин"]
+			0 -> 1 [label="предл"]
+			15 -> 17 [label="сочин"]
+}

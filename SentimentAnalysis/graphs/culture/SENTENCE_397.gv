@@ -1,0 +1,32 @@
+digraph SENTENCE_397 {
+	graph [label="Свое выступление Гуф закончил теми же строчками, что и первое."]
+	node [style=filled]
+		0 [label="Свое
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="закончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="теми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="строчками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_2_компл"]
+			3 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			4 -> 5 [label="огранич"]
+			6 -> 4 [label="опред"]
+			1 -> 0 [label="опред"]
+}

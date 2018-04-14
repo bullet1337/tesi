@@ -1,0 +1,39 @@
+digraph SENTENCE_1334 {
+	graph [label="Сейчас лама Цонкапа — один из самых почитаемых учителей в тибетской буддийской традиции."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Цонкапа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="почитаемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="учителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тибетской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="буддийской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 8 [label="предл"]
+			9 -> 12 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="электив"]
+			4 -> 9 [label="обст"]
+}

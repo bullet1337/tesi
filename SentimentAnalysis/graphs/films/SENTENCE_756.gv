@@ -1,0 +1,21 @@
+digraph SENTENCE_756 {
+	graph [label="Резонный вопрос:«А что тогда трогает?»."]
+	node [style=filled]
+		0 [label="Резонный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="разъяснит"]
+			4 -> 7 [label="соч_союзн"]
+}

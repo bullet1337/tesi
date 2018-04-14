@@ -1,0 +1,66 @@
+digraph SENTENCE_881 {
+	graph [label="\"В эти дни я часто мысленно обращаюсь к любимой и измученной Сирии, где война вновь усилилась, в особенности в Восточной Гуте."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мысленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обращаюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="любимой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="измученной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="война
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вновь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="усилилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="особенности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Восточной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Гуте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 12 [label="предл"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			12 -> 9 [label="опред"]
+			21 -> 23 [label="предл"]
+			7 -> 1 [label="обст"]
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 17 [label="сент_соч"]
+			17 -> 14 [label="обст"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="обст"]
+			17 -> 19 [label="обст"]
+			17 -> 21 [label="обст"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			23 -> 22 [label="опред"]
+			19 -> 20 [label="предл"]
+}

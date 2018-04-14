@@ -1,0 +1,47 @@
+digraph SENTENCE_939 {
+	graph [label="Лишь десятки лет спустя, в 1552 году, впервые появляется \"привязка\" Донской иконы к этому событию."]
+	node [style=filled]
+		0 [label="Лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="десятки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="1552
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="появляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="привязка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Донской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="иконы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="событию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 15 [label="разъяснит"]
+			10 -> 3 [label="обст"]
+			10 -> 5 [label="_2_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="предик"]
+			7 -> 6 [label="опред"]
+			15 -> 14 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="квазиагент"]
+			3 -> 1 [label="предл"]
+			18 -> 17 [label="опред"]
+			16 -> 18 [label="предл"]
+			5 -> 7 [label="предл"]
+}

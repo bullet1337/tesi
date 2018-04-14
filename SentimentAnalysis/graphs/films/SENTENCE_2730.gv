@@ -1,0 +1,30 @@
+digraph SENTENCE_2730 {
+	graph [label="Фильм 1982 года был самодостаточен и продолжения не требовал."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1982
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самодостаточен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="продолжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="требовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="соч_союзн"]
+			0 -> 2 [label="атриб"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="присвяз"]
+			3 -> 5 [label="сент_соч"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			2 -> 1 [label="опред"]
+}

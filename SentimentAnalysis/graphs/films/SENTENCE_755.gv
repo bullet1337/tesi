@@ -1,0 +1,15 @@
+digraph SENTENCE_755 {
+	graph [label="Я отвечаю: «Не трогает»."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отвечаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="трогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="сочин"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_2971 {
+	graph [label="Сценарий мог бы претендовать на высокий балл, но не хватило ему правдоподобности, слишком уж все скомкано."]
+	node [style=filled]
+		0 [label="Сценарий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="претендовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="высокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="балл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хватило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="правдоподобности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="скомкано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="аналит"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 8 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="неакт_компл"]
+			10 -> 12 [label="предик"]
+			10 -> 17 [label="сент_соч"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			14 -> 15 [label="огранич"]
+			17 -> 14 [label="огранич"]
+			17 -> 16 [label="предик"]
+			8 -> 10 [label="соч_союзн"]
+			4 -> 6 [label="предл"]
+}

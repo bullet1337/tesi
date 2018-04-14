@@ -1,0 +1,72 @@
+digraph SENTENCE_980 {
+	graph [label="Игумен Донского монастыря епископ Бронницкий Парамон (Голубка) сказал РИА Новости, что знает о проведенных Третьяковской галереей исследованиях, однако детально с ними еще не знаком."]
+	node [style=filled]
+		0 [label="Игумен
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Донского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="монастыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бронницкий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Парамон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Голубка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="проведенных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Третьяковской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="галереей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="исследованиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="детально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ними
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="знаком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 18 [label="предл"]
+			17 -> 16 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="аппоз"]
+			22 -> 23 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 26 [label="_1_компл"]
+			3 -> 5 [label="аппоз"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			18 -> 15 [label="опред"]
+			9 -> 0 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 13 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			26 -> 20 [label="огранич"]
+			26 -> 21 [label="огранич"]
+			26 -> 22 [label="_1_компл"]
+			26 -> 24 [label="огранич"]
+			26 -> 25 [label="огранич"]
+			15 -> 17 [label="агент"]
+}

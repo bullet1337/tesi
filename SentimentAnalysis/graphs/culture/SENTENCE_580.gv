@@ -1,0 +1,56 @@
+digraph SENTENCE_580 {
+	graph [label="Вместе с Бранку в жюри вошел французский режиссер, актер и сценарист Пьер Леон, а также режиссер из Германии Валеска Гризебах."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бранку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="французский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сценарист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Пьер Леон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Германии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Валеска Гризебах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="аппоз"]
+			7 -> 10 [label="сочин"]
+			7 -> 12 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="сочин"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="атриб"]
+			16 -> 19 [label="аппоз"]
+			17 -> 18 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 7 [label="предик"]
+			5 -> 14 [label="сент_соч"]
+}

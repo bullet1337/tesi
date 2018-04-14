@@ -1,0 +1,63 @@
+digraph SENTENCE_1118 {
+	graph [label="Депутат отметил, что попытки сделать из него \"русского Харви Вайнштейна\" похожи на дешевую и низкопробную провокацию и заранее обречены на провал."]
+	node [style=filled]
+		0 [label="Депутат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="попытки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="русского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Харви Вайнштейна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дешевую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="низкопробную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="провокацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="заранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="обречены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="провал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 14 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			3 -> 12 [label="подч_союзн"]
+			15 -> 16 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="_2_компл"]
+			18 -> 20 [label="соч_союзн"]
+			14 -> 15 [label="сочин"]
+			20 -> 19 [label="обст"]
+			20 -> 21 [label="_2_компл"]
+			12 -> 4 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 18 [label="сочин"]
+			10 -> 9 [label="опред"]
+			21 -> 22 [label="предл"]
+			6 -> 7 [label="предл"]
+			13 -> 17 [label="предл"]
+}

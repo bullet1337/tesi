@@ -1,0 +1,27 @@
+digraph SENTENCE_1198 {
+	graph [label="Актёры великолепны, неподражаемы, совершенно не похожи на актёров."]
+	node [style=filled]
+		0 [label="Актёры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="великолепны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неподражаемы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актёров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сочин"]
+			6 -> 5 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			8 -> 9 [label="предл"]
+}

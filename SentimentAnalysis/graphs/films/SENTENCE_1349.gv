@@ -1,0 +1,42 @@
+digraph SENTENCE_1349 {
+	graph [label="Она существовала в своем ирреальном мире, где все танцевали и она была счастлива."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="существовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ирреальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="танцевали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="счастлива
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 5 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="сент_соч"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="сент_соч"]
+			10 -> 12 [label="соч_союзн"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="присвяз"]
+}

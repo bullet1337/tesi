@@ -1,0 +1,33 @@
+digraph SENTENCE_39 {
+	graph [label="\"Долги за коммерческие площади, принадлежащие церквям, превышают 650 миллионов шекелей."]
+	node [style=filled]
+		1 [label="Долги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="коммерческие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="площади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="принадлежащие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церквям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="превышают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="650
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="шекелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 1 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="опред"]
+			4 -> 3 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,20 @@
+digraph SENTENCE_189 {
+	graph [label="А особенно в День святого Валентина."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+}

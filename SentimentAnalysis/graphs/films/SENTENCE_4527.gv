@@ -1,0 +1,39 @@
+digraph SENTENCE_4527 {
+	graph [label="И не так важно, что он не представляет толком, что перед ним."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="толком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			11 -> 12 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			5 -> 8 [label="подч_союзн"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="обст"]
+			8 -> 11 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предик"]
+			12 -> 13 [label="предл"]
+}

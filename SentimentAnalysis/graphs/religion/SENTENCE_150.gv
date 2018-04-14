@@ -1,0 +1,27 @@
+digraph SENTENCE_150 {
+	graph [label="Работы ведутся исключительно на пожертвования прихожан, подчеркнул Ресин."]
+	node [style=filled]
+		0 [label="Работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исключительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пожертвования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прихожан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ресин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="предик"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="обст"]
+			1 -> 7 [label="вводн"]
+}

@@ -1,0 +1,32 @@
+digraph SENTENCE_960 {
+	graph [label="Будете ли отказывать во внимании и помощи понравившемуся вам мужчине?"]
+	node [style=filled]
+		0 [label="Будете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отказывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="внимании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понравившемуся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мужчине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="опред"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="аналит"]
+			0 -> 5 [label="сент_соч"]
+			7 -> 9 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			9 -> 8 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_3302 {
+	graph [label="Харламов только после травмы, которую он получил с помощью машины времени прямиком из будущего 76-го года."]
+	node [style=filled]
+		0 [label="Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="травмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="помощью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="машины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прямиком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будущего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="76-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 2 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 10 [label="_1_компл"]
+			7 -> 13 [label="обст"]
+			10 -> 11 [label="атриб"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			13 -> 15 [label="соотнос"]
+			15 -> 16 [label="атриб"]
+}

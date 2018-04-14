@@ -1,0 +1,32 @@
+digraph SENTENCE_453 {
+	graph [label="Что для нее важно по-настоящему: живой сын или Великая Жертва?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="живой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Великая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Жертва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			6 -> 4 [label="огранич"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="_1_компл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4462 {
+	graph [label="А фокус направьте на кучку военных, которые бегают с ядерной боеголовкой наперевес."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фокус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="направьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кучку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="военных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бегают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ядерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="боеголовкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наперевес
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="_4_компл"]
+			2 -> 8 [label="разъяснит"]
+			0 -> 2 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			9 -> 11 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			8 -> 12 [label="обст"]
+			3 -> 4 [label="предл"]
+}

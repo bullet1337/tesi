@@ -1,0 +1,27 @@
+digraph SENTENCE_558 {
+	graph [label="Ее забота о Сельме так сильно умиляла меня."]
+	node [style=filled]
+		0 [label="Ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="забота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сельме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="умиляла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="квазиагент"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 1 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+}

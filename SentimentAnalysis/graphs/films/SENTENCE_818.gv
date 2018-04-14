@@ -1,0 +1,46 @@
+digraph SENTENCE_818 {
+	graph [label="10 из 10
+Перехлестывает через край и настолько больно, что хоть как-то освободиться хочется."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Перехлестывает
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="край
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="больно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="освободиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="соч_союзн"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			10 -> 14 [label="подч_союзн"]
+			8 -> 7 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 6 [label="сочин"]
+			3 -> 10 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+}

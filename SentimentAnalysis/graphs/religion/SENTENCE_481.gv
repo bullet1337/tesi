@@ -1,0 +1,45 @@
+digraph SENTENCE_481 {
+	graph [label="Как сообщил ранее РИА Новости представитель городской мэрии на панихиду пришли около пяти тысяч человек."]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="представитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мэрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="панихиду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пришли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пяти
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предик"]
+			10 -> 12 [label="предл"]
+			1 -> 2 [label="обст"]
+			1 -> 3 [label="предик"]
+			6 -> 5 [label="опред"]
+			12 -> 11 [label="количест"]
+			12 -> 13 [label="квазиагент"]
+			4 -> 0 [label="вводн"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="_2_компл"]
+			4 -> 9 [label="разъяснит"]
+			7 -> 8 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+}

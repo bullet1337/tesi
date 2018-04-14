@@ -1,0 +1,45 @@
+digraph SENTENCE_1013 {
+	graph [label="Поэтому, зная о сюжете «Танцующей в темноте», мне пришлось долго настраивать себя на просмотр."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сюжете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Танцующей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пришлось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="настраивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			4 -> 6 [label="опред"]
+			6 -> 7 [label="обст"]
+			12 -> 2 [label="обст"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 14 [label="предик"]
+			7 -> 8 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_2_компл"]
+			16 -> 17 [label="предл"]
+}

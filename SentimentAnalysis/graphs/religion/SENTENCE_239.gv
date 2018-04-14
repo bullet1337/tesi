@@ -1,0 +1,54 @@
+digraph SENTENCE_239 {
+	graph [label="С другой стороны, конфликт с арабами отчасти способствовал столь решительному отпору патриарха израильским властям, полагает историк-востоковед Михаил Якушев."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конфликт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="арабами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отчасти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="способствовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="столь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="решительному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отпору
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="израильским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="властям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="полагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="историк-востоковед
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Михаил Якушев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 13 [label="опред"]
+			2 -> 1 [label="опред"]
+			5 -> 6 [label="предл"]
+			10 -> 9 [label="огранич"]
+			16 -> 14 [label="_2_компл"]
+			16 -> 17 [label="предик"]
+			17 -> 18 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 16 [label="релят"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="_1_компл"]
+}

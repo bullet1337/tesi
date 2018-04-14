@@ -1,0 +1,24 @@
+digraph SENTENCE_789 {
+	graph [label="Он был подвергнут пыткам, ослеплен и распят."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подвергнут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пыткам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ослеплен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="распят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			6 -> 7 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+}

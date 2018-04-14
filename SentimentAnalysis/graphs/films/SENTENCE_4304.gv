@@ -1,0 +1,62 @@
+digraph SENTENCE_4304 {
+	graph [label="3 из 10
+Ежегодная кинопремия «Оскар» всегда была своеобразным брендом, который задавал тон всему что будет снято в следующие годы."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ежегодная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="кинопремия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своеобразным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="брендом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="задавал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="снято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="следующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="предик"]
+			9 -> 8 [label="обст"]
+			9 -> 11 [label="присвяз"]
+			9 -> 14 [label="сент_соч"]
+			19 -> 20 [label="_2_компл"]
+			18 -> 17 [label="предик"]
+			18 -> 19
+			1 -> 4 [label="предл"]
+			11 -> 10 [label="опред"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="аппоз"]
+			0 -> 1 [label="электив"]
+			20 -> 22 [label="предл"]
+}

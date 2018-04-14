@@ -1,0 +1,45 @@
+digraph SENTENCE_1985 {
+	graph [label="Часто начинающие впервые смотреть Тарковского зрители мучаются некоторой, как им кажется, затянутостью его фильмов."]
+	node [style=filled]
+		0 [label="Часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начинающие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мучаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="некоторой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="затянутостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 7 [label="опред"]
+			13 -> 9 [label="вводн"]
+			13 -> 15 [label="квазиагент"]
+			6 -> 5 [label="предик"]
+			6 -> 13 [label="агент"]
+			15 -> 14 [label="квазиагент"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 6 [label="примыкат"]
+			9 -> 11 [label="сравн_союзн"]
+			11 -> 10 [label="_2_компл"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_3614 {
+	graph [label="Хотели подчеркнуть, что этот фильм — не конкретно о Харламове?"]
+	node [style=filled]
+		0 [label="Хотели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конкретно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Харламове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			9 -> 10 [label="предл"]
+			1 -> 3 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			3 -> 8 [label="подч_союзн"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_2_компл"]
+}

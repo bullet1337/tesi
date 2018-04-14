@@ -1,0 +1,21 @@
+digraph SENTENCE_1588 {
+	graph [label="\"Посты – это период говения и покаяния."]
+	node [style=filled]
+		1 [label="Посты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="говения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="покаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="квазиагент"]
+			5 -> 6 [label="сочин"]
+			3 -> 1 [label="пролепт"]
+			6 -> 7 [label="соч_союзн"]
+}

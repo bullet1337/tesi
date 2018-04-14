@@ -1,0 +1,33 @@
+digraph SENTENCE_151 {
+	graph [label="Над постановкой юбилейного вечера работают режиссер Виктор Рыжаков и художник Николай Симонов."]
+	node [style=filled]
+		0 [label="Над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="постановкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="юбилейного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вечера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Виктор Рыжаков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Николай Симонов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="аппоз"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="предик"]
+			0 -> 1 [label="предл"]
+			1 -> 3 [label="атриб"]
+			3 -> 2 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			5 -> 6 [label="аппоз"]
+			5 -> 7 [label="сочин"]
+}

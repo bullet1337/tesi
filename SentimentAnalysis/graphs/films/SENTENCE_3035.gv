@@ -1,0 +1,30 @@
+digraph SENTENCE_3035 {
+	graph [label="Ни витиеватости модернизма, ни отточенности классических жанров здесь нет."]
+	node [style=filled]
+		0 [label="Ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="витиеватости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="модернизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отточенности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="классических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жанров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="_1_компл"]
+			5 -> 7 [label="_1_компл"]
+			9 -> 1 [label="предик"]
+			9 -> 8 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			2 -> 4 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 9 [label="соч_союзн"]
+}

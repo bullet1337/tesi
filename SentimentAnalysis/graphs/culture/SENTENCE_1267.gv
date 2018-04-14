@@ -1,0 +1,63 @@
+digraph SENTENCE_1267 {
+	graph [label="Лучшим актером стал Энтони Бажон за роль в фильме \"Молитва\", а лучшей актрисой — Ана Брун, которая исполнила главную роль в картине \"Наследницы\"."]
+	node [style=filled]
+		0 [label="Лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Энтони Бажон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Молитва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лучшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="актрисой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ана Брун
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="исполнила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="главную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Наследницы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 12 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+			19 -> 18 [label="предик"]
+			19 -> 21 [label="_1_компл"]
+			5 -> 6 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="присвяз"]
+			2 -> 3 [label="предик"]
+			2 -> 4 [label="обст"]
+			2 -> 9 [label="предик"]
+			2 -> 16 [label="вводн"]
+			2 -> 19 [label="сент_соч"]
+			22 -> 23 [label="предл"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="_2_компл"]
+			6 -> 7 [label="предл"]
+			23 -> 25 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+}

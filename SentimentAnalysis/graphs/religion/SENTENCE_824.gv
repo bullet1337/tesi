@@ -1,0 +1,38 @@
+digraph SENTENCE_824 {
+	graph [label="Например, захочу я пойти помолиться в лес — и не могу этого сделать."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="захочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пойти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="помолиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			6 -> 7 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="_1_компл"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="сочин"]
+			2 -> 4 [label="_1_компл"]
+}

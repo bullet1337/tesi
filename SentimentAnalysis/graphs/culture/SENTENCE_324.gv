@@ -1,0 +1,39 @@
+digraph SENTENCE_324 {
+	graph [label="Соболезнования в связи со смертью актрисы выразил президент Индии Рам Натх‏ Ковинд."]
+	node [style=filled]
+		0 [label="Соболезнования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смертью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Индии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Рам
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Натх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Ковинд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="атриб"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			10 -> 12 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="аппоз"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 7 [label="предик"]
+			6 -> 10 [label="вводн"]
+}

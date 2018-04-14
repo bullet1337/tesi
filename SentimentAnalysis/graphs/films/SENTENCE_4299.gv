@@ -1,0 +1,39 @@
+digraph SENTENCE_4299 {
+	graph [label="В российском прокате фильм наверняка продолжит свой провал, ибо не наше это."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="российском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прокате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наверняка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="продолжит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="провал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ибо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наше
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			12 -> 11 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="предик"]
+			5 -> 9 [label="обст"]
+			5 -> 12 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			7 -> 6 [label="опред"]
+}

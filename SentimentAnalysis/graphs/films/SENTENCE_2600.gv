@@ -1,0 +1,75 @@
+digraph SENTENCE_2600 {
+	graph [label="Он словно заигравшийся в режиссера восьмилетний ребенок, которому родители доверили снимать какое-то важное мероприятие, перед этим заверив его в том, что он бесконечно талантлив."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заигравшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="восьмилетний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ребенок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="родители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="доверили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="какое-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="важное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="заверив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="бесконечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="талантлив
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			0 -> 1 [label="сравнит"]
+			11 -> 14 [label="_1_компл"]
+			10 -> 0 [label="вводн"]
+			10 -> 6 [label="предик"]
+			10 -> 8 [label="_2_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 18 [label="обст"]
+			1 -> 2 [label="сравн_союзн"]
+			18 -> 16 [label="обст"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			21 -> 23 [label="эксплет"]
+			23 -> 26 [label="подч_союзн"]
+			20 -> 21 [label="предл"]
+			2 -> 3 [label="обст"]
+			26 -> 24 [label="предик"]
+			26 -> 25 [label="огранич"]
+			16 -> 17 [label="предл"]
+			6 -> 5 [label="опред"]
+}

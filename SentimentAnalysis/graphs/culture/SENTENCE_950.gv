@@ -1,0 +1,36 @@
+digraph SENTENCE_950 {
+	graph [label="Новый абонемент \"Музыкальные династии\" познакомят с Пласидо Доминго-младшим и Хулио Иглесиасом-младшим."]
+	node [style=filled]
+		0 [label="Новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="абонемент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Музыкальные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="династии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="познакомят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Пласидо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Доминго-младшим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Хулио
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Иглесиасом-младшим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="соч_союзн"]
+			6 -> 1 [label="_1_компл"]
+			6 -> 4 [label="неакт_компл"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="об_копр"]
+			6 -> 10 [label="сочин"]
+			1 -> 0 [label="опред"]
+			12 -> 11 [label="композ"]
+			7 -> 8 [label="предл"]
+			4 -> 3 [label="опред"]
+}

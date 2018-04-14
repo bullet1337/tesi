@@ -1,0 +1,24 @@
+digraph SENTENCE_4193 {
+	graph [label="Фильм пуст от начала и до конца."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пуст
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="сочин"]
+}

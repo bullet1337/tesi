@@ -1,0 +1,21 @@
+digraph SENTENCE_125 {
+	graph [label="Март — месяц балета в Мариинском театре."]
+	node [style=filled]
+		0 [label="Март
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="балета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Мариинском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="аппоз"]
+			0 -> 4 [label="атриб"]
+			4 -> 6 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			6 -> 5 [label="опред"]
+}

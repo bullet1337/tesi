@@ -1,0 +1,24 @@
+digraph SENTENCE_476 {
+	graph [label="\"Церемония вручения наград американской киноакадемии \"Оскар-2018\"."]
+	node [style=filled]
+		1 [label="Церемония
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наград
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="американской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="киноакадемии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			7 -> 9 [label="аппоз"]
+			3 -> 5 [label="квазиагент"]
+			3 -> 7 [label="аппоз"]
+			2 -> 3 [label="_1_компл"]
+}

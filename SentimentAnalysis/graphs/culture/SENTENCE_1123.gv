@@ -1,0 +1,48 @@
+digraph SENTENCE_1123 {
+	graph [label="Предварительное расследование указывает, что причиной смерти индийской звезды Шридеви в Дубае стало утопление, сообщает издание."]
+	node [style=filled]
+		0 [label="Предварительное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="расследование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="указывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="причиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="индийской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="звезды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Шридеви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Дубае
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="утопление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="издание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 10 [label="атриб"]
+			12 -> 5 [label="присвяз"]
+			12 -> 13 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 15 [label="вводн"]
+			15 -> 16 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="атриб"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="опред"]
+			4 -> 12 [label="подч_союзн"]
+}

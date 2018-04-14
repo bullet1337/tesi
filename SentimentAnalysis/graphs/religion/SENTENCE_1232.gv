@@ -1,0 +1,45 @@
+digraph SENTENCE_1232 {
+	graph [label="В США их привозит Виталий Безроднов, которого отец Виктор назвал \"культурным послом России в Америке\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="привозит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Виталий Безроднов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Виктор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="культурным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="послом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 9 [label="релят"]
+			14 -> 15 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			7 -> 8 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 12 [label="_2_компл"]
+			9 -> 14 [label="обст"]
+}

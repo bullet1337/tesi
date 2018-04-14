@@ -1,0 +1,57 @@
+digraph SENTENCE_542 {
+	graph [label="Даже не смотря на финал в стиле фон Триера, после просмотра у меня осталась такая легкость, такая теплота."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="финал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стиле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="осталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="легкость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="теплота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 2 [label="обст"]
+			14 -> 3 [label="присвяз"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 16 [label="предик"]
+			14 -> 19 [label="разъяснит"]
+			5 -> 6 [label="предл"]
+			10 -> 11 [label="предл"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			4 -> 5 [label="атриб"]
+			6 -> 8 [label="аппоз"]
+			19 -> 18 [label="опред"]
+			3 -> 4 [label="предл"]
+			3 -> 10 [label="сочин"]
+			12 -> 13 [label="предл"]
+			8 -> 7
+			16 -> 15 [label="опред"]
+}

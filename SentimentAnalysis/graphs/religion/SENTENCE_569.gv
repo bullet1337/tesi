@@ -1,0 +1,33 @@
+digraph SENTENCE_569 {
+	graph [label="К сожалению, никаких памятных мест, связанных с ней, не сохранилось."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="памятных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="связанных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сохранилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="опред"]
+			12 -> 0 [label="вводн"]
+			12 -> 5 [label="предик"]
+			12 -> 11 [label="огранич"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="_2_компл"]
+}

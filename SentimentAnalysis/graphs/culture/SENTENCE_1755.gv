@@ -1,0 +1,51 @@
+digraph SENTENCE_1755 {
+	graph [label="Известный американский режиссер и актер Кевин Смит, создавший образ \"Молчаливого Боба\", госпитализирован в результате тяжелого сердечного приступа."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кевин Смит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="создавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Молчаливого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Боба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="госпитализирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тяжелого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сердечного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="приступа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			8 -> 11 [label="квазиагент"]
+			16 -> 19 [label="квазиагент"]
+			14 -> 2 [label="предик"]
+			14 -> 15 [label="обст"]
+			3 -> 4 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			2 -> 5 [label="аппоз"]
+			2 -> 7 [label="опред"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_769 {
+	graph [label="Десять фьяби, как Гоцци называл свои трагикомические сказки, он написал на спор, обещая, что они принесут ему известность."]
+	node [style=filled]
+		0 [label="Десять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фьяби
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гоцци
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="называл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трагикомические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="обещая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="принесут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="известность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 1 [label="предик"]
+			11 -> 3 [label="вводн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_3_компл"]
+			11 -> 15 [label="обст"]
+			17 -> 19 [label="подч_союзн"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			3 -> 5 [label="сравн_союзн"]
+			19 -> 18 [label="предик"]
+			19 -> 20 [label="неакт_компл"]
+			19 -> 21 [label="_1_компл"]
+			1 -> 0 [label="количест"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="предл"]
+			15 -> 17 [label="_1_компл"]
+}

@@ -1,0 +1,32 @@
+digraph SENTENCE_1377 {
+	graph [label="В таких условиях высок риск заражения, способного привести к смерти\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="условиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высок
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="риск
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заражения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="способного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="привести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			3 -> 4 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 7 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

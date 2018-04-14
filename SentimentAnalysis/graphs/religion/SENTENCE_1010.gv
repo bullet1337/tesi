@@ -1,0 +1,39 @@
+digraph SENTENCE_1010 {
+	graph [label="Она отвлекла на себя убийцу, чем спасла жизни многих прихожан\", — сказал настоятель."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отвлекла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="убийцу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спасла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прихожан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="настоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			14 -> 6 [label="_1_компл"]
+			14 -> 15 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 14 [label="вводн"]
+			8 -> 10 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			6 -> 7 [label="сравн_союзн"]
+}

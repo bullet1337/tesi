@@ -1,0 +1,38 @@
+digraph SENTENCE_958 {
+	graph [label="10 из 10
+На что готов каждый из нас ради дорогого человека?"]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="На
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="готов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дорогого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="электив"]
+			1 -> 2 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			11 -> 10 [label="опред"]
+			7 -> 8 [label="предл"]
+			9 -> 11 [label="предл"]
+			0 -> 1 [label="электив"]
+}

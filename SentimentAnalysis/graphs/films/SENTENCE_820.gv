@@ -1,0 +1,72 @@
+digraph SENTENCE_820 {
+	graph [label="Не могу назвать ее любимой певицей, тут скорее нечто другое- ее голос завораживает, гипнотизирует, как хороший заклинатель с помощью своего инструмента гипнотизирует змей."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любимой
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="певицей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нечто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="завораживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="гипнотизирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="заклинатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="помощью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="инструмента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="гипнотизирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="змей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 26 [label="_1_компл"]
+			22 -> 24 [label="квазиагент"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="атриб"]
+			5 -> 4 [label="опред"]
+			24 -> 23 [label="опред"]
+			13 -> 10 [label="опред"]
+			13 -> 12 [label="квазиагент"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="_2_компл"]
+			8 -> 9 [label="сравнит"]
+			18 -> 20 [label="сравн_союзн"]
+			16 -> 18 [label="сравнит"]
+			16 -> 25 [label="сочин"]
+			21 -> 22 [label="предл"]
+			14 -> 7 [label="обст"]
+			14 -> 8 [label="вводн"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 16 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 14 [label="сочин"]
+}

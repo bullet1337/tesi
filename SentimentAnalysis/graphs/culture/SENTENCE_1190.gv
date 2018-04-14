@@ -1,0 +1,54 @@
+digraph SENTENCE_1190 {
+	graph [label="Народная артистка СССР, лауреат Сталинской премии, старейшая актриса театра имени Маяковского Татьяна Карпова скончалась на 103-м году жизни."]
+	node [style=filled]
+		0 [label="Народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="лауреат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сталинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="старейшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Татьяна Карпова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="скончалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="103-м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="атриб"]
+			10 -> 13 [label="сочин"]
+			14 -> 1 [label="предик"]
+			14 -> 15 [label="обст"]
+			14 -> 17 [label="обст"]
+			14 -> 18 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+			6 -> 5 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 9 [label="сочин"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 4 [label="об_аппоз"]
+}

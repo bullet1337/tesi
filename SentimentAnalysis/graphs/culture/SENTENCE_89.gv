@@ -1,0 +1,48 @@
+digraph SENTENCE_89 {
+	graph [label="Лю Болин наносит краски на тело и одежду таким образом, чтобы практически слиться с фоном."]
+	node [style=filled]
+		0 [label="Лю
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Болин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="наносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="краски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одежду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="слиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фоном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			1 -> 0
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 9 [label="обст"]
+			2 -> 11 [label="обст"]
+			5 -> 6 [label="сочин"]
+			4 -> 5 [label="предл"]
+			11 -> 13 [label="инф_союзн"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+}

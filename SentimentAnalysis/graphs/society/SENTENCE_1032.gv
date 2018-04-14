@@ -1,0 +1,20 @@
+digraph SENTENCE_1032 {
+	graph [label="И с привлечением аудиторов Счетной палаты."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="привлечением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="аудиторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Счетной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="палаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 5 [label="атриб"]
+}

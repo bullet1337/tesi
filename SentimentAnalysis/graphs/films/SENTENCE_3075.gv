@@ -1,0 +1,24 @@
+digraph SENTENCE_3075 {
+	graph [label="Травмы детства — это тоже избито до безобразия."]
+	node [style=filled]
+		0 [label="Травмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="детства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="избито
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="безобразия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_2_компл"]
+			6 -> 7 [label="предл"]
+}

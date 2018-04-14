@@ -1,0 +1,59 @@
+digraph SENTENCE_4571 {
+	graph [label="Лучше дождаться фильма там где все фильмы когда нибудь появляются и покончить со всеми будущими голливудскими «Годзиллами» в зародыше."]
+	node [style=filled]
+		0 [label="Лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дождаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нибудь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="появляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="покончить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будущими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="голливудскими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Годзиллами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="зародыше
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="сочин"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 19 [label="обст"]
+			19 -> 20 [label="предл"]
+			7 -> 9 [label="подч_союзн"]
+			10 -> 11 [label="соч_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="обст"]
+			17 -> 13 [label="опред"]
+			17 -> 14 [label="опред"]
+			17 -> 15 [label="опред"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предик"]
+			4 -> 7 [label="обст"]
+			12 -> 17 [label="предл"]
+}

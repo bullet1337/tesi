@@ -1,0 +1,53 @@
+digraph SENTENCE_2286 {
+	graph [label="Ни у кого почему-то не возникает мысли назвать ее безумной или хотя бы усомниться в ее адекватности."]
+	node [style=filled]
+		0 [label="Ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="почему-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возникает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="безумной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="усомниться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="адекватности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			5 -> 1 [label="_2_компл"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предик"]
+			11 -> 12
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			10 -> 13 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			16 -> 15 [label="квазиагент"]
+			9 -> 10 [label="сочин"]
+			14 -> 16 [label="предл"]
+}

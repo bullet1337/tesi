@@ -1,0 +1,21 @@
+digraph SENTENCE_5033 {
+	graph [label="Большими монстрами сейчас никого не удивишь."]
+	node [style=filled]
+		0 [label="Большими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="монстрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="удивишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="_2_компл"]
+			5 -> 2 [label="обст"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="опред"]
+}

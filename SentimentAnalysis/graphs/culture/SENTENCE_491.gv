@@ -1,0 +1,129 @@
+digraph SENTENCE_491 {
+	graph [label="\"Судья постановил признать ООО \"Чентромобиле-Пионер\" виновным в совершении правонарушения, предусмотренного частью 1 статьи 14.58 КоАП РФ (осуществление проката фильма или показа фильма без прокатного удостоверения на фильм), и назначить наказание в виде административного штрафа в размере 100 тысяч рублей\", — сказали в суде."]
+	node [style=filled]
+		1 [label="Судья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постановил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="признать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ООО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Чентромобиле-Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="виновным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="совершении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="правонарушения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="предусмотренного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="частью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="статьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="14.58
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="КоАП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="осуществление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="проката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="показа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="назначить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="наказание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="виде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="административного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="штрафа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="размере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		49 [label="сказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		50 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		51 [label="суде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 26 [label="_1_компл"]
+			34 -> 35 [label="соч_союзн"]
+			18 -> 19 [label="квазиагент"]
+			38 -> 40 [label="квазиагент"]
+			21 -> 22 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 9 [label="_2_компл"]
+			3 -> 11 [label="_1_компл"]
+			23 -> 24 [label="сочин"]
+			29 -> 28 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="квазиагент"]
+			14 -> 27 [label="атриб"]
+			14 -> 30 [label="распред"]
+			14 -> 34 [label="сочин"]
+			37 -> 38 [label="предл"]
+			40 -> 39 [label="опред"]
+			50 -> 51 [label="предл"]
+			6 -> 8 [label="аппоз"]
+			16 -> 15 [label="количест"]
+			16 -> 17 [label="нум_аппоз"]
+			16 -> 18 [label="квазиагент"]
+			16 -> 21 [label="разъяснит"]
+			44 -> 43 [label="количест"]
+			44 -> 45 [label="квазиагент"]
+			22 -> 23 [label="сочин"]
+			49 -> 14 [label="обст"]
+			49 -> 44 [label="предик"]
+			49 -> 50 [label="обст"]
+			35 -> 36 [label="_1_компл"]
+			35 -> 37 [label="обст"]
+			35 -> 41 [label="_2_компл"]
+			9 -> 10 [label="предл"]
+			4 -> 6 [label="аппоз"]
+			27 -> 29 [label="предл"]
+			24 -> 25 [label="соч_союзн"]
+			41 -> 42 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 49 [label="разъяснит"]
+			30 -> 31 [label="предл"]
+}

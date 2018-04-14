@@ -1,0 +1,30 @@
+digraph SENTENCE_235 {
+	graph [label="\"Все, что я запланировал, выполнено на 100%, — заявил Грымов."]
+	node [style=filled]
+		1 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="запланировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выполнено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Грымов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7
+			1 -> 13 [label="релят"]
+			8 -> 9 [label="предл"]
+			13 -> 3 [label="_1_компл"]
+			13 -> 14 [label="предик"]
+			3 -> 5 [label="подч_союзн"]
+}

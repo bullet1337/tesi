@@ -1,0 +1,24 @@
+digraph SENTENCE_3226 {
+	graph [label="Сценарию здесь мы обязаны Времени и Истории."]
+	node [style=filled]
+		0 [label="Сценарию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обязаны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Времени
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Истории
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="_2_компл"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+}

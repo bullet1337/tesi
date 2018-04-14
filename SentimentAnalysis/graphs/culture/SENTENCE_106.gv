@@ -1,0 +1,42 @@
+digraph SENTENCE_106 {
+	graph [label="С 1949 по 1976 год была солисткой Белорусского Большого театра оперы и балета."]
+	node [style=filled]
+		0 [label="С
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1949
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1976
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="солисткой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Белорусского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Большого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="балета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			6 -> 9 [label="сочин"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="соотнос"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			2 -> 4 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+}

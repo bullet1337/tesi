@@ -1,0 +1,35 @@
+digraph SENTENCE_1084 {
+	graph [label="В мистерии был посвящен в 125 году нашей эры император Адриан."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мистерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посвящен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="125
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="император
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Адриан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="обст"]
+			2 -> 3
+			4 -> 6 [label="предл"]
+			3 -> 4 [label="_2_компл"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+}

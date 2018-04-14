@@ -1,0 +1,39 @@
+digraph SENTENCE_1512 {
+	graph [label="ромашка — цветок, пользующийся популярностью у влюбленных и символизирующий лето, чистоту и невинность."]
+	node [style=filled]
+		0 [label="ромашка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="цветок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пользующийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="популярностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="влюбленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="символизирующий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лето
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="чистоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="невинность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			4 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			13 -> 14 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+			12 -> 13 [label="сочин"]
+			10 -> 12 [label="сочин"]
+}

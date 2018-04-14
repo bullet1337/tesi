@@ -1,0 +1,51 @@
+digraph SENTENCE_783 {
+	graph [label="В церемонии также участвуют президент Сербии Александр Вучич, президент Республики Сербской (входит в Боснию и Герцеговину) Милорад Додик."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участвуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сербии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Александр Вучич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Республики
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Сербской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="входит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Боснию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Герцеговину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Милорад Додик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="аппоз"]
+			15 -> 16 [label="соч_союзн"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 12 [label="сент_соч"]
+			3 -> 18 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 8 [label="предик"]
+			12 -> 13 [label="_2_компл"]
+			14 -> 15 [label="сочин"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="предл"]
+}

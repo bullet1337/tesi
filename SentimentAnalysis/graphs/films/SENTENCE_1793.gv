@@ -1,0 +1,18 @@
+digraph SENTENCE_1793 {
+	graph [label="От начала и до конца."]
+	node [style=filled]
+		0 [label="От
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			2 -> 3 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+}

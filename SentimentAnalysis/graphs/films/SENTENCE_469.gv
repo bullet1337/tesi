@@ -1,0 +1,30 @@
+digraph SENTENCE_469 {
+	graph [label="В то же время, он мило танцует с Сельмой."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мило
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="танцует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сельмой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 1 [label="опред"]
+			0 -> 3 [label="предл"]
+			1 -> 2 [label="огранич"]
+}

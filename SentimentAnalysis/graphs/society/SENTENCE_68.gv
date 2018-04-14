@@ -1,0 +1,24 @@
+digraph SENTENCE_68 {
+	graph [label="Роман Филипов родился в 1984 году в Воронеже."]
+	node [style=filled]
+		0 [label="Роман Филипов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="родился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1984
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Воронеже
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="обст"]
+			4 -> 3 [label="опред"]
+			5 -> 6 [label="предл"]
+}

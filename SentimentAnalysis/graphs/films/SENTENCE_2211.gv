@@ -1,0 +1,78 @@
+digraph SENTENCE_2211 {
+	graph [label="10 из 10
+Самый лучший фильм самого лучшего российского режиссёра Андрея Тарковского, и вообще самый лучший фильм, снятый в России из всех, что я когда либо видел!"]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Самый
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Андрея Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="снятый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="либо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			7 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			15 -> 14 [label="опред"]
+			4 -> 3 [label="опред"]
+			16 -> 13 [label="огранич"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="опред"]
+			21 -> 22 [label="предл"]
+			12 -> 16 [label="соч_союзн"]
+			18 -> 19 [label="обст"]
+			18 -> 21 [label="_2_компл"]
+			1 -> 5 [label="предл"]
+			5 -> 2 [label="количест"]
+			5 -> 4 [label="опред"]
+			5 -> 9 [label="квазиагент"]
+			0 -> 1 [label="электив"]
+			0 -> 12 [label="сочин"]
+			27 -> 28 [label="соч_союзн"]
+}

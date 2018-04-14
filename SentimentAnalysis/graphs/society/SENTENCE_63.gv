@@ -1,0 +1,27 @@
+digraph SENTENCE_63 {
+	graph [label="Он боролся с самым большим злом — международным терроризмом."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="боролся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="большим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="злом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="международным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="терроризмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="обст"]
+			5 -> 4 [label="опред"]
+			2 -> 5 [label="предл"]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="опред"]
+}

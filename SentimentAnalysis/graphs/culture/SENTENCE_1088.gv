@@ -1,0 +1,18 @@
+digraph SENTENCE_1088 {
+	graph [label="В жертву Деметре приносили поросенка."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жертву
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Деметре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="приносили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поросенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="неакт_компл"]
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

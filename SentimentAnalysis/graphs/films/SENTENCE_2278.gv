@@ -1,0 +1,55 @@
+digraph SENTENCE_2278 {
+	graph [label="3 из 10
+Сюжетная линия понятна, все просто — мать-одиночка, которая должна собрать деньги, чтобы помочь своему сыну."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сюжетная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="линия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понятна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мать-одиночка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="собрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 19 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="электив"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			5 -> 0 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 10 [label="предик"]
+			5 -> 13 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="обст"]
+			17 -> 18 [label="инф_союзн"]
+			1 -> 4 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_4184 {
+	graph [label="Главный герой Шарон — это такой собирательный образ жертвы."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Шарон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собирательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жертвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 1 [label="пролепт"]
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+}

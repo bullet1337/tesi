@@ -1,0 +1,45 @@
+digraph SENTENCE_4107 {
+	graph [label="Единственные плюсы этого 2-часового 3-частного кино-опуса — сцена с Хуаном в море и музыкальное сопровождение."]
+	node [style=filled]
+		0 [label="Единственные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плюсы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="2-часового
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="3-частного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кино-опуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Хуаном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="море
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="музыкальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сопровождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="квазиагент"]
+			1 -> 5 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="атриб"]
+			7 -> 10 [label="атриб"]
+			7 -> 12 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="предл"]
+			3 -> 2 [label="опред"]
+			10 -> 11 [label="предл"]
+}

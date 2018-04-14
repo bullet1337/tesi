@@ -1,0 +1,27 @@
+digraph SENTENCE_29 {
+	graph [label="В частности, Камчатка получила более 146 миллионов рублей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Камчатка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="получила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="146
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="сравнит"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="квазиагент"]
+}

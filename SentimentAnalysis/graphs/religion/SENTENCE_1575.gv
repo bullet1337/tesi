@@ -1,0 +1,27 @@
+digraph SENTENCE_1575 {
+	graph [label="\"Сейчас возникает важная тема восстановления Сирии и Ирака."]
+	node [style=filled]
+		1 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возникает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="важная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="восстановления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ирака
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="предик"]
+			7 -> 8 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 7 [label="сочин"]
+}

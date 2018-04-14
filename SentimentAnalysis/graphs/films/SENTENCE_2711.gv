@@ -1,0 +1,42 @@
+digraph SENTENCE_2711 {
+	graph [label="Всё это требует дополнительных сюжетных пояснения и обоснования, но этого, разумеется, не будет."]
+	node [style=filled]
+		0 [label="Всё
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="требует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дополнительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сюжетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пояснения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обоснования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разумеется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 9 [label="сент_соч"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			9 -> 15 [label="соч_союзн"]
+			6 -> 7 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			15 -> 10 [label="предик"]
+			15 -> 12 [label="вводн"]
+			15 -> 14 [label="огранич"]
+}

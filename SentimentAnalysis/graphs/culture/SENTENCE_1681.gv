@@ -1,0 +1,18 @@
+digraph SENTENCE_1681 {
+	graph [label="Прокатчиком картины выступает компания \"Вольга\"."]
+	node [style=filled]
+		0 [label="Прокатчиком
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выступает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="компания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Вольга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="аппоз"]
+			3 -> 5 [label="аппоз"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+}

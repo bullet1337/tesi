@@ -1,0 +1,27 @@
+digraph SENTENCE_3690 {
+	graph [label="Этот фильм снят по обычному, причем американскому, клише!"]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обычному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="американскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="клише
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			9 -> 7 [label="опред"]
+}

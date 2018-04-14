@@ -1,0 +1,39 @@
+digraph SENTENCE_442 {
+	graph [label="Ранее власти Москвы согласовали проведение шествия в память о Борисе Немцове 25 февраля."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="согласовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шествия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Борисе Немцове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="_2_компл"]
+			3 -> 10 [label="обст"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 11 [label="атриб"]
+}

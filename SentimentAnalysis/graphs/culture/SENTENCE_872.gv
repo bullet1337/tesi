@@ -1,0 +1,42 @@
+digraph SENTENCE_872 {
+	graph [label="В Голливуде скандал фактически поставил крест на карьере актера Кевина Спейси и продюсера Харви Вайнштейна."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Голливуде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="скандал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="крест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="карьере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кевина Спейси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="продюсера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Харви Вайнштейна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="аппоз"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 8 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="аппоз"]
+			9 -> 10 [label="сочин"]
+}

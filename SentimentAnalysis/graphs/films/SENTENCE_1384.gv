@@ -1,0 +1,39 @@
+digraph SENTENCE_1384 {
+	graph [label="Я запомнил его лицо, когда он стоял возле двери, притворившись, что ушел."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="запомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лицо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возле
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="двери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="притворившись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ушел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="квазиагент"]
+			13 -> 14 [label="подч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			5 -> 7 [label="подч_союзн"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 11 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 5 [label="обст"]
+}

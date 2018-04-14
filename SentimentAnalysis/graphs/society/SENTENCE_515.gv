@@ -1,0 +1,24 @@
+digraph SENTENCE_515 {
+	graph [label="\"Скрининг неонатальный идет только на пять заболеваний."]
+	node [style=filled]
+		1 [label="Скрининг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неонатальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предл"]
+			7 -> 6 [label="количест"]
+}

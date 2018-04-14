@@ -1,0 +1,81 @@
+digraph SENTENCE_0 {
+	graph [label="Министр культуры РФ Владимир Мединский заявил, что обращал внимание главы департамента культуры Москвы Александра Кибовского на ситуацию вокруг драматического театра под руководством Армена Джигарханяна, и надеется на взвешенное решение ведомства."]
+	node [style=filled]
+		0 [label="Министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Владимир Мединский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обращал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="главы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="департамента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Москвы Александра Кибовского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ситуацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="драматического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Армена Джигарханяна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="надеется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="взвешенное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ведомства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			10 -> 11 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 27 [label="предик"]
+			13 -> 14 [label="предл"]
+			17 -> 16 [label="опред"]
+			26 -> 25 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			15 -> 17 [label="предл"]
+			11 -> 12 [label="сочин"]
+			22 -> 23 [label="соч_союзн"]
+			6 -> 7 [label="подч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 18 [label="обст"]
+			7 -> 20 [label="предик"]
+			7 -> 22 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 13 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			9 -> 10 [label="_1_компл"]
+			24 -> 26 [label="предл"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_2510 {
+	graph [label="Лишь один из них, Кирилл, раскрыт в достаточной степени, но он второстепенный герой и в сущности не интересен."]
+	node [style=filled]
+		0 [label="Лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="раскрыт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="достаточной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="степени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="второстепенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сущности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="интересен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			13 -> 15 [label="об_аппоз"]
+			13 -> 16 [label="сочин"]
+			17 -> 18 [label="предл"]
+			10 -> 9 [label="опред"]
+			12 -> 20 [label="соч_союзн"]
+			16 -> 17 [label="соч_союзн"]
+			20 -> 13 [label="предик"]
+			20 -> 19 [label="огранич"]
+			15 -> 14 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="электив"]
+			1 -> 7 [label="релят"]
+			1 -> 12 [label="сочин"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="обст"]
+			2 -> 3 [label="предл"]
+}

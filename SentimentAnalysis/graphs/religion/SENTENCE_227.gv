@@ -1,0 +1,48 @@
+digraph SENTENCE_227 {
+	graph [label="Впрочем, в правоохранительных органах Иерусалима говорят, что конкретные требования к общинам еще пока не сформулированы."]
+	node [style=filled]
+		0 [label="Впрочем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правоохранительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="органах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="конкретные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="требования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сформулированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			14 -> 13 [label="огранич"]
+			8 -> 16 [label="подч_союзн"]
+			16 -> 10 [label="предик"]
+			16 -> 14 [label="огранич"]
+			16 -> 15 [label="огранич"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_2_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			2 -> 4 [label="предл"]
+}

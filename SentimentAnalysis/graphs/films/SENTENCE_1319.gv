@@ -1,0 +1,24 @@
+digraph SENTENCE_1319 {
+	graph [label="Ситуация обостряется тем, что Сельма вскоре ослепнет."]
+	node [style=filled]
+		0 [label="Ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обостряется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ослепнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="эксплет"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			4 -> 7 [label="подч_союзн"]
+}

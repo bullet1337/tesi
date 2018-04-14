@@ -1,0 +1,45 @@
+digraph SENTENCE_1821 {
+	graph [label="В конце картины я напрочь забываю, что это всего-навсего фильм, а не достоверная история."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="напрочь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="забываю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всего-навсего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="достоверная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			14 -> 13 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			12 -> 15 [label="соч_союзн"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="сочин"]
+			0 -> 1 [label="предл"]
+			7 -> 10 [label="подч_союзн"]
+}

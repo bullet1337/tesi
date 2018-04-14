@@ -1,0 +1,39 @@
+digraph SENTENCE_446 {
+	graph [label="Он звучит во всех православных храмах в первые четыре дня Великого поста."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="звучит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			2 -> 5 [label="предл"]
+			8 -> 7 [label="опред"]
+			9 -> 8 [label="количест"]
+			9 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			6 -> 9 [label="предл"]
+}

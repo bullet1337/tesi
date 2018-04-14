@@ -1,0 +1,30 @@
+digraph SENTENCE_959 {
+	graph [label="Предполагался маленький официальный момент, когда Юрий Владимирович Андропов встретит эту семью."]
+	node [style=filled]
+		0 [label="Предполагался
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="маленький
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="официальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Юрий Владимирович Андропов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="встретит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="семью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предик"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			5 -> 7 [label="подч_союзн"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+}

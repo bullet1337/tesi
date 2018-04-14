@@ -1,0 +1,50 @@
+digraph SENTENCE_4308 {
+	graph [label="В 2016 году скандал получился весьма эпичный — ох и ах, слишком мало афроамериканцев на квадратный кадр."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скандал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="получился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эпичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ох
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ах
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="афроамериканцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="квадратный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="кадр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="опред"]
+			8 -> 9 [label="сент_соч"]
+			9 -> 13 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 8 [label="предик"]
+			0 -> 2 [label="предл"]
+			13 -> 10 [label="вводн"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предик"]
+			15 -> 17 [label="предл"]
+			2 -> 1 [label="опред"]
+			17 -> 16 [label="опред"]
+			6 -> 5 [label="огранич"]
+}

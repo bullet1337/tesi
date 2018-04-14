@@ -1,0 +1,75 @@
+digraph SENTENCE_859 {
+	graph [label="Имеются в виду Стеллан Скарсгард (окулист Сельмы), Удо Кир (хирург, проведший операцию на глаза), Жан-Марк Барр (Нельсон), Желько Иванек (окружной прокурор) и Сиобэн Фэллон (сострадающая Сельме надзиратель в тюрьме)."]
+	node [style=filled]
+		0 [label="Имеются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="виду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Стеллан Скарсгард
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="окулист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Удо Кир
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="хирург
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="проведший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Жан-Марк Барр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Нельсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Желько Иванек
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="окружной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="прокурор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Сиобэн Фэллон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="сострадающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Сельме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="надзиратель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="тюрьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			35 -> 36 [label="предл"]
+			27 -> 26 [label="опред"]
+			29 -> 30 [label="соч_союзн"]
+			30 -> 32 [label="опред"]
+			24 -> 27 [label="аппоз"]
+			5 -> 6 [label="аппоз"]
+			21 -> 24 [label="аппоз"]
+			6 -> 9 [label="аппоз"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="_2_компл"]
+			13 -> 19 [label="_1_компл"]
+			32 -> 33 [label="_1_компл"]
+			32 -> 35 [label="обст"]
+			9 -> 11 [label="аппоз"]
+			15 -> 16 [label="предл"]
+			33 -> 34 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			3 -> 13 [label="опред"]
+			3 -> 21 [label="аппоз"]
+			3 -> 29 [label="сочин"]
+			3 -> 5 [label="аппоз"]
+}

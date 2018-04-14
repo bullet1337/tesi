@@ -1,0 +1,44 @@
+digraph SENTENCE_4961 {
+	graph [label="А весь оставшийся фильм мы любуемся постной миной Аарона Тейлора-Джонсона(удовольствие ниже среднего, стоит сказать)."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оставшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любуемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="постной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="миной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Аарона Тейлора-Джонсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="удовольствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ниже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="среднего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="аппоз"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="ном_аппоз"]
+			3 -> 14 [label="релят"]
+			7 -> 6 [label="опред"]
+			14 -> 12 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="аппоз"]
+			5 -> 11 [label="сент_соч"]
+}

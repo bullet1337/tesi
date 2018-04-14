@@ -1,0 +1,42 @@
+digraph SENTENCE_2320 {
+	graph [label="При чем музыка никогда не соответствовала тому, что до этого происходило на экране."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="соответствовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="происходило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 11 [label="подч_союзн"]
+			9 -> 10 [label="предл"]
+			12 -> 13 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			6 -> 8 [label="эксплет"]
+}

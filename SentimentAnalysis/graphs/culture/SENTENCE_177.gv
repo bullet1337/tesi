@@ -1,0 +1,63 @@
+digraph SENTENCE_177 {
+	graph [label="В этом месяце будет представлено около 30 спектаклей, в числе которых \"Царь Эдип\" Римаса Туминаса, \"Барабаны в ночи\" Юрия Бутусова, \"Демократия\" Алексея Бородина, \"Изгнание\" Эймантаса Карбаускиса."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="месяце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="представлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спектаклей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Эймантаса Карбаускиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Царь Эдип
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Римаса Туминаса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Барабаны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ночи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Юрия Бутусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Демократия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="Алексея Бородина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Изгнание
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 18 [label="аппоз"]
+			3 -> 0 [label="обст"]
+			3 -> 4
+			3 -> 5 [label="предик"]
+			19 -> 13 [label="предик"]
+			19 -> 20 [label="предл"]
+			7 -> 6 [label="количест"]
+			22 -> 19 [label="огранич"]
+			22 -> 25 [label="аппоз"]
+			22 -> 27 [label="аппоз"]
+			22 -> 30 [label="сочин"]
+			0 -> 2 [label="предл"]
+			9 -> 10 [label="предл"]
+			5 -> 7 [label="предл"]
+			30 -> 32 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			13 -> 15 [label="аппоз"]
+}

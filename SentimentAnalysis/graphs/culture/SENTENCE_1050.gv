@@ -1,0 +1,39 @@
+digraph SENTENCE_1050 {
+	graph [label="Как сказала Нина Чусова, \"в этой работе — все творцы: актеры, художники, музыканты, техники…\"."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Нина Чусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="творцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="художники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="музыканты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="техники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			12 -> 14 [label="сочин"]
+			10 -> 5 [label="огранич"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="сочин"]
+			16 -> 18 [label="сочин"]
+			1 -> 2 [label="предик"]
+			7 -> 6 [label="опред"]
+			2 -> 10 [label="об_аппоз"]
+			14 -> 16 [label="сочин"]
+}

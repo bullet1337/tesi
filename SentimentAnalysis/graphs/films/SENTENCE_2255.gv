@@ -1,0 +1,54 @@
+digraph SENTENCE_2255 {
+	graph [label="Фильму максимальный балл, потому что это Тарковский и это его личное Откровение, проливающее на нас свой Свет."]
+	node [style=filled]
+		0 [label="Фильму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="максимальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="балл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="личное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Откровение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="проливающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Свет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="дат_субъект"]
+			4 -> 2 [label="огранич"]
+			4 -> 5 [label="эксплет"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="сент_соч"]
+			15 -> 16 [label="предл"]
+			8 -> 12 [label="соч_союзн"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="опред"]
+			5 -> 7 [label="подч_союзн"]
+			18 -> 17 [label="опред"]
+			2 -> 1 [label="опред"]
+			14 -> 15 [label="_3_компл"]
+			14 -> 18 [label="_1_компл"]
+}

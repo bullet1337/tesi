@@ -1,0 +1,54 @@
+digraph SENTENCE_4433 {
+	graph [label="Я смотрел и японские фильмы про Годзиллу разных лет — от оригинала 1954 года до фильмов 90-х годов."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="японские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оригинала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="1954
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="90-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="годов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			14 -> 15 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="_1_компл"]
+			6 -> 8 [label="атриб"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 10 [label="атриб"]
+			17 -> 16 [label="опред"]
+			11 -> 13 [label="атриб"]
+			5 -> 6 [label="предл"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="предл"]
+			10 -> 14 [label="соотнос"]
+			15 -> 17 [label="атриб"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_84 {
+	graph [label="\"Свою готовность решать сложнейшие задачи наши военнослужащие продемонстрировали в Сирии."]
+	node [style=filled]
+		1 [label="Свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="готовность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="решать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сложнейшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="задачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="военнослужащие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="продемонстрировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			8 -> 2 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+}

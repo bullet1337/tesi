@@ -1,0 +1,75 @@
+digraph SENTENCE_1490 {
+	graph [label="Пожалуй лишь имя фон Триера заставило набраться терпения, потому как его фильмы всегда отличаются целостностью и оригинальностью как самой идеи, так и ее реализацией."]
+	node [style=filled]
+		0 [label="Пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="заставило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="набраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="терпения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отличаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="целостностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оригинальностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="идеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="реализацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="эксплет"]
+			20 -> 19 [label="опред"]
+			18 -> 20 [label="сравн_союзн"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 18 [label="сравнит"]
+			14 -> 22 [label="обст"]
+			10 -> 14 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="квазиагент"]
+			4 -> 3
+			23 -> 25 [label="соч_союзн"]
+			22 -> 23 [label="сочин"]
+			25 -> 24 [label="_1_компл"]
+			16 -> 17 [label="соч_союзн"]
+			12 -> 11 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			15 -> 16 [label="сочин"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_3493 {
+	graph [label="Игроки в нём, оказывается, человекообразные быки, а тактика — «Сломай номер 17»."]
+	node [style=filled]
+		0 [label="Игроки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="человекообразные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="быки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тактика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Сломай
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="номер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			9 -> 13 [label="соч_союзн"]
+			14 -> 15 [label="нум_аппоз"]
+			1 -> 2 [label="предл"]
+			13 -> 10 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="обст"]
+			4 -> 7 [label="присвяз"]
+			4 -> 9 [label="сент_соч"]
+}

@@ -1,0 +1,88 @@
+digraph SENTENCE_1908 {
+	graph [label="Из того количества кино, которое я смотрю, наверно, 95 % можно было никогда не видеть — я ничего бы не потеряла, зато 5 % — настояшее искусство, то, что заслуживает называться пафосным словом «шедевр»."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="количества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смотрю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наверно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="95
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="потеряла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="зато
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="настояшее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="заслуживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="называться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="пафосным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="словом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			38 -> 37 [label="опред"]
+			38 -> 40 [label="аппоз"]
+			25 -> 30 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			36 -> 38 [label="_1_компл"]
+			34 -> 35 [label="подч_союзн"]
+			23 -> 19 [label="предик"]
+			23 -> 20 [label="_1_компл"]
+			23 -> 21 [label="аналит"]
+			23 -> 22 [label="огранич"]
+			23 -> 25 [label="сент_соч"]
+			29 -> 26 [label="количест"]
+			17 -> 15 [label="обст"]
+			17 -> 16 [label="огранич"]
+			30 -> 29 [label="предик"]
+			14 -> 13 [label="присвяз"]
+			14 -> 17 [label="предик"]
+			14 -> 23 [label="сент_соч"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			35 -> 36 [label="_1_компл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_59 {
+	graph [label="В минувшую пятницу целью террористов также стала мечеть в Бенгази."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="минувшую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="целью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="террористов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мечеть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Бенгази
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="_1_компл"]
+			7 -> 8 [label="атриб"]
+			8 -> 9 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="присвяз"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предик"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+}

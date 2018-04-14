@@ -1,0 +1,69 @@
+digraph SENTENCE_1296 {
+	graph [label="В программе прозвучат арии из неизвестных широкой публике опер Николы Пропора: \"Филандр\", \"Ариадна на Наксосе\", \"Аэций\", \"Карл лысый\", \"Триумф Камиллы\", \"Анжелика и Медор\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прозвучат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="арии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неизвестных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="широкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="публике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="опер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Николы Пропора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Филандр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Ариадна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Наксосе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Аэций
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="Карл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="лысый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Триумф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="Камиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		36 [label="Анжелика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="Медор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			37 -> 38 [label="соч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 12 [label="разъяснит"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			22 -> 26 [label="аппоз"]
+			3 -> 4 [label="атриб"]
+			3 -> 8 [label="квазиагент"]
+			17 -> 18 [label="предл"]
+			0 -> 1 [label="предл"]
+			12 -> 16 [label="аппоз"]
+			12 -> 17 [label="атриб"]
+			8 -> 9 [label="квазиагент"]
+			32 -> 36 [label="аппоз"]
+			32 -> 37 [label="сочин"]
+			31 -> 27 [label="опред"]
+			31 -> 32 [label="квазиагент"]
+			18 -> 22 [label="аппоз"]
+			26 -> 31 [label="аппоз"]
+			4 -> 7 [label="предл"]
+}

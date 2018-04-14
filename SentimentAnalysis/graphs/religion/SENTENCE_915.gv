@@ -1,0 +1,45 @@
+digraph SENTENCE_915 {
+	graph [label="В католической литургической традиции есть аналог Прощеного воскресенья — Quinquagesima (буквально \"пятидесятый [день]\" до Пасхи)."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="католической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="литургической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аналог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Прощеного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="воскресенья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Quinquagesima
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пятидесятый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Пасхи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 13 [label="опред"]
+			15 -> 18 [label="атриб"]
+			18 -> 19 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="предик"]
+			13 -> 11 [label="огранич"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="аппоз"]
+			5 -> 15 [label="разъяснит"]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_251 {
+	graph [label="В субботу на новой сцене Большого театра покажут оперу \"Билли Бад\" английского композитора Бенджамина Бриттена, премьера которой состоялась в ноябре 2016 года."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="субботу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Большого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="покажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оперу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Билли Бад
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="английского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="композитора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Бенджамина Бриттена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ноябре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			18 -> 16 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+			8 -> 13 [label="сочин"]
+			7 -> 0 [label="обст"]
+			7 -> 2 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			22 -> 21 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			13 -> 18 [label="релят"]
+			2 -> 4 [label="предл"]
+			0 -> 1 [label="предл"]
+			20 -> 22 [label="атриб"]
+			19 -> 20 [label="предл"]
+}

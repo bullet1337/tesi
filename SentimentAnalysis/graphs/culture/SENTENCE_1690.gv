@@ -1,0 +1,48 @@
+digraph SENTENCE_1690 {
+	graph [label="Да, он резкий, но я знаю много известных людей, делающих цвет нации, которые тоже резки."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="резкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="известных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="делающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="цвет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="резки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="квазиагент"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 18 [label="сент_соч"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="сент_соч"]
+			12 -> 13 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="опред"]
+			5 -> 7 [label="соч_союзн"]
+			8 -> 10 [label="_1_компл"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+}

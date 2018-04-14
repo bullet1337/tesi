@@ -1,0 +1,30 @@
+digraph SENTENCE_2110 {
+	graph [label="И в некоторых из них можно увидеть что-то знакомое."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знакомое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="электив"]
+			3 -> 4 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			7 -> 8 [label="опред"]
+			5 -> 1 [label="обст"]
+			5 -> 6 [label="предик"]
+			1 -> 2 [label="предл"]
+}

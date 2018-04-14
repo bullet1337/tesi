@@ -1,0 +1,63 @@
+digraph SENTENCE_716 {
+	graph [label="Второе, на протяжении фильма ее спрашивают «Зачем же ты оставила ребенка, если знала, что он ослепнет?» -\" Я хотела подержать младенца»."]
+	node [style=filled]
+		0 [label="Второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спрашивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Зачем
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оставила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ослепнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="подержать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="младенца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="предик"]
+			25 -> 24 [label="предик"]
+			25 -> 26 [label="_1_компл"]
+			15 -> 17 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 11 [label="_2_компл"]
+			14 -> 15 [label="подч_союзн"]
+			17 -> 19 [label="подч_союзн"]
+			8 -> 9 [label="огранич"]
+			26 -> 27 [label="_1_компл"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 14 [label="обст"]
+			11 -> 25 [label="разъяснит"]
+			3 -> 4 [label="квазиагент"]
+}

@@ -1,0 +1,29 @@
+digraph SENTENCE_3526 {
+	graph [label="Папа вальяжно раскинется на диване и со словами: «Да!"]
+	node [style=filled]
+		0 [label="Папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вальяжно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раскинется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="диване
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="словами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Да
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="сочин"]
+			7 -> 10 [label="аппоз"]
+}

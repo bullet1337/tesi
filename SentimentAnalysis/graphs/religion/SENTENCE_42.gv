@@ -1,0 +1,93 @@
+digraph SENTENCE_42 {
+	graph [label="\"Мы здесь, конечно, находимся в сообществе с другими церквами, и, если, не дай Бог, все-таки инициатива муниципалитета будет продвинута и претворится в жизнь, конечно, это коснется и нас\", — сказал он."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="находимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сообществе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="церквами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Бог
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="все-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="инициатива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="муниципалитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="продвинута
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="претворится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="коснется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 27 [label="соч_союзн"]
+			9 -> 11 [label="предл"]
+			40 -> 41 [label="предик"]
+			6 -> 1 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 4 [label="вводн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="_1_несобст_компл"]
+			6 -> 13 [label="сент_соч"]
+			6 -> 40 [label="вводн"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предик"]
+			27 -> 28 [label="_2_компл"]
+			34 -> 31 [label="вводн"]
+			34 -> 33 [label="предик"]
+			34 -> 36 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			15 -> 18 [label="подч_союзн"]
+			24 -> 15 [label="обст"]
+			24 -> 21 [label="огранич"]
+			24 -> 22 [label="предик"]
+			24 -> 25
+			24 -> 34 [label="сент_соч"]
+			13 -> 24 [label="соч_союзн"]
+			22 -> 23 [label="квазиагент"]
+			28 -> 29 [label="предл"]
+			36 -> 35 [label="огранич"]
+			11 -> 10 [label="опред"]
+			25 -> 26 [label="сочин"]
+}

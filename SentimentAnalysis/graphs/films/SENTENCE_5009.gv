@@ -1,0 +1,39 @@
+digraph SENTENCE_5009 {
+	graph [label="А он к тому же ещё и воду совсем не идеально «вошёл»."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="идеально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вошёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			10 -> 9 [label="огранич"]
+			0 -> 12 [label="соч_союзн"]
+			3 -> 4 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			12 -> 1 [label="предик"]
+			12 -> 2 [label="_1_компл"]
+			12 -> 5 [label="огранич"]
+			12 -> 6 [label="огранич"]
+			12 -> 7 [label="предик"]
+			12 -> 10 [label="обст"]
+}

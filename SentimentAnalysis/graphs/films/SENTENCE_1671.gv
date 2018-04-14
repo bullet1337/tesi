@@ -1,0 +1,47 @@
+digraph SENTENCE_1671 {
+	graph [label="Обычно такие моменты перебивают связь с фильмом, лишают ощущение реалистичности, но не в этом случае."]
+	node [style=filled]
+		0 [label="Обычно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="моменты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="перебивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="связь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лишают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реалистичности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="сочин"]
+			2 -> 1 [label="опред"]
+			5 -> 6 [label="предл"]
+			16 -> 15 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 12 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="предл"]
+}

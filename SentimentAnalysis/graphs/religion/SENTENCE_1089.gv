@@ -1,0 +1,30 @@
+digraph SENTENCE_1089 {
+	graph [label="Конечно, слова могут быть и другими, главное — дух примирения."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дух
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="примирения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сент_соч"]
+			5 -> 10 [label="соч_союзн"]
+			10 -> 8 [label="предик"]
+			10 -> 11 [label="квазиагент"]
+			8 -> 6 [label="опред"]
+}

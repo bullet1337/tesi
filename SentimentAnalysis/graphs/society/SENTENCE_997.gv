@@ -1,0 +1,60 @@
+digraph SENTENCE_997 {
+	graph [label="Мэр Москвы Сергей Собянин в День защитника Отечества возложил венок к Могиле Неизвестного солдата в Александровском саду, передает корреспондент РИА Новости."]
+	node [style=filled]
+		0 [label="Мэр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Сергей Собянин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="возложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="венок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Могиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Неизвестного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="солдата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Александровском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="саду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="предик"]
+			7 -> 9 [label="_2_компл"]
+			7 -> 12 [label="предик"]
+			7 -> 13 [label="обст"]
+			7 -> 17 [label="вводн"]
+			18 -> 19 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+			12 -> 11 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="предл"]
+			3 -> 7 [label="разъяснит"]
+			9 -> 10 [label="предл"]
+}

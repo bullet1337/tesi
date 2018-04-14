@@ -1,0 +1,57 @@
+digraph SENTENCE_228 {
+	graph [label="Жизнь Сельмы, беженки из Чехословакии, похожа на жизнь миллионов таких же простых и несчастных женщин как и она."]
+	node [style=filled]
+		0 [label="Жизнь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="беженки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="похожа
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="простых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="несчастных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 16 [label="квазиагент"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 17 [label="_2_компл"]
+			13 -> 11 [label="опред"]
+			13 -> 14 [label="сочин"]
+			16 -> 13 [label="опред"]
+			14 -> 15 [label="соч_союзн"]
+			9 -> 10 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 4 [label="атриб"]
+			1 -> 3 [label="аппоз"]
+			11 -> 12 [label="огранич"]
+			17 -> 18 [label="сочин"]
+			18 -> 19 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+}

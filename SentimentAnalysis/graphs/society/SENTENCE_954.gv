@@ -1,0 +1,39 @@
+digraph SENTENCE_954 {
+	graph [label="\"Я узнала его (Фалина) именно по работе в Союзе Советских Обществ Дружбы."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="узнала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Фалина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Союзе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Советских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Обществ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Дружбы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			8 -> 10 [label="сочин"]
+			2 -> 1 [label="предик"]
+			2 -> 13 [label="_1_компл"]
+			2 -> 14 [label="разъяснит"]
+			13 -> 3 [label="атриб"]
+			13 -> 5 [label="предик"]
+			13 -> 8 [label="обст"]
+			13 -> 12 [label="опред"]
+			10 -> 11 [label="предл"]
+}

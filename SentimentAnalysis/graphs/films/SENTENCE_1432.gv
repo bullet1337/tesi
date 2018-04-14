@@ -1,0 +1,27 @@
+digraph SENTENCE_1432 {
+	graph [label="Замечательно сделанный, он заставляет и улыбаться и плакать."]
+	node [style=filled]
+		0 [label="Замечательно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сделанный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="улыбаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плакать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сочин"]
+			1 -> 0 [label="обст"]
+			3 -> 1 [label="оп_опред"]
+			6 -> 7 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			7 -> 8 [label="соч_союзн"]
+}

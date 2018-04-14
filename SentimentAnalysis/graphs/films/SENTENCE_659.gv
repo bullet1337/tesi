@@ -1,0 +1,18 @@
+digraph SENTENCE_659 {
+	graph [label="Сельма — слепая, не боялась темноты."]
+	node [style=filled]
+		0 [label="Сельма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="боялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="темноты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+}

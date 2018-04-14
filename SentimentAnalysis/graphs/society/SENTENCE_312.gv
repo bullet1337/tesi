@@ -1,0 +1,24 @@
+digraph SENTENCE_312 {
+	graph [label="Спасибо большое за ваши переживания и поддержку!"]
+	node [style=filled]
+		0 [label="Спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ваши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="переживания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поддержку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			0 -> 1 [label="опред"]
+			0 -> 2 [label="_2_компл"]
+			2 -> 4 [label="предл"]
+}

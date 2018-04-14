@@ -1,0 +1,17 @@
+digraph SENTENCE_595 {
+	graph [label="Фильм невероятно экспрессивный и сильный!"]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="экспрессивный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+}

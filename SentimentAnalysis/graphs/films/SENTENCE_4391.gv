@@ -1,0 +1,36 @@
+digraph SENTENCE_4391 {
+	graph [label="Это тот самый сюжет, по которому Андрей Рублёв написал свою икону «Троица»."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Андрей Рублёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="икону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Троица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 8 [label="релят"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="сочин"]
+			8 -> 5 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			1 -> 2 [label="опред"]
+}

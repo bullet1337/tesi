@@ -1,0 +1,60 @@
+digraph SENTENCE_2918 {
+	graph [label="Приторная манера общения персонажей впечатляет своей неискренностью, и этого не было в предыдущих частях Гадкого Я. Да, великолепная рисовка."]
+	node [style=filled]
+		0 [label="Приторная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="манера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="общения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="впечатляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неискренностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="предыдущих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="частях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Гадкого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Да
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="великолепная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="рисовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			21 -> 16 [label="предик"]
+			21 -> 18 [label="вводн"]
+			21 -> 20 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 11 [label="разъяснит"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="присвяз"]
+			11 -> 21 [label="сент_соч"]
+			2 -> 3 [label="квазиагент"]
+			12 -> 14 [label="предл"]
+			9 -> 8 [label="огранич"]
+}

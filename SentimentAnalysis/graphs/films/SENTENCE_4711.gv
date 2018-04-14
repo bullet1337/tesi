@@ -1,0 +1,39 @@
+digraph SENTENCE_4711 {
+	graph [label="Отличный боевик и экшн, отличная мрачно-дождливая атмосфера, отличный триллер, наконец, отличный Годзилла."]
+	node [style=filled]
+		0 [label="Отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="боевик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экшн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отличная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мрачно-дождливая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="атмосфера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="триллер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="соч_союзн"]
+			15 -> 12 [label="вводн"]
+			15 -> 14 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			10 -> 9 [label="опред"]
+			7 -> 1 [label="предик"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="квазиагент"]
+			7 -> 15 [label="сочин"]
+}

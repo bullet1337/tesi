@@ -1,0 +1,48 @@
+digraph SENTENCE_67 {
+	graph [label="В 1947 году за роль Любы Шевцовой в \"Молодой гвардии\" по роману Александра Фадеева получила Сталинскую премию."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1947
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Любы Шевцовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Молодой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="гвардии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="роману
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Александра Фадеева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="получила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Сталинскую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="премию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="предл"]
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 6 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			3 -> 4 [label="предл"]
+			0 -> 2 [label="предл"]
+			14 -> 0 [label="обст"]
+			14 -> 3 [label="обст"]
+			14 -> 16 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			12 -> 13 [label="аппоз"]
+}

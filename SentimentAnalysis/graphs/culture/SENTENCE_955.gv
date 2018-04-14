@@ -1,0 +1,57 @@
+digraph SENTENCE_955 {
+	graph [label="Абонемент \"Русская фортепианная школа\" познакомит с молодыми, но уже завоевавшими международное признание музыкантами Николаем Токаревым, Николаем Хозяиновым, Павлом Колесниковым и Анной Цыбулевой."]
+	node [style=filled]
+		0 [label="Абонемент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Русская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="фортепианная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="школа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="познакомит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="молодыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="завоевавшими
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="международное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="признание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="музыкантами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Николаем Токаревым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Николаем Хозяиновым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Павлом Колесниковым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Анной Цыбулевой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 18 [label="сочин"]
+			21 -> 22 [label="соч_союзн"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			18 -> 20 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+			20 -> 21 [label="сочин"]
+			15 -> 16 [label="сочин"]
+			7 -> 8 [label="предл"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="сочин"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			10 -> 12 [label="соч_союзн"]
+}

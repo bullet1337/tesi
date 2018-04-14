@@ -1,0 +1,63 @@
+digraph SENTENCE_1408 {
+	graph [label="Члены киноакадемии США во вторник начинают голосование за победителей престижной кинопремии \"Оскар\", церемония вручения награды пройдет в Лос-Анджелесе 4 марта."]
+	node [style=filled]
+		0 [label="Члены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="киноакадемии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вторник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="начинают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="голосование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="победителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="престижной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кинопремии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="церемония
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="награды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Лос-Анджелесе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			10 -> 9 [label="опред"]
+			18 -> 19 [label="обст"]
+			18 -> 21 [label="обст"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 7 [label="атриб"]
+			15 -> 16 [label="_1_компл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="_2_компл"]
+			5 -> 12 [label="_1_компл"]
+			5 -> 15 [label="сент_соч"]
+			5 -> 18 [label="вводн"]
+			19 -> 20 [label="предл"]
+			3 -> 4 [label="предл"]
+			21 -> 22 [label="атриб"]
+			16 -> 17 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+}

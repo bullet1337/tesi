@@ -1,0 +1,41 @@
+digraph SENTENCE_1075 {
+	graph [label="Сам Суворов, комментируя инцидент на свой странице в. , заявил, что его захлестнули эмоции."]
+	node [style=filled]
+		0 [label="Сам
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Суворов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="комментируя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="инцидент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="странице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="захлестнули
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			8 -> 11 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 8 [label="обст"]
+			13 -> 15 [label="подч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="_2_компл"]
+			5 -> 7 [label="предл"]
+}

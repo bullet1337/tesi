@@ -1,0 +1,45 @@
+digraph SENTENCE_2335 {
+	graph [label="Но всё равно, она была безупречна, когда она появлялась в кадре, хоть глаз отдыхал."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="равно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="безупречна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="появлялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="глаз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отдыхал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			6 -> 8 [label="обст"]
+			12 -> 15 [label="квазиагент"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 16 [label="сочин"]
+			15 -> 14 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+			0 -> 2 [label="соч_союзн"]
+			8 -> 10 [label="подч_союзн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="присвяз"]
+}

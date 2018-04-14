@@ -1,0 +1,42 @@
+digraph SENTENCE_279 {
+	graph [label="Сельма с детства имеет плохое зрение, и с каждым днём её зрение ухудшается."]
+	node [style=filled]
+		0 [label="Сельма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="детства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="плохое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каждым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="днём
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ухудшается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			13 -> 8 [label="обст"]
+			13 -> 12 [label="предик"]
+			1 -> 2 [label="предл"]
+			10 -> 9 [label="опред"]
+			12 -> 11 [label="квазиагент"]
+			8 -> 10 [label="предл"]
+			7 -> 13 [label="соч_союзн"]
+}

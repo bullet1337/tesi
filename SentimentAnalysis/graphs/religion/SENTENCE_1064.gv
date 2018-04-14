@@ -1,0 +1,24 @@
+digraph SENTENCE_1064 {
+	graph [label="В Церкви Прощеное воскресенье называют еще \"сыропустным\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Церкви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="называют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сыропустным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 7 [label="_2_компл"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			7 -> 5 [label="огранич"]
+}

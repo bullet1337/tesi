@@ -1,0 +1,66 @@
+digraph SENTENCE_132 {
+	graph [label="А ведь Билли Грэм писал в своих книгах, что советская система является \"системой зла\", именно у него Рейган перенял выражение \"империя зла\"."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Билли Грэм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="писал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="книгах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="советская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="система
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="системой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Рейган
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="перенял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="выражение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="империя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="зла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="_1_компл"]
+			8 -> 11 [label="подч_союзн"]
+			14 -> 21 [label="релят"]
+			10 -> 9 [label="опред"]
+			24 -> 25 [label="квазиагент"]
+			22 -> 24 [label="об_аппоз"]
+			4 -> 6 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			21 -> 18 [label="_1_компл"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="предик"]
+			6 -> 5 [label="опред"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+}

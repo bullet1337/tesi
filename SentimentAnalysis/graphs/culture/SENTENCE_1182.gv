@@ -1,0 +1,39 @@
+digraph SENTENCE_1182 {
+	graph [label="На легендарной \"тридцатьчетверке\" он бросает вызов Ягеру, его \"пантерам\" и своей судьбе."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="легендарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тридцатьчетверке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бросает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вызов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ягеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пантерам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="судьбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предл"]
+			14 -> 16 [label="соч_союзн"]
+			8 -> 12 [label="сочин"]
+			3 -> 1 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 14 [label="сочин"]
+			16 -> 15 [label="опред"]
+}

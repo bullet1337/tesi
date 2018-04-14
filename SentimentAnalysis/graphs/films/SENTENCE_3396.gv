@@ -1,0 +1,33 @@
+digraph SENTENCE_3396 {
+	graph [label="В картину вложили миллионы, но по своей сути она — дешёвка."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вложили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="миллионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дешёвка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+			5 -> 11 [label="соч_союзн"]
+			11 -> 6 [label="обст"]
+			11 -> 9 [label="предик"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+}

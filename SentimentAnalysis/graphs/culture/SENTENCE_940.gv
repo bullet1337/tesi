@@ -1,0 +1,27 @@
+digraph SENTENCE_940 {
+	graph [label="\"Сейчас фильмы занимают совсем другое место в культуре."]
+	node [style=filled]
+		1 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="занимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="другое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="культуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+}

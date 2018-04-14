@@ -1,0 +1,72 @@
+digraph SENTENCE_96 {
+	graph [label="Конфликт возникает, когда мое тело исчезает в этом фоне — отражении общества с моей точки зрения\", — отмечает Лю Болин, слова которого приводятся в сообщении."]
+	node [style=filled]
+		0 [label="Конфликт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="возникает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исчезает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отражении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="точки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Лю
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Болин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="приводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 24 [label="предик"]
+			26 -> 27 [label="обст"]
+			3 -> 6 [label="подч_союзн"]
+			20 -> 22 [label="предик"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			13 -> 15 [label="предл"]
+			22 -> 21 [label="композ"]
+			27 -> 28 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="обст"]
+			1 -> 20 [label="вводн"]
+			1 -> 26 [label="сент_соч"]
+			24 -> 25 [label="квазиагент"]
+			7 -> 9 [label="предл"]
+			15 -> 14 [label="опред"]
+			15 -> 16
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			9 -> 13 [label="атриб"]
+			5 -> 4 [label="опред"]
+}

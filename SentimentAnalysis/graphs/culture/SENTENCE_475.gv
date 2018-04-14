@@ -1,0 +1,51 @@
+digraph SENTENCE_475 {
+	graph [label="Новая работа Бородина представляет собой своеобразный театральный пасьянс, где сходятся реальные и вымышленные герои разных эпох."]
+	node [style=filled]
+		0 [label="Новая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бородина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своеобразный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пасьянс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сходятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="реальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вымышленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="эпох
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="релят"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			12 -> 13 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 4
+			3 -> 7 [label="_1_компл"]
+			10 -> 9 [label="_2_компл"]
+			10 -> 14 [label="предик"]
+			16 -> 15 [label="опред"]
+			14 -> 11 [label="опред"]
+			14 -> 16 [label="атриб"]
+			11 -> 12 [label="сочин"]
+}

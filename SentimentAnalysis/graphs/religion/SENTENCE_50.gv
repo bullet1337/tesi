@@ -1,0 +1,18 @@
+digraph SENTENCE_50 {
+	graph [label="Возможно, даже ретроспективно\", — сказал он."]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ретроспективно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			7 -> 0 [label="вводн"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="предик"]
+}

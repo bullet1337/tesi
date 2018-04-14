@@ -1,0 +1,18 @@
+digraph SENTENCE_4907 {
+	graph [label="И вот ГНУСов теперь два."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ГНУСов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+}

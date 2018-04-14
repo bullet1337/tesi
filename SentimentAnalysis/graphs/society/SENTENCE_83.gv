@@ -1,0 +1,45 @@
+digraph SENTENCE_83 {
+	graph [label="Кроме того, Путин поблагодарил всех, кто участвовал в операции в Сирии и проявил героизм."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="поблагодарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="участвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="операции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="героизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="атриб"]
+			0 -> 1 [label="предл"]
+			14 -> 15 [label="_1_компл"]
+			13 -> 14 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 13 [label="сочин"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 8 [label="релят"]
+			9 -> 10 [label="предл"]
+			11 -> 12 [label="предл"]
+}

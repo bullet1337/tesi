@@ -1,0 +1,18 @@
+digraph SENTENCE_1720 {
+	graph [label="Можно бесконечно перечислять всевозможные «Но»."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бесконечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перечислять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всевозможные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Но
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="обст"]
+			2 -> 5 [label="_1_компл"]
+			0 -> 2 [label="предик"]
+			5 -> 3 [label="опред"]
+}

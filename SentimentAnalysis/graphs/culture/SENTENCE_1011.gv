@@ -1,0 +1,39 @@
+digraph SENTENCE_1011 {
+	graph [label="Церемония вручения — настоящий театральный праздник, долгие годы его создателем был режиссер Константин Богомолов."]
+	node [style=filled]
+		0 [label="Церемония
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="настоящий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="театральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="долгие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="создателем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Константин Богомолов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			10 -> 9 [label="_1_компл"]
+			12 -> 13 [label="аппоз"]
+			11 -> 10 [label="присвяз"]
+			11 -> 12 [label="предик"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="атриб"]
+			5 -> 11 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+}

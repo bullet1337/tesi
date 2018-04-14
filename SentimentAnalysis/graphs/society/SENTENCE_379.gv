@@ -1,0 +1,60 @@
+digraph SENTENCE_379 {
+	graph [label="Глава Чеченской Республики Рамзан Кадыров, вспоминая о сталинских репрессиях, заметил, что в современной России каждому народу гарантированы реальные права и свободы."]
+	node [style=filled]
+		0 [label="Глава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Чеченской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Республики Рамзан Кадыров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вспоминая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сталинских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="репрессиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="каждому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="народу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="гарантированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="реальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="свободы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			11 -> 17 [label="подч_союзн"]
+			9 -> 0 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			16 -> 15 [label="опред"]
+			12 -> 14 [label="предл"]
+			4 -> 5 [label="_2_компл"]
+			17 -> 12 [label="обст"]
+			17 -> 16 [label="_2_компл"]
+			17 -> 19 [label="предик"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="сочин"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 4 [label="сочин"]
+}

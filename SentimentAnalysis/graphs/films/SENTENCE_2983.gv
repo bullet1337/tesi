@@ -1,0 +1,45 @@
+digraph SENTENCE_2983 {
+	graph [label="Нет ничего удивительного, что люди поют осанну «Горбатой горе»: толерантность — это же так модно!"]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="удивительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="осанну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Горбатой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="горе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="толерантность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="модно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="подч_союзн"]
+			4 -> 18 [label="сент_соч"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="_2_компл"]
+			6 -> 13 [label="_1_компл"]
+			18 -> 15 [label="предик"]
+			18 -> 17 [label="огранич"]
+			0 -> 1 [label="предик"]
+			0 -> 4 [label="сент_соч"]
+			15 -> 16 [label="огранич"]
+			10 -> 9 [label="опред"]
+			1 -> 2 [label="опред"]
+}

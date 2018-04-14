@@ -1,0 +1,18 @@
+digraph SENTENCE_1176 {
+	graph [label="Её не понимает даже сын."]
+	node [style=filled]
+		0 [label="Её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+}

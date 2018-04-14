@@ -1,0 +1,18 @@
+digraph SENTENCE_536 {
+	graph [label="Особенно, конечно, меня поразила Сельма."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поразила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="огранич"]
+			5 -> 2 [label="вводн"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+}

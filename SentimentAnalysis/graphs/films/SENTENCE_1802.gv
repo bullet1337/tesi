@@ -1,0 +1,45 @@
+digraph SENTENCE_1802 {
+	graph [label="Как будто вот сейчас все закончится, она прозреет, и все ее проблемы останутся позади."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="закончится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прозреет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="останутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="позади
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2
+			10 -> 14 [label="соч_союзн"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="присвяз"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="огранич"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			5 -> 8 [label="сент_соч"]
+			8 -> 10 [label="сент_соч"]
+}

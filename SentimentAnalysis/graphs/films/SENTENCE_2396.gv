@@ -1,0 +1,57 @@
+digraph SENTENCE_2396 {
+	graph [label="О работе оператора: я его понимаю… Смотреть на игру актеров — и не уйти в запой могли только единицы…."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оператора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Смотреть
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="игру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="уйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="запой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="могли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="единицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 15 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 0 [label="_3_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 18 [label="вводн"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_2_компл"]
+			20 -> 19 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 13 [label="сочин"]
+			18 -> 20 [label="предик"]
+}

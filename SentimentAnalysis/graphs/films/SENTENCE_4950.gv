@@ -1,0 +1,54 @@
+digraph SENTENCE_4950 {
+	graph [label="Если что, «Тихоокеанский рубеж», оба «Хоббита» и «Жизнь Пи», просмотренные в том же самом зале смотрелись роскошно."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тихоокеанский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="рубеж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Хоббита
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Жизнь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Пи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="просмотренные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="смотрелись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="роскошно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="соч_союзн"]
+			1 -> 24 [label="подч_союзн"]
+			19 -> 23 [label="предл"]
+			20 -> 21 [label="огранич"]
+			20 -> 22 [label="опред"]
+			18 -> 19 [label="обст"]
+			10 -> 8 [label="количест"]
+			10 -> 12 [label="сочин"]
+			10 -> 15 [label="сочин"]
+			5 -> 4 [label="опред"]
+			5 -> 10 [label="сочин"]
+			23 -> 20 [label="опред"]
+			0 -> 1 [label="подч_союзн"]
+			24 -> 5 [label="_1_компл"]
+			24 -> 18 [label="предик"]
+			24 -> 25 [label="обст"]
+}

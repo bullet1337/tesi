@@ -1,0 +1,90 @@
+digraph SENTENCE_427 {
+	graph [label="Обладатель \"Золотого медведя\" Берлинского кинофестиваля румынский режиссер Адина Пинтилие считает, что ее картина \"Не трогай меня\" бросает вызов зрителю и заставляет задуматься о том, что для него непривычно и некомфортно."]
+	node [style=filled]
+		0 [label="Обладатель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Золотого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Берлинского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="кинофестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="румынский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Адина Пинтилие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="трогай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="бросает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="вызов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="непривычно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="некомфортно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 17 [label="подч_союзн"]
+			8 -> 7 [label="опред"]
+			10 -> 0 [label="вводн"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 20 [label="_2_компл"]
+			10 -> 24 [label="разъяснит"]
+			3 -> 2 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			26 -> 27 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			29 -> 32 [label="подч_союзн"]
+			17 -> 14 [label="предик"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			33 -> 34 [label="соч_союзн"]
+			0 -> 3 [label="_1_компл"]
+			0 -> 6 [label="сочин"]
+			14 -> 13 [label="квазиагент"]
+			30 -> 31 [label="предл"]
+			25 -> 26 [label="_1_компл"]
+			24 -> 22 [label="_2_компл"]
+			24 -> 23 [label="огранич"]
+			24 -> 25 [label="_2_компл"]
+			32 -> 30 [label="_1_компл"]
+			32 -> 33 [label="сочин"]
+			27 -> 29 [label="эксплет"]
+}

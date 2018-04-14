@@ -1,0 +1,71 @@
+digraph SENTENCE_138 {
+	graph [label="Пастор назвал Грэма человеком \"высочайшего духа, смирения и кротости\", несмотря на то, что он обладал неимоверной популярностью, собирая на своих проповедях целые стадионы."]
+	node [style=filled]
+		0 [label="Пастор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Грэма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="высочайшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="духа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смирения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кротости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="обладал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="неимоверной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="популярностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="собирая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="проповедях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="целые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="стадионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="эксплет"]
+			28 -> 27 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			19 -> 18 [label="предик"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 23 [label="обст"]
+			8 -> 9 [label="сочин"]
+			17 -> 19 [label="подч_союзн"]
+			14 -> 15 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			26 -> 25 [label="опред"]
+			23 -> 24 [label="обст"]
+			23 -> 28 [label="_1_компл"]
+			13 -> 14 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			21 -> 20 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			2 -> 6 [label="сочин"]
+			24 -> 26 [label="предл"]
+}

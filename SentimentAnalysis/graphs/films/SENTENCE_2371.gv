@@ -1,0 +1,54 @@
+digraph SENTENCE_2371 {
+	graph [label="Вот и у Бьорк в этом фильме проявился застой в том, что музыка не соответствовала настроению фильма."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проявился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="застой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="соответствовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="настроению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="атриб"]
+			16 -> 17 [label="квазиагент"]
+			12 -> 15 [label="подч_союзн"]
+			1 -> 0 [label="огранич"]
+			6 -> 5 [label="опред"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+			10 -> 12 [label="эксплет"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			9 -> 10 [label="предл"]
+			7 -> 2 [label="_1_компл"]
+			7 -> 4 [label="обст"]
+			7 -> 8 [label="предик"]
+			4 -> 6 [label="предл"]
+}

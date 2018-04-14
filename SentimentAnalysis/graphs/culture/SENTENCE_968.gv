@@ -1,0 +1,51 @@
+digraph SENTENCE_968 {
+	graph [label="По словам режиссера, пьеса сразу понравилась главной исполнительнице Алферовой, с которой он впервые встречается в работе."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понравилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="исполнительнице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Алферовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="встречается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="предик"]
+			6 -> 15 [label="сент_соч"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			16 -> 17 [label="предл"]
+			15 -> 11 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+}

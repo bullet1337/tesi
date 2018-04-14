@@ -1,0 +1,42 @@
+digraph SENTENCE_146 {
+	graph [label="Московский Художественный театр представляет в марте масштабный спектакль — о жизни и творчестве Максима Горького."]
+	node [style=filled]
+		0 [label="Московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Художественный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="марте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="масштабный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="творчестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Максима Горького
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="предл"]
+			10 -> 11 [label="сочин"]
+			9 -> 10 [label="предл"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 13 [label="аппоз"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+}

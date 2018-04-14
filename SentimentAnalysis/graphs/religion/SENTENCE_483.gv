@@ -1,0 +1,66 @@
+digraph SENTENCE_483 {
+	graph [label="Первую часть каталога христианских святынь, разрушенных в ходе войны в Сирии, представили в понедельник на конференции в Вене, передает корреспондент РИА Новости."]
+	node [style=filled]
+		0 [label="Первую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каталога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="святынь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разрушенных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="представили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Вене
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			22 -> 23 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			13 -> 1 [label="предик"]
+			13 -> 10 [label="обст"]
+			13 -> 14 [label="обст"]
+			13 -> 16 [label="обст"]
+			13 -> 21 [label="вводн"]
+			18 -> 19 [label="предл"]
+			21 -> 22 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="опред"]
+			6 -> 7 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			17 -> 18 [label="атриб"]
+			14 -> 15 [label="предл"]
+			7 -> 8 [label="предл"]
+			16 -> 17 [label="предл"]
+}

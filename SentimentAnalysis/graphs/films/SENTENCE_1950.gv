@@ -1,0 +1,80 @@
+digraph SENTENCE_1950 {
+	graph [label="Тем, кто говорит, что в фильме показано не так уж много, стоит вспомнить, что северокорейская сторона приняла решение прекратить съемки, когда было отснято менее половины материала."]
+	node [style=filled]
+		0 [label="Тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="показано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вспомнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="северокорейская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сторона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="приняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="прекратить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="съемки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="отснято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="менее
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="половины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="материала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="огранич"]
+			23 -> 25 [label="_1_компл"]
+			0 -> 3 [label="релят"]
+			22 -> 23 [label="_1_компл"]
+			14 -> 0 [label="_2_компл"]
+			14 -> 15 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 12 [label="предик"]
+			25 -> 26 [label="подч_союзн"]
+			28 -> 29 [label="сравнит"]
+			26 -> 27
+			17 -> 20 [label="подч_союзн"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			5 -> 8 [label="подч_союзн"]
+			19 -> 18 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			12 -> 10 [label="огранич"]
+			21 -> 22 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			29 -> 30 [label="квазиагент"]
+}

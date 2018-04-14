@@ -1,0 +1,44 @@
+digraph SENTENCE_3609 {
+	graph [label="Это не просто «ни о чём», это «ни о чём» плюс откровенный и агрессивный бред."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="плюс
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="откровенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="агрессивный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="бред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			19 -> 16 [label="опред"]
+			2 -> 1 [label="огранич"]
+			17 -> 18 [label="соч_союзн"]
+			16 -> 17 [label="сочин"]
+			15 -> 19 [label="предл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+}

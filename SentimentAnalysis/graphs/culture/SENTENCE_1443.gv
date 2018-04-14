@@ -1,0 +1,36 @@
+digraph SENTENCE_1443 {
+	graph [label="Менее чем через год сам Довлатов будет вынужден уехать в Таллин."]
+	node [style=filled]
+		0 [label="Менее
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вынужден
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уехать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Таллин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7
+			0 -> 1 [label="сравнит"]
+			7 -> 8 [label="_2_компл"]
+			8 -> 9 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			9 -> 10 [label="предл"]
+			1 -> 2 [label="сравн_союзн"]
+}

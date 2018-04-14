@@ -1,0 +1,45 @@
+digraph SENTENCE_247 {
+	graph [label="Петр Фоменко создал спектакль по этой пьесе в театре \"Сатирикон\" с Константином Райкиным и Натальей Вдовиной (1994)."]
+	node [style=filled]
+		0 [label="Петр Фоменко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="создал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сатирикон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Константином Райкиным
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Натальей Вдовиной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="1994
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="опред"]
+			9 -> 11 [label="атриб"]
+			12 -> 13 [label="сочин"]
+			11 -> 12 [label="предл"]
+			2 -> 3 [label="атриб"]
+			3 -> 5 [label="предл"]
+			13 -> 14 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="обст"]
+			1 -> 9 [label="_1_компл"]
+			14 -> 16
+}

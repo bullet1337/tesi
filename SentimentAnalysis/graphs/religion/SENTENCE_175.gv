@@ -1,0 +1,30 @@
+digraph SENTENCE_175 {
+	graph [label="Кроме того, в Пепельную среду принято соблюдать строгий пост."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Пепельную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="среду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="принято
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="соблюдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="строгий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="предик"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+}

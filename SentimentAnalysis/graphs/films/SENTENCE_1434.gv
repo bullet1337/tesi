@@ -1,0 +1,33 @@
+digraph SENTENCE_1434 {
+	graph [label="Контраст настроения начала фильма и его второй половины просто сильнейший."]
+	node [style=filled]
+		0 [label="Контраст
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="настроения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="половины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сильнейший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			0 -> 4 [label="сочин"]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="квазиагент"]
+			9 -> 8 [label="огранич"]
+			7 -> 5 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="оп_опред"]
+			4 -> 7 [label="соч_союзн"]
+}

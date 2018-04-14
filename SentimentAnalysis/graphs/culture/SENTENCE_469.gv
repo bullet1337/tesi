@@ -1,0 +1,45 @@
+digraph SENTENCE_469 {
+	graph [label="Но этим бойцам не нужны горы мышц, снайперское зрение и умение разбивать кирпичи головой."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бойцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нужны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="горы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мышц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="снайперское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="умение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разбивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кирпичи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="головой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="сочин"]
+			13 -> 14 [label="атриб"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 2 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предик"]
+			0 -> 4 [label="соч_союзн"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

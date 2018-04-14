@@ -1,0 +1,30 @@
+digraph SENTENCE_2636 {
+	graph [label="Уровень успеха и одобрение публики, все это предрешено заранее."]
+	node [style=filled]
+		0 [label="Уровень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="успеха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одобрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="публики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="предрешено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			0 -> 2 [label="сочин"]
+			0 -> 4 [label="квазиагент"]
+			2 -> 3 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			7 -> 0 [label="пролепт"]
+			7 -> 6 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_962 {
+	graph [label="«Танцующая в темноте» потряс меня до глубины души."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потряс
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="глубины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+}

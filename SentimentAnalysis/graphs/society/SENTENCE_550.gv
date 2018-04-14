@@ -1,0 +1,70 @@
+digraph SENTENCE_550 {
+	graph [label="Жириновский в эфире телеканала заявил, что впервые слышит об этом, не считает подобное поведение нормальным и пообещал побеседовать со Слуцким на эту тему."]
+	node [style=filled]
+		0 [label="Жириновский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эфире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="телеканала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слышит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="подобное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нормальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пообещал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="побеседовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Слуцким
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="подч_союзн"]
+			18 -> 19 [label="_1_компл"]
+			20 -> 21 [label="предл"]
+			16 -> 17 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 13 [label="сочин"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_3_компл"]
+			19 -> 20 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			13 -> 12 [label="огранич"]
+			13 -> 15 [label="_1_компл"]
+			17 -> 18 [label="соч_союзн"]
+			22 -> 24 [label="предл"]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="предл"]
+			24 -> 23 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_878 {
+	graph [label="Российский нападающий Никита Гусев стал лучшим бомбардиром Олимпиады и лучшим распасовщиком."]
+	node [style=filled]
+		0 [label="Российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нападающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Никита Гусев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бомбардиром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Олимпиады
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="распасовщиком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="присвяз"]
+			9 -> 8 [label="опред"]
+}

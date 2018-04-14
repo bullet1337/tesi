@@ -1,0 +1,84 @@
+digraph SENTENCE_1302 {
+	graph [label="Вторую строчку занял лидер прошлой недели — Эротическая драма Джеймса Фоули \"Пятьдесят оттенков свободы\", кассовые сборы фильм составили 122,7 миллиона рублей (общие сборы за 2 недели — 670,7 миллиона рублей)."]
+	node [style=filled]
+		0 [label="Вторую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="строчку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="занял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лидер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прошлой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Эротическая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Джеймса Фоули
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Пятьдесят
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оттенков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свободы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кассовые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="составили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="122,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="общие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="670,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 17 [label="сочин"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 25 [label="предик"]
+			28 -> 27 [label="количест"]
+			31 -> 30 [label="количест"]
+			31 -> 32 [label="квазиагент"]
+			9 -> 12 [label="сочин"]
+			25 -> 24 [label="опред"]
+			25 -> 26 [label="атриб"]
+			25 -> 31 [label="сочин"]
+			26 -> 28 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="сочин"]
+			21 -> 20 [label="количест"]
+			21 -> 22 [label="квазиагент"]
+			12 -> 11 [label="количест"]
+			12 -> 13 [label="сочин"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 19 [label="разъяснит"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			3 -> 5 [label="разъяснит"]
+			1 -> 0 [label="опред"]
+}

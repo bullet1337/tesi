@@ -1,0 +1,39 @@
+digraph SENTENCE_368 {
+	graph [label="Пусть постигшая нас общая беда еще теснее сплотит нас\", — заключили духовные лидеры."]
+	node [style=filled]
+		0 [label="Пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="постигшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="беда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="теснее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сплотит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заключили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="духовные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лидеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			4 -> 1 [label="опред"]
+			4 -> 3 [label="опред"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="предик"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="вводн"]
+			6 -> 12 [label="вводн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+}

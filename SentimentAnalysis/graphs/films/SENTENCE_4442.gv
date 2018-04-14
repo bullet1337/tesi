@@ -1,0 +1,33 @@
+digraph SENTENCE_4442 {
+	graph [label="Он сразу стал для меня самым ожидаемым фильмом 2014 года."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ожидаемым
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="обст"]
+			2 -> 7 [label="присвяз"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="атриб"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="опред"]
+}

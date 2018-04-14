@@ -1,0 +1,37 @@
+digraph SENTENCE_3852 {
+	graph [label="1 из 10
+Прочитав произведение Энтони Бёрджесса мне моментально захотелось оценить экранизацию."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Прочитав
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="произведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Энтони Бёрджесса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="моментально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="захотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="экранизацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_2_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="электив"]
+			4 -> 5 [label="квазиагент"]
+}

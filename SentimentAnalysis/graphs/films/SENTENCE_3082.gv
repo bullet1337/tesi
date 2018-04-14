@@ -1,0 +1,39 @@
+digraph SENTENCE_3082 {
+	graph [label="Нет, они ведь явно не про двух неудачников с мерзкими характерами хотели сделать."]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неудачников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мерзкими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="характерами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хотели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="огранич"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="предл"]
+			9 -> 11 [label="предл"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="атриб"]
+			11 -> 10 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1518 {
+	graph [label="Что с ним случилось сейчас, я не знаю."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="разъяснит"]
+}

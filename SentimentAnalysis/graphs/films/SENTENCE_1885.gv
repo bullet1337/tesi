@@ -1,0 +1,18 @@
+digraph SENTENCE_1885 {
+	graph [label="Весь фильм зритель в напряжении."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="напряжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="ном_аппоз"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="предл"]
+}

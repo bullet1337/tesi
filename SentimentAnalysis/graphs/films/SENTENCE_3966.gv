@@ -1,0 +1,57 @@
+digraph SENTENCE_3966 {
+	graph [label="Исключительно за Макдауэлла, которому удалось меня удивить: 1 из 10
+Белые костюмчики, шляпы-цилиндры, накладные ресницы на одном глазу."]
+	node [style=filled]
+		0 [label="Исключительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Макдауэлла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удивить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Белые
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="костюмчики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="шляпы-цилиндры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="накладные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ресницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="одном
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="глазу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="атриб"]
+			1 -> 0 [label="огранич"]
+			19 -> 21 [label="предл"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 9 [label="_2_компл"]
+			13 -> 15 [label="сочин"]
+			15 -> 18 [label="сочин"]
+			21 -> 20 [label="количест"]
+			2 -> 5 [label="примыкат"]
+			2 -> 13 [label="сочин"]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="количест"]
+			9 -> 10 [label="электив"]
+}

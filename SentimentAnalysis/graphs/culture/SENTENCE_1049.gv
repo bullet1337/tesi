@@ -1,0 +1,30 @@
+digraph SENTENCE_1049 {
+	graph [label="В спектакле звучат песни на стихи Фернана Кроммелинка и Юлии Хлыниной."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="звучат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стихи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Фернана Кроммелинка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Юлии Хлыниной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="предл"]
+			6 -> 7 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="аппоз"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			0 -> 1 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+}

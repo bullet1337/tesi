@@ -1,0 +1,27 @@
+digraph SENTENCE_3648 {
+	graph [label="Особо хочется отметить как в фильме показана провинция."]
+	node [style=filled]
+		0 [label="Особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="показана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="провинция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="сравн_союзн"]
+			4 -> 5 [label="предл"]
+			6 -> 3 [label="сравнит"]
+			6 -> 7 [label="предик"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_2_компл"]
+			2 -> 6 [label="_1_компл"]
+}

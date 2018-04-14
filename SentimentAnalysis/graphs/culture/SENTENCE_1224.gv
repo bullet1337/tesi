@@ -1,0 +1,15 @@
+digraph SENTENCE_1224 {
+	graph [label="Вот это, наверно, главное."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наверно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="вводн"]
+			1 -> 0 [label="огранич"]
+}

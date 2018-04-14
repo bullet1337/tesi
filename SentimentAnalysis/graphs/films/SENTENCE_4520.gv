@@ -1,0 +1,48 @@
+digraph SENTENCE_4520 {
+	graph [label="На дворе 2014-й год и возможностей для создания действительно крутого фильма про огромную ящерицу предостаточно."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дворе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2014-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возможностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="создания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="крутого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ящерицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="предостаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+			10 -> 9 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 10 [label="_1_компл"]
+			7 -> 11 [label="атриб"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			3 -> 6 [label="сент_соч"]
+			6 -> 7 [label="предл"]
+			6 -> 14 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

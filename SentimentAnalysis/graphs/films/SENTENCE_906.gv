@@ -1,0 +1,63 @@
+digraph SENTENCE_906 {
+	graph [label="Так же красит впечатления, от происходящего на экране, осознание того факта, что все эти события, вполне вероятно, с кем-то происходили."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="красит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="впечатления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="происходящего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="осознание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="факта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="события
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вполне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кем-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="происходили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 14 [label="предик"]
+			14 -> 24 [label="подч_союзн"]
+			24 -> 17 [label="предик"]
+			24 -> 20 [label="вводн"]
+			24 -> 22 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			12 -> 11 [label="опред"]
+			7 -> 8 [label="предл"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			5 -> 6 [label="предл"]
+			22 -> 23 [label="предл"]
+			10 -> 12 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 10 [label="сочин"]
+}

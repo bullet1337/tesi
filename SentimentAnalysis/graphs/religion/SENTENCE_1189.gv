@@ -1,0 +1,24 @@
+digraph SENTENCE_1189 {
+	graph [label="Информацию о письме подтвердили РИА Новости в министерстве."]
+	node [style=filled]
+		0 [label="Информацию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="письме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подтвердили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="министерстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			1 -> 2 [label="предл"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 5 [label="обст"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_333 {
+	graph [label="В мэрии подсчитали, что общая задолженность церквей перед городским бюджетам превышает 186 миллионов долларов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мэрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подсчитали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="задолженность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церквей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="городским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бюджетам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="превышает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="186
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="долларов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			8 -> 10 [label="предл"]
+			4 -> 11 [label="подч_союзн"]
+			11 -> 6 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="количест"]
+			13 -> 14 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 8 [label="_1_компл"]
+}

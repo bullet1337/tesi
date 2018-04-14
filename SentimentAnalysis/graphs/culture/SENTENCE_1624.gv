@@ -1,0 +1,53 @@
+digraph SENTENCE_1624 {
+	graph [label="Нынешняя номинация для режиссера уже вторая: предыдущий фильм Андрея Звягинцева \"Левиафан\" был номинирован на \"Оскар\" в 2015 году."]
+	node [style=filled]
+		0 [label="Нынешняя
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="номинация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вторая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="предыдущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Андрея Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Левиафан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="номинирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="огранич"]
+			8 -> 1 [label="предик"]
+			8 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			8 -> 13 [label="релят"]
+			13 -> 11 [label="предик"]
+			13 -> 14
+			15 -> 17 [label="предл"]
+			14 -> 15 [label="_2_компл"]
+			19 -> 21 [label="предл"]
+			21 -> 20 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+}

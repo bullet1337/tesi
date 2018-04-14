@@ -1,0 +1,60 @@
+digraph SENTENCE_1081 {
+	graph [label="И здесь, как вы понимаете главной героине тоже придётся пройти огромную кучу всех жизненных трудностей, лишь бы добиться желаемого."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понимаете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="героине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="придётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пройти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кучу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизненных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="трудностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="добиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="желаемого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			9 -> 3 [label="вводн"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="предик"]
+			0 -> 1 [label="соч_союзн"]
+			1 -> 9 [label="сент_соч"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			12 -> 15 [label="квазиагент"]
+			18 -> 17 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 19 [label="сочин"]
+			19 -> 18 [label="аналит"]
+			19 -> 20 [label="_1_компл"]
+			3 -> 5 [label="сравн_союзн"]
+}

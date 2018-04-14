@@ -1,0 +1,54 @@
+digraph SENTENCE_1630 {
+	graph [label="Но в жизни же так не бывает, что вдруг все люди стали абсолютно рандомно петь и танцевать."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вдруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рандомно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="танцевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 12 [label="подч_союзн"]
+			16 -> 17 [label="соч_союзн"]
+			2 -> 3 [label="огранич"]
+			0 -> 6 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="сочин"]
+			6 -> 1 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="предик"]
+			11 -> 10 [label="опред"]
+			1 -> 2 [label="предл"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="присвяз"]
+}

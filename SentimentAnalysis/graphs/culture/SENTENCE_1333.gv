@@ -1,0 +1,30 @@
+digraph SENTENCE_1333 {
+	graph [label="Еще одна постоянная тема в творчестве Шнурова — родной город."]
+	node [style=filled]
+		0 [label="Еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одна
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постоянная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="творчестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Шнурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="родной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="город
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предл"]
+			4 -> 9 [label="вводн"]
+			9 -> 8 [label="опред"]
+			3 -> 1 [label="количест"]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="огранич"]
+}

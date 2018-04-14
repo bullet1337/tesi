@@ -1,0 +1,57 @@
+digraph SENTENCE_1037 {
+	graph [label="\"Надеюсь, что городские и краевые депутаты одобрят эту инициативу, и мы отправим заявку в оргкомитет \"Победа\"\", – добавил Кондратьев."]
+	node [style=filled]
+		1 [label="Надеюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="городские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="краевые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="депутаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одобрят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="инициативу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отправим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заявку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оргкомитет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Победа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Кондратьев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="предл"]
+			3 -> 8 [label="подч_союзн"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			5 -> 6 [label="соч_союзн"]
+			12 -> 14 [label="соч_союзн"]
+			23 -> 24 [label="предик"]
+			4 -> 5 [label="сочин"]
+			10 -> 9 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 23 [label="вводн"]
+			7 -> 4 [label="опред"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 12 [label="сент_соч"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 19 [label="аппоз"]
+}

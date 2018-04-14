@@ -1,0 +1,30 @@
+digraph SENTENCE_98 {
+	graph [label="Зынджирлы-медресе основано в 1500 году ханом Менгли I Герай."]
+	node [style=filled]
+		0 [label="Зынджирлы-медресе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="основано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1500
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ханом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Менгли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="I
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Герай
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="опред"]
+			8 -> 6 [label="предик"]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 8 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			6 -> 7
+}

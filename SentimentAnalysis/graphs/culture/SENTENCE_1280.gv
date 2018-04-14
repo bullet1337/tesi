@@ -1,0 +1,52 @@
+digraph SENTENCE_1280 {
+	graph [label="Через три года его пластинка \"X\" была названа \"Лучшим британским альбомом\" на церемонии вручения музыкальных премий BRIT Awards."]
+	node [style=filled]
+		0 [label="Через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пластинка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="X
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="названа
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Лучшим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="британским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="альбомом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="музыкальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="премий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="BRIT Awards
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="квазиагент"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			9 -> 13 [label="_2_компл"]
+			9 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="аппоз"]
+			2 -> 1 [label="количест"]
+			15 -> 16 [label="предл"]
+			8 -> 6 [label="предик"]
+			8 -> 9
+			0 -> 2 [label="предл"]
+			17 -> 19 [label="_1_компл"]
+}

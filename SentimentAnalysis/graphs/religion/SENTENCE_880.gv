@@ -1,0 +1,51 @@
+digraph SENTENCE_880 {
+	graph [label="Папа Римский Франциск призвал к немедленному прекращению насилия в Сирии, подчеркнув, что \"зло нельзя побороть злом\"."]
+	node [style=filled]
+		0 [label="Папа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Римский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Франциск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="призвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="немедленному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прекращению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="насилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="подчеркнув
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="зло
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="побороть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="злом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			13 -> 16 [label="подч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			17 -> 18 [label="_3_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 11 [label="обст"]
+			4 -> 6 [label="предл"]
+			0 -> 1 [label="опред"]
+			0 -> 2 [label="аппоз"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предик"]
+			7 -> 8 [label="атриб"]
+}

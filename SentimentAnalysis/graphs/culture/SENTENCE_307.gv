@@ -1,0 +1,54 @@
+digraph SENTENCE_307 {
+	graph [label="Фестивалей много, но единого федерального фестиваля телевизионных фильмов не было\", — сказал советник президента РФ по культуре Владимир Толстой."]
+	node [style=filled]
+		0 [label="Фестивалей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="федерального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="телевизионных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="советник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="культуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Владимир Толстой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="_1_компл"]
+			15 -> 18 [label="_2_компл"]
+			15 -> 20 [label="аппоз"]
+			10 -> 6 [label="предик"]
+			10 -> 9 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			14 -> 15 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сент_соч"]
+			1 -> 14 [label="вводн"]
+			3 -> 10 [label="соч_союзн"]
+}

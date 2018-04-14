@@ -1,0 +1,42 @@
+digraph SENTENCE_3101 {
+	graph [label="Есть эгоизм Твиста, который лишь благодаря семье своей супруги смог вырваться из нищеты."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эгоизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Твиста
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="семье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="супруги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вырваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нищеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="_1_компл"]
+			1 -> 2 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			12 -> 13 [label="предл"]
+			10 -> 4 [label="предик"]
+			10 -> 6 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 1 [label="предик"]
+			0 -> 10 [label="сент_соч"]
+			7 -> 9 [label="квазиагент"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

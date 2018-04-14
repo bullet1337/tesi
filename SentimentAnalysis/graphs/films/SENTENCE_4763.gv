@@ -1,0 +1,82 @@
+digraph SENTENCE_4763 {
+	graph [label="Была бы оценка 0, поставил бы, а так 1 из 10
+Признаю честно, я очень ждал выхода «Годзиллы» и пошёл на фильм безусловно с большими надеждами."]
+	node [style=filled]
+		0 [label="Была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оценка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="0
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Признаю
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пошёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="большими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="надеждами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="электив"]
+			0 -> 1 [label="аналит"]
+			0 -> 2 [label="предик"]
+			0 -> 5 [label="разъяснит"]
+			28 -> 27 [label="вводн"]
+			28 -> 30 [label="предл"]
+			2 -> 3 [label="нум_аппоз"]
+			5 -> 6 [label="аналит"]
+			5 -> 8 [label="сент_соч"]
+			13 -> 9 [label="обст"]
+			13 -> 10
+			13 -> 18 [label="сочин"]
+			8 -> 13 [label="соч_союзн"]
+			25 -> 26 [label="предл"]
+			11 -> 12 [label="предл"]
+			24 -> 25 [label="_2_компл"]
+			24 -> 28 [label="обст"]
+			23 -> 24 [label="соч_союзн"]
+			18 -> 14 [label="обст"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 23 [label="сочин"]
+			30 -> 29 [label="опред"]
+			19 -> 21 [label="квазиагент"]
+}

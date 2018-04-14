@@ -1,0 +1,51 @@
+digraph SENTENCE_1201 {
+	graph [label="На сцену она выходила до 2003 года, когда была вынуждена прекратить выступления из-за неудачного перелома ноги."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сцену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выходила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2003
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вынуждена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прекратить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неудачного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="перелома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ноги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="сент_соч"]
+			9 -> 8 [label="обст"]
+			9 -> 10
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			4 -> 6 [label="предл"]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+			13 -> 15 [label="предл"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_55 {
+	graph [label="\"Эта выдающаяся актриса проработала в театре Маяковского более 70 лет, сыграв много ролей в спектаклях по произведениям классиков и современной драматургии\", — сказала пресс-атташе театра."]
+	node [style=filled]
+		1 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выдающаяся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проработала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сыграв
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="спектаклях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="произведениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="классиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="драматургии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пресс-атташе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="сравнит"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 12 [label="обст"]
+			4 -> 20 [label="сент_соч"]
+			22 -> 21 [label="опред"]
+			26 -> 22 [label="_1_компл"]
+			26 -> 27 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			20 -> 26 [label="соч_союзн"]
+			18 -> 19 [label="атриб"]
+			5 -> 6 [label="предл"]
+			17 -> 18 [label="предл"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 17 [label="атриб"]
+			6 -> 7 [label="аппоз"]
+			27 -> 28 [label="атриб"]
+			12 -> 8 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			10 -> 9 [label="количест"]
+			15 -> 16 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+}

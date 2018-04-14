@@ -1,0 +1,54 @@
+digraph SENTENCE_102 {
+	graph [label="На встрече основное внимание было уделено гуманитарным кризисам, вызванным военными действиями, а также поиску путей мирного разрешения конфликтов."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="встрече
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="основное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уделено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гуманитарным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кризисам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вызванным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="военными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="действиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поиску
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="путей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мирного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="разрешения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="конфликтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5
+			4 -> 13 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="агент"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

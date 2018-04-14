@@ -1,0 +1,45 @@
+digraph SENTENCE_867 {
+	graph [label="Александр Овечкин поздравил российскую команду с победой в финале хоккейного турнира Олимпийских игр в Пхенчхане."]
+	node [style=filled]
+		0 [label="Александр Овечкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="российскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="команду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="победой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="финале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хоккейного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="турнира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Олимпийских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="игр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Пхенчхане
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="_2_компл"]
+			1 -> 6 [label="обст"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			3 -> 2 [label="опред"]
+			4 -> 5 [label="предл"]
+			12 -> 13 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1321 {
+	graph [label="При этом лабутены, по мнению Шнурова, — это \"валенки XXI века\"."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лабутены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Шнурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="валенки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="XXI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 2 [label="предик"]
+			11 -> 4 [label="вводн"]
+			11 -> 9 [label="предик"]
+			11 -> 13 [label="атриб"]
+			13 -> 12 [label="опред"]
+			0 -> 1 [label="предл"]
+}

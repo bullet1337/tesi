@@ -1,0 +1,57 @@
+digraph SENTENCE_1146 {
+	graph [label="Звезда сериала \"Доктор Хаус\" американская актриса Шарлин Йи обвинила рок-музыканта Мэрилина Мэнсона в сексуальных домогательствах во время ее работы над шоу."]
+	node [style=filled]
+		0 [label="Звезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сериала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Доктор Хаус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="американская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Шарлин Йи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="обвинила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рок-музыканта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Мэрилина Мэнсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сексуальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="домогательствах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="шоу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="атриб"]
+			17 -> 16 [label="квазиагент"]
+			17 -> 18 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 6 [label="сочин"]
+			3 -> 8 [label="вводн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			18 -> 19 [label="предл"]
+			14 -> 15 [label="предл"]
+			8 -> 9 [label="предик"]
+			8 -> 11 [label="_2_компл"]
+			8 -> 14 [label="обст"]
+			8 -> 17 [label="предик"]
+			9 -> 10 [label="аппоз"]
+			13 -> 12 [label="опред"]
+}

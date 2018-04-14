@@ -1,0 +1,22 @@
+digraph SENTENCE_2182 {
+	graph [label="Это все за 30 лет до «Матрицы»."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Матрицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="предл"]
+			2 -> 4 [label="предл"]
+			2 -> 5 [label="соотнос"]
+			4 -> 3 [label="количест"]
+}

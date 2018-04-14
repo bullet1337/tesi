@@ -1,0 +1,24 @@
+digraph SENTENCE_4116 {
+	graph [label="А это я бы навала «Трамп, получи!»."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="навала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Трамп
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="получи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			8 -> 1 [label="_1_компл"]
+			8 -> 2 [label="предик"]
+			8 -> 3 [label="аналит"]
+			8 -> 6 [label="_1_компл"]
+			0 -> 8 [label="соч_союзн"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1127 {
+	graph [label="Как пишет Gulf News, женщина утонула в ванной в номере отеля, а в ее крови были найдены следы алкоголя."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пишет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Gulf News
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="утонула
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ванной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="номере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отеля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="крови
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="найдены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="следы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="алкоголя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 12 [label="сент_соч"]
+			4 -> 0 [label="сравнит"]
+			12 -> 16 [label="соч_союзн"]
+			13 -> 15 [label="предл"]
+			18 -> 19 [label="квазиагент"]
+			15 -> 14 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			1 -> 2 [label="предик"]
+			16 -> 13 [label="обст"]
+			16 -> 17
+			16 -> 18 [label="предик"]
+			0 -> 1 [label="сравн_союзн"]
+}

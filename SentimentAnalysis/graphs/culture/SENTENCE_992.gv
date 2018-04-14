@@ -1,0 +1,42 @@
+digraph SENTENCE_992 {
+	graph [label="Солисты балета Мариинского театра покажут премьеру сезона 2017/18 \"Петрушка\" в хореографии Владимира Варнавы."]
+	node [style=filled]
+		0 [label="Солисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="балета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мариинского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="покажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="премьеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сезона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Петрушка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хореографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Владимира Варнавы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 3 [label="квазиагент"]
+			11 -> 7 [label="количест"]
+			11 -> 13 [label="атриб"]
+			11 -> 15 [label="аппоз"]
+			5 -> 6 [label="аппоз"]
+			7 -> 9 [label="кратн"]
+			0 -> 1 [label="об_аппоз"]
+			13 -> 14 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="разъяснит"]
+			3 -> 2 [label="опред"]
+}

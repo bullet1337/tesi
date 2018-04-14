@@ -1,0 +1,66 @@
+digraph SENTENCE_222 {
+	graph [label="Специалисты взяли пробы сточных вод из места смыва, а также ниже по течению реки Ардон для дальнейшего использования в надзорной деятельности."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взяли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пробы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сточных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="места
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смыва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ниже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="течению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="реки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Ардон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дальнейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="использования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="надзорной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="деятельности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="обст"]
+			11 -> 16 [label="обст"]
+			19 -> 21 [label="предл"]
+			12 -> 13 [label="предл"]
+			21 -> 20 [label="опред"]
+			5 -> 6 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_2_компл"]
+			2 -> 4 [label="квазиагент"]
+			2 -> 5 [label="атриб"]
+			16 -> 18 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			13 -> 14 [label="квазиагент"]
+			14 -> 15 [label="аппоз"]
+			4 -> 3 [label="опред"]
+}

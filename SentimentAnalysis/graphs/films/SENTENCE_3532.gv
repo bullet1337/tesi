@@ -1,0 +1,28 @@
+digraph SENTENCE_3532 {
+	graph [label="1 из 10
+Обычный комикс на заданную тему."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Обычный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="комикс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заданную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+			1 -> 4 [label="предл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+}

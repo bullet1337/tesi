@@ -1,0 +1,68 @@
+digraph SENTENCE_1564 {
+	graph [label="В 1937 году начал службу в Госсекретариате Ватикана под руководством кардинала Эудженио Пачелли, будущего Папы Пия XII, который в 1954 году назначил его архиепископом Милана."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1937
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="службу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Госсекретариате
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Ватикана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кардинала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Эудженио Пачелли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="будущего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Папы Пия XII
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="1954
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="назначил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="архиепископом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Милана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 19 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 20 [label="релят"]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			3 -> 8 [label="обст"]
+			0 -> 2 [label="предл"]
+			20 -> 16 [label="предик"]
+			20 -> 17 [label="обст"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 22 [label="_2_компл"]
+			22 -> 23 [label="_1_компл"]
+			10 -> 11 [label="аппоз"]
+			9 -> 10 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			19 -> 18 [label="опред"]
+}

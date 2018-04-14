@@ -1,0 +1,36 @@
+digraph SENTENCE_1491 {
+	graph [label="«Танцующая в темноте» это история одной беженки из Чехословакии в США."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="беженки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			11 -> 12 [label="предл"]
+			2 -> 3 [label="предл"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="атриб"]
+			5 -> 1 [label="пролепт"]
+			9 -> 10 [label="предл"]
+}

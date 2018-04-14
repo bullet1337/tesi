@@ -1,0 +1,33 @@
+digraph SENTENCE_1555 {
+	graph [label="Судьба сопротивляется тебе, потому что ты сопротивляешься ей, до последнего."]
+	node [style=filled]
+		0 [label="Судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сопротивляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тебе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сопротивляешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="последнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="эксплет"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			10 -> 11 [label="предл"]
+			5 -> 7 [label="подч_союзн"]
+}

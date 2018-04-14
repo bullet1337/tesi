@@ -1,0 +1,30 @@
+digraph SENTENCE_532 {
+	graph [label="Впервые вручена в 1977 году (ежегодно вручается с 1982)."]
+	node [style=filled]
+		0 [label="Впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вручена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1977
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ежегодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вручается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1982
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="разъяснит"]
+			4 -> 3 [label="опред"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="обст"]
+}

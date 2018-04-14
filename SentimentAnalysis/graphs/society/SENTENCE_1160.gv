@@ -1,0 +1,42 @@
+digraph SENTENCE_1160 {
+	graph [label="Польского журналиста и политолога Томаша Мацейчука задержали в его квартире в подмосковных Мытищах, сообщает."]
+	node [style=filled]
+		0 [label="Польского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="журналиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="политолога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Томаша Мацейчука
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="задержали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="квартире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подмосковных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мытищах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="квазиагент"]
+			9 -> 11 [label="предл"]
+			6 -> 8 [label="предл"]
+			3 -> 4 [label="аппоз"]
+			2 -> 3 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="обст"]
+			5 -> 13 [label="вводн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+}

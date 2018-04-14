@@ -1,0 +1,41 @@
+digraph SENTENCE_3958 {
+	graph [label="Хотя на то он и фрик всея Голливуда, чтобы играть такие вот роли."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фрик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Голливуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="огранич"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="инф_союзн"]
+			10 -> 13 [label="_1_компл"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="атриб"]
+			1 -> 2 [label="предл"]
+			0 -> 5 [label="подч_союзн"]
+			13 -> 11 [label="опред"]
+}

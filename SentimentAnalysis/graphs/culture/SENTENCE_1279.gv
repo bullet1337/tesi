@@ -1,0 +1,39 @@
+digraph SENTENCE_1279 {
+	graph [label="Он получил известность после выхода дебютного альбома под названием \"+\" в 2011 году."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="известность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дебютного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="альбома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="названием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="предл"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 12 [label="обст"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="атриб"]
+			4 -> 6 [label="квазиагент"]
+			4 -> 7 [label="атриб"]
+			14 -> 13 [label="опред"]
+			7 -> 8 [label="предл"]
+}

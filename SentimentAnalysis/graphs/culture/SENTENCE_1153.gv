@@ -1,0 +1,69 @@
+digraph SENTENCE_1153 {
+	graph [label="Прощание с народной артисткой СССР Татьяной Михайловной Карповой состоится в театре имени Маяковского, где она проработала более 70 лет, сообщил РИА Новости директор театра Леонид Ошарин."]
+	node [style=filled]
+		0 [label="Прощание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="народной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="артисткой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Татьяной Михайловной Карповой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проработала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="директор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Леонид Ошарин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 14 [label="сочин"]
+			6 -> 19 [label="вводн"]
+			6 -> 21 [label="разъяснит"]
+			15 -> 17 [label="сравнит"]
+			19 -> 20 [label="предик"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 5 [label="агент"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 23 [label="аппоз"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			1 -> 3 [label="предл"]
+			7 -> 8 [label="предл"]
+			17 -> 16 [label="количест"]
+			8 -> 9 [label="атриб"]
+			9 -> 10 [label="аппоз"]
+}

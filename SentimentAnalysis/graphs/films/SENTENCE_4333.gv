@@ -1,0 +1,24 @@
+digraph SENTENCE_4333 {
+	graph [label="А у «Лунного света» он просто никакой."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Лунного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="опред"]
+			0 -> 8 [label="соч_союзн"]
+}

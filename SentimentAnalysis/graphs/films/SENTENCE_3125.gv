@@ -1,0 +1,84 @@
+digraph SENTENCE_3125 {
+	graph [label="Сложно понять, почему столь пресная экранизация была номинирована на «лучший фильм», скорее всего из-за «скандальной» темы однополой любви, которая, кстати, в этом фильме раскрыта неумело и неуклюже."]
+	node [style=filled]
+		0 [label="Сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пресная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="экранизация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="номинирована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="скандальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="однополой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="раскрыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="неумело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="неуклюже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 7 [label="_1_компл"]
+			34 -> 35 [label="соч_союзн"]
+			31 -> 30 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8
+			7 -> 32
+			5 -> 4 [label="огранич"]
+			15 -> 16 [label="сравнит"]
+			32 -> 15 [label="вводн"]
+			32 -> 17 [label="обст"]
+			32 -> 25 [label="предик"]
+			32 -> 27 [label="вводн"]
+			32 -> 29 [label="обст"]
+			32 -> 33 [label="обст"]
+			21 -> 19 [label="опред"]
+			21 -> 23 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			0 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			29 -> 31 [label="предл"]
+			33 -> 34 [label="сочин"]
+			17 -> 21 [label="предл"]
+			12 -> 11 [label="опред"]
+			9 -> 12 [label="предл"]
+}

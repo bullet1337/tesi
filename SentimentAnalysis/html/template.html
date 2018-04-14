@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results for {{ category }}</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="w3-cell-row stats w3-padding">
+        <div class="w3-cell w3-twothird">
+            <div class="w3-cell">
+                <input id="is_all" class="w3-check" type="checkbox" checked="checked">
+                <label>все</label>
+                <div id="interval" class="w3-cell-row">
+                    <div class="w3-cell">
+                        <input id="from" class="w3-input w3-border" type="number" placeholder="от">
+                    </div>
+                    <div class="w3-cell">
+                        <input id="to" class="w3-input w3-border" type="number" placeholder="до">
+                    </div>
+                </div>
+            </div>
+            <table class="w3-table-all w3-centered">
+                <tr>
+                    <td rowspan="2"></td>
+                    <th colspan="2">PR</th>
+                </tr>
+                <tr>
+                    <th>E</th>
+                    <th>P</th>
+                </tr>
+                <tr id="pos">
+                    <td>POS</td>
+                    <td id="e_pr" style="visibility:hidden;"></td>
+                    <td id="p_pr"></td>
+                </tr>
+                <tr id="neg">
+                    <td>NEG</td>
+                    <td id="e_pr" style="visibility:hidden;"></td>
+                    <td id="p_pr"></td>
+                </tr>
+                <tr id="neu">
+                    <td>NEU</td>
+                    <td id="e_pr" style="visibility:hidden;"></td>
+                    <td id="p_pr"></td>
+                </tr>
+                <tr id="all">
+                    <td>ALL</td>
+                    <td id="e_pr"></td>
+                    <td id="p_pr"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="w3-cell w3-third">
+            <input id="to_sentence" class="w3-input w3-border" type="number" placeholder="к предложению">
+        </div>
+    </div>
+    <a href="#" class="scrollToTop"></a>
+    <div class="w3-container w3-padding-16">
+    {% for sentence in sentences %}
+        <div class="w3-container w3-round-small w3-border w3-margin-bottom sentence
+            {% if sentence.interesting -%}
+                w3-topbar w3-bottombar w3-leftbar and w3-rightbar w3-border-green
+            {%- endif %}">
+            <div class="w3-left-align w3-panel w3-border-bottom w3-text-teal header">
+                <p><a {% if sentence.pdf_path %} href="{{ sentence.pdf_path }}" {% endif %}>Sentence № {{ sentence.id }}</a></p>
+            </div>
+            <div class="w3-cell-row sentence-row">
+                <div class="w3-cell w3-left-align {% if sentence.facts %} w3-twothird {% endif %}">
+                    <div class="w3-panel sentence-text">
+                    {% for token in sentence.tokens %}
+                        <span id="{{ sentence.id }}_{{ token.id }}">{{ token.text }}</span>
+                    {% endfor %}
+                    </div>
+                </div>
+
+            {% if sentence.facts %}
+                <div class="w3-cell w3-container w3-left-align w3-third">
+                    <ul class="w3-ul w3-border-left">
+                    {% for fact in sentence.facts %}
+                        <li class="{{ fact.meta['t'].name }} w3-cell-row">
+                            <div class="w3-cell w3-quarter">
+                                <div class="w3-cell-row results">
+                                    <input class="w3-check e_check" type="checkbox">
+                                    <label>E </label>
+                                    <input class="w3-check p_check" type="checkbox">
+                                    <label>P </label>
+                                </div>
+                            </div>
+                            <div class="w3-cell w3-threequarter fact">
+                            {% for token in fact.path %}
+                                <span id="{{ sentence.id }}_{{ token.id }}">
+                                {% if token == fact.meta['e'] or token == fact.meta['ce'] or token in fact.meta['ec'] %}
+                                    <b>{{ token.text }}</b>
+                                {% else %}
+                                    {{ token.text }}
+                                {% endif %}
+                                </span>
+                            {% endfor %}
+                            </div>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</body>
+</html>

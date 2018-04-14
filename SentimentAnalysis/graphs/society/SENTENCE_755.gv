@@ -1,0 +1,35 @@
+digraph SENTENCE_755 {
+	graph [label="\"Гришины — это первая тройня, которая родилась у нас в этом году."]
+	node [style=filled]
+		1 [label="Гришины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тройня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="родилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="релят"]
+			13 -> 12 [label="опред"]
+			3 -> 1 [label="пролепт"]
+			9 -> 10 [label="предл"]
+			11 -> 13 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+}

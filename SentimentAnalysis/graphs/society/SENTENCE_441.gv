@@ -1,0 +1,54 @@
+digraph SENTENCE_441 {
+	graph [label="Ограничения будут введены 25 февраля с 10.00 мск, движение по улицам начнут открывать по мере продвижения колонны."]
+	node [style=filled]
+		0 [label="Ограничения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="введены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10.00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мск
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="движение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="улицам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="начнут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="открывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="продвижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="колонны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="атриб"]
+			13 -> 14 [label="обст"]
+			13 -> 17 [label="_1_компл"]
+			6 -> 7 [label="атриб"]
+			14 -> 15 [label="предл"]
+			10 -> 11 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			3 -> 4 [label="атриб"]
+			15 -> 16 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			1 -> 5 [label="обст"]
+			1 -> 9 [label="разъяснит"]
+			1 -> 12 [label="вводн"]
+			2 -> 3 [label="обст"]
+}

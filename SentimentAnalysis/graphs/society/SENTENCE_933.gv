@@ -1,0 +1,24 @@
+digraph SENTENCE_933 {
+	graph [label="\" — сказал Пучков, приехав к ветерану в гости."]
+	node [style=filled]
+		2 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Пучков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="приехав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ветерану
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="предл"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="обст"]
+}

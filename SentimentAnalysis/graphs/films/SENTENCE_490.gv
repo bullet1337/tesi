@@ -1,0 +1,18 @@
+digraph SENTENCE_490 {
+	graph [label="В стремлении спасти любой ценой."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стремлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спасти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			4 -> 3 [label="опред"]
+}

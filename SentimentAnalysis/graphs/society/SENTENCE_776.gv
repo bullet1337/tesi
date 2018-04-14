@@ -1,0 +1,42 @@
+digraph SENTENCE_776 {
+	graph [label="Посольство США целый день вело практически пошаговую трансляцию визита Хантсмана в столицу Татарстана."]
+	node [style=filled]
+		0 [label="Посольство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="целый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вело
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пошаговую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трансляцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Хантсмана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="столицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Татарстана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="огранич"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="_2_компл"]
+			10 -> 11 [label="предл"]
+			11 -> 12 [label="квазиагент"]
+			8 -> 9 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 7 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 3 [label="примыкат"]
+}

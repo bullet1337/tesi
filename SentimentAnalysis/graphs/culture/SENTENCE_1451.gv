@@ -1,0 +1,51 @@
+digraph SENTENCE_1451 {
+	graph [label="Картина рассказывает об английской журналистке, которая расследует схемы вербовки и психологические приемы, используемые экстремистами в Сети."]
+	node [style=filled]
+		0 [label="Картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="английской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="журналистке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расследует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="схемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вербовки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="психологические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="приемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="используемые
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экстремистами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Сети
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="сочин"]
+			14 -> 15 [label="агент"]
+			14 -> 16 [label="_2_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			10 -> 12 [label="соч_союзн"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			1 -> 7 [label="разъяснит"]
+			16 -> 17 [label="предл"]
+			2 -> 4 [label="предл"]
+}

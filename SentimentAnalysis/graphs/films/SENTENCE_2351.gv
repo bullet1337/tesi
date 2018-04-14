@@ -1,0 +1,33 @@
+digraph SENTENCE_2351 {
+	graph [label="Она не смогла бы убить человека, просто не смогла бы!"]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="убить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="аналит"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="аналит"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 9 [label="сент_соч"]
+}

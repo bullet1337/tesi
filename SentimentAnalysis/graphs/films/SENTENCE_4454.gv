@@ -1,0 +1,60 @@
+digraph SENTENCE_4454 {
+	graph [label="Фильм невероятно растянутый благодаря всякой псевдонаучной болтовне (привет SyFy) и квасному пафосу американских вояк, которые бегают-стреляют-прыгают с парашютом."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="растянутый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всякой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="псевдонаучной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="болтовне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="привет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="SyFy
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="квасному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пафосу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="американских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вояк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бегают-стреляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прыгают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="парашютом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="предл"]
+			8 -> 9 [label="сочин"]
+			18 -> 0 [label="_1_компл"]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="сочин"]
+			15 -> 14 [label="опред"]
+			13 -> 12 [label="опред"]
+			0 -> 2 [label="опред"]
+			0 -> 15 [label="об_аппоз"]
+			9 -> 11 [label="сочин"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			11 -> 13 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			21 -> 22 [label="предл"]
+			20 -> 21 [label="обст"]
+}

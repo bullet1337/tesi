@@ -1,0 +1,59 @@
+digraph SENTENCE_976 {
+	graph [label="В этом году в программе примут участие 1700 зарубежных и китайских артистов, занятых в более 130 спектаклях и концертах."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1700
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зарубежных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="китайских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="артистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="занятых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="130
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="спектаклях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="концертах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="_1_несобст_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="предик"]
+			18 -> 19 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			11 -> 7 [label="количест"]
+			11 -> 8 [label="опред"]
+			11 -> 13 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			13 -> 14 [label="обст"]
+			8 -> 9 [label="сочин"]
+			15 -> 17 [label="сравнит"]
+			15 -> 18 [label="сочин"]
+			0 -> 2 [label="предл"]
+			17 -> 16 [label="количест"]
+}

@@ -1,0 +1,25 @@
+digraph SENTENCE_1330 {
+	graph [label="Не было ни дешевой хореографии, ни простой музыки."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дешевой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хореографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="простой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_2904 {
+	graph [label="Увы, большинство продолжений теперь грешат встречами с отцами, матерями, сестрами и другими единокровными родственниками."]
+	node [style=filled]
+		0 [label="Увы
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="продолжений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="грешат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="встречами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отцами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="матерями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сестрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="единокровными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="родственниками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			13 -> 16 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			8 -> 10 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			10 -> 12 [label="сочин"]
+			7 -> 8 [label="предл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+}

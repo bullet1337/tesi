@@ -1,0 +1,30 @@
+digraph SENTENCE_625 {
+	graph [label="Пока пострадавшие женщины не определились с размерами исковых требований."]
+	node [style=filled]
+		0 [label="Пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пострадавшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="женщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="определились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="размерами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исковых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="требований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="квазиагент"]
+			0 -> 4 [label="подч_союзн"]
+			5 -> 6 [label="предл"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+}

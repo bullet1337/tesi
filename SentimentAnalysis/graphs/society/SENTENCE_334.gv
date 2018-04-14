@@ -1,0 +1,42 @@
+digraph SENTENCE_334 {
+	graph [label="Специалисты ответят на вопросы беременных женщин, молодых мам и пар, планирующих рождение ребенка."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ответят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="беременных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="планирующих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			10 -> 12 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+}

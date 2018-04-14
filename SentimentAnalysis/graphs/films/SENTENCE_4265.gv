@@ -1,0 +1,54 @@
+digraph SENTENCE_4265 {
+	graph [label="Получил фильм награду как «Лучший фильм года» и все наперебой восхваляют оператора, его «нереальные» планы в волнах."]
+	node [style=filled]
+		0 [label="Получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="награду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наперебой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="восхваляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оператора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нереальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="планы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="волнах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			20 -> 21 [label="предл"]
+			2 -> 3 [label="сравнит"]
+			19 -> 15 [label="квазиагент"]
+			19 -> 17 [label="опред"]
+			3 -> 6 [label="сравн_союзн"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			1 -> 2 [label="ном_аппоз"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 9 [label="сент_соч"]
+			0 -> 19 [label="_1_компл"]
+			0 -> 20 [label="обст"]
+			9 -> 12 [label="соч_союзн"]
+}

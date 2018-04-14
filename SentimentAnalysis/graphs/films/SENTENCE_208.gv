@@ -1,0 +1,39 @@
+digraph SENTENCE_208 {
+	graph [label="Не раз хотела посмотреть этот фильм, а попала на него совершенно случайно."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="случайно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 12 [label="обст"]
+			12 -> 11 [label="огранич"]
+			9 -> 10 [label="предл"]
+}

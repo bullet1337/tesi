@@ -1,0 +1,33 @@
+digraph SENTENCE_944 {
+	graph [label="В 1974 году в звании майора ушел на заслуженный отдых."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1974
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="звании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="майора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ушел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заслуженный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отдых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="_2_компл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_141 {
+	graph [label="Тронул ли меня этот фильм?Безоговорочное да."]
+	node [style=filled]
+		0 [label="Тронул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Безоговорочное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 4 [label="предик"]
+			0 -> 7 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+}

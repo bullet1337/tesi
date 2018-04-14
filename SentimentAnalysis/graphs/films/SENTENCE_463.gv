@@ -1,0 +1,33 @@
+digraph SENTENCE_463 {
+	graph [label="Более того, она единственная, танцующая с ней в «реальном» мире."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единственная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="реальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			13 -> 11 [label="опред"]
+			9 -> 13 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="атриб"]
+			0 -> 1 [label="сравнит"]
+}

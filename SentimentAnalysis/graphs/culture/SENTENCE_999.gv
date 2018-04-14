@@ -1,0 +1,63 @@
+digraph SENTENCE_999 {
+	graph [label="Российские артисты Александр Буйнов и Денис Майданов выступили в Луганске на концерте, посвященном Дню защитника Отечества, сообщил в воскресенье журналистам и.о."]
+	node [style=filled]
+		0 [label="Российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Александр Буйнов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Денис Майданов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="выступили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Луганске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="концерте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="посвященном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Дню
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			12 -> 14 [label="квазиагент"]
+			20 -> 22 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			11 -> 12 [label="_2_компл"]
+			16 -> 17 [label="обст"]
+			16 -> 19 [label="_2_компл"]
+			16 -> 20 [label="сочин"]
+			2 -> 3 [label="сочин"]
+			9 -> 11 [label="опред"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="обст"]
+			5 -> 16 [label="вводн"]
+			17 -> 18 [label="предл"]
+			3 -> 4 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			8 -> 9 [label="предл"]
+}

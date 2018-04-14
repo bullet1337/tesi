@@ -1,0 +1,36 @@
+digraph SENTENCE_264 {
+	graph [label="Планируется, что медпункты будут созданы в 2018 году\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="Планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="медпункты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="созданы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			2 -> 4 [label="подч_союзн"]
+			5 -> 6 [label="обст"]
+			12 -> 13 [label="обст"]
+			0 -> 2 [label="предик"]
+			0 -> 12 [label="вводн"]
+			13 -> 14 [label="предл"]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 5
+}

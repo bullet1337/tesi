@@ -1,0 +1,42 @@
+digraph SENTENCE_1303 {
+	graph [label="Фильм Антона Мегердичева \"Движение вверх\" занял третье место, картина собрала за уикенд 25,8 миллиона рублей."]
+	node [style=filled]
+		0 [label="Фильм Антона Мегердичева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Движение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="вверх
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="занял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="третье
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собрала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уикенд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="25,8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			0 -> 5 [label="релят"]
+			14 -> 13 [label="количест"]
+			14 -> 15 [label="квазиагент"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_2_компл"]
+			5 -> 7 [label="_1_компл"]
+			10 -> 0 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 14 [label="_1_компл"]
+}

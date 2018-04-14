@@ -1,0 +1,39 @@
+digraph SENTENCE_1007 {
+	graph [label="\"У нас рука не поднимается убрать со скамьи пакеты погибшей прихожанки Ирины Мелькомовой."]
+	node [style=filled]
+		1 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поднимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="убрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скамьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пакеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="погибшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прихожанки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Ирины Мелькомовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			6 -> 7 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="сочин"]
+			7 -> 8 [label="предл"]
+}

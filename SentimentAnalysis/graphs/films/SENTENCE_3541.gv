@@ -1,0 +1,30 @@
+digraph SENTENCE_3541 {
+	graph [label="Весь хоккейный мир показан однобоко, примитивно в корректурной форме."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хоккейный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="однобоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="примитивно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="корректурной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			6 -> 4 [label="огранич"]
+			6 -> 7 [label="атриб"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="обст"]
+}

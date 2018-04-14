@@ -1,0 +1,75 @@
+digraph SENTENCE_1800 {
+	graph [label="Как будто ты всегда рядом со слепой Сельмой, она тебя не видит, а ты мучаешься от собственной беспомощности, мучаешься от невозможности обнять, пожалеть, обнадежить."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слепой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сельмой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мучаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="беспомощности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="мучаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="невозможности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="обнять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="пожалеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="обнадежить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 6 [label="_1_компл"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 21 [label="сочин"]
+			2 -> 1 [label="огранич"]
+			26 -> 28 [label="сочин"]
+			22 -> 23 [label="предл"]
+			14 -> 16 [label="соч_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 14 [label="сент_соч"]
+			6 -> 7 [label="агент"]
+			19 -> 18 [label="опред"]
+			0 -> 2 [label="сравн_союзн"]
+			21 -> 22 [label="_1_компл"]
+			24 -> 26 [label="сочин"]
+			23 -> 24 [label="_1_компл"]
+			5 -> 12 [label="предл"]
+			17 -> 19 [label="предл"]
+}

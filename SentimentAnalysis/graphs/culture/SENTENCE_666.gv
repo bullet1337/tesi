@@ -1,0 +1,63 @@
+digraph SENTENCE_666 {
+	graph [label="\" Этот спектакль — наш субъективный взгляд, наши фантазии на тему \"Тургенев и его творчество\", взгляд из сегодняшнего дня, — сказал РИА Новости Черепанов."]
+	node [style=filled]
+		1 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="субъективный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фантазии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Тургенев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="творчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сегодняшнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="Черепанов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 2 [label="предик"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			9 -> 14 [label="сочин"]
+			9 -> 19 [label="атриб"]
+			9 -> 25 [label="вводн"]
+			9 -> 27 [label="сочин"]
+			11 -> 13 [label="аппоз"]
+			14 -> 16 [label="соч_союзн"]
+			19 -> 20 [label="_1_компл"]
+			16 -> 15 [label="квазиагент"]
+			20 -> 22 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 6 [label="аппоз"]
+			22 -> 21 [label="опред"]
+			25 -> 26 [label="предик"]
+			10 -> 11 [label="предл"]
+}

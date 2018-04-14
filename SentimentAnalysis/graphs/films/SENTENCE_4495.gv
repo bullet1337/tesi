@@ -1,0 +1,66 @@
+digraph SENTENCE_4495 {
+	graph [label="Финальные сцены блокбастера и мультфильма весьма похожи, с той лишь разницей, что Годзилла не произносит коронную фразу: «Ты заходи, если что»."]
+	node [style=filled]
+		0 [label="Финальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="блокбастера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мультфильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="произносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="коронную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фразу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Ты
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="заходи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			13 -> 16 [label="подч_союзн"]
+			24 -> 25 [label="подч_союзн"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="огранич"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 13 [label="_2_компл"]
+			2 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+			22 -> 21 [label="предик"]
+			22 -> 24 [label="обст"]
+			8 -> 11 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 22 [label="_1_компл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="_1_компл"]
+}

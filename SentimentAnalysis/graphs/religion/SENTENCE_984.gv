@@ -1,0 +1,66 @@
+digraph SENTENCE_984 {
+	graph [label="А то, что она находилась в стане Дмитрия Донского на Куликовом поле, — это церковное предание, которое передается через столетия\", — сказал игумен Парамон."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="находилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Дмитрия Донского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Куликовом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="поле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="церковное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="предание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="передается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="игумен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Парамон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			3 -> 5 [label="подч_союзн"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			19 -> 18 [label="предик"]
+			19 -> 20 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 3 [label="эксплет"]
+			20 -> 21 [label="предл"]
+			6 -> 7 [label="предл"]
+			8 -> 1 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 16 [label="аппоз"]
+			8 -> 19 [label="релят"]
+			0 -> 25 [label="соч_союзн"]
+			25 -> 8 [label="_1_компл"]
+			25 -> 26 [label="предик"]
+			9 -> 11 [label="предл"]
+			26 -> 27 [label="аппоз"]
+}

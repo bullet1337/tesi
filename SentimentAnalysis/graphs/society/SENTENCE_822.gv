@@ -1,0 +1,62 @@
+digraph SENTENCE_822 {
+	graph [label="Позднее Суворов заявил, что его \"взорвали эмоции\" из-за \"лжи\" немецкого депутата, и он был вынужден \"защищать свою страну\" от наговора."]
+	node [style=filled]
+		0 [label="Позднее
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Суворов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="взорвали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лжи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="немецкого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="депутата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вынужден
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="защищать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="страну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="наговора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="подч_союзн"]
+			19 -> 18 [label="предик"]
+			19 -> 20
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 5 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			8 -> 10 [label="атриб"]
+			8 -> 17 [label="сент_соч"]
+			17 -> 19 [label="соч_союзн"]
+			20 -> 22 [label="_2_компл"]
+			24 -> 23 [label="опред"]
+			26 -> 27 [label="предл"]
+			10 -> 12 [label="предл"]
+			12 -> 15 [label="квазиагент"]
+			22 -> 24 [label="_1_компл"]
+			22 -> 26 [label="_2_компл"]
+}

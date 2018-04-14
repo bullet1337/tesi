@@ -1,0 +1,36 @@
+digraph SENTENCE_128 {
+	graph [label="За десятилетия проповедей его общая аудитория составила более двух миллиардов человек."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="десятилетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проповедей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аудитория
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="составила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="миллиардов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="квазиагент"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 9 [label="сравнит"]
+}

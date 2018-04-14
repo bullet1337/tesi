@@ -1,0 +1,29 @@
+digraph SENTENCE_727 {
+	graph [label="Так, режиссер Владимир Бортко назвал поведение актера \"нелогичным и подловатым\"."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Владимир Бортко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нелогичным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подловатым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="аппоз"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			8 -> 9 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			9 -> 10 [label="соч_союзн"]
+}

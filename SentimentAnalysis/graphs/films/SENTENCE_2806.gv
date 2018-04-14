@@ -1,0 +1,24 @@
+digraph SENTENCE_2806 {
+	graph [label="А анонс к нему лишь подогревал аппетит."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="анонс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подогревал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аппетит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+}

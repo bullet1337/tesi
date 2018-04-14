@@ -1,0 +1,36 @@
+digraph SENTENCE_4390 {
+	graph [label="Три Ангела Господня, которые явились Аврааму, шли разрушить Содом и Гоморру."]
+	node [style=filled]
+		0 [label="Три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Ангела
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="явились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Аврааму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="шли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разрушить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Содом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Гоморру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="сочин"]
+			1 -> 0 [label="количест"]
+			11 -> 12 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="разъяснит"]
+			8 -> 9 [label="сочин"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+}

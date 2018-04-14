@@ -1,0 +1,54 @@
+digraph SENTENCE_4599 {
+	graph [label="4 из 10
+После Годзиллы 1998 годы ожидал чего то получше, ну или хотя бы не хуже."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="После
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="1998
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ожидал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="получше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="огранич"]
+			8 -> 10 [label="атриб"]
+			8 -> 13 [label="сочин"]
+			1 -> 2 [label="предл"]
+			13 -> 12 [label="вводн"]
+			13 -> 17 [label="соч_союзн"]
+			0 -> 1 [label="электив"]
+			17 -> 14 [label="огранич"]
+			17 -> 15 [label="аналит"]
+			17 -> 16 [label="огранич"]
+			7 -> 0 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="длительн"]
+}

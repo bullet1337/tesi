@@ -1,0 +1,57 @@
+digraph SENTENCE_1151 {
+	graph [label="Подготовка новых \"майских указов\" обсуждается, но окончательное решение на этот счет примет президент, заявил пресс-секретарь главы государства Дмитрий Песков."]
+	node [style=filled]
+		0 [label="Подготовка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="новых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="майских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="указов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обсуждается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="окончательное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="счет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="примет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пресс-секретарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="главы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="государства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Дмитрий Песков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 1 [label="опред"]
+			4 -> 3 [label="опред"]
+			17 -> 18 [label="предик"]
+			8 -> 14 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="предл"]
+			10 -> 9 [label="опред"]
+			0 -> 4 [label="_1_компл"]
+			14 -> 10 [label="_1_компл"]
+			14 -> 11 [label="обст"]
+			14 -> 15 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="аппоз"]
+			19 -> 20 [label="_1_компл"]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="сент_соч"]
+			6 -> 17 [label="вводн"]
+}

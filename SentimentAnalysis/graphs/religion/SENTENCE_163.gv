@@ -1,0 +1,30 @@
+digraph SENTENCE_163 {
+	graph [label="Кто эти 60-70% людей, идентифицирующих себя с православием?"]
+	node [style=filled]
+		0 [label="Кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="60
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="идентифицирующих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="православием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="кратн"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="количест"]
+			6 -> 8 [label="опред"]
+			10 -> 11 [label="предл"]
+}

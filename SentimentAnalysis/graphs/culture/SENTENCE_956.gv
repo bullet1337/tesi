@@ -1,0 +1,51 @@
+digraph SENTENCE_956 {
+	graph [label="В рамках полюбившегося слушателям абонемента \" Многоликая гитара\" свое мастерство продемонстрируют Давид Джованни Томази (Италия), Серджан Булат (Хорватия), Сергей Руднев."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="полюбившегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слушателям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="абонемента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Многоликая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="гитара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мастерство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="продемонстрируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Давид Джованни
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Томази
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Италия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Серджан Булат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Хорватия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Сергей Руднев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			18 -> 20 [label="аппоз"]
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 3 [label="_2_компл"]
+			11 -> 12 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 15 [label="предик"]
+			11 -> 18 [label="вводн"]
+			11 -> 23 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="сочин"]
+}

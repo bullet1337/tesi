@@ -1,0 +1,18 @@
+digraph SENTENCE_4981 {
+	graph [label="Только драки редко показывают(экономия?)."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="драки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="редко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="экономия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+}

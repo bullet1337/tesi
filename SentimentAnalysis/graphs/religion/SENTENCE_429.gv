@@ -1,0 +1,29 @@
+digraph SENTENCE_429 {
+	graph [label="\"Конечно, должен быть сохранен музей (в Исаакиевском соборе — ред.)."]
+	node [style=filled]
+		1 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сохранен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="музей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Исаакиевском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="соборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			10 -> 9 [label="опред"]
+			4 -> 5
+			6 -> 8 [label="атриб"]
+			6 -> 12 [label="аппоз"]
+}

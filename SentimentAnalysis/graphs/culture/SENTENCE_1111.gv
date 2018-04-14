@@ -1,0 +1,45 @@
+digraph SENTENCE_1111 {
+	graph [label="По его словам, он пытался сплести сюжет из того, что он видел и знает."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сплести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="подч_союзн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			14 -> 15 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			9 -> 11 [label="эксплет"]
+			2 -> 1 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+}

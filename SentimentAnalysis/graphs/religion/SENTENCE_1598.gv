@@ -1,0 +1,38 @@
+digraph SENTENCE_1598 {
+	graph [label="Русская православная церковь отмечает в четверг Сретение, а также день православной молодежи."]
+	node [style=filled]
+		0 [label="Русская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сретение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="молодежи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 8 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+}

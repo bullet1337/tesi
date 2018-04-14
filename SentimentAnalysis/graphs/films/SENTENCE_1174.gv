@@ -1,0 +1,39 @@
+digraph SENTENCE_1174 {
+	graph [label="Слепнущая мать самоотречённо работает, откладывает деньги на спасительную операцию, экономя на всём."]
+	node [style=filled]
+		0 [label="Слепнущая
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самоотречённо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="откладывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спасительную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="экономя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			12 -> 13 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 11 [label="обст"]
+			9 -> 8 [label="опред"]
+			11 -> 12 [label="_2_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="сочин"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1859 {
+	graph [label="Не буду оригинальна, если скажу, что мне показалось, что у Ларса фон Триера не бывает `совсем нормальных` женщин."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оригинальна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Ларса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нормальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 17 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+			15 -> 14
+			13 -> 15 [label="аппоз"]
+			7 -> 9 [label="подч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="присвяз"]
+			1 -> 4 [label="обст"]
+			4 -> 5 [label="подч_союзн"]
+			17 -> 12 [label="обст"]
+			17 -> 16 [label="огранич"]
+			17 -> 22 [label="предик"]
+			20 -> 19 [label="огранич"]
+			9 -> 8 [label="_2_компл"]
+			9 -> 11 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			22 -> 20 [label="опред"]
+}

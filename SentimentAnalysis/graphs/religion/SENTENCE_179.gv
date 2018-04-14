@@ -1,0 +1,39 @@
+digraph SENTENCE_179 {
+	graph [label="Особенно широко День всех влюбленных отмечается в западном мире католиками и протестантами."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="широко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="влюбленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="западном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="католиками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="протестантами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			10 -> 11 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			5 -> 1 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="агент"]
+			6 -> 8 [label="предл"]
+			9 -> 10 [label="сочин"]
+			1 -> 0 [label="огранич"]
+}

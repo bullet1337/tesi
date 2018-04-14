@@ -1,0 +1,90 @@
+digraph SENTENCE_803 {
+	graph [label="Во дворе Государственного Эрмитажа не будут устанавливать резиновую скульптуру Микки Мауса, вместо этого разместят скульптуру Джузеппе Пеноне \"Идеи из камня – 1372 кг света\", сообщил журналистам во вторник генеральный директор музея Михаил Пиотровский."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дворе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Государственного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Эрмитажа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="устанавливать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="резиновую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скульптуру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Микки Мауса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="вместо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разместят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="скульптуру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Джузеппе Пеноне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Идеи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="камня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="1372
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="кг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="вторник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="генеральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="директор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="музея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Михаил Пиотровский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="аналит"]
+			5 -> 26 [label="вводн"]
+			26 -> 27 [label="_2_компл"]
+			26 -> 28 [label="обст"]
+			26 -> 31 [label="предик"]
+			31 -> 30 [label="опред"]
+			31 -> 32 [label="_1_компл"]
+			31 -> 33 [label="аппоз"]
+			17 -> 18 [label="атриб"]
+			17 -> 22 [label="сочин"]
+			18 -> 19 [label="предл"]
+			28 -> 29 [label="предл"]
+			14 -> 15 [label="аппоз"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 17 [label="предик"]
+			22 -> 21 [label="количест"]
+			22 -> 23 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 13 [label="релят"]
+			6 -> 8 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

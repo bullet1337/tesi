@@ -1,0 +1,33 @@
+digraph SENTENCE_2409 {
+	graph [label="Нет, не потому, что меня он задевал и я переживала."]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="задевал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="переживала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="эксплет"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="сент_соч"]
+			9 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="предик"]
+			5 -> 8 [label="подч_союзн"]
+}

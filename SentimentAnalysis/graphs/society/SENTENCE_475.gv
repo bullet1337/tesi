@@ -1,0 +1,21 @@
+digraph SENTENCE_475 {
+	graph [label="Премия \"Оскар\" вручается в 24 категориях."]
+	node [style=filled]
+		0 [label="Премия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вручается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="24
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="категориях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="количест"]
+			5 -> 7 [label="предл"]
+			0 -> 2 [label="аппоз"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="обст"]
+}

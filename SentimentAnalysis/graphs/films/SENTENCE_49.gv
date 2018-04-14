@@ -1,0 +1,59 @@
+digraph SENTENCE_49 {
+	graph [label="Этот фильм завораживающий, впечатляющий, нежный и трогательный и в тоже время суровый и сложный, а также легкий и чувственный."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="завораживающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="впечатляющий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нежный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="трогательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="суровый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сложный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="легкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="чувственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="сочин"]
+			2 -> 10 [label="_1_компл"]
+			20 -> 21 [label="соч_союзн"]
+			15 -> 17 [label="сочин"]
+			17 -> 19 [label="соч_союзн"]
+			4 -> 6 [label="сочин"]
+			13 -> 14 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			10 -> 4 [label="оп_опред"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="опред"]
+}

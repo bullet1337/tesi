@@ -1,0 +1,21 @@
+digraph SENTENCE_675 {
+	graph [label="Думаю, ни один не останется равнодушным."]
+	node [style=filled]
+		0 [label="Думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="равнодушным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="присвяз"]
+}

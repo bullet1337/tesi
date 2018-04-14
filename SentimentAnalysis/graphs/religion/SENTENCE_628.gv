@@ -1,0 +1,45 @@
+digraph SENTENCE_628 {
+	graph [label="На эти же темы в монастырях устраиваются кукольные представления и проводятся театрализованные мистерии Чам."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="монастырях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="устраиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кукольные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="театрализованные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мистерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Чам
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			4 -> 5 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="аппоз"]
+			1 -> 2 [label="огранич"]
+			9 -> 10 [label="соч_союзн"]
+			10 -> 12 [label="предик"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="сочин"]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_3926 {
+	graph [label="И что замечательно получилось у Арановски с Реквиемом по мечте."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="замечательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Арановски
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Реквиемом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мечте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="предл"]
+			4 -> 5 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="обст"]
+			3 -> 6 [label="обст"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 8 [label="атриб"]
+}

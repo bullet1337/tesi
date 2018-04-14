@@ -1,0 +1,42 @@
+digraph SENTENCE_510 {
+	graph [label="Он полагает, что картина \"совершенно четко формирует негативное отношение к прошлому нашей страны\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="четко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="формирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="негативное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прошлому
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			7 -> 6 [label="огранич"]
+			12 -> 14 [label="квазиагент"]
+			3 -> 8 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+}

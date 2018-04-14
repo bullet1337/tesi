@@ -1,0 +1,21 @@
+digraph SENTENCE_412 {
+	graph [label="Все трое судей отдали победу Гуфу."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трое
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="судей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отдали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="победу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гуфу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="количест"]
+}

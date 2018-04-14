@@ -1,0 +1,33 @@
+digraph SENTENCE_3872 {
+	graph [label="Почему эта самая старушка живет в борделе и выглядит соответственно?"]
+	node [style=filled]
+		0 [label="Почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="старушка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="борделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выглядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="соответственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="сочин"]
+			1 -> 2 [label="опред"]
+			5 -> 6 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+}

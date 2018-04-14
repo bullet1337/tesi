@@ -1,0 +1,66 @@
+digraph SENTENCE_1430 {
+	graph [label="Известная голливудская актриса Дженнифер Энистон и режиссер и актер Джастин Теру объявили о разводе через два с половиной года после свадьбы, сообщает портал."]
+	node [style=filled]
+		0 [label="Известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="голливудская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Дженнифер Энистон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Джастин Теру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="объявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разводе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="половиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="свадьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="портал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			16 -> 13 [label="количест"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			2 -> 4 [label="сочин"]
+			17 -> 18 [label="предл"]
+			7 -> 8 [label="аппоз"]
+			4 -> 5 [label="соч_союзн"]
+			14 -> 15 [label="предл"]
+			9 -> 2 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			9 -> 20 [label="вводн"]
+			13 -> 14 [label="атриб"]
+			5 -> 6 [label="сочин"]
+			10 -> 11 [label="предл"]
+			12 -> 16 [label="предл"]
+			20 -> 17 [label="обст"]
+			20 -> 21 [label="предик"]
+}

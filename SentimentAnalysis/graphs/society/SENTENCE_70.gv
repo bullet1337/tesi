@@ -1,0 +1,36 @@
+digraph SENTENCE_70 {
+	graph [label="Прошел должности от старшего летчика до заместителя командира эскадрильи штурмового авиаполка."]
+	node [style=filled]
+		0 [label="Прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="должности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="старшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="летчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заместителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="командира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эскадрильи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="штурмового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="авиаполка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			2 -> 5 [label="соотнос"]
+			5 -> 6 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			8 -> 10 [label="атриб"]
+}

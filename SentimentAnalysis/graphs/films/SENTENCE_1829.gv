@@ -1,0 +1,34 @@
+digraph SENTENCE_1829 {
+	graph [label="Его не надо пытаться полюбить — вы сразу поймете ваше или нет."]
+	node [style=filled]
+		0 [label="Его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пытаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полюбить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поймете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ваше
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			4 -> 8 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			9 -> 10 [label="сочин"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+}

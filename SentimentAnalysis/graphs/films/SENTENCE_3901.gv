@@ -1,0 +1,69 @@
+digraph SENTENCE_3901 {
+	graph [label="Несомненно шокирует — для начала 70-х не то, что разорвавшаяся бомба, а просто таки вагон ядерных боеголовок… Сыграно отменно — эдакий хрестоматийный девиант, психопат-эстет."]
+	node [style=filled]
+		0 [label="Несомненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="шокирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="70-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="разорвавшаяся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бомба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вагон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ядерных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="боеголовок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Сыграно
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="отменно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="эдакий
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="хрестоматийный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="девиант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="психопат-эстет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="атриб"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			25 -> 27 [label="аппоз"]
+			18 -> 17 [label="опред"]
+			9 -> 20 [label="подч_союзн"]
+			20 -> 11 [label="предик"]
+			20 -> 21 [label="обст"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="сочин"]
+			3 -> 4 [label="предл"]
+			13 -> 16 [label="соч_союзн"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="вводн"]
+			1 -> 3 [label="обст"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 25 [label="предик"]
+			15 -> 14 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="эксплет"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_2835 {
+	graph [label="2 из 10  Лишь только потому что этот фильм все же не хуже нашего «Гитлер Капут»."]
+	node [style=filled]
+		0 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Лишь
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Гитлер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Капут
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 13 [label="опред"]
+			0 -> 1 [label="электив"]
+			12 -> 8 [label="предик"]
+			12 -> 9 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="огранич"]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="эксплет"]
+			5 -> 16 [label="сент_соч"]
+			6 -> 12 [label="подч_союзн"]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="огранич"]
+			16 -> 15 [label="предик"]
+}

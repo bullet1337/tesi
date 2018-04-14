@@ -1,0 +1,57 @@
+digraph SENTENCE_419 {
+	graph [label="Кроме чтения Мегилат Эстер непременными атрибутами Пурима должны быть праздничный пир, \"мишлоах манот\" (буквально — \"посылка яств\") и \"подарки бедным\"."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чтения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мегилат Эстер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="непременными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="атрибутами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Пурима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="праздничный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мишлоах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="манот
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="посылка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="яств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="подарки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="бедным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="предик"]
+			6 -> 19 [label="разъяснит"]
+			2 -> 4 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			23 -> 25 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="аппоз"]
+			12 -> 13 [label="аппоз"]
+			19 -> 16 [label="огранич"]
+			19 -> 20 [label="сочин"]
+			19 -> 26 [label="сочин"]
+			20 -> 23 [label="сочин"]
+}

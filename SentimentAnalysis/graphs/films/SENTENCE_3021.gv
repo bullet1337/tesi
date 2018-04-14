@@ -1,0 +1,60 @@
+digraph SENTENCE_3021 {
+	graph [label="Хотя и Джейк на пару с Леджером не так чтобы откровенно сливают, но и никаких горизонтов открыть не посмели."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Джейк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пару
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Леджером
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="откровенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сливают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="горизонтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="открыть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="посмели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 2 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			0 -> 8 [label="подч_союзн"]
+			0 -> 19 [label="сент_соч"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="атриб"]
+			2 -> 5 [label="атриб"]
+			9 -> 11 [label="подч_союзн"]
+			13 -> 14 [label="огранич"]
+			13 -> 16 [label="соч_союзн"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="сочин"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			5 -> 6 [label="предл"]
+			16 -> 15 [label="опред"]
+			3 -> 4 [label="предл"]
+}

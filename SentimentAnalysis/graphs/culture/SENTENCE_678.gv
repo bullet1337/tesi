@@ -1,0 +1,57 @@
+digraph SENTENCE_678 {
+	graph [label="Звезда фильма \"Сумерки\" Роберт Паттинсон признался, что не против сняться еще в одной крупной франшизе, если ему понравится сценарий."]
+	node [style=filled]
+		0 [label="Звезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сумерки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Роберт Паттинсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="признался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="против
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сняться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="крупной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="франшизе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="понравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			20 -> 19 [label="_1_компл"]
+			20 -> 21 [label="предик"]
+			11 -> 13 [label="обст"]
+			18 -> 20 [label="подч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+			0 -> 5 [label="аппоз"]
+			8 -> 10 [label="подч_союзн"]
+			16 -> 14 [label="количест"]
+			16 -> 15 [label="опред"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+			10 -> 18 [label="обст"]
+			13 -> 12 [label="огранич"]
+			13 -> 16 [label="предл"]
+}

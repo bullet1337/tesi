@@ -1,0 +1,15 @@
+digraph SENTENCE_362 {
+	graph [label="Баттл стартовал выступлением Птахи."]
+	node [style=filled]
+		0 [label="Баттл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="стартовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выступлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

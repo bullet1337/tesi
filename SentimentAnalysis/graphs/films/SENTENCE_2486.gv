@@ -1,0 +1,60 @@
+digraph SENTENCE_2486 {
+	graph [label="Если миллион обезьян посадить за пишущие машинки, то по теории вероятности через некоторое время они напечатают «Войну и мир»."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="миллион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обезьян
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посадить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пишущие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="машинки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="теории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вероятности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="некоторое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="напечатают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Войну
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			19 -> 20 [label="соч_союзн"]
+			0 -> 3 [label="инф_союзн"]
+			0 -> 8 [label="соотнос"]
+			12 -> 9 [label="вводн"]
+			12 -> 14 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			16 -> 0 [label="обст"]
+			16 -> 12 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="_1_компл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="_2_компл"]
+			18 -> 19 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			9 -> 10 [label="предл"]
+			14 -> 13 [label="опред"]
+}

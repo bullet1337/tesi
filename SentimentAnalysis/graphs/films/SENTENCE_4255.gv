@@ -1,0 +1,37 @@
+digraph SENTENCE_4255 {
+	graph [label="Не будучи ни гомофобом, ни расистом, мне тяжело дался просмотр этого фильма."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будучи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="гомофобом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="расистом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 3 [label="агент"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="предик"]
+			1 -> 0 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			3 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			9 -> 8 [label="дат_субъект"]
+}

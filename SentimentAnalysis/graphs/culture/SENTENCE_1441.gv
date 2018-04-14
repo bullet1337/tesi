@@ -1,0 +1,51 @@
+digraph SENTENCE_1441 {
+	graph [label="Фильм — участник основного конкурса рассказывает о нескольких днях из жизни писателя Сергея Довлатова в начале 1970-х годов."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="основного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="днях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сергея Довлатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="1970-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="годов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			13 -> 14 [label="предл"]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="атриб"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="аппоз"]
+			16 -> 15 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			14 -> 16 [label="квазиагент"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_3_компл"]
+			5 -> 13 [label="обст"]
+			11 -> 12 [label="аппоз"]
+}

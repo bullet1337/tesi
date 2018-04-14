@@ -1,0 +1,39 @@
+digraph SENTENCE_200 {
+	graph [label="Это как если бы американец снял антидатский фильм по манифесту Догма-95."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="американец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="антидатский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="манифесту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Догма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="95
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="аналит"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			2 -> 5 [label="подч_союзн"]
+			9 -> 10 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="сравн_союзн"]
+			8 -> 9 [label="предл"]
+			10 -> 12 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+}

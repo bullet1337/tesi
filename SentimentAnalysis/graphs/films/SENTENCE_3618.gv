@@ -1,0 +1,36 @@
+digraph SENTENCE_3618 {
+	graph [label="Ну, могли бы хоть Третьяку разрешить сказать хоть что… нет, нельзя?"]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Третьяку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="разрешить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9
+			2 -> 0 [label="вводн"]
+			2 -> 3 [label="аналит"]
+			2 -> 6 [label="_1_компл"]
+			2 -> 11 [label="сент_соч"]
+			11 -> 8 [label="огранич"]
+			11 -> 13 [label="соч_союзн"]
+			6 -> 5 [label="_2_компл"]
+			6 -> 7 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+}

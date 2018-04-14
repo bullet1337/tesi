@@ -1,0 +1,48 @@
+digraph SENTENCE_529 {
+	graph [label="На протяжении трех следующих дней добровольцы будут дежурить у храма и поддерживать огонь в лампадах."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="следующих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="добровольцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дежурить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поддерживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="огонь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лампадах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="предл"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="аналит"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			1 -> 4 [label="квазиагент"]
+}

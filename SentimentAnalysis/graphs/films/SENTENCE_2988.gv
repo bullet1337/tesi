@@ -1,0 +1,27 @@
+digraph SENTENCE_2988 {
+	graph [label="Она-то уж никак не заслужила такой подарок судьбы."]
+	node [style=filled]
+		0 [label="Она-то
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заслужила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подарок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="судьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+}

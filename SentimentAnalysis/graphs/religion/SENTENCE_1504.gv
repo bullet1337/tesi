@@ -1,0 +1,28 @@
+digraph SENTENCE_1504 {
+	graph [label="Это не столько признание в любви, сколько знак внимания."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="признание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_2_компл"]
+			3 -> 7 [label="сочин"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="соч_союзн"]
+}

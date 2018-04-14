@@ -1,0 +1,45 @@
+digraph SENTENCE_1212 {
+	graph [label="Нет, всё-таки это кино воспринимается не кадрами, не деталями, не пазлами и не частями."]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всё-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="воспринимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кадрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="деталями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пазлами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="частями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="соч_союзн"]
+			10 -> 9 [label="огранич"]
+			10 -> 13 [label="сочин"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="опред"]
+			16 -> 15 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			7 -> 10 [label="сочин"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_2_компл"]
+}

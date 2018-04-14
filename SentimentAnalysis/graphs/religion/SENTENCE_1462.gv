@@ -1,0 +1,90 @@
+digraph SENTENCE_1462 {
+	graph [label="Представители делегации посетили основные религиозные центры Дамаска, где при участии лидеров христианских и мусульманских общин передали партии гуманитарной помощи, собранной верующими России специально для народа Сирии и христиан Востока."]
+	node [style=filled]
+		0 [label="Представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="делегации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="посетили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="основные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="религиозные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="центры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Дамаска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="участии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лидеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мусульманских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="передали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="гуманитарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="собранной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="верующими
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="специально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="народа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Востока
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			28 -> 29 [label="соч_союзн"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="атриб"]
+			29 -> 30 [label="аппоз"]
+			16 -> 8 [label="обст"]
+			16 -> 9 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 25 [label="обст"]
+			16 -> 27 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			25 -> 26 [label="предл"]
+			27 -> 28 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			15 -> 12 [label="опред"]
+			17 -> 19 [label="разъяснит"]
+			19 -> 18 [label="опред"]
+			19 -> 22 [label="агент"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 16 [label="релят"]
+			10 -> 11 [label="квазиагент"]
+			12 -> 13 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			11 -> 15 [label="_1_компл"]
+}

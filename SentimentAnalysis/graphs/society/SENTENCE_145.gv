@@ -1,0 +1,63 @@
+digraph SENTENCE_145 {
+	graph [label="Украинский политолог и блогер Дмитрий Суворов, подравшийся с ведущим НТВ Андреем Норкиным в эфире программы \"Место встречи\", рассказал в. свою версию случившегося."]
+	node [style=filled]
+		0 [label="Украинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="политолог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="блогер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дмитрий Суворов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="подравшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ведущим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="НТВ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Андреем Норкиным
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эфире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Место
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="версию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="случившегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			1 -> 19 [label="аппоз"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			6 -> 13 [label="_1_компл"]
+			15 -> 16 [label="квазиагент"]
+			2 -> 3 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="аппоз"]
+			23 -> 22 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			3 -> 6 [label="опред"]
+			20 -> 23 [label="предл"]
+			19 -> 15 [label="предик"]
+			19 -> 20 [label="_3_компл"]
+			19 -> 24 [label="_1_компл"]
+}

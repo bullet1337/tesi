@@ -1,0 +1,33 @@
+digraph SENTENCE_1258 {
+	graph [label="Награда Amnesty international была вручена Кариму Айнузу за \"Центральный аэропорт THF\"."]
+	node [style=filled]
+		0 [label="Награда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Amnesty
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="international
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вручена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кариму Айнузу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Центральный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="аэропорт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="THF
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="аппоз"]
+			5 -> 6 [label="сочин"]
+			6 -> 9 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 4
+			3 -> 5 [label="разъяснит"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+}

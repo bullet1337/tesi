@@ -1,0 +1,39 @@
+digraph SENTENCE_490 {
+	graph [label="Результатом этой работы стал иллюстрированный каталог, первую часть которого только что опубликовали."]
+	node [style=filled]
+		0 [label="Результатом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иллюстрированный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="каталог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="первую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="опубликовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			12 -> 8 [label="предик"]
+			12 -> 10 [label="огранич"]
+			10 -> 11
+			3 -> 0 [label="присвяз"]
+			3 -> 5 [label="предик"]
+			3 -> 12 [label="сент_соч"]
+}

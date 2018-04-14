@@ -1,0 +1,75 @@
+digraph SENTENCE_2402 {
+	graph [label="Не хотелось бы верить, да и это не так…  Фильм просто отталкивает, достаточно сомнительной мне кажется подача и те средства которыми режиссер пытался передать суть."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="верить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отталкивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сомнительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="подача
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="средства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="передать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="суть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			22 -> 21 [label="опред"]
+			20 -> 22 [label="соч_союзн"]
+			19 -> 16 [label="опред"]
+			19 -> 20 [label="сочин"]
+			13 -> 7 [label="предик"]
+			13 -> 9 [label="обст"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="примыкат"]
+			25 -> 24 [label="предик"]
+			25 -> 26 [label="_1_компл"]
+			26 -> 27 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="аналит"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 5 [label="сент_соч"]
+			5 -> 6 [label="огранич"]
+			5 -> 13 [label="соч_союзн"]
+			18 -> 17 [label="_2_компл"]
+}

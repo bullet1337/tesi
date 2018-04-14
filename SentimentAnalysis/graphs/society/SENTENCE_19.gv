@@ -1,0 +1,36 @@
+digraph SENTENCE_19 {
+	graph [label="\"Весна придет, но март довольно холодный еще месяц, это зимний месяц."]
+	node [style=filled]
+		1 [label="Весна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="придет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="март
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="холодный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зимний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 5 [label="пролепт"]
+			11 -> 9 [label="пролепт"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="огранич"]
+			9 -> 7 [label="опред"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="опред"]
+			4 -> 13 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сент_соч"]
+}

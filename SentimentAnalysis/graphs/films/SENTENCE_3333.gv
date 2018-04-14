@@ -1,0 +1,66 @@
+digraph SENTENCE_3333 {
+	graph [label="И в ресторан главный герой вваливается в пальто и с клюшкой наперевес, и в Канаду на посадку бредут с клюшками подмышкой."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ресторан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вваливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пальто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="клюшкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наперевес
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Канаду
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="посадку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бредут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="клюшками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="подмышкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="сочин"]
+			16 -> 17 [label="предл"]
+			13 -> 14 [label="соч_союзн"]
+			18 -> 9 [label="обст"]
+			18 -> 11 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 21 [label="обст"]
+			19 -> 20 [label="предл"]
+			8 -> 18 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+			4 -> 3 [label="опред"]
+			14 -> 15 [label="предл"]
+			14 -> 16 [label="уточн"]
+			11 -> 13 [label="сочин"]
+}

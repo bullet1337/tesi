@@ -1,0 +1,30 @@
+digraph SENTENCE_231 {
+	graph [label="— Народ, который совершает ошибки, а потом за них расплачивается."]
+	node [style=filled]
+		1 [label="Народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="совершает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ошибки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="расплачивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			7 -> 11 [label="соч_союзн"]
+			11 -> 8 [label="обст"]
+			11 -> 9 [label="обст"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+			4 -> 7 [label="сент_соч"]
+}

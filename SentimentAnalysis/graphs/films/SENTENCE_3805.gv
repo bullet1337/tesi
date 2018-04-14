@@ -1,0 +1,71 @@
+digraph SENTENCE_3805 {
+	graph [label="Малкольм МакДауэлл — замечательный актер, которого я, впрочем, знаю, уже в основном в его нынешней ипостаси сребробородого старца, — но что общего он имеет с Алексом?"]
+	node [style=filled]
+		0 [label="Малкольм МакДауэлл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="замечательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="впрочем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="основном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нынешней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ипостаси
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сребробородого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="старца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Алексом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			24 -> 27 [label="подч_союзн"]
+			20 -> 13 [label="огранич"]
+			20 -> 19 [label="опред"]
+			27 -> 25 [label="изъясн"]
+			27 -> 26 [label="предик"]
+			27 -> 28 [label="_1_несобст_компл"]
+			10 -> 0 [label="вводн"]
+			10 -> 3 [label="предик"]
+			10 -> 5 [label="_1_компл"]
+			10 -> 6 [label="предик"]
+			10 -> 8 [label="вводн"]
+			10 -> 20 [label="_1_компл"]
+			10 -> 23 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			13 -> 15 [label="сочин"]
+			28 -> 29 [label="предл"]
+			15 -> 18 [label="предл"]
+			18 -> 16 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+}

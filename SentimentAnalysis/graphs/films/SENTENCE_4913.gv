@@ -1,0 +1,23 @@
+digraph SENTENCE_4913 {
+	graph [label="Годзилла 98 года нельзя было назвать шедевром."]
+	node [style=filled]
+		0 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="98
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="присвяз"]
+			2 -> 1 [label="количест"]
+			0 -> 2 [label="атриб"]
+			5 -> 6 [label="_2_компл"]
+}

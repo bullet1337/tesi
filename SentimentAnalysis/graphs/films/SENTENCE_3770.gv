@@ -1,0 +1,30 @@
+digraph SENTENCE_3770 {
+	graph [label="Финальное зрелище здесь представляет собой штамповку из голливудских фильмов."]
+	node [style=filled]
+		0 [label="Финальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зрелище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="штамповку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="голливудских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			5 -> 6 [label="атриб"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4
+			3 -> 5 [label="_1_компл"]
+}

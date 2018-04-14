@@ -1,0 +1,36 @@
+digraph SENTENCE_301 {
+	graph [label="Да уж такая история могла бы случиться только в этом фильме."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="случиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предл"]
+			2 -> 1 [label="огранич"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="аналит"]
+			4 -> 6 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			6 -> 8 [label="обст"]
+			3 -> 2 [label="опред"]
+}

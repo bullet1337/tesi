@@ -1,0 +1,33 @@
+digraph SENTENCE_760 {
+	graph [label="Строительство продолжалось на протяжении всего прошлого столетия со значительными перерывами."]
+	node [style=filled]
+		0 [label="Строительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продолжалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="значительными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="перерывами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="обст"]
+			3 -> 6 [label="квазиагент"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="предл"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+}

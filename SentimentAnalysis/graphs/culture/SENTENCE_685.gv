@@ -1,0 +1,21 @@
+digraph SENTENCE_685 {
+	graph [label="Как, например, с этим фильмом (\"Девица\")."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Девица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 6 [label="сравн_союзн"]
+			4 -> 5 [label="предл"]
+			6 -> 2 [label="вводн"]
+			6 -> 4 [label="вводн"]
+			6 -> 9 [label="аппоз"]
+}

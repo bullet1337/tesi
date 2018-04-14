@@ -1,0 +1,36 @@
+digraph SENTENCE_329 {
+	graph [label="После него я познакомился с творчеством Бьорк и оно меня поразило."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="познакомился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="творчеством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поразило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			3 -> 7 [label="сент_соч"]
+			7 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="_1_компл"]
+}

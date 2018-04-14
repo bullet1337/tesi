@@ -1,0 +1,15 @@
+digraph SENTENCE_4956 {
+	graph [label="Это скорее «Война миров»."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Война
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="миров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="квазиагент"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1246 {
+	graph [label="Что, в принципе, понятно, ведь главную роль исполняла известная исландская певица Бьорк, обладающая уникальным тембром."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="принципе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="исполняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="исландская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="обладающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уникальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="тембром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 13 [label="предик"]
+			16 -> 18 [label="_1_компл"]
+			7 -> 10 [label="подч_союзн"]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 7 [label="обст"]
+			2 -> 3 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			13 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+}

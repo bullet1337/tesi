@@ -1,0 +1,60 @@
+digraph SENTENCE_1031 {
+	graph [label="\"В марте мы этот вопрос обсудим в Госдуме на совместном заседании нескольких комитетов — бюджетного, по экологии и т.д."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="марте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обсудим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Госдуме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="совместном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заседании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="комитетов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бюджетного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="экологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="д
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="квазиагент"]
+			6 -> 7 [label="обст"]
+			6 -> 9 [label="обст"]
+			6 -> 13 [label="_1_компл"]
+			19 -> 20 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+			7 -> 8 [label="предл"]
+			11 -> 10 [label="опред"]
+			15 -> 17 [label="атриб"]
+			13 -> 12 [label="количест"]
+			13 -> 15 [label="опред"]
+			9 -> 11 [label="предл"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			18 -> 19 [label="сочин"]
+}

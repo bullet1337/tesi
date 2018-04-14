@@ -1,0 +1,24 @@
+digraph SENTENCE_1557 {
+	graph [label="\"Процесс беатификации еще одного — Иоанна Павла I продолжается."]
+	node [style=filled]
+		1 [label="Процесс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="беатификации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одного
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Иоанна Павла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="I
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="продолжается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			1 -> 6 [label="аппоз"]
+			1 -> 8 [label="релят"]
+			6 -> 4 [label="количест"]
+			8 -> 7 [label="предик"]
+			4 -> 3 [label="огранич"]
+}

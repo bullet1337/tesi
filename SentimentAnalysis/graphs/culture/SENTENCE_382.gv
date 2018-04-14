@@ -1,0 +1,45 @@
+digraph SENTENCE_382 {
+	graph [label="Я такой плохой, я такой плохой, Леш, кстати, воровать чужие панчи нехорошо\", — ответил Птаха."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Леш
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воровать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чужие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="панчи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нехорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ответил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 8 [label="_1_компл"]
+			12 -> 10 [label="вводн"]
+			12 -> 15 [label="разъяснит"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 12 [label="сочин"]
+			19 -> 20 [label="предик"]
+			14 -> 13 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 6 [label="разъяснит"]
+			2 -> 19 [label="вводн"]
+			15 -> 14 [label="предик"]
+}

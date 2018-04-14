@@ -1,0 +1,57 @@
+digraph SENTENCE_1188 {
+	graph [label="Для картины было выстроено более 25 масштабных декораций, среди которых русская деревня, лагерь военнопленных, немецкий полигон, железнодорожная станция."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выстроено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="масштабных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="декораций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="русская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="деревня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лагерь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="военнопленных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="немецкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="полигон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="железнодорожная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="станция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="сочин"]
+			7 -> 5 [label="количест"]
+			7 -> 6 [label="опред"]
+			4 -> 7 [label="сравнит"]
+			21 -> 20 [label="опред"]
+			12 -> 4 [label="огранич"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="сочин"]
+			15 -> 18 [label="сочин"]
+			2 -> 0 [label="обст"]
+			2 -> 3
+			2 -> 12 [label="предик"]
+			14 -> 15 [label="сочин"]
+			9 -> 10 [label="предл"]
+}

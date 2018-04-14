@@ -1,0 +1,78 @@
+digraph SENTENCE_1592 {
+	graph [label="Кукольная анимация в Европе появилась благодаря российскому режиссеру около ста лет назад — Владислав Старевич, эмигрировав из России во Францию, принес эту технологию в мир\", — сказал Машковцев."]
+	node [style=filled]
+		0 [label="Кукольная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="анимация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Европе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="появилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="российскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ста
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Владислав Старевич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="эмигрировав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Францию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="принес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="технологию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Машковцев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 15 [label="обст"]
+			4 -> 21 [label="сент_соч"]
+			4 -> 29 [label="вводн"]
+			16 -> 17 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+			18 -> 19 [label="предл"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="количест"]
+			7 -> 6 [label="опред"]
+			24 -> 25 [label="предл"]
+			23 -> 22 [label="опред"]
+			11 -> 8 [label="предл"]
+			15 -> 11 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 18 [label="_2_компл"]
+			29 -> 30 [label="предик"]
+			5 -> 7 [label="предл"]
+			21 -> 23 [label="предик"]
+			21 -> 24 [label="_3_компл"]
+}

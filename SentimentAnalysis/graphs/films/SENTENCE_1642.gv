@@ -1,0 +1,18 @@
+digraph SENTENCE_1642 {
+	graph [label="Теперь она может быть спокойной."]
+	node [style=filled]
+		0 [label="Теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спокойной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="присвяз"]
+}

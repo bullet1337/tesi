@@ -1,0 +1,72 @@
+digraph SENTENCE_1156 {
+	graph [label="Мы осуждаем поступок стрелявшего, подчеркивая, что он не может быть оправдан никакой религией или иными разумными мотивами\", — приводятся слова Гайнутдина на сайте совета."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="осуждаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поступок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стрелявшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подчеркивая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оправдан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="религией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="иными
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="разумными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мотивами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="приводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Гайнутдина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			15 -> 18 [label="соч_союзн"]
+			3 -> 5 [label="обст"]
+			26 -> 27 [label="квазиагент"]
+			23 -> 24 [label="аппоз"]
+			23 -> 25 [label="атриб"]
+			5 -> 7 [label="_1_компл"]
+			22 -> 23 [label="предик"]
+			11 -> 12
+			12 -> 14 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			25 -> 26 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 22 [label="сент_соч"]
+			2 -> 3 [label="опред"]
+			7 -> 10 [label="подч_союзн"]
+}

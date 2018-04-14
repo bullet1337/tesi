@@ -1,0 +1,39 @@
+digraph SENTENCE_4519 {
+	graph [label="Да и оригинал, вышедший в 60-х годах прошлого века, я тоже смотрел."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оригинал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вышедший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="60-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прошлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 13 [label="соч_союзн"]
+			4 -> 5 [label="обст"]
+			4 -> 7 [label="_2_компл"]
+			2 -> 4 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			13 -> 2 [label="_1_компл"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_639 {
+	graph [label="Среди них самая жизненная, а самое главное правдоподобная, это, несомненно — «Танцующая в темноте»."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизненная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="правдоподобная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несомненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="вводн"]
+			8 -> 15 [label="разъяснит"]
+			16 -> 17 [label="предл"]
+			5 -> 8 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			15 -> 10 [label="предик"]
+			15 -> 12 [label="вводн"]
+			15 -> 16 [label="обст"]
+			7 -> 6 [label="опред"]
+}

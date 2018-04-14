@@ -1,0 +1,43 @@
+digraph SENTENCE_2423 {
+	graph [label="1 из 10
+Решилась я посмотреть этот фильм, прочитав несколько весьма воодушевляющих рецензий."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Решилась
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прочитав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воодушевляющих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рецензий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="огранич"]
+			13 -> 10 [label="количест"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			7 -> 6 [label="опред"]
+			9 -> 13 [label="_1_компл"]
+			0 -> 1 [label="электив"]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_329 {
+	graph [label="\"В марте в столичных медучреждениях пройдут дни открытых дверей."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="марте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столичных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="медучреждениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пройдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="открытых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дверей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			3 -> 5 [label="предл"]
+			9 -> 8 [label="опред"]
+			1 -> 2 [label="предл"]
+			6 -> 1 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="предик"]
+}

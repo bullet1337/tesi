@@ -1,0 +1,78 @@
+digraph SENTENCE_1139 {
+	graph [label="На вечере будет показан документальный фильм режиссёра Пламена Петкова \"49,172\", а болгарское посольство представит выставку \"Сила гражданского общества: Судьба евреев в Болгарии\", — отметили в пресс-службе РЕК."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вечере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="документальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Пламена Петкова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="49,172
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="болгарское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="посольство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выставку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Сила
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="гражданского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Судьба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Болгарии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="отметили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="РЕК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			29 -> 30 [label="обст"]
+			0 -> 1 [label="предл"]
+			7 -> 9
+			22 -> 23 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 3
+			2 -> 5 [label="предик"]
+			2 -> 12 [label="сент_соч"]
+			2 -> 29 [label="вводн"]
+			31 -> 32 [label="квазиагент"]
+			23 -> 24 [label="атриб"]
+			24 -> 25 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="ном_аппоз"]
+			5 -> 7 [label="квазиагент"]
+			16 -> 18 [label="аппоз"]
+			16 -> 22 [label="сочин"]
+			18 -> 20 [label="квазиагент"]
+			12 -> 15 [label="соч_союзн"]
+			20 -> 19 [label="опред"]
+			14 -> 13 [label="опред"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			30 -> 31 [label="предл"]
+}

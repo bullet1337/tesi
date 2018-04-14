@@ -1,0 +1,30 @@
+digraph SENTENCE_359 {
+	graph [label="Сразу после митинга на площади Нахимова начнется праздничный концерт."]
+	node [style=filled]
+		0 [label="Сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="митинга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="площади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Нахимова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="начнется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="праздничный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="обст"]
+			6 -> 8 [label="предик"]
+			2 -> 3 [label="атриб"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4512 {
+	graph [label="Его просто нет, поэтому всё происходящее на экране кажется вторичным и необязательным."]
+	node [style=filled]
+		0 [label="Его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="происходящее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вторичным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="необязательным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 9 [label="сент_соч"]
+			5 -> 6 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			9 -> 4 [label="обст"]
+			9 -> 5 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 11 [label="сочин"]
+}

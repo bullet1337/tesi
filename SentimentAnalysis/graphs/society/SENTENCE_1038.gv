@@ -1,0 +1,63 @@
+digraph SENTENCE_1038 {
+	graph [label="По данным пресс-службы администрации Горячего Ключа, в поддержку инициативы о присвоении курорту звания города воинской славы собрано 25,5 тысячи подписей."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пресс-службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="администрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Горячего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Ключа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поддержку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="инициативы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="присвоении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="курорту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="звания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="воинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="собрано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="25,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тысячи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="подписей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="квазиагент"]
+			2 -> 7 [label="атриб"]
+			10 -> 11 [label="предл"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="атриб"]
+			19 -> 18 [label="количест"]
+			19 -> 20 [label="квазиагент"]
+			9 -> 0 [label="вводн"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 17 [label="сочин"]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			17 -> 19 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 13 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 8 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+}

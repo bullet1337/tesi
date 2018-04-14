@@ -1,0 +1,80 @@
+digraph SENTENCE_2389 {
+	graph [label="3 из 10
+Даже не знаю с чего начать… Пожалуй с того что я не очень то люблю мюзиклы, но этот заставил меня пересмотреть свои взгляды."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Даже
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="начать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Пожалуй
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="заставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пересмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="взгляды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			1 -> 2 [label="предл"]
+			8 -> 6 [label="обст"]
+			12 -> 13 [label="эксплет"]
+			27 -> 26 [label="опред"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 25 [label="_2_компл"]
+			21 -> 23 [label="соч_союзн"]
+			18 -> 14 [label="предик"]
+			18 -> 16 [label="огранич"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="сент_соч"]
+			13 -> 18 [label="подч_союзн"]
+			25 -> 27 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="электив"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			5 -> 8 [label="_1_компл"]
+}

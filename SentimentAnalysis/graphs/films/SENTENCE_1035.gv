@@ -1,0 +1,51 @@
+digraph SENTENCE_1035 {
+	graph [label="Всё — правда… Всё — щиплет глаза… «Танцующая в темноте» — это лекарство от всяческого человеческого бесчувствия и жестокости."]
+	node [style=filled]
+		0 [label="Всё
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Всё
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="щиплет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="лекарство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всяческого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="человеческого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="бесчувствия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="жестокости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="сочин"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="суб_копр"]
+			6 -> 16 [label="_1_компл"]
+			6 -> 17 [label="_2_компл"]
+			10 -> 11 [label="обст"]
+			21 -> 22 [label="соч_союзн"]
+			17 -> 20 [label="предл"]
+			16 -> 15 [label="предик"]
+			11 -> 12 [label="предл"]
+}

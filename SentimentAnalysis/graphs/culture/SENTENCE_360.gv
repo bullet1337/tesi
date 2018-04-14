@@ -1,0 +1,15 @@
+digraph SENTENCE_360 {
+	graph [label="Козырь Птахи — это его оголтелость."]
+	node [style=filled]
+		0 [label="Козырь Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оголтелость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="квазиагент"]
+			2 -> 0 [label="пролепт"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_1135 {
+	graph [label="Ранее РИА Новости сообщили, что мировой судебный участок 208 на 100 тысяч рублей оштрафовал московский кинотеатр \"Пионер\", который показал фильм \"Смерть Сталина\" без прокатного удостоверения."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="судебный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="участок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="208
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оштрафовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кинотеатр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="показал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 24 [label="ном_аппоз"]
+			22 -> 27 [label="атриб"]
+			13 -> 7 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="нум_аппоз"]
+			7 -> 9 [label="атриб"]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="аппоз"]
+			15 -> 21 [label="релят"]
+			9 -> 11 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="_2_компл"]
+			2 -> 4 [label="_1_компл"]
+			21 -> 20 [label="_1_компл"]
+			21 -> 22 [label="предик"]
+			29 -> 28 [label="опред"]
+			24 -> 25 [label="квазиагент"]
+			27 -> 29 [label="предл"]
+			4 -> 13 [label="подч_союзн"]
+}

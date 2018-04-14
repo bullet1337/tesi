@@ -1,0 +1,65 @@
+digraph SENTENCE_951 {
+	graph [label="С Коломной у княжеской четы были связаны особые воспоминания: здесь произошло их венчание и именно Димитрием был основан каменный Успенский храм."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Коломной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="княжеской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="четы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="связаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="особые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="воспоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="венчание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Димитрием
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="основан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="каменный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Успенский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 19 [label="опред"]
+			13 -> 12 [label="квазиагент"]
+			13 -> 14 [label="сочин"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="релят"]
+			16 -> 15 [label="огранич"]
+			14 -> 16 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			17 -> 18
+			17 -> 20 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="предик"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 6
+			5 -> 8 [label="предик"]
+			5 -> 17 [label="сент_соч"]
+}

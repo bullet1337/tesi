@@ -1,0 +1,51 @@
+digraph SENTENCE_516 {
+	graph [label="В Москве, кстати, с этого года скрининг расширен до 11, некоторые регионы также расширяют этот скрининг."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скрининг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="расширен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="регионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="расширяют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="скрининг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			14 -> 13 [label="опред"]
+			9 -> 0 [label="обст"]
+			9 -> 3 [label="вводн"]
+			9 -> 5 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="обст"]
+			9 -> 14 [label="предик"]
+			9 -> 16 [label="сент_соч"]
+			5 -> 7 [label="предл"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			18 -> 17 [label="опред"]
+			10 -> 11 [label="предл"]
+}

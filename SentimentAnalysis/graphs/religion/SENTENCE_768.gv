@@ -1,0 +1,39 @@
+digraph SENTENCE_768 {
+	graph [label="Первый вклад в размере 4 миллионов евро был выделен ПАО \"Газпром нефть\"."]
+	node [style=filled]
+		0 [label="Первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вклад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="размере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="евро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выделен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ПАО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Газпром
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="нефть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_2_компл"]
+			5 -> 4 [label="количест"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_2_компл"]
+			3 -> 5 [label="квазиагент"]
+			11 -> 12 [label="сочин"]
+			9 -> 11 [label="разъяснит"]
+			7 -> 1 [label="предик"]
+			7 -> 8
+			2 -> 3 [label="предл"]
+}

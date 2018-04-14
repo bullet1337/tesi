@@ -1,0 +1,30 @@
+digraph SENTENCE_4444 {
+	graph [label="Не зная, какое разочарование меня ожидает… А власти скрывают!"]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="какое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разочарование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ожидает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="скрывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="предик"]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 4 [label="_1_компл"]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 10 [label="соч_союзн"]
+}

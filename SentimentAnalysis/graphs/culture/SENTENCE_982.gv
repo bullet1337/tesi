@@ -1,0 +1,33 @@
+digraph SENTENCE_982 {
+	graph [label="Фестиваль \"360 градусов\" откроется 22 февраля на сцене филармонии Гастайг."]
+	node [style=filled]
+		0 [label="Фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="360
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="откроется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="22
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="филармонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гастайг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="атриб"]
+			0 -> 3 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			3 -> 2 [label="количест"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="обст"]
+			5 -> 11 [label="вводн"]
+			9 -> 10 [label="квазиагент"]
+}

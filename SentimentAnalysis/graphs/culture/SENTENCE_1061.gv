@@ -1,0 +1,24 @@
+digraph SENTENCE_1061 {
+	graph [label="Они собраны на одной выставке\", — сказал Падермалис."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="собраны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выставке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Падермалис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предик"]
+			4 -> 3 [label="количест"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 8 [label="вводн"]
+			2 -> 4 [label="предл"]
+}

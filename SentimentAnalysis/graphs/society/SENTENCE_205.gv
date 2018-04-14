@@ -1,0 +1,111 @@
+digraph SENTENCE_205 {
+	graph [label="\"Минприроды России просит вас сформировать рабочую группу по созданию национального парка \"Зигальга\", включив в нее представителей заинтересованных министерств Челябинской области, территориальных управлений федеральных органов исполнительной власти и муниципальных образований\", — говорится в письме, имеющемся в распоряжении РИА Новости."]
+	node [style=filled]
+		1 [label="Минприроды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="просит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сформировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рабочую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="группу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="созданию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="национального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="парка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Зигальга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="включив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="представителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="заинтересованных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="министерств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Челябинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="территориальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="управлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="федеральных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="органов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="исполнительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="муниципальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="образований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="письме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="имеющемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="распоряжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 37 [label="вводн"]
+			3 -> 44 [label="_2_компл"]
+			33 -> 32 [label="опред"]
+			8 -> 9 [label="предл"]
+			39 -> 41 [label="опред"]
+			23 -> 22 [label="опред"]
+			23 -> 26 [label="сочин"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 16 [label="обст"]
+			21 -> 20 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="аппоз"]
+			17 -> 18 [label="предл"]
+			28 -> 27 [label="опред"]
+			28 -> 30 [label="квазиагент"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 19 [label="_1_компл"]
+			41 -> 42 [label="_1_компл"]
+			30 -> 29 [label="опред"]
+			30 -> 31 [label="сочин"]
+			26 -> 25 [label="опред"]
+			26 -> 28 [label="сочин"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			9 -> 11 [label="_1_компл"]
+			38 -> 39 [label="предл"]
+			37 -> 38 [label="обст"]
+			31 -> 33 [label="соч_союзн"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 23 [label="сочин"]
+			42 -> 43 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+}

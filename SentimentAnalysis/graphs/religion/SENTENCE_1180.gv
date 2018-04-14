@@ -1,0 +1,54 @@
+digraph SENTENCE_1180 {
+	graph [label="Премьер-министр РФ Дмитрий Медведев поздравил буддистов страны с праздником Сагаалган и отметил, что его традиции сближают народы России."]
+	node [style=filled]
+		0 [label="Премьер-министр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Дмитрий Медведев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="буддистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="праздником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сагаалган
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сближают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="народы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			12 -> 15 [label="подч_союзн"]
+			7 -> 8 [label="аппоз"]
+			10 -> 12 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			16 -> 17 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 6 [label="обст"]
+			3 -> 9 [label="сочин"]
+			14 -> 13 [label="квазиагент"]
+}

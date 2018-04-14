@@ -1,0 +1,66 @@
+digraph SENTENCE_2458 {
+	graph [label="При этом кадр из метрополитена снят так, чтоб не было видно общего плана станции метро, а оно в Пхеньяне очень красивое."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кадр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="метрополитена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чтоб
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="плана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="станции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="метро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Пхеньяне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="красивое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 10 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="примыкат"]
+			14 -> 15 [label="_1_компл"]
+			17 -> 22 [label="соч_союзн"]
+			2 -> 3 [label="атриб"]
+			0 -> 1 [label="предл"]
+			6 -> 8
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="присвяз"]
+			10 -> 17 [label="сент_соч"]
+			22 -> 18 [label="предик"]
+			22 -> 19 [label="обст"]
+			22 -> 21 [label="огранич"]
+			3 -> 4 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+}

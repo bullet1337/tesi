@@ -1,0 +1,57 @@
+digraph SENTENCE_217 {
+	graph [label="Как выяснилось, из-за потепления грунтовые воды стали проникать в шахту, где когда-то проводились горные выработки, сейчас шахта бесхозная."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выяснилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="потепления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="грунтовые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проникать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="шахту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="когда-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проводились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="горные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выработки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="шахта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="бесхозная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 14 [label="релят"]
+			9 -> 10 [label="предл"]
+			7 -> 0 [label="вводн"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			14 -> 12 [label="_2_компл"]
+			14 -> 13 [label="обст"]
+			14 -> 16 [label="предик"]
+			3 -> 4 [label="предл"]
+			6 -> 5 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+			16 -> 20 [label="опред"]
+			20 -> 18 [label="обст"]
+			20 -> 19 [label="предик"]
+			0 -> 1 [label="сравн_союзн"]
+			1 -> 3 [label="обст"]
+}

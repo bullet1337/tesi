@@ -1,0 +1,48 @@
+digraph SENTENCE_267 {
+	graph [label="В «Танцующей…» Триер производит культ матери, обожествляет свою героиню и возносит её к глубокому самопожертвованию."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Танцующей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="производит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="культ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обожествляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="героиню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="возносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="глубокому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="самопожертвованию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			5 -> 2 [label="опред"]
+			12 -> 11 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="_2_компл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="сочин"]
+			6 -> 0 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="сочин"]
+			16 -> 18 [label="предл"]
+			0 -> 5 [label="предл"]
+}

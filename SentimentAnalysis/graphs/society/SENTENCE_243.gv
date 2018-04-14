@@ -1,0 +1,33 @@
+digraph SENTENCE_243 {
+	graph [label="Есть штучные вещи — всякие \"хайпы\", \"джоб офферы\" и так далее."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="штучные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всякие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хайпы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="джоб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="офферы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			6 -> 10 [label="аппоз"]
+			6 -> 13 [label="сочин"]
+			2 -> 1 [label="опред"]
+			2 -> 6 [label="разъяснит"]
+			10 -> 11 [label="аппоз"]
+			0 -> 2 [label="предик"]
+			13 -> 15 [label="соч_союзн"]
+			15 -> 14
+}

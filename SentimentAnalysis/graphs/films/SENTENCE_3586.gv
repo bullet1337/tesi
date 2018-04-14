@@ -1,0 +1,42 @@
+digraph SENTENCE_3586 {
+	graph [label="Оценка 8,7 на кинопоиске, 22 место в списке лучших фильмов по версии сайта.. ."]
+	node [style=filled]
+		0 [label="Оценка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="8,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинопоиске
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="22
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="списке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="версии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сайта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			8 -> 10 [label="квазиагент"]
+			0 -> 1 [label="нум_аппоз"]
+			0 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="атриб"]
+			7 -> 8 [label="предл"]
+}

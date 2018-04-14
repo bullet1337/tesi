@@ -1,0 +1,57 @@
+digraph SENTENCE_4088 {
+	graph [label="Единственное, о чём я жалею, так это о зря потраченном времени (хронометраж «Лунного света» — 1 час 50 минут)."]
+	node [style=filled]
+		0 [label="Единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жалею
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="зря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="потраченном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хронометраж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Лунного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="50
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="релят"]
+			2 -> 3 [label="предл"]
+			8 -> 7 [label="огранич"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="опред"]
+			14 -> 0 [label="опред"]
+			14 -> 17 [label="квазиагент"]
+			21 -> 14 [label="предик"]
+			21 -> 20 [label="количест"]
+			21 -> 23 [label="аддит"]
+			23 -> 22 [label="количест"]
+			5 -> 2 [label="_3_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 9 [label="_1_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+}

@@ -1,0 +1,65 @@
+digraph SENTENCE_957 {
+	graph [label="Уже позднее, во время царствования Ивана Грозного, чтимый образ был перенесен из Коломны в Москву, где и находился в последующие столетия."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="позднее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="царствования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ивана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Грозного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="чтимый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="перенесен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Коломны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Москву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="находился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="последующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			21 -> 23 [label="предл"]
+			6 -> 7 [label="опред"]
+			7 -> 10 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			12 -> 13 [label="_3_компл"]
+			13 -> 14 [label="предл"]
+			23 -> 22 [label="опред"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="квазиагент"]
+			11 -> 1 [label="обст"]
+			11 -> 5 [label="предик"]
+			11 -> 12
+			11 -> 15 [label="обст"]
+			11 -> 20 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="предл"]
+			20 -> 18 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+}

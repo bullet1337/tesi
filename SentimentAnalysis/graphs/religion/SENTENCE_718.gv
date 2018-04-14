@@ -1,0 +1,36 @@
+digraph SENTENCE_718 {
+	graph [label="По словам создателя агентства, проект должен помочь мусульманам создавать крепкие семьи."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="создателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мусульманам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="создавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="крепкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="семьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="_2_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

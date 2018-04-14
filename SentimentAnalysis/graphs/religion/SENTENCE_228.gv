@@ -1,0 +1,75 @@
+digraph SENTENCE_228 {
+	graph [label="Из-за шумихи вокруг закрытия главной святыни христианства затерялась одна важная новость: правительство Израиля поддержало законопроект, запрещающий Иерусалимскому патриархату продавать землю частным или иностранным инвесторам."]
+	node [style=filled]
+		0 [label="Из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="шумихи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="закрытия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="святыни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="христианства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="затерялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="важная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="новость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="правительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Израиля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="поддержало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="законопроект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="запрещающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Иерусалимскому
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="патриархату
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="продавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="землю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="частным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="иностранным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="инвесторам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="_1_компл"]
+			17 -> 19 [label="_2_компл"]
+			17 -> 20 [label="_1_компл"]
+			10 -> 8 [label="количест"]
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="предл"]
+			22 -> 23 [label="сочин"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="релят"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 25 [label="_2_компл"]
+			23 -> 24 [label="соч_союзн"]
+			14 -> 0 [label="обст"]
+			14 -> 5 [label="_1_компл"]
+			14 -> 12 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			15 -> 17 [label="опред"]
+			1 -> 2 [label="атриб"]
+			25 -> 22 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 10 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+}

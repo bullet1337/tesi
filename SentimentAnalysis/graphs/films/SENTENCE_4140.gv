@@ -1,0 +1,24 @@
+digraph SENTENCE_4140 {
+	graph [label="Я абсолютно толерантна, насколько это вообще возможно."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="толерантна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="возможно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 7 [label="сент_соч"]
+			7 -> 4 [label="огранич"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+}

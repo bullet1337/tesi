@@ -1,0 +1,72 @@
+digraph SENTENCE_1031 {
+	graph [label="По словам режиссера, пьеса символиста Кроммелинка по жанру – довольно сложный материал, не столько прозаический, сколь поэтический, и здесь нужно было находить интересные неординарные ходы."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="символиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кроммелинка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жанру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сложный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="материал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="прозаический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сколь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="поэтический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="находить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="интересные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="неординарные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="ходы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			28 -> 26 [label="опред"]
+			28 -> 27 [label="опред"]
+			12 -> 11 [label="опред"]
+			19 -> 18 [label="огранич"]
+			19 -> 21 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			25 -> 28 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			16 -> 19 [label="сочин"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 7 [label="атриб"]
+			4 -> 12 [label="сочин"]
+			7 -> 8 [label="предл"]
+			21 -> 24 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			24 -> 22 [label="обст"]
+			24 -> 23 [label="присвяз"]
+			24 -> 25 [label="предик"]
+			15 -> 14 [label="огранич"]
+			5 -> 6 [label="аппоз"]
+}

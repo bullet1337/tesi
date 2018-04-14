@@ -1,0 +1,48 @@
+digraph SENTENCE_3854 {
+	graph [label="И вот я радостно запускаю киноленту на языке оригинала с субтитрами, прямо как завещал Кубрик."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="радостно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запускаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="киноленту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оригинала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="субтитрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прямо
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="завещал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Кубрик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 4 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			6 -> 7 [label="предл"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сравн_союзн"]
+			14 -> 15 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			4 -> 1 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			4 -> 13 [label="сравнит"]
+			7 -> 8 [label="_1_компл"]
+}

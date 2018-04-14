@@ -1,0 +1,33 @@
+digraph SENTENCE_3708 {
+	graph [label="В-основном, я хочу сказать о результате, а не об инструментах."]
+	node [style=filled]
+		0 [label="В-основном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="инструментах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_3_компл"]
+			4 -> 8 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 10 [label="соч_союзн"]
+			5 -> 6 [label="предл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предл"]
+}

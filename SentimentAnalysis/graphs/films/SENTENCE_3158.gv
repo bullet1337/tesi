@@ -1,0 +1,23 @@
+digraph SENTENCE_3158 {
+	graph [label="А что я получил от «Горбатой горы»?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Горбатой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="горы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="подч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			4 -> 7 [label="предл"]
+			7 -> 6 [label="опред"]
+}

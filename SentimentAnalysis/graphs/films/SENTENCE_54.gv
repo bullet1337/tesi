@@ -1,0 +1,21 @@
+digraph SENTENCE_54 {
+	graph [label="Но главная тема — ода Женщине, Матери."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Женщине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Матери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="сочин"]
+			5 -> 7 [label="сочин"]
+			2 -> 1 [label="опред"]
+}

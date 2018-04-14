@@ -1,0 +1,36 @@
+digraph SENTENCE_86 {
+	graph [label="Помогли сирийской армии разгромить крупные, хорошо оснащенные террористические группировки\", — сказал президент."]
+	node [style=filled]
+		0 [label="Помогли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сирийской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разгромить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="крупные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оснащенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="террористические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="группировки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			6 -> 7 [label="предик"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="_2_компл"]
+			0 -> 6 [label="примыкат"]
+			0 -> 9 [label="_1_компл"]
+			0 -> 13 [label="вводн"]
+			13 -> 14 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+}

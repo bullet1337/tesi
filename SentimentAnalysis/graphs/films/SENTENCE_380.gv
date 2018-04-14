@@ -1,0 +1,48 @@
+digraph SENTENCE_380 {
+	graph [label="У Триера получился довольно своеобразный мюзикл, но это слово, на мой взгляд, не совсем подходит."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="получился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своеобразный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="подходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 17 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			17 -> 9 [label="предик"]
+			17 -> 11 [label="_2_компл"]
+			17 -> 16 [label="огранич"]
+			0 -> 1 [label="предл"]
+			4 -> 3 [label="огранич"]
+			2 -> 0 [label="_2_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 7 [label="сент_соч"]
+			16 -> 15 [label="огранич"]
+			9 -> 8 [label="предик"]
+}

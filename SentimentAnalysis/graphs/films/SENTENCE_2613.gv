@@ -1,0 +1,69 @@
+digraph SENTENCE_2613 {
+	graph [label="Томные взгляды Гослинга пытались создать какой-то особенный пласт смысла, но невозможно говорить о дополнительных смыслах, если в фильме хромает даже основной сюжет."]
+	node [style=filled]
+		0 [label="Томные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взгляды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гослинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="пытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="особенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пласт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смысла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дополнительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смыслах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="хромает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="основной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 10 [label="сент_соч"]
+			4 -> 7 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="опред"]
+			17 -> 20 [label="подч_союзн"]
+			22 -> 21 [label="огранич"]
+			20 -> 18 [label="обст"]
+			20 -> 23 [label="предик"]
+			23 -> 22 [label="опред"]
+			18 -> 19 [label="предл"]
+			11 -> 12 [label="предик"]
+			12 -> 13 [label="_3_компл"]
+			12 -> 17 [label="обст"]
+			10 -> 11 [label="соч_союзн"]
+}

@@ -1,0 +1,22 @@
+digraph SENTENCE_2306 {
+	graph [label="У нее нет ни отца ни матери."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			4 -> 5 [label="сочин"]
+			2 -> 0 [label="_1_компл"]
+}

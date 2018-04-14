@@ -1,0 +1,18 @@
+digraph SENTENCE_1425 {
+	graph [label="И вы все поймете сами."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поймете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="суб_копр"]
+}

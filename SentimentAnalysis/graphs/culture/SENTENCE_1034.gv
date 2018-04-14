@@ -1,0 +1,48 @@
+digraph SENTENCE_1034 {
+	graph [label="По мнению режиссера, эта пьеса достаточно актуальна сегодня, потому что психический мир человека постепенно разрушается."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="актуальна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="психический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="постепенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разрушается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 16 [label="подч_союзн"]
+			13 -> 12 [label="опред"]
+			5 -> 4 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="обст"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 11 [label="эксплет"]
+			16 -> 13 [label="_1_компл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="обст"]
+}

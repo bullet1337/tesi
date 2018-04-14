@@ -1,0 +1,30 @@
+digraph SENTENCE_1367 {
+	graph [label="Но кажется, что она легко могла бы его избежать."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="легко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="избежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="аналит"]
+			6 -> 9 [label="_1_компл"]
+			9 -> 8 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			0 -> 1 [label="соч_союзн"]
+			3 -> 6 [label="подч_союзн"]
+}

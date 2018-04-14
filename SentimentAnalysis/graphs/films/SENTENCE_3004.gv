@@ -1,0 +1,36 @@
+digraph SENTENCE_3004 {
+	graph [label="Рейтинги зашкаливают, гомосексуалисты по всему миру устраивают парад в честь молодомужов."]
+	node [style=filled]
+		0 [label="Рейтинги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зашкаливают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="гомосексуалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="миру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="устраивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="парад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="молодомужов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="атриб"]
+			7 -> 3 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="обст"]
+			7 -> 11 [label="разъяснит"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			9 -> 10 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="сент_соч"]
+}

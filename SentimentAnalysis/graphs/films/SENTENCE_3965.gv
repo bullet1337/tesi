@@ -1,0 +1,18 @@
+digraph SENTENCE_3965 {
+	graph [label="Ибо слишком уж все безрадостно."]
+	node [style=filled]
+		0 [label="Ибо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="безрадостно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			0 -> 4 [label="подч_союзн"]
+			4 -> 1 [label="огранич"]
+			4 -> 3 [label="предик"]
+}

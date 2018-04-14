@@ -1,0 +1,66 @@
+digraph SENTENCE_382 {
+	graph [label="Скорее режиссёр решил разбавить эту сильную драму неземным голосом Бьорк, слушая который просто отключаешься от реальности и погружаешься в него полностью."]
+	node [style=filled]
+		0 [label="Скорее
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="режиссёр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разбавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="драму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="неземным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="голосом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="слушая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отключаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="реальности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="погружаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 8 [label="_2_компл"]
+			2 -> 0 [label="вводн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 14 [label="изъясн"]
+			15 -> 16 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			19 -> 20 [label="предл"]
+			17 -> 18 [label="соч_союзн"]
+			14 -> 9 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="сочин"]
+}

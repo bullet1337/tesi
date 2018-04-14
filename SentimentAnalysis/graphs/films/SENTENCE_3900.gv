@@ -1,0 +1,21 @@
+digraph SENTENCE_3900 {
+	graph [label="Убийство, истязание, уничтожение — квинтэссенция каждого дня."]
+	node [style=filled]
+		0 [label="Убийство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="истязание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уничтожение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="квинтэссенция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каждого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="квазиагент"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 4 [label="аппоз"]
+}

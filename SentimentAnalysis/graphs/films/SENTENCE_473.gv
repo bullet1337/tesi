@@ -1,0 +1,33 @@
+digraph SENTENCE_473 {
+	graph [label="Она жестока по отношению к своему сыну, единственному родному человеку."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жестока
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отношению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="единственному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="родному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человеку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 10 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="атриб"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+}

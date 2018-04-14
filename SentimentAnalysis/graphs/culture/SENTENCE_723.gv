@@ -1,0 +1,57 @@
+digraph SENTENCE_723 {
+	graph [label="В Кремле прокомментировали слова актера Алексея Серебрякова о том, что национальная идея России заключается \"в силе, наглости и хамстве\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Кремле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="прокомментировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Алексея Серебрякова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="национальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="идея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="заключается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="силе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="наглости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="хамстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			13 -> 11 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			13 -> 18 [label="_2_компл"]
+			18 -> 19 [label="сочин"]
+			7 -> 9 [label="эксплет"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			0 -> 1 [label="предл"]
+			9 -> 13 [label="подч_союзн"]
+			3 -> 4 [label="аппоз"]
+			15 -> 16 [label="предл"]
+			4 -> 5 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			19 -> 20 [label="соч_союзн"]
+}

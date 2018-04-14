@@ -1,0 +1,66 @@
+digraph SENTENCE_896 {
+	graph [label="Переменная облачность без существенных осадков и до 14 градусов мороза ожидается в Москве во вторник, сообщили РИА Новости в погодном центре \"Фобос\"."]
+	node [style=filled]
+		0 [label="Переменная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="облачность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="существенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="осадков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мороза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вторник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="погодном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Фобос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="предл"]
+			10 -> 6 [label="обст"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="обст"]
+			18 -> 20 [label="предл"]
+			16 -> 1 [label="предик"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 18 [label="обст"]
+			13 -> 14 [label="предл"]
+			4 -> 3 [label="опред"]
+			5 -> 10 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 5 [label="сочин"]
+			2 -> 4 [label="предл"]
+			20 -> 19 [label="опред"]
+			20 -> 22 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="квазиагент"]
+}

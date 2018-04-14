@@ -1,0 +1,42 @@
+digraph SENTENCE_3862 {
+	graph [label="Малкольм МакДауэлл, играющий гг, в момент съемок был в два раза старше своего персонажа."]
+	node [style=filled]
+		0 [label="Малкольм МакДауэлл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="играющий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="гг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="съемок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="старше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="персонажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			9 -> 11 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 8 [label="сент_соч"]
+			11 -> 10 [label="количест"]
+			8 -> 5 [label="обст"]
+			8 -> 12 [label="присвяз"]
+			6 -> 7 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			12 -> 9 [label="огранич"]
+			12 -> 14 [label="сравнит"]
+}

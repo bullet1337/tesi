@@ -1,0 +1,36 @@
+digraph SENTENCE_4232 {
+	graph [label="Такие паузы оправданны, когда есть атмосфера, попытка что-то дополнительно донести, проникнуться."]
+	node [style=filled]
+		0 [label="Такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="паузы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оправданны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="атмосфера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попытка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дополнительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="донести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="проникнуться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="_1_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="_3_компл"]
+			5 -> 6 [label="предик"]
+			4 -> 5 [label="подч_союзн"]
+			8 -> 11 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+			2 -> 8 [label="разъяснит"]
+			1 -> 0 [label="опред"]
+}

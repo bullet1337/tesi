@@ -1,0 +1,39 @@
+digraph SENTENCE_714 {
+	graph [label="Первое что пришло в голову — почему она не положила деньги в банк?"]
+	node [style=filled]
+		0 [label="Первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пришло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="голову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="положила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="банк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 6 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="_2_компл"]
+			0 -> 2 [label="разъяснит"]
+			11 -> 12 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 9 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+}

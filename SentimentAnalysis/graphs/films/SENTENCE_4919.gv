@@ -1,0 +1,48 @@
+digraph SENTENCE_4919 {
+	graph [label="Она отражает сугубо мнение ее автора о просмотренном фильме и не указывает зрителю как поступать."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сугубо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="автора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просмотренном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="указывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="поступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			13 -> 14 [label="сравн_союзн"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 13 [label="сравнит"]
+			5 -> 4 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="квазиагент"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 9 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+}

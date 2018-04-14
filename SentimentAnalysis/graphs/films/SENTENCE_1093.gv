@@ -1,0 +1,54 @@
+digraph SENTENCE_1093 {
+	graph [label="А ведь люди до сих пор помнят тот эпизод когда Леонардо ДиКаприо пожертовал собой, лишь бы спасти Кейт Уинслет."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помнят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эпизод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="когда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Леонардо ДиКаприо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="пожертовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="спасти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Кейт Уинслет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			16 -> 15 [label="аналит"]
+			16 -> 17 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12
+			11 -> 16 [label="_1_компл"]
+			0 -> 6 [label="соч_союзн"]
+			6 -> 2 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			15 -> 14 [label="огранич"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="релят"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="атриб"]
+}

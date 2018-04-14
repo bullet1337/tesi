@@ -1,0 +1,75 @@
+digraph SENTENCE_83 {
+	graph [label="После просмотра в горле стоял неприятный ком, а сердце казалось было сковано железной проволокой, так ныло в груди, настолько тяжелым был для меня фильм."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="горле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стоял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неприятный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сковано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="железной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проволокой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ныло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="груди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="тяжелым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="предл"]
+			12 -> 14 [label="агент"]
+			8 -> 11 [label="соч_союзн"]
+			22 -> 21 [label="огранич"]
+			23 -> 24 [label="обст"]
+			23 -> 26 [label="предик"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="вводн"]
+			11 -> 12
+			14 -> 13 [label="опред"]
+			17 -> 16 [label="обст"]
+			17 -> 18 [label="обст"]
+			18 -> 19 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="предик"]
+			4 -> 8 [label="сент_соч"]
+			4 -> 17 [label="вводн"]
+			4 -> 23 [label="сент_соч"]
+			24 -> 25 [label="предл"]
+			1 -> 2 [label="атриб"]
+			6 -> 5 [label="опред"]
+			19 -> 22 [label="опред"]
+}

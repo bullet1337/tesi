@@ -1,0 +1,42 @@
+digraph SENTENCE_1481 {
+	graph [label="Так вот именно здесь предоставляется та возможность, о которой говорилось раннее — мечты Сельмы."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="предоставляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="говорилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раннее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 8 [label="_3_компл"]
+			10 -> 13 [label="предик"]
+			8 -> 9 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="предик"]
+			4 -> 10 [label="сент_соч"]
+			0 -> 1 [label="огранич"]
+			6 -> 5 [label="опред"]
+}

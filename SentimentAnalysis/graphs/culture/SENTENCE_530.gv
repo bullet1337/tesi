@@ -1,0 +1,60 @@
+digraph SENTENCE_530 {
+	graph [label="Американский хип-хоп исполнитель Кендрик Ламар получил награду как лучший международный исполнитель, в номинации \"лучшая международная исполнительница\" победила новозеландская певица Lorde."]
+	node [style=filled]
+		0 [label="Американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хип-хоп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кендрик Ламар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="награду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="исполнитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="номинации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лучшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="международная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="исполнительница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="победила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="новозеландская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Lorde
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="аппоз"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 18 [label="сочин"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			12 -> 16 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			5 -> 6 [label="сравнит"]
+			18 -> 20 [label="предик"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="аппоз"]
+			6 -> 9 [label="сравн_союзн"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			11 -> 12 [label="предл"]
+}

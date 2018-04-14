@@ -1,0 +1,21 @@
+digraph SENTENCE_2214 {
+	graph [label="Тарковский этим фильмом меня просто шокировал."]
+	node [style=filled]
+		0 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шокировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="релят"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+}

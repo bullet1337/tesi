@@ -1,0 +1,24 @@
+digraph SENTENCE_190 {
+	graph [label="На вечере прозвучат произведения Баха, Равеля, Пьяцоллы."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вечере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прозвучат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="произведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Баха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Равеля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Пьяцоллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="квазиагент"]
+			4 -> 6 [label="аппоз"]
+			4 -> 8 [label="об_аппоз"]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+}

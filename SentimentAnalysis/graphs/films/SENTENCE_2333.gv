@@ -1,0 +1,48 @@
+digraph SENTENCE_2333 {
+	graph [label="Изысканная, аристократичная, утонченно-красивая, она, конечно, довольно странно смотрелась в рабочей одежде среди станков и машин."]
+	node [style=filled]
+		0 [label="Изысканная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="аристократичная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="утонченно-красивая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотрелась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рабочей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одежде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="станков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="машин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="опред"]
+			4 -> 2 [label="опред"]
+			4 -> 12 [label="релят"]
+			13 -> 15 [label="предл"]
+			11 -> 8 [label="вводн"]
+			11 -> 10 [label="огранич"]
+			15 -> 14 [label="опред"]
+			18 -> 19 [label="соч_союзн"]
+			12 -> 6 [label="предик"]
+			12 -> 11 [label="вводн"]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="_1_компл"]
+			17 -> 18 [label="сочин"]
+			16 -> 17 [label="предл"]
+}

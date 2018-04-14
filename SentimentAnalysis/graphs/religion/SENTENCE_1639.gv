@@ -1,0 +1,75 @@
+digraph SENTENCE_1639 {
+	graph [label="Еще апостол Павел писал: \"Как прежде мы сказали, так и теперь еще говорю: кто благовествует вам не то, что вы приняли, да будет анафема\"."]
+	node [style=filled]
+		0 [label="Еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="апостол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Павел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="писал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Как
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="прежде
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="говорю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="благовествует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="анафема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 25 [label="подч_союзн"]
+			12 -> 15 [label="соч_союзн"]
+			9 -> 6 [label="обст"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="обст"]
+			11 -> 12 [label="сочин"]
+			27 -> 28 [label="соч_союзн"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 21 [label="_1_компл"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="_1_компл"]
+			28 -> 29 [label="предик"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="аппоз"]
+			21 -> 20 [label="огранич"]
+			21 -> 23 [label="эксплет"]
+			3 -> 1 [label="предик"]
+			3 -> 9 [label="_1_компл"]
+			25 -> 24 [label="предик"]
+			25 -> 27 [label="сочин"]
+}

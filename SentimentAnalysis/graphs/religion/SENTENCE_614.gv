@@ -1,0 +1,48 @@
+digraph SENTENCE_614 {
+	graph [label="На двенадцатый день из тела Будды вышел золотой луч, который осветил царства трех тысяч миров."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="двенадцатый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Будды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вышел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="золотой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="луч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="осветил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="царства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="миров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="количест"]
+			14 -> 15 [label="квазиагент"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 8 [label="предик"]
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="релят"]
+			8 -> 14 [label="сочин"]
+			0 -> 2 [label="предл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_1215 {
+	graph [label="И, наверно, главная идея в том, что мы уже такие, какие есть, и неплохо бы немедленно быть счастливыми\", — добавил Леонид Барац."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наверно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="идея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="какие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="неплохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="немедленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="счастливыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Леонид Барац
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			5 -> 2 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 26 [label="релят"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 15 [label="разъяснит"]
+			7 -> 9 [label="эксплет"]
+			26 -> 6 [label="_2_компл"]
+			26 -> 27 [label="предик"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="сочин"]
+			17 -> 21 [label="соч_союзн"]
+			0 -> 5 [label="соч_союзн"]
+			21 -> 18 [label="обст"]
+			21 -> 19 [label="аналит"]
+			21 -> 20 [label="обст"]
+			21 -> 22 [label="присвяз"]
+			9 -> 12 [label="подч_союзн"]
+}

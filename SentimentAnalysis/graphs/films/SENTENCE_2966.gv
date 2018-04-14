@@ -1,0 +1,39 @@
+digraph SENTENCE_2966 {
+	graph [label="Я же кроме как животного желания, в их действиях, ничего не увидела."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="животного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="желания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="действиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="предл"]
+			2 -> 7 [label="сент_соч"]
+			2 -> 13 [label="разъяснит"]
+			0 -> 1 [label="огранич"]
+			3 -> 5 [label="сравн_союзн"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+}

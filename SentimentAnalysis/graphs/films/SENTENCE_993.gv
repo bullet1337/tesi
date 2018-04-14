@@ -1,0 +1,18 @@
+digraph SENTENCE_993 {
+	graph [label="Вообще фильм снят очень искренне."]
+	node [style=filled]
+		0 [label="Вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+			4 -> 3 [label="огранич"]
+}

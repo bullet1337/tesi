@@ -1,0 +1,42 @@
+digraph SENTENCE_3227 {
+	graph [label="Именно поэтому фильм хотя бы не разваливается на куски как иная михалковская поделка."]
+	node [style=filled]
+		0 [label="Именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разваливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="куски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="иная
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="михалковская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="поделка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="предл"]
+			9 -> 12 [label="сравн_союзн"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			6 -> 1 [label="обст"]
+			6 -> 2 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="аналит"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="сравнит"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_4840 {
+	graph [label="Самое слабое место этого фильма- логика(впрочем как и многих ему подобных)."]
+	node [style=filled]
+		0 [label="Самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слабое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="логика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="впрочем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="многих
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="сочин"]
+			13 -> 12 [label="_1_компл"]
+			11 -> 13 [label="опред"]
+			6 -> 2 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+}

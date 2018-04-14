@@ -1,0 +1,54 @@
+digraph SENTENCE_1190 {
+	graph [label="Другие участники церемонии под Гимн России в исполнении военного оркестра возложили к Могиле Неизвестного солдата красные гвоздики."]
+	node [style=filled]
+		0 [label="Другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гимн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="военного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оркестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возложили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Могиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Неизвестного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="солдата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="красные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="гвоздики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			14 -> 13 [label="опред"]
+			6 -> 7 [label="предл"]
+			10 -> 1 [label="предик"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 14 [label="_1_компл"]
+			10 -> 16 [label="разъяснит"]
+			4 -> 5 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="атриб"]
+			1 -> 6 [label="атриб"]
+			9 -> 8 [label="опред"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,44 @@
+digraph SENTENCE_961 {
+	graph [label="Профессия главной героини пьесы — \"позвоночница\", задача которой создавать случайные связи посредством ошибочных телефонных соединений."]
+	node [style=filled]
+		0 [label="Профессия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пьесы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="позвоночница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="задача
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="создавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="случайные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="посредством
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ошибочных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="телефонных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="соединений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			6 -> 0 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 14 [label="обст"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 11 [label="предик"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			14 -> 17 [label="предл"]
+			2 -> 1 [label="опред"]
+}

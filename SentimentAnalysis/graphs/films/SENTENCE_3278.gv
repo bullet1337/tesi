@@ -1,0 +1,67 @@
+digraph SENTENCE_3278 {
+	graph [label="3 из 10
+После премьеры «Метро» мне казалось, что посредственнее снять кино в России уже не выйдет, хотя бы в этом году."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="После
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="премьеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Метро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="посредственнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="выйдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="предик"]
+			9 -> 3 [label="обст"]
+			9 -> 8 [label="_2_компл"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 19 [label="сент_соч"]
+			11 -> 12 [label="подч_союзн"]
+			14 -> 15 [label="атриб"]
+			0 -> 1 [label="электив"]
+			15 -> 16 [label="предл"]
+			3 -> 4 [label="предл"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			25 -> 24 [label="опред"]
+			23 -> 25 [label="предл"]
+			1 -> 2 [label="предл"]
+			12 -> 13 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+}

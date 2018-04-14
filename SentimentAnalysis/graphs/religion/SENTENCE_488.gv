@@ -1,0 +1,63 @@
+digraph SENTENCE_488 {
+	graph [label="Большая часть святынь была разрушена в ходе боевых действий в Алеппо и Хомсе, также в Дамаске и его в окрестностях."]
+	node [style=filled]
+		0 [label="Большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="святынь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разрушена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="боевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="действий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Алеппо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Хомсе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Дамаске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="окрестностях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			17 -> 19 [label="соч_союзн"]
+			11 -> 12 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			4 -> 5 [label="обст"]
+			4 -> 9 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 4
+			3 -> 15 [label="обст"]
+			3 -> 17 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="предл"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="сочин"]
+			19 -> 18 [label="предик"]
+			19 -> 20 [label="предл"]
+}

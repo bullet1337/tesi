@@ -1,0 +1,21 @@
+digraph SENTENCE_972 {
+	graph [label="Об этом сообщили в пресс-службе театра."]
+	node [style=filled]
+		0 [label="Об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 0 [label="_3_компл"]
+			2 -> 3 [label="обст"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_1531 {
+	graph [label="\"Не было случая, чтобы наш народ не объединился, когда стране угрожает опасность\", — отметил Кончаловский."]
+	node [style=filled]
+		1 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="случая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="объединился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="угрожает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="опасность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Кончаловский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="_1_компл"]
+			13 -> 12 [label="_2_компл"]
+			13 -> 14 [label="предик"]
+			11 -> 13 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 18 [label="вводн"]
+			7 -> 6 [label="опред"]
+			5 -> 9 [label="подч_союзн"]
+			18 -> 19 [label="предик"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="обст"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_848 {
+	graph [label="Так искренне и правдоподобно передать душевные страдания Сельмы смогла бы далеко не каждая."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правдоподобно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="передать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="душевные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="страдания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="каждая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предик"]
+			2 -> 3 [label="соч_союзн"]
+			8 -> 1 [label="обст"]
+			8 -> 9 [label="аналит"]
+			8 -> 12 [label="предик"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+}

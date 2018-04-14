@@ -1,0 +1,53 @@
+digraph SENTENCE_2662 {
+	graph [label="Ничего странного, ведь если фильм хороший, то он наверняка объективно хороший как для одних, так и для других."]
+	node [style=filled]
+		0 [label="Ничего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="странного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наверняка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="объективно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одних
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="сравнит"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="подч_союзн"]
+			4 -> 8 [label="соотнос"]
+			13 -> 14 [label="сравн_союзн"]
+			1 -> 0 [label="огранич"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="предл"]
+			6 -> 5 [label="предик"]
+			9 -> 12 [label="оп_опред"]
+}

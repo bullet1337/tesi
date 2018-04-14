@@ -1,0 +1,45 @@
+digraph SENTENCE_2601 {
+	graph [label="Начинал он с усердной и ответственной съемки, но интерес быстро пропал и парня понесло!"]
+	node [style=filled]
+		0 [label="Начинал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="усердной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ответственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="съемки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="интерес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="быстро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пропал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="парня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="понесло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="сочин"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="сент_соч"]
+			4 -> 5 [label="соч_союзн"]
+			2 -> 6 [label="предл"]
+			6 -> 3 [label="опред"]
+			0 -> 1 [label="предик"]
+			0 -> 2 [label="обст"]
+			0 -> 8 [label="сент_соч"]
+			8 -> 11 [label="соч_союзн"]
+			14 -> 13 [label="_1_компл"]
+			12 -> 14 [label="соч_союзн"]
+}

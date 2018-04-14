@@ -1,0 +1,39 @@
+digraph SENTENCE_963 {
+	graph [label="Это один из фильмов, после просмотра которых уже невозможно жить, как прежде."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прежде
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="предик"]
+			10 -> 12 [label="сравнит"]
+			6 -> 7 [label="_1_компл"]
+			12 -> 13 [label="сравн_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="электив"]
+			1 -> 5 [label="обст"]
+			1 -> 9 [label="сент_соч"]
+}

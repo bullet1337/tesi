@@ -1,0 +1,69 @@
+digraph SENTENCE_27 {
+	graph [label="Наличие специализированного борта, оснащённого самым современным оборудованием, позволит значительно повысить качество оказания экстренной помощи камчатцам\", — приводятся в сообщении слова губернатора региона Владимира Илюхина."]
+	node [style=filled]
+		0 [label="Наличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="специализированного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="борта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оснащённого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="современным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оборудованием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="позволит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="значительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="повысить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="качество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оказания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="экстренной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="камчатцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="приводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="губернатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Владимира Илюхина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			20 -> 16 [label="_1_компл"]
+			20 -> 21 [label="обст"]
+			20 -> 23 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			15 -> 14 [label="опред"]
+			13 -> 15 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			6 -> 5 [label="опред"]
+			4 -> 7 [label="_2_компл"]
+			9 -> 0 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			0 -> 2 [label="квазиагент"]
+			23 -> 24 [label="атриб"]
+			23 -> 26 [label="аппоз"]
+			24 -> 25 [label="аппоз"]
+			12 -> 13 [label="квазиагент"]
+			12 -> 20 [label="релят"]
+			21 -> 22 [label="предл"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+}

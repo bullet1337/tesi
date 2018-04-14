@@ -1,0 +1,27 @@
+digraph SENTENCE_725 {
+	graph [label="Скандальные слова Серебряков произнес в интервью журналисту Юрию Дудю."]
+	node [style=filled]
+		0 [label="Скандальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Серебряков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="произнес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="журналисту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Юрию Дудю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1032 {
+	graph [label="В общем и целом, фильм воистину очень красивый!"]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="целом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="воистину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="красивый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="сочин"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			5 -> 0 [label="обст"]
+			5 -> 8 [label="сент_соч"]
+			8 -> 6 [label="вводн"]
+			8 -> 7 [label="огранич"]
+}

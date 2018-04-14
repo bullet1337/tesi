@@ -1,0 +1,48 @@
+digraph SENTENCE_1226 {
+	graph [label="Отец Виктор уточнил, что Масленица – это второе крупное благотворительное мероприятие, которое его приход проводит в посольстве."]
+	node [style=filled]
+		0 [label="Отец Виктор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Масленица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крупное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="благотворительное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="приход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="проводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="посольстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="опред"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 15 [label="релят"]
+			3 -> 10 [label="подч_союзн"]
+			14 -> 13 [label="квазиагент"]
+			16 -> 17 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 4 [label="пролепт"]
+			15 -> 12 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="обст"]
+}

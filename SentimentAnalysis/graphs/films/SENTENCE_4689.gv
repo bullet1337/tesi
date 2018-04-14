@@ -1,0 +1,39 @@
+digraph SENTENCE_4689 {
+	graph [label="Тот самый Пряник, который лет пять-шесть назад изнасиловал мой мозг своими «Монстрами»."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Пряник
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пять-шесть
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="изнасиловал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мозг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Монстрами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="опред"]
+			13 -> 11 [label="опред"]
+			7 -> 5 [label="предл"]
+			2 -> 0 [label="опред"]
+			10 -> 9 [label="опред"]
+			5 -> 6 [label="аппрокс_колич"]
+			8 -> 2 [label="_1_компл"]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 10 [label="предик"]
+			8 -> 13 [label="_2_компл"]
+}

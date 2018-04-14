@@ -1,0 +1,45 @@
+digraph SENTENCE_2040 {
+	graph [label="Но все они страшно далеки от натуры и прежде всего от природы своего «Я»."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="страшно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="далеки
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="натуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="природы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Я
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="сочин"]
+			10 -> 11 [label="предл"]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 10 [label="_2_компл"]
+			0 -> 4 [label="соч_союзн"]
+			14 -> 12 [label="опред"]
+			11 -> 14 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+}

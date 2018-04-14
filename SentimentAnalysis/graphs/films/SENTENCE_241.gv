@@ -1,0 +1,57 @@
+digraph SENTENCE_241 {
+	graph [label="Она слишком хотела его, чтобы позволить ему слепнуть, к тому же она сама знает сполна, что такое темнота."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="позволить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слепнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сполна
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="темнота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="огранич"]
+			18 -> 19 [label="опред"]
+			18 -> 20 [label="предик"]
+			5 -> 6 [label="инф_союзн"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 8 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 15 [label="разъяснит"]
+			15 -> 10 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="суб_копр"]
+			15 -> 16 [label="обст"]
+			15 -> 18 [label="_1_компл"]
+}

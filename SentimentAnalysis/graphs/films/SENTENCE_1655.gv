@@ -1,0 +1,36 @@
+digraph SENTENCE_1655 {
+	graph [label="Эта клятва станет решающей, ведь сердце любящей матери никогда не предаст!"]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="клятва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="решающей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любящей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предаст
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 6 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="огранич"]
+			5 -> 11 [label="подч_союзн"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 5 [label="обст"]
+			6 -> 8 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+}

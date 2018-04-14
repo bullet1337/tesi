@@ -1,0 +1,69 @@
+digraph SENTENCE_536 {
+	graph [label="Лента рассказывает о нескольких днях из жизни советского писателя Сергея Довлатова и его друзей — художников, поэтов и музыкантов, которых не признавала советская власть."]
+	node [style=filled]
+		0 [label="Лента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="днях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сергея Довлатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="художников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="поэтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="музыкантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="признавала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="советская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="власть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			8 -> 10 [label="сочин"]
+			6 -> 8 [label="квазиагент"]
+			17 -> 18 [label="соч_союзн"]
+			10 -> 12 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			1 -> 22 [label="_1_компл"]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="атриб"]
+			22 -> 20 [label="_1_компл"]
+			22 -> 21 [label="огранич"]
+			22 -> 24 [label="предик"]
+			24 -> 23 [label="опред"]
+			5 -> 6 [label="предл"]
+			2 -> 4 [label="предл"]
+			16 -> 17 [label="сочин"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 14 [label="сочин"]
+			14 -> 16 [label="сочин"]
+}

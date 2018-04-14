@@ -1,0 +1,63 @@
+digraph SENTENCE_912 {
+	graph [label="\"В 2010 году, когда бы создан Северо-Кавказский федеральный округ, меры после этого были предприняты, и они принесли достаточно ощутимые результаты."]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2010
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Северо-Кавказский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="федеральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="округ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="меры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="предприняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="принесли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ощутимые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="результаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="обст"]
+			15 -> 16
+			15 -> 18 [label="сент_соч"]
+			20 -> 19 [label="предик"]
+			20 -> 23 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			18 -> 20 [label="соч_союзн"]
+			7 -> 1 [label="обст"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="аналит"]
+			7 -> 10 [label="предик"]
+			13 -> 14 [label="предл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 15 [label="релят"]
+			22 -> 21 [label="огранич"]
+}

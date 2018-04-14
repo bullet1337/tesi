@@ -1,0 +1,36 @@
+digraph SENTENCE_248 {
+	graph [label="Некоторая изоляция страны приводит к тому, что иностранные слова постепенно вытесняются."]
+	node [style=filled]
+		0 [label="Некоторая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="изоляция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="иностранные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="постепенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вытесняются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			7 -> 11 [label="подч_союзн"]
+			5 -> 7 [label="эксплет"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+}

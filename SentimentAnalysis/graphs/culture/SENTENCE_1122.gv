@@ -1,0 +1,39 @@
+digraph SENTENCE_1122 {
+	graph [label="И это и есть разница между написанным и реальным человеком\", — добавил он."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="написанным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="реальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="присвяз"]
+			3 -> 13 [label="вводн"]
+			4 -> 5 [label="квазиагент"]
+			9 -> 6 [label="опред"]
+			9 -> 8 [label="опред"]
+			8 -> 7 [label="огранич"]
+			13 -> 14 [label="предик"]
+			0 -> 3 [label="соч_союзн"]
+}

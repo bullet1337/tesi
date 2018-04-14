@@ -1,0 +1,33 @@
+digraph SENTENCE_3062 {
+	graph [label="Поэтому только  1 из 10,  хотя и этого будет чересчур."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чересчур
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="обст"]
+			9 -> 2 [label="предик"]
+			9 -> 6 [label="огранич"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="электив"]
+			8 -> 7 [label="огранич"]
+			3 -> 4 [label="предл"]
+}

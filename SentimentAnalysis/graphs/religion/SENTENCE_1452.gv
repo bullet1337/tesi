@@ -1,0 +1,30 @@
+digraph SENTENCE_1452 {
+	graph [label="Подросток был исключен из школы из-за проблем с дисциплиной."]
+	node [style=filled]
+		0 [label="Подросток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исключен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проблем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дисциплиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="обст"]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			3 -> 4 [label="предл"]
+}

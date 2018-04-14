@@ -1,0 +1,60 @@
+digraph SENTENCE_149 {
+	graph [label="В спектакль войдут отрывки из воспоминаний, писем, статей, официальных документов, которые рассказывают о Горьком в различных сферах его деятельности."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="войдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отрывки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="воспоминаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="писем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="статей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="официальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="документов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рассказывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Горьком
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="различных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сферах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="деятельности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			18 -> 20 [label="предл"]
+			16 -> 17 [label="предл"]
+			16 -> 18 [label="сочин"]
+			12 -> 11 [label="опред"]
+			22 -> 21 [label="квазиагент"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_3_компл"]
+			20 -> 19 [label="опред"]
+			20 -> 22 [label="квазиагент"]
+			9 -> 12 [label="квазиагент"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 15 [label="изъясн"]
+			4 -> 5 [label="предл"]
+			3 -> 4 [label="атриб"]
+			3 -> 7 [label="сочин"]
+			7 -> 9 [label="сочин"]
+}

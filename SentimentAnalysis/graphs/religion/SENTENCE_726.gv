@@ -1,0 +1,48 @@
+digraph SENTENCE_726 {
+	graph [label="Как ни странно, \"обжорная\" масленичная неделя — это уже наполовину пост: есть мясо православным не полагается."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="странно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обжорная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="масленичная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наполовину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мясо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="православным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="полагается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			8 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+			15 -> 2 [label="вводн"]
+			15 -> 10 [label="предик"]
+			15 -> 12 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="предик"]
+			15 -> 19 [label="сент_соч"]
+			10 -> 8 [label="пролепт"]
+			16 -> 17 [label="опред"]
+			12 -> 11 [label="огранич"]
+}

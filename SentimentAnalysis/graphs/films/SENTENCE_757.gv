@@ -1,0 +1,26 @@
+digraph SENTENCE_757 {
+	graph [label="И тогда я показываю им «Танцующую в темноте»."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показываю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Танцующую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="обст"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+			0 -> 3 [label="соч_союзн"]
+}

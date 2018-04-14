@@ -1,0 +1,33 @@
+digraph SENTENCE_3506 {
+	graph [label="Поэтому я ждал подачу этого общеизвестного факта с особым шиком."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подачу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="общеизвестного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="факта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="особым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шиком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="_1_компл"]
+			3 -> 7 [label="_2_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+}

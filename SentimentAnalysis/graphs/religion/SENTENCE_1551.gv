@@ -1,0 +1,81 @@
+digraph SENTENCE_1551 {
+	graph [label="Папа Римский Павел VI, занимавший Апостольский престол с июня 1963 года по август 1978 года, будет канонизирован в этом году, объявил нынешний глава Римско-католической церкви Франциск."]
+	node [style=filled]
+		0 [label="Папа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Римский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Павел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="VI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="занимавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Апостольский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="престол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="июня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1963
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="август
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="1978
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="канонизирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="объявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нынешний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Римско-католической
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Франциск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			12 -> 13 [label="предл"]
+			17 -> 0 [label="предик"]
+			17 -> 12 [label="обст"]
+			17 -> 18
+			17 -> 23 [label="вводн"]
+			2 -> 3
+			11 -> 10 [label="опред"]
+			8 -> 9 [label="предл"]
+			9 -> 11 [label="атриб"]
+			25 -> 24 [label="опред"]
+			25 -> 27 [label="_1_компл"]
+			25 -> 28 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			18 -> 19 [label="обст"]
+			15 -> 14 [label="опред"]
+			21 -> 20 [label="опред"]
+			19 -> 21 [label="предл"]
+			13 -> 15 [label="атриб"]
+			27 -> 26 [label="опред"]
+			0 -> 1 [label="опред"]
+			0 -> 2 [label="аппоз"]
+			0 -> 5 [label="опред"]
+			23 -> 25 [label="предик"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_901 {
+	graph [label="Ранее певец и композитор, лидер группы \"Аквариум\" Борис Гребенщиков назвал сценарий к картине режиссера Кирилла Серебренникова о Викторе Цое \"ложью от начала до конца\"."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="певец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="композитор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лидер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Аквариум
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Борис Гребенщиков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Кирилла Серебренникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Викторе Цое
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="ложью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 22 [label="предл"]
+			21 -> 23 [label="соотнос"]
+			1 -> 2 [label="сочин"]
+			1 -> 6 [label="аппоз"]
+			1 -> 10 [label="об_аппоз"]
+			2 -> 3 [label="соч_союзн"]
+			3 -> 5 [label="аппоз"]
+			11 -> 0 [label="обст"]
+			11 -> 1 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			11 -> 17 [label="_1_несобст_компл"]
+			11 -> 20 [label="_2_компл"]
+			6 -> 8 [label="аппоз"]
+			23 -> 24 [label="предл"]
+			20 -> 21 [label="атриб"]
+			14 -> 15 [label="_1_компл"]
+			15 -> 16 [label="аппоз"]
+			17 -> 18 [label="предл"]
+			13 -> 14 [label="предл"]
+}

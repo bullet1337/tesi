@@ -1,0 +1,48 @@
+digraph SENTENCE_708 {
+	graph [label="Три проекта в рамках фестиваля представит известный режиссер Александр Огарев, недавно выпустивший спектакль \"Сюзанна\" в ШДИ."]
+	node [style=filled]
+		0 [label="Три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Александр Огарев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="недавно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выпустивший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сюзанна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ШДИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 16 [label="обст"]
+			3 -> 4 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			12 -> 14 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			7 -> 11 [label="опред"]
+			1 -> 0 [label="количест"]
+			16 -> 17 [label="предл"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+}

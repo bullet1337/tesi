@@ -1,0 +1,30 @@
+digraph SENTENCE_320 {
+	graph [label="Собеседник уточнил, что форум будет проходить 26-27 февраля."]
+	node [style=filled]
+		0 [label="Собеседник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="кратн"]
+			6 -> 10 [label="_1_компл"]
+			10 -> 7 [label="количест"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="аналит"]
+			3 -> 5 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+}

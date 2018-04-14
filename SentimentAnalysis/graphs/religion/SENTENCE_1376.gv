@@ -1,0 +1,30 @@
+digraph SENTENCE_1376 {
+	graph [label="Причем такие операции выполняются не врачами, а религиозными лидерами."]
+	node [style=filled]
+		0 [label="Причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="операции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выполняются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="врачами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="религиозными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лидерами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="сочин"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="агент"]
+			7 -> 9 [label="соч_союзн"]
+}

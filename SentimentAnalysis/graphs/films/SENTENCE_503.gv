@@ -1,0 +1,27 @@
+digraph SENTENCE_503 {
+	graph [label="Как правило, женщины глубже и точнее понимают Триера."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="женщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глубже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="точнее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="понимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 7 [label="соч_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сочин"]
+			0 -> 1 [label="сравн_союзн"]
+			7 -> 6 [label="вводн"]
+			7 -> 8 [label="_1_компл"]
+}

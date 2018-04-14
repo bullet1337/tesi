@@ -1,0 +1,35 @@
+digraph SENTENCE_1389 {
+	graph [label="Непоседливую проказницу в платочке любят и в Китае, и в Америке."]
+	node [style=filled]
+		0 [label="Непоседливую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проказницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="платочке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Китае
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			6 -> 9 [label="сочин"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="сочин"]
+			1 -> 0 [label="опред"]
+			2 -> 3 [label="предл"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+}

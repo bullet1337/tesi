@@ -1,0 +1,36 @@
+digraph SENTENCE_1522 {
+	graph [label="Но хороший артист не значит умный человек\", — сказал Бортко в интервью."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="артист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="значит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="умный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Бортко
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			10 -> 6 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 12 [label="обст"]
+			12 -> 13 [label="предл"]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="опред"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 10 [label="разъяснит"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_2927 {
+	graph [label="Интересен, но не полезен — особо важных мыслей не несет и забывается сразу же после выхода из кинотеатра."]
+	node [style=filled]
+		0 [label="Интересен
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полезен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="важных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мыслей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="забывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="кинотеатра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="сочин"]
+			4 -> 3 [label="огранич"]
+			4 -> 8 [label="предик"]
+			7 -> 6 [label="огранич"]
+			12 -> 15 [label="обст"]
+			15 -> 13 [label="огранич"]
+			15 -> 16 [label="предл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="сочин"]
+			16 -> 17 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="разъяснит"]
+			2 -> 4 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+			13 -> 14 [label="огранич"]
+}

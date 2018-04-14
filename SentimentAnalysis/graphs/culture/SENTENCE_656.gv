@@ -1,0 +1,30 @@
+digraph SENTENCE_656 {
+	graph [label="На сайте rottentomatoes рейтинг зрительского ожидания фильма составил 98%."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="rottentomatoes
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рейтинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зрительского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="составил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="98
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 0 [label="вводн"]
+			3 -> 5 [label="сочин"]
+			3 -> 7 [label="вводн"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="аппоз"]
+			7 -> 8 [label="предик"]
+}

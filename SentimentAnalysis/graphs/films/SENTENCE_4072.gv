@@ -1,0 +1,33 @@
+digraph SENTENCE_4072 {
+	graph [label="Ибо героем фильма является молоденький чернокожий гей по имени Широн."]
+	node [style=filled]
+		0 [label="Ибо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молоденький
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чернокожий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Широн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			5 -> 7 [label="атриб"]
+			1 -> 2 [label="_1_компл"]
+			0 -> 3 [label="подч_союзн"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+			7 -> 8 [label="предл"]
+}

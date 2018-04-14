@@ -1,0 +1,30 @@
+digraph SENTENCE_1036 {
+	graph [label="Длился он 40 часов — от Страстной Пятницы до Пасхи."]
+	node [style=filled]
+		0 [label="Длился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Страстной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Пятницы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Пасхи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предик"]
+			0 -> 3 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			3 -> 2 [label="количест"]
+			3 -> 5 [label="атриб"]
+			5 -> 7 [label="предл"]
+			5 -> 8 [label="соотнос"]
+			8 -> 9 [label="предл"]
+}

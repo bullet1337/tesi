@@ -1,0 +1,33 @@
+digraph SENTENCE_356 {
+	graph [label="По сообщению СК, теракт рассматривается в качестве одной из версий."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="СК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="теракт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рассматривается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="версий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			9 -> 10 [label="предл"]
+			7 -> 8 [label="квазиагент"]
+			8 -> 9 [label="электив"]
+}

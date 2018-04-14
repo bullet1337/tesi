@@ -1,0 +1,15 @@
+digraph SENTENCE_3175 {
+	graph [label="Энг, тебе просто повезло."]
+	node [style=filled]
+		0 [label="Энг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="тебе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="повезло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+}

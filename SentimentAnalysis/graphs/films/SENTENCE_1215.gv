@@ -1,0 +1,18 @@
+digraph SENTENCE_1215 {
+	graph [label="Металлический скальпель, бесцеремонно вспоровший кожу."]
+	node [style=filled]
+		0 [label="Металлический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скальпель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бесцеремонно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вспоровший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кожу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="разъяснит"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="опред"]
+}

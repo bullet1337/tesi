@@ -1,0 +1,72 @@
+digraph SENTENCE_624 {
+	graph [label="Затем Будда рукой коснулся земли: земля разверзлась и все увидели ад, в котором страдали души тех, кто стремился получать от жизни только наслаждение."]
+	node [style=filled]
+		0 [label="Затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Будда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="рукой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="коснулся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="земли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="земля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разверзлась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="увидели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="страдали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="стремился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="получать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="наслаждение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 15 [label="сент_соч"]
+			17 -> 20 [label="релят"]
+			15 -> 11 [label="предик"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			16 -> 17 [label="квазиагент"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_2_компл"]
+			25 -> 24 [label="огранич"]
+			21 -> 22 [label="обст"]
+			21 -> 25 [label="_1_компл"]
+			22 -> 23 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="разъяснит"]
+}

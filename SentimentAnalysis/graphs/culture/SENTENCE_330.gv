@@ -1,0 +1,39 @@
+digraph SENTENCE_330 {
+	graph [label="Особую интригу противостоянию Гуфа и Птахи придавала реальность, а не иллюзорность конфликта."]
+	node [style=filled]
+		0 [label="Особую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="интригу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="противостоянию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Птахи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="придавала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="иллюзорность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="конфликта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			3 -> 4 [label="сочин"]
+			6 -> 1 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="сочин"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_2_компл"]
+			9 -> 11 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+}

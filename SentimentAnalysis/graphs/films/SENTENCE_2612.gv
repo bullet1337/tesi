@@ -1,0 +1,30 @@
+digraph SENTENCE_2612 {
+	graph [label="Верчение деревянного коня в руке вызывало стоны в зале."]
+	node [style=filled]
+		0 [label="Верчение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="деревянного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="коня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="руке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вызывало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="квазиагент"]
+			0 -> 3 [label="атриб"]
+			6 -> 7 [label="атриб"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="предл"]
+			2 -> 1 [label="опред"]
+}

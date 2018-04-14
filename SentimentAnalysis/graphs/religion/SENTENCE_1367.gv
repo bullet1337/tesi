@@ -1,0 +1,69 @@
+digraph SENTENCE_1367 {
+	graph [label="В 1991 году, когда в Донском монастыре стала возрождаться монашеская жизнь, в Малом соборе провели ремонт, но ничего в нем не обнаружили."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1991
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Донском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="монастыре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="возрождаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="монашеская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Малом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="соборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="провели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ремонт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="обнаружили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 0 [label="обст"]
+			16 -> 4 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 19 [label="сент_соч"]
+			24 -> 20 [label="_1_компл"]
+			24 -> 21 [label="_2_компл"]
+			24 -> 23 [label="огранич"]
+			4 -> 8 [label="подч_союзн"]
+			13 -> 15 [label="предл"]
+			19 -> 24 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			21 -> 22 [label="предл"]
+			2 -> 1 [label="опред"]
+			5 -> 7 [label="предл"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			15 -> 14 [label="опред"]
+			7 -> 6 [label="опред"]
+			9 -> 11 [label="длительн"]
+			9 -> 13 [label="обст"]
+}

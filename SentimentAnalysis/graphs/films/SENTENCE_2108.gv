@@ -1,0 +1,45 @@
+digraph SENTENCE_2108 {
+	graph [label="Используя все свои способности и огромный талант, именно это попробовал с нами сделать Андрей Тарковский."]
+	node [style=filled]
+		0 [label="Используя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="способности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="огромный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="талант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="попробовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Андрей Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			10 -> 9 [label="предик"]
+			10 -> 13 [label="_1_компл"]
+			10 -> 14 [label="вводн"]
+			13 -> 11 [label="обст"]
+			4 -> 6 [label="соч_союзн"]
+			11 -> 12 [label="предл"]
+			9 -> 0 [label="пролепт"]
+			9 -> 8 [label="огранич"]
+			0 -> 3 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_751 {
+	graph [label="Президент Сербии Александр Вучич на русском языке поблагодарил Россию за уникальное мозаичное украшение крупнейшего храма Сербии, передает корреспондент РИА Новости."]
+	node [style=filled]
+		0 [label="Президент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Сербии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Александр Вучич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="русском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поблагодарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="уникальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мозаичное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="украшение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="крупнейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сербии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 16 [label="вводн"]
+			8 -> 11 [label="предл"]
+			5 -> 4 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			17 -> 18 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			16 -> 17 [label="предик"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			0 -> 3 [label="атриб"]
+}

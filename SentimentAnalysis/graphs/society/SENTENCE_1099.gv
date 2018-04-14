@@ -1,0 +1,69 @@
+digraph SENTENCE_1099 {
+	graph [label="\"Мы помним, как четыре года назад, в 2014 году, мы с вами собирались возле Государственного совета Республики Крым, тогда это был Верховный совет."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="помним
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="собирались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="возле
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Государственного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Республики Крым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Верховный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="совет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			16 -> 13 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 24 [label="сент_соч"]
+			24 -> 22 [label="обст"]
+			24 -> 23 [label="предик"]
+			24 -> 26 [label="предик"]
+			4 -> 7 [label="сравн_союзн"]
+			6 -> 5 [label="количест"]
+			7 -> 6 [label="предл"]
+			17 -> 19 [label="предл"]
+			26 -> 25 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сравнит"]
+			2 -> 9 [label="обст"]
+			2 -> 16 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			14 -> 15 [label="предл"]
+			13 -> 14 [label="атриб"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_31 {
+	graph [label="Ларс фон Триер, как всегда, едко, но метко изобразил самые отвратительные пороки общества."]
+	node [style=filled]
+		0 [label="Ларс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="едко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="метко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изобразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отвратительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пороки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 14 [label="предик"]
+			2 -> 1
+			9 -> 10 [label="соч_союзн"]
+			7 -> 9 [label="сочин"]
+			13 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			4 -> 0 [label="вводн"]
+			4 -> 5 [label="сравн_союзн"]
+			4 -> 7 [label="сочин"]
+			4 -> 11 [label="вводн"]
+			0 -> 2 [label="аппоз"]
+}

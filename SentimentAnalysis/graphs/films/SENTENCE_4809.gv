@@ -1,0 +1,66 @@
+digraph SENTENCE_4809 {
+	graph [label="В сюжет попытались добавить некой научности, но эффект получился обратный — от этого он стал еще тупее, нелепее, смешнее и более клишированным."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="попытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="добавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="некой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="научности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эффект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="получился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обратный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тупее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="нелепее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="смешнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="клишированным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			21 -> 22 [label="сочин"]
+			22 -> 24 [label="соч_союзн"]
+			7 -> 9 [label="соч_союзн"]
+			17 -> 16 [label="огранич"]
+			17 -> 19 [label="сочин"]
+			24 -> 23 [label="огранич"]
+			5 -> 4 [label="опред"]
+			19 -> 21 [label="сочин"]
+			12 -> 13 [label="предл"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="присвяз"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 15 [label="разъяснит"]
+			3 -> 5 [label="_1_компл"]
+}

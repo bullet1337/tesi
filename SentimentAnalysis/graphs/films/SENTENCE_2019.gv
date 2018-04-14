@@ -1,0 +1,57 @@
+digraph SENTENCE_2019 {
+	graph [label="«Зеркало» — это фильм исповедь: наверное, поэтому в кадре не видно самого исповедуемого, звучит лишь голос Смоктуновского за кадром."]
+	node [style=filled]
+		1 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исповедь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="исповедуемого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="звучит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Смоктуновского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кадром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 23 [label="предл"]
+			16 -> 15 [label="опред"]
+			11 -> 12 [label="предл"]
+			4 -> 1 [label="пролепт"]
+			14 -> 8 [label="вводн"]
+			14 -> 10 [label="обст"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 18 [label="сент_соч"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="квазиагент"]
+			20 -> 22 [label="атриб"]
+			18 -> 16 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="ном_аппоз"]
+			5 -> 14 [label="разъяснит"]
+}

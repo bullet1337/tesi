@@ -1,0 +1,30 @@
+digraph SENTENCE_3992 {
+	graph [label="Сообщалось, что насильники напевали «Singin» In The Rain» во время преступлений»."]
+	node [style=filled]
+		0 [label="Сообщалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="насильники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="напевали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Singin
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="In The Rain
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="преступлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="аппоз"]
+			2 -> 4 [label="подч_союзн"]
+			10 -> 11 [label="предл"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 10 [label="обст"]
+			4 -> 12 [label="_1_компл"]
+			0 -> 2 [label="предик"]
+}

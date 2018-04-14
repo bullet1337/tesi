@@ -1,0 +1,51 @@
+digraph SENTENCE_2558 {
+	graph [label="Удивительно, как точно удалось Андрею Тарковскому показать переломы монашеской жизни, внутренний мир инока и непростые внутримонастырские отношения»."]
+	node [style=filled]
+		0 [label="Удивительно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="точно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Андрею Тарковскому
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="переломы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="монашеской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="внутренний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="инока
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="непростые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="внутримонастырские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			3 -> 2 [label="огранич"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			4 -> 12 [label="_1_компл"]
+			14 -> 17 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			0 -> 4 [label="разъяснит"]
+			13 -> 14 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+}

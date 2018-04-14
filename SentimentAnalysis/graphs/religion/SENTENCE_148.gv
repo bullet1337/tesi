@@ -1,0 +1,60 @@
+digraph SENTENCE_148 {
+	graph [label="Примером такого строительства он назвал проект храмового комплекса в честь одного из основателей Москвы князя Андрея Боголюбского в районе Кузьминки."]
+	node [style=filled]
+		0 [label="Примером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="строительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="храмового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="комплекса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="основателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="князя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Андрея Боголюбского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="районе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Кузьминки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			10 -> 11 [label="электив"]
+			16 -> 17 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			14 -> 15 [label="аппоз"]
+			17 -> 18 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 16 [label="обст"]
+			11 -> 12 [label="предл"]
+			5 -> 7 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_2772 {
+	graph [label="Объяснить почему могут лишь избранные единицы, остальные предпочитают отмазаться громкими эпитетами."]
+	node [style=filled]
+		0 [label="Объяснить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="избранные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="единицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="предпочитают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отмазаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="громкими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="эпитетами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="релят"]
+			9 -> 11 [label="_1_компл"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="обст"]
+			2 -> 5 [label="предик"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+}

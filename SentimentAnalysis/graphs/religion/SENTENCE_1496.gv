@@ -1,0 +1,42 @@
+digraph SENTENCE_1496 {
+	graph [label="К началу XX века с улучшением технологии печати печатные открытки стали заменять рукописные."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="началу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="XX
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="улучшением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="технологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="печати
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="печатные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="открытки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заменять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рукописные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="сочин"]
+			0 -> 1 [label="предл"]
+			1 -> 3 [label="квазиагент"]
+			10 -> 0 [label="вводн"]
+			10 -> 4 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+}

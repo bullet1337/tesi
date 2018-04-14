@@ -1,0 +1,39 @@
+digraph SENTENCE_2219 {
+	graph [label="Все его фильмы содержат в себе внутреннюю красоту, который обычному зрителю сложно разглядеть."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="содержат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="внутреннюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="красоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обычному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разглядеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предик"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			4 -> 5 [label="предл"]
+			11 -> 10 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_185 {
+	graph [label="), мне главный нейрохирург сразу сказал, что гематомы уменьшаются, это уже хорошо\", — пояснил Гаджиев."]
+	node [style=filled]
+		2 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нейрохирург
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гематомы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="уменьшаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пояснил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Гаджиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 13 [label="огранич"]
+			6 -> 2 [label="_2_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 18 [label="вводн"]
+			18 -> 12 [label="_1_компл"]
+			18 -> 14 [label="обст"]
+			18 -> 19 [label="предик"]
+			10 -> 9 [label="предик"]
+			4 -> 3 [label="опред"]
+			8 -> 10 [label="подч_союзн"]
+}

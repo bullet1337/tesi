@@ -1,0 +1,30 @@
+digraph SENTENCE_646 {
+	graph [label="— Господь сказал: \"возьми крест свой и следуй за мной\"."]
+	node [style=filled]
+		1 [label="Господь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возьми
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="крест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="следуй
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мной
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 7 [label="суб_копр"]
+			2 -> 8 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+}

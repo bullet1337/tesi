@@ -1,0 +1,66 @@
+digraph SENTENCE_1862 {
+	graph [label="С одной стороны она жертвует собой как только можно, отказывает себе во всем, рискует, потому что ее цель оправдывает все средства."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жертвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рискует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="цель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="оправдывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="средства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="обст"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			12 -> 13 [label="предл"]
+			18 -> 21 [label="подч_союзн"]
+			8 -> 7 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="сравнит"]
+			4 -> 10 [label="сочин"]
+			4 -> 15 [label="разъяснит"]
+			17 -> 18 [label="эксплет"]
+			6 -> 8 [label="сравн_союзн"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 12 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			20 -> 19 [label="квазиагент"]
+}

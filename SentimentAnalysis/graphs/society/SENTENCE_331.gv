@@ -1,0 +1,63 @@
+digraph SENTENCE_331 {
+	graph [label="При наличии показаний можно будет сдать анализы, а также сделать УЗИ органов малого таза и молочных желез\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наличии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="анализы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="УЗИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="органов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="малого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="таза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="молочных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="желез
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			21 -> 22 [label="обст"]
+			1 -> 2 [label="квазиагент"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			22 -> 23 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			11 -> 12 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			8 -> 10 [label="соч_союзн"]
+			15 -> 17 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="присвяз"]
+			4 -> 5 [label="предик"]
+			4 -> 8 [label="сент_соч"]
+			4 -> 21 [label="вводн"]
+}

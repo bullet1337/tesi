@@ -1,0 +1,27 @@
+digraph SENTENCE_517 {
+	graph [label="Но этого недостаточно, наука уже давно шагнула вперед."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="недостаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шагнула
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вперед
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 7 [label="соч_союзн"]
+			7 -> 1 [label="предик"]
+			7 -> 2 [label="огранич"]
+			7 -> 4 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			6 -> 5 [label="огранич"]
+}

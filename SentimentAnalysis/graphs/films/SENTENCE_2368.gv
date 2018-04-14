@@ -1,0 +1,30 @@
+digraph SENTENCE_2368 {
+	graph [label="Эта музыка сложна для понимания, особенно для неискушённого слушателя."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сложна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="понимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неискушённого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="слушателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="предл"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_627 {
+	graph [label="Искусство кино должно нас чему-то учить."]
+	node [style=filled]
+		0 [label="Искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чему-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="учить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="_2_компл"]
+			0 -> 1 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="разъяснит"]
+}

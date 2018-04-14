@@ -1,0 +1,33 @@
+digraph SENTENCE_259 {
+	graph [label="Их забастовка грозит массовым оттоком паломников — основных кормильцев жителей города."]
+	node [style=filled]
+		0 [label="Их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="забастовка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="грозит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="массовым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оттоком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="паломников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="основных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кормильцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 8 [label="сочин"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+}

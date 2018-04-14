@@ -1,0 +1,48 @@
+digraph SENTENCE_4841 {
+	graph [label="Не хочу расписывать все, что бросилось в глаза, слишком много писанины, остановлюсь на основных моментах."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="расписывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бросилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="писанины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="остановлюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="основных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="моментах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="релят"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 11 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			7 -> 8 [label="предл"]
+			15 -> 17 [label="предл"]
+			14 -> 15 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 14 [label="сочин"]
+}

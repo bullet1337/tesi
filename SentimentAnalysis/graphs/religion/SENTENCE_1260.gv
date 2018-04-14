@@ -1,0 +1,69 @@
+digraph SENTENCE_1260 {
+	graph [label="Как сообщили РИА Новости в ГУ МВД России по Краснодарскому краю, молодой человек задержан по статье 19.3 КоАП (\"Неповиновение законному распоряжению сотрудника полиции\")."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ГУ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="МВД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Краснодарскому
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="краю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="молодой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="задержан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="статье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="19.3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="КоАП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Неповиновение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="законному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="распоряжению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сотрудника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="полиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="атриб"]
+			13 -> 0 [label="вводн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 23 [label="предик"]
+			14 -> 15 [label="предл"]
+			9 -> 8 [label="опред"]
+			23 -> 24 [label="_1_компл"]
+			7 -> 3 [label="огранич"]
+			7 -> 9 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			5 -> 6 [label="квазиагент"]
+			20 -> 22 [label="_2_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 7 [label="обст"]
+			22 -> 21 [label="опред"]
+			12 -> 11 [label="опред"]
+			15 -> 16 [label="нум_аппоз"]
+			15 -> 17 [label="квазиагент"]
+			15 -> 20 [label="ном_аппоз"]
+			3 -> 4 [label="предл"]
+}

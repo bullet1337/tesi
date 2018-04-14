@@ -1,0 +1,57 @@
+digraph SENTENCE_852 {
+	graph [label="Транспорт полностью подготовлен к работе в сложных погодных условиях и функционирует в усиленном режиме\", — рассказали РИА Новости в пресс-службе."]
+	node [style=filled]
+		0 [label="Транспорт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подготовлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сложных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="погодных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="условиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="функционирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="усиленном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="режиме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="предл"]
+			10 -> 11 [label="обст"]
+			11 -> 13 [label="предл"]
+			3 -> 4 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			13 -> 12 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 9 [label="сочин"]
+			2 -> 17 [label="вводн"]
+			9 -> 10 [label="соч_союзн"]
+			17 -> 18 [label="предик"]
+			17 -> 19 [label="обст"]
+			19 -> 20 [label="предл"]
+}

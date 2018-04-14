@@ -1,0 +1,36 @@
+digraph SENTENCE_662 {
+	graph [label="В итоге он призвал переводить городской автопарк Красноярска на газомоторное топливо."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="призвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="переводить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="автопарк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Красноярска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="газомоторное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="топливо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="_3_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+}

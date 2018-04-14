@@ -1,0 +1,57 @@
+digraph SENTENCE_209 {
+	graph [label="Придя домой пару дней назад, захотелось спокойно посмотреть телевизор, ничего путного не могла найти и начала щелкать каналы."]
+	node [style=filled]
+		0 [label="Придя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пару
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="захотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="телевизор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="путного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="начала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="щелкать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="каналы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			18 -> 19 [label="_1_компл"]
+			16 -> 17 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			17 -> 18 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 14 [label="сент_соч"]
+			0 -> 1 [label="_2_компл"]
+			14 -> 11 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			11 -> 12 [label="опред"]
+			4 -> 2 [label="предл"]
+}

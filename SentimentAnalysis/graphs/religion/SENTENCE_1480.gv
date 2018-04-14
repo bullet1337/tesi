@@ -1,0 +1,39 @@
+digraph SENTENCE_1480 {
+	graph [label="Валентин Римлянин — пресвитер — почитается 19 июля, а священномученик Валентин, епископ Интерамны, — 12 августа."]
+	node [style=filled]
+		0 [label="Валентин Римлянин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="пресвитер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="почитается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="июля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="священномученик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Валентин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Интерамны
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="августа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 5 [label="обст"]
+			13 -> 16 [label="обст"]
+			4 -> 0 [label="предик"]
+			4 -> 13 [label="сент_соч"]
+			16 -> 17 [label="атриб"]
+			10 -> 12 [label="аппоз"]
+			8 -> 9 [label="соч_союзн"]
+			5 -> 6 [label="атриб"]
+			5 -> 8 [label="примыкат"]
+			9 -> 10 [label="аппоз"]
+			0 -> 2 [label="аппоз"]
+}

@@ -1,0 +1,50 @@
+digraph SENTENCE_3707 {
+	graph [label="И того, что про главного тренера национальной команды той двенадцатилетки, Аркадия Чернышёва, в фильме не упоминается вообще."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тренера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="национальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="команды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="двенадцатилетки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Аркадия Чернышёва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="упоминается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			17 -> 4 [label="_3_компл"]
+			17 -> 8 [label="предик"]
+			17 -> 14 [label="обст"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="обст"]
+			3 -> 17 [label="подч_союзн"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="атриб"]
+			8 -> 12 [label="аппоз"]
+			1 -> 3 [label="эксплет"]
+			10 -> 9 [label="опред"]
+			4 -> 6 [label="предл"]
+			14 -> 15 [label="предл"]
+}

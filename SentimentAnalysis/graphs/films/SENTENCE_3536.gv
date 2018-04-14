@@ -1,0 +1,48 @@
+digraph SENTENCE_3536 {
+	graph [label="Вот два молодых человека висят на тросах на высоте 20-ти этажного дома и мило беседуют."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="висят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тросах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="высоте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="20-ти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этажного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мило
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="беседуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="обст"]
+			4 -> 12 [label="сент_соч"]
+			14 -> 13 [label="обст"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="количест"]
+			3 -> 2 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			8 -> 9 [label="компл_аппоз"]
+			5 -> 6 [label="предл"]
+			11 -> 10 [label="опред"]
+			6 -> 7 [label="атриб"]
+			12 -> 14 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+}

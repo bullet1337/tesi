@@ -1,0 +1,33 @@
+digraph SENTENCE_646 {
+	graph [label="И мы хотели бы в регионах развивать систему подготовки девочек."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хотели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="регионах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="развивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="систему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подготовки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="девочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 2 [label="соч_союзн"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="аналит"]
+			2 -> 4 [label="обст"]
+			2 -> 6 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

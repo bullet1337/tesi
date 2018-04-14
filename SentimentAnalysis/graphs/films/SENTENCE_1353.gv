@@ -1,0 +1,27 @@
+digraph SENTENCE_1353 {
+	graph [label="Дело в том, что окружали ее обычные люди."]
+	node [style=filled]
+		0 [label="Дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="окружали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обычные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="подч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="предл"]
+			2 -> 4 [label="эксплет"]
+			8 -> 7 [label="опред"]
+}

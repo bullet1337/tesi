@@ -1,0 +1,24 @@
+digraph SENTENCE_3559 {
+	graph [label="Это даже круче, чем летнее время зимой."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="круче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="летнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зимой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="сравнит"]
+			2 -> 7 [label="обст"]
+}

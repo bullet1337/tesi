@@ -1,0 +1,56 @@
+digraph SENTENCE_236 {
+	graph [label="Конечно, она она уже давно забыла о своих желаниях, но её фантазия то и дело напоминает о них."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="забыла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="желаниях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фантазия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 13 [label="предик"]
+			17 -> 18 [label="_3_компл"]
+			13 -> 12 [label="квазиагент"]
+			13 -> 14 [label="сочин"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			2 -> 6 [label="разъяснит"]
+			11 -> 17 [label="соч_союзн"]
+			16 -> 15 [label="огранич"]
+			14 -> 16 [label="соч_союзн"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 11 [label="сент_соч"]
+			5 -> 4 [label="огранич"]
+			18 -> 19 [label="предл"]
+}

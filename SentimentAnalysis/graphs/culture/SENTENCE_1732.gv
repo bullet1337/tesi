@@ -1,0 +1,61 @@
+digraph SENTENCE_1732 {
+	graph [label="По его словам, очевидцы нападения помогали ему со сценарием и во время съемок, но история, рассказанная в фильме, полностью выдумана."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очевидцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нападения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помогали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сценарием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="съемок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рассказанная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="выдумана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			6 -> 10 [label="сочин"]
+			6 -> 15 [label="сент_соч"]
+			23 -> 22 [label="огранич"]
+			0 -> 2 [label="предл"]
+			11 -> 12 [label="предл"]
+			8 -> 9 [label="предл"]
+			18 -> 19 [label="обст"]
+			18 -> 23 [label="сочин"]
+			5 -> 4 [label="опред"]
+			13 -> 11 [label="_1_компл"]
+			10 -> 13 [label="соч_союзн"]
+			2 -> 1 [label="квазиагент"]
+}

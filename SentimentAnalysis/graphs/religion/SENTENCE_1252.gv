@@ -1,0 +1,39 @@
+digraph SENTENCE_1252 {
+	graph [label="\"Она очень скромная и в то же время целеустремленная и общительная девушка."]
+	node [style=filled]
+		1 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скромная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="целеустремленная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="общительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="девушка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сент_соч"]
+			12 -> 5 [label="обст"]
+			12 -> 9 [label="опред"]
+			4 -> 12 [label="соч_союзн"]
+			10 -> 11 [label="соч_союзн"]
+			9 -> 10 [label="сочин"]
+			6 -> 7 [label="огранич"]
+			5 -> 8 [label="предл"]
+}

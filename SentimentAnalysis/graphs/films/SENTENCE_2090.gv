@@ -1,0 +1,38 @@
+digraph SENTENCE_2090 {
+	graph [label="Тема времени, вернее даже, тема вечности одна из ключевой в этом фильме."]
+	node [style=filled]
+		0 [label="Тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вернее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вечности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ключевой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="атриб"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 3 [label="вводн"]
+			6 -> 4 [label="огранич"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 8 [label="сочин"]
+			0 -> 1 [label="квазиагент"]
+			8 -> 9 [label="электив"]
+}

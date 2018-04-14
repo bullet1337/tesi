@@ -1,0 +1,26 @@
+digraph SENTENCE_2574 {
+	graph [label="Единственный радостный момент за весь фильм — тонущий Форд."]
+	node [style=filled]
+		0 [label="Единственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="радостный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тонущий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Форд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="ном_аппоз"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			3 -> 5 [label="предл"]
+}

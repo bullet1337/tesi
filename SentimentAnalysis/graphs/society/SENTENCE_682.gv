@@ -1,0 +1,66 @@
+digraph SENTENCE_682 {
+	graph [label="Павильон \"Космос\" на ВДНХ вновь украсили макетом первого искусственного спутника Земли, сообщается в понедельник на официальном портале мэра и правительства Москвы."]
+	node [style=filled]
+		0 [label="Павильон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Космос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ВДНХ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вновь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="украсили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="макетом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="искусственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="спутника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Земли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="официальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="портале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мэра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="_1_компл"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 14 [label="сочин"]
+			15 -> 16 [label="предл"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			0 -> 2 [label="сочин"]
+			21 -> 22 [label="соч_союзн"]
+			8 -> 11 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			22 -> 23 [label="_1_компл"]
+			14 -> 15 [label="обст"]
+			14 -> 17 [label="обст"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="аппоз"]
+			20 -> 21 [label="сочин"]
+			17 -> 19 [label="предл"]
+}

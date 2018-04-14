@@ -1,0 +1,72 @@
+digraph SENTENCE_555 {
+	graph [label="Картина, жанр которой можно определить как мелодрама-фэнтези, претендует на награды в 12 номинациях, в том числе \"Лучший фильм\", \"Лучший режиссер\" и \"Лучший оригинальный сценарий\"."]
+	node [style=filled]
+		0 [label="Картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жанр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="определить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мелодрама-фэнтези
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="претендует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="награды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="номинациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="оригинальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="_1_компл"]
+			14 -> 13 [label="количест"]
+			14 -> 21 [label="разъяснит"]
+			11 -> 12 [label="атриб"]
+			28 -> 32 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+			4 -> 5 [label="предик"]
+			12 -> 14 [label="предл"]
+			26 -> 25 [label="опред"]
+			26 -> 28 [label="сочин"]
+			9 -> 6 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			21 -> 16 [label="огранич"]
+			21 -> 20 [label="опред"]
+			21 -> 26 [label="сочин"]
+			32 -> 30 [label="опред"]
+			32 -> 31 [label="опред"]
+			18 -> 17 [label="опред"]
+			16 -> 18 [label="предл"]
+}

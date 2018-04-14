@@ -1,0 +1,58 @@
+digraph SENTENCE_1688 {
+	graph [label="10 из 10
+Я настолько поражена фильмом, что не могу собраться с мыслями, и описать все, что чувствую."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поражена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="собраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мыслями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="описать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чувствую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="соч_союзн"]
+			8 -> 10 [label="подч_союзн"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+			17 -> 20 [label="релят"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="сочин"]
+			20 -> 19 [label="_1_компл"]
+			16 -> 17 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="предик"]
+}

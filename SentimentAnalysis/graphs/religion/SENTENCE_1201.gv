@@ -1,0 +1,45 @@
+digraph SENTENCE_1201 {
+	graph [label="Весной мы ждем визита в Ингушетию катарской делегации, которая осмотрит место строительства Исламского комплекса."]
+	node [style=filled]
+		0 [label="Весной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ждем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ингушетию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="катарской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="делегации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="осмотрит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="строительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Исламского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="комплекса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 10 [label="сент_соч"]
+			14 -> 13 [label="опред"]
+			7 -> 6 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			10 -> 7 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="предик"]
+			11 -> 12 [label="квазиагент"]
+			3 -> 4 [label="_1_компл"]
+}

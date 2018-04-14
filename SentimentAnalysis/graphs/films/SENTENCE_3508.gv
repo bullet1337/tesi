@@ -1,0 +1,24 @@
+digraph SENTENCE_3508 {
+	graph [label="Хуже того, сценарий рыхлый, темп не ровный."]
+	node [style=filled]
+		0 [label="Хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рыхлый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="темп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ровный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сравнит"]
+			0 -> 8 [label="предик"]
+			6 -> 4 [label="опред"]
+			8 -> 3 [label="_1_компл"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+}

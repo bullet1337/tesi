@@ -1,0 +1,30 @@
+digraph SENTENCE_957 {
+	graph [label="И за это хочется сказать господину фон Триеру спасибо."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="господину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Триеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="сочин"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			7 -> 8 [label="сочин"]
+			0 -> 3 [label="соч_союзн"]
+			4 -> 5 [label="_2_компл"]
+			6 -> 7 [label="сочин"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_4469 {
+	graph [label="И в перерыве между посещениями зоны отчуждения АЭС он явно продолжал изготовлять дурь."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перерыве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посещениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отчуждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="АЭС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="продолжал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изготовлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дурь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 1 [label="обст"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			4 -> 5 [label="сочин"]
+			0 -> 10 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="сочин"]
+			1 -> 2 [label="предл"]
+}

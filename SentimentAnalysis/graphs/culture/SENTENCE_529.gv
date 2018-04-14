@@ -1,0 +1,30 @@
+digraph SENTENCE_529 {
+	graph [label="Его альбом Gang Signs & Prayer также стал лучшим в Британии."]
+	node [style=filled]
+		0 [label="Его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="альбом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Gang Signs
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Prayer
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Британии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="квазиагент"]
+			1 -> 2 [label="аппоз"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="присвяз"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="атриб"]
+			2 -> 4 [label="аппоз"]
+}

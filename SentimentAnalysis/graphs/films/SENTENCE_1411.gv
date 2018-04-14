@@ -1,0 +1,30 @@
+digraph SENTENCE_1411 {
+	graph [label="Ее игра просто завораживает, не отпускает до самого конца."]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="завораживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отпускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="обст"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 6 [label="сочин"]
+}

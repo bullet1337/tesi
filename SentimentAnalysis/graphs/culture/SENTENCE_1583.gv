@@ -1,0 +1,83 @@
+digraph SENTENCE_1583 {
+	graph [label="\"Он был удивительно скромным\", — говорит актер Сергей Шнырев, исполнивший роль Петрова в игровых эпизодах фильма, которые скорее иллюстрируют, нежели подробно представляют то, что происходило той сентябрьской ночью 1983-го."]
+	node [style=filled]
+		1 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="удивительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скромным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сергей Шнырев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="исполнивший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Петрова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="игровых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="эпизодах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="иллюстрируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нежели
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="подробно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="представляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="происходило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="сентябрьской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="ночью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="1983-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			27 -> 30 [label="эксплет"]
+			15 -> 17 [label="предл"]
+			9 -> 10 [label="аппоз"]
+			9 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			2 -> 8 [label="вводн"]
+			2 -> 22 [label="сент_соч"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="обст"]
+			33 -> 31 [label="опред"]
+			33 -> 32 [label="опред"]
+			4 -> 3 [label="огранич"]
+			8 -> 9 [label="предик"]
+			26 -> 25 [label="обст"]
+			26 -> 27 [label="_1_компл"]
+			26 -> 34 [label="_2_компл"]
+			30 -> 29 [label="предик"]
+			30 -> 33 [label="обст"]
+			24 -> 26 [label="сравн_союзн"]
+}

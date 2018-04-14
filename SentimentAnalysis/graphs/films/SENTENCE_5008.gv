@@ -1,0 +1,33 @@
+digraph SENTENCE_5008 {
+	graph [label="После такого если и выживают, то получают очень тяжёлые травмы."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выживают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="получают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тяжёлые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="травмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 2 [label="обст"]
+			7 -> 10 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			4 -> 3 [label="огранич"]
+			10 -> 9 [label="опред"]
+			1 -> 7 [label="эксплет"]
+			2 -> 4 [label="подч_союзн"]
+			2 -> 6 [label="соотнос"]
+			9 -> 8 [label="огранич"]
+}

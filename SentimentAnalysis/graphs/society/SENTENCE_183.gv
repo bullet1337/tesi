@@ -1,0 +1,30 @@
+digraph SENTENCE_183 {
+	graph [label="По словам Гаджиева, гимнаст продолжает находиться в искусственной коме."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гаджиева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="гимнаст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="находиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="искусственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="коме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+}

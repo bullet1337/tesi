@@ -1,0 +1,45 @@
+digraph SENTENCE_969 {
+	graph [label="В спектакле заняты: Олег Царев, Александр Цой, Кирилл Емельянов, Максим Евсеев, Алексей Гнилицкий, Ольга Гусилетова, Джульетта Геринг, Ольга Грудяева и другие."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Олег Царев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Александр Цой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Кирилл Емельянов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Максим Евсеев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Алексей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Гнилицкий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Ольга Гусилетова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Джульетта Геринг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Ольга Грудяева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="аппоз"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			4 -> 6 [label="аппоз"]
+			4 -> 10 [label="аппоз"]
+			4 -> 12 [label="об_аппоз"]
+			4 -> 17 [label="аппоз"]
+			4 -> 19 [label="аппоз"]
+			4 -> 20 [label="сочин"]
+			0 -> 1 [label="предл"]
+			15 -> 13 [label="опред"]
+			20 -> 21 [label="соч_союзн"]
+			12 -> 15 [label="аппоз"]
+}

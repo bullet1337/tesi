@@ -1,0 +1,66 @@
+digraph SENTENCE_2012 {
+	graph [label="Она старая, а дети так и остались детьми — это, мне кажется, как невысказанное желание оградить их от будущих страданий, совершенно несбыточное."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="старая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="остались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детьми
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="невысказанное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="желание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оградить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="будущих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="страданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="несбыточное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сент_соч"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="_2_компл"]
+			18 -> 25 [label="_1_компл"]
+			5 -> 6
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="присвяз"]
+			7 -> 15 [label="сравнит"]
+			15 -> 10 [label="предик"]
+			15 -> 13 [label="вводн"]
+			15 -> 17 [label="сравн_союзн"]
+			3 -> 7 [label="соч_союзн"]
+			20 -> 22 [label="предл"]
+			13 -> 12 [label="_2_компл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			22 -> 21 [label="опред"]
+}

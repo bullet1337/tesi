@@ -1,0 +1,51 @@
+digraph SENTENCE_85 {
+	graph [label="Она пела и танцевала всегда, даже последние минуты своей жизни она находила в себе силы петь."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="танцевала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="находила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="силы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="сочин"]
+			1 -> 12 [label="сент_соч"]
+			7 -> 6 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+			2 -> 3 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 15 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="_1_компл"]
+}

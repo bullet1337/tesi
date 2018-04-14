@@ -1,0 +1,72 @@
+digraph SENTENCE_270 {
+	graph [label="Патриарх Московский и всея Руси Кирилл, выступая с проповедью в соборе Покрова Божией Матери Новоспасского монастыря, призвал паству побольше молчать, чтобы избегать пустословия."]
+	node [style=filled]
+		0 [label="Патриарх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выступая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проповедью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="соборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Покрова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Божией
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Матери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Новоспасского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="монастыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="призвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="паству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="побольше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="молчать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="избегать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пустословия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 0 [label="предик"]
+			18 -> 7 [label="обст"]
+			18 -> 16 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="_2_компл"]
+			18 -> 21 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			1 -> 2 [label="сочин"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="атриб"]
+			10 -> 11 [label="предл"]
+			23 -> 24 [label="инф_союзн"]
+			24 -> 25 [label="_1_компл"]
+			12 -> 14 [label="квазиагент"]
+			2 -> 4 [label="соч_союзн"]
+			7 -> 8 [label="обст"]
+			7 -> 12 [label="_1_компл"]
+			21 -> 23 [label="обст"]
+			4 -> 3 [label="опред"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="опред"]
+			0 -> 5 [label="аппоз"]
+}

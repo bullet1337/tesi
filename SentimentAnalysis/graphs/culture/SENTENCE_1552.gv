@@ -1,0 +1,57 @@
+digraph SENTENCE_1552 {
+	graph [label="Исполнителя роли Хита Леджера наградили за нее премией \"Оскар\" посмертно — эта картина стала одной из последних в его фильмографии."]
+	node [style=filled]
+		0 [label="Исполнителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Хита Леджера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="наградили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="премией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="посмертно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="последних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильмографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="_3_компл"]
+			3 -> 6 [label="_2_компл"]
+			3 -> 14 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			20 -> 19 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			13 -> 12 [label="опред"]
+			6 -> 8 [label="аппоз"]
+			15 -> 16 [label="электив"]
+			18 -> 20 [label="предл"]
+			16 -> 17 [label="предл"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="присвяз"]
+			14 -> 18 [label="обст"]
+}

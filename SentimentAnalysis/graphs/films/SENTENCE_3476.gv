@@ -1,0 +1,33 @@
+digraph SENTENCE_3476 {
+	graph [label="Нужно не просто передать, а буквально сымитировать, скопировать этого человека."]
+	node [style=filled]
+		0 [label="Нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="передать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сымитировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="скопировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			5 -> 7 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+}

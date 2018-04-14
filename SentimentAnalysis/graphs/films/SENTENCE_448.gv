@@ -1,0 +1,18 @@
+digraph SENTENCE_448 {
+	graph [label="Сельма никогда не дарила подарков."]
+	node [style=filled]
+		0 [label="Сельма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дарила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подарков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+}

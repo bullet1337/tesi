@@ -1,0 +1,36 @@
+digraph SENTENCE_920 {
+	graph [label="Это параллельная дорога моей жизни, которая всегда есть в моей жизни."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="параллельная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дорога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сент_соч"]
+			2 -> 8 [label="сент_соч"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="присвяз"]
+}

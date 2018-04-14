@@ -1,0 +1,30 @@
+digraph SENTENCE_1307 {
+	graph [label="В российский прокат вышел документальный фильм \"В Питере — петь."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вышел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="документальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Питере
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			3 -> 10 [label="обст"]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="атриб"]
+			0 -> 2 [label="предл"]
+}

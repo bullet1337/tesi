@@ -1,0 +1,30 @@
+digraph SENTENCE_241 {
+	graph [label="Планы на будущее у художественного руководителя театра \"Модерн\" — грандиозные."]
+	node [style=filled]
+		0 [label="Планы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будущее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="руководителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Модерн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="грандиозные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="аппоз"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+			3 -> 5 [label="предл"]
+			11 -> 0 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+}

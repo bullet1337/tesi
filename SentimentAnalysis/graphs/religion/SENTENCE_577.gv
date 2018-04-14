@@ -1,0 +1,33 @@
+digraph SENTENCE_577 {
+	graph [label="Только в октябре 2010 года их передали представителям Иерусалимского патриархата."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="октябре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="2010
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="передали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="представителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Иерусалимского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="патриархата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="_1_компл"]
+			2 -> 4 [label="атриб"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			4 -> 3 [label="опред"]
+			9 -> 8 [label="опред"]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 7 [label="_2_компл"]
+}

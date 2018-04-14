@@ -1,0 +1,45 @@
+digraph SENTENCE_303 {
+	graph [label="Президент фестиваля уточнил, что помимо конкурсной программы гостям фестиваля предложат посмотреть несколько внеконкурсных программ."]
+	node [style=filled]
+		0 [label="Президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конкурсной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="гостям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="предложат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="внеконкурсных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="программ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 10 [label="подч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			10 -> 5 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 14 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			14 -> 12 [label="количест"]
+			14 -> 13 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+}

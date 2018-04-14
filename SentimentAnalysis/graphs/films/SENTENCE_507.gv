@@ -1,0 +1,51 @@
+digraph SENTENCE_507 {
+	graph [label="Да и сам режиссер намекает на это в своем «Антихристе»… 10 из 10 Выше просто некуда."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="намекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Антихристе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Выше
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="некуда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 4 [label="соч_союзн"]
+			10 -> 8 [label="опред"]
+			18 -> 17 [label="огранич"]
+			7 -> 10 [label="предл"]
+			15 -> 16 [label="атриб"]
+			3 -> 2 [label="опред"]
+			14 -> 15 [label="предл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="обст"]
+			4 -> 13 [label="_1_компл"]
+			4 -> 18 [label="обст"]
+			13 -> 14 [label="электив"]
+			5 -> 6 [label="предл"]
+}

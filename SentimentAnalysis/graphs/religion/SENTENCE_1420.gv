@@ -1,0 +1,51 @@
+digraph SENTENCE_1420 {
+	graph [label="Запрет на забой в бельгийских областях Фландрия и Валлония вылился в настоящее противостояние верующих с властями."]
+	node [style=filled]
+		0 [label="Запрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="забой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бельгийских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="областях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Фландрия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Валлония
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="вылился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="противостояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="верующих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="властями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			13 -> 14 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+			0 -> 7 [label="сочин"]
+			3 -> 5 [label="предл"]
+			1 -> 2 [label="предл"]
+			9 -> 0 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			10 -> 12 [label="предл"]
+}

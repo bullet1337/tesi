@@ -1,0 +1,15 @@
+digraph SENTENCE_861 {
+	graph [label="И Римас это понимает\"."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Римас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+}

@@ -1,0 +1,76 @@
+digraph SENTENCE_1915 {
+	graph [label="Я никогда не интересовалась творчеством этой исландской певицы, равнодушна к подобной музыке и сейчас, но после «Танцующей в темноте» знаю, что это великая драматическая актриса."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="интересовалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="творчеством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исландской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="певицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="равнодушна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="подобной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Танцующей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="великая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="драматическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			20 -> 21 [label="предл"]
+			4 -> 7 [label="квазиагент"]
+			29 -> 26 [label="предик"]
+			29 -> 27 [label="опред"]
+			29 -> 28 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="сочин"]
+			25 -> 29 [label="подч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 9 [label="сочин"]
+			3 -> 16 [label="сент_соч"]
+			23 -> 19 [label="опред"]
+			12 -> 11 [label="опред"]
+			17 -> 23 [label="предл"]
+			19 -> 20 [label="обст"]
+			10 -> 12 [label="предл"]
+}

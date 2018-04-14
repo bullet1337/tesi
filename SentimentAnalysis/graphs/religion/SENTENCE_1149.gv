@@ -1,0 +1,42 @@
+digraph SENTENCE_1149 {
+	graph [label="На данный момент праведниками мира признаны 26 119 человек из 51 страны мира."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="праведниками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="признаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="119
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="51
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			0 -> 2 [label="предл"]
+			6 -> 7 [label="кратн"]
+			8 -> 6 [label="количест"]
+			8 -> 9 [label="атриб"]
+			5 -> 0 [label="обст"]
+			5 -> 8 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+}

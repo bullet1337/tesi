@@ -1,0 +1,45 @@
+digraph SENTENCE_3305 {
+	graph [label="Всё это великолепие подано под некое, то ли жужжание, то ли треск дешёвого эмбиента."]
+	node [style=filled]
+		0 [label="Всё
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="великолепие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="некое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жужжание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="треск
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дешёвого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="эмбиента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="обст"]
+			3 -> 15 [label="предик"]
+			4 -> 13 [label="предл"]
+			7 -> 8 [label="огранич"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			5 -> 7 [label="сочин"]
+			11 -> 12 [label="огранич"]
+			13 -> 5 [label="опред"]
+			13 -> 11 [label="опред"]
+			15 -> 14 [label="опред"]
+}

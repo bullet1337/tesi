@@ -1,0 +1,33 @@
+digraph SENTENCE_1381 {
+	graph [label="Сериал ориентирован на детскую аудиторию от четырех до восьми лет."]
+	node [style=filled]
+		0 [label="Сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ориентирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="детскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="аудиторию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="четырех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="восьми
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="соотнос"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="обст"]
+			7 -> 9 [label="предл"]
+			4 -> 3 [label="опред"]
+			9 -> 8 [label="количест"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_4593 {
+	graph [label="Фильм 1998 года демонстрировал монстра, который по сути своей являлся творением человека и у которого была одна цель — выжить."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1998
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="демонстрировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="монстра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="являлся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="творением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="цель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="выжить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="атриб"]
+			7 -> 8 [label="предл"]
+			2 -> 1 [label="опред"]
+			13 -> 16 [label="соч_союзн"]
+			11 -> 12 [label="квазиагент"]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 13 [label="сент_соч"]
+			14 -> 15 [label="предл"]
+			18 -> 17 [label="количест"]
+			18 -> 20 [label="_1_компл"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			4 -> 10 [label="релят"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

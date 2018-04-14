@@ -1,0 +1,45 @@
+digraph SENTENCE_1585 {
+	graph [label="Касательно актёрской игры, на мой взгляд, только Катрин Денёв удалось реализовать себя полностью в фильме."]
+	node [style=filled]
+		0 [label="Касательно
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актёрской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="реализовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			0 -> 2 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			11 -> 14 [label="обст"]
+			4 -> 6 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			2 -> 1 [label="опред"]
+			9 -> 4 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			6 -> 5 [label="опред"]
+}

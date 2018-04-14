@@ -1,0 +1,66 @@
+digraph SENTENCE_1649 {
+	graph [label="В 1801 году его снова сократили, оставив перечисление ересей без упоминания имен еритиков, а из преступников оставили лишь Григория Отрепьева и Ивана Мазепу."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1801
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снова
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сократили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оставив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перечисление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ересей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="упоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="еритиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="преступников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="оставили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Григория Отрепьева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Ивана Мазепу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 16 [label="_1_компл"]
+			18 -> 20 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="сочин"]
+			10 -> 11 [label="предл"]
+			21 -> 22 [label="соч_союзн"]
+			11 -> 12 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			2 -> 1 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			15 -> 18 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="обст"]
+			5 -> 15 [label="сент_соч"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_62 {
+	graph [label="Это совсем не action, скорее его противоположность."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="action
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="противоположность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			5 -> 6 [label="сравнит"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 7 [label="сочин"]
+			7 -> 5 [label="вводн"]
+}

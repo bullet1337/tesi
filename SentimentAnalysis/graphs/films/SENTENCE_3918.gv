@@ -1,0 +1,27 @@
+digraph SENTENCE_3918 {
+	graph [label="В общем и целом интересно, но не «ах!»."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="целом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ах
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="_1_компл"]
+			4 -> 6 [label="сочин"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			9 -> 7 [label="огранич"]
+			1 -> 2 [label="сочин"]
+			6 -> 9 [label="соч_союзн"]
+}

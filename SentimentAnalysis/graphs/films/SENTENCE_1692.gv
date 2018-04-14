@@ -1,0 +1,39 @@
+digraph SENTENCE_1692 {
+	graph [label="Так же фильм говорит от том:  - какими жалкими и ничтожными бывают люди."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="какими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жалкими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничтожными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			12 -> 8 [label="присвяз"]
+			12 -> 9 [label="присвяз"]
+			12 -> 13 [label="предик"]
+			9 -> 10 [label="сочин"]
+			0 -> 1 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 12 [label="сент_соч"]
+			10 -> 11 [label="соч_союзн"]
+}

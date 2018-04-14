@@ -1,0 +1,21 @@
+digraph SENTENCE_731 {
+	graph [label="Сам актер комментировать свои слова отказался."]
+	node [style=filled]
+		0 [label="Сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="комментировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_567 {
+	graph [label="После Сретения Анна стала проповедовать, что пророчества сбылись и Мессия пришел."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Сретения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Анна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проповедовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пророчества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сбылись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Мессия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="пришел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="сент_соч"]
+			9 -> 11 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			6 -> 8 [label="подч_союзн"]
+			11 -> 10 [label="предик"]
+}

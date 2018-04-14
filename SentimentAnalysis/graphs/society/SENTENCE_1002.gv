@@ -1,0 +1,39 @@
+digraph SENTENCE_1002 {
+	graph [label="Кроме того, день 23 февраля стал также неформальным народным праздником всех мужчин."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неформальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="народным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="праздником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="квазиагент"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="предик"]
+			6 -> 10 [label="присвяз"]
+			3 -> 4 [label="кратн"]
+			3 -> 5 [label="квазиагент"]
+			8 -> 7 [label="огранич"]
+			12 -> 11 [label="опред"]
+}

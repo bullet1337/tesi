@@ -1,0 +1,66 @@
+digraph SENTENCE_110 {
+	graph [label="Эстония выделила Сирии гуманитарную помощь на общую сумму 7 миллионов евро, а в 2018-2019 годах выделит дополнительно 1,3 миллиона евро."]
+	node [style=filled]
+		0 [label="Эстония
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="выделила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="гуманитарную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="общую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сумму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="евро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="2019
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="выделит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="дополнительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="1,3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="евро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="_2_компл"]
+			1 -> 5 [label="_4_компл"]
+			1 -> 12 [label="сент_соч"]
+			19 -> 21 [label="сравнит"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			21 -> 20 [label="количест"]
+			21 -> 22 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			12 -> 18 [label="соч_союзн"]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="квазиагент"]
+			18 -> 13 [label="обст"]
+			18 -> 19 [label="обст"]
+			13 -> 17 [label="предл"]
+			5 -> 7 [label="предл"]
+			14 -> 16 [label="кратн"]
+			17 -> 14 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_42 {
+	graph [label="Фильм кажется настолько реалистичным и искренним, печальным и беспокойным, что на глаза выступают слезы."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="реалистичным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искренним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="печальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="беспокойным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выступают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			12 -> 13 [label="предл"]
+			14 -> 7 [label="обст"]
+			14 -> 11 [label="предик"]
+			14 -> 12 [label="обст"]
+			14 -> 15 [label="предик"]
+			8 -> 9 [label="соч_союзн"]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 14 [label="сент_соч"]
+}

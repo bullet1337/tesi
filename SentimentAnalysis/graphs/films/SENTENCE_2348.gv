@@ -1,0 +1,30 @@
+digraph SENTENCE_2348 {
+	graph [label="И потом эта же самая Сельма хладнокровно убивает человека."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="хладнокровно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="убивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 7 [label="соч_союзн"]
+			7 -> 1 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			5 -> 2 [label="опред"]
+			2 -> 3 [label="огранич"]
+			2 -> 4 [label="опред"]
+}

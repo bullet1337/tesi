@@ -1,0 +1,42 @@
+digraph SENTENCE_877 {
+	graph [label="В то же время представитель Русской православной церкви (РПЦ) подчеркнул необходимость уважения традиции."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="представитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="необходимость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уважения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="сочин"]
+			11 -> 0 [label="обст"]
+			11 -> 4 [label="предик"]
+			11 -> 12 [label="предик"]
+			3 -> 1 [label="опред"]
+			4 -> 7 [label="_1_компл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="примыкат"]
+			0 -> 3 [label="предл"]
+}

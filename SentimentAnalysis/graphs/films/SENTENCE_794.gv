@@ -1,0 +1,18 @@
+digraph SENTENCE_794 {
+	graph [label="Каждый раз фильм немного другой."]
+	node [style=filled]
+		0 [label="Каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="колич_огран"]
+			1 -> 0 [label="опред"]
+}

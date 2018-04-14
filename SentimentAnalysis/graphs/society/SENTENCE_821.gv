@@ -1,0 +1,57 @@
+digraph SENTENCE_821 {
+	graph [label="В этот момент Норкин подошел к политологу и схватил его за плечо, после чего между мужчинами завязалась драка."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Норкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="подошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="политологу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="схватил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="плечо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мужчинами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="завязалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="драка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			15 -> 16 [label="предл"]
+			17 -> 13 [label="обст"]
+			17 -> 15 [label="обст"]
+			17 -> 18 [label="предик"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 7 [label="сочин"]
+			4 -> 17 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			5 -> 6 [label="предл"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+}

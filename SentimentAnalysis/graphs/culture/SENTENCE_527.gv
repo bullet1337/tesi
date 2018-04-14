@@ -1,0 +1,81 @@
+digraph SENTENCE_527 {
+	graph [label="Британская певица Дуа Липа, чей первый альбом вышел в июне 2017 года, завоевала сразу две награды — она стала \"лучшим новым исполнителем\" в Британии и \"лучшей британской исполнительницей\"."]
+	node [style=filled]
+		0 [label="Британская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Дуа Липа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="чей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="альбом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вышел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="июне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="завоевала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="награды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="новым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="исполнителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Британии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="лучшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="британской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="исполнительницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 6 [label="об_аппоз"]
+			27 -> 31 [label="соч_союзн"]
+			31 -> 29 [label="опред"]
+			31 -> 30 [label="опред"]
+			19 -> 18 [label="предик"]
+			19 -> 23 [label="присвяз"]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+			23 -> 25 [label="атриб"]
+			23 -> 27 [label="сочин"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="атриб"]
+			13 -> 16 [label="_1_компл"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 13 [label="сочин"]
+			7 -> 19 [label="сент_соч"]
+			15 -> 14 [label="огранич"]
+			16 -> 15 [label="количест"]
+			25 -> 26 [label="предл"]
+}

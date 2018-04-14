@@ -1,0 +1,21 @@
+digraph SENTENCE_2001 {
+	graph [label="Мальчик рассматривает книгу с репродукциями Леонардо."]
+	node [style=filled]
+		0 [label="Мальчик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассматривает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="книгу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="репродукциями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Леонардо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="квазиагент"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

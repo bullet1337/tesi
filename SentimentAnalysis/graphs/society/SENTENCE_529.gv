@@ -1,0 +1,39 @@
+digraph SENTENCE_529 {
+	graph [label="Есть такие ситуации, когда появляется такой пациент, когда нужно срочно вводить препарат."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="появляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пациент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="срочно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вводить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="препарат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предик"]
+			5 -> 9 [label="обст"]
+			0 -> 2 [label="предик"]
+			4 -> 5 [label="подч_союзн"]
+			9 -> 10 [label="подч_союзн"]
+			10 -> 12 [label="предик"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+}

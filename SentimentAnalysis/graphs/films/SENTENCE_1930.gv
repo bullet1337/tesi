@@ -1,0 +1,39 @@
+digraph SENTENCE_1930 {
+	graph [label="В конце просто невозможно было не остановить фильм во время некоторых частей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="остановить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="частей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="атриб"]
+			7 -> 11 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="присвяз"]
+			4 -> 6 [label="предик"]
+			8 -> 9 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+}

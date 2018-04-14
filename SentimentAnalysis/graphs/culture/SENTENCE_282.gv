@@ -1,0 +1,66 @@
+digraph SENTENCE_282 {
+	graph [label="Кроме того, в Москве продолжается ретроспектива фильмов бельгийского режиссера Жако ван Дормаля, автора таких картин, как \"Господин Никто\" и \"Новейший завет\"."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="продолжается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ретроспектива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бельгийского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Жако
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="ван
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Дормаля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="автора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Господин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Никто
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Новейший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="завет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 26 [label="сочин"]
+			25 -> 23 [label="огранич"]
+			18 -> 20 [label="сравн_союзн"]
+			16 -> 15 [label="опред"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			9 -> 14 [label="опред"]
+			10 -> 12 [label="аппоз"]
+			26 -> 9 [label="вводн"]
+			26 -> 21 [label="предик"]
+			26 -> 25 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+			14 -> 18 [label="сравнит"]
+}

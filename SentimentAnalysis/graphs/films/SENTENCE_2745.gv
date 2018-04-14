@@ -1,0 +1,21 @@
+digraph SENTENCE_2745 {
+	graph [label="Углубляться в сюжет дальше лень как-то."]
+	node [style=filled]
+		0 [label="Углубляться
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="атриб"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+}

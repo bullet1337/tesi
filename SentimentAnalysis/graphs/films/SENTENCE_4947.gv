@@ -1,0 +1,27 @@
+digraph SENTENCE_4947 {
+	graph [label="Гремит ядерный взрыв и ударная волна накрывает зрителя."]
+	node [style=filled]
+		0 [label="Гремит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ядерный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="взрыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ударная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="волна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="накрывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			0 -> 2 [label="предик"]
+			0 -> 6 [label="вводн"]
+			6 -> 7 [label="предик"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="соч_союзн"]
+}

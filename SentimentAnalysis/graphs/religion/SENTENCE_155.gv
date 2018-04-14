@@ -1,0 +1,66 @@
+digraph SENTENCE_155 {
+	graph [label="Со Всероссийским центром изучения общественного мнения православный университет сотрудничает уже на протяжении 10 лет (именно столько в ПСТГУ существует специальность \"социология\")."]
+	node [style=filled]
+		0 [label="Со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Всероссийским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="центром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="изучения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="общественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="православный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="университет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сотрудничает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ПСТГУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="существует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="специальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="социология
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предл"]
+			7 -> 6 [label="опред"]
+			16 -> 15 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="сочин"]
+			3 -> 8 [label="вводн"]
+			3 -> 19 [label="сент_соч"]
+			19 -> 16 [label="предик"]
+			19 -> 17 [label="обст"]
+			19 -> 20 [label="разъяснит"]
+			13 -> 12 [label="количест"]
+			8 -> 10 [label="обст"]
+			0 -> 2 [label="предл"]
+			17 -> 18 [label="предл"]
+			11 -> 13 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			20 -> 22 [label="сочин"]
+}

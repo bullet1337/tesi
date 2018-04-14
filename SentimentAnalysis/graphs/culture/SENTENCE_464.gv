@@ -1,0 +1,66 @@
+digraph SENTENCE_464 {
+	graph [label="Сериал был настолько популярен, что через два года вышло продолжение — \"Кремлевские курсанты\", в котором рассказывалось о последующей жизни некоторых главных героев."]
+	node [style=filled]
+		0 [label="Сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="популярен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вышло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="продолжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Кремлевские
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="курсанты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="рассказывалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="последующей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="предл"]
+			9 -> 5 [label="предик"]
+			9 -> 6 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 19 [label="сент_соч"]
+			14 -> 13 [label="опред"]
+			17 -> 18 [label="предл"]
+			8 -> 7 [label="количест"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="присвяз"]
+			1 -> 9 [label="сент_соч"]
+			6 -> 8 [label="предл"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			22 -> 21 [label="опред"]
+			22 -> 25 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			19 -> 14 [label="предик"]
+			19 -> 17 [label="обст"]
+			19 -> 20 [label="_3_компл"]
+}

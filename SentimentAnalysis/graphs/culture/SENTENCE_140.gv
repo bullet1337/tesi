@@ -1,0 +1,42 @@
+digraph SENTENCE_140 {
+	graph [label="Получилось одно из самых красивых и самых проникновенных повествований о любви и одиночестве."]
+	node [style=filled]
+		0 [label="Получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="красивых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проникновенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="повествований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="одиночестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="сочин"]
+			8 -> 4 [label="опред"]
+			0 -> 1 [label="предик"]
+			0 -> 9 [label="_3_компл"]
+			1 -> 2 [label="электив"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			2 -> 8 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+}

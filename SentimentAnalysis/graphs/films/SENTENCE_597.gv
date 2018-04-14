@@ -1,0 +1,49 @@
+digraph SENTENCE_597 {
+	graph [label="10 из 10
+Буду далеко не первым человеком, кто скажет: фильмы этого режиссера оценивать нелегко."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Буду
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="первым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="скажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="оценивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нелегко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="релят"]
+			0 -> 1 [label="электив"]
+			3 -> 0 [label="предик"]
+			3 -> 7 [label="присвяз"]
+			3 -> 15 [label="сочин"]
+}

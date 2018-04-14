@@ -1,0 +1,111 @@
+digraph SENTENCE_101 {
+	graph [label="Премьер-министр Эстонии Юри Ратас в пятницу посетил с визитом Ватикан, где встретился с папой Римским Франциском и государственным секретарем Святого Престола кардиналом Пьетро Паролином, стороны обсудили гуманитарную помощь людям, пострадавшим в зонах военных конфликтов, сообщила пресс-служба эстонского правительства."]
+	node [style=filled]
+		0 [label="Премьер-министр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Эстонии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Юри Ратас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посетил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="визитом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ватикан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="встретился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="папой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Римским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Франциском
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="государственным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="секретарем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Святого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Престола
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="кардиналом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Пьетро Паролином
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="обсудили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="гуманитарную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="пострадавшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="зонах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="военных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="конфликтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="эстонского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 24 [label="предик"]
+			25 -> 27 [label="_1_компл"]
+			25 -> 36 [label="сент_соч"]
+			34 -> 33 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			3 -> 4 [label="предл"]
+			16 -> 18 [label="соч_союзн"]
+			7 -> 8 [label="аппоз"]
+			15 -> 16 [label="сочин"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			18 -> 21 [label="аппоз"]
+			39 -> 38 [label="опред"]
+			21 -> 22 [label="аппоз"]
+			30 -> 31 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			13 -> 14 [label="опред"]
+			13 -> 15 [label="аппоз"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="обст"]
+			5 -> 11 [label="разъяснит"]
+			27 -> 26 [label="опред"]
+			27 -> 28 [label="_1_компл"]
+			32 -> 34 [label="квазиагент"]
+			37 -> 39 [label="квазиагент"]
+			28 -> 30 [label="опред"]
+			6 -> 7 [label="предл"]
+			12 -> 13 [label="предл"]
+			36 -> 37 [label="предик"]
+			11 -> 10 [label="_2_компл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 25 [label="сент_соч"]
+			31 -> 32 [label="предл"]
+}

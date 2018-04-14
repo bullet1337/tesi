@@ -1,0 +1,45 @@
+digraph SENTENCE_1242 {
+	graph [label="\"Я был уверен, что пришёл на детский конкурс, но вижу перед собой настоящего мужчину."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уверен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пришёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="конкурс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вижу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="настоящего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мужчину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+			5 -> 6 [label="подч_союзн"]
+			9 -> 8 [label="опред"]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 11 [label="сочин"]
+			16 -> 15 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+}

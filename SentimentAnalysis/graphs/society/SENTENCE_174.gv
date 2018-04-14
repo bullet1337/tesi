@@ -1,0 +1,51 @@
+digraph SENTENCE_174 {
+	graph [label="Ассортимент и богатый, и изысканный: от раненбургского \"Качокавалло\" в форме слезы до мягкого жирного лебедянского \"Камамбера\"."]
+	node [style=filled]
+		0 [label="Ассортимент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="богатый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="изысканный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раненбургского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Качокавалло
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="форме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="слезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мягкого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жирного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лебедянского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Камамбера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 8 [label="опред"]
+			14 -> 2 [label="опред"]
+			7 -> 10 [label="предл"]
+			1 -> 14 [label="соч_союзн"]
+			5 -> 7 [label="атриб"]
+			5 -> 12 [label="обст"]
+			15 -> 20 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 1 [label="сочин"]
+			0 -> 15 [label="атриб"]
+			12 -> 13 [label="предл"]
+			20 -> 16 [label="опред"]
+			20 -> 17 [label="опред"]
+			20 -> 18 [label="опред"]
+			2 -> 4 [label="сочин"]
+}

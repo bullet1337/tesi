@@ -1,0 +1,40 @@
+digraph SENTENCE_4533 {
+	graph [label="Тут, как говорил в свое время известный комментатор Черданцев — «Я закончил вообще все»."]
+	node [style=filled]
+		0 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="комментатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Черданцев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="закончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 15 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			8 -> 13 [label="релят"]
+			3 -> 4 [label="обст"]
+			4 -> 6 [label="предл"]
+}

@@ -1,0 +1,38 @@
+digraph SENTENCE_1635 {
+	graph [label="\"Анафема\" — слово греческое, восходит к глаголу \"анатифими\", означающему \"возлагать, предавать кому-либо что-либо\"."]
+	node [style=filled]
+		1 [label="Анафема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="греческое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="восходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="глаголу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="анатифими
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="означающему
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="возлагать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="предавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кому-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="_1_компл"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 20 [label="_1_компл"]
+			1 -> 7 [label="релят"]
+			4 -> 5 [label="аппоз"]
+			7 -> 4 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			16 -> 18 [label="_1_компл"]
+			11 -> 14 [label="опред"]
+			8 -> 9 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1079 {
+	graph [label="Возможно, именно поэтому тайна осталась\", — сказала Папангели."]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тайна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="осталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Папангели
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 9 [label="вводн"]
+			3 -> 2 [label="огранич"]
+			9 -> 10 [label="предик"]
+}

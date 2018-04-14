@@ -1,0 +1,30 @@
+digraph SENTENCE_351 {
+	graph [label="Над созданием мозаики работали 70 российских и сербских мастеров."]
+	node [style=filled]
+		0 [label="Над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="созданием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мозаики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сербских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мастеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 8 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 4 [label="количест"]
+			8 -> 5 [label="опред"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+}

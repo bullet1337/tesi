@@ -1,0 +1,36 @@
+digraph SENTENCE_937 {
+	graph [label="И за то, что вы делаете, спасибо\", — твердым голосом ответил юбиляр."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="делаете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="твердым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="голосом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ответил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="юбиляр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 14 [label="соч_союзн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 13 [label="обст"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="предл"]
+			4 -> 6 [label="подч_союзн"]
+			2 -> 4 [label="эксплет"]
+			14 -> 1 [label="_3_компл"]
+			14 -> 15 [label="предик"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1559 {
+	graph [label="При всем уважительном отношении к главному герою, режиссеру не удалось избежать самых распространенных штампов о России."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уважительном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="герою
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="избежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="распространенных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="штампов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 3 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 14 [label="обст"]
+			4 -> 6 [label="предл"]
+			13 -> 12 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			10 -> 0 [label="обст"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+			6 -> 5 [label="опред"]
+			15 -> 16 [label="предл"]
+}

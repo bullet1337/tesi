@@ -1,0 +1,54 @@
+digraph SENTENCE_4011 {
+	graph [label="Находясь в тюрьме, главного героя пытались перевоспитать, используя любые методы, но результат оставался одним и тем же."]
+	node [style=filled]
+		0 [label="Находясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тюрьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="перевоспитать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="используя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="методы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="результат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="оставался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="сент_соч"]
+			18 -> 19 [label="огранич"]
+			17 -> 18 [label="соч_союзн"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="присвяз"]
+			9 -> 11 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			7 -> 9 [label="обст"]
+			13 -> 15 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			5 -> 4 [label="опред"]
+			16 -> 17 [label="сочин"]
+}

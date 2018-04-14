@@ -1,0 +1,30 @@
+digraph SENTENCE_1380 {
+	graph [label="Для иудеев, например, обрезание — одно из наиболее важных предписаний."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="иудеев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обрезание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="важных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предписаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="огранич"]
+			5 -> 7 [label="предик"]
+			11 -> 10 [label="опред"]
+			7 -> 8 [label="электив"]
+			0 -> 1 [label="предл"]
+			8 -> 11 [label="предл"]
+}

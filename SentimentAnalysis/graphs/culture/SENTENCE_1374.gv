@@ -1,0 +1,33 @@
+digraph SENTENCE_1374 {
+	graph [label="Поскольку сиреневый зверь — пришелец, ему приходится познавать мир с нуля."]
+	node [style=filled]
+		0 [label="Поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сиреневый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зверь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пришелец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="познавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нуля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			0 -> 7 [label="подч_союзн"]
+			10 -> 11 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			7 -> 2 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+}

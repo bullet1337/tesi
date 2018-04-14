@@ -1,0 +1,66 @@
+digraph SENTENCE_87 {
+	graph [label="Будучи уже почти слепой она пыталась выжить и спасти своего сына от этой же участи, скапливая деньги и работая до изнеможения."]
+	node [style=filled]
+		0 [label="Будучи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слепой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пыталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выжить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спасти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="участи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="скапливая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="работая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="изнеможения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			18 -> 19 [label="соч_союзн"]
+			11 -> 14 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			0 -> 3 [label="присвяз"]
+			14 -> 12 [label="опред"]
+			6 -> 7 [label="сочин"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="_2_компл"]
+			8 -> 16 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="сочин"]
+			12 -> 13 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			20 -> 21 [label="предл"]
+			19 -> 20 [label="_3_компл"]
+			2 -> 1 [label="огранич"]
+}

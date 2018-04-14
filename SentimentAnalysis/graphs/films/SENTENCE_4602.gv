@@ -1,0 +1,51 @@
+digraph SENTENCE_4602 {
+	graph [label="Тот же принцип был применен в Годзилле, в котором монстрам не досталось даже ролей второго плана."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="принцип
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="применен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Годзилле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="монстрам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="досталось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="плана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			4 -> 5 [label="_2_компл"]
+			0 -> 1 [label="огранич"]
+			5 -> 6 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4
+			3 -> 12 [label="сент_соч"]
+			12 -> 8 [label="обст"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			16 -> 15 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_2499 {
+	graph [label="Достаточно много сцен, в которых просто не понятно, что же Тарковский хотел этим показать."]
+	node [style=filled]
+		0 [label="Достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="хотел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предик"]
+			0 -> 8 [label="сент_соч"]
+			10 -> 11 [label="огранич"]
+			10 -> 13 [label="подч_союзн"]
+			15 -> 14 [label="_2_компл"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			4 -> 5 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предик"]
+}

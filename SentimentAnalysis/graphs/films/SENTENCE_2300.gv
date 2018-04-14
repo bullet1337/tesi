@@ -1,0 +1,42 @@
+digraph SENTENCE_2300 {
+	graph [label="За смешной и неуклюжей оболочкой скрывается доброе большое сердце и грациозная танцующая душа!"]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смешной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неуклюжей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оболочкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скрывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="доброе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="грациозная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="душа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 8 [label="предик"]
+			5 -> 9 [label="сент_соч"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="сочин"]
+			9 -> 12 [label="соч_союзн"]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 4 [label="предл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			4 -> 1 [label="опред"]
+}

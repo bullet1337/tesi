@@ -1,0 +1,36 @@
+digraph SENTENCE_1473 {
+	graph [label="Фильм \"Довлатов\" увез в Россию \"Серебряного медведя\" за выдающийся художественный вклад."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="увез
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Серебряного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="художественный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вклад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="предл"]
+			0 -> 2 [label="аппоз"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 9 [label="_1_компл"]
+			4 -> 11 [label="_3_компл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			11 -> 14 [label="предл"]
+}

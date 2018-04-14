@@ -1,0 +1,35 @@
+digraph SENTENCE_2415 {
+	graph [label="И красивая картинка голливудская попахивает содержимым унитаза после «шоколадного» дня… Но."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="красивая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картинка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="голливудская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="попахивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="содержимым
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="унитаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шоколадного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Но
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 9 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="обст"]
+			4 -> 13 [label="сочин"]
+			7 -> 11 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="релят"]
+}

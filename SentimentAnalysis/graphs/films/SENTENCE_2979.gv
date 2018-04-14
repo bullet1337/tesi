@@ -1,0 +1,21 @@
+digraph SENTENCE_2979 {
+	graph [label="Герои становятся только угрюмее и скрытнее."]
+	node [style=filled]
+		0 [label="Герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="становятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="угрюмее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скрытнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="присвяз"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+}

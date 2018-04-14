@@ -1,0 +1,24 @@
+digraph SENTENCE_1007 {
+	graph [label="Лауреатами стали \"Манон Леско\" Большого театра, \"Ревизор."]
+	node [style=filled]
+		0 [label="Лауреатами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Манон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Леско
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Большого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Ревизор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 7 [label="разъяснит"]
+			6 -> 4 [label="огранич"]
+			1 -> 0 [label="присвяз"]
+			1 -> 3 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="сочин"]
+}

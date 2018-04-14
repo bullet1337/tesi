@@ -1,0 +1,27 @@
+digraph SENTENCE_778 {
+	graph [label="\"Обсудили развитие деловых контактов между США и Татарстаном."]
+	node [style=filled]
+		1 [label="Обсудили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="развитие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="деловых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="контактов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Татарстаном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 4 [label="_1_компл"]
+			1 -> 2 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+}

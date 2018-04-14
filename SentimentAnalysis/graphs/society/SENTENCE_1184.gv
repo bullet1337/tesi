@@ -1,0 +1,57 @@
+digraph SENTENCE_1184 {
+	graph [label="Путин подошел к венку, расправил ленты и на несколько мгновений задержался, отдавая дань уважения всем погибшим защитникам Родины."]
+	node [style=filled]
+		0 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="подошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="венку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="расправил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ленты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мгновений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="задержался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отдавая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дань
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="уважения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="погибшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="защитникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Родины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 11 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="сочин"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			8 -> 10 [label="предл"]
+			11 -> 8 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			11 -> 15 [label="предик"]
+			10 -> 9 [label="количест"]
+			13 -> 14 [label="_1_компл"]
+			15 -> 18 [label="_1_компл"]
+			15 -> 19 [label="сочин"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="сочин"]
+}

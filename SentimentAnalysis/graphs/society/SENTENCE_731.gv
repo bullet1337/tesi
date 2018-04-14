@@ -1,0 +1,33 @@
+digraph SENTENCE_731 {
+	graph [label="23 февраля прошли митинги с призывом встать на защиту Отечества."]
+	node [style=filled]
+		0 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="митинги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="призывом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="встать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="защиту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="атриб"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			0 -> 1 [label="атриб"]
+			6 -> 7 [label="_2_компл"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 9 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="предл"]
+}

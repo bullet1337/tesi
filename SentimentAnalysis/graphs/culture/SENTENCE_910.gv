@@ -1,0 +1,63 @@
+digraph SENTENCE_910 {
+	graph [label="Виктор Цой и Рыбин летом 1981 года основали группу \"Гарин и гиперболоиды\" (ее третьим участником был Олег Валинский), впоследствии переименованную в \"Кино\"."]
+	node [style=filled]
+		0 [label="Виктор Цой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Рыбин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="летом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="1981
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="основали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="группу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Гарин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="гиперболоиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="третьим
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="участником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Олег Валинский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="впоследствии
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="переименованную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Кино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			22 -> 21 [label="обст"]
+			22 -> 23 [label="_2_компл"]
+			23 -> 25 [label="предл"]
+			0 -> 3 [label="об_аппоз"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			7 -> 9 [label="аппоз"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="сент_соч"]
+			3 -> 5 [label="атриб"]
+			17 -> 11 [label="предик"]
+			17 -> 16 [label="присвяз"]
+			17 -> 18 [label="присвяз"]
+			10 -> 17 [label="соч_союзн"]
+			18 -> 22 [label="опред"]
+}

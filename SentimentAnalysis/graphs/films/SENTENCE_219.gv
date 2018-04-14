@@ -1,0 +1,42 @@
+digraph SENTENCE_219 {
+	graph [label="Об актерской игре: Я наблюдала реальную ситуацию скрытой камерой?… А такое ощущение сложилось."]
+	node [style=filled]
+		0 [label="Об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="игре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="наблюдала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ситуацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скрытой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="камерой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сложилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			5 -> 0 [label="_3_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			5 -> 12 [label="_1_компл"]
+			12 -> 15 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			15 -> 14 [label="предик"]
+			9 -> 8 [label="опред"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+}

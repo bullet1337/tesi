@@ -1,0 +1,24 @@
+digraph SENTENCE_45 {
+	graph [label="Пенелопа Крус, Мэнди Петинкин хорошие актеры, как и Кэри Элвис."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Мэнди Петинкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="хорошие
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		4 [label="актеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кэри Элвис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="об_аппоз"]
+			6 -> 7 [label="огранич"]
+			6 -> 8 [label="сравн_союзн"]
+			2 -> 4 [label="об_аппоз"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сравнит"]
+}

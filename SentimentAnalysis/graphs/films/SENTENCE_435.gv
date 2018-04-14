@@ -1,0 +1,37 @@
+digraph SENTENCE_435 {
+	graph [label="И жестокий, беспросветный, невероятно жестокий, и совершенно беспросветный, пропитанный предательством т. н."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жестокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="беспросветный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жестокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="беспросветный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пропитанный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="предательством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="н
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="_2_компл"]
+			1 -> 3 [label="сочин"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="огранич"]
+			13 -> 14 [label="аппоз"]
+			3 -> 6 [label="сочин"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="сочин"]
+			14 -> 16 [label="квазиагент"]
+}

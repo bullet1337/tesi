@@ -1,0 +1,44 @@
+digraph SENTENCE_3686 {
+	graph [label="Их показали, не то что тупыми, скорее пещерными людьми, не далеко ушедшими от обезьяны."]
+	node [style=filled]
+		0 [label="Их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="показали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тупыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пещерными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="людьми
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ушедшими
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обезьяны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			10 -> 6 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 14 [label="опред"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="эксплет"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 4 [label="предик"]
+			13 -> 12 [label="огранич"]
+}

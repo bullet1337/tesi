@@ -1,0 +1,23 @@
+digraph SENTENCE_1678 {
+	graph [label="Мне кажется, это такая бесплатная пиар-компания фильма."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бесплатная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пиар-компания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_2_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+}

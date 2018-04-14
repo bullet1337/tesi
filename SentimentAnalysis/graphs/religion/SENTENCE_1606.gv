@@ -1,0 +1,90 @@
+digraph SENTENCE_1606 {
+	graph [label="В Русской православной церкви это название, подчеркивающее стремление провести первый день поста в чистоте, не каноническое, хотя в некоторых других поместных православных церквях, например в Элладской, оно официальное, церковное."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подчеркивающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стремление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="провести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чистоте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="каноническое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="поместных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="церквях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Элладской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="официальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="церковное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="квазиагент"]
+			5 -> 9 [label="предик"]
+			25 -> 21 [label="опред"]
+			25 -> 22 [label="опред"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 17 [label="релят"]
+			13 -> 14 [label="предл"]
+			17 -> 12 [label="предик"]
+			17 -> 13 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			32 -> 28 [label="обст"]
+			32 -> 31 [label="предик"]
+			0 -> 3 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 19 [label="обст"]
+			9 -> 34 [label="_1_компл"]
+			20 -> 25 [label="предл"]
+			28 -> 20 [label="вводн"]
+			28 -> 27 [label="вводн"]
+			28 -> 29 [label="предл"]
+			8 -> 7 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			19 -> 32 [label="подч_союзн"]
+}

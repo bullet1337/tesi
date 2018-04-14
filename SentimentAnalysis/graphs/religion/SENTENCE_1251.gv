@@ -1,0 +1,62 @@
+digraph SENTENCE_1251 {
+	graph [label="По его словам, \"победа Загитовой на Олимпийских играх — это в том числе результат ее личного духовного стремления к родной религии\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="победа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Загитовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Олимпийских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="играх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="результат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="личного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="духовного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стремления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="родной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="религии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 16 [label="квазиагент"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			0 -> 2 [label="предл"]
+			20 -> 22 [label="предл"]
+			15 -> 11 [label="предик"]
+			15 -> 12 [label="огранич"]
+			15 -> 19 [label="квазиагент"]
+			12 -> 14 [label="предл"]
+			7 -> 9 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 15 [label="об_аппоз"]
+			9 -> 8 [label="опред"]
+			22 -> 21 [label="опред"]
+}

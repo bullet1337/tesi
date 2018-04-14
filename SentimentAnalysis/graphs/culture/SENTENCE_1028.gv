@@ -1,0 +1,42 @@
+digraph SENTENCE_1028 {
+	graph [label="Вот это сочетание обладания формой и психологических качеств актера были здесь очень важны."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сочетание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обладания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="формой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="психологических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="качеств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="важны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сочин"]
+			3 -> 9 [label="сент_соч"]
+			9 -> 10 [label="обст"]
+			9 -> 12 [label="присвяз"]
+			2 -> 1 [label="опред"]
+			1 -> 0 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			4 -> 5 [label="сочин"]
+}

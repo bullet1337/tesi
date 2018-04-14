@@ -1,0 +1,54 @@
+digraph SENTENCE_3114 {
+	graph [label="Могу сказать точно, этот фильм дает лишь понимание того, что любовь есть лишь там, где есть женщина."]
+	node [style=filled]
+		0 [label="Могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="точно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="огранич"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="релят"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="обст"]
+			11 -> 13 [label="подч_союзн"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 11 [label="эксплет"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="предик"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 6 [label="вводн"]
+			1 -> 5 [label="_1_компл"]
+			6 -> 8 [label="предик"]
+			5 -> 4 [label="опред"]
+}

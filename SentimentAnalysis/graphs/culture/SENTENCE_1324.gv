@@ -1,0 +1,27 @@
+digraph SENTENCE_1324 {
+	graph [label="Музыкант возражает, что ему ближе \"бармалейские стихи\" Корнея Чуковского."]
+	node [style=filled]
+		0 [label="Музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="возражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ближе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бармалейские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стихи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Корнея Чуковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 10 [label="разъяснит"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 8 [label="предик"]
+			3 -> 5 [label="подч_союзн"]
+}

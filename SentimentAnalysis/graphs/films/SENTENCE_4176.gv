@@ -1,0 +1,51 @@
+digraph SENTENCE_4176 {
+	graph [label="Если зритель не сопереживает персонажу, ему нет дела так же и до происходящих вокруг него событий."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сопереживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="персонажу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="происходящих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_2_компл"]
+			7 -> 0 [label="обст"]
+			7 -> 6 [label="неакт_компл"]
+			7 -> 8 [label="предик"]
+			7 -> 12 [label="сент_соч"]
+			9 -> 10 [label="огранич"]
+			14 -> 15 [label="предл"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			12 -> 16 [label="предик"]
+			0 -> 3 [label="подч_союзн"]
+}

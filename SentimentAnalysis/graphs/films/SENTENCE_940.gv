@@ -1,0 +1,54 @@
+digraph SENTENCE_940 {
+	graph [label="Если бы я изначально прочитала отзывы о фильме, я бы ни за что не стала его смотреть."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="изначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прочитала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отзывы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			15 -> 0 [label="обст"]
+			15 -> 9 [label="предик"]
+			15 -> 10 [label="аналит"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="_1_компл"]
+			0 -> 4 [label="подч_союзн"]
+			17 -> 16 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			4 -> 1 [label="аналит"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+}

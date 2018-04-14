@@ -1,0 +1,84 @@
+digraph SENTENCE_365 {
+	graph [label="По мнению авторов обращения, сегодня \"детям и юношеству жизненно необходимо получать правильные представления о религии, уметь отличать исконные духовные традиции от привнесенных псевдорелигиозных учений и экстремистских сект\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="авторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обращения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="юношеству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="необходимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="получать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="правильные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="представления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="религии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="уметь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="отличать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="исконные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="духовные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="привнесенных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="псевдорелигиозных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="учений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="экстремистских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			23 -> 26 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			11 -> 0 [label="вводн"]
+			11 -> 5 [label="обст"]
+			11 -> 7 [label="_2_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="предик"]
+			29 -> 28 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			19 -> 22 [label="_2_компл"]
+			19 -> 23 [label="_1_компл"]
+			19 -> 27 [label="сочин"]
+			0 -> 1 [label="предл"]
+			7 -> 8 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			22 -> 20 [label="опред"]
+			22 -> 21 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+			12 -> 18 [label="сочин"]
+			27 -> 29 [label="соч_союзн"]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+}

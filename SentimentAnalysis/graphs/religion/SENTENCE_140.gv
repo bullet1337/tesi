@@ -1,0 +1,36 @@
+digraph SENTENCE_140 {
+	graph [label="Причем разные приезжали к нему – и демократы и республиканцы\", — подчеркивает Ряховский."]
+	node [style=filled]
+		0 [label="Причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="разные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приезжали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="демократы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="республиканцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="подчеркивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Ряховский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="соч_союзн"]
+			0 -> 14 [label="разъяснит"]
+			13 -> 6 [label="огранич"]
+			13 -> 7 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			14 -> 13 [label="вводн"]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+}

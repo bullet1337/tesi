@@ -1,0 +1,48 @@
+digraph SENTENCE_914 {
+	graph [label="В Прощеное воскресенье православные последний раз перед постом едят скоромную пищу — заговляются на Великий пост."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="православные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="постом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="едят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="скоромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пищу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заговляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			12 -> 13 [label="обст"]
+			8 -> 0 [label="обст"]
+			8 -> 5 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 10 [label="предик"]
+			8 -> 12 [label="сочин"]
+			2 -> 1 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			13 -> 15 [label="предл"]
+			0 -> 2 [label="предл"]
+			10 -> 9 [label="опред"]
+			6 -> 7 [label="предл"]
+}

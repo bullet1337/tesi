@@ -1,0 +1,30 @@
+digraph SENTENCE_33 {
+	graph [label="Почему никто даже не попытался встать на защиту героини?"]
+	node [style=filled]
+		0 [label="Почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="попытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="встать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="защиту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_2_компл"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+}

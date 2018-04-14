@@ -1,0 +1,42 @@
+digraph SENTENCE_528 {
+	graph [label="Лучшим исполнителем в Британии, по версии учредителей премии, был признан известный рэпер Stormzy."]
+	node [style=filled]
+		0 [label="Лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="исполнителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Британии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="версии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="учредителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="признан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рэпер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Stormzy
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 10 [label="релят"]
+			13 -> 7 [label="предик"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			5 -> 2 [label="огранич"]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 13 [label="примыкат"]
+			10 -> 8 [label="предик"]
+			10 -> 11
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_3328 {
+	graph [label="И если Тарасов показан таким садистом, то ведь мазохистом показан и Харламов."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="садистом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мазохистом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 10 [label="соч_союзн"]
+			10 -> 1 [label="обст"]
+			10 -> 8 [label="огранич"]
+			10 -> 9 [label="агент"]
+			10 -> 12 [label="предик"]
+			12 -> 11 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="агент"]
+			5 -> 4 [label="опред"]
+			1 -> 3 [label="подч_союзн"]
+			1 -> 7 [label="соотнос"]
+}

@@ -1,0 +1,46 @@
+digraph SENTENCE_1452 {
+	graph [label="Каждая мама превозносит своего ребенка выше всех и вся, готовая сделать ради него что угодно."]
+	node [style=filled]
+		0 [label="Каждая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="превозносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="готовая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="угодно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15
+			12 -> 13 [label="предл"]
+			11 -> 12 [label="обст"]
+			11 -> 14 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			5 -> 6 [label="сравнит"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 5 [label="_2_компл"]
+			2 -> 7 [label="сент_соч"]
+}

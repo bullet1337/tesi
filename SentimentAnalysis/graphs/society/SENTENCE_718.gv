@@ -1,0 +1,60 @@
+digraph SENTENCE_718 {
+	graph [label="\"Там принимаются меры по урегулированию долгов, но там нет профсоюза, поэтому нам сложно вмешиваться туда, где люди не организовались."]
+	node [style=filled]
+		1 [label="Там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="принимаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="урегулированию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="долгов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="профсоюза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вмешиваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="туда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="организовались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="дат_субъект"]
+			15 -> 16 [label="предик"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			10 -> 15 [label="сент_соч"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="сент_соч"]
+			4 -> 5 [label="предл"]
+			22 -> 19 [label="обст"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			17 -> 22 [label="релят"]
+}

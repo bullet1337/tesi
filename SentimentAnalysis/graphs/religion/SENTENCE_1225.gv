@@ -1,0 +1,72 @@
+digraph SENTENCE_1225 {
+	graph [label="По его словам, ожидается, что на вечере будут присутствовать предстоятель Русской зарубежной церкви митрополит Иларион и епископ Манхэттенский Николай (тоже Русская зарубежная церковь)."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вечере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="присутствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предстоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="зарубежной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="митрополит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Иларион
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Манхэттенский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Николай
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Русская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="зарубежная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			11 -> 14 [label="атриб"]
+			11 -> 15 [label="аппоз"]
+			11 -> 17 [label="сочин"]
+			18 -> 20 [label="аппоз"]
+			4 -> 0 [label="вводн"]
+			4 -> 6 [label="предик"]
+			23 -> 22 [label="огранич"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			9 -> 7 [label="обст"]
+			9 -> 10 [label="аналит"]
+			9 -> 11 [label="предик"]
+			17 -> 18 [label="соч_союзн"]
+			6 -> 9 [label="подч_союзн"]
+			0 -> 2 [label="предл"]
+			15 -> 16 [label="аппоз"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			20 -> 19 [label="опред"]
+			20 -> 25 [label="аппоз"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,49 @@
+digraph SENTENCE_4349 {
+	graph [label="Я хотел узнать, ну что такого в данной картине, что о нём заговорили всё зарубежные СМИ."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хотел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="узнать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="данной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заговорили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зарубежные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+			11 -> 14 [label="подч_союзн"]
+			9 -> 8 [label="опред"]
+			14 -> 12 [label="_2_компл"]
+			14 -> 17 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			16 -> 15 [label="огранич"]
+			5 -> 4 [label="вводн"]
+			5 -> 6 [label="опред"]
+			17 -> 16 [label="опред"]
+}

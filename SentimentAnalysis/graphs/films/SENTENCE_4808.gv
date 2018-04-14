@@ -1,0 +1,42 @@
+digraph SENTENCE_4808 {
+	graph [label="На этом заканчиваются положительные аспекты проекта и переходим уже в его темные реалии."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заканчиваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="положительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="аспекты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="переходим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="темные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="реалии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			9 -> 12 [label="предл"]
+			6 -> 7 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			12 -> 10 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			2 -> 6 [label="сочин"]
+			7 -> 9 [label="_2_компл"]
+}

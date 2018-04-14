@@ -1,0 +1,45 @@
+digraph SENTENCE_688 {
+	graph [label="Рассмотрение антимонопольного дела, касающегося передачи Сампсониевского собора в пользование РПЦ, назначено на 12 марта."]
+	node [style=filled]
+		0 [label="Рассмотрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="антимонопольного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="касающегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="передачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сампсониевского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пользование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="назначено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="_3_компл"]
+			12 -> 0 [label="предик"]
+			12 -> 13 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			14 -> 15 [label="атриб"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			13 -> 14 [label="предл"]
+			0 -> 2 [label="_1_компл"]
+}

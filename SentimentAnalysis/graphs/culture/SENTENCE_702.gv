@@ -1,0 +1,60 @@
+digraph SENTENCE_702 {
+	graph [label="Жанр спектакля \"Путешествие Пушкина в Африку\" — фантастическая поэма из текстов Пушкина, Бродского и музыки Чайковского, Генделя, Рахманинова и Хачатуряна."]
+	node [style=filled]
+		0 [label="Жанр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Путешествие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Африку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="фантастическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поэма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="текстов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Бродского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Генделя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Рахманинова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Хачатуряна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 24 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 10 [label="сочин"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 3 [label="сочин"]
+			16 -> 17 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			5 -> 6 [label="предл"]
+			20 -> 22 [label="аппоз"]
+			17 -> 18 [label="атриб"]
+			11 -> 12 [label="предл"]
+			22 -> 23 [label="сочин"]
+			18 -> 20 [label="аппоз"]
+			12 -> 13 [label="квазиагент"]
+			12 -> 15 [label="опред"]
+}

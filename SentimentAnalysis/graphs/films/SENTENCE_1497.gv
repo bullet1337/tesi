@@ -1,0 +1,39 @@
+digraph SENTENCE_1497 {
+	graph [label="Сейчас она отказывает во всем себе, сыну, но цель оправдывает эти лишения."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="цель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оправдывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лишения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="_2_компл"]
+			2 -> 9 [label="сент_соч"]
+			3 -> 5 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			9 -> 11 [label="соч_союзн"]
+}

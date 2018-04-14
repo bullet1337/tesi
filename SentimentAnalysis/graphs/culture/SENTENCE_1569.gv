@@ -1,0 +1,30 @@
+digraph SENTENCE_1569 {
+	graph [label="Пивная бутылка, мусор в квартире, липкая лента для мух."]
+	node [style=filled]
+		0 [label="Пивная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бутылка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мусор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="квартире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="липкая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мух
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 8 [label="примыкат"]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="опред"]
+			9 -> 10 [label="предл"]
+			8 -> 4 [label="огранич"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+}

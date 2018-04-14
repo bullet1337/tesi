@@ -1,0 +1,48 @@
+digraph SENTENCE_2312 {
+	graph [label="Ее увольняют с работы… И т. д. и т. п. Шито белыми нитками, господин Фон Триер."]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="увольняют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="д
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="п
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Шито
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="белыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нитками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="господин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Фон Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 13 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 15 [label="сент_соч"]
+			10 -> 11 [label="соч_союзн"]
+			19 -> 20 [label="аппоз"]
+			8 -> 10 [label="сочин"]
+			17 -> 16 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			3 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			15 -> 17 [label="агент"]
+			15 -> 19 [label="предик"]
+}

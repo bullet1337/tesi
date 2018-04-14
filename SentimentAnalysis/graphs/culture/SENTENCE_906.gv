@@ -1,0 +1,39 @@
+digraph SENTENCE_906 {
+	graph [label="Тем летом Цой записывает свой первый альбом, а Науменко собирает группу \"Зоопарк\"."]
+	node [style=filled]
+		0 [label="Тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="летом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Цой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="записывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="альбом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Науменко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="собирает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="группу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Зоопарк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 8 [label="сент_соч"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 13 [label="аппоз"]
+}

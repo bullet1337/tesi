@@ -1,0 +1,30 @@
+digraph SENTENCE_1279 {
+	graph [label="Выступая в эфире программы \"Церковь и мир\" на телеканале \"."]
+	node [style=filled]
+		0 [label="Выступая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эфире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Церковь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="телеканале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="обст"]
+			0 -> 3 [label="_1_компл"]
+			0 -> 9 [label="обст"]
+			3 -> 5 [label="аппоз"]
+			3 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+}

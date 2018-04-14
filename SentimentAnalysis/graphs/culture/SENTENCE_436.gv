@@ -1,0 +1,39 @@
+digraph SENTENCE_436 {
+	graph [label="День защитника Отечества — повод пересмотреть любимые фильмы и сериалы об армейской службе."]
+	node [style=filled]
+		0 [label="День
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="повод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пересмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любимые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сериалы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="армейской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 2 [label="аппоз"]
+			0 -> 4 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			5 -> 7 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+}

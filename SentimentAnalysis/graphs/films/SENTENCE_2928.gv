@@ -1,0 +1,57 @@
+digraph SENTENCE_2928 {
+	graph [label="Пара мыслей есть, кстати, для приемных матерей или даже воспитателей, так что хорошо отрабатывает свой титул «семейное кино»."]
+	node [style=filled]
+		0 [label="Пара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мыслей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приемных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="матерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="воспитателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отрабатывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="титул
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="семейное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 20 [label="опред"]
+			11 -> 10 [label="огранич"]
+			14 -> 13
+			14 -> 16 [label="подч_союзн"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			6 -> 9 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="вводн"]
+			2 -> 6 [label="обст"]
+			2 -> 14 [label="обст"]
+			0 -> 1 [label="квазиагент"]
+			16 -> 15 [label="обст"]
+			16 -> 18 [label="_1_компл"]
+			9 -> 11 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+}

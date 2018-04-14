@@ -1,0 +1,30 @@
+digraph SENTENCE_1174 {
+	graph [label="Он предложил подумать об ограничении влияния хип-хопа на детей."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ограничении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="влияния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хип-хопа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_2_компл"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+}

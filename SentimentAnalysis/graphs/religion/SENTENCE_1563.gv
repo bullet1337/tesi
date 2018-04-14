@@ -1,0 +1,45 @@
+digraph SENTENCE_1563 {
+	graph [label="Некоторое время работал в нунциатуре в Варшаве, исполнял другие поручения Святого престола за рубежом."]
+	node [style=filled]
+		0 [label="Некоторое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нунциатуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Варшаве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="исполнял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Святого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="престола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рубежом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="атриб"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="предл"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="квазиагент"]
+			10 -> 13 [label="атриб"]
+			1 -> 0 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			2 -> 1 [label="длительн"]
+			2 -> 3 [label="_3_компл"]
+			2 -> 8 [label="сочин"]
+}

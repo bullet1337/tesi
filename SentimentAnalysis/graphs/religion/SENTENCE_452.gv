@@ -1,0 +1,66 @@
+digraph SENTENCE_452 {
+	graph [label="По утверждению организации Грэма, на этот призыв откликнулись 3,2 миллиона человек, а общая аудитория Грэма за десятилетия проповедей превысила 2 миллиарда."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="утверждению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Грэма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="призыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="откликнулись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="3,2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="аудитория
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Грэма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="десятилетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="проповедей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="превысила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="миллиарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 5 [label="_1_компл"]
+			8 -> 10 [label="предик"]
+			8 -> 13 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			18 -> 19 [label="квазиагент"]
+			1 -> 2 [label="квазиагент"]
+			17 -> 18 [label="предл"]
+			5 -> 7 [label="предл"]
+			7 -> 6 [label="опред"]
+			13 -> 20 [label="соч_союзн"]
+			20 -> 15 [label="предик"]
+			20 -> 17 [label="обст"]
+			20 -> 22 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="аппоз"]
+			22 -> 21 [label="количест"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="квазиагент"]
+}

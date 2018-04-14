@@ -1,0 +1,33 @@
+digraph SENTENCE_665 {
+	graph [label="Также использованы воспоминания о Тургеневе его семьи, друзей и коллег."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="использованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="воспоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Тургеневе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="семьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="коллег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="сочин"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="сочин"]
+			6 -> 5 [label="квазиагент"]
+			6 -> 8 [label="сочин"]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+}

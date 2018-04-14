@@ -1,0 +1,57 @@
+digraph SENTENCE_745 {
+	graph [label="У меня слезы были, когда героиня Катрин Денев кричала в трубку героини Бьорк про ее сына: «Ему нужна мама!"]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Катрин Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="кричала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трубку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Ему
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="нужна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+			11 -> 19 [label="релят"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			6 -> 7 [label="аппоз"]
+			19 -> 12 [label="предик"]
+			19 -> 18 [label="_2_компл"]
+			19 -> 20 [label="предик"]
+			9 -> 10 [label="предл"]
+			15 -> 14 [label="_1_компл"]
+			5 -> 8 [label="подч_союзн"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+}

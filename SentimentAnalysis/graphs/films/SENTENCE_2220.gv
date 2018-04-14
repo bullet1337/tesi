@@ -1,0 +1,27 @@
+digraph SENTENCE_2220 {
+	graph [label="Тарковский — великий человек, создавший свою собственную сюрреалистическую кино-вселенную."]
+	node [style=filled]
+		0 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="великий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="создавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="собственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюрреалистическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кино-вселенную
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			5 -> 9 [label="_1_компл"]
+}

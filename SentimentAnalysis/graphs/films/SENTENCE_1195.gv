@@ -1,0 +1,60 @@
+digraph SENTENCE_1195 {
+	graph [label="Мир мечтаний Сельмы — яркий, радужный, бесконечно счастливый мюзикл — оказывается противопоставленным её действительной жизни даже на уровне оттенков, улавливаемых глазом."]
+	node [style=filled]
+		0 [label="Мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мечтаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="яркий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="радужный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бесконечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="счастливый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="противопоставленным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="действительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="уровне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="оттенков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="улавливаемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="глазом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="предик"]
+			12 -> 13 [label="присвяз"]
+			12 -> 18 [label="обст"]
+			4 -> 6 [label="сочин"]
+			6 -> 9 [label="сочин"]
+			9 -> 8 [label="огранич"]
+			16 -> 14 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+			20 -> 22 [label="опред"]
+			22 -> 23 [label="агент"]
+			13 -> 16 [label="_1_компл"]
+			10 -> 4 [label="опред"]
+			19 -> 20 [label="квазиагент"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 12 [label="релят"]
+}

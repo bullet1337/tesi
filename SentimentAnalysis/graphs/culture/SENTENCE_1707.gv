@@ -1,0 +1,69 @@
+digraph SENTENCE_1707 {
+	graph [label="По словам Шагина, в этом фильме они хотят показать, что \"эра милосердия все-таки наступила, и все люди наконец-то стали братьями и сестрами\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Шагина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="милосердия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="все-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="наступила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="наконец-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="братьями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сестрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			16 -> 13 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="сент_соч"]
+			24 -> 25 [label="соч_союзн"]
+			18 -> 22 [label="соч_союзн"]
+			9 -> 11 [label="_1_компл"]
+			23 -> 24 [label="сочин"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="присвяз"]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+			20 -> 19 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			11 -> 16 [label="подч_союзн"]
+			8 -> 0 [label="вводн"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			13 -> 14 [label="квазиагент"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_827 {
+	graph [label="Ранее сообщалось, что около 14:45 на пересечении улицы Маршала Катукова и Таллинской улицы в столичном районе Строгино произошло ДТП с участием легкового автомобиля и трамвая №21."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="45
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пересечении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Маршала Катукова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Таллинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="столичном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="районе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Строгино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ДТП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="участием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="легкового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="автомобиля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="трамвая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 11 [label="предл"]
+			4 -> 15 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+			21 -> 22 [label="предл"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="сочин"]
+			3 -> 19 [label="подч_союзн"]
+			14 -> 13 [label="опред"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			22 -> 24 [label="квазиагент"]
+			11 -> 5 [label="количест"]
+			11 -> 12 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+			25 -> 26 [label="соч_союзн"]
+			5 -> 7 [label="кратн"]
+			5 -> 8 [label="атриб"]
+			20 -> 21 [label="атриб"]
+			8 -> 9 [label="предл"]
+			26 -> 28 [label="нум_аппоз"]
+			15 -> 17 [label="предл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			19 -> 4 [label="предик"]
+			19 -> 20 [label="_1_компл"]
+}

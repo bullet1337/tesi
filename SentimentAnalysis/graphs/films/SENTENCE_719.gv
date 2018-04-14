@@ -1,0 +1,24 @@
+digraph SENTENCE_719 {
+	graph [label="Словно человек спросил «Зачем ты это сделала?»."]
+	node [style=filled]
+		0 [label="Словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спросил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Зачем
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сделала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 7 [label="_2_компл"]
+			7 -> 4 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+}

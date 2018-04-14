@@ -1,0 +1,30 @@
+digraph SENTENCE_685 {
+	graph [label="Договоры заключены… с приходом, как с фактическим пользователем собора."]
+	node [style=filled]
+		0 [label="Договоры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заключены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="приходом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фактическим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пользователем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 6 [label="сравнит"]
+			6 -> 7 [label="сравн_союзн"]
+}

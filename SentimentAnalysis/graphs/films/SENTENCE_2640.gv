@@ -1,0 +1,44 @@
+digraph SENTENCE_2640 {
+	graph [label="Ну и пусть, что большинство героев в нем не раскрыты чуть более, чем полностью."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="раскрыты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 2 [label="огранич"]
+			10 -> 5 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 9 [label="огранич"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="вводн"]
+			1 -> 10 [label="соч_союзн"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="сравнит"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 4
+			14 -> 15 [label="сравн_союзн"]
+}

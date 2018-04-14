@@ -1,0 +1,41 @@
+digraph SENTENCE_1598 {
+	graph [label="Сначала кажется, что она обычная дурнушка, помешанная на мюзиклах и работающая на фабрике."]
+	node [style=filled]
+		0 [label="Сначала
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обычная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дурнушка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="помешанная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мюзиклах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="работающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фабрике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			8 -> 9 [label="обст"]
+			8 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			4 -> 6 [label="об_аппоз"]
+			9 -> 10 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			12 -> 13 [label="обст"]
+			13 -> 14 [label="предл"]
+}

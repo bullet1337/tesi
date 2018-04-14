@@ -1,0 +1,42 @@
+digraph SENTENCE_116 {
+	graph [label="Утром в пятницу Ратас встретился в Риме с главой итальянского правительства Паоло Джентилони."]
+	node [style=filled]
+		0 [label="Утром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ратас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="встретился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Риме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="итальянского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Паоло
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Джентилони
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			3 -> 1 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="_2_компл"]
+			4 -> 12 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			7 -> 8 [label="предл"]
+			10 -> 9 [label="опред"]
+}

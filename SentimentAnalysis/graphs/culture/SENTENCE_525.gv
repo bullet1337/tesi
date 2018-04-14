@@ -1,0 +1,87 @@
+digraph SENTENCE_525 {
+	graph [label="Популярный британский музыкант Эд Ширан стал лауреатом музыкальной премии Brit Awards в номинации \"мировое признание\", лучшей британской группой стали Gorillaz, в категории \"лучший международный коллектив\" победили американцы Foo Fighters, сообщается на."]
+	node [style=filled]
+		0 [label="Популярный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="британский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Эд Ширан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лауреатом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="музыкальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Brit Awards
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="номинации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мировое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="признание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="лучшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="британской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="группой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Gorillaz
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="категории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="коллектив
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="победили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="американцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Foo Fighters
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		33 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			27 -> 25 [label="опред"]
+			27 -> 26 [label="опред"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			23 -> 27 [label="квазиагент"]
+			19 -> 20 [label="примыкат"]
+			19 -> 22 [label="обст"]
+			19 -> 29 [label="сочин"]
+			33 -> 34 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="присвяз"]
+			4 -> 19 [label="сочин"]
+			22 -> 23 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			7 -> 9 [label="атриб"]
+			9 -> 10 [label="предл"]
+			10 -> 13 [label="_1_компл"]
+			10 -> 18 [label="_2_компл"]
+			13 -> 12 [label="опред"]
+			30 -> 31 [label="аппоз"]
+			29 -> 30 [label="предик"]
+			29 -> 33 [label="сочин"]
+}

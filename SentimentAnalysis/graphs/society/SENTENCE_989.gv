@@ -1,0 +1,87 @@
+digraph SENTENCE_989 {
+	graph [label="Он многие годы отдал дипломатической службе — был послом СССР в Бонне, возглавлял международный отдел ЦК КПСС, работал в газете \"Известия\", в 1986-1988 годах был председателем правления АПН."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отдал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дипломатической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="послом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Бонне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="возглавлял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="отдел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ЦК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="КПСС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="работал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="газете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Известия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="1986
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="1988
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="председателем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="правления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="АПН
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="длительн"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			3 -> 13 [label="вводн"]
+			3 -> 19 [label="сочин"]
+			3 -> 31 [label="вводн"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="квазиагент"]
+			30 -> 27 [label="опред"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			27 -> 29 [label="кратн"]
+			7 -> 8 [label="присвяз"]
+			16 -> 17 [label="квазиагент"]
+			21 -> 23 [label="аппоз"]
+			26 -> 30 [label="предл"]
+			32 -> 33 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			31 -> 32 [label="присвяз"]
+			19 -> 20 [label="обст"]
+			19 -> 26 [label="_3_компл"]
+			13 -> 15 [label="предик"]
+			33 -> 34 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_949 {
+	graph [label="Органисты великих соборов\" свое искусство представит Саймон Джонсон, Венсан Дюбуа, Реберто Фреско."]
+	node [style=filled]
+		0 [label="Органисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="великих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="соборов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Саймон Джонсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Венсан Дюбуа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Реберто
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Фреско
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 12 [label="обст"]
+			5 -> 4 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			9 -> 11 [label="аппоз"]
+			7 -> 9 [label="аппоз"]
+			2 -> 1 [label="опред"]
+}

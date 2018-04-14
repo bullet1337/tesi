@@ -1,0 +1,44 @@
+digraph SENTENCE_370 {
+	graph [label="Известно, что он был первым крупным христианским писателем нееврейского происхождения и из нееврейской среды."]
+	node [style=filled]
+		0 [label="Известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="крупным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="христианским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="писателем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нееврейского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="происхождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нееврейской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="среды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="подч_союзн"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="предл"]
+			0 -> 2 [label="предик"]
+			10 -> 9 [label="опред"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="атриб"]
+			4 -> 3 [label="предик"]
+			4 -> 8 [label="присвяз"]
+			4 -> 11 [label="сочин"]
+}

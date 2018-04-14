@@ -1,0 +1,21 @@
+digraph SENTENCE_3 {
+	graph [label="Андрей Тарковский гениальный и очень известный режиссер."]
+	node [style=filled]
+		0 [label="Андрей Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="гениальный
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=green penwidth=1 shape=ellipse]
+		4 [label="известный
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		5 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+			0 -> 5 [label="об_аппоз"]
+			4 -> 3 [label="огранич"]
+			5 -> 1 [label="опред"]
+}

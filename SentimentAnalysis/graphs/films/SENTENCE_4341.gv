@@ -1,0 +1,42 @@
+digraph SENTENCE_4341 {
+	graph [label="Мужчину зовут Хуан, он наркоторговец, именно у него мать главное героя покупает наркотики."]
+	node [style=filled]
+		0 [label="Мужчину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="зовут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Хуан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="наркоторговец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="покупает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наркотики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			13 -> 4 [label="_2_несобст_компл"]
+			13 -> 5 [label="предик"]
+			13 -> 8 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="вводн"]
+			1 -> 13 [label="сент_соч"]
+}

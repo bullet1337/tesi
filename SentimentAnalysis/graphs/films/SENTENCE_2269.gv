@@ -1,0 +1,33 @@
+digraph SENTENCE_2269 {
+	graph [label="Все это жутко не вяжется в одну единую сюжетную линию."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жутко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вяжется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="единую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюжетную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="линию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="предл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			9 -> 6 [label="количест"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+}

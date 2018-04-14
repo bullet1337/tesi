@@ -1,0 +1,51 @@
+digraph SENTENCE_397 {
+	graph [label="Во всех гарнизонах Вооруженных сил Российской Федерации 23 февраля проходят торжественные мероприятия, посвященные Дню защитника Отечества."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гарнизонах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Вооруженных
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Федерации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="торжественные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посвященные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Дню
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 0 [label="обст"]
+			9 -> 11 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="опред"]
+			11 -> 16 [label="сочин"]
+			0 -> 2 [label="предл"]
+			13 -> 14 [label="_2_компл"]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			2 -> 7 [label="атриб"]
+			14 -> 15 [label="квазиагент"]
+			7 -> 8 [label="атриб"]
+}

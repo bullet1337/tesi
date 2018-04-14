@@ -1,0 +1,18 @@
+digraph SENTENCE_922 {
+	graph [label="Есть даже краб и альпака."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="краб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="альпака
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="сочин"]
+			0 -> 2 [label="предик"]
+			3 -> 4 [label="соч_союзн"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_4825 {
+	graph [label="Скажу сразу, мне не нравятся ни «Война Миров», ни «2012»."]
+	node [style=filled]
+		0 [label="Скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нравятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Война
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Миров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2012
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="обст"]
+			0 -> 5 [label="_1_компл"]
+			8 -> 9 [label="квазиагент"]
+			14 -> 6 [label="огранич"]
+			14 -> 8 [label="предик"]
+			14 -> 12 [label="огранич"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 14 [label="предик"]
+}

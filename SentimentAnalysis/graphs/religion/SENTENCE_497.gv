@@ -1,0 +1,24 @@
+digraph SENTENCE_497 {
+	graph [label="Мы готовы помогать всем, кто страдает там."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="готовы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="помогать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="страдает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			3 -> 6 [label="релят"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

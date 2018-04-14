@@ -1,0 +1,50 @@
+digraph SENTENCE_713 {
+	graph [label="В воскресенье заканчивается Масленица, или Масленая неделя — просторечное название Сырной седмицы, последней перед Великим постом недели."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заканчивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Масленица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Масленая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просторечное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сырной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="седмицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="последней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Великим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="постом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="сочин"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="сочин"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="опред"]
+			14 -> 15 [label="атриб"]
+			15 -> 17 [label="предл"]
+			10 -> 9 [label="опред"]
+			7 -> 12 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 7 [label="разъяснит"]
+}

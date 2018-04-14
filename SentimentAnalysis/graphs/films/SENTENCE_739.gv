@@ -1,0 +1,42 @@
+digraph SENTENCE_739 {
+	graph [label="Все ее песни, которые показаны в этом фильме крайне необычные, но удивительно прекрасные."]
+	node [style=filled]
+		0 [label="Все
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="показаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="крайне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="необычные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="удивительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="прекрасные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="квазиагент"]
+			2 -> 5 [label="разъяснит"]
+			12 -> 14 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 10 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="сочин"]
+			14 -> 13 [label="огранич"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_791 {
+	graph [label="\"Эмма была невероятным, очень хорошим человеком и, конечно же, замечательной актрисой."]
+	node [style=filled]
+		1 [label="Эмма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="невероятным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорошим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="замечательной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="актрисой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="огранич"]
+			8 -> 14 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			14 -> 10 [label="вводн"]
+			14 -> 13 [label="опред"]
+			3 -> 7 [label="агент"]
+			6 -> 5 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 8 [label="сочин"]
+}

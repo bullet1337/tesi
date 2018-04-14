@@ -1,0 +1,39 @@
+digraph SENTENCE_196 {
+	graph [label="Информация о времени и месте прощания будет размещена позднее\", — добавили в вузе."]
+	node [style=filled]
+		0 [label="Информация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прощания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="размещена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="позднее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="добавили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вузе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			3 -> 4 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="сочин"]
+			6 -> 0 [label="предик"]
+			6 -> 7
+			6 -> 12 [label="вводн"]
+			4 -> 5 [label="квазиагент"]
+			12 -> 8 [label="обст"]
+			12 -> 13 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+}

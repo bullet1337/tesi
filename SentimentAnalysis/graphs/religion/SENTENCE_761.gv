@@ -1,0 +1,84 @@
+digraph SENTENCE_761 {
+	graph [label="Начало активной фазы возведения собора относится к 1935 году, однако и оно было прервано Второй мировой войной и коммунистическим югославским периодом и возобновилось лишь в 1985 году."]
+	node [style=filled]
+		0 [label="Начало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="активной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фазы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1935
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="прервано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Второй
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="войной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="коммунистическим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="югославским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="периодом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="возобновилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="1985
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="огранич"]
+			18 -> 23 [label="соч_союзн"]
+			25 -> 24 [label="огранич"]
+			25 -> 27 [label="предл"]
+			23 -> 21 [label="обст"]
+			23 -> 22 [label="огранич"]
+			23 -> 25 [label="обст"]
+			6 -> 8 [label="предл"]
+			14 -> 17 [label="агент"]
+			2 -> 1 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			13 -> 10 [label="огранич"]
+			13 -> 12 [label="предик"]
+			13 -> 14
+			13 -> 18 [label="сочин"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 13 [label="сочин"]
+			27 -> 26 [label="опред"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+}

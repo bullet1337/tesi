@@ -1,0 +1,48 @@
+digraph SENTENCE_1626 {
+	graph [label="Она, конечно, самая сильная, но, на мой взгляд, несколько затянули её, да ещё и переиграли."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="затянули
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="переиграли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 14 [label="соч_союзн"]
+			17 -> 20 [label="соч_союзн"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			14 -> 9 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="сочин"]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сент_соч"]
+			20 -> 18 [label="огранич"]
+			20 -> 19 [label="огранич"]
+}

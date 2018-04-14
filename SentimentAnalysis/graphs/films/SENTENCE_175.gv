@@ -1,0 +1,76 @@
+digraph SENTENCE_175 {
+	graph [label="Тогда фильм для меня не заканчивался никогда» Её заключительная песня не окончилась 9 из 10
+Только посмотрел фильм: слов нет, мысли сумбурны, эмоции переполняют."]
+	node [style=filled]
+		0 [label="Тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заканчивался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Её
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="заключительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="песня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="окончилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Только
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сумбурны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="переполняют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 21 [label="сент_соч"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="сочин"]
+			14 -> 15 [label="предл"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="предл"]
+			21 -> 27 [label="сент_соч"]
+			13 -> 14 [label="электив"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="обст"]
+			5 -> 10 [label="предик"]
+			5 -> 12 [label="разъяснит"]
+			27 -> 24 [label="обст"]
+			27 -> 26 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+}

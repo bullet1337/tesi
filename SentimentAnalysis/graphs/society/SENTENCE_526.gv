@@ -1,0 +1,48 @@
+digraph SENTENCE_526 {
+	graph [label="И эти пациенты, им нужно лечиться, а их лечение вообще никак не определено\", — добавила Мясникова."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пациенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лечиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лечение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="определено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Мясникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 2 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 18 [label="вводн"]
+			18 -> 19 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="релят"]
+			2 -> 8 [label="сочин"]
+			10 -> 9 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			8 -> 10 [label="соч_союзн"]
+			5 -> 4 [label="_2_компл"]
+			5 -> 6 [label="предик"]
+			0 -> 14 [label="соч_союзн"]
+}

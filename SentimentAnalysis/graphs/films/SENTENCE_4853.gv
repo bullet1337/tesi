@@ -1,0 +1,26 @@
+digraph SENTENCE_4853 {
+	graph [label="Что нужно курить или нюхать чтобы придумать такое."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="курить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нюхать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="придумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="сочин"]
+			1 -> 2 [label="предик"]
+			3 -> 4 [label="соч_союзн"]
+			5 -> 6 [label="инф_союзн"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 5 [label="обст"]
+}

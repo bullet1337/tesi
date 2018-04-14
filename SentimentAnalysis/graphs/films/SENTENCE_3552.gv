@@ -1,0 +1,44 @@
+digraph SENTENCE_3552 {
+	graph [label="В качестве такового выведен (кстати, полностью вымышленный) работник ЦК, либерал-шестидесятник, критикующий сталинские методы управления."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такового
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выведен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вымышленный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="работник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ЦК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="либерал-шестидесятник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="критикующий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сталинские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="методы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="управления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="вводн"]
+			3 -> 10 [label="предик"]
+			15 -> 17 [label="_1_компл"]
+			10 -> 8 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			13 -> 15 [label="опред"]
+			8 -> 7 [label="огранич"]
+			0 -> 1 [label="предл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+}

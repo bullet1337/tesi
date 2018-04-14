@@ -1,0 +1,33 @@
+digraph SENTENCE_1565 {
+	graph [label="Четыре года спустя Папа Иоанн XXIII вручил ему пурпурную кардинальскую шапку."]
+	node [style=filled]
+		0 [label="Четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Папа Иоанн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="XXIII
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="вручил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пурпурную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кардинальскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шапку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			3 -> 4
+			1 -> 0 [label="количест"]
+			5 -> 2 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 9 [label="_1_компл"]
+			2 -> 1 [label="предл"]
+}

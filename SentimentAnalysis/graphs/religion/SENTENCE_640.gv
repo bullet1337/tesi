@@ -1,0 +1,21 @@
+digraph SENTENCE_640 {
+	graph [label="\"Современная жизнь — это жизнь унылых людей."]
+	node [style=filled]
+		1 [label="Современная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="унылых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="квазиагент"]
+			4 -> 2 [label="пролепт"]
+}

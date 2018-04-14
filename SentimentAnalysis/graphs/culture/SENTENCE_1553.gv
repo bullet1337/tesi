@@ -1,0 +1,48 @@
+digraph SENTENCE_1553 {
+	graph [label="На втором месте оказался персонаж Майкла Джордана — Эрик Киллмонгер из вышедшей в 2018 году ленты \"Черная Пантера\"."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="втором
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Майкла Джордана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Эрик Киллмонгер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вышедшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ленты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Черная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Пантера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="квазиагент"]
+			4 -> 7 [label="разъяснит"]
+			8 -> 13 [label="предл"]
+			9 -> 10 [label="обст"]
+			7 -> 8 [label="атриб"]
+			10 -> 12 [label="предл"]
+			0 -> 2 [label="предл"]
+			16 -> 15 [label="опред"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="присвяз"]
+			3 -> 4 [label="предик"]
+			12 -> 11 [label="опред"]
+			13 -> 9 [label="опред"]
+			13 -> 16 [label="атриб"]
+}

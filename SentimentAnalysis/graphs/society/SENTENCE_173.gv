@@ -1,0 +1,39 @@
+digraph SENTENCE_173 {
+	graph [label="\"Практически в каждом районе Липецкой области сегодня производят сыры по различным рецептам."]
+	node [style=filled]
+		1 [label="Практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="каждом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="районе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="производят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сыры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="различным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рецептам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			8 -> 2 [label="обст"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предл"]
+}

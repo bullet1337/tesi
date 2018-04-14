@@ -1,0 +1,42 @@
+digraph SENTENCE_1176 {
+	graph [label="Монашество предполагает отказ от мирских привязаностей, забот и стремлений и выбор следования Христу."]
+	node [style=filled]
+		0 [label="Монашество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предполагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отказ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мирских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="привязаностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="забот
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стремлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="следования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Христу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+}

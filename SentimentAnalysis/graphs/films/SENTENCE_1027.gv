@@ -1,0 +1,76 @@
+digraph SENTENCE_1027 {
+	graph [label="Иногда просто поражаешься, как несправедливо может обойтись жизнь, пускай даже и в кино… Когда я посмотрела этот фильм, я находилась под впечатлением очень длительное время."]
+	node [style=filled]
+		0 [label="Иногда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поражаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="несправедливо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обойтись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пускай
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Когда
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="находилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="впечатлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="длительное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			25 -> 28 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			27 -> 26 [label="огранич"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			16 -> 18 [label="подч_союзн"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="разъяснит"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="обст"]
+			24 -> 25 [label="предл"]
+			20 -> 19 [label="опред"]
+			20 -> 23 [label="релят"]
+			12 -> 11 [label="огранич"]
+			28 -> 27 [label="опред"]
+}

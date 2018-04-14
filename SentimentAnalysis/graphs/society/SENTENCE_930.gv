@@ -1,0 +1,21 @@
+digraph SENTENCE_930 {
+	graph [label="\"Поздравляю вас с таким большим юбилеем!"]
+	node [style=filled]
+		1 [label="Поздравляю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="юбилеем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+}

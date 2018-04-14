@@ -1,0 +1,30 @@
+digraph SENTENCE_886 {
+	graph [label="Фильм «Танцующая в темноте», к счастью, не стал исключением."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="счастью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="исключением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="присвяз"]
+			7 -> 8 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 11 [label="разъяснит"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_3906 {
+	graph [label="Понравилось наличие чётко сформулированного диагноза — неизлечимо."]
+	node [style=filled]
+		0 [label="Понравилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чётко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сформулированного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="диагноза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неизлечимо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предик"]
+			0 -> 6 [label="сент_соч"]
+			1 -> 4 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			3 -> 2 [label="огранич"]
+}

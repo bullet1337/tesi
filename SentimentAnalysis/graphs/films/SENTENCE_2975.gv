@@ -1,0 +1,27 @@
+digraph SENTENCE_2975 {
+	graph [label="«Любовь — это сила природы», как заявлено в фильме."]
+	node [style=filled]
+		1 [label="Любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="природы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заявлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="пролепт"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 8 [label="вводн"]
+			8 -> 9 [label="сравн_союзн"]
+			9 -> 10 [label="обст"]
+			10 -> 11 [label="предл"]
+}

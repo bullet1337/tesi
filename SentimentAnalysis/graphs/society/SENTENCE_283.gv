@@ -1,0 +1,33 @@
+digraph SENTENCE_283 {
+	graph [label="\"Можно вспомнить Сергея Шнурова, у которого все творчество строится на мате."]
+	node [style=filled]
+		1 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вспомнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сергея Шнурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="творчество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="строится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			8 -> 7 [label="опред"]
+			10 -> 11 [label="предл"]
+			9 -> 5 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="обст"]
+			3 -> 9 [label="релят"]
+			1 -> 2 [label="предик"]
+}

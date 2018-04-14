@@ -1,0 +1,36 @@
+digraph SENTENCE_249 {
+	graph [label="Даже \"окей\" или \"вау\" меньше употребляются\", — говорит лингвист, профессор МГУ Владимир Елистратов."]
+	node [style=filled]
+		0 [label="Даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="окей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вау
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="употребляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лингвист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="профессор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="МГУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Владимир Елистратов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="атриб"]
+			16 -> 18 [label="аппоз"]
+			14 -> 16 [label="об_аппоз"]
+			4 -> 6 [label="соч_союзн"]
+			2 -> 0 [label="огранич"]
+			2 -> 4 [label="сочин"]
+			2 -> 8 [label="аппоз"]
+			2 -> 9 [label="вводн"]
+			2 -> 13 [label="вводн"]
+			13 -> 14 [label="предик"]
+}

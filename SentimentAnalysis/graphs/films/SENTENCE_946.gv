@@ -1,0 +1,45 @@
+digraph SENTENCE_946 {
+	graph [label="А пронзительная «I`ve seen it all» до сих пор не выходит из головы."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пронзительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="I
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ve
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="seen
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="it
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="all
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			5 -> 6 [label="аппоз"]
+			3 -> 1 [label="опред"]
+			3 -> 5 [label="аппоз"]
+			3 -> 10 [label="атриб"]
+			0 -> 14 [label="соч_союзн"]
+			14 -> 3 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			6 -> 7 [label="аппоз"]
+			7 -> 8 [label="аппоз"]
+			15 -> 16 [label="предл"]
+			12 -> 11 [label="опред"]
+}

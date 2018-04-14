@@ -1,0 +1,45 @@
+digraph SENTENCE_775 {
+	graph [label="Это мероприятие впервые прошло в 2003 году и с тех пор проводится каждый год."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="прошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2003
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проводится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			13 -> 12 [label="опред"]
+			4 -> 6 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="предл"]
+			11 -> 8 [label="обст"]
+			11 -> 13 [label="предик"]
+			6 -> 5 [label="опред"]
+			7 -> 11 [label="соч_союзн"]
+}

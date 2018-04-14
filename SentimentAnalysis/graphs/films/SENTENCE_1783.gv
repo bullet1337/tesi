@@ -1,0 +1,30 @@
+digraph SENTENCE_1783 {
+	graph [label="Сцена их разговора в тюрьме была для меня ключевой."]
+	node [style=filled]
+		0 [label="Сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разговора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тюрьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ключевой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			2 -> 3 [label="_2_компл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="присвяз"]
+}

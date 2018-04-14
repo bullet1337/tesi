@@ -1,0 +1,42 @@
+digraph SENTENCE_3974 {
+	graph [label="Отсидев там пару лет, Алекс узнаёт как можно оттуда выйти без особых усилий."]
+	node [style=filled]
+		0 [label="Отсидев
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пару
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Алекс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="узнаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оттуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="особых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="усилий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="обст"]
+			8 -> 10 [label="предик"]
+			0 -> 1 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			2 -> 0 [label="колич_вспом"]
+			2 -> 3 [label="квазиагент"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="разъяснит"]
+			13 -> 12 [label="опред"]
+}

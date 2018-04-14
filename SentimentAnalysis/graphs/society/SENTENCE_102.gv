@@ -1,0 +1,45 @@
+digraph SENTENCE_102 {
+	graph [label="При этом отмечается, что \"сенсация\", обнародованная в преддверии Дня защитников Отечества, \"выглядит чересчур постановочно\"."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сенсация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обнародованная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="преддверии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Дня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="защитников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="выглядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="чересчур
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="постановочно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			10 -> 11 [label="предл"]
+			4 -> 17 [label="подч_союзн"]
+			11 -> 12 [label="квазиагент"]
+			9 -> 10 [label="обст"]
+			0 -> 1 [label="предл"]
+			17 -> 6 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			6 -> 9 [label="опред"]
+}

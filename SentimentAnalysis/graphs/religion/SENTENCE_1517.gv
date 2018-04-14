@@ -1,0 +1,51 @@
+digraph SENTENCE_1517 {
+	graph [label="По словам ректора ОЦАД митрополита Волоколамского Илариона, создание ассоциации благословил патриарх Московский и всея Руси Кирилл."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ректора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ОЦАД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="митрополита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Волоколамского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Илариона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="создание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ассоциации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="благословил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="опред"]
+			13 -> 15 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 11 [label="предик"]
+			0 -> 1 [label="предл"]
+			12 -> 13 [label="сочин"]
+			11 -> 12 [label="опред"]
+			11 -> 16 [label="аппоз"]
+			15 -> 14 [label="опред"]
+			8 -> 0 [label="вводн"]
+			8 -> 3 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="вводн"]
+			3 -> 4 [label="аппоз"]
+			4 -> 6 [label="аппоз"]
+}

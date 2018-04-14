@@ -1,0 +1,24 @@
+digraph SENTENCE_512 {
+	graph [label="Но подвижки с диагностикой все же есть."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подвижки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="диагностикой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 6 [label="соч_союзн"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 1 [label="_1_компл"]
+			6 -> 4 [label="предик"]
+			4 -> 5 [label="огранич"]
+}

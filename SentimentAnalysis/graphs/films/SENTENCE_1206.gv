@@ -1,0 +1,27 @@
+digraph SENTENCE_1206 {
+	graph [label="Грязь завода, нищета убранства собственного жилища, очки сына?"]
+	node [style=filled]
+		0 [label="Грязь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="завода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нищета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="убранства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="собственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жилища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			0 -> 3 [label="сочин"]
+			3 -> 4 [label="сочин"]
+			8 -> 9 [label="сочин"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			4 -> 6 [label="сочин"]
+}

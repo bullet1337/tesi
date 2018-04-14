@@ -1,0 +1,33 @@
+digraph SENTENCE_3890 {
+	graph [label="И вот увидела на одном из каналов анонс «Заводного апельсина»!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одном
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каналов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="анонс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Заводного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="апельсина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			2 -> 7 [label="_1_компл"]
+			4 -> 5 [label="электив"]
+			0 -> 2 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			5 -> 6 [label="предл"]
+			7 -> 10 [label="атриб"]
+			3 -> 4 [label="предл"]
+}

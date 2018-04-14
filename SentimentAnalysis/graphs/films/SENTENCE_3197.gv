@@ -1,0 +1,42 @@
+digraph SENTENCE_3197 {
+	graph [label="Горная экзотика обострила невротический комплекс, и туповатые ковбои погрязли в нем с головой."]
+	node [style=filled]
+		0 [label="Горная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="экзотика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обострила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="невротический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="комплекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="туповатые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ковбои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="погрязли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="головой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="опред"]
+			6 -> 8 [label="соч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="сочин"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 9 [label="сочин"]
+}

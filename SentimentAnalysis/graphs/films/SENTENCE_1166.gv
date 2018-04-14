@@ -1,0 +1,30 @@
+digraph SENTENCE_1166 {
+	graph [label="По этому, для верности, ищет поддержки у тёмной силы."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="верности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ищет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поддержки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тёмной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="силы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			3 -> 4 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="предл"]
+}

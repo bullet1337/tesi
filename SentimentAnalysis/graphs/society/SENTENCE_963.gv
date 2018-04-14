@@ -1,0 +1,21 @@
+digraph SENTENCE_963 {
+	graph [label="Но ведь приглашение было от него."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приглашение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_923 {
+	graph [label="Заступница православных воинов и всего Отечества Донская икона Божией Матери почитается в России 1 сентября."]
+	node [style=filled]
+		0 [label="Заступница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="воинов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Донская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Божией
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Матери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="почитается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сентября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			5 -> 4 [label="опред"]
+			13 -> 14 [label="атриб"]
+			11 -> 12 [label="предл"]
+			3 -> 5 [label="соч_союзн"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="сент_соч"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="обст"]
+			0 -> 2 [label="сочин"]
+			9 -> 8 [label="опред"]
+}

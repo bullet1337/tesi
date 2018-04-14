@@ -1,0 +1,21 @@
+digraph SENTENCE_1923 {
+	graph [label="Этот фильм относится к 3 пункту."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пункту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="количест"]
+			1 -> 0 [label="опред"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_518 {
+	graph [label="\"Их в Дамаске, как нам сказали, сегодня около 500 тысяч\", — сообщил иеромонах."]
+	node [style=filled]
+		1 [label="Их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Дамаске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="около
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="500
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="иеромонах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			7 -> 6 [label="_2_компл"]
+			7 -> 9 [label="обст"]
+			7 -> 10 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			2 -> 3 [label="предл"]
+			5 -> 7 [label="сравн_союзн"]
+			5 -> 16 [label="сравн_союзн"]
+			12 -> 11 [label="количест"]
+}

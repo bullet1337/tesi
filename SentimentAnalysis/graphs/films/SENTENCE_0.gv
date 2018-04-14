@@ -1,0 +1,33 @@
+digraph SENTENCE_0 {
+	graph [label="Только что закончил просмотр этого Фильма… Попытаюсь описать свои ощущения."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="закончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Фильма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Попытаюсь
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="описать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ощущения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			2 -> 0 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сочин"]
+			8 -> 10 [label="_1_компл"]
+			0 -> 1
+			5 -> 4 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+}

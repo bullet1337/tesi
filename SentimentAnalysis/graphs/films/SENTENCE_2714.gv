@@ -1,0 +1,21 @@
+digraph SENTENCE_2714 {
+	graph [label="В Лос-Анджелесе погодка всё ещё дрянь."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Лос-Анджелесе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="погодка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дрянь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_71 {
+	graph [label="Кости срослись неправильно, и после этого она осталась прикованной к инвалидной коляске."]
+	node [style=filled]
+		0 [label="Кости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="срослись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неправильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="осталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прикованной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="инвалидной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="коляске
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 8 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			8 -> 5 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="присвяз"]
+			8 -> 10 [label="обст"]
+			10 -> 12 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+}

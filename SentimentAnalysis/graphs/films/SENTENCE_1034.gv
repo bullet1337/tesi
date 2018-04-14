@@ -1,0 +1,42 @@
+digraph SENTENCE_1034 {
+	graph [label="Эмоции просто переполняют человека, который уже через несколько минут погрузился в атмосферу фильма."]
+	node [style=filled]
+		0 [label="Эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="переполняют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="погрузился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="атмосферу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 5 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			9 -> 8 [label="количест"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 10 [label="сент_соч"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="предл"]
+			12 -> 13 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+}

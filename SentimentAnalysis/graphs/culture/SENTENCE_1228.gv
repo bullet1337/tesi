@@ -1,0 +1,63 @@
+digraph SENTENCE_1228 {
+	graph [label="\"Нам не пришлось эту искренность играть, потому что в этом году 25 лет театру и 30 лет, как мы встретились."]
+	node [style=filled]
+		1 [label="Нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пришлось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искренность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="театру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="встретились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 14 [label="подч_союзн"]
+			15 -> 16 [label="сочин"]
+			16 -> 18 [label="соч_союзн"]
+			22 -> 21 [label="предик"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предик"]
+			3 -> 6 [label="разъяснит"]
+			6 -> 8 [label="обст"]
+			6 -> 20 [label="сравнит"]
+			8 -> 9 [label="эксплет"]
+			12 -> 11 [label="опред"]
+			5 -> 4 [label="опред"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="количест"]
+			14 -> 15 [label="сочин"]
+			20 -> 22 [label="сравн_союзн"]
+			10 -> 12 [label="предл"]
+			18 -> 17 [label="количест"]
+}

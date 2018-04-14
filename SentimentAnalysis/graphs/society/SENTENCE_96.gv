@@ -1,0 +1,33 @@
+digraph SENTENCE_96 {
+	graph [label="Шумиха вокруг Слуцкого напоминает заранее срежиссированную операцию по его дискредитации."]
+	node [style=filled]
+		0 [label="Шумиха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Слуцкого
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="срежиссированную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дискредитации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+			5 -> 4 [label="обст"]
+			3 -> 0 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			0 -> 1 [label="атриб"]
+}

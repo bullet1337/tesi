@@ -1,0 +1,33 @@
+digraph SENTENCE_571 {
+	graph [label="Он произвел там раскопки и обнаружил вырубленные в скале гробницы."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="произвел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="раскопки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обнаружил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вырубленные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гробницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			6 -> 7 [label="обст"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="сочин"]
+			9 -> 6 [label="опред"]
+}

@@ -1,0 +1,64 @@
+digraph SENTENCE_633 {
+	graph [label="Про нее можно сказать удивительная, не от мира сего, чуднаЯ, неземная… волшебная и жутко талантливая!Навеки полюбила ее за эту роль."]
+	node [style=filled]
+		0 [label="Про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="удивительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чуднаЯ
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="неземная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="волшебная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жутко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="талантливая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Навеки
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="полюбила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+			15 -> 16 [label="сочин"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 21 [label="сент_соч"]
+			23 -> 25 [label="предл"]
+			21 -> 9 [label="предик"]
+			21 -> 11 [label="суб_копр"]
+			21 -> 20 [label="обст"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 23 [label="обст"]
+			2 -> 3 [label="предик"]
+			16 -> 18 [label="соч_союзн"]
+			13 -> 15 [label="сочин"]
+			0 -> 1 [label="предл"]
+			11 -> 13 [label="сочин"]
+			25 -> 24 [label="опред"]
+}

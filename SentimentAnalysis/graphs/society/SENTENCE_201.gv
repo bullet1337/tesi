@@ -1,0 +1,33 @@
+digraph SENTENCE_201 {
+	graph [label="\"В 2015 и 2016 годах получал звание лучшего преподавателя ВШЭ."]
+	node [style=filled]
+		1 [label="В
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="звание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лучшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="преподавателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ВШЭ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 1 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="примыкат"]
+			3 -> 4 [label="соч_союзн"]
+			1 -> 5 [label="предл"]
+			2 -> 3 [label="сочин"]
+			7 -> 9 [label="_1_компл"]
+			5 -> 2 [label="опред"]
+}

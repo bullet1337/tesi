@@ -1,0 +1,36 @@
+digraph SENTENCE_520 {
+	graph [label="Он подчеркнул, что в акции участвовали как христиане, так и мусульмане."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="акции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участвовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="христиане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мусульмане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="_1_компл"]
+			6 -> 7 [label="сравнит"]
+			6 -> 10 [label="обст"]
+			6 -> 12 [label="предик"]
+			3 -> 6 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			7 -> 8 [label="сравн_союзн"]
+			12 -> 11 [label="огранич"]
+			4 -> 5 [label="предл"]
+}

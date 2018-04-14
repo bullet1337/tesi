@@ -1,0 +1,50 @@
+digraph SENTENCE_51 {
+	graph [label="И горько от того, что это действительно возможно, все, что изображено, показано действительно возможно и случается."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="горько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="изображено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="случается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			19 -> 18 [label="огранич"]
+			10 -> 13 [label="релят"]
+			13 -> 12 [label="предик"]
+			5 -> 8 [label="подч_союзн"]
+			3 -> 5 [label="эксплет"]
+			15 -> 10 [label="предик"]
+			15 -> 17 [label="колич_копред"]
+			15 -> 19 [label="сент_соч"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 15 [label="разъяснит"]
+			17 -> 16 [label="огранич"]
+}

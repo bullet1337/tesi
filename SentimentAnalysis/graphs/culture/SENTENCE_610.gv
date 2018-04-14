@@ -1,0 +1,53 @@
+digraph SENTENCE_610 {
+	graph [label="У баснословно богатого промышленника Жана Пола Гетти (Кристофер Пламмер) похищают 16-летнего внука (Чарли Пламмер), дед отказывается заплатить за него выкуп."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="баснословно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="богатого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="промышленника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Жана Пола Гетти
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Кристофер Пламмер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="похищают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="16-летнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="внука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Чарли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Пламмер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="дед
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="отказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="заплатить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="выкуп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			8 -> 0 [label="_1_компл"]
+			8 -> 6 [label="предик"]
+			8 -> 10 [label="предик"]
+			0 -> 3 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			13 -> 17 [label="релят"]
+			18 -> 19 [label="_3_компл"]
+			18 -> 21 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+}

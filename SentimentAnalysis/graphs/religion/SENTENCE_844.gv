@@ -1,0 +1,18 @@
+digraph SENTENCE_844 {
+	graph [label="А вот ракеты — дело плохое."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ракеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="плохое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="опред"]
+			0 -> 4 [label="соч_союзн"]
+}

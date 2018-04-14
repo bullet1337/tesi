@@ -1,0 +1,29 @@
+digraph SENTENCE_1510 {
+	graph [label="С 2008 года официальный Праздник семьи, любви и верности."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2008
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="официальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Праздник
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="семьи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="верности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="сочин"]
+			5 -> 7 [label="сочин"]
+}

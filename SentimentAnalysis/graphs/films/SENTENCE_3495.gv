@@ -1,0 +1,66 @@
+digraph SENTENCE_3495 {
+	graph [label="Ладно бы еще это было сделано качественно… Фильм можно было снять гораздо лучше, поэтому, я считаю, что он сильно переоценён публикой."]
+	node [style=filled]
+		0 [label="Ладно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сделано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="качественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="переоценён
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="публикой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="обст"]
+			20 -> 23 [label="подч_союзн"]
+			11 -> 13 [label="обст"]
+			18 -> 15 [label="обст"]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			10 -> 9 [label="присвяз"]
+			10 -> 11 [label="предик"]
+			10 -> 18 [label="сент_соч"]
+			4 -> 0 [label="вводн"]
+			4 -> 1 [label="аналит"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="предик"]
+			4 -> 5
+			4 -> 8 [label="предик"]
+			4 -> 10 [label="сент_соч"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="обст"]
+			23 -> 24 [label="_2_компл"]
+			13 -> 12 [label="колич_огран"]
+}

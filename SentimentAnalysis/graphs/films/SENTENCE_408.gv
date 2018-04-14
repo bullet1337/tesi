@@ -1,0 +1,27 @@
+digraph SENTENCE_408 {
+	graph [label="Страх перед смертью и жизненные ценности — главные темы."]
+	node [style=filled]
+		0 [label="Страх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смертью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизненные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ценности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			2 -> 3 [label="сочин"]
+			8 -> 0 [label="предик"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 5 [label="соч_союзн"]
+}

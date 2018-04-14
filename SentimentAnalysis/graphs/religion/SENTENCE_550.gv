@@ -1,0 +1,85 @@
+digraph SENTENCE_550 {
+	graph [label="Это — символ преемственности между эпохой Моисея, когда Израилю был дарован Закон, и эпохой перевода этого Закона на греческий язык, который в то время был языком всего Восточного Средиземноморья."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="символ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="преемственности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эпохой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Моисея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Израилю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дарован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Закон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="эпохой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="перевода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Закона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="греческий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="язык
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="языком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Восточного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="Средиземноморья
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 18 [label="_1_компл"]
+			16 -> 19 [label="_3_компл"]
+			12 -> 14 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="обст"]
+			18 -> 17 [label="опред"]
+			21 -> 20 [label="опред"]
+			28 -> 31 [label="квазиагент"]
+			19 -> 21 [label="предл"]
+			10 -> 11
+			10 -> 12 [label="предик"]
+			10 -> 27 [label="сент_соч"]
+			31 -> 29 [label="опред"]
+			31 -> 30 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+			15 -> 16 [label="квазиагент"]
+			26 -> 25 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			27 -> 23 [label="предик"]
+			27 -> 24 [label="обст"]
+			27 -> 28 [label="присвяз"]
+			24 -> 26 [label="предл"]
+}

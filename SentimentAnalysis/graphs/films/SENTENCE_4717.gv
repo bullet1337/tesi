@@ -1,0 +1,33 @@
+digraph SENTENCE_4717 {
+	graph [label="я ожидал с нетерпением, надеясь, что его сделают ещё лучше."]
+	node [style=filled]
+		0 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ожидал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нетерпением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="надеясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сделают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="обст"]
+			11 -> 10 [label="огранич"]
+			9 -> 8 [label="_1_компл"]
+			9 -> 11 [label="_2_компл"]
+			7 -> 9 [label="подч_союзн"]
+			2 -> 3 [label="предл"]
+}

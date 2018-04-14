@@ -1,0 +1,39 @@
+digraph SENTENCE_3405 {
+	graph [label="Если бы соблюли временные рамки, то фильм бы ни грамма не потерял."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="соблюли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="временные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рамки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="грамма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="потерял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="подч_союзн"]
+			0 -> 6 [label="соотнос"]
+			12 -> 0 [label="обст"]
+			12 -> 7 [label="предик"]
+			12 -> 8 [label="аналит"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			4 -> 3 [label="опред"]
+			2 -> 1 [label="аналит"]
+			2 -> 4 [label="_1_компл"]
+}

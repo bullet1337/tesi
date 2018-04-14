@@ -1,0 +1,23 @@
+digraph SENTENCE_80 {
+	graph [label="Сразу две сильные идеи в одной ленте."]
+	node [style=filled]
+		0 [label="Сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сильные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="идеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="одной
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ленте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="количест"]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="огранич"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="количест"]
+}

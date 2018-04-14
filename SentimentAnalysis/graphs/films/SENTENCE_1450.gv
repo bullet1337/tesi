@@ -1,0 +1,27 @@
+digraph SENTENCE_1450 {
+	graph [label="Она не просит ничего взамен, не ждет благодарности."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="взамен
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ждет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="благодарности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+}

@@ -1,0 +1,26 @@
+digraph SENTENCE_1644 {
+	graph [label="Он как будто бы снят на домашнюю камеру."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="домашнюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="камеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+			4 -> 2 [label="огранич"]
+			4 -> 5 [label="_2_компл"]
+			1 -> 4 [label="сравн_союзн"]
+}

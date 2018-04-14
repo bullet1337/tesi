@@ -1,0 +1,42 @@
+digraph SENTENCE_4161 {
+	graph [label="С главным героем вообще поступили очень хитро: он просто молчит большую часть времени."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поступили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хитро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="молчит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="большую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="обст"]
+			4 -> 10 [label="сент_соч"]
+			6 -> 5 [label="огранич"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+}

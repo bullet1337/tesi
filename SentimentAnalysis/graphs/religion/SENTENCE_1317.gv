@@ -1,0 +1,36 @@
+digraph SENTENCE_1317 {
+	graph [label="У буддистов России, которых сейчас почти миллион, наступил новый, 4716 год."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буддистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="миллион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="4716
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 10 [label="опред"]
+			13 -> 12 [label="опред"]
+			7 -> 6 [label="огранич"]
+			0 -> 1 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 2 [label="_2_компл"]
+			9 -> 4 [label="предик"]
+			9 -> 5 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 13 [label="предик"]
+}

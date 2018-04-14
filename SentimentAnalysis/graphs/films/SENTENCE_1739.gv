@@ -1,0 +1,39 @@
+digraph SENTENCE_1739 {
+	graph [label="Но это не вся основная идея, эта даже не большая ее часть."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="основная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="идея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="соч_союзн"]
+			10 -> 9 [label="огранич"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="квазиагент"]
+			3 -> 2 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="опред"]
+			5 -> 12 [label="сент_соч"]
+}

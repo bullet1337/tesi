@@ -1,0 +1,45 @@
+digraph SENTENCE_21 {
+	graph [label="В Третьяковской галерее продолжает работу выставка редких портретов кисти Карла Брюллова из частного собрания Санкт-Петербурга."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Третьяковской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="галерее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выставка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="портретов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кисти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Карла Брюллова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="частного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="собрания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Санкт-Петербурга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="предл"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="аппоз"]
+			5 -> 10 [label="атриб"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+}

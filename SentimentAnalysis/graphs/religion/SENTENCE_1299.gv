@@ -1,0 +1,69 @@
+digraph SENTENCE_1299 {
+	graph [label="По его словам, прием вели врач-хирург, терапевт, имеющий специализацию по неврологии, детский врач, а также врач-лаборант, который может провести диагностику сахара крови."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="врач-хирург
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="терапевт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="имеющий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="специализацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="неврологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="детский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="врач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="врач-лаборант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="провести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="диагностику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сахара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="крови
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			5 -> 23 [label="сент_соч"]
+			25 -> 26 [label="_1_компл"]
+			11 -> 12 [label="атриб"]
+			11 -> 16 [label="сочин"]
+			20 -> 19 [label="огранич"]
+			12 -> 13 [label="предл"]
+			6 -> 8 [label="аппоз"]
+			6 -> 10 [label="опред"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 27 [label="_2_компл"]
+			2 -> 1 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="сочин"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+}

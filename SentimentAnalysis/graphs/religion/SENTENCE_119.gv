@@ -1,0 +1,75 @@
+digraph SENTENCE_119 {
+	graph [label="Панихиды по погибшим в крушении в Подмосковье самолета Ан-148 прошли в понедельник во всех храмах Саратовской епархии Русской православной церкви, сообщила пресс-служба епархии."]
+	node [style=filled]
+		0 [label="Панихиды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="погибшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="крушении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Подмосковье
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="самолета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ан
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="148
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Саратовской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="епархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="епархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			5 -> 6 [label="предл"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="атриб"]
+			16 -> 21 [label="атриб"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			12 -> 13 [label="предл"]
+			0 -> 1 [label="атриб"]
+			11 -> 0 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 14 [label="обст"]
+			11 -> 23 [label="вводн"]
+			4 -> 5 [label="атриб"]
+			24 -> 25 [label="квазиагент"]
+			23 -> 24 [label="предик"]
+			2 -> 3 [label="обст"]
+			14 -> 16 [label="предл"]
+			8 -> 10 [label="аппоз"]
+			18 -> 17 [label="опред"]
+			7 -> 2 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			1 -> 7 [label="предл"]
+}

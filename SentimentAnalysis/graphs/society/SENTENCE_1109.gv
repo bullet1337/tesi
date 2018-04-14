@@ -1,0 +1,83 @@
+digraph SENTENCE_1109 {
+	graph [label="По мнению парламентария, нужно также внимательно оценить, насколько данный вопрос актуален для российских женщин, потому что данная тема, по его мнению, в больше степени является западной повесткой."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="парламентария
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="внимательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="данный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актуален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="данная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="степени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="западной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="повесткой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="_2_компл"]
+			7 -> 11 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			0 -> 1 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="обст"]
+			29 -> 12 [label="предик"]
+			29 -> 31 [label="_1_компл"]
+			18 -> 27 [label="подч_союзн"]
+			22 -> 24 [label="предл"]
+			31 -> 30 [label="опред"]
+			11 -> 10 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			24 -> 23 [label="квазиагент"]
+			27 -> 20 [label="предик"]
+			27 -> 22 [label="обст"]
+			27 -> 26 [label="колич_огран"]
+			27 -> 28 [label="сравнит"]
+			4 -> 0 [label="вводн"]
+			4 -> 5 [label="огранич"]
+			4 -> 7 [label="предик"]
+			17 -> 18 [label="эксплет"]
+			13 -> 15 [label="предл"]
+			20 -> 19 [label="опред"]
+}

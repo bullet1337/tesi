@@ -1,0 +1,45 @@
+digraph SENTENCE_1488 {
+	graph [label="Например, «Догвиль» был мне скучен и я не с первого раза посмотрела его полностью."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Догвиль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="скучен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="присвяз"]
+			5 -> 8 [label="сент_соч"]
+			14 -> 9 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="обст"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			8 -> 14 [label="соч_союзн"]
+}

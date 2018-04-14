@@ -1,0 +1,36 @@
+digraph SENTENCE_1155 {
+	graph [label="Пресс-секретарь отметил, что \"майские указы\" рассматриваются в качестве одного из вариантов."]
+	node [style=filled]
+		0 [label="Пресс-секретарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="майские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="указы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рассматриваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вариантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			11 -> 12 [label="электив"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="обст"]
+			9 -> 10 [label="предл"]
+			3 -> 8 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+}

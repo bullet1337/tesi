@@ -1,0 +1,29 @@
+digraph SENTENCE_4555 {
+	graph [label="То последующий уход Гойера стал для голливудской «Годзиллы» приговором."]
+	node [style=filled]
+		0 [label="То
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гойера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="голливудской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="приговором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 10 [label="присвяз"]
+			5 -> 8 [label="предл"]
+			8 -> 6 [label="опред"]
+}

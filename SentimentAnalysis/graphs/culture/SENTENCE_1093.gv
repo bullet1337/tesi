@@ -1,0 +1,66 @@
+digraph SENTENCE_1093 {
+	graph [label="Торжественная процессия из посвященных и претендентов на посвящение шла 21 километр по священной дороге из Афин в Элевсину, где проходили таинства."]
+	node [style=filled]
+		0 [label="Торжественная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="процессия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посвященных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="претендентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="посвящение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="шла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="километр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="священной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дороге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Афин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Элевсину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="проходили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="таинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="предл"]
+			20 -> 19 [label="обст"]
+			20 -> 21 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_2_компл"]
+			8 -> 1 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 16 [label="обст"]
+			8 -> 20 [label="сент_соч"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="атриб"]
+			2 -> 3 [label="предл"]
+			16 -> 17 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+			14 -> 15 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 4 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,38 @@
+digraph SENTENCE_830 {
+	graph [label="Сделано это как будто рывком, отрывисто, без всяческих вступлений и тому подобного."]
+	node [style=filled]
+		0 [label="Сделано
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рывком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отрывисто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всяческих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вступлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="подобного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="соч_союзн"]
+			13 -> 12 [label="_1_компл"]
+			2 -> 3
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="предик"]
+			0 -> 2 [label="сент_соч"]
+			8 -> 6 [label="огранич"]
+			8 -> 10 [label="предл"]
+			8 -> 11 [label="сочин"]
+			4 -> 8 [label="атриб"]
+}

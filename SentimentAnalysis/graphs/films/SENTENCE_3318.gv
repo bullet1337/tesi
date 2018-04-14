@@ -1,0 +1,39 @@
+digraph SENTENCE_3318 {
+	graph [label="Харламова без маски, без защитки начинают по указанию тренера расстреливать в воротах."]
+	node [style=filled]
+		0 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="маски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="защитки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="начинают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="указанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тренера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="расстреливать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воротах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="обст"]
+			0 -> 1 [label="атриб"]
+			7 -> 8 [label="предл"]
+}

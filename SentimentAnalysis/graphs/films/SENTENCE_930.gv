@@ -1,0 +1,21 @@
+digraph SENTENCE_930 {
+	graph [label="и ты рыдаешь, вместе с ней."]
+	node [style=filled]
+		0 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рыдаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+}

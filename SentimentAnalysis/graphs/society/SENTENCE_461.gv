@@ -1,0 +1,45 @@
+digraph SENTENCE_461 {
+	graph [label="\"Они могут даже приходить на стажировку в профсоюзы, мы их тоже примем\", — добавил он."]
+	node [style=filled]
+		1 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="приходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стажировку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="профсоюзы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="примем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			13 -> 17 [label="вводн"]
+			6 -> 7 [label="атриб"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 13 [label="сент_соч"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+			17 -> 18 [label="предик"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1572 {
+	graph [label="В кадре пенсионер в клетчатой рубашке и растянутых тренировочных штанах слишком много чертыхается, обзывает всех ослами, проклинает журналистов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пенсионер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="клетчатой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рубашке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="растянутых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тренировочных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="штанах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="чертыхается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обзывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ослами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="проклинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			0 -> 1 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			12 -> 0 [label="обст"]
+			12 -> 2 [label="предик"]
+			12 -> 11 [label="обст"]
+			12 -> 14 [label="вводн"]
+			12 -> 18 [label="сочин"]
+			2 -> 3 [label="атриб"]
+			14 -> 15 [label="предик"]
+			14 -> 16 [label="_2_компл"]
+			18 -> 19 [label="_1_компл"]
+			6 -> 9 [label="соч_союзн"]
+}

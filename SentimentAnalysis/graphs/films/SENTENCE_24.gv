@@ -1,0 +1,24 @@
+digraph SENTENCE_24 {
+	graph [label="Такая маленькая и сильная, я ею восхищаюсь."]
+	node [style=filled]
+		0 [label="Такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="маленькая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ею
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="восхищаюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			7 -> 1 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			2 -> 3 [label="соч_союзн"]
+}

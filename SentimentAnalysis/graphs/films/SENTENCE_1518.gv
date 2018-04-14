@@ -1,0 +1,41 @@
+digraph SENTENCE_1518 {
+	graph [label="И вот мы видим мертвого Билла, а в другом эпизоде — наручники на Сельме."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="видим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мертвого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Билла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="эпизоде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наручники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сельме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			8 -> 10 [label="предл"]
+			5 -> 4 [label="опред"]
+			12 -> 8 [label="огранич"]
+			12 -> 13 [label="атриб"]
+			13 -> 14 [label="предл"]
+}

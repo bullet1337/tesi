@@ -1,0 +1,44 @@
+digraph SENTENCE_1229 {
+	graph [label="\"Каждый год мы посылаем средства в фонд Доктора Лизы, а также обездоленным детям в Донбассе."]
+	node [style=filled]
+		1 [label="Каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посылаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="средства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фонд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Доктора Лизы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обездоленным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Донбассе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 2 [label="длительн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_4_компл"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 10 [label="сочин"]
+			6 -> 7 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			2 -> 1 [label="опред"]
+			14 -> 15 [label="предл"]
+			12 -> 11 [label="огранич"]
+}

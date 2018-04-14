@@ -1,0 +1,36 @@
+digraph SENTENCE_855 {
+	graph [label="Для исключения образования наледи специальным составом обработаны порядка 900 стрелочных переводов."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="исключения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наледи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="специальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="составом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обработаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="порядка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="900
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стрелочных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="переводов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="сочин"]
+			3 -> 6 [label="сент_соч"]
+			10 -> 8 [label="количест"]
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="предл"]
+			5 -> 4 [label="опред"]
+			7 -> 10 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 7 [label="предик"]
+}

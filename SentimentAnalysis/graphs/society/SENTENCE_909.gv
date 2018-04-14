@@ -1,0 +1,42 @@
+digraph SENTENCE_909 {
+	graph [label="Учителя Липецкой области и их воспитанники всегда достойно представляют регион на всероссийских соревнованиях."]
+	node [style=filled]
+		0 [label="Учителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="воспитанники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="достойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="регион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всероссийских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="соревнованиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="соч_союзн"]
+			12 -> 11 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			2 -> 8 [label="сент_соч"]
+			9 -> 10 [label="атриб"]
+			10 -> 12 [label="предл"]
+			5 -> 4 [label="_1_компл"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+}

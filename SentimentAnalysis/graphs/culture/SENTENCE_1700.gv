@@ -1,0 +1,63 @@
+digraph SENTENCE_1700 {
+	graph [label="Серебряков снимался во многих российских фильмах, среди которых \"9 рота\" \"Обитаемый остров\", \"Груз 200\", \"Левиафан\", а также сериал \"Бандитский Петербург\"."]
+	node [style=filled]
+		0 [label="Серебряков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="снимался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Петербург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Обитаемый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="остров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Груз
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="200
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Левиафан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Бандитский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			32 -> 31 [label="опред"]
+			2 -> 5 [label="предл"]
+			29 -> 28 [label="огранич"]
+			29 -> 32 [label="сочин"]
+			15 -> 14 [label="опред"]
+			15 -> 19 [label="аппоз"]
+			15 -> 24 [label="сочин"]
+			15 -> 27 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="количест"]
+			11 -> 15 [label="сент_соч"]
+			24 -> 20 [label="количест"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 11 [label="сент_соч"]
+			27 -> 29 [label="соч_союзн"]
+}

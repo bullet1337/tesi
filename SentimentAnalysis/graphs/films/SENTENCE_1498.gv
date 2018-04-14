@@ -1,0 +1,21 @@
+digraph SENTENCE_1498 {
+	graph [label="Единственным развлечением для нее является театр."]
+	node [style=filled]
+		0 [label="Единственным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="развлечением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 3 [label="предл"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="предик"]
+}

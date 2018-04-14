@@ -1,0 +1,29 @@
+digraph SENTENCE_3088 {
+	graph [label="Смотреть скучно, очень скучно, только разве что заставить себя."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скучно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скучно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разве
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			9 -> 8 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+}

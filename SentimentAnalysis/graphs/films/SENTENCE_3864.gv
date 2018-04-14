@@ -1,0 +1,41 @@
+digraph SENTENCE_3864 {
+	graph [label="Про остальной каст также нечего сказать, все они переигрывают из сцены в сцену."]
+	node [style=filled]
+		0 [label="Про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="остальной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="переигрывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сцену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="опред"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предик"]
+			12 -> 13 [label="предл"]
+}

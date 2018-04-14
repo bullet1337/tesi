@@ -1,0 +1,42 @@
+digraph SENTENCE_1627 {
+	graph [label="Фильм Ридли Скотта (\"Тельма и Луиза\", \"Гладиатор\") снят по мотивам книги Джона Пирсона \"Пол Гетти."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Ридли Скотта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Тельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Луиза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Гладиатор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мотивам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Джона Пирсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Пол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Гетти
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 20 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			1 -> 4 [label="аппоз"]
+			14 -> 15 [label="предл"]
+			13 -> 0 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 16 [label="примыкат"]
+			13 -> 17 [label="вводн"]
+			13 -> 19 [label="разъяснит"]
+			6 -> 10 [label="аппоз"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 5 [label="сочин"]
+}

@@ -1,0 +1,72 @@
+digraph SENTENCE_226 {
+	graph [label="<…> Однако коммерческие здания, такие как гостиницы, торговые и офисные помещения, облагаются муниципальным налогом, независимо от того, кто ими владеет\", — поясняет мэр города Нил Баркат."]
+	node [style=filled]
+		3 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="коммерческие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гостиницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="торговые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="офисные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="помещения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="облагаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="муниципальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="налогом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="независимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="владеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="поясняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="мэр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Нил Баркат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 3 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="сравнит"]
+			7 -> 16 [label="разъяснит"]
+			7 -> 30 [label="вводн"]
+			31 -> 32 [label="_1_компл"]
+			16 -> 18 [label="_2_компл"]
+			16 -> 20 [label="обст"]
+			9 -> 14 [label="атриб"]
+			30 -> 31 [label="предик"]
+			18 -> 17 [label="опред"]
+			8 -> 9 [label="сравн_союзн"]
+			32 -> 33 [label="аппоз"]
+			21 -> 22 [label="предл"]
+			22 -> 26 [label="эксплет"]
+			14 -> 11 [label="опред"]
+			12 -> 13 [label="соч_союзн"]
+			26 -> 24 [label="предик"]
+			26 -> 25 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			5 -> 4 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+}

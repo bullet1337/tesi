@@ -1,0 +1,57 @@
+digraph SENTENCE_670 {
+	graph [label="Она очень хорошо передала свою героиню, не было таких моментов, когда хотелось крикнуть в духе Станиславского «Не верю!»."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="передала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="героиню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="моментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="крикнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="духе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Станиславского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="верю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+			2 -> 1 [label="огранич"]
+			12 -> 13 [label="подч_союзн"]
+			20 -> 19 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предик"]
+			8 -> 20 [label="сент_соч"]
+			5 -> 4 [label="опред"]
+			13 -> 14 [label="_2_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 8 [label="сент_соч"]
+			14 -> 15 [label="обст"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="_1_компл"]
+}

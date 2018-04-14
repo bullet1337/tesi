@@ -1,0 +1,75 @@
+digraph SENTENCE_3414 {
+	graph [label="А то, что шайба/мяч летит быстрее игрока, т. е. в пас надо играть, — это мы видели ещё в «Голе» или в «Каждое воскресенье»."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="шайба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="летит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="быстрее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="игрока
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пас
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="видели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Голе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Каждое
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		33 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 21 [label="_1_компл"]
+			23 -> 22 [label="предик"]
+			23 -> 25 [label="обст"]
+			3 -> 7 [label="подч_союзн"]
+			29 -> 30 [label="соч_союзн"]
+			4 -> 6 [label="аппоз"]
+			25 -> 24 [label="огранич"]
+			25 -> 27 [label="предл"]
+			25 -> 29 [label="сочин"]
+			0 -> 1
+			0 -> 17 [label="соч_союзн"]
+			30 -> 33 [label="предл"]
+			15 -> 16 [label="предл"]
+			7 -> 4 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="атриб"]
+			9 -> 11 [label="аппоз"]
+			33 -> 32 [label="опред"]
+			17 -> 3 [label="обст"]
+			17 -> 13 [label="дат_субъект"]
+			17 -> 15 [label="обст"]
+			17 -> 18 [label="предик"]
+			17 -> 23 [label="разъяснит"]
+}

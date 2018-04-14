@@ -1,0 +1,27 @@
+digraph SENTENCE_1247 {
+	graph [label="Хотя, как по мне, Бьорк — это на любителя."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="пролепт"]
+			3 -> 4 [label="предл"]
+			0 -> 9 [label="подч_союзн"]
+			9 -> 2 [label="обст"]
+			9 -> 3 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_923 {
+	graph [label="Фильм пробирает от мозга и до костей."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пробирает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мозга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="костей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+}

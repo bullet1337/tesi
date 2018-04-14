@@ -1,0 +1,30 @@
+digraph SENTENCE_1595 {
+	graph [label="Сначала было огромное желание выключить, возможно из-за работы оператора."]
+	node [style=filled]
+		0 [label="Сначала
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="огромное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="желание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выключить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оператора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			1 -> 6 [label="вводн"]
+			1 -> 7 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 9 [label="квазиагент"]
+			7 -> 8 [label="предл"]
+}

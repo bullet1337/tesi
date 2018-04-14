@@ -1,0 +1,27 @@
+digraph SENTENCE_692 {
+	graph [label="Добавляется, что макет будет размещен в начале экспозиции."]
+	node [style=filled]
+		0 [label="Добавляется
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="макет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="размещен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="экспозиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5
+			6 -> 7 [label="предл"]
+			0 -> 2 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			7 -> 8 [label="квазиагент"]
+			2 -> 4 [label="подч_союзн"]
+}

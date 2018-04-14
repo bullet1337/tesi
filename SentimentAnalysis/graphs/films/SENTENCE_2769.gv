@@ -1,0 +1,60 @@
+digraph SENTENCE_2769 {
+	graph [label="Как говорил Кип Пардью в «Правилах секса»: «Я больше не знаю, кто я, и я чувствую себя тенью какого-то незнакомца»."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кип Пардью
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Правилах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="секса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чувствую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="тенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="какого-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="незнакомца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			22 -> 24 [label="квазиагент"]
+			0 -> 1 [label="сравн_союзн"]
+			24 -> 23 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			13 -> 0 [label="вводн"]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="огранич"]
+			13 -> 20 [label="_1_компл"]
+			20 -> 15 [label="предик"]
+			20 -> 16 [label="вводн"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 22 [label="_2_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 3 [label="обст"]
+			19 -> 18 [label="огранич"]
+}

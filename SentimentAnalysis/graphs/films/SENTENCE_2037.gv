@@ -1,0 +1,60 @@
+digraph SENTENCE_2037 {
+	graph [label="Маргарита Терехова сопоставляется с портретом Портрет Джиневры де Бенчи кисти великого Леонардо, таким образом, мы можем лицезреть Аниму самого Андрея Тарковского."]
+	node [style=filled]
+		0 [label="Маргарита Терехова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сопоставляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="портретом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Портрет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Джиневры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="де
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Бенчи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="кисти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="великого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Леонардо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лицезреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Аниму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Андрея Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			20 -> 19 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 13 [label="обст"]
+			1 -> 16 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6
+			7 -> 8 [label="квазиагент"]
+			8 -> 10 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			2 -> 3 [label="предл"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 20 [label="_1_компл"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,47 @@
+digraph SENTENCE_4002 {
+	graph [label="Эффект от фильма такой же, как и, подозреваю, от тех, что показывали Алексу в лечебнице."]
+	node [style=filled]
+		0 [label="Эффект
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подозреваю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="показывали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Алексу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лечебнице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="огранич"]
+			9 -> 11 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="огранич"]
+			3 -> 6 [label="сравнит"]
+			0 -> 1 [label="квазиагент"]
+			6 -> 9 [label="сравн_союзн"]
+			11 -> 12 [label="предл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="обст"]
+			17 -> 18 [label="предл"]
+			12 -> 15 [label="релят"]
+}

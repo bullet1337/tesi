@@ -1,0 +1,29 @@
+digraph SENTENCE_3810 {
+	graph [label="Это же фильм бунте молодых и о подавлении бунтарей."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бунте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подавлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бунтарей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 4 [label="опред"]
+			2 -> 5 [label="сент_соч"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+}

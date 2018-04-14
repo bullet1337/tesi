@@ -1,0 +1,36 @@
+digraph SENTENCE_543 {
+	graph [label="Меня этот фильм захватил на все 2,5 часа, которые он шел."]
+	node [style=filled]
+		0 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="захватил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="шел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			3 -> 0 [label="об_копр"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 11 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			7 -> 6 [label="количест"]
+			4 -> 7 [label="предл"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+}

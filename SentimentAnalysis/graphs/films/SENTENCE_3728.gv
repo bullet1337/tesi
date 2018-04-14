@@ -1,0 +1,39 @@
+digraph SENTENCE_3728 {
+	graph [label="Ведь мы буквально ничего уже не знаем о революции и дореволюционной жизни."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="знаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="революции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дореволюционной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="сочин"]
+			7 -> 8 [label="предл"]
+			3 -> 2 [label="огранич"]
+			6 -> 0 [label="огранич"]
+			6 -> 1 [label="предик"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			9 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+}

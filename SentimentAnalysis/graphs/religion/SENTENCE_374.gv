@@ -1,0 +1,75 @@
+digraph SENTENCE_374 {
+	graph [label="Некоторые авторы высказывают предположение, что Евод и Игнатий были епископами в Антиохии одновременно: Евод был поставлен для иудеев, а Игнатий — для христиан из язычников."]
+	node [style=filled]
+		0 [label="Некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="высказывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предположение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Евод
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Игнатий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="епископами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Антиохии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="одновременно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Евод
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="поставлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="иудеев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Игнатий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="язычников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			18 -> 19 [label="предл"]
+			17 -> 18 [label="_2_компл"]
+			16 -> 13 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 17
+			16 -> 21 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			22 -> 24 [label="атриб"]
+			5 -> 9 [label="подч_союзн"]
+			10 -> 11 [label="атриб"]
+			6 -> 7 [label="сочин"]
+			26 -> 22 [label="предик"]
+			26 -> 27 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			24 -> 25 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			21 -> 26 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 16 [label="сент_соч"]
+			11 -> 12 [label="предл"]
+}

@@ -1,0 +1,72 @@
+digraph SENTENCE_406 {
+	graph [label="Главная героиня книги Есфирь (Эстер) была родственницей и воспитанницей еврея Мордехая, жившего в столице империи Сузах (Шушан) и однажды спасшего жизнь Артаксерксу (Ахашверошу)."]
+	node [style=filled]
+		0 [label="Главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Есфирь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Эстер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="родственницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воспитанницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="еврея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мордехая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="жившего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="империи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Сузах
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Шушан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="спасшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Артаксерксу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Ахашверошу
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="квазиагент"]
+			16 -> 18 [label="аппоз"]
+			8 -> 9 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			3 -> 5 [label="аппоз"]
+			24 -> 23 [label="обст"]
+			24 -> 25 [label="_1_компл"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="присвяз"]
+			7 -> 11 [label="разъяснит"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="опред"]
+			11 -> 20 [label="аппоз"]
+			11 -> 22 [label="сочин"]
+			11 -> 28 [label="релят"]
+			9 -> 10 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			22 -> 24 [label="соч_союзн"]
+			2 -> 3 [label="атриб"]
+			28 -> 26 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+}

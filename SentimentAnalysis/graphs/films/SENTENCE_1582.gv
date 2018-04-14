@@ -1,0 +1,21 @@
+digraph SENTENCE_1582 {
+	graph [label="Или, может быть, это — лучший исход?"]
+	node [style=filled]
+		0 [label="Или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="исход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="разъяснит"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="опред"]
+}

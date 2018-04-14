@@ -1,0 +1,27 @@
+digraph SENTENCE_1194 {
+	graph [label="Татьяна Карпова родилась 17 января 1916 года в Харькове."]
+	node [style=filled]
+		0 [label="Татьяна Карпова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="родилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="января
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="1916
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Харькове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="атриб"]
+			3 -> 5 [label="атриб"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="обст"]
+}

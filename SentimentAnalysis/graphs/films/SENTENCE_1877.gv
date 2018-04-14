@@ -1,0 +1,58 @@
+digraph SENTENCE_1877 {
+	graph [label="Бьорк сыграла замечательно, она просто приняла эту несчастную женщину, стала ею, трудно представить эту героиню с каким-либо другим лицом."]
+	node [style=filled]
+		0 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="замечательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="несчастную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="женщину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ею
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="трудно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="героиню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="каким-либо
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="лицом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предик"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="разъяснит"]
+			15 -> 17 [label="_1_компл"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			18 -> 21 [label="предл"]
+			6 -> 2 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="сочин"]
+}

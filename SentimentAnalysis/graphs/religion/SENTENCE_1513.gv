@@ -1,0 +1,46 @@
+digraph SENTENCE_1513 {
+	graph [label="В этот день во многих городах семейным парам, проживших в браке 25 и более лет,."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="семейным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="парам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проживших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="браке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			2 -> 1 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			7 -> 3 [label="огранич"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			14 -> 15 [label="сравнит"]
+			3 -> 5 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="предл"]
+}

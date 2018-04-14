@@ -1,0 +1,72 @@
+digraph SENTENCE_198 {
+	graph [label="И не удивительно, что на rottentomatoes.com рейтинг у фильма — всего 66%, хотя для лауреатов «Золотой ветви» нормальным считается рейтинг не менее 85%."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="удивительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="rottentomatoes
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="com
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рейтинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="66
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лауреатов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Золотой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="ветви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нормальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="считается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="рейтинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="85
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			25 -> 18 [label="обст"]
+			25 -> 22 [label="предик"]
+			25 -> 24 [label="_2_компл"]
+			25 -> 26 [label="предик"]
+			17 -> 25 [label="подч_союзн"]
+			9 -> 5 [label="обст"]
+			9 -> 14 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 17 [label="обст"]
+			4 -> 9 [label="подч_союзн"]
+			28 -> 27 [label="огранич"]
+			28 -> 29 [label="сравнит"]
+			6 -> 8 [label="аппоз"]
+			22 -> 21 [label="опред"]
+			26 -> 28 [label="уточн"]
+			10 -> 11 [label="предл"]
+			18 -> 19 [label="предл"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+}

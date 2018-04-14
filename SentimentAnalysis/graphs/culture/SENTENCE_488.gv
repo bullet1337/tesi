@@ -1,0 +1,45 @@
+digraph SENTENCE_488 {
+	graph [label="Иван оказывается в центре борьбы светлых и темных сил, где ему уготована главная роль."]
+	node [style=filled]
+		0 [label="Иван
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="борьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="светлых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="темных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уготована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			4 -> 8 [label="квазиагент"]
+			3 -> 4 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			1 -> 12 [label="сент_соч"]
+			12 -> 10 [label="обст"]
+			12 -> 11 [label="_2_компл"]
+			12 -> 14 [label="предик"]
+			14 -> 13 [label="опред"]
+			8 -> 5 [label="опред"]
+}

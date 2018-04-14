@@ -1,0 +1,39 @@
+digraph SENTENCE_1351 {
+	graph [label="Видно, что Шнурову такое сравнение лестно, хотя находками он похвастаться не может."]
+	node [style=filled]
+		0 [label="Видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Шнурову
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сравнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лестно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="находками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="похвастаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="обст"]
+			5 -> 4 [label="опред"]
+			13 -> 9 [label="обст"]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			2 -> 6 [label="подч_союзн"]
+			0 -> 2 [label="предик"]
+			8 -> 13 [label="подч_союзн"]
+}

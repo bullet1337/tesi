@@ -1,0 +1,72 @@
+digraph SENTENCE_1309 {
+	graph [label="По сути, мотивировать людей, оказавшихся на улице, вернуться в общество — это и есть наша главная задача\", — приводит пресс-служба слова руководителя \"Ангара спасения\" Романа Скоросова."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мотивировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оказавшихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="улице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вернуться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="задача
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="приводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="руководителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Ангара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Романа Скоросова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			25 -> 26 [label="квазиагент"]
+			23 -> 24 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			10 -> 11 [label="_2_компл"]
+			26 -> 28 [label="_1_компл"]
+			26 -> 29 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 10 [label="_2_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			7 -> 8 [label="предл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 19 [label="присвяз"]
+			16 -> 23 [label="вводн"]
+			24 -> 25 [label="квазиагент"]
+			29 -> 31 [label="_1_компл"]
+			14 -> 3 [label="пролепт"]
+			4 -> 6 [label="опред"]
+			11 -> 12 [label="предл"]
+}

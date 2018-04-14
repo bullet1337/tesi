@@ -1,0 +1,39 @@
+digraph SENTENCE_430 {
+	graph [label="Я за уважительные отношения с Русской православной церковью, я человек православный, верующий."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уважительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церковью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="православный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="верующий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			1 -> 3 [label="предл"]
+			10 -> 0 [label="предик"]
+			10 -> 1 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 13 [label="вводн"]
+			13 -> 11 [label="опред"]
+			4 -> 7 [label="предл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+}

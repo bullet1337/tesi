@@ -1,0 +1,36 @@
+digraph SENTENCE_1797 {
+	graph [label="Очень сильный фильм даёт нам очередную пищу для размышлений… Приятного просмотра!"]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="даёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очередную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пищу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="размышлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Приятного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			8 -> 11 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_249 {
+	graph [label="По словам режиссера, \"Великолепный рогоносец\" сочетает цирк, комедию и драму: идеальная картинка благостного мира в начале постепенно разрушается, превращаясь во что-то невероятное."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Великолепный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="рогоносец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сочетает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="цирк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="комедию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="драму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="идеальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="картинка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="благостного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="постепенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="разрушается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="превращаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="невероятное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			25 -> 26 [label="предл"]
+			19 -> 20 [label="предл"]
+			24 -> 25 [label="_2_компл"]
+			22 -> 21 [label="обст"]
+			22 -> 24 [label="обст"]
+			11 -> 12 [label="сочин"]
+			26 -> 27 [label="опред"]
+			12 -> 13 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+			16 -> 19 [label="атриб"]
+			16 -> 22 [label="релят"]
+			9 -> 11 [label="сочин"]
+			0 -> 1 [label="предл"]
+			8 -> 0 [label="вводн"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			13 -> 16 [label="разъяснит"]
+}

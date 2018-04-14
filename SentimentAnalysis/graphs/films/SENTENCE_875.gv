@@ -1,0 +1,21 @@
+digraph SENTENCE_875 {
+	graph [label="Ее сердце было слепо для зла."]
+	node [style=filled]
+		0 [label="Ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слепо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 4 [label="обст"]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="квазиагент"]
+}

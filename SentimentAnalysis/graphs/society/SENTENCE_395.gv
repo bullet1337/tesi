@@ -1,0 +1,45 @@
+digraph SENTENCE_395 {
+	graph [label="Также в церемонии приняло участие руководство Вооруженных сил РФ и ветераны\", — рассказали в Минобороны."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приняло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="руководство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Вооруженных
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="сил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ветераны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Минобороны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="_1_несобст_компл"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 14 [label="сочин"]
+			14 -> 15 [label="_3_компл"]
+			5 -> 7 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			7 -> 9 [label="сочин"]
+			15 -> 16 [label="предл"]
+}

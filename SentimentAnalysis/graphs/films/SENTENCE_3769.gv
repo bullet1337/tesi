@@ -1,0 +1,56 @@
+digraph SENTENCE_3769 {
+	graph [label="Большинство стран про такой вид спорта и не слышало, даже в США бейсбол и американский футбол намного популярнее."]
+	node [style=filled]
+		0 [label="Большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вид
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слышало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="бейсбол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="футбол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="намного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="популярнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			2 -> 6 [label="сочин"]
+			13 -> 14 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			18 -> 17 [label="колич_огран"]
+			6 -> 8 [label="соч_союзн"]
+			0 -> 1 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="обст"]
+			8 -> 13 [label="_1_компл"]
+			8 -> 18 [label="обст"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="соч_союзн"]
+}

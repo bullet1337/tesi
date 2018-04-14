@@ -1,0 +1,30 @@
+digraph SENTENCE_43 {
+	graph [label="Потихоньку интервалы между кормлениями будут увеличиваться до 4,5 часов."]
+	node [style=filled]
+		0 [label="Потихоньку
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="интервалы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кормлениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="увеличиваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="4,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			5 -> 6 [label="обст"]
+			2 -> 3 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="аналит"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 7 [label="количест"]
+}

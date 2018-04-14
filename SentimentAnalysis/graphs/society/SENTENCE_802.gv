@@ -1,0 +1,51 @@
+digraph SENTENCE_802 {
+	graph [label="Он предлагает внести поправки в Гражданский процессуальный кодекс, Арбитражный процессуальный кодекс и Кодекс административного судопроизводства РФ."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предлагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="внести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поправки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гражданский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="процессуальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кодекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Арбитражный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="процессуальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кодекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Кодекс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="административного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="судопроизводства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 11 [label="_1_компл"]
+			12 -> 15 [label="соч_союзн"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			4 -> 7 [label="предл"]
+}

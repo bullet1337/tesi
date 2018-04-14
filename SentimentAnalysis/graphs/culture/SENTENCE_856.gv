@@ -1,0 +1,30 @@
+digraph SENTENCE_856 {
+	graph [label="\"Я с опаской отношусь к драматическим режиссерам, — признался артист."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="опаской
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отношусь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="драматическим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссерам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="признался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="артист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+			10 -> 11 [label="предик"]
+			2 -> 3 [label="предл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 10 [label="вводн"]
+}

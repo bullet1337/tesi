@@ -1,0 +1,45 @@
+digraph SENTENCE_1210 {
+	graph [label="При этом для бесплатного провоза вес ручной клади должен быть не более десяти килограммов."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бесплатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="провоза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ручной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="клади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="десяти
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="килограммов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 8 [label="релят"]
+			2 -> 4 [label="предл"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="сравнит"]
+			9 -> 11 [label="присвяз"]
+			0 -> 1 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			13 -> 12 [label="количест"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_4041 {
+	graph [label="Их драмы кажутся высосанными из пальца, их сюжеты построены вокруг некоего песочного замка, мол, если страдать, так гламурно."]
+	node [style=filled]
+		0 [label="Их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="драмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кажутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высосанными
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пальца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюжеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="построены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="некоего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="песочного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="замка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мол
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="страдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="гламурно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_2_компл"]
+			21 -> 15 [label="вводн"]
+			21 -> 17 [label="обст"]
+			21 -> 20 [label="огранич"]
+			10 -> 13 [label="предл"]
+			9 -> 10 [label="обст"]
+			9 -> 21 [label="сент_соч"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 9 [label="сент_соч"]
+			1 -> 0 [label="квазиагент"]
+			17 -> 18 [label="инф_союзн"]
+			8 -> 7 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			5 -> 8 [label="квазиагент"]
+}

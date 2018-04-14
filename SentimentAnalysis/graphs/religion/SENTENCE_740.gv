@@ -1,0 +1,57 @@
+digraph SENTENCE_740 {
+	graph [label="По словам игумена Гермогена (Ананьева), замечательно, что сейчас на Масленицу по всей стране в парках открывают праздничные площадки."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="игумена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гермогена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Ананьева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="замечательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Масленицу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="парках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="открывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="праздничные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="площадки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="предл"]
+			19 -> 11 [label="обст"]
+			19 -> 12 [label="обст"]
+			19 -> 21 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			10 -> 19 [label="подч_союзн"]
+			21 -> 20 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			8 -> 0 [label="вводн"]
+			8 -> 10 [label="предик"]
+			12 -> 13 [label="предл"]
+			12 -> 17 [label="сочин"]
+			17 -> 14 [label="вводн"]
+			17 -> 18 [label="предл"]
+			3 -> 5 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+}

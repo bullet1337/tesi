@@ -1,0 +1,29 @@
+digraph SENTENCE_993 {
+	graph [label="Такого же мнения придерживаются и авторы книги \"Богоматерь Донская\"."]
+	node [style=filled]
+		0 [label="Такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="придерживаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Богоматерь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Донская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="опред"]
+			6 -> 8 [label="ном_аппоз"]
+			6 -> 9 [label="опред"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="сент_соч"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+}

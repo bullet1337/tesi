@@ -1,0 +1,30 @@
+digraph SENTENCE_857 {
+	graph [label="— Римас поразил меня своей гениальностью, своей подготовленностью, своей харизмой."]
+	node [style=filled]
+		1 [label="Римас
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гениальностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подготовленностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="харизмой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="_2_компл"]
+			2 -> 8 [label="обст"]
+			2 -> 11 [label="_2_компл"]
+			11 -> 10 [label="опред"]
+			8 -> 7 [label="опред"]
+}

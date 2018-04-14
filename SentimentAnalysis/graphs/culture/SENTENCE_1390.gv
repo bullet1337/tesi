@@ -1,0 +1,72 @@
+digraph SENTENCE_1390 {
+	graph [label="В прошлом году сериал установил рекорд на YouTube, которому позавидовали бы даже западные поп-звезды: серия \"Маша и каша\" собрала почти три миллиарда просмотров."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошлом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="установил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рекорд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="YouTube
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="позавидовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="западные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="поп-звезды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="серия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Маша
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="каша
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="собрала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="миллиарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="просмотров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="аналит"]
+			10 -> 14 [label="предик"]
+			24 -> 23 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 22 [label="сочин"]
+			25 -> 24 [label="количест"]
+			25 -> 26 [label="квазиагент"]
+			19 -> 20 [label="соч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="аппоз"]
+			14 -> 19 [label="сочин"]
+			13 -> 12 [label="огранич"]
+			7 -> 10 [label="релят"]
+			2 -> 1 [label="опред"]
+			22 -> 25 [label="_1_компл"]
+			16 -> 18 [label="аппоз"]
+			0 -> 2 [label="предл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1054 {
+	graph [label="Это тоже полезная форма самоограничения в Великий пост\", — добавляет он."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="полезная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="форма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самоограничения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="добавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предик"]
+			7 -> 6 [label="опред"]
+			2 -> 1 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="атриб"]
+			3 -> 11 [label="вводн"]
+			5 -> 7 [label="предл"]
+}

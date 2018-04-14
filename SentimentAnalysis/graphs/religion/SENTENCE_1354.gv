@@ -1,0 +1,36 @@
+digraph SENTENCE_1354 {
+	graph [label="В частности, за 2014-2016 годы УПЦ МП потеряла 40 храмов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="УПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="МП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="потеряла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="храмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="кратн"]
+			0 -> 1 [label="предл"]
+			12 -> 11 [label="количест"]
+			7 -> 4 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			3 -> 0 [label="огранич"]
+			3 -> 7 [label="предл"]
+			10 -> 3 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+}

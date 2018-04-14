@@ -1,0 +1,53 @@
+digraph SENTENCE_192 {
+	graph [label="В свою очередь источник в сфере образования сообщил РИА Новости, что погибший — глава дирекции общего образования вуза Сергей Калашников."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="источник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сфере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="погибший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дирекции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вуза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Сергей Калашников
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 17 [label="аппоз"]
+			13 -> 18 [label="аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="предик"]
+			7 -> 8 [label="предик"]
+			7 -> 10 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			16 -> 15 [label="опред"]
+			3 -> 4 [label="атриб"]
+}

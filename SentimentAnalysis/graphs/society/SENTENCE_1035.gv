@@ -1,0 +1,66 @@
+digraph SENTENCE_1035 {
+	graph [label="\"Как губернатор и житель Кубани, я полностью поддерживаю инициативу жителей Горячего Ключа о присвоении городу звания воинской славы\", – сказал РИА Новости губернатор."]
+	node [style=filled]
+		1 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="житель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кубани
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поддерживаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="инициативу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Горячего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ключа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="присвоении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="городу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="звания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="воинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			17 -> 19 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			3 -> 4 [label="соч_союзн"]
+			1 -> 2 [label="сравн_союзн"]
+			23 -> 24 [label="предик"]
+			9 -> 1 [label="вводн"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 23 [label="вводн"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 3 [label="сочин"]
+			15 -> 16 [label="_2_компл"]
+			15 -> 17 [label="сочин"]
+			24 -> 25 [label="вводн"]
+			14 -> 15 [label="предл"]
+			19 -> 18 [label="опред"]
+}

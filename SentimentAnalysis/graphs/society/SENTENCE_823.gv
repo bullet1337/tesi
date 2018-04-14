@@ -1,0 +1,48 @@
+digraph SENTENCE_823 {
+	graph [label="Кроме того он назвал присутствовавшую в студии в момент драки журналистку Елену Бойко \"безумной ведьмой\"."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="присутствовавшую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="драки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="журналистку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Елену
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Бойко
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="безумной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ведьмой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 4 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 9 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="обст"]
+			15 -> 14 [label="опред"]
+			0 -> 1 [label="предл"]
+			14 -> 12 [label="огранич"]
+			11 -> 15 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			10 -> 11 [label="аппоз"]
+}

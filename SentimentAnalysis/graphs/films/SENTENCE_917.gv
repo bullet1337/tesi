@@ -1,0 +1,39 @@
+digraph SENTENCE_917 {
+	graph [label="Стереотип восприятия мюзиклов играет злую шутку, и в финальной сцене вызывает шок."]
+	node [style=filled]
+		0 [label="Стереотип
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="восприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="злую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шутку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="финальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вызывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="шок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			7 -> 11 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			11 -> 8 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			8 -> 10 [label="предл"]
+}

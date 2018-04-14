@@ -1,0 +1,48 @@
+digraph SENTENCE_821 {
+	graph [label="Плохо, когда не все могут приехать, но и большого наплыва людей, способного смутить братию, нет."]
+	node [style=filled]
+		0 [label="Плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приехать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наплыва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="способного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смутить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="братию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="_1_компл"]
+			12 -> 14 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сент_соч"]
+			5 -> 18 [label="вводн"]
+			8 -> 9 [label="огранич"]
+			8 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+}

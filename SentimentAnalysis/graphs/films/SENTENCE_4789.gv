@@ -1,0 +1,48 @@
+digraph SENTENCE_4789 {
+	graph [label="Вот только не понятно, куда именно половина этого бюджета делась, если не большая его часть?!"]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="куда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="половина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бюджета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="делась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			9 -> 8 [label="опред"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="квазиагент"]
+			12 -> 16 [label="подч_союзн"]
+			10 -> 5 [label="_1_компл"]
+			10 -> 7 [label="предик"]
+			10 -> 12 [label="обст"]
+			14 -> 13 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 10 [label="предик"]
+}

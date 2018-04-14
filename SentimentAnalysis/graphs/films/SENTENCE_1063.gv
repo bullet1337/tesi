@@ -1,0 +1,21 @@
+digraph SENTENCE_1063 {
+	graph [label="До последней минуты держит в напряжении."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="держит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="напряжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			4 -> 5 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="обст"]
+			2 -> 1 [label="опред"]
+}

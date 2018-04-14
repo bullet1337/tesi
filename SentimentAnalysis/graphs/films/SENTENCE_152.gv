@@ -1,0 +1,43 @@
+digraph SENTENCE_152 {
+	graph [label="Какой надо быть, не побоюсь этого слова, отважной, чтобы принять свой конец вот так."]
+	node [style=filled]
+		0 [label="Какой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="побоюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отважной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="принять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 11 [label="обст"]
+			2 -> 1 [label="присвяз"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			11 -> 12 [label="инф_союзн"]
+			12 -> 14 [label="_1_компл"]
+			12 -> 16 [label="обст"]
+			14 -> 13 [label="опред"]
+}

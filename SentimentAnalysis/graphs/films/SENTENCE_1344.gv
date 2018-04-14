@@ -1,0 +1,42 @@
+digraph SENTENCE_1344 {
+	graph [label="После фильма я плакала, довольно долго, а со мной это бывает очень редко."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плакала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мной
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="редко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="обст"]
+			3 -> 8 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			14 -> 13 [label="огранич"]
+			8 -> 12 [label="соч_союзн"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="обст"]
+			6 -> 5 [label="огранич"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,26 @@
+digraph SENTENCE_645 {
+	graph [label="О работе с ним можно было только мечтать."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мечтать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="предл"]
+			7 -> 6 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 4 [label="присвяз"]
+			5 -> 7 [label="предик"]
+}

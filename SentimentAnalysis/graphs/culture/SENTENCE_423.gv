@@ -1,0 +1,51 @@
+digraph SENTENCE_423 {
+	graph [label="После этого из расписания картину убрали все кинотеатры, кроме \"Пионера\", в котором он состоялось несколько сеансов."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="расписания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="убрали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кинотеатры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Пионера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="состоялось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сеансов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			17 -> 14 [label="_1_компл"]
+			17 -> 16 [label="предик"]
+			17 -> 19 [label="предик"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			5 -> 17 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			9 -> 11 [label="предл"]
+			2 -> 3 [label="предл"]
+			19 -> 18 [label="количест"]
+			14 -> 15 [label="предл"]
+}

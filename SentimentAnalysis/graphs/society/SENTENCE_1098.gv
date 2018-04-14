@@ -1,0 +1,60 @@
+digraph SENTENCE_1098 {
+	graph [label="Глава Крыма Сергей Аксенов поздравил жителей полуострова с Днем защитника Отечества, а также с четвертой годовщиной создания народного ополчения Крыма."]
+	node [style=filled]
+		0 [label="Глава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Сергей Аксенов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="полуострова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Днем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="четвертой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="годовщиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="создания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="народного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ополчения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 11 [label="сочин"]
+			11 -> 18 [label="соч_союзн"]
+			4 -> 5 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			16 -> 13 [label="_1_компл"]
+			5 -> 6 [label="атриб"]
+			9 -> 8 [label="опред"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			7 -> 9 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			13 -> 12 [label="огранич"]
+			13 -> 15 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_1066 {
+	graph [label="Главная героиня Сельма слышала в любых звуках мелодию, которая успокаивала ее."]
+	node [style=filled]
+		0 [label="Главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="слышала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="звуках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мелодию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="успокаивала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 10 [label="разъяснит"]
+			1 -> 0 [label="опред"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_918 {
+	graph [label="\"Я был в Берлине много раз, и это важное место для меня."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="важное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 5 [label="обст"]
+			2 -> 8 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			8 -> 11 [label="соч_союзн"]
+}

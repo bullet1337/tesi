@@ -1,0 +1,42 @@
+digraph SENTENCE_27 {
+	graph [label="Если они будут настаивать на своем, то это создаст очень плохой имидж городу."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="настаивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="создаст
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имидж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="городу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			0 -> 2 [label="подч_союзн"]
+			0 -> 7 [label="соотнос"]
+			9 -> 0 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 12 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="аналит"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_2_компл"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

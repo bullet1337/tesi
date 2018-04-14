@@ -1,0 +1,27 @@
+digraph SENTENCE_3841 {
+	graph [label="И вообще, как его оценит сам автор произведения?"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оценит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="произведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 5 [label="соч_союзн"]
+}

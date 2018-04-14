@@ -1,0 +1,36 @@
+digraph SENTENCE_4326 {
+	graph [label="Третья часть — попытка раскрыть нелегкую тему и дать некое логическое завершение."]
+	node [style=filled]
+		0 [label="Третья
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="попытка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раскрыть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нелегкую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="некое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="логическое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="завершение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="примыкат"]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="сочин"]
+			8 -> 11 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+}

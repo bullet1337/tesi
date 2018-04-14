@@ -1,0 +1,51 @@
+digraph SENTENCE_2749 {
+	graph [label="Точнее, так-то он не более чем смехотворный пафосный богослов, но всем видом кричит, что очень плохой."]
+	node [style=filled]
+		0 [label="Точнее
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="так-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смехотворный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пафосный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="богослов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="видом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кричит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="плохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="сравн_союзн"]
+			16 -> 18 [label="подч_союзн"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="огранич"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="сравнит"]
+			5 -> 11 [label="сочин"]
+			5 -> 14 [label="вводн"]
+			11 -> 13 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+			18 -> 17 [label="огранич"]
+}

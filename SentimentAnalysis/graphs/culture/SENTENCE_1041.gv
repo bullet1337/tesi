@@ -1,0 +1,24 @@
+digraph SENTENCE_1041 {
+	graph [label="И спектакль вначале хотели назвать \"Великолепный рогоносец."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вначале
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хотели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Великолепный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="рогоносец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 7 [label="_1_компл"]
+			0 -> 3 [label="соч_союзн"]
+}

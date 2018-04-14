@@ -1,0 +1,27 @@
+digraph SENTENCE_4960 {
+	graph [label="Но это все происходит, по сути, в завязке."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="завязке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 8 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			1 -> 2 [label="опред"]
+			8 -> 5 [label="вводн"]
+			8 -> 9 [label="предл"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_251 {
+	graph [label="Определить статус города пытались в рамках Мадридской конференции, однако тогда все свелось к взаимным упрекам."]
+	node [style=filled]
+		0 [label="Определить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мадридской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="свелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="взаимным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="упрекам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			7 -> 6 [label="опред"]
+			12 -> 9 [label="огранич"]
+			12 -> 10 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 12 [label="сент_соч"]
+			5 -> 7 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			13 -> 15 [label="предл"]
+}

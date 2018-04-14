@@ -1,0 +1,45 @@
+digraph SENTENCE_225 {
+	graph [label="Складывается ощущение, что санкции введены не только против России, но и против русского языка."]
+	node [style=filled]
+		0 [label="Складывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="санкции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="введены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="русского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="языка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			8 -> 11 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			3 -> 5 [label="подч_союзн"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="обст"]
+			1 -> 3 [label="_1_компл"]
+			0 -> 1 [label="предик"]
+			11 -> 12 [label="огранич"]
+			11 -> 13 [label="соч_союзн"]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="опред"]
+}

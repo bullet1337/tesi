@@ -1,0 +1,33 @@
+digraph SENTENCE_10 {
+	graph [label="Подчеркнутая корректность их поведения привела к появлению выражения \"вежливые люди\"."]
+	node [style=filled]
+		0 [label="Подчеркнутая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="корректность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="привела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="появлению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выражения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вежливые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="квазиагент"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 10 [label="предик"]
+			3 -> 2 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="опред"]
+}

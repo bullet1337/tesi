@@ -1,0 +1,54 @@
+digraph SENTENCE_962 {
+	graph [label="\"Он (Андропов, уже тяжелобольной) находился в больнице, и я понимала, что такое протокольное мероприятие провести было невозможно."]
+	node [style=filled]
+		1 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Андропов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тяжелобольной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="находился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="больнице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="понимала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="протокольное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="провести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="невозможно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			9 -> 10 [label="предл"]
+			16 -> 21 [label="подч_союзн"]
+			8 -> 1 [label="предик"]
+			8 -> 3 [label="вводн"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 12 [label="сент_соч"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="присвяз"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="_1_компл"]
+			20 -> 19 [label="_1_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			12 -> 14 [label="соч_союзн"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_4384 {
+	graph [label="Им надо учиться любить по-настоящему, по-человечески, учиться у своих родителей."]
+	node [style=filled]
+		0 [label="Им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="учиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по-человечески
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="учиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="родителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="дат_субъект"]
+			1 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="_1_компл"]
+			4 -> 6 [label="сочин"]
+			2 -> 3 [label="сочин"]
+			9 -> 11 [label="предл"]
+			8 -> 9 [label="обст"]
+}

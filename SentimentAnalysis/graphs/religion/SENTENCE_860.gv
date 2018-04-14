@@ -1,0 +1,42 @@
+digraph SENTENCE_860 {
+	graph [label="В церемонии приняли участие ректоры ведущих российских вузов, представители научного и образовательного сообщества."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ректоры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ведущих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вузов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="научного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="образовательного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сообщества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 13 [label="_1_компл"]
+			10 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			2 -> 0 [label="_1_несобст_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			13 -> 10 [label="опред"]
+			0 -> 1 [label="предл"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 9 [label="аппоз"]
+}

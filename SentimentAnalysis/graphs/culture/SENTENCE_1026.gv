@@ -1,0 +1,57 @@
+digraph SENTENCE_1026 {
+	graph [label="Моссовета гоголевского \"Ревизора\" и \"Крошку Цахеса\" по Гофману, на главные роли в \"Великолепном рогоносце\" пригласила Павла Деревянко и Юлию Хлынину."]
+	node [style=filled]
+		0 [label="Моссовета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="гоголевского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ревизора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Крошку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Цахеса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гофману
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Великолепном
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="рогоносце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пригласила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Павла Деревянко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Юлию Хлынину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="предл"]
+			16 -> 19 [label="предл"]
+			5 -> 7 [label="соч_союзн"]
+			3 -> 1 [label="опред"]
+			3 -> 5 [label="сочин"]
+			8 -> 0 [label="предик"]
+			8 -> 10 [label="атриб"]
+			8 -> 13 [label="сент_соч"]
+			8 -> 21 [label="вводн"]
+			19 -> 18 [label="опред"]
+			21 -> 22 [label="предик"]
+			0 -> 3 [label="сочин"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="_2_компл"]
+			22 -> 23 [label="сочин"]
+			13 -> 15 [label="предл"]
+			23 -> 24 [label="соч_союзн"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_462 {
+	graph [label="Так же в службе просят помочь малоимущим старикам и инвалидам продуктами питания."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="малоимущим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="старикам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="инвалидам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="продуктами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="питания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			10 -> 11 [label="квазиагент"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 10 [label="_3_компл"]
+			2 -> 3 [label="предл"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+}

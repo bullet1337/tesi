@@ -1,0 +1,33 @@
+digraph SENTENCE_572 {
+	graph [label="Эти погребальные пещеры и были признаны местом погребения праведного Симеона."]
+	node [style=filled]
+		0 [label="Эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="погребальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пещеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="признаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="местом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="погребения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="праведного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Симеона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="агент"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5
+			4 -> 7 [label="сент_соч"]
+			7 -> 9 [label="квазиагент"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_608 {
+	graph [label="Сейчас мы вместе с пострадавшими готовим исковые заявления в суд\", — рассказывает Саввин."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пострадавшими
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="готовим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исковые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заявления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Саввин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 13 [label="вводн"]
+			7 -> 6 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			13 -> 8 [label="обст"]
+			13 -> 14 [label="предик"]
+}

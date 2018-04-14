@@ -1,0 +1,36 @@
+digraph SENTENCE_215 {
+	graph [label="На место оперативно выехали экологи Минприроды Северной Осетии\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оперативно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выехали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="экологи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Минприроды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Осетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			11 -> 7 [label="предик"]
+			11 -> 12 [label="обст"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="предик"]
+			3 -> 11 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			4 -> 5 [label="атриб"]
+			12 -> 13 [label="предл"]
+}

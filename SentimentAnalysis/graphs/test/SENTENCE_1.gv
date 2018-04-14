@@ -1,0 +1,21 @@
+digraph SENTENCE_1 {
+	graph [label="Дэвид Линч снимает изящные и красивые фильмы."]
+	node [style=filled]
+		0 [label="Дэвид Линч
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="снимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="изящные
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="красивые
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		5 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="_1_компл"]
+			5 -> 2 [label="опред"]
+			2 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+}

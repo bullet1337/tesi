@@ -1,0 +1,42 @@
+digraph SENTENCE_731 {
+	graph [label="С тем, чтобы с новыми силами потом вступить в Великий пост\", — поясняет Козлов."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="новыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="силами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вступить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поясняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Козлов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 3 [label="эксплет"]
+			15 -> 0 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			9 -> 11 [label="предл"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 8 [label="инф_союзн"]
+			4 -> 6 [label="предл"]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="опред"]
+			6 -> 5 [label="опред"]
+}

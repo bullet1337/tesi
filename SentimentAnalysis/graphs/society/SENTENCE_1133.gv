@@ -1,0 +1,42 @@
+digraph SENTENCE_1133 {
+	graph [label="Но они даже принципиально декларируют, что они сами не собираются проверять данную информацию."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="принципиально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="декларируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собираются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проверять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="данную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="информацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 10 [label="подч_союзн"]
+			13 -> 12 [label="опред"]
+			7 -> 8 [label="опред"]
+			11 -> 13 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			0 -> 4 [label="соч_союзн"]
+			10 -> 7 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+}

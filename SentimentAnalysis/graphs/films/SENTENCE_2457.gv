@@ -1,0 +1,53 @@
+digraph SENTENCE_2457 {
+	graph [label="Например кадры из метро, но то же самое может снять москвич в 8 утра в нашем метро."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кадры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="метро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="москвич
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="утра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нашем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="метро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			17 -> 16 [label="опред"]
+			12 -> 14 [label="предл"]
+			5 -> 9 [label="соч_союзн"]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			1 -> 0 [label="вводн"]
+			1 -> 2 [label="атриб"]
+			1 -> 5 [label="сент_соч"]
+			14 -> 13 [label="количест"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			6 -> 7 [label="огранич"]
+			6 -> 8 [label="опред"]
+			15 -> 17 [label="предл"]
+}

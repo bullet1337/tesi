@@ -1,0 +1,24 @@
+digraph SENTENCE_2780 {
+	graph [label="Его задачей стоит устранение шестерых беглых андроидов."]
+	node [style=filled]
+		0 [label="Его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="задачей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="устранение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="шестерых
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="беглых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="андроидов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="_1_компл"]
+			2 -> 1 [label="_2_компл"]
+			2 -> 3 [label="предик"]
+			6 -> 4 [label="количест"]
+			6 -> 5 [label="опред"]
+			1 -> 0 [label="квазиагент"]
+}

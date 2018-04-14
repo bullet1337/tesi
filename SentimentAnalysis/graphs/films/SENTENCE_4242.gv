@@ -1,0 +1,24 @@
+digraph SENTENCE_4242 {
+	graph [label="Смотреть фильмы через силу — это уже чересчур."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="силу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чересчур
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="обст"]
+			0 -> 7 [label="_1_компл"]
+}

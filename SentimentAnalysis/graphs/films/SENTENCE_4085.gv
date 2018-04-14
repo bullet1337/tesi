@@ -1,0 +1,72 @@
+digraph SENTENCE_4085 {
+	graph [label="Почему это среднейшее и зауряднейшее кино получило «Золотой глобус» в категории «Лучшая драма», а также попало в основную «оскаровскую» гонку — догадаться не сложно."]
+	node [style=filled]
+		0 [label="Почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="среднейшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зауряднейшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Золотой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="глобус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="категории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="попало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="основную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="оскаровскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="гонку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="догадаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="опред"]
+			5 -> 2 [label="опред"]
+			30 -> 29 [label="огранич"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			6 -> 15 [label="предик"]
+			6 -> 18 [label="сент_соч"]
+			18 -> 20 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			28 -> 30 [label="обст"]
+			9 -> 8 [label="опред"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 28 [label="предик"]
+			2 -> 3 [label="сочин"]
+			21 -> 26 [label="предл"]
+			26 -> 22 [label="опред"]
+			26 -> 24 [label="опред"]
+			3 -> 4 [label="соч_союзн"]
+			11 -> 12 [label="предл"]
+}

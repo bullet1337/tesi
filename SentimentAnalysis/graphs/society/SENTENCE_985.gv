@@ -1,0 +1,33 @@
+digraph SENTENCE_985 {
+	graph [label="\"Я думаю, Фалин недалеко будет стоять в этом же ряду."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Фалин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="недалеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ряду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="опред"]
+			6 -> 2 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="аналит"]
+			2 -> 1 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 11 [label="предл"]
+			9 -> 10 [label="огранич"]
+}

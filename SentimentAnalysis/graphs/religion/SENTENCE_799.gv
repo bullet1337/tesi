@@ -1,0 +1,42 @@
+digraph SENTENCE_799 {
+	graph [label="Очень многие каждые выходные посещали службу\", — рассказывает настоятель Зосимовой пустыни игумен Серафим (Семилетов)."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каждые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выходные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посещали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="службу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="настоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Зосимовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="пустыни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="игумен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Серафим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Семилетов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="огранич"]
+			14 -> 16 [label="аппоз"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			10 -> 11 [label="аппоз"]
+			10 -> 12 [label="атриб"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			4 -> 9 [label="вводн"]
+			12 -> 13 [label="аппоз"]
+			9 -> 10 [label="предик"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_865 {
+	graph [label="\"Люди моего и старшего поколения хорошо помнят время, когда между религиозными традициями и системой образования стояла непроходимая стена."]
+	node [style=filled]
+		1 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="старшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поколения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="помнят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="религиозными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="традициями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="системой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стояла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="непроходимая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			10 -> 17 [label="подч_союзн"]
+			17 -> 11 [label="_1_компл"]
+			17 -> 19 [label="предик"]
+			19 -> 18 [label="опред"]
+			14 -> 15 [label="соч_союзн"]
+			15 -> 16 [label="квазиагент"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="сочин"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сент_соч"]
+			1 -> 2 [label="опред"]
+}

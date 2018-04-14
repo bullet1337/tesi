@@ -1,0 +1,21 @@
+digraph SENTENCE_1838 {
+	graph [label="Самоотверженна, когда дело касается любимого сына."]
+	node [style=filled]
+		0 [label="Самоотверженна
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="касается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любимого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="обст"]
+			6 -> 5 [label="опред"]
+			2 -> 4 [label="подч_союзн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+}

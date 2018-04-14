@@ -1,0 +1,27 @@
+digraph SENTENCE_108 {
+	graph [label="Как пояснила корреспондент, речь идет о депутате Леониде Слуцком."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пояснила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="речь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="депутате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Леониде Слуцком
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="сравн_союзн"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_несобст_компл"]
+			6 -> 7 [label="предл"]
+			7 -> 8 [label="аппоз"]
+			1 -> 2 [label="предик"]
+}

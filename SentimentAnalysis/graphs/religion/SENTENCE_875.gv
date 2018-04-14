@@ -1,0 +1,63 @@
+digraph SENTENCE_875 {
+	graph [label="По его словам, ношение женщинами юбок и платков при посещении церкви — это традиция, принятая в России, на Украине, в Белоруссии."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="женщинами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="юбок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="платков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посещении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="традиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="принятая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Украине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Белоруссии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="предл"]
+			13 -> 11 [label="пролепт"]
+			7 -> 8 [label="соч_союзн"]
+			16 -> 17 [label="обст"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			2 -> 1 [label="квазиагент"]
+			2 -> 6 [label="квазиагент"]
+			23 -> 24 [label="предл"]
+			0 -> 2 [label="предл"]
+			17 -> 18 [label="предл"]
+			17 -> 20 [label="сочин"]
+			14 -> 0 [label="вводн"]
+			14 -> 9 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="опред"]
+			5 -> 4 [label="количест"]
+			20 -> 21 [label="предл"]
+			20 -> 23 [label="сочин"]
+}

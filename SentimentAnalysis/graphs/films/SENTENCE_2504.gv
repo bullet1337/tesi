@@ -1,0 +1,54 @@
+digraph SENTENCE_2504 {
+	graph [label="4 из 10
+Ещё с детства неоднократно пытался смотреть этот фильм, но ни разу не смог досмотреть."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ещё
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="детства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="разу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="досмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="сент_соч"]
+			0 -> 1 [label="электив"]
+			10 -> 9 [label="опред"]
+			13 -> 16 [label="соч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			4 -> 7 [label="сент_соч"]
+			8 -> 10 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			16 -> 14 [label="обст"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+}

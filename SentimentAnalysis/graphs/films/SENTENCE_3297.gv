@@ -1,0 +1,45 @@
+digraph SENTENCE_3297 {
+	graph [label="Логично было бы предположить, что одной из линий в сюжете должна была стать романтическая."]
+	node [style=filled]
+		0 [label="Логично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предположить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="линий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сюжете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="романтическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			5 -> 12 [label="подч_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="аналит"]
+			1 -> 3 [label="предик"]
+			1 -> 13 [label="сент_соч"]
+			6 -> 7 [label="электив"]
+			12 -> 6 [label="предик"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="присвяз"]
+			13 -> 14 [label="присвяз"]
+			7 -> 8 [label="предл"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_1338 {
+	graph [label="Ленин был в ссылке."]
+	node [style=filled]
+		0 [label="Ленин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ссылке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_2774 {
+	graph [label="Удалось мне это сделать с 4-го раза, поскольку в остальные три я быстро засыпал."]
+	node [style=filled]
+		0 [label="Удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="4-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="быстро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="засыпал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			14 -> 9 [label="обст"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="обст"]
+			8 -> 14 [label="подч_союзн"]
+			3 -> 1 [label="неакт_компл"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 6 [label="обст"]
+			3 -> 8 [label="обст"]
+			4 -> 5 [label="предл"]
+			0 -> 3 [label="предик"]
+			9 -> 11 [label="предл"]
+}

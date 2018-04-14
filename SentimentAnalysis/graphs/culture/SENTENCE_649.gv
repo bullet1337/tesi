@@ -1,0 +1,48 @@
+digraph SENTENCE_649 {
+	graph [label="Главные роли в фильме исполнили Рэйчел МакАдамс (\"В центре внимания\", \"Доктор Стрэндж\") и Джейсон Бейтман (\"Несносы не боссы\")."]
+	node [style=filled]
+		0 [label="Главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="исполнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Рэйчел МакАдамс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="внимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Доктор Стрэндж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Джейсон Бейтман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Несносы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="боссы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			2 -> 3 [label="предл"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="огранич"]
+			14 -> 17 [label="сочин"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_2_компл"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			4 -> 10 [label="разъяснит"]
+			4 -> 23 [label="сент_соч"]
+			17 -> 18 [label="соч_союзн"]
+			10 -> 8 [label="огранич"]
+			10 -> 14 [label="сочин"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_441 {
+	graph [label="Бойцов должны поддержать артиллерия и авиация, но командование внезапно меняет направление главного удара, оставляя солдат на уничтожение."]
+	node [style=filled]
+		0 [label="Бойцов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поддержать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="артиллерия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="авиация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="командование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внезапно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="направление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="удара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="оставляя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="солдат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="уничтожение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="сочин"]
+			11 -> 13 [label="квазиагент"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 15 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="_2_компл"]
+			4 -> 5 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="вводн"]
+			1 -> 7 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			7 -> 10 [label="соч_союзн"]
+}

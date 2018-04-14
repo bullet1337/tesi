@@ -1,0 +1,63 @@
+digraph SENTENCE_443 {
+	graph [label="Драматичный сюжет и звездный актерский состав — Александр Збруев, Олег Ефремов, Николай Караченцов, Игорь Скляр — сделали сериал Владимира Чеботарева и Александра Боголюбова одним из любимых военных телефильмов."]
+	node [style=filled]
+		0 [label="Драматичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="звездный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актерский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Александр Збруев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Олег Ефремов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Николай Караченцов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Игорь Скляр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="сделали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Владимира Чеботарева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Александра Боголюбова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="любимых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="военных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="телефильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="электив"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			24 -> 22 [label="опред"]
+			24 -> 23 [label="опред"]
+			2 -> 5 [label="соч_союзн"]
+			18 -> 19 [label="соч_союзн"]
+			21 -> 24 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			1 -> 7 [label="аппоз"]
+			1 -> 9 [label="сочин"]
+			17 -> 18 [label="сочин"]
+			9 -> 11 [label="аппоз"]
+			9 -> 13 [label="аппоз"]
+			15 -> 1 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 20 [label="_2_компл"]
+			16 -> 17 [label="аппоз"]
+}

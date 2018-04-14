@@ -1,0 +1,24 @@
+digraph SENTENCE_3056 {
+	graph [label="Плохо это или хорошо — вопрос за кадром."]
+	node [style=filled]
+		0 [label="Плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кадром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 1 [label="предик"]
+			0 -> 2 [label="сочин"]
+			0 -> 5 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+}

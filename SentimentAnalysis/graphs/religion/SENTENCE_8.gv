@@ -1,0 +1,84 @@
+digraph SENTENCE_8 {
+	graph [label="На площади у входа вполголоса поют псалмы верующие из Польши, тесным кружком молятся американские амиши — бородатые мужчины в сюртуках и шляпах, женщины в чепчиках и долгополых юбках."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="площади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="входа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вполголоса
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="псалмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="верующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Польши
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="тесным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кружком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="молятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="американские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="амиши
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бородатые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мужчины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сюртуках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="шляпах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="женщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="чепчиках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="долгополых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="юбках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			21 -> 22 [label="соч_союзн"]
+			26 -> 27 [label="сочин"]
+			25 -> 26 [label="предл"]
+			22 -> 24 [label="квазиагент"]
+			20 -> 21 [label="сочин"]
+			19 -> 20 [label="предл"]
+			27 -> 29 [label="соч_союзн"]
+			29 -> 28 [label="опред"]
+			13 -> 12 [label="обст"]
+			13 -> 15 [label="предик"]
+			13 -> 19 [label="обст"]
+			13 -> 25 [label="обст"]
+			2 -> 3 [label="предл"]
+			15 -> 14 [label="опред"]
+			15 -> 18 [label="аппоз"]
+			18 -> 17 [label="опред"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="_1_компл"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 13 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+}

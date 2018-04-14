@@ -1,0 +1,42 @@
+digraph SENTENCE_2071 {
+	graph [label="Ты смотришь на него и с грустью, и со слезой, и с улыбкой."]
+	node [style=filled]
+		0 [label="Ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смотришь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="грустью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слезой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="улыбкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			9 -> 12 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="предл"]
+			5 -> 8 [label="сочин"]
+			13 -> 14 [label="предл"]
+}

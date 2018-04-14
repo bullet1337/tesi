@@ -1,0 +1,48 @@
+digraph SENTENCE_1406 {
+	graph [label="По другую… По другую она счастлива, танцует в местной постановке, видит мир в цвете радуги."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="По
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="другую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="счастлива
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="танцует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="местной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="цвете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="радуги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="_2_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="разъяснит"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="обст"]
+			8 -> 13 [label="сочин"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="предл"]
+}

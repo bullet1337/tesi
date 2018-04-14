@@ -1,0 +1,52 @@
+digraph SENTENCE_3080 {
+	graph [label="«Если ты не хочешь от меня детей, мы можем разбежаться» — и это во время секса с женой."]
+	node [style=filled]
+		1 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хочешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разбежаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="секса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="женой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="подч_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			15 -> 14 [label="огранич"]
+			16 -> 17 [label="предл"]
+			11 -> 15 [label="_1_компл"]
+			11 -> 16 [label="обст"]
+			11 -> 18 [label="_1_компл"]
+			11 -> 19 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+}

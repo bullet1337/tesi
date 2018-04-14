@@ -1,0 +1,33 @@
+digraph SENTENCE_974 {
+	graph [label="46-ой форум пройдет в Гонконге с 23 по 25 февраля."]
+	node [style=filled]
+		0 [label="46-ой
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гонконге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="соотнос"]
+			7 -> 8 [label="предл"]
+			2 -> 0 [label="вводн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="атриб"]
+}

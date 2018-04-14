@@ -1,0 +1,57 @@
+digraph SENTENCE_338 {
+	graph [label="Оба рэпера ни разу не пробовали себя в баттловом жанре, поэтому качество их выступления изначально было под вопросом."]
+	node [style=filled]
+		0 [label="Оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рэпера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пробовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="баттловом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жанре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="качество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="изначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вопросом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			16 -> 11 [label="обст"]
+			16 -> 12 [label="предик"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="присвяз"]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="количест"]
+			17 -> 18 [label="предл"]
+			14 -> 13 [label="квазиагент"]
+			12 -> 14 [label="квазиагент"]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="огранич"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+			5 -> 16 [label="_1_компл"]
+}

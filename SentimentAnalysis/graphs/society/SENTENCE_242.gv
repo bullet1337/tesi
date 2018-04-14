@@ -1,0 +1,24 @@
+digraph SENTENCE_242 {
+	graph [label="Сейчас массового характера все-таки это не носит."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="массового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="характера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="носит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 3 [label="огранич"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			2 -> 1 [label="опред"]
+}

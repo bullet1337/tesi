@@ -1,0 +1,21 @@
+digraph SENTENCE_495 {
+	graph [label="Просматривается некое подобие Selma — schelme, szelma."]
+	node [style=filled]
+		0 [label="Просматривается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="некое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подобие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Selma
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="schelme
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="szelma
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			5 -> 7 [label="аппоз"]
+			0 -> 2 [label="предик"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_2106 {
+	graph [label="Но кроме этого, почти все из склонялись к тому, что всё же нужно себя познать."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="склонялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="познать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			16 -> 1 [label="обст"]
+			16 -> 5 [label="суб_копр"]
+			16 -> 15 [label="_1_компл"]
+			11 -> 14 [label="подч_союзн"]
+			14 -> 12 [label="предик"]
+			0 -> 16 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="электив"]
+			1 -> 2 [label="предл"]
+			9 -> 11 [label="эксплет"]
+			12 -> 13 [label="огранич"]
+}

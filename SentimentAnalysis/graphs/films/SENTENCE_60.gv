@@ -1,0 +1,35 @@
+digraph SENTENCE_60 {
+	graph [label="Первые полчаса я смотрел сутки, настолько вялое действо… Середину — пару часов."]
+	node [style=filled]
+		0 [label="Первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полчаса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сутки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вялое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="действо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Середину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="пару
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="квазиагент"]
+			10 -> 12 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="разъяснит"]
+			1 -> 0 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+}

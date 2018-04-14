@@ -1,0 +1,54 @@
+digraph SENTENCE_2011 {
+	graph [label="Кого?» И Мать улыбается сквозь слёзы, и она видит себя старухой, ведущей за руки мальчика и девочку."]
+	node [style=filled]
+		0 [label="Кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Мать
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="улыбается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сквозь
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слёзы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="старухой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ведущей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="руки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="девочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="сочин"]
+			9 -> 11 [label="соч_союзн"]
+			3 -> 4 [label="соч_союзн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			6 -> 7 [label="предл"]
+			17 -> 18 [label="квазиагент"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="сент_соч"]
+			16 -> 17 [label="предл"]
+			15 -> 16 [label="_3_компл"]
+			13 -> 15 [label="опред"]
+			18 -> 19 [label="сочин"]
+			19 -> 20 [label="соч_союзн"]
+}

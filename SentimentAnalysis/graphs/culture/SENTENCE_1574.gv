@@ -1,0 +1,60 @@
+digraph SENTENCE_1574 {
+	graph [label="Позже офицер уволился из армии, правда, как он сам говорит в фильме, по иным причинам — тяжело болела его жена."]
+	node [style=filled]
+		0 [label="Позже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="офицер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уволился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="иным
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="причинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="болела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="жена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			1 -> 0 [label="опред"]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="опред"]
+			20 -> 19 [label="обст"]
+			20 -> 22 [label="предик"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 15 [label="обст"]
+			22 -> 21 [label="_1_компл"]
+			15 -> 17 [label="предл"]
+			17 -> 16 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="вводн"]
+			2 -> 8 [label="сравнит"]
+			2 -> 20 [label="разъяснит"]
+			8 -> 11 [label="сравн_союзн"]
+}

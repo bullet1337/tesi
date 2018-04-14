@@ -1,0 +1,27 @@
+digraph SENTENCE_892 {
+	graph [label="Видите, как они любят, когда мы вас награждаем."]
+	node [style=filled]
+		0 [label="Видите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="награждаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="_1_компл"]
+			6 -> 9 [label="подч_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="обст"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_3422 {
+	graph [label="Уж сколько раз твердили миру… Хороших (для меня) картин наш кинематограф выпустил невероятно мало."]
+	node [style=filled]
+		0 [label="Уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="твердили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="миру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Хороших
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кинематограф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выпустил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 6 [label="опред"]
+			16 -> 15 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			8 -> 9 [label="предл"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 14 [label="разъяснит"]
+			6 -> 8 [label="_1_компл"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="_1_компл"]
+			4 -> 11 [label="квазиагент"]
+}

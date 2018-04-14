@@ -1,0 +1,51 @@
+digraph SENTENCE_309 {
+	graph [label="Как сообщил РИА Новости заместитель директора по организации гастролей цирка Парвиз Гаджиев, гимнаст продолжает находиться в искусственной коме."]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="заместитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="директора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гастролей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="цирка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Парвиз Гаджиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="гимнаст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="находиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="искусственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="аппоз"]
+			13 -> 14 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			1 -> 2 [label="предик"]
+			2 -> 3 [label="об_аппоз"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			14 -> 16 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			12 -> 0 [label="вводн"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+}

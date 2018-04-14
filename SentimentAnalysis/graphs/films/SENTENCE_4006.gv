@@ -1,0 +1,26 @@
+digraph SENTENCE_4006 {
+	graph [label="То же самое можно сказать и о фильме."]
+	node [style=filled]
+		0 [label="То
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="опред"]
+			4 -> 6 [label="_3_компл"]
+			3 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

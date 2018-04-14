@@ -1,0 +1,48 @@
+digraph SENTENCE_4735 {
+	graph [label="Спустя час с лишним от начала фильма нам, наконец, показывают Годзиллу, который рычит и исчезает."]
+	node [style=filled]
+		0 [label="Спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лишним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рычит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="исчезает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 0 [label="обст"]
+			11 -> 7 [label="_2_компл"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			4 -> 5 [label="предл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="сочин"]
+			16 -> 17 [label="соч_союзн"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 2 [label="атриб"]
+			1 -> 4 [label="атриб"]
+			2 -> 3 [label="предл"]
+}

@@ -1,0 +1,74 @@
+digraph SENTENCE_879 {
+	graph [label="«Сколько, я не пробовал мечты на вкус — они горьки» (с) Колдовство  Я никогда еще не видела такого фильма, такой Драмы (Драмы, с большой буквы)!"]
+	node [style=filled]
+		1 [label="Сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пробовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вкус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="горьки
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Колдовство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="видела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Драмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Драмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="буквы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 17 [label="предик"]
+			21 -> 18 [label="обст"]
+			21 -> 19 [label="огранич"]
+			21 -> 20 [label="огранич"]
+			21 -> 23 [label="_1_компл"]
+			32 -> 31 [label="опред"]
+			11 -> 10 [label="предик"]
+			11 -> 14 [label="_1_компл"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+			5 -> 21 [label="разъяснит"]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			26 -> 25 [label="опред"]
+			26 -> 28 [label="квазиагент"]
+			26 -> 30 [label="атриб"]
+			30 -> 32 [label="предл"]
+			23 -> 22 [label="опред"]
+}

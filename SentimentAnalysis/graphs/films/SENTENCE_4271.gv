@@ -1,0 +1,27 @@
+digraph SENTENCE_4271 {
+	graph [label="Диалоги, вот на чем выехали производители данного кинопроизведения."]
+	node [style=filled]
+		0 [label="Диалоги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выехали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="производители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="данного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кинопроизведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			6 -> 8 [label="_1_компл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 3 [label="_2_компл"]
+			5 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+}

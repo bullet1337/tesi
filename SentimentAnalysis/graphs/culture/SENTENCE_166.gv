@@ -1,0 +1,45 @@
+digraph SENTENCE_166 {
+	graph [label="Одна из них \"Аленький цветочек\" открывает новый цикл представлений — чтецкие вечера в сопровождении оркестра."]
+	node [style=filled]
+		0 [label="Одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Аленький
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="цветочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="открывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="цикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="представлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="чтецкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вечера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сопровождении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оркестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 13 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			0 -> 1 [label="электив"]
+			0 -> 5 [label="об_аппоз"]
+			7 -> 0 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 14 [label="обст"]
+			15 -> 16 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+}

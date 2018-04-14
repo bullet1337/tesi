@@ -1,0 +1,33 @@
+digraph SENTENCE_1091 {
+	graph [label="Быка приносили в жертву и в Элевсине в конце мистерий."]
+	node [style=filled]
+		0 [label="Быка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приносили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жертву
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Элевсине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мистерий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			1 -> 7 [label="обст"]
+			5 -> 6 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="сочин"]
+}

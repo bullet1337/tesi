@@ -1,0 +1,51 @@
+digraph SENTENCE_1571 {
+	graph [label="Спустя несколько десятилетий после описываемых событий авторы ленты находят Станислава Евграфовича Петрова — уже отставного военного, жителя подмосковного Фрязино."]
+	node [style=filled]
+		0 [label="Спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="десятилетий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="описываемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ленты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="находят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Станислава Евграфовича Петрова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отставного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="военного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="подмосковного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Фрязино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 11 [label="огранич"]
+			5 -> 4 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 15 [label="предик"]
+			0 -> 2 [label="предл"]
+			15 -> 12 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 17 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			2 -> 1 [label="количест"]
+			3 -> 5 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_4350 {
+	graph [label="Главный вопрос был и остается, за что ему дали Оскар?."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="присвяз"]
+			4 -> 9 [label="предик"]
+			3 -> 4 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сочин"]
+			1 -> 0 [label="опред"]
+			9 -> 8 [label="_2_компл"]
+			9 -> 10 [label="предик"]
+			6 -> 7 [label="предл"]
+}

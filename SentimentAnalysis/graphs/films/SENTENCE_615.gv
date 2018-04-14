@@ -1,0 +1,39 @@
+digraph SENTENCE_615 {
+	graph [label="В итоге, если он не намерен сострадать Сельме, зачем снял такое кино?"]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="намерен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сострадать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сельме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			11 -> 0 [label="обст"]
+			11 -> 3 [label="обст"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 6 [label="подч_союзн"]
+}

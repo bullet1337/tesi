@@ -1,0 +1,48 @@
+digraph SENTENCE_175 {
+	graph [label="А ещё — \"Монтазио\" классика, \"Качотта по-адыгейски\" и просто \"Качотта\", \"Халлеми\", \"Гауда\"\", — говорится в сообщении пресс-службы."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Монтазио
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="классика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Качотта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="по-адыгейски
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Качотта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Халлеми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Гауда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="пресс-службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 23 [label="аппоз"]
+			4 -> 1 [label="огранич"]
+			4 -> 6 [label="сочин"]
+			10 -> 12 [label="сочин"]
+			27 -> 4 [label="предик"]
+			27 -> 10 [label="обст"]
+			27 -> 28 [label="обст"]
+			27 -> 30 [label="разъяснит"]
+			12 -> 15 [label="соч_союзн"]
+			0 -> 27 [label="соч_союзн"]
+			28 -> 29 [label="предл"]
+			15 -> 13 [label="огранич"]
+			15 -> 19 [label="аппоз"]
+			6 -> 9 [label="сочин"]
+}

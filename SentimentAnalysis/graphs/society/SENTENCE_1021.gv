@@ -1,0 +1,51 @@
+digraph SENTENCE_1021 {
+	graph [label="В нем участвовали представители нескольких федеральных министерств и ряда профильных ведомств — Росводресурсов, Росрыболовства, Роспотребнадзора и других."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участвовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="федеральных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="министерств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ряда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="профильных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ведомств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Росводресурсов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Росрыболовства
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Роспотребнадзора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="_1_компл"]
+			14 -> 16 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+			12 -> 14 [label="сочин"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="разъяснит"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 4 [label="количест"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			0 -> 1 [label="предл"]
+			8 -> 10 [label="квазиагент"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			16 -> 17 [label="сочин"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1197 {
+	graph [label="Некоторое время была вольнослушательницей в школе при МХАТе-втором."]
+	node [style=filled]
+		0 [label="Некоторое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вольнослушательницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="МХАТе-втором
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="атриб"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="длительн"]
+			2 -> 3 [label="присвяз"]
+			2 -> 6 [label="обст"]
+}

@@ -1,0 +1,46 @@
+digraph SENTENCE_1039 {
+	graph [label="Прообразом ему стало сорокадневное пребывание Иисуса Христа в пустыне перед тем, как он начал свою проповедь."]
+	node [style=filled]
+		0 [label="Прообразом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сорокадневное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пребывание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Иисуса Христа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пустыне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="проповедь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			2 -> 4 [label="предик"]
+			2 -> 8 [label="обст"]
+			9 -> 11 [label="эксплет"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 6 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			11 -> 13 [label="подч_союзн"]
+			8 -> 9 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+}

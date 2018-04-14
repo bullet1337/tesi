@@ -1,0 +1,45 @@
+digraph SENTENCE_1436 {
+	graph [label="Постоянно движущаяся камера не раздражает, а только больше передает настроение и погружает в картину."]
+	node [style=filled]
+		0 [label="Постоянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="движущаяся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="камера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раздражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="настроение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="погружает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			11 -> 12 [label="соч_союзн"]
+			6 -> 8 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сочин"]
+			4 -> 9 [label="вводн"]
+			12 -> 13 [label="_2_компл"]
+			9 -> 10 [label="предик"]
+			9 -> 11 [label="сочин"]
+			13 -> 14 [label="предл"]
+}

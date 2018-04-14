@@ -1,0 +1,42 @@
+digraph SENTENCE_141 {
+	graph [label="По данным ряда американских СМИ, похороны Грэма состоятся 2 марта в Северной Каролине."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ряда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="американских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="похороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Грэма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="состоятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Каролине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="квазиагент"]
+			9 -> 10 [label="атриб"]
+			0 -> 1 [label="предл"]
+			2 -> 4 [label="квазиагент"]
+			2 -> 6 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			8 -> 0 [label="вводн"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="_2_компл"]
+			13 -> 12 [label="опред"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_181 {
+	graph [label="Русская православная церковь дистанцируется от 14 февраля, считая День святого Валентина далеким от церковной действительности."]
+	node [style=filled]
+		0 [label="Русская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дистанцируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="считая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="далеким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="церковной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="действительности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 15 [label="предл"]
+			5 -> 6 [label="атриб"]
+			8 -> 9 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			9 -> 11 [label="квазиагент"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="обст"]
+}

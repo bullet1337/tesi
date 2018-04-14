@@ -1,0 +1,63 @@
+digraph SENTENCE_121 {
+	graph [label="Масштабная программа реконструкции, модернизации и строительства школ, на которую выделяются средства и из федерального бюджета, рассчитана на 2016-2025 годы."]
+	node [style=filled]
+		0 [label="Масштабная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="программа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="реконструкции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="модернизации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="строительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="школ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выделяются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="средства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="федерального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="бюджета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рассчитана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="2025
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			19 -> 23 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			11 -> 1 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="сочин"]
+			13 -> 18 [label="соч_союзн"]
+			20 -> 22 [label="кратн"]
+			18 -> 14 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			23 -> 20 [label="опред"]
+			9 -> 10 [label="предл"]
+}

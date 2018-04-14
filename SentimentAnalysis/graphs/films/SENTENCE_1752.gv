@@ -1,0 +1,54 @@
+digraph SENTENCE_1752 {
+	graph [label="Это животный страх перед ответственностью, неспособностью отвертеться и признанием собственной ошибки, за которую можно заплатить только собственной жизнью."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="животный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="страх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ответственностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неспособностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отвертеться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="признанием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ошибки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="заплатить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="опред"]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			15 -> 16 [label="предик"]
+			16 -> 19 [label="_4_компл"]
+			9 -> 11 [label="_1_компл"]
+}

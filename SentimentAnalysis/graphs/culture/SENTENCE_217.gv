@@ -1,0 +1,15 @@
+digraph SENTENCE_217 {
+	graph [label="Премьера состоится 14 февраля."]
+	node [style=filled]
+		0 [label="Премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

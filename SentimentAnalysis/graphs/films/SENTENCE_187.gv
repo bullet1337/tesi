@@ -1,0 +1,21 @@
+digraph SENTENCE_187 {
+	graph [label="Просто эмоции до сих пор переполняют."]
+	node [style=filled]
+		0 [label="Просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="переполняют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			5 -> 0 [label="огранич"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 2 [label="обст"]
+			4 -> 3 [label="опред"]
+}

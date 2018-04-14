@@ -1,0 +1,33 @@
+digraph SENTENCE_357 {
+	graph [label="«А на что смотреть-то?» — абсолютно искренне отвечает Сельма, героиня драмы."]
+	node [style=filled]
+		1 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смотреть-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отвечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="драмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			1 -> 10 [label="соч_союзн"]
+			10 -> 2 [label="_3_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="предик"]
+			13 -> 14 [label="аппоз"]
+			9 -> 4 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			11 -> 13 [label="аппоз"]
+}

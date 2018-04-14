@@ -1,0 +1,22 @@
+digraph SENTENCE_2209 {
+	graph [label="Высочайшее кино, какое только можно себе представить."]
+	node [style=filled]
+		0 [label="Высочайшее
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="какое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предик"]
+			7 -> 6
+}

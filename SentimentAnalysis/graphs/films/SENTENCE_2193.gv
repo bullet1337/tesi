@@ -1,0 +1,51 @@
+digraph SENTENCE_2193 {
+	graph [label="Рекомендуется к просмотру людям, имеющим склонность к возвышенному: фильм переполнен стихами, образами ренессанса и классической музыкой."]
+	node [style=filled]
+		0 [label="Рекомендуется
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просмотру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="имеющим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="склонность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возвышенному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="переполнен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стихами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="образами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ренессанса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="классической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="музыкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="сочин"]
+			7 -> 10 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			16 -> 18 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 5 [label="опред"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			11 -> 12 [label="агент"]
+			11 -> 14 [label="обст"]
+			10 -> 8 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 11 [label="сочин"]
+			18 -> 17 [label="опред"]
+}

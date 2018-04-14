@@ -1,0 +1,93 @@
+digraph SENTENCE_3123 {
+	graph [label="На протяжении всего фильма можно было наблюдать лишь фирменный (но неуместный в данном случае) тоскливый взгляд любимого мной Джейка Джилленхаала, а также невразумительную игру Хита Леджера (при всей моей симпатии к Хиту Леджеру)."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="наблюдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фирменный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="неуместный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="данном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тоскливый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="любимого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мной
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Джейка Джилленхаала
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="невразумительную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="игру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Хита Леджера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="симпатии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Хиту Леджеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			24 -> 23 [label="огранич"]
+			31 -> 29 [label="опред"]
+			31 -> 30 [label="опред"]
+			31 -> 32 [label="_1_компл"]
+			28 -> 31 [label="предл"]
+			3 -> 2 [label="опред"]
+			11 -> 12 [label="атриб"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="присвяз"]
+			5 -> 6 [label="предик"]
+			5 -> 17 [label="разъяснит"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="сочин"]
+			1 -> 3 [label="квазиагент"]
+			10 -> 11 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="опред"]
+			17 -> 20 [label="сочин"]
+			32 -> 33 [label="предл"]
+			0 -> 1 [label="предл"]
+			22 -> 25 [label="соч_союзн"]
+			20 -> 22 [label="сочин"]
+			18 -> 19 [label="агент"]
+			25 -> 24 [label="опред"]
+			25 -> 26 [label="квазиагент"]
+			25 -> 28 [label="атриб"]
+			6 -> 8 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="предл"]
+}

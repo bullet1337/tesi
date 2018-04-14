@@ -1,0 +1,66 @@
+digraph SENTENCE_539 {
+	graph [label="Он подчеркнул, что, тем не менее, Россия не Северная Корея, и в стране нет такой тотальной цензуры, как была в СССР."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Россия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Северная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Корея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тотальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="цензуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 17 [label="подч_союзн"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			11 -> 10 [label="огранич"]
+			14 -> 15 [label="соч_союзн"]
+			17 -> 9 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 23 [label="сент_соч"]
+			7 -> 5 [label="атриб"]
+			7 -> 6 [label="огранич"]
+			12 -> 11 [label="опред"]
+			9 -> 7 [label="огранич"]
+			9 -> 12 [label="сочин"]
+			9 -> 14 [label="сочин"]
+			24 -> 25 [label="предл"]
+			15 -> 16 [label="предл"]
+			23 -> 20 [label="предик"]
+			23 -> 22 [label="обст"]
+			23 -> 24 [label="присвяз"]
+}

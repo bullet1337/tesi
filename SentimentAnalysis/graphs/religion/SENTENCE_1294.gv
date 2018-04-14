@@ -1,0 +1,27 @@
+digraph SENTENCE_1294 {
+	graph [label="Мы очень благодарны российскому народу, который поддерживает Сирию."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благодарны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="российскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="народу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поддерживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сирию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+}

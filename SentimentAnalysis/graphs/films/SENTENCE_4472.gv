@@ -1,0 +1,24 @@
+digraph SENTENCE_4472 {
+	graph [label="Но это так, цветочки…  Ягодка — это Пипец!"]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="цветочки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ягодка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Пипец
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="предик"]
+			2 -> 9 [label="сент_соч"]
+			9 -> 4 [label="_1_компл"]
+			9 -> 8 [label="предик"]
+			0 -> 2 [label="соч_союзн"]
+			8 -> 6 [label="пролепт"]
+}

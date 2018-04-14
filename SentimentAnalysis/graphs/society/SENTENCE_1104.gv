@@ -1,0 +1,57 @@
+digraph SENTENCE_1104 {
+	graph [label="Жители города и дети знакомятся с вооружением, для них военные провели показательные выступления с демонстрацией приемов рукопашного боя."]
+	node [style=filled]
+		0 [label="Жители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знакомятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вооружением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="военные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="провели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="показательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="демонстрацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="приемов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рукопашного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="боя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="сент_соч"]
+			18 -> 17 [label="опред"]
+			2 -> 3 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="атриб"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="сочин"]
+			15 -> 16 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			8 -> 9 [label="предл"]
+			16 -> 18 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+}

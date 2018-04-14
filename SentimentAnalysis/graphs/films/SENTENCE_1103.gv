@@ -1,0 +1,22 @@
+digraph SENTENCE_1103 {
+	graph [label="Но удаются они ему просто на отлично."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="удаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отлично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предик"]
+			0 -> 1 [label="соч_союзн"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+}

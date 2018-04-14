@@ -1,0 +1,74 @@
+digraph SENTENCE_1216 {
+	graph [label="В пресс-службе \"Аэрофлота\" пояснили, что специальную систему контроля провоза ручной клади ввели из-за участившихся жалоб пассажиров на нехватку места для ее размещения в салоне."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Аэрофлота
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="пояснили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="специальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="систему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="контроля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="провоза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ручной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="клади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ввели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="участившихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жалоб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пассажиров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нехватку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="места
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="размещения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="салоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 14 [label="релят"]
+			19 -> 20 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			25 -> 26 [label="предл"]
+			22 -> 24 [label="предл"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 15 [label="обст"]
+			13 -> 12 [label="опред"]
+			1 -> 3 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			15 -> 17 [label="предл"]
+			0 -> 1 [label="предл"]
+			20 -> 21 [label="квазиагент"]
+			21 -> 22 [label="атриб"]
+			24 -> 23 [label="квазиагент"]
+			24 -> 25 [label="_2_компл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			17 -> 19 [label="атриб"]
+}

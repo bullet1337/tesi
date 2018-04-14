@@ -1,0 +1,48 @@
+digraph SENTENCE_941 {
+	graph [label="Кинопроизводство более демократично, потому что сейчас снимать кино проще, но дистрибуция стала жестче\", — уточнил Дефо."]
+	node [style=filled]
+		0 [label="Кинопроизводство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="демократично
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проще
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дистрибуция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жестче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Дефо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 7 [label="предик"]
+			9 -> 11 [label="сент_соч"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="присвяз"]
+			13 -> 18 [label="сочин"]
+			18 -> 19 [label="_1_компл"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="обст"]
+			11 -> 13 [label="соч_союзн"]
+			4 -> 5 [label="эксплет"]
+			5 -> 9 [label="подч_союзн"]
+}

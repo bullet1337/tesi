@@ -1,0 +1,41 @@
+digraph SENTENCE_64 {
+	graph [label="(Кстати, построение сюжета по эмоциям и правда подобно «Догвиллю», как кто-то упомянул выше."]
+	node [style=filled]
+		1 [label="Кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="построение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эмоциям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подобно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Догвиллю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="упомянул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="соч_союзн"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="обст"]
+			14 -> 16 [label="сравн_союзн"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			3 -> 14 [label="сравнит"]
+			9 -> 8 [label="вводн"]
+			9 -> 11 [label="дат_субъект"]
+}

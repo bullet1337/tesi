@@ -1,0 +1,39 @@
+digraph SENTENCE_1646 {
+	graph [label="Роль Прохорова сыграл сам миллиардер, получив, по его словам, гонорар в один рубль."]
+	node [style=filled]
+		0 [label="Роль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Прохорова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сыграл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="миллиардер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="гонорар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рубль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="квазиагент"]
+			8 -> 10 [label="предл"]
+			6 -> 8 [label="обст"]
+			0 -> 1 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			13 -> 15 [label="предл"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			15 -> 14 [label="количест"]
+}

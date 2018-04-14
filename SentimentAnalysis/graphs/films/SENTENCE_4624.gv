@@ -1,0 +1,54 @@
+digraph SENTENCE_4624 {
+	graph [label="Персонаж Брайана Крэнстона 100% отведенного ему экранного времени переигрывает, «мастерски» изображая всё знающего ученого, которого никто не слушает."]
+	node [style=filled]
+		0 [label="Персонаж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Брайана Крэнстона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отведенного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="экранного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="переигрывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мастерски
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="изображая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знающего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ученого
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="слушает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="предик"]
+			8 -> 7 [label="длительн"]
+			8 -> 11 [label="обст"]
+			8 -> 13 [label="обст"]
+			8 -> 21 [label="сент_соч"]
+			7 -> 2 [label="количест"]
+			7 -> 4 [label="опред"]
+			7 -> 6 [label="опред"]
+			21 -> 18 [label="_1_компл"]
+			21 -> 19 [label="предик"]
+			21 -> 20 [label="огранич"]
+			15 -> 14 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			13 -> 16 [label="_1_компл"]
+			4 -> 5 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+}

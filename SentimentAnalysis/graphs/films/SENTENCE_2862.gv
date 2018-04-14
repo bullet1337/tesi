@@ -1,0 +1,60 @@
+digraph SENTENCE_2862 {
+	graph [label="На фоне Дрю даже немного поднадоевший Грю выглядит более выигрышно, а ведь именно первому предписывалось разукрасить картину неожиданными красками."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Дрю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поднадоевший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Грю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выглядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выигрышно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="первому
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="предписывалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разукрасить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="неожиданными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="красками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			1 -> 2 [label="квазиагент"]
+			1 -> 5 [label="опред"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			11 -> 15 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			7 -> 0 [label="обст"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 11 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 19 [label="_2_компл"]
+			14 -> 13 [label="огранич"]
+			0 -> 1 [label="предл"]
+			19 -> 18 [label="опред"]
+}

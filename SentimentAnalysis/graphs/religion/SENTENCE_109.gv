@@ -1,0 +1,60 @@
+digraph SENTENCE_109 {
+	graph [label="Говоря о гуманитарных кризисах, папа Римский отметил, что сирийский конфликт стал крупнейшей гуманитарной катастрофой со времен Второй мировой войны."]
+	node [style=filled]
+		0 [label="Говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гуманитарных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кризисах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Римский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сирийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конфликт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="крупнейшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="гуманитарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="катастрофой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="времен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Второй
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_3_компл"]
+			1 -> 3 [label="предл"]
+			5 -> 6 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="атриб"]
+			12 -> 11 [label="предик"]
+			12 -> 15 [label="присвяз"]
+			3 -> 2 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 12 [label="подч_союзн"]
+			11 -> 10 [label="опред"]
+			16 -> 17 [label="предл"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			17 -> 20 [label="_1_компл"]
+}

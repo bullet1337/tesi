@@ -1,0 +1,81 @@
+digraph SENTENCE_1440 {
+	graph [label="\"По благословению епископа Иринея во всех храмах епархии в течение сорока дней будут совершаться панихиды об упокоении погибших при крушении самолета Ан-148\", — сообщили в патриархии."]
+	node [style=filled]
+		1 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благословению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="епископа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Иринея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="епархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сорока
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="совершаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="панихиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="упокоении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="крушении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="самолета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Ан
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="148
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="патриархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="предл"]
+			9 -> 10 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="атриб"]
+			21 -> 22 [label="аппоз"]
+			19 -> 20 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+			5 -> 7 [label="предл"]
+			17 -> 18 [label="опред"]
+			18 -> 19 [label="обст"]
+			22 -> 24 [label="аппоз"]
+			20 -> 21 [label="квазиагент"]
+			3 -> 4 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			28 -> 29 [label="обст"]
+			12 -> 11 [label="количест"]
+			29 -> 30 [label="предл"]
+			13 -> 1 [label="вводн"]
+			13 -> 5 [label="обст"]
+			13 -> 12 [label="длительн"]
+			13 -> 14 [label="аналит"]
+			13 -> 15 [label="предик"]
+			13 -> 28 [label="вводн"]
+}

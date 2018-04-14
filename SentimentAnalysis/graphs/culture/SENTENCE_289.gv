@@ -1,0 +1,60 @@
+digraph SENTENCE_289 {
+	graph [label="По его словам, благодаря Году культуры россияне и подданные Катара смогут \"лучше узнать классическую и современную культуру двух стран\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Году
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="россияне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подданные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Катара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="смогут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="узнать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="классическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="современную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="культуру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			16 -> 17 [label="соч_союзн"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 1 [label="квазиагент"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="сочин"]
+			0 -> 2 [label="предл"]
+			14 -> 18 [label="_1_компл"]
+			14 -> 20 [label="_2_компл"]
+			20 -> 19 [label="количест"]
+			18 -> 15 [label="опред"]
+			15 -> 16 [label="сочин"]
+			7 -> 8 [label="сочин"]
+			11 -> 0 [label="вводн"]
+			11 -> 4 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 14 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+}

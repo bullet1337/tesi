@@ -1,0 +1,33 @@
+digraph SENTENCE_138 {
+	graph [label="После его просмотра об оценках не думаешь, тут нечто большее."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оценках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="думаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нечто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			2 -> 3 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			9 -> 10 [label="опред"]
+			3 -> 4 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="обст"]
+			6 -> 9 [label="_1_компл"]
+}

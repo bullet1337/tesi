@@ -1,0 +1,30 @@
+digraph SENTENCE_822 {
+	graph [label="Погружение в картину полное, лично для меня это показатель."]
+	node [style=filled]
+		0 [label="Погружение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="атриб"]
+			3 -> 6 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			2 -> 3 [label="опред"]
+			9 -> 0 [label="вводн"]
+			9 -> 8 [label="предик"]
+}

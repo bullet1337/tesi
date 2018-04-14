@@ -1,0 +1,51 @@
+digraph SENTENCE_2025 {
+	graph [label="В этой связи примечателен почти монолог Лизы, в котором та связывает Марию с героиней произведения Достоевского."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="примечателен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="монолог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Лизы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="связывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Марию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="героиней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="произведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Достоевского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="квазиагент"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="_2_компл"]
+			11 -> 15 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			3 -> 11 [label="разъяснит"]
+			13 -> 14 [label="предл"]
+			8 -> 9 [label="предл"]
+}

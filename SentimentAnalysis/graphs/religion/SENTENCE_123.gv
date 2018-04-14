@@ -1,0 +1,114 @@
+digraph SENTENCE_123 {
+	graph [label="Известный американский проповедник Билли Грэм, скончавшийся в возрасте 99 лет, очень полюбил Россию и ее жителей после своего первого визита в страну в 1982 году, заявил РИА Новости начальствующий епископ Российского объединенного союза христиан веры евангельской (РОСХВЕ — пятидесятники) Сергей Ряховский."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проповедник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Билли Грэм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="скончавшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="возрасте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="99
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="полюбил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="страну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="1982
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="начальствующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Российского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="объединенного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="союза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="веры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="евангельской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="РОСХВЕ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		40 [label="пятидесятники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="Сергей Ряховский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 22 [label="предл"]
+			38 -> 36 [label="опред"]
+			33 -> 30 [label="предик"]
+			33 -> 32 [label="опред"]
+			33 -> 34 [label="квазиагент"]
+			33 -> 35 [label="сочин"]
+			33 -> 40 [label="квазиагент"]
+			33 -> 42 [label="сочин"]
+			27 -> 16 [label="предик"]
+			27 -> 17 [label="обст"]
+			27 -> 28 [label="_2_компл"]
+			27 -> 33 [label="сент_соч"]
+			14 -> 27 [label="соч_союзн"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			2 -> 5 [label="опред"]
+			17 -> 20 [label="предл"]
+			30 -> 29 [label="опред"]
+			30 -> 31 [label="опред"]
+			12 -> 2 [label="предик"]
+			12 -> 9 [label="длительн"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="сент_соч"]
+			16 -> 15 [label="_1_компл"]
+			23 -> 25 [label="предл"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 23 [label="атриб"]
+			9 -> 8 [label="количест"]
+			5 -> 6 [label="обст"]
+			35 -> 38 [label="сочин"]
+			25 -> 24 [label="опред"]
+			6 -> 7 [label="предл"]
+}

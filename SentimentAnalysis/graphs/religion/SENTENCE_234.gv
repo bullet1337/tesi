@@ -1,0 +1,35 @@
+digraph SENTENCE_234 {
+	graph [label="\"Цена вопроса полностью зависит от того, что строить на этой земле."]
+	node [style=filled]
+		1 [label="Цена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вопроса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зависит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="строить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="земле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			5 -> 6 [label="предл"]
+			6 -> 8 [label="эксплет"]
+			9 -> 10 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1652 {
+	graph [label="Митрополит Сурожский Антоний (Блум) так писал о нем:."]
+	node [style=filled]
+		0 [label="Митрополит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Сурожский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Антоний
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Блум
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="писал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_3_компл"]
+			0 -> 2 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="аппоз"]
+}

@@ -1,0 +1,79 @@
+digraph SENTENCE_2016 {
+	graph [label="10 из 10
+«Земную жизнь пройдя до половины, я очутился в сумрачном лесу», — эти строки из Данте, процитированные в этом фильме, раскрывают причины появления «Зеркала»."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Земную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пройдя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="половины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="очутился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сумрачном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лесу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="строки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Данте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="процитированные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="раскрывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="причины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="появления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="Зеркала
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="электив"]
+			24 -> 26 [label="предл"]
+			23 -> 24 [label="обст"]
+			6 -> 0 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 6 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 19 [label="предик"]
+			11 -> 28 [label="сент_соч"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="атриб"]
+			19 -> 23 [label="опред"]
+			26 -> 25 [label="опред"]
+			28 -> 29 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			1 -> 5 [label="предл"]
+			20 -> 21 [label="предл"]
+			14 -> 13 [label="опред"]
+			30 -> 32 [label="квазиагент"]
+			5 -> 2 [label="количест"]
+			5 -> 4 [label="опред"]
+			12 -> 14 [label="предл"]
+			29 -> 30 [label="_1_компл"]
+}

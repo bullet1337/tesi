@@ -1,0 +1,24 @@
+digraph SENTENCE_519 {
+	graph [label="\"Доступность препаратов, особенно для таких заболеваний, невелика."]
+	node [style=filled]
+		1 [label="Доступность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="препаратов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="невелика
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предл"]
+			9 -> 1 [label="предик"]
+			9 -> 5 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_554 {
+	graph [label="Рекорд по числу номинаций премии BAFTA в этом году у фильма Гильермо дель Торо \"Форма воды\"."]
+	node [style=filled]
+		0 [label="Рекорд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="числу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="номинаций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="BAFTA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гильермо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="дель
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Торо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Форма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="атриб"]
+			15 -> 0 [label="предик"]
+			15 -> 9 [label="обст"]
+			15 -> 16 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			10 -> 11 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			13 -> 12
+			3 -> 4 [label="аппоз"]
+			6 -> 8 [label="предл"]
+			11 -> 13 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+}

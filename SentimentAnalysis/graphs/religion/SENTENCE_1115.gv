@@ -1,0 +1,72 @@
+digraph SENTENCE_1115 {
+	graph [label="Муниципалитет Иерусалима намерен взыскать с христианских конфессий свыше 180 миллионов долларов в качестве налогов с их недвижимости, расположенной в городе, заявил мэр Нир Баркат."]
+	node [style=filled]
+		0 [label="Муниципалитет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="намерен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="взыскать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конфессий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свыше
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="180
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="миллионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="долларов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="налогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="недвижимости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="расположенной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="мэр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Нир Баркат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 24 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 22 [label="вводн"]
+			16 -> 15 [label="квазиагент"]
+			16 -> 18 [label="опред"]
+			22 -> 23 [label="предик"]
+			11 -> 12 [label="предл"]
+			4 -> 6 [label="предл"]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="квазиагент"]
+			19 -> 20 [label="предл"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 7 [label="обст"]
+			3 -> 11 [label="_2_компл"]
+			14 -> 16 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			12 -> 13 [label="квазиагент"]
+			18 -> 19 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+}

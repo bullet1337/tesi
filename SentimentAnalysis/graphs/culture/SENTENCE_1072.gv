@@ -1,0 +1,57 @@
+digraph SENTENCE_1072 {
+	graph [label="Наказанием каждому, кто раскрыл секрет мистерий, была смертная казнь и конфискация имущества, но главным наказанием было проклятие богов."]
+	node [style=filled]
+		0 [label="Наказанием
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="каждому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раскрыл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мистерий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смертная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="казнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="конфискация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="имущества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="наказанием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="проклятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="богов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="сочин"]
+			18 -> 17 [label="присвяз"]
+			18 -> 19 [label="предик"]
+			15 -> 18 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			19 -> 20 [label="аппоз"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 0 [label="присвяз"]
+			8 -> 10 [label="предик"]
+			8 -> 15 [label="сент_соч"]
+			0 -> 4 [label="релят"]
+			12 -> 13 [label="_1_компл"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_1695 {
+	graph [label="Фильм достаточно тяжел, но посмотреть его стоит, хотя бы ради того, что он заставит задуматься о смысле фильма, который каждый для себя откроет сам после просмотра."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тяжел
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="заставит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="откроет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="сент_соч"]
+			2 -> 26 [label="вводн"]
+			24 -> 25 [label="предл"]
+			4 -> 7 [label="соч_союзн"]
+			17 -> 18 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			28 -> 29 [label="предл"]
+			11 -> 12 [label="предл"]
+			14 -> 16 [label="подч_союзн"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_2_компл"]
+			19 -> 20 [label="квазиагент"]
+			18 -> 19 [label="предл"]
+			26 -> 9 [label="огранич"]
+			26 -> 10 [label="аналит"]
+			26 -> 11 [label="обст"]
+			26 -> 22 [label="предик"]
+			26 -> 23 [label="_1_компл"]
+			26 -> 24 [label="обст"]
+			26 -> 27 [label="суб_копр"]
+			26 -> 28 [label="обст"]
+			12 -> 14 [label="эксплет"]
+}

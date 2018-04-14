@@ -1,0 +1,27 @@
+digraph SENTENCE_389 {
+	graph [label="Фильм наглядно показывает мысли, поступки и желания людей."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наглядно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поступки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="желания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="разъяснит"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="квазиагент"]
+			5 -> 6 [label="сочин"]
+}

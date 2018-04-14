@@ -1,0 +1,63 @@
+digraph SENTENCE_1209 {
+	graph [label="Делегация Ингушетии во главе с руководителем региона Евкуровым в начале февраля посетила Доху для участия в Днях республики в Катаре."]
+	node [style=filled]
+		0 [label="Делегация
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Ингушетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="руководителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Евкуровым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="посетила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Доху
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="участия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Днях
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Катаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 18 [label="атриб"]
+			13 -> 14 [label="предл"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			9 -> 10 [label="квазиагент"]
+			11 -> 12 [label="предик"]
+			12 -> 13 [label="атриб"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="сочин"]
+			2 -> 11 [label="вводн"]
+			4 -> 5 [label="предл"]
+			4 -> 8 [label="сочин"]
+			15 -> 16 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+			14 -> 15 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+}

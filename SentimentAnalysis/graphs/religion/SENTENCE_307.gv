@@ -1,0 +1,84 @@
+digraph SENTENCE_307 {
+	graph [label="В начале февраля президент Польши Анджей Дуда подписал закон, который вводит уголовную ответственность за пропаганду бандеровской идеологии и обвинения польского народа в причастности к Холокосту и пособничестве нацистам."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Польши
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Анджей Дуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="подписал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="закон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уголовную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ответственность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пропаганду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бандеровской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="идеологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="польского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="народа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="причастности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Холокосту
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="пособничестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="нацистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="_1_компл"]
+			14 -> 17 [label="сочин"]
+			6 -> 3 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			17 -> 18 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="аппоз"]
+			22 -> 23 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			26 -> 27 [label="аппоз"]
+			7 -> 10 [label="релят"]
+			21 -> 22 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			24 -> 25 [label="сочин"]
+			25 -> 26 [label="соч_союзн"]
+			23 -> 24 [label="предл"]
+			18 -> 20 [label="квазиагент"]
+			18 -> 21 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+}

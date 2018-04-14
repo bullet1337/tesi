@@ -1,0 +1,54 @@
+digraph SENTENCE_1695 {
+	graph [label="Я очень хорошо понимаю его резкое высказывание по поводу закона Димы Яковлева… Как можно относиться к этому сдержанно?"]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="резкое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="высказывание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поводу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="закона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Димы Яковлева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Как
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="относиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сдержанно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="_2_компл"]
+			9 -> 10 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 13 [label="сент_соч"]
+			6 -> 4 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			6 -> 9 [label="предик"]
+			2 -> 1 [label="огранич"]
+			7 -> 8 [label="предл"]
+			15 -> 16 [label="предл"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предик"]
+}

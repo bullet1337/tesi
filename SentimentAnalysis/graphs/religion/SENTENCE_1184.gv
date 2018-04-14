@@ -1,0 +1,24 @@
+digraph SENTENCE_1184 {
+	graph [label="\"Такая работа заслуживает глубокого уважения\", — добавил премьер-министр."]
+	node [style=filled]
+		1 [label="Такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заслуживает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глубокого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уважения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="премьер-министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 9 [label="вводн"]
+			9 -> 10 [label="предик"]
+			2 -> 1 [label="опред"]
+}

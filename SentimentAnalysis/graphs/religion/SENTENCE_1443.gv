@@ -1,0 +1,66 @@
+digraph SENTENCE_1443 {
+	graph [label="Папа Римский Франциск соболезнует в связи с массовым убийством в американской школе, выразив надежду на то, что \"бессмысленные акты насилия прекратятся\"."]
+	node [style=filled]
+		0 [label="Папа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Римский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Франциск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="соболезнует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="массовым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="убийством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="американской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выразив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="надежду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="бессмысленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="акты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="насилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="прекратятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 21 [label="_1_компл"]
+			23 -> 22 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 13 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			9 -> 11 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			14 -> 15 [label="_1_компл"]
+			21 -> 20 [label="опред"]
+			18 -> 23 [label="подч_союзн"]
+			0 -> 1 [label="опред"]
+			0 -> 2 [label="аппоз"]
+			16 -> 18 [label="эксплет"]
+			11 -> 10 [label="опред"]
+			15 -> 16 [label="предл"]
+}

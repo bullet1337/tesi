@@ -1,0 +1,24 @@
+digraph SENTENCE_3822 {
+	graph [label="Смесь классики и современной музыки очень хороша."]
+	node [style=filled]
+		0 [label="Смесь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="классики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хороша
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="соч_союзн"]
+			0 -> 1 [label="аппоз"]
+			0 -> 2 [label="сочин"]
+			4 -> 3 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="огранич"]
+}

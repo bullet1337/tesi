@@ -1,0 +1,18 @@
+digraph SENTENCE_4975 {
+	graph [label="Лучшая сцена в фильме, пожалуй."]
+	node [style=filled]
+		0 [label="Лучшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			5 -> 1 [label="предик"]
+}

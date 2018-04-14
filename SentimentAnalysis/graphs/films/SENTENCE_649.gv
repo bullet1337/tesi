@@ -1,0 +1,30 @@
+digraph SENTENCE_649 {
+	graph [label="Да, правильно люди говорят — знают двое, знает и свинья."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="правильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="двое
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свинья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			6 -> 9 [label="_1_компл"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			11 -> 10 [label="огранич"]
+}

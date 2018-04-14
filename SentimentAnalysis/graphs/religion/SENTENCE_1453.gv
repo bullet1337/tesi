@@ -1,0 +1,84 @@
+digraph SENTENCE_1453 {
+	graph [label="Христианские конфессии, управляющие иерусалимским Храмом гроба Господня, в воскресенье закрыли святыню в знак протеста против планов городских властей взимать с них муниципальный налог, объявило братство Святого Гроба."]
+	node [style=filled]
+		0 [label="Христианские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конфессии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="управляющие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иерусалимским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Храмом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="гроба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="закрыли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="святыню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="знак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="протеста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="планов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="городских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="властей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="взимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="муниципальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="налог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="объявило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="братство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Святого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="Гроба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			20 -> 21 [label="_2_компл"]
+			20 -> 24 [label="_1_компл"]
+			17 -> 19 [label="квазиагент"]
+			17 -> 20 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			16 -> 17 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="об_аппоз"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			3 -> 5 [label="сочин"]
+			11 -> 1 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			11 -> 26 [label="сочин"]
+			14 -> 15 [label="квазиагент"]
+			24 -> 23 [label="опред"]
+			19 -> 18 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			6 -> 7 [label="аппоз"]
+			26 -> 27 [label="_1_компл"]
+			26 -> 29 [label="предик"]
+			21 -> 22 [label="предл"]
+			29 -> 28 [label="опред"]
+}

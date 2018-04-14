@@ -1,0 +1,51 @@
+digraph SENTENCE_4120 {
+	graph [label="Что же должно в нем присутствовать, каким необычным наполнением он обязан обладать, дабы заслужить дядюшку Оскара?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="присутствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="необычным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наполнением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обязан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обладать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дабы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заслужить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дядюшку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Оскара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			15 -> 16 [label="_1_компл"]
+			14 -> 15 [label="инф_союзн"]
+			3 -> 4 [label="предл"]
+			16 -> 17 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 9 [label="обст"]
+			2 -> 11 [label="разъяснит"]
+			12 -> 14 [label="обст"]
+			5 -> 3 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1246 {
+	graph [label="Антон Васильев дал своему протеже полезный совет — продолжать упорно работать и ничего не бояться."]
+	node [style=filled]
+		0 [label="Антон Васильев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="дал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="протеже
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полезный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="совет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="продолжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="упорно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бояться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			9 -> 8 [label="обст"]
+			9 -> 13 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 9 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 7 [label="сочин"]
+			3 -> 2 [label="опред"]
+			11 -> 10 [label="огранич"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+}

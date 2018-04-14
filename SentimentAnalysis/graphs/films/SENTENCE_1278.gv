@@ -1,0 +1,15 @@
+digraph SENTENCE_1278 {
+	graph [label="Смотреть это кино необходимо."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="необходимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			0 -> 2 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_4348 {
+	graph [label="«Ты какой-то странный»  Данную картину я посмотрел спустя неделю после Оскара."]
+	node [style=filled]
+		1 [label="Ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="странный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Данную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="неделю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Оскара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="атриб"]
+			11 -> 12 [label="предл"]
+			6 -> 1 [label="предик"]
+			6 -> 2 [label="опред"]
+			6 -> 3 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сент_соч"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+}

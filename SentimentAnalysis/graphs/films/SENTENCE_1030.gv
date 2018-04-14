@@ -1,0 +1,31 @@
+digraph SENTENCE_1030 {
+	graph [label="Он — Гений с большой буквы, и добавить к этому нечего."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гений
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="буквы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="добавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			11 -> 8 [label="предик"]
+			9 -> 10 [label="предл"]
+			7 -> 11 [label="соч_союзн"]
+}

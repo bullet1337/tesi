@@ -1,0 +1,45 @@
+digraph SENTENCE_1117 {
+	graph [label="Он действительно очень любил дочь, он действительно при всех сложностях был очень трепетным папой."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дочь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сложностях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="трепетным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="папой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 11 [label="разъяснит"]
+			13 -> 12 [label="огранич"]
+			8 -> 10 [label="предл"]
+			11 -> 6 [label="предик"]
+			11 -> 7 [label="вводн"]
+			11 -> 8 [label="обст"]
+			11 -> 14 [label="присвяз"]
+			14 -> 13 [label="опред"]
+}

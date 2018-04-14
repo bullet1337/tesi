@@ -1,0 +1,42 @@
+digraph SENTENCE_75 {
+	graph [label="Забавная штука — полицейский плюёт на закон и даже не может совладать с собой."]
+	node [style=filled]
+		0 [label="Забавная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="штука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полицейский
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="плюёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="закон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="совладать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 7 [label="сочин"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="релят"]
+			12 -> 13 [label="предл"]
+			7 -> 10 [label="соч_союзн"]
+			5 -> 6 [label="предл"]
+			11 -> 12 [label="обст"]
+}

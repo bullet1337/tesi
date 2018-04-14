@@ -1,0 +1,45 @@
+digraph SENTENCE_92 {
+	graph [label="По его словам, в последние годы российские Вооруженные силы России приобрели новую динамику развития."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Вооруженные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="силы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="приобрели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="новую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="динамику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			11 -> 0 [label="вводн"]
+			11 -> 4 [label="обст"]
+			11 -> 9 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+}

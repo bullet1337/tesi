@@ -1,0 +1,36 @@
+digraph SENTENCE_3701 {
+	graph [label="Та ложь, о которой я хочу высказаться, «ложь лжей», касается персонажа Анатолия Тарасова."]
+	node [style=filled]
+		0 [label="Та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ложь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="высказаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ложь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лжей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="касается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="персонажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Анатолия Тарасова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 15 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			7 -> 10 [label="_1_компл"]
+			15 -> 16 [label="квазиагент"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_315 {
+	graph [label="Она танцует, поёт, она витает, она блаженная, она не такая и мы видим на сколько она лучше людей вокруг, общества вокруг неё."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="танцует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="витает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="блаженная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="видим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="соч_союзн"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сент_соч"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 25 [label="обст"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="сравнит"]
+			9 -> 8 [label="предик"]
+			9 -> 13 [label="сент_соч"]
+			3 -> 6 [label="сент_соч"]
+			17 -> 18 [label="предл"]
+			25 -> 26 [label="предл"]
+			18 -> 20 [label="релят"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="сент_соч"]
+			22 -> 24 [label="предл"]
+			21 -> 22 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сочин"]
+}

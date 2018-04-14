@@ -1,0 +1,45 @@
+digraph SENTENCE_1221 {
+	graph [label="При этом Гаджиев отметил, что артисты самостоятельно готовят и закрепляют свое снаряжение перед выступлением."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гаджиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="артисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самостоятельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="готовят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="закрепляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="снаряжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выступлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			5 -> 8 [label="подч_союзн"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="опред"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="обст"]
+}

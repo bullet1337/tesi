@@ -1,0 +1,57 @@
+digraph SENTENCE_931 {
+	graph [label="Когда ты любишь то, что ты делаешь, лучше не прибегать к сравнению, так как это может сильно расстроить."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="делаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прибегать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сравнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="расстроить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="сравн_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 11 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="обст"]
+			3 -> 7 [label="релят"]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			20 -> 19 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_2_компл"]
+			15 -> 16 [label="эксплет"]
+			0 -> 2 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+}

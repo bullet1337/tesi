@@ -1,0 +1,40 @@
+digraph SENTENCE_344 {
+	graph [label="Виной и предательством соседа, заставляющими ненавидеть, мучаться, но прощать, как это делает Сельма."]
+	node [style=filled]
+		0 [label="Виной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предательством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="соседа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заставляющими
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ненавидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мучаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прощать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 11 [label="_1_компл"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 6 [label="_2_компл"]
+			6 -> 8 [label="_1_компл"]
+			3 -> 5 [label="опред"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+}

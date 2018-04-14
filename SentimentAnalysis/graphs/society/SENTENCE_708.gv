@@ -1,0 +1,27 @@
+digraph SENTENCE_708 {
+	graph [label="Площадь, охваченная сетью фотомониторинга, составляет 360 тысяч гектаров."]
+	node [style=filled]
+		0 [label="Площадь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="охваченная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сетью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фотомониторинга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="360
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гектаров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="квазиагент"]
+			2 -> 3 [label="_2_компл"]
+			3 -> 4 [label="квазиагент"]
+}

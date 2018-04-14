@@ -1,0 +1,36 @@
+digraph SENTENCE_462 {
+	graph [label="Суворовцы вместе преодолевают внутренние конфликты, привыкают к самостоятельности и жесткой дисциплине."]
+	node [style=filled]
+		0 [label="Суворовцы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="преодолевают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="внутренние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конфликты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="привыкают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самостоятельности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жесткой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дисциплине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="сочин"]
+			8 -> 9 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_585 {
+	graph [label="Ветер в столице в пятницу — северо-западный 1-6 метров в секунду."]
+	node [style=filled]
+		0 [label="Ветер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="северо-западный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="секунду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 3 [label="огранич"]
+			6 -> 10 [label="разъяснит"]
+			1 -> 2 [label="предл"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="предл"]
+			7 -> 9 [label="кратн"]
+			11 -> 12 [label="предл"]
+			10 -> 7 [label="количест"]
+			10 -> 11 [label="распред"]
+}

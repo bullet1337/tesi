@@ -1,0 +1,51 @@
+digraph SENTENCE_4455 {
+	graph [label="Всё это мельтешение разбивает и без того дырявый сюжет на множество непоследовательных и мало связанных сцен."]
+	node [style=filled]
+		0 [label="Всё
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мельтешение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разбивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дырявый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="непоследовательных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мало
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="связанных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="сочин"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="сент_соч"]
+			5 -> 6 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			4 -> 15 [label="соч_союзн"]
+			15 -> 5 [label="обст"]
+			15 -> 8 [label="предик"]
+			15 -> 14 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+}

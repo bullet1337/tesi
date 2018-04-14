@@ -1,0 +1,54 @@
+digraph SENTENCE_1429 {
+	graph [label="По ее словам, создателям картины было важно поймать парадокс того времени с его жизнью в коммунальных квартирах."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создателям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поймать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="парадокс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коммунальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="квартирах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="вводн"]
+			7 -> 4 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			14 -> 13 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="аппоз"]
+			12 -> 14 [label="предл"]
+			15 -> 12 [label="вводн"]
+			15 -> 17 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 15 [label="обст"]
+}

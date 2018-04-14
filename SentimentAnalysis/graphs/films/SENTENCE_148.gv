@@ -1,0 +1,27 @@
+digraph SENTENCE_148 {
+	graph [label="Фильм об истинной любви матери к своему ребёнку."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="истинной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ребёнку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="_1_компл"]
+			1 -> 3 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1222 {
+	graph [label="Всё-таки я пишу скорее не рецензию, а отзыв — категорически хвалебный."]
+	node [style=filled]
+		0 [label="Всё-таки
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пишу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рецензию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отзыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="категорически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хвалебный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			7 -> 11 [label="соч_союзн"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="огранич"]
+}

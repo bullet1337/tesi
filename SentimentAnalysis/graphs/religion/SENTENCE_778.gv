@@ -1,0 +1,33 @@
+digraph SENTENCE_778 {
+	graph [label="\"И РПЦ, и Сербская православная церковь проходят испытание на прочность."]
+	node [style=filled]
+		1 [label="И
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сербская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="испытание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прочность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 8 [label="соч_союзн"]
+			8 -> 2 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			10 -> 11 [label="предл"]
+			2 -> 4 [label="сочин"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			4 -> 7 [label="соч_союзн"]
+}

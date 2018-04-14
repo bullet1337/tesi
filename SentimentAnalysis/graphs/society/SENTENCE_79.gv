@@ -1,0 +1,66 @@
+digraph SENTENCE_79 {
+	graph [label="Южный военный округ удостоен ордена Суворова, авианесущий крейсер \"Адмирал флота Советского Союза Кузнецов\" — ордена Ушакова, а гвардейский ракетный крейсер \"Варяг\" — ордена Нахимова."]
+	node [style=filled]
+		0 [label="Южный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="военный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="округ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="удостоен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ордена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Суворова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="авианесущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крейсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Адмирал
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="флота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Советского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Союза Кузнецов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="ордена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Ушакова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="гвардейский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ракетный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="крейсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Варяг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="ордена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Нахимова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 12 [label="опред"]
+			13 -> 16 [label="сочин"]
+			24 -> 27 [label="_1_компл"]
+			27 -> 28 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+			10 -> 11 [label="атриб"]
+			10 -> 13 [label="сочин"]
+			16 -> 17 [label="сочин"]
+			17 -> 19 [label="сочин"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			22 -> 20 [label="опред"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="ном_аппоз"]
+			19 -> 22 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 5 [label="вводн"]
+			3 -> 8 [label="разъяснит"]
+}

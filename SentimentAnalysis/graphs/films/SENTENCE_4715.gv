@@ -1,0 +1,54 @@
+digraph SENTENCE_4715 {
+	graph [label="Для меня стало полным шоком, когда впоследствии я узнал, что его невзлюбили критики, я считаю это несправедливо."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="шоком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="впоследствии
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="узнал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="невзлюбили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="критики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="несправедливо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="подч_союзн"]
+			0 -> 1 [label="предл"]
+			11 -> 13 [label="подч_союзн"]
+			13 -> 12 [label="_1_компл"]
+			13 -> 14 [label="предик"]
+			14 -> 17 [label="релят"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="присвяз"]
+			2 -> 6 [label="обст"]
+			2 -> 19 [label="присвяз"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+}

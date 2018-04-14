@@ -1,0 +1,33 @@
+digraph SENTENCE_17 {
+	graph [label="Атмосферное давление останется высоким и составит 754 миллиметра ртутного столба."]
+	node [style=filled]
+		0 [label="Атмосферное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="давление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высоким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="составит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="754
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="миллиметра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ртутного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="столба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 4 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			7 -> 6 [label="количест"]
+			7 -> 9 [label="атриб"]
+			9 -> 8 [label="опред"]
+}

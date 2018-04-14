@@ -1,0 +1,30 @@
+digraph SENTENCE_411 {
+	graph [label="Не случайно героиня говорит — «Здесь не на что смотреть»."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="случайно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Здесь
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 8 [label="_3_компл"]
+			3 -> 10 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+}

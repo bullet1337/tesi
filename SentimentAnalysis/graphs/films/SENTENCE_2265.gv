@@ -1,0 +1,66 @@
+digraph SENTENCE_2265 {
+	graph [label="Я разделяю точку зрения Джеффа, который справедливо отметил что было бы странно, если бы он прямо сейчас начал петь и танцевать."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="разделяю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="точку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Джеффа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="справедливо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="прямо
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="танцевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 19 [label="подч_союзн"]
+			9 -> 10 [label="подч_союзн"]
+			21 -> 22 [label="соч_союзн"]
+			3 -> 4 [label="квазиагент"]
+			18 -> 17 [label="огранич"]
+			10 -> 11 [label="аналит"]
+			10 -> 12 [label="присвяз"]
+			10 -> 14 [label="обст"]
+			2 -> 3
+			19 -> 15 [label="аналит"]
+			19 -> 16 [label="предик"]
+			19 -> 18 [label="обст"]
+			19 -> 20 [label="_1_компл"]
+			20 -> 21 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="сент_соч"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+}

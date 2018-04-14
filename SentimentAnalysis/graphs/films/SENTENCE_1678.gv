@@ -1,0 +1,36 @@
+digraph SENTENCE_1678 {
+	graph [label="Только слезы стекают по лицу и тебя все еще немного трусит."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стекают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трусит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="сент_соч"]
+			10 -> 6 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			5 -> 10 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			8 -> 7 [label="огранич"]
+}

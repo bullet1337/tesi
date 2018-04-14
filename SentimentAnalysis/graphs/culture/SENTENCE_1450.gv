@@ -1,0 +1,39 @@
+digraph SENTENCE_1450 {
+	graph [label="Новый фильм Тимура Бекмамбетова, снятый в Великобритании и США, попал в программу \"Панорама\"."]
+	node [style=filled]
+		0 [label="Новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Тимура Бекмамбетова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="снятый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Великобритании
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="попал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Панорама
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			10 -> 1 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			7 -> 8 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			1 -> 4 [label="опред"]
+			12 -> 14 [label="аппоз"]
+			4 -> 5 [label="обст"]
+			11 -> 12 [label="предл"]
+			6 -> 7 [label="сочин"]
+}

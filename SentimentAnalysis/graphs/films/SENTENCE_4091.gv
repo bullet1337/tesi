@@ -1,0 +1,49 @@
+digraph SENTENCE_4091 {
+	graph [label="2 из 10
+Как же мне было радостно, что пресловутый «Бла-бла Лэнд» не получил главного Оскара!"]
+	node [style=filled]
+		0 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Как
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="радостно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пресловутый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Бла-бла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Лэнд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Оскара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 16 [label="подч_союзн"]
+			1 -> 2 [label="предл"]
+			12 -> 10 [label="опред"]
+			16 -> 12 [label="_1_компл"]
+			16 -> 13 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			6 -> 9 [label="предик"]
+			3 -> 4 [label="огранич"]
+			18 -> 17 [label="опред"]
+			0 -> 1 [label="электив"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_2022 {
+	graph [label="Алексей не мог простить отцу, что он оставил мать."]
+	node [style=filled]
+		0 [label="Алексей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="простить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отцу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			6 -> 8 [label="подч_союзн"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+}

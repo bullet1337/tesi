@@ -1,0 +1,76 @@
+digraph SENTENCE_3700 {
+	graph [label="И о цветных складных пластиковых сидениях на трибунах крытой арены Олимпиады в Саппоро того же года, которых там, судя по всему, нет до сих пор."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="цветных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="складных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пластиковых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сидениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трибунах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крытой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="арены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Олимпиады
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Саппоро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="там
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="судя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="_2_компл"]
+			15 -> 13 [label="опред"]
+			13 -> 14 [label="огранич"]
+			21 -> 22 [label="предл"]
+			24 -> 17 [label="предик"]
+			24 -> 18 [label="обст"]
+			24 -> 20 [label="предик"]
+			24 -> 25 [label="обст"]
+			12 -> 15 [label="атриб"]
+			25 -> 27 [label="предл"]
+			5 -> 2 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="атриб"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 24 [label="разъяснит"]
+			27 -> 26 [label="опред"]
+			1 -> 5 [label="предл"]
+			1 -> 6 [label="сочин"]
+			6 -> 7 [label="предл"]
+}

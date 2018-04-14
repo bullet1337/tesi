@@ -1,0 +1,33 @@
+digraph SENTENCE_619 {
+	graph [label="Судьбы подмененных в роддоме женщин сложились совершенно по-разному, говорит Саввин."]
+	node [style=filled]
+		0 [label="Судьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подмененных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роддоме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сложились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по-разному
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Саввин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="опред"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="обст"]
+			5 -> 9 [label="вводн"]
+			1 -> 2 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			7 -> 6 [label="огранич"]
+			9 -> 10 [label="предик"]
+}

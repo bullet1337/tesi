@@ -1,0 +1,42 @@
+digraph SENTENCE_1073 {
+	graph [label="И открывающийся перед нами период Великого поста помогает нам в этом\", — говорит архиерей."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="открывающийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="помогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="архиерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			0 -> 7 [label="соч_союзн"]
+			14 -> 9 [label="обст"]
+			14 -> 15 [label="предик"]
+			2 -> 3 [label="предл"]
+			1 -> 2 [label="обст"]
+			6 -> 5 [label="опред"]
+			9 -> 10 [label="предл"]
+			7 -> 4 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 14 [label="_2_компл"]
+}

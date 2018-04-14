@@ -1,0 +1,57 @@
+digraph SENTENCE_4785 {
+	graph [label="Все в вагоне сидят спокойно, ни чего не произошло, «-А ну подумаешь, сына потеряли, с кем не бывает!"]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вагоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сидят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подумаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="потеряли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="кем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 13 [label="разъяснит"]
+			1 -> 2 [label="предл"]
+			4 -> 6 [label="сочин"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			15 -> 14 [label="вводн"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 18 [label="сочин"]
+			18 -> 23 [label="_1_компл"]
+			20 -> 21 [label="предл"]
+			6 -> 9 [label="соч_союзн"]
+			23 -> 20 [label="обст"]
+			23 -> 22 [label="огранич"]
+			13 -> 15 [label="соч_союзн"]
+}

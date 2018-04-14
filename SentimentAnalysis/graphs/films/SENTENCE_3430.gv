@@ -1,0 +1,24 @@
+digraph SENTENCE_3430 {
+	graph [label="Вообще не понимаю истерии вокруг этого фильма."]
+	node [style=filled]
+		0 [label="Вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="истерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			3 -> 4 [label="атриб"]
+}

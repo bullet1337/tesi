@@ -1,0 +1,57 @@
+digraph SENTENCE_459 {
+	graph [label="Мешать работе будет, если он пошел на стажировку, он не будет работать на своем рабочем месте\", — сказал Шмаков."]
+	node [style=filled]
+		0 [label="Мешать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стажировку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рабочем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Шмаков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="обст"]
+			4 -> 6 [label="подч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="обст"]
+			2 -> 12 [label="сент_соч"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			0 -> 1 [label="_1_компл"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			7 -> 8 [label="предл"]
+			21 -> 22 [label="предик"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="аналит"]
+			12 -> 21 [label="сент_соч"]
+			14 -> 17 [label="предл"]
+}

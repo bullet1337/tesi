@@ -1,0 +1,54 @@
+digraph SENTENCE_375 {
+	graph [label="Со стороны Крыма — 45 легковых автомобилей, 9 автобусов и 150 грузовых и малотоннажных транспортных средств\", — сказала Дятловская."]
+	node [style=filled]
+		0 [label="Со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="45
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="легковых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="автомобилей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="автобусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="150
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="грузовых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="малотоннажных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="транспортных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="средств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Дятловская
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="сочин"]
+			20 -> 21 [label="предик"]
+			1 -> 2 [label="квазиагент"]
+			13 -> 14 [label="соч_союзн"]
+			10 -> 16 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="количест"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="сочин"]
+			6 -> 20 [label="вводн"]
+			16 -> 11 [label="количест"]
+			16 -> 12 [label="опред"]
+			16 -> 15 [label="опред"]
+			0 -> 1 [label="предл"]
+}

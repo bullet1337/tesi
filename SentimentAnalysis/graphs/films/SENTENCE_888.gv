@@ -1,0 +1,63 @@
+digraph SENTENCE_888 {
+	graph [label="Хочется сказать о том, на что многие не обратили внимание, но что мне кажется крайне важным для понимания этого фильма."]
+	node [style=filled]
+		0 [label="Хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обратили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="крайне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="важным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="понимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 21 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="_2_компл"]
+			15 -> 17 [label="_1_компл"]
+			1 -> 2 [label="_3_компл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			9 -> 5 [label="_2_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			2 -> 3 [label="предл"]
+			3 -> 9 [label="релят"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 12 [label="сент_соч"]
+			21 -> 20 [label="опред"]
+			12 -> 15 [label="соч_союзн"]
+}

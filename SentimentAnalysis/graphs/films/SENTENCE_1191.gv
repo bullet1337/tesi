@@ -1,0 +1,42 @@
+digraph SENTENCE_1191 {
+	graph [label="И даже после столь неполноценного просмотра этот фильм стал одним из моих любимых."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="столь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неполноценного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="моих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="любимых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			8 -> 2 [label="обст"]
+			8 -> 9 [label="присвяз"]
+			12 -> 11 [label="опред"]
+			4 -> 3 [label="огранич"]
+			10 -> 12 [label="предл"]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="предл"]
+			7 -> 6 [label="опред"]
+			0 -> 8 [label="соч_союзн"]
+			9 -> 10 [label="электив"]
+}

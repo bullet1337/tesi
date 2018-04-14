@@ -1,0 +1,48 @@
+digraph SENTENCE_1201 {
+	graph [label="Отмечается, что медучреждения готовы оказывать бездомным экстренную помощь, однако с амбулаторной помощью все гораздо сложнее."]
+	node [style=filled]
+		0 [label="Отмечается
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="медучреждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="готовы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оказывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бездомным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="экстренную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="амбулаторной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="помощью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сложнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="_1_компл"]
+			5 -> 16 [label="_2_компл"]
+			2 -> 4 [label="подч_союзн"]
+			14 -> 11 [label="вводн"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			16 -> 10 [label="огранич"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="колич_огран"]
+			11 -> 13 [label="предл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			0 -> 2 [label="предик"]
+}

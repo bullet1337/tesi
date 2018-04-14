@@ -1,0 +1,36 @@
+digraph SENTENCE_1164 {
+	graph [label="В ответ на это российский политолог Руслан Осташко устроил с ним драку."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ответ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="политолог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Руслан Осташко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="устроил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="драку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			1 -> 2 [label="_3_компл"]
+			0 -> 1 [label="предл"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="предик"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			5 -> 7 [label="вводн"]
+			2 -> 3 [label="предл"]
+}

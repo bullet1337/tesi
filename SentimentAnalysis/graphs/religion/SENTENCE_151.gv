@@ -1,0 +1,63 @@
+digraph SENTENCE_151 {
+	graph [label="\"Жизнь показала — люди все больше убеждаются в том, что любой район Москвы в целом от соседства с храмами только выигрывает."]
+	node [style=filled]
+		1 [label="Жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="убеждаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="любой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="район
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="соседства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="храмами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="выигрывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			13 -> 17 [label="об_аппоз"]
+			9 -> 11 [label="эксплет"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="сочин"]
+			7 -> 8 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			4 -> 6 [label="атриб"]
+			19 -> 20 [label="предл"]
+			11 -> 22 [label="подч_союзн"]
+			17 -> 15 [label="огранич"]
+			17 -> 18 [label="предл"]
+			6 -> 5 [label="огранич"]
+			22 -> 13 [label="_1_компл"]
+			22 -> 21 [label="огранич"]
+			18 -> 19 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+}

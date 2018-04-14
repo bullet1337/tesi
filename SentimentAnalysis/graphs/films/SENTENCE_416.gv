@@ -1,0 +1,59 @@
+digraph SENTENCE_416 {
+	graph [label="Но одновременно он показывает и итог подобных путешествий — людей, блуждающих в себе, сомневающихся, зависящих и не знающих куда им идти."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одновременно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="итог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="путешествий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="блуждающих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сомневающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="зависящих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="знающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="куда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="идти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="квазиагент"]
+			23 -> 21 [label="_2_компл"]
+			23 -> 22 [label="дат_субъект"]
+			17 -> 20 [label="опред"]
+			20 -> 18 [label="огранич"]
+			20 -> 19 [label="огранич"]
+			20 -> 23 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+			12 -> 13 [label="предл"]
+}

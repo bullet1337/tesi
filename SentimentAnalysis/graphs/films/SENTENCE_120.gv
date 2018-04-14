@@ -1,0 +1,45 @@
+digraph SENTENCE_120 {
+	graph [label="Немногие фильмы могут по-настоящему заставить задуматься над своей жизнью, над ценностями и возможностями человека."]
+	node [style=filled]
+		0 [label="Немногие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ценностями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="возможностями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="обст"]
+			6 -> 8 [label="предл"]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="предл"]
+			8 -> 7 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			12 -> 13 [label="соч_союзн"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+}

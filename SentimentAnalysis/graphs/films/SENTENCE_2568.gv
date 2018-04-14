@@ -1,0 +1,57 @@
+digraph SENTENCE_2568 {
+	graph [label="Минут 20 от общего хронометража придется полетать с режиссером по развалинам Сан-Диего, Вегаса и каменным джунглям эл эй."]
+	node [style=filled]
+		0 [label="Минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хронометража
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="придется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полетать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="развалинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сан-Диего
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Вегаса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="каменным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="джунглям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="эл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="эй
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			14 -> 16 [label="соч_союзн"]
+			17 -> 9 [label="вводн"]
+			17 -> 18 [label="вводн"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			5 -> 17 [label="разъяснит"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			7 -> 8 [label="предл"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="предл"]
+			11 -> 13 [label="аппоз"]
+			11 -> 14 [label="сочин"]
+			0 -> 1 [label="аппрокс_колич"]
+			0 -> 2 [label="атриб"]
+			10 -> 11 [label="_1_компл"]
+}

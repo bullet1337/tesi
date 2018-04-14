@@ -1,0 +1,51 @@
+digraph SENTENCE_812 {
+	graph [label="Как уточнил парламентарий, запрос был направлен в понедельник, а предложение носит не запретительный, а рекомендательный характер."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уточнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="парламентарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="направлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предложение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="носит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="запретительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рекомендательный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="соч_союзн"]
+			18 -> 14 [label="опред"]
+			2 -> 4 [label="аппоз"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 6
+			5 -> 10 [label="сент_соч"]
+			6 -> 7 [label="обст"]
+			0 -> 1 [label="сравн_союзн"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="сочин"]
+			7 -> 8 [label="предл"]
+			12 -> 11 [label="предик"]
+			12 -> 18 [label="_1_компл"]
+			16 -> 17 [label="соч_союзн"]
+}

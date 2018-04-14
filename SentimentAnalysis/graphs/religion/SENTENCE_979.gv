@@ -1,0 +1,63 @@
+digraph SENTENCE_979 {
+	graph [label="\"Эта греческая надпись представляет собой, скорее всего, акростих строки из псалма или из какой-то молитвы, прославляющей Божию Матерь\", — предполагает Левон Нерсесян."]
+	node [style=filled]
+		1 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="греческая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="надпись
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="акростих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="строки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="псалма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="молитвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="прославляющей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Божию
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Матерь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="предполагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Левон Нерсесян
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="атриб"]
+			21 -> 20 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			10 -> 7 [label="вводн"]
+			10 -> 11 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="опред"]
+			7 -> 8 [label="сравнит"]
+			14 -> 15 [label="соч_союзн"]
+			15 -> 17 [label="предл"]
+			4 -> 3 [label="предик"]
+			4 -> 5
+			4 -> 10 [label="_1_компл"]
+			4 -> 25 [label="вводн"]
+			12 -> 13 [label="предл"]
+			12 -> 14 [label="сочин"]
+			25 -> 26 [label="предик"]
+			19 -> 21 [label="_1_компл"]
+}

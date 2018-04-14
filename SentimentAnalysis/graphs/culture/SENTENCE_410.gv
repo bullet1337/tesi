@@ -1,0 +1,87 @@
+digraph SENTENCE_410 {
+	graph [label="В конце своего выступления Гуф прочитал несколько строчек на английском, посмеявшись над тем, что Птаха не знает иностранных языков и не сможет купить себе газированной воды за границей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="прочитал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="строчек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="английском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="посмеявшись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="иностранных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="языков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сможет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="купить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="газированной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="границей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="атриб"]
+			15 -> 18 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+			21 -> 23 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			18 -> 20 [label="_1_компл"]
+			18 -> 21 [label="сочин"]
+			1 -> 3 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			24 -> 25 [label="неакт_компл"]
+			24 -> 27 [label="_1_компл"]
+			24 -> 28 [label="обст"]
+			27 -> 26 [label="опред"]
+			20 -> 19 [label="опред"]
+			13 -> 15 [label="эксплет"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 11 [label="обст"]
+			0 -> 1 [label="предл"]
+			28 -> 29 [label="предл"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="_1_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_4073 {
+	graph [label="И проблем у этого самого Широна — выше крыши."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проблем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Широна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крыши
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 1 [label="предик"]
+			7 -> 2 [label="обст"]
+			7 -> 8 [label="разъяснит"]
+			0 -> 7 [label="соч_союзн"]
+			5 -> 3 [label="опред"]
+			3 -> 4 [label="опред"]
+			2 -> 5 [label="предл"]
+}

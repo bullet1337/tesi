@@ -1,0 +1,42 @@
+digraph SENTENCE_1396 {
+	graph [label="В Америке \"Смешариков\" называют \"Кикорики\", а в Китае их знают как \"Кай-Син-Чиу\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Смешариков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="называют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Кикорики
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Китае
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Кай-Син
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Чиу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 10 [label="сент_соч"]
+			17 -> 19 [label="аппоз"]
+			15 -> 17 [label="сравн_союзн"]
+			10 -> 14 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="предл"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+}

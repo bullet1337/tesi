@@ -1,0 +1,33 @@
+digraph SENTENCE_670 {
+	graph [label="Несколько фрагментов из фильмов по произведениям писателя, также войдут постановку."]
+	node [style=filled]
+		0 [label="Несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фрагментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="произведениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="войдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="постановку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="атриб"]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="количест"]
+			1 -> 2 [label="атриб"]
+			1 -> 9 [label="релят"]
+			2 -> 3 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_392 {
+	graph [label="Special thanks to EVYOLGA, которая вдохновила меня на просмотр этого замечательного фильма."]
+	node [style=filled]
+		0 [label="Special
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="thanks
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="to
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="EVYOLGA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вдохновила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="замечательного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="аппоз"]
+			0 -> 6 [label="релят"]
+			1 -> 2 [label="аппоз"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_3_компл"]
+			8 -> 9 [label="предл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			9 -> 12 [label="_1_компл"]
+			2 -> 3 [label="аппоз"]
+}

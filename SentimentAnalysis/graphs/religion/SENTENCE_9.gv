@@ -1,0 +1,27 @@
+digraph SENTENCE_9 {
+	graph [label="Не унывает только большая группа туристов из Азии."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="унывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="туристов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Азии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="атриб"]
+			3 -> 2 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			1 -> 4 [label="предик"]
+			6 -> 7 [label="предл"]
+}

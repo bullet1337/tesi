@@ -1,0 +1,63 @@
+digraph SENTENCE_1670 {
+	graph [label="Голос Бьерк имеет какой-то особенный магнетизм, и музыкальные вставки с песнями и танцами ничуть не лишают фильм его особенной атмосферы."]
+	node [style=filled]
+		0 [label="Голос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Бьерк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="особенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="магнетизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="песнями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="танцами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ничуть
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="лишают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="особенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="атмосферы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="предик"]
+			2 -> 16 [label="разъяснит"]
+			12 -> 13 [label="соч_союзн"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			11 -> 12 [label="сочин"]
+			17 -> 20 [label="квазиагент"]
+			20 -> 18 [label="квазиагент"]
+			20 -> 19 [label="опред"]
+			15 -> 14 [label="огранич"]
+			10 -> 11 [label="предл"]
+}

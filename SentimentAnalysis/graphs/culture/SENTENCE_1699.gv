@@ -1,0 +1,36 @@
+digraph SENTENCE_1699 {
+	graph [label="Собеседник агентства подчеркнул, что Серебряков является абсолютно искренним и честным человеком."]
+	node [style=filled]
+		0 [label="Собеседник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Серебряков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="искренним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="честным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 11 [label="суб_копр"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="сочин"]
+			4 -> 6 [label="подч_союзн"]
+}

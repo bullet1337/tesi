@@ -1,0 +1,60 @@
+digraph SENTENCE_26 {
+	graph [label="Сюжет бьет по сердцу так сильно, что оно хочет просто взорваться от возмущения, сочувствия а потом и от боли."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бьет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сердцу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="взорваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="возмущения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сочувствия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="предл"]
+			7 -> 9 [label="подч_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 15 [label="_3_компл"]
+			1 -> 16 [label="сочин"]
+			5 -> 4 [label="огранич"]
+			12 -> 13 [label="предл"]
+			16 -> 19 [label="соч_союзн"]
+}

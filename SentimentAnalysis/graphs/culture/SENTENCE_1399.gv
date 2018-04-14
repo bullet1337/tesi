@@ -1,0 +1,45 @@
+digraph SENTENCE_1399 {
+	graph [label="Есть в мире преданные фанаты и у классики советской анимации — кукольных мультфильмов про Чебурашку."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="преданные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фанаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="классики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="советской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="анимации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кукольных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мультфильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Чебурашку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 11 [label="опред"]
+			0 -> 1 [label="обст"]
+			0 -> 4 [label="предик"]
+			0 -> 5 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			6 -> 7 [label="предл"]
+			9 -> 6 [label="обст"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="квазиагент"]
+			9 -> 13 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			1 -> 2 [label="предл"]
+			5 -> 9 [label="соч_союзн"]
+}

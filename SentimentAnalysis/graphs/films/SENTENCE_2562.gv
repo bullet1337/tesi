@@ -1,0 +1,27 @@
+digraph SENTENCE_2562 {
+	graph [label="Дальше все будет еще медленнее, заунывней и банальней."]
+	node [style=filled]
+		0 [label="Дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="медленнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заунывней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="банальней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			0 -> 2 [label="разъяснит"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1363 {
+	graph [label="Что могла его жена, кроме как предать ее?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="предать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 3 [label="обст_тавт"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 2 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+}

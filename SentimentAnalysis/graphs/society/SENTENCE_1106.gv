@@ -1,0 +1,83 @@
+digraph SENTENCE_1106 {
+	graph [label="За приставания и домогательства на рабочем месте нужно ввести административные штрафы, но не уголовную ответственность, считает первый зампред комитета Госдумы по госстроительству и законодательству Михаил Емельянов (\"Справедливая Россия\")."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приставания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="домогательства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рабочем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ввести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="административные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="штрафы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="уголовную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ответственность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="зампред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="комитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Госдумы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="госстроительству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="законодательству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Михаил Емельянов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="Справедливая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Россия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 9 [label="опред"]
+			2 -> 3 [label="соч_союзн"]
+			14 -> 13 [label="огранич"]
+			1 -> 2 [label="сочин"]
+			12 -> 17 [label="соч_союзн"]
+			17 -> 15 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 26 [label="аппоз"]
+			19 -> 30 [label="сочин"]
+			3 -> 4 [label="атриб"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 12 [label="сочин"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 22 [label="_2_компл"]
+			22 -> 23 [label="предл"]
+			0 -> 1 [label="предл"]
+			23 -> 24 [label="сочин"]
+			15 -> 14 [label="опред"]
+			24 -> 25 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			30 -> 29 [label="опред"]
+}

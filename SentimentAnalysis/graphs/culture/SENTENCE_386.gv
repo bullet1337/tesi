@@ -1,0 +1,45 @@
+digraph SENTENCE_386 {
+	graph [label="Рэпер рассказал, что у Гуфа есть еще один сын, о котором никто не знает."]
+	node [style=filled]
+		0 [label="Рэпер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			15 -> 11 [label="_2_компл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			9 -> 8 [label="количест"]
+			9 -> 15 [label="релят"]
+			11 -> 12 [label="предл"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 9 [label="предик"]
+}

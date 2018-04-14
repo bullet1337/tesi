@@ -1,0 +1,111 @@
+digraph SENTENCE_712 {
+	graph [label="\"В 17.00, в Неделю сыропустную — воспоминание Адамова изгнания (Прощеное воскресенье), патриарх Московский и всея Руси Кирилл совершит вечерню с чином прощения в кафедральном соборном храме Христа Спасителя в Москве\", — говорится в сообщении пресс-службы предстоятеля Русской православной церкви."]
+	node [style=filled]
+		1 [label="В
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="17.00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Неделю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сыропустную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="воспоминание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Адамова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="изгнания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="совершит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="вечерню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="чином
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="прощения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="кафедральном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="соборном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Христа Спасителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="пресс-службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="предстоятеля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		43 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 25 [label="предл"]
+			17 -> 18 [label="сочин"]
+			37 -> 32 [label="обст"]
+			37 -> 38 [label="обст"]
+			16 -> 17 [label="опред"]
+			16 -> 21 [label="аппоз"]
+			13 -> 12 [label="опред"]
+			22 -> 1 [label="_1_компл"]
+			22 -> 23 [label="предик"]
+			22 -> 24 [label="обст"]
+			22 -> 26 [label="предик"]
+			22 -> 27 [label="обст"]
+			22 -> 37 [label="вводн"]
+			22 -> 40 [label="предик"]
+			40 -> 41 [label="квазиагент"]
+			40 -> 44 [label="атриб"]
+			1 -> 2 [label="предл"]
+			1 -> 4 [label="распред"]
+			1 -> 8 [label="сочин"]
+			32 -> 33 [label="предл"]
+			20 -> 19 [label="опред"]
+			9 -> 10 [label="сочин"]
+			8 -> 6 [label="опред"]
+			8 -> 9 [label="сочин"]
+			10 -> 13 [label="_1_компл"]
+			10 -> 16 [label="сочин"]
+			18 -> 20 [label="соч_союзн"]
+			30 -> 28 [label="опред"]
+			30 -> 29 [label="опред"]
+			30 -> 31 [label="_1_компл"]
+			44 -> 42 [label="опред"]
+			44 -> 43 [label="опред"]
+			4 -> 5 [label="предл"]
+			38 -> 39 [label="предл"]
+			27 -> 30 [label="предл"]
+}

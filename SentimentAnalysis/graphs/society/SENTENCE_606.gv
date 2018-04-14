@@ -1,0 +1,42 @@
+digraph SENTENCE_606 {
+	graph [label="Через несколько дней при выписке акушеры перепутали двух девочек — дочерей Риммы Швецовой и Юлии Савельевой."]
+	node [style=filled]
+		0 [label="Через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выписке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="акушеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="перепутали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="девочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дочерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Риммы Швецовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Юлии Савельевой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="предл"]
+			0 -> 2 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			2 -> 1 [label="количест"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			8 -> 7 [label="количест"]
+			8 -> 10 [label="разъяснит"]
+}

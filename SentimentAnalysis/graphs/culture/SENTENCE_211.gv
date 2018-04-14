@@ -1,0 +1,69 @@
+digraph SENTENCE_211 {
+	graph [label="В четверг в Берлине прошла премьера полнометражного фильма \"Гофманиада\", уникального анимационного проекта студии \"Союзмультфильм\", работа над которым началась более 15 лет назад."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="прошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полнометражного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Гофманиада
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="уникального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="анимационного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Союзмультфильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="началась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="сочин"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="сочин"]
+			27 -> 24 [label="предл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			20 -> 21 [label="_1_компл"]
+			26 -> 25 [label="количест"]
+			21 -> 22 [label="предл"]
+			23 -> 27 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			17 -> 20 [label="сочин"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="предик"]
+			4 -> 23 [label="сент_соч"]
+			9 -> 14 [label="сочин"]
+			24 -> 26 [label="сравнит"]
+			7 -> 6 [label="опред"]
+}

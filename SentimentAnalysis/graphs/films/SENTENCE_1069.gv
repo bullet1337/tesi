@@ -1,0 +1,27 @@
+digraph SENTENCE_1069 {
+	graph [label="Я не понимаю тех, кто оскорбляет это кино."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оскорбляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			3 -> 6 [label="релят"]
+}

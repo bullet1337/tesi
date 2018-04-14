@@ -1,0 +1,30 @@
+digraph SENTENCE_442 {
+	graph [label="Тем не менее им дан приказ держаться до последнего."]
+	node [style=filled]
+		0 [label="Тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приказ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="держаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="последнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="сравнит"]
+}

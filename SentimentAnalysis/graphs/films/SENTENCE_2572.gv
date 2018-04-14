@@ -1,0 +1,32 @@
+digraph SENTENCE_2572 {
+	graph [label="Ни замысел Лето, ни логику его поступков постигнуть не удалось."]
+	node [style=filled]
+		0 [label="Ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="замысел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="логику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поступков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="постигнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сочин"]
+			7 -> 6 [label="квазиагент"]
+			5 -> 7 [label="квазиагент"]
+			8 -> 2 [label="_1_компл"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			4 -> 5 [label="соч_союзн"]
+}

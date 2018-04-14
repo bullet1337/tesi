@@ -1,0 +1,57 @@
+digraph SENTENCE_1954 {
+	graph [label="Родина Пушкина, Менделеева и Гагарина, претендующая на мировое лидерство и противостояние на равных с США боится… вот этих?"]
+	node [style=filled]
+		0 [label="Родина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Менделеева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гагарина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="претендующая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мировое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лидерство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="противостояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="равных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="боится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="сочин"]
+			1 -> 3 [label="сочин"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+			5 -> 7 [label="опред"]
+			5 -> 11 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			15 -> 16 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			13 -> 0 [label="предик"]
+			13 -> 14 [label="предл"]
+			13 -> 17 [label="сент_соч"]
+			20 -> 19 [label="огранич"]
+			17 -> 20 [label="_1_компл"]
+			14 -> 15 [label="_2_компл"]
+}

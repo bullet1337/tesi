@@ -1,0 +1,75 @@
+digraph SENTENCE_1041 {
+	graph [label="\"Если законодательное собрание и губернатор Кубани поддержат \"народную\" инициативу Горячего Ключа, то следующая заявка отправится в Российский организационный комитет \"Победа\", который возглавляет президент страны."]
+	node [style=filled]
+		1 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="законодательное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="собрание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кубани
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="поддержат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="народную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="инициативу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Горячего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ключа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="следующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заявка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отправится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Российский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="организационный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="комитет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Победа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="возглавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			11 -> 9 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			1 -> 7 [label="подч_союзн"]
+			1 -> 15 [label="соотнос"]
+			5 -> 6 [label="аппоз"]
+			7 -> 3 [label="предик"]
+			7 -> 11 [label="_1_компл"]
+			4 -> 5 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			18 -> 1 [label="обст"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_2_компл"]
+			18 -> 28 [label="сент_соч"]
+			28 -> 27 [label="_1_компл"]
+			28 -> 29 [label="предик"]
+			29 -> 30 [label="_1_компл"]
+			22 -> 20 [label="опред"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="примыкат"]
+			19 -> 22 [label="предл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_2135 {
+	graph [label="В «Зеркале» символизм и образность причудливо переплетаются с реальностью."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Зеркале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="символизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="образность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="причудливо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="переплетаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реальностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			7 -> 0 [label="огранич"]
+			7 -> 8 [label="сочин"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="предл"]
+			2 -> 4 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			8 -> 9 [label="_1_компл"]
+}

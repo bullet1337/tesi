@@ -1,0 +1,42 @@
+digraph SENTENCE_1254 {
+	graph [label="Аляутдинов добавил, что уже поздравил родителей Алины с ее победой на ОИ-2018."]
+	node [style=filled]
+		0 [label="Аляутдинов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="родителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Алины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="победой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ОИ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="_2_компл"]
+			6 -> 7 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			3 -> 5 [label="подч_союзн"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="квазиагент"]
+			10 -> 11 [label="_2_компл"]
+}

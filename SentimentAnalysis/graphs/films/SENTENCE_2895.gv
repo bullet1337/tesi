@@ -1,0 +1,39 @@
+digraph SENTENCE_2895 {
+	graph [label="У этой части мультфильма нет ничего хорошего, а, самое главное, нет души."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мультфильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорошего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="главное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			13 -> 11 [label="предик"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			4 -> 8 [label="сент_соч"]
+			4 -> 14 [label="предик"]
+			8 -> 13 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="опред"]
+			11 -> 10 [label="опред"]
+}

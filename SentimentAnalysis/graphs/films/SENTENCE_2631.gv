@@ -1,0 +1,39 @@
+digraph SENTENCE_2631 {
+	graph [label="Повторяющиеся громкие сигналы, призванные вызвать у зрителей тревогу, — это еще не саундтрек."]
+	node [style=filled]
+		0 [label="Повторяющиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="громкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сигналы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="призванные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вызвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тревогу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="саундтрек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_2_компл"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			2 -> 14 [label="примыкат"]
+			14 -> 11 [label="предик"]
+			14 -> 12 [label="огранич"]
+			14 -> 13 [label="огранич"]
+}

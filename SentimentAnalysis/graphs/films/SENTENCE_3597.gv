@@ -1,0 +1,27 @@
+digraph SENTENCE_3597 {
+	graph [label="Хоккей любили за красоту импровизации, творимую НАШИМИ парнями."]
+	node [style=filled]
+		0 [label="Хоккей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="любили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="красоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="импровизации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="творимую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="НАШИМИ
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="парнями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			4 -> 6 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 8 [label="агент"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,22 @@
+digraph SENTENCE_1373 {
+	graph [label="Но она была такой, какая она есть."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+}

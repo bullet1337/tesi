@@ -1,0 +1,48 @@
+digraph SENTENCE_984 {
+	graph [label="Для меня, например, идеалом был Добрынин Анатолий Михайлович (советский дипломат, бывший посол СССР в США)\", — объясняет Батова."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="идеалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Добрынин Анатолий Михайлович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="советский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дипломат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бывший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="объясняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Батова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="_2_компл"]
+			15 -> 16 [label="предл"]
+			21 -> 22 [label="предик"]
+			0 -> 1 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="вводн"]
+			6 -> 5 [label="присвяз"]
+			6 -> 7 [label="предик"]
+			6 -> 21 [label="вводн"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="сочин"]
+			7 -> 10 [label="об_аппоз"]
+}

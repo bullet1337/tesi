@@ -1,0 +1,15 @@
+digraph SENTENCE_23 {
+	graph [label="Пенелопа Крус мало хорошая актриса."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="мало
+ADV" color="" fillcolor=red penwidth=1 shape=ellipse]
+		2 [label="хорошая
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		3 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="вводн"]
+}

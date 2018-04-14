@@ -1,0 +1,29 @@
+digraph SENTENCE_305 {
+	graph [label="\"Очень важно, что место проведения фестиваля именно остров Сахалин."]
+	node [style=filled]
+		1 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="остров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сахалин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="квазиагент"]
+			9 -> 5 [label="огранич"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="аппоз"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предик"]
+}

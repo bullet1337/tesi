@@ -1,0 +1,51 @@
+digraph SENTENCE_257 {
+	graph [label="В центре современного искусства \"Марс\" продолжает работу выставка \"Я\" в новом жанре Immersive Digital Art (иммерсивное цифровое искусство)."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="современного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="искусства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Марс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выставка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="новом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жанре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Immersive Digital Art
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="иммерсивное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="цифровое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="аппоз"]
+			1 -> 3 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="предик"]
+			20 -> 11 [label="предик"]
+			20 -> 13 [label="обст"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			9 -> 20 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			13 -> 15 [label="предл"]
+}

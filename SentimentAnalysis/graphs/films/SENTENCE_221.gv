@@ -1,0 +1,44 @@
+digraph SENTENCE_221 {
+	graph [label="Об режессуре: Фильм жизненный и по актерской части и по режиссерской и по сюжету."]
+	node [style=filled]
+		0 [label="Об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режессуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="жизненный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="актерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режиссерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сюжету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			10 -> 12 [label="сочин"]
+			6 -> 8 [label="предл"]
+			6 -> 9 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сочин"]
+			13 -> 14 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="_3_компл"]
+}

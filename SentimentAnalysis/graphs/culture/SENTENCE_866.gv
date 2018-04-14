@@ -1,0 +1,57 @@
+digraph SENTENCE_866 {
+	graph [label="Васиковска рассказала, что большую часть времени в прошлом году была в Австралии и наблюдала за всеми событиями издалека."]
+	node [style=filled]
+		0 [label="Васиковска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="рассказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="большую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прошлом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Австралии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наблюдала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="событиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="издалека
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 18 [label="обст"]
+			15 -> 17 [label="предл"]
+			13 -> 14 [label="соч_союзн"]
+			10 -> 5 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 11 [label="присвяз"]
+			10 -> 13 [label="сочин"]
+			3 -> 10 [label="подч_союзн"]
+			11 -> 12 [label="предл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+}

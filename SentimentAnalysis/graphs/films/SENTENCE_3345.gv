@@ -1,0 +1,63 @@
+digraph SENTENCE_3345 {
+	graph [label=") о В. Харламове постепенно, но неуклонно, претерпевало свои изменения, эволюционировав от положительного к негативному, и от негативного к резко отрицательному."]
+	node [style=filled]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Харламове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="постепенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неуклонно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="претерпевало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="изменения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="эволюционировав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="положительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="негативному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="негативного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="резко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="отрицательному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="предл"]
+			17 -> 20 [label="сочин"]
+			21 -> 22 [label="предл"]
+			21 -> 23 [label="соотнос"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="_2_компл"]
+			15 -> 16 [label="предл"]
+			12 -> 11 [label="опред"]
+			5 -> 7 [label="сочин"]
+			10 -> 2 [label="обст"]
+			10 -> 5 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 14 [label="обст"]
+			20 -> 21 [label="соч_союзн"]
+			2 -> 4 [label="предл"]
+			25 -> 24 [label="огранич"]
+			23 -> 25 [label="предл"]
+			1 -> 10 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+}

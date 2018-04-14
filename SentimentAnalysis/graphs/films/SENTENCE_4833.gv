@@ -1,0 +1,18 @@
+digraph SENTENCE_4833 {
+	graph [label="И это только за Крэнстона."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Крэнстона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+}

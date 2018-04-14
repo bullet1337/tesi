@@ -1,0 +1,24 @@
+digraph SENTENCE_3821 {
+	graph [label="Пускай 1 балл будет считаться за музыку."]
+	node [style=filled]
+		0 [label="Пускай
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="балл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="считаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			3 -> 0 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="аналит"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="количест"]
+}

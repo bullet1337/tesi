@@ -1,0 +1,67 @@
+digraph SENTENCE_90 {
+	graph [label="\"На первый взгляд, когда вы смотрите на итог работы Болина — фотографии, может показаться, что на них запечатлены необычные пейзажи, не более того."]
+	node [style=filled]
+		1 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="взгляд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="итог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Болина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="показаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="запечатлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="необычные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="пейзажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="предл"]
+			26 -> 25 [label="огранич"]
+			26 -> 27 [label="сравнит"]
+			9 -> 10 [label="квазиагент"]
+			23 -> 22 [label="опред"]
+			7 -> 1 [label="обст"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 15 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			13 -> 11 [label="опред"]
+			8 -> 9 [label="предл"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			21 -> 19 [label="обст"]
+			21 -> 23 [label="предик"]
+			18 -> 21 [label="подч_союзн"]
+}

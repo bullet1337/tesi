@@ -1,0 +1,44 @@
+digraph SENTENCE_1110 {
+	graph [label="Я помню людей, у которых запрещали книги и фильмы\", — сказал режиссер в интервью РИА Новости."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="помню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="запрещали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="предл"]
+			4 -> 5 [label="предл"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			16 -> 17 [label="_1_компл"]
+			2 -> 6 [label="релят"]
+			7 -> 8 [label="сочин"]
+			13 -> 14 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 13 [label="вводн"]
+}

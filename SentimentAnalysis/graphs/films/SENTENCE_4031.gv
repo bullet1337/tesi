@@ -1,0 +1,33 @@
+digraph SENTENCE_4031 {
+	graph [label="Сюжет идентичен сюжету этого фильма, но не содержит лишней сатиры."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="идентичен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюжету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="содержит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лишней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сатиры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сочин"]
+			2 -> 4 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			4 -> 3 [label="опред"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+}

@@ -1,0 +1,62 @@
+digraph SENTENCE_297 {
+	graph [label="10 из 10
+Я если честно никогда не думал, что моя первая рецензия будет именно на этот достаточно неоднозначный фильм."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="думал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="первая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рецензия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="неоднозначный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			20 -> 17 [label="опред"]
+			20 -> 19 [label="опред"]
+			0 -> 1 [label="электив"]
+			10 -> 14 [label="подч_союзн"]
+			4 -> 8 [label="подч_союзн"]
+			19 -> 18 [label="огранич"]
+			8 -> 5 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			16 -> 20 [label="предл"]
+			1 -> 2 [label="предл"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="присвяз"]
+}

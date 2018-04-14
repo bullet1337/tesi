@@ -1,0 +1,82 @@
+digraph SENTENCE_919 {
+	graph [label="До реформы Римского календаря в 1969 году это воскресенье входило в подготовительный период перед Великим Постом, но после было отнесено к рядовому времени и утратило свои названия."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="реформы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Римского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="календаря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1969
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="входило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="подготовительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Великим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Постом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отнесено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="рядовому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="утратило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="названия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 15 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 17 [label="сент_соч"]
+			25 -> 27 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_2_компл"]
+			23 -> 22 [label="опред"]
+			21 -> 23 [label="предл"]
+			4 -> 6 [label="предл"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 24 [label="сочин"]
+			19 -> 20
+			24 -> 25 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			0 -> 1 [label="предл"]
+			27 -> 26 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="атриб"]
+			15 -> 14 [label="опред"]
+			6 -> 5 [label="опред"]
+}

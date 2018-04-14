@@ -1,0 +1,28 @@
+digraph SENTENCE_4865 {
+	graph [label="4 из 10
+Я смотрел Годзиллу 1998 года."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="1998
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="атриб"]
+			1 -> 2 [label="предл"]
+}

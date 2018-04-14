@@ -1,0 +1,81 @@
+digraph SENTENCE_2501 {
+	graph [label="В общем не увидела я в Тарковском гения… Думаю те, кто захочет по настоящему разобраться в деталях фильмах, прочитают Лема, пересмотрят Солярис и провозгласят его шедевром."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Тарковском
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="гения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Думаю
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="захочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="настоящему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разобраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="деталях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="прочитают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Лема
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="пересмотрят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Солярис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="провозгласят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 5 [label="обст"]
+			3 -> 21 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+			17 -> 18 [label="предл"]
+			26 -> 27 [label="соч_союзн"]
+			16 -> 17 [label="_1_компл"]
+			18 -> 19 [label="квазиагент"]
+			21 -> 7 [label="предик"]
+			21 -> 9 [label="вводн"]
+			21 -> 10 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 24 [label="сочин"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 16 [label="_1_компл"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 26 [label="сочин"]
+			27 -> 28 [label="_1_компл"]
+			27 -> 29 [label="_2_компл"]
+			10 -> 13 [label="релят"]
+}

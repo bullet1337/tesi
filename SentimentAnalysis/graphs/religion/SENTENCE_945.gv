@@ -1,0 +1,54 @@
+digraph SENTENCE_945 {
+	graph [label="При этом распространенное мнение, что икона была поднесена князю Дмитрию перед Куликовской битвой донскими казаками, — \"очевидный анахронизм\"."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="распространенное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поднесена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="князю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Дмитрию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Куликовской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="битвой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="донскими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="казаками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="очевидный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="анахронизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="предик"]
+			3 -> 20 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="_2_компл"]
+			11 -> 13 [label="предл"]
+			15 -> 14 [label="опред"]
+			0 -> 1 [label="предл"]
+			7 -> 6 [label="предик"]
+			7 -> 8
+			20 -> 19 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 11 [label="обст"]
+			9 -> 10 [label="аппоз"]
+			5 -> 7 [label="подч_союзн"]
+}

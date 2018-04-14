@@ -1,0 +1,48 @@
+digraph SENTENCE_1001 {
+	graph [label="\"Сегодня в Луганске состоялся праздничный концерт, посвященный Дню защитника Отечества и 100-летию Рабоче-крестьянской Красной армии."]
+	node [style=filled]
+		1 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Луганске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="состоялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="праздничный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посвященный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Дню
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="100-летию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Рабоче-крестьянской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Красной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			13 -> 16 [label="квазиагент"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 11 [label="сочин"]
+			8 -> 9 [label="_2_компл"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 12 [label="сочин"]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			2 -> 3 [label="предл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+}

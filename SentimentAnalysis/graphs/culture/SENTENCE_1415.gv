@@ -1,0 +1,78 @@
+digraph SENTENCE_1415 {
+	graph [label="На \"Оскар\" за \"Лучшую мужскую роль\" представлены Гари Олдман (\"Темные времена\"), Тимоти Чаламет (\"Зови меня своим именем\"), Дэниел Калуя (\"Прочь\"), Дэниел Дэй-Льюис (\"Призрачная нить\") и Дэнзел Вашингтон (\"Роман Израэл, Esq.\")."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Лучшую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="мужскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="представлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гари Олдман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Темные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="времена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Тимоти Чаламет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Зови
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="именем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Дэниел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="Калуя
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		33 [label="Прочь
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="Дэниел Дэй-Льюис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		40 [label="Призрачная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		41 [label="нить
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="Дэнзел Вашингтон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		48 [label="Роман Израэл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		50 [label="Esq
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			30 -> 33 [label="_2_компл"]
+			30 -> 37 [label="_1_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			0 -> 2 [label="предл"]
+			37 -> 44 [label="сочин"]
+			37 -> 41 [label="аппоз"]
+			48 -> 50 [label="аппоз"]
+			15 -> 14 [label="опред"]
+			15 -> 22 [label="релят"]
+			22 -> 19 [label="_2_компл"]
+			22 -> 23 [label="_1_компл"]
+			22 -> 25 [label="обст"]
+			44 -> 45 [label="соч_союзн"]
+			25 -> 24 [label="опред"]
+			4 -> 8 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 4 [label="обст"]
+			10 -> 11 [label="предик"]
+			10 -> 15 [label="длительн"]
+			10 -> 29 [label="предик"]
+			10 -> 30 [label="обст"]
+			10 -> 48 [label="предик"]
+			41 -> 40 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_2503 {
+	graph [label="Я, к сожалению, не отношусь к их числу."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отношусь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="числу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="квазиагент"]
+}

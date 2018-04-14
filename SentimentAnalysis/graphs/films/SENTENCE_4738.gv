@@ -1,0 +1,21 @@
+digraph SENTENCE_4738 {
+	graph [label="И сам Годзилла меня тоже взбесил."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="взбесил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="соч_союзн"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			2 -> 1 [label="опред"]
+}

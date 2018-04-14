@@ -1,0 +1,21 @@
+digraph SENTENCE_2511 {
+	graph [label="В столь продолжительном фильме (3 часа!"]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="столь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продолжительном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="количест"]
+			3 -> 2 [label="опред"]
+			2 -> 1 [label="огранич"]
+			0 -> 3 [label="предл"]
+}

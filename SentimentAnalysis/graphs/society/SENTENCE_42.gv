@@ -1,0 +1,45 @@
+digraph SENTENCE_42 {
+	graph [label="В день малыш уже съедает 600 граммов молочной смеси, кормим пока каждые 4 часа."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="малыш
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="съедает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="600
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="граммов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="молочной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смеси
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кормим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="каждые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="количест"]
+			13 -> 12 [label="опред"]
+			8 -> 7 [label="опред"]
+			11 -> 14 [label="подч_союзн"]
+			10 -> 11 [label="обст"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			4 -> 10 [label="разъяснит"]
+			6 -> 5 [label="количест"]
+			6 -> 8 [label="квазиагент"]
+}

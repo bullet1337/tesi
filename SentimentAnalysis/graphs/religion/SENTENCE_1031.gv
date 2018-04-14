@@ -1,0 +1,48 @@
+digraph SENTENCE_1031 {
+	graph [label="История Рождественского цикла и его литургического становления весьма сложна и исследована лишь в общих чертах."]
+	node [style=filled]
+		0 [label="История
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Рождественского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="цикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="литургического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="становления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сложна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="исследована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="общих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чертах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="сочин"]
+			6 -> 4 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="сочин"]
+			3 -> 6 [label="соч_союзн"]
+			9 -> 10 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			1 -> 2 [label="сочин"]
+			10 -> 12 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+}

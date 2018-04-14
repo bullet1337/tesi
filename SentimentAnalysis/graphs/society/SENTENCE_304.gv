@@ -1,0 +1,21 @@
+digraph SENTENCE_304 {
+	graph [label="Из-за этого и распространяется радикальный ислам."]
+	node [style=filled]
+		0 [label="Из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="распространяется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="радикальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ислам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предик"]
+			0 -> 1 [label="предл"]
+}

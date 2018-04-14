@@ -1,0 +1,92 @@
+digraph SENTENCE_120 {
+	graph [label="\"По благословению митрополита Лонгина во всех храмах епархии по окончании божественной литургии совершены панихиды по погибшим при крушении самолета Ан-148 \"Саратовских авиалиний\"… а также погребальный перезвон\", — говорится в сообщении."]
+	node [style=filled]
+		1 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благословению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="митрополита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Лонгина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="епархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="окончании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="божественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="литургии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="совершены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="панихиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="погибшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="крушении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="самолета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Ан
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="148
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Саратовских
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="авиалиний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="погребальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="перезвон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			7 -> 9 [label="атриб"]
+			31 -> 30 [label="опред"]
+			12 -> 11 [label="опред"]
+			35 -> 31 [label="предик"]
+			35 -> 36 [label="обст"]
+			16 -> 17 [label="обст"]
+			16 -> 28 [label="сочин"]
+			19 -> 20 [label="аппоз"]
+			19 -> 25 [label="атриб"]
+			3 -> 4 [label="аппоз"]
+			5 -> 7 [label="предл"]
+			36 -> 37 [label="предл"]
+			28 -> 35 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			13 -> 1 [label="вводн"]
+			13 -> 5 [label="обст"]
+			13 -> 14 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			17 -> 18 [label="предл"]
+			25 -> 24 [label="опред"]
+			18 -> 19 [label="квазиагент"]
+			30 -> 29 [label="огранич"]
+			1 -> 2 [label="предл"]
+			20 -> 22 [label="аппоз"]
+}

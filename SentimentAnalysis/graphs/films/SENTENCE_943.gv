@@ -1,0 +1,54 @@
+digraph SENTENCE_943 {
+	graph [label="Никого лучше нее не могу представить на эту роль, кто смог бы так же задеть за живое."]
+	node [style=filled]
+		0 [label="Никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="представить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="задеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="живое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="сент_соч"]
+			5 -> 6 [label="_2_компл"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+			0 -> 1 [label="атриб"]
+			13 -> 14 [label="огранич"]
+			16 -> 17 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="аналит"]
+			11 -> 15 [label="_1_компл"]
+			1 -> 2 [label="сравнит"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+}

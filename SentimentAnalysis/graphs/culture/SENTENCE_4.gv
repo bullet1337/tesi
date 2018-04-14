@@ -1,0 +1,63 @@
+digraph SENTENCE_4 {
+	graph [label="Скажу честно, я обращал внимание на ситуацию в этом театре департамента по культуре Москвы, министра культуры Москвы (Александра Кибовского – ред.)."]
+	node [style=filled]
+		0 [label="Скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обращал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ситуацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="департамента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="культуре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="министра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Александра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Кибовского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="ред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 21 [label="опред"]
+			14 -> 16 [label="сочин"]
+			11 -> 8 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 14 [label="сочин"]
+			8 -> 10 [label="предл"]
+			20 -> 23 [label="аппоз"]
+			10 -> 9 [label="опред"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="предик"]
+			12 -> 13 [label="предл"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="аппоз"]
+			16 -> 20 [label="сочин"]
+			6 -> 7 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 4 [label="_1_компл"]
+}

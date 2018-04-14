@@ -1,0 +1,35 @@
+digraph SENTENCE_787 {
+	graph [label="При этом в ряде регионов этот показатель не достигает даже 50%."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ряде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="регионов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="показатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="достигает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="50
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 2 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="предл"]
+}

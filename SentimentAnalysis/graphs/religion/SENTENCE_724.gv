@@ -1,0 +1,60 @@
+digraph SENTENCE_724 {
+	graph [label="К ХIХ — началу ХХ века большая часть обрядов (например, сжигание Масленицы) утратила свое ритуальное значение и стала лишь развлечением."]
+	node [style=filled]
+		0 [label="К
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ХIХ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="началу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ХХ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обрядов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сжигание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Масленицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="утратила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ритуальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="значение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="развлечением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предл"]
+			0 -> 12 [label="примыкат"]
+			22 -> 21 [label="огранич"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			19 -> 20 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			3 -> 1
+			3 -> 5 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			15 -> 0 [label="_1_компл"]
+			15 -> 13 [label="предик"]
+			15 -> 18 [label="предик"]
+			15 -> 19 [label="сочин"]
+			20 -> 22 [label="присвяз"]
+			12 -> 7 [label="предик"]
+			12 -> 10 [label="вводн"]
+}

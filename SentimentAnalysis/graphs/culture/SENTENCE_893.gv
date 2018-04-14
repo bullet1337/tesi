@@ -1,0 +1,49 @@
+digraph SENTENCE_893 {
+	graph [label="Доплаты к пенсии будете получать у нас, вы знаете об этом\", — сказал Пахомов, вручая знак Башмету."]
+	node [style=filled]
+		0 [label="Доплаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пенсии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="получать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="знаете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Пахомов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="вручая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="знак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Башмету
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="аналит"]
+			3 -> 9 [label="сент_соч"]
+			19 -> 20 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			4 -> 5 [label="обст"]
+			18 -> 19 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			15 -> 18 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 15 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+}

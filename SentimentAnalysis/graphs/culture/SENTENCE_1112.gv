@@ -1,0 +1,36 @@
+digraph SENTENCE_1112 {
+	graph [label="Он хотел показать максималистское поколение глубоких людей, поколение \"с прямой спиной\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хотел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="максималистское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поколение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глубоких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поколение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прямой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="спиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="примыкат"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			10 -> 12 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 10 [label="обст"]
+}

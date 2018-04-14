@@ -1,0 +1,21 @@
+digraph SENTENCE_65 {
+	graph [label="Там актриса и проработала всю жизнь."]
+	node [style=filled]
+		0 [label="Там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проработала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+}

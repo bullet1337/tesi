@@ -1,0 +1,21 @@
+digraph SENTENCE_1643 {
+	graph [label="Я очень люблю фильмы такого рода."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="атриб"]
+			5 -> 4 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+}

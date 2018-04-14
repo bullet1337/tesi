@@ -1,0 +1,29 @@
+digraph SENTENCE_355 {
+	graph [label="Что ты будешь делать, если у тебя заберут зрение?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заберут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="аналит"]
+			6 -> 7 [label="предл"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 9 [label="предик"]
+			5 -> 8 [label="подч_союзн"]
+			3 -> 5 [label="обст"]
+}

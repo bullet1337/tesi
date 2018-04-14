@@ -1,0 +1,25 @@
+digraph SENTENCE_4202 {
+	graph [label="Еще бы: тут и геи, и афроамериканцы — комбо!"]
+	node [style=filled]
+		0 [label="Еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="геи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="афроамериканцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="комбо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 10 [label="аппоз"]
+			3 -> 0 [label="огранич"]
+			0 -> 1
+}

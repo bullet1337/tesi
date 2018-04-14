@@ -1,0 +1,60 @@
+digraph SENTENCE_220 {
+	graph [label="А в России она впервые увидела свет рампы в 1903 году на сцене Московского Художественного театра Станиславского и Немировича-Данченко."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рампы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1903
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Московского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Художественного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Станиславского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Немировича-Данченко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="сочин"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="аппоз"]
+			8 -> 10 [label="предл"]
+			5 -> 1 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 11 [label="обст"]
+			17 -> 18 [label="соч_союзн"]
+			6 -> 7 [label="квазиагент"]
+			12 -> 15 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			11 -> 12 [label="предл"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_107 {
+	graph [label="Исполняла партии Розины в \"Севильском цирюльнике\", Марфы в \"Царской невесте\", Виолетты в \"Травиате\" и многие другие."]
+	node [style=filled]
+		0 [label="Исполняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Розины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Севильском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="цирюльнике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Марфы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Царской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="невесте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Виолетты
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Травиате
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			13 -> 16 [label="аппоз"]
+			3 -> 6 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="обст"]
+			0 -> 10 [label="обст"]
+			0 -> 17 [label="обст"]
+			0 -> 21 [label="сент_соч"]
+			1 -> 2 [label="аппоз"]
+			10 -> 13 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="аппоз"]
+			17 -> 19 [label="предл"]
+			21 -> 23 [label="соч_союзн"]
+			23 -> 22 [label="опред"]
+}

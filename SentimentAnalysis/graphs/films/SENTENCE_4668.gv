@@ -1,0 +1,67 @@
+digraph SENTENCE_4668 {
+	graph [label="(с) Шура Каретный Годзилла  Чтобы вы меня прекрасно понимали — я смотрел старый фильм (японский), я смотрел несколько сиквелов, я смотрел кино Эммериха."]
+	node [style=filled]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Шура
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Каретный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Чтобы
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="понимали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="старый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="японский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сиквелов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Эммериха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			26 -> 25 [label="предик"]
+			26 -> 27 [label="_1_компл"]
+			27 -> 28 [label="квазиагент"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="_1_компл"]
+			6 -> 10 [label="подч_союзн"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 13 [label="_1_компл"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			5 -> 1 [label="вводн"]
+			5 -> 4 [label="опред"]
+			15 -> 14 [label="опред"]
+			1 -> 3 [label="предл"]
+			17 -> 21 [label="примыкат"]
+			17 -> 26 [label="релят"]
+			23 -> 22 [label="количест"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_4010 {
+	graph [label="Как бы это наивно и глупо не звучало, но я ожидал от Апельсина историю о молодом парне, совершающим различные злодеяния, которые привели его к тюремному заключению."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наивно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глупо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="звучало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ожидал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Апельсина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="молодом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="парне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="совершающим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="различные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="злодеяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="привели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="тюремному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="заключению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="предл"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="сент_соч"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 14 [label="разъяснит"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 26 [label="_3_компл"]
+			4 -> 5 [label="соч_союзн"]
+			21 -> 20 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="аналит"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сочин"]
+			3 -> 7 [label="сент_соч"]
+			19 -> 21 [label="_1_компл"]
+			28 -> 27 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="опред"]
+			12 -> 13 [label="предл"]
+			26 -> 28 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 24 [label="релят"]
+}

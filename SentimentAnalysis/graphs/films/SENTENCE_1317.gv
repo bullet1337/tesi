@@ -1,0 +1,48 @@
+digraph SENTENCE_1317 {
+	graph [label="Сюжет Это история об эмигрантке из Чехословакии Сельме Жескове, которая приехала в Америку ради «лучшей» жизни."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Это
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эмигрантке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Сельме Жескове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="приехала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Америку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лучшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="атриб"]
+			2 -> 7 [label="сочин"]
+			2 -> 10 [label="разъяснит"]
+			3 -> 4 [label="предл"]
+			17 -> 15 [label="опред"]
+			5 -> 6 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 13 [label="обст"]
+			1 -> 0 [label="пролепт"]
+			13 -> 17 [label="предл"]
+			11 -> 12 [label="предл"]
+}

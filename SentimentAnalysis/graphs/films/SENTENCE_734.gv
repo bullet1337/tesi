@@ -1,0 +1,53 @@
+digraph SENTENCE_734 {
+	graph [label="Это кино даже не с чем сравнить, ну если только с другими фильмами этого талантливого, необычного режиссера."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сравнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="другими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильмами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="талантливого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="необычного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 14 [label="опред"]
+			18 -> 15 [label="опред"]
+			18 -> 17 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="разъяснит"]
+			6 -> 4 [label="обст"]
+			6 -> 9 [label="обст"]
+			9 -> 8 [label="огранич"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			13 -> 12 [label="опред"]
+			13 -> 18 [label="квазиагент"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="предл"]
+}

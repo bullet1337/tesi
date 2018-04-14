@@ -1,0 +1,51 @@
+digraph SENTENCE_4559 {
+	graph [label="Это известно еще со времен первых трейлеров, а в фильме рассказывается прямо сходу во вступительных титрах."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="времен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="трейлеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рассказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прямо
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сходу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вступительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="титрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			3 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			14 -> 16 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="обст"]
+			1 -> 11 [label="вводн"]
+			11 -> 13 [label="обст"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="предл"]
+}

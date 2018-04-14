@@ -1,0 +1,57 @@
+digraph SENTENCE_528 {
+	graph [label="Как известно каждый фильм фон Триера полон откровенных сцен, хорошо это или плохо каждый решает для себя сам."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="полон
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="откровенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сцен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хорошо
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="плохо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="решает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="аппоз"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="сент_соч"]
+			8 -> 7 [label="опред"]
+			16 -> 17 [label="предл"]
+			5 -> 4
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="обст"]
+			15 -> 18 [label="суб_копр"]
+			0 -> 1 [label="сравн_союзн"]
+			10 -> 11 [label="предик"]
+			10 -> 13 [label="сент_соч"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="сент_соч"]
+}

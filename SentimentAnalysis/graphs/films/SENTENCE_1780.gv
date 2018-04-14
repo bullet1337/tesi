@@ -1,0 +1,24 @@
+digraph SENTENCE_1780 {
+	graph [label="Вот как ответить на главный вопрос Триера?!"]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ответить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_3_компл"]
+			1 -> 0 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+}

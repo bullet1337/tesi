@@ -1,0 +1,45 @@
+digraph SENTENCE_1387 {
+	graph [label="Особенно его любят в Италии — по данным Kidz Global, там мультфильм смотрят 88% детей."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Италии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Kidz
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Global
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="там
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мультфильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотрят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="88
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 6 [label="вводн"]
+			13 -> 9 [label="предик"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 16 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 13 [label="сент_соч"]
+			7 -> 8 [label="квазиагент"]
+			16 -> 14 [label="количест"]
+}

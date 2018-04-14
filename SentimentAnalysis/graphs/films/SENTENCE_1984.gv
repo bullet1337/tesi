@@ -1,0 +1,60 @@
+digraph SENTENCE_1984 {
+	graph [label="Потому, когда я смотрю его фильмы, я вижу множество деталей, ракурсов, которые отсылают меня к тем же шедеврам живописи."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="смотрю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вижу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="деталей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ракурсов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отсылают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="шедеврам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="живописи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="обст"]
+			9 -> 2 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 16 [label="сент_соч"]
+			19 -> 20 [label="огранич"]
+			6 -> 5 [label="квазиагент"]
+			2 -> 4 [label="подч_союзн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			11 -> 13 [label="квазиагент"]
+			18 -> 21 [label="предл"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="обст"]
+			21 -> 19 [label="опред"]
+			21 -> 22 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+}

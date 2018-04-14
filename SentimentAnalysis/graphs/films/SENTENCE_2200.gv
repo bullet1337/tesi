@@ -1,0 +1,54 @@
+digraph SENTENCE_2200 {
+	graph [label="Не припомню где бы ещё автор шёл на подобный контакт со своим зрителем и вот так исповедовался."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="припомню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подобный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="контакт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="исповедовался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="обст"]
+			13 -> 16 [label="соч_союзн"]
+			15 -> 14 [label="огранич"]
+			6 -> 2 [label="обст"]
+			6 -> 3 [label="аналит"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 13 [label="сент_соч"]
+			10 -> 12 [label="предл"]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 6 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+}

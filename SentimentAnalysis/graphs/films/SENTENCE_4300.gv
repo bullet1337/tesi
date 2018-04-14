@@ -1,0 +1,53 @@
+digraph SENTENCE_4300 {
+	graph [label="Лично мне фиолетово кто с кем и как, до тех пор, пока они не начинают навязывать своё мировоззрение."]
+	node [style=filled]
+		0 [label="Лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фиолетово
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="начинают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="навязывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мировоззрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="предл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			5 -> 6 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			2 -> 1 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="предл"]
+			19 -> 18 [label="опред"]
+			13 -> 16 [label="подч_союзн"]
+			6 -> 7 [label="соч_союзн"]
+			17 -> 19 [label="_1_компл"]
+}

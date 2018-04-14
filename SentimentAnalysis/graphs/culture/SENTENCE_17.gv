@@ -1,0 +1,48 @@
+digraph SENTENCE_17 {
+	graph [label="А в России я подала заявку на Московский кинофестиваль и сейчас жду от них ответа."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заявку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ответа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			1 -> 2 [label="предл"]
+			8 -> 7 [label="опред"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 4 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 14 [label="_1_компл"]
+			9 -> 11 [label="соч_союзн"]
+}

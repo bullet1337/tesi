@@ -1,0 +1,30 @@
+digraph SENTENCE_568 {
+	graph [label="Что ж, господин фон Триер — это ваш лучший фильм."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="господин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ваш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="аппоз"]
+			0 -> 1 [label="огранич"]
+			5 -> 4
+			10 -> 0 [label="предик"]
+			10 -> 3 [label="вводн"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+}

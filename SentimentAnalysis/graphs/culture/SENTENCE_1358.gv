@@ -1,0 +1,66 @@
+digraph SENTENCE_1358 {
+	graph [label="Телеведущая Екатерина Андреева заявила, что \"Время\" для нее \"никогда не закончится\", и подтвердила, что будет работать в программе, рассчитанной на другие часовые пояса."]
+	node [style=filled]
+		0 [label="Телеведущая Екатерина Андреева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="заявила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="закончится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="подтвердила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="рассчитанной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="часовые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="пояса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 28 [label="предл"]
+			20 -> 21 [label="обст"]
+			18 -> 19 [label="подч_союзн"]
+			22 -> 24 [label="опред"]
+			12 -> 5 [label="предик"]
+			12 -> 7 [label="обст"]
+			12 -> 10 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 15 [label="сочин"]
+			15 -> 16 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			24 -> 25 [label="_2_компл"]
+			19 -> 20 [label="аналит"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 12 [label="подч_союзн"]
+			21 -> 22 [label="предл"]
+			28 -> 26 [label="опред"]
+			28 -> 27 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+}

@@ -1,0 +1,72 @@
+digraph SENTENCE_712 {
+	graph [label="Закон предлагает установить МРОТ с 1 мая в размере 11 тысяч 163 рублей в месяц, доведя его до величины прожиточного минимума трудоспособного населения."]
+	node [style=filled]
+		0 [label="Закон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предлагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="установить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="МРОТ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="размере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="163
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="доведя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="величины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прожиточного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="минимума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="трудоспособного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			5 -> 6 [label="атриб"]
+			21 -> 20 [label="опред"]
+			3 -> 4 [label="атриб"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="количест"]
+			12 -> 13 [label="распред"]
+			19 -> 21 [label="квазиагент"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="_2_компл"]
+			16 -> 23 [label="_1_компл"]
+			10 -> 9 [label="количест"]
+			10 -> 12 [label="квазиагент"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="_2_компл"]
+			2 -> 16 [label="обст"]
+			23 -> 22 [label="опред"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="предл"]
+			18 -> 19 [label="предл"]
+			8 -> 10 [label="квазиагент"]
+}

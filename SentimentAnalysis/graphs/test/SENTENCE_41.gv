@@ -1,0 +1,21 @@
+digraph SENTENCE_41 {
+	graph [label="телефоны Билайна лучше, чем телефоны МТС."]
+	node [style=filled]
+		0 [label="телефоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Билайна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="лучше
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		4 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="телефоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="МТС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сравнит"]
+			5 -> 6 [label="атриб"]
+			4 -> 5 [label="сравн_союзн"]
+}

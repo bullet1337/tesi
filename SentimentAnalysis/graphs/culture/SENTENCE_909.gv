@@ -1,0 +1,18 @@
+digraph SENTENCE_909 {
+	graph [label="Алексей Рыбин (прозвище \"Рыба\") — музыкант, писатель."]
+	node [style=filled]
+		0 [label="Алексей Рыбин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прозвище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="писатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Рыба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="сочин"]
+			0 -> 2 [label="примыкат"]
+			0 -> 4 [label="сочин"]
+			4 -> 8 [label="сочин"]
+}

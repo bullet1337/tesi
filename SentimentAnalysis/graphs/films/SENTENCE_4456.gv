@@ -1,0 +1,42 @@
+digraph SENTENCE_4456 {
+	graph [label="Фильму страшно не хватает динамики развития сюжета, и, что кажется совсем невероятным, экшена!"]
+	node [style=filled]
+		0 [label="Фильму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="страшно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хватает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="динамики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="невероятным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экшена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="опред"]
+			8 -> 11 [label="соч_союзн"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 8 [label="сент_соч"]
+			11 -> 10 [label="предик"]
+			11 -> 15 [label="_1_компл"]
+			4 -> 5 [label="квазиагент"]
+			5 -> 6 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+}

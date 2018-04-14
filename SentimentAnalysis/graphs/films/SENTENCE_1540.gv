@@ -1,0 +1,30 @@
+digraph SENTENCE_1540 {
+	graph [label="Когда Билл обратился к ней с просьбой занять денег?"]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Билл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="обратился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просьбой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="занять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 2 [label="подч_союзн"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+}

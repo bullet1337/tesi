@@ -1,0 +1,30 @@
+digraph SENTENCE_624 {
+	graph [label="Но в какой-то момент становится понятно, что неважно – зачем."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неважно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			1 -> 3 [label="предл"]
+			4 -> 1 [label="обст"]
+			4 -> 5 [label="присвяз"]
+			4 -> 7 [label="предик"]
+			7 -> 8 [label="подч_союзн"]
+			8 -> 10 [label="предик"]
+			3 -> 2 [label="опред"]
+}

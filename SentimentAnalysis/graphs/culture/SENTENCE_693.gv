@@ -1,0 +1,33 @@
+digraph SENTENCE_693 {
+	graph [label="В этом году фестиваль имеет подзаголовок \"Персонаж в поисках себя\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подзаголовок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Персонаж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поисках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="обст"]
+			5 -> 7 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+}

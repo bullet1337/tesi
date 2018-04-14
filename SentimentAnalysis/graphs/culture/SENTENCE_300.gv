@@ -1,0 +1,69 @@
+digraph SENTENCE_300 {
+	graph [label="По его словам, призы будут вручаться в таких номинациях, как \"Лучший фильм\", \"Лучший режиссер\", \"Лучшая женская роль\", \"Лучшая мужская роль\" и других."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="призы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вручаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="номинациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Лучший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="женская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="мужская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			19 -> 31 [label="сент_соч"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="сравнит"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="аналит"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			7 -> 9 [label="предл"]
+			33 -> 34 [label="соч_союзн"]
+			2 -> 1 [label="квазиагент"]
+			11 -> 14 [label="сравн_союзн"]
+			14 -> 13 [label="опред"]
+			14 -> 19 [label="примыкат"]
+			0 -> 2 [label="предл"]
+			31 -> 25 [label="предик"]
+			31 -> 29 [label="опред"]
+			31 -> 30 [label="опред"]
+			31 -> 33 [label="сочин"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,111 @@
+digraph SENTENCE_6 {
+	graph [label="Публичный скандал вокруг отношений 82-летнего Джигарханяна и 38-летней Цымбалюк-Романовской начался после того, как 10 октября актер попал в больницу и вскоре заявил, что не готов простить свою супругу, которая, по его словам, \"причинила ему много боли\"."]
+	node [style=filled]
+		0 [label="Публичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скандал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отношений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="82-летнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Джигарханяна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="38-летней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Цымбалюк-Романовской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="начался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="октября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="попал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="больницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="готов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="простить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="супругу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="причинила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 21 [label="обст"]
+			22 -> 24 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			9 -> 1 [label="предик"]
+			9 -> 10 [label="обст"]
+			26 -> 25 [label="огранич"]
+			26 -> 27 [label="_1_компл"]
+			26 -> 38 [label="разъяснит"]
+			6 -> 8 [label="соч_союзн"]
+			38 -> 31 [label="предик"]
+			38 -> 33 [label="обст"]
+			38 -> 39 [label="_2_компл"]
+			38 -> 40 [label="_1_компл"]
+			35 -> 34 [label="квазиагент"]
+			20 -> 22 [label="соч_союзн"]
+			24 -> 26 [label="подч_союзн"]
+			27 -> 29 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			8 -> 7 [label="опред"]
+			11 -> 13 [label="эксплет"]
+			29 -> 28 [label="опред"]
+			2 -> 3 [label="предл"]
+			17 -> 14 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 20 [label="сочин"]
+			40 -> 41 [label="_1_компл"]
+			3 -> 5 [label="квазиагент"]
+			14 -> 15 [label="атриб"]
+			33 -> 35 [label="предл"]
+			10 -> 11 [label="предл"]
+			13 -> 17 [label="подч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+}

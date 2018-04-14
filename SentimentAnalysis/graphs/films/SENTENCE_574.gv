@@ -1,0 +1,24 @@
+digraph SENTENCE_574 {
+	graph [label="Здесь же две неподражаемых — Бьорк и Денев."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неподражаемых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="огранич"]
+			0 -> 5 [label="сочин"]
+			5 -> 2 [label="количест"]
+			5 -> 3 [label="опред"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_3324 {
+	graph [label="Полагаю, что это творческая задумка авторов фильма."]
+	node [style=filled]
+		0 [label="Полагаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="творческая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="задумка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="авторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 5 [label="подч_союзн"]
+			0 -> 2 [label="_1_компл"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_118 {
+	graph [label="Или что фильм ничего не стоит."]
+	node [style=filled]
+		0 [label="Или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			1 -> 5 [label="подч_союзн"]
+			0 -> 1 [label="соч_союзн"]
+}

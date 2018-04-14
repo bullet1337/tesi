@@ -1,0 +1,45 @@
+digraph SENTENCE_245 {
+	graph [label="Раньше казалось: стоит сказать что-то на английском и ты сразу становишься модным, современным, свободным."]
+	node [style=filled]
+		0 [label="Раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="английском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="становишься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="модным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="современным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="свободным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="вводн"]
+			3 -> 4 [label="предик"]
+			3 -> 8 [label="сент_соч"]
+			12 -> 14 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			8 -> 11 [label="соч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="присвяз"]
+			14 -> 16 [label="сочин"]
+			6 -> 7 [label="предл"]
+}

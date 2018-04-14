@@ -1,0 +1,48 @@
+digraph SENTENCE_955 {
+	graph [label="Примечательно, что связь Донской иконы с памятью о кровопролитной битве 1380 года никто не отрицает."]
+	node [style=filled]
+		0 [label="Примечательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="связь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Донской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="иконы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="памятью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кровопролитной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="битве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1380
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="отрицает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+			3 -> 6 [label="_1_компл"]
+			2 -> 15 [label="подч_союзн"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="атриб"]
+			5 -> 4 [label="опред"]
+			0 -> 2 [label="предик"]
+			12 -> 11 [label="опред"]
+			8 -> 10 [label="предл"]
+			15 -> 3 [label="_1_компл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+}

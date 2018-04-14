@@ -1,0 +1,30 @@
+digraph SENTENCE_2573 {
+	graph [label="Но нудил он еще справнее училки, Гослинга и мадам."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нудил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="справнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="училки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Гослинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мадам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="сравнит"]
+			0 -> 1 [label="соч_союзн"]
+			1 -> 2 [label="предик"]
+			1 -> 4 [label="обст"]
+			5 -> 7 [label="аппоз"]
+			7 -> 8 [label="сочин"]
+}

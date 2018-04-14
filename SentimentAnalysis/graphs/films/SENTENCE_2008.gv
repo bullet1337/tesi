@@ -1,0 +1,24 @@
+digraph SENTENCE_2008 {
+	graph [label="«Кого тебе больше хочется: мальчика или девочку?»."]
+	node [style=filled]
+		1 [label="Кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тебе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="девочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+			4 -> 1 [label="сент_предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_2_компл"]
+}

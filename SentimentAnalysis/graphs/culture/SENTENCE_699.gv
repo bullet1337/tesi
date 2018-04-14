@@ -1,0 +1,27 @@
+digraph SENTENCE_699 {
+	graph [label="Наиболее успешные проекты фестиваля становятся частью репертуара театра."]
+	node [style=filled]
+		0 [label="Наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="успешные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проекты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="становятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="частью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="репертуара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="присвяз"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 7 [label="квазиагент"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+}

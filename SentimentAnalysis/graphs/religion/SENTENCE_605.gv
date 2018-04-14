@@ -1,0 +1,27 @@
+digraph SENTENCE_605 {
+	graph [label="Все, на кого упал этот свет, стали благословенными."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="упал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="благословенными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 8 [label="разъяснит"]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="опред"]
+			8 -> 6 [label="предик"]
+			8 -> 9 [label="присвяз"]
+}

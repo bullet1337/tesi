@@ -1,0 +1,72 @@
+digraph SENTENCE_230 {
+	graph [label="Однажды эта болезнь бесповоротно лишит его зрения, и пока этого не случилось, его мать пытается всеми возможными способами накопить деньги на необходимую операцию."]
+	node [style=filled]
+		0 [label="Однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="болезнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бесповоротно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лишит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="всеми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="возможными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="способами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="накопить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="необходимую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			24 -> 23 [label="опред"]
+			8 -> 16 [label="соч_союзн"]
+			16 -> 9 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 19 [label="_1_компл"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 22 [label="_2_компл"]
+			6 -> 5 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			15 -> 14 [label="_1_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			22 -> 24 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сент_соч"]
+			9 -> 12 [label="подч_союзн"]
+}

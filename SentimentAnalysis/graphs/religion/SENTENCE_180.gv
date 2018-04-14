@@ -1,0 +1,39 @@
+digraph SENTENCE_180 {
+	graph [label="С 90-х годов праздник укоренился и в России, правда, среди светских людей."]
+	node [style=filled]
+		0 [label="С
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="90-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="годов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="укоренился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="светских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="обст"]
+			4 -> 9 [label="вводн"]
+			4 -> 11 [label="обст"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

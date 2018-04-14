@@ -1,0 +1,42 @@
+digraph SENTENCE_510 {
+	graph [label="Потому что мы видели, что там гибнут наши братья, там война\", — признался он."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="видели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гибнут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="братья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="война
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="признался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="обст"]
+			7 -> 9 [label="предик"]
+			0 -> 1 [label="эксплет"]
+			5 -> 7 [label="подч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			1 -> 3 [label="подч_союзн"]
+			16 -> 11 [label="обст"]
+			16 -> 12 [label="предик"]
+			16 -> 17 [label="предик"]
+			9 -> 8 [label="опред"]
+			9 -> 16 [label="релят"]
+}

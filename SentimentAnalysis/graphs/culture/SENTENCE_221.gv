@@ -1,0 +1,24 @@
+digraph SENTENCE_221 {
+	graph [label="В главной роли выступил выдающийся актер Василий Качалов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Василий Качалов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			0 -> 2 [label="предл"]
+}

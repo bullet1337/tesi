@@ -1,0 +1,36 @@
+digraph SENTENCE_199 {
+	graph [label="\"Именно лидеры религиозных общин должны играть ведущую роль в противодействии радикализации."]
+	node [style=filled]
+		1 [label="Именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лидеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="религиозных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="общин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="играть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ведущую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="противодействии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="радикализации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_2_компл"]
+}

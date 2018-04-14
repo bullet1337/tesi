@@ -1,0 +1,60 @@
+digraph SENTENCE_556 {
+	graph [label="Актрисы Салли Хокинс и Октавия Спенсер заявлены в номинациях \"Лучшая актриса в главной роли\" и \"Лучшая актриса в роли второго плана\" соответственно."]
+	node [style=filled]
+		0 [label="Актрисы Салли Хокинс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Октавия Спенсер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="заявлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="номинациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Лучшая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="плана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="соответственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 16 [label="предик"]
+			17 -> 18 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="обст"]
+			3 -> 13 [label="сент_соч"]
+			18 -> 20 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			1 -> 2 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			0 -> 1 [label="сочин"]
+			13 -> 22 [label="соч_союзн"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="атриб"]
+			5 -> 8 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			20 -> 19 [label="опред"]
+}

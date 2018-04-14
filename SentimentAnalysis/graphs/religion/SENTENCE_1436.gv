@@ -1,0 +1,66 @@
+digraph SENTENCE_1436 {
+	graph [label="\"Предстоятель Русской православной церкви возносит молитвы о всех погибших в этой авиакатастрофе, молится об укреплении родных и близких\", — говорится в сообщении."]
+	node [style=filled]
+		1 [label="Предстоятель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возносит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="молитвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="авиакатастрофе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="молится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="укреплении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="родных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="близких
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="_1_компл"]
+			1 -> 4 [label="аппоз"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			17 -> 18 [label="сочин"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			5 -> 14 [label="сочин"]
+			7 -> 9 [label="предл"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 23 [label="сочин"]
+			15 -> 16 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="обст"]
+			10 -> 12 [label="предл"]
+			23 -> 24 [label="обст"]
+			18 -> 19 [label="соч_союзн"]
+			24 -> 25 [label="предл"]
+			12 -> 11 [label="опред"]
+}

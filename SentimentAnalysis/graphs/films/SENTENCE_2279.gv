@@ -1,0 +1,33 @@
+digraph SENTENCE_2279 {
+	graph [label="Музыкальные моменты и танцевальные постановки дают понять, что это мюзикл."]
+	node [style=filled]
+		0 [label="Музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="моменты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="танцевальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="постановки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			8 -> 10 [label="подч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+}

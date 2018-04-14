@@ -1,0 +1,66 @@
+digraph SENTENCE_1140 {
+	graph [label="Участники согласованного московскими властями Марша памяти Бориса Немцова в столице начали движение от Пушкинской площади в сторону Страстного бульвара, передаёт корреспондент РИА Новости."]
+	node [style=filled]
+		0 [label="Участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="согласованного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="московскими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="властями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Марша
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="памяти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бориса Немцова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="движение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Пушкинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="площади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Страстного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="бульвара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="передаёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="корреспондент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предл"]
+			14 -> 15 [label="предл"]
+			11 -> 13 [label="предл"]
+			15 -> 17 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			19 -> 20 [label="предик"]
+			10 -> 11 [label="атриб"]
+			9 -> 7 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 14 [label="_3_компл"]
+			9 -> 19 [label="сент_соч"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 9 [label="сент_соч"]
+			0 -> 3 [label="_1_компл"]
+			0 -> 4 [label="аппоз"]
+}

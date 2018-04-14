@@ -1,0 +1,60 @@
+digraph SENTENCE_1359 {
+	graph [label="До конца жизни он оставался под следствием, и официальной регистрации Патриархии как органа церковного управления так и не произошло."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оставался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="следствием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="официальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="регистрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Патриархии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="органа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="церковного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="управления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 10 [label="предик"]
+			19 -> 16 [label="обст"]
+			19 -> 18 [label="огранич"]
+			15 -> 14 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="сравнит"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="присвяз"]
+			4 -> 8 [label="сент_соч"]
+			8 -> 19 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+			16 -> 17
+			12 -> 13 [label="сравн_союзн"]
+			13 -> 15 [label="квазиагент"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1393 {
+	graph [label="Спасибо Бьорк за великолепную актерскую игру и по-настоящему красивую музыку."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="великолепную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актерскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="игру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="красивую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 5 [label="предл"]
+			8 -> 7 [label="огранич"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			6 -> 9 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="вводн"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 6 [label="сочин"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_3172 {
+	graph [label="Более того подобные кинокартины часто возникали лет 10-15 назад, так что никакой это не шедевр."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подобные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинокартины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возникали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 14 [label="опред"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+			13 -> 17 [label="подч_союзн"]
+			0 -> 1 [label="сравнит"]
+			3 -> 2 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			7 -> 9 [label="кратн"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="предик"]
+			5 -> 10 [label="_2_компл"]
+			5 -> 12 [label="обст"]
+			6 -> 7 [label="аппрокс_колич"]
+}

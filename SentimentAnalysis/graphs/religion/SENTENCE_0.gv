@@ -1,0 +1,18 @@
+digraph SENTENCE_0 {
+	graph [label="Русские паломницы растеряны и расстроены."]
+	node [style=filled]
+		0 [label="Русские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="паломницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="растеряны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="расстроены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+}

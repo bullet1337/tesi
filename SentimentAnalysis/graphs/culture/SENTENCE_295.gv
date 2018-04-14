@@ -1,0 +1,81 @@
+digraph SENTENCE_295 {
+	graph [label="Конкурсную программу первого фестиваля телевизионного художественного кино \"Утро Родины\" составят 13 картин, среди которых \"Троцкий\", \"Демон революции\", \"Анна Каренина\", рассказал на пресс-конференции в понедельник президент смотра Сергей Жигунов."]
+	node [style=filled]
+		0 [label="Конкурсную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="телевизионного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Утро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Родины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="составят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Троцкий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Демон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="революции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Анна Каренина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="пресс-конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="смотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="Сергей Жигунов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 6 [label="сочин"]
+			1 -> 11 [label="релят"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			35 -> 36 [label="_1_компл"]
+			35 -> 37 [label="аппоз"]
+			33 -> 34 [label="предл"]
+			3 -> 2 [label="опред"]
+			31 -> 32 [label="предл"]
+			22 -> 18 [label="опред"]
+			22 -> 23 [label="аппоз"]
+			22 -> 27 [label="об_аппоз"]
+			15 -> 16 [label="предл"]
+			30 -> 1 [label="предик"]
+			30 -> 15 [label="обст"]
+			30 -> 22 [label="предик"]
+			30 -> 31 [label="обст"]
+			30 -> 35 [label="разъяснит"]
+			13 -> 12 [label="количест"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			32 -> 33 [label="атриб"]
+}

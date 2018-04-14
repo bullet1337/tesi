@@ -1,0 +1,48 @@
+digraph SENTENCE_1513 {
+	graph [label="Она уточнила, что все интерьеры и костюмы фильма она придумывала с нуля специально для съемок."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уточнила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="интерьеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="костюмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="придумывала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нуля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="специально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="съемок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 10 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			10 -> 5 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 14 [label="обст"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			11 -> 12 [label="предл"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="предл"]
+}

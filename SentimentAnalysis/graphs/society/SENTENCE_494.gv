@@ -1,0 +1,51 @@
+digraph SENTENCE_494 {
+	graph [label="\"Специалисты считают, что от 1 до 2% от населения страны страдают редкими заболеваниями, получается огромная цифра."]
+	node [style=filled]
+		1 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="считают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="страдают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="редкими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заболеваниями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="огромная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="цифра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="соотнос"]
+			13 -> 5 [label="обст"]
+			13 -> 15 [label="_1_компл"]
+			17 -> 19 [label="предик"]
+			19 -> 18 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 17 [label="_2_компл"]
+			7 -> 8 [label="нум_аппоз"]
+			7 -> 10 [label="атриб"]
+			4 -> 13 [label="подч_союзн"]
+			11 -> 12 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+}

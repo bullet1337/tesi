@@ -1,0 +1,63 @@
+digraph SENTENCE_4471 {
+	graph [label="Доктор Серизава все 2 часа ходит с каким-то неадекватным лицом и бормочет всякую ересь, которую уместно произносить сумасшедшему, а не учёному."]
+	node [style=filled]
+		0 [label="Доктор Серизава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каким-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="неадекватным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лицом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бормочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всякую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ересь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="уместно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="произносить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сумасшедшему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="учёному
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_2_компл"]
+			9 -> 10 [label="соч_союзн"]
+			3 -> 2 [label="количест"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="длительн"]
+			4 -> 5 [label="обст"]
+			4 -> 9 [label="сочин"]
+			12 -> 11 [label="опред"]
+			17 -> 19 [label="сочин"]
+			21 -> 20 [label="огранич"]
+			5 -> 8 [label="предл"]
+			19 -> 21 [label="соч_союзн"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 16 [label="обст"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+}

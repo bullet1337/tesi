@@ -1,0 +1,27 @@
+digraph SENTENCE_1097 {
+	graph [label="Но тут ей полностью веришь в роли Сэльмы."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="веришь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сэльмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			0 -> 4 [label="соч_союзн"]
+}

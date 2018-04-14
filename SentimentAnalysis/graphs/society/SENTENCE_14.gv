@@ -1,0 +1,24 @@
+digraph SENTENCE_14 {
+	graph [label="Как сообщила РИА Новости ведущий специалист погодного центра \"."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="ведущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="специалист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="погодного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="центра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сравн_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="атриб"]
+			6 -> 5 [label="опред"]
+			1 -> 2 [label="предик"]
+			2 -> 4 [label="об_аппоз"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_360 {
+	graph [label="Накануне севастопольцам и гостям города показали боевую технику ВВС и ПВО, стоящую на вооружении в Крыму."]
+	node [style=filled]
+		0 [label="Накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="севастопольцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="гостям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="показали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="боевую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="технику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ВВС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ПВО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="стоящую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вооружении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Крыму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			10 -> 12 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 7 [label="предик"]
+			0 -> 1 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 3 [label="соч_союзн"]
+			1 -> 2 [label="сочин"]
+			13 -> 14 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			7 -> 9 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			14 -> 15 [label="атриб"]
+}

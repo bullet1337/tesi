@@ -1,0 +1,63 @@
+digraph SENTENCE_320 {
+	graph [label="Он охотно демонстрирует паломникам со всего света старинный железный ключ и даже позволяет с ним сфотографироваться на фоне закрытых дверей."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="охотно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="демонстрирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="паломникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="старинный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="железный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ключ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="позволяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сфотографироваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="закрытых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="дверей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="обст"]
+			2 -> 9 [label="_1_компл"]
+			2 -> 10 [label="сочин"]
+			6 -> 5 [label="опред"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="обст"]
+			16 -> 17 [label="предл"]
+			13 -> 14 [label="предл"]
+			19 -> 18 [label="опред"]
+			12 -> 11 [label="огранич"]
+			12 -> 15 [label="_1_компл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			17 -> 19 [label="квазиагент"]
+			10 -> 12 [label="соч_союзн"]
+}

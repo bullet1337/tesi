@@ -1,0 +1,45 @@
+digraph SENTENCE_378 {
+	graph [label="Мученические акты святого Игнатия, существующие в двух редакциях, точной датировки его казни не сохранили."]
+	node [style=filled]
+		0 [label="Мученические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="акты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Игнатия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="существующие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="редакциях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="точной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="датировки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="казни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сохранили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			6 -> 8 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="аппоз"]
+			1 -> 5 [label="опред"]
+			13 -> 12 [label="квазиагент"]
+			15 -> 1 [label="_1_компл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 7 [label="количест"]
+			8 -> 11 [label="_1_компл"]
+}

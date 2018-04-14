@@ -1,0 +1,48 @@
+digraph SENTENCE_779 {
+	graph [label="Отличный пример того, как лучшие отношения между США и Россией начинаются с диалога\", — написал дипломат."]
+	node [style=filled]
+		0 [label="Отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пример
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лучшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Россией
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="начинаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="диалога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дипломат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 11 [label="эксплет"]
+			8 -> 9 [label="сочин"]
+			11 -> 4 [label="вводн"]
+			11 -> 12 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			4 -> 6 [label="сравн_союзн"]
+			7 -> 8 [label="предл"]
+			17 -> 1 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+}

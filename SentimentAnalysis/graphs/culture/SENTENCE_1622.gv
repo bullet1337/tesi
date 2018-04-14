@@ -1,0 +1,39 @@
+digraph SENTENCE_1622 {
+	graph [label="\"Но, как обычно, мы не знаем наверняка, случится ли это\", — добавил он."]
+	node [style=filled]
+		1 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обычно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наверняка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="случится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 8 [label="сравн_союзн"]
+			8 -> 4 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="_1_компл"]
+			17 -> 3 [label="вводн"]
+			17 -> 18 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="огранич"]
+			11 -> 13 [label="предик"]
+			1 -> 17 [label="соч_союзн"]
+}

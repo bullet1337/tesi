@@ -1,0 +1,44 @@
+digraph SENTENCE_2800 {
+	graph [label="А герой Рутгера Хауэра мне показался совершенно целиком и полностью вышедшим из дурацких американских комиксов."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Рутгера Хауэра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="показался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="целиком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вышедшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дурацких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="американских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="комиксов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 6 [label="обст"]
+			7 -> 8 [label="соч_союзн"]
+			1 -> 2 [label="аппоз"]
+			9 -> 10 [label="_1_компл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			10 -> 13 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="сочин"]
+}

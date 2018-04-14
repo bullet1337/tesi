@@ -1,0 +1,41 @@
+digraph SENTENCE_618 {
+	graph [label="Так продолжалось до тех пор, пока лотосы и Будды не заполнили всю Вселенную."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продолжалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лотосы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Будды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заполнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Вселенную
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="обст"]
+			2 -> 4 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			13 -> 12 [label="опред"]
+			7 -> 8 [label="сочин"]
+			11 -> 7 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			6 -> 11 [label="подч_союзн"]
+}

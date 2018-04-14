@@ -1,0 +1,41 @@
+digraph SENTENCE_3677 {
+	graph [label="Ее можно приукрасить, в нее можно добавить драматизма, но ее нельзя взять и переврать!"]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приукрасить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="добавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="драматизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="взять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="переврать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предик"]
+			6 -> 10 [label="сент_соч"]
+			2 -> 4 [label="_2_компл"]
+			14 -> 15 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			12 -> 13 [label="предик"]
+			13 -> 14 [label="сочин"]
+			4 -> 5 [label="предл"]
+}

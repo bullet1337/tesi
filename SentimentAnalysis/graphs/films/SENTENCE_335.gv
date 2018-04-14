@@ -1,0 +1,34 @@
+digraph SENTENCE_335 {
+	graph [label="10 из 10
+Фильм, который произвел на меня глубочайшее впечатление."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="произвел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="глубочайшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			1 -> 3 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="_1_компл"]
+			3 -> 2 [label="количест"]
+			0 -> 1 [label="электив"]
+			10 -> 9 [label="опред"]
+}

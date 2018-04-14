@@ -1,0 +1,33 @@
+digraph SENTENCE_746 {
+	graph [label="Для православных это возможность благочестиво повеселиться\", — считает игумен Гермоген (Ананьев)."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="благочестиво
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="повеселиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="игумен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гермоген
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ананьев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="аппоз"]
+			0 -> 2 [label="предл"]
+			11 -> 13 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="предик"]
+			4 -> 9 [label="вводн"]
+			9 -> 10 [label="предик"]
+}

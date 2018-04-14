@@ -1,0 +1,57 @@
+digraph SENTENCE_461 {
+	graph [label="В течение трех сезонов зрители следили за повседневной жизнью подростков — Максима Макарова, Ильи Синицына, Степана Перепечко, Ильи Сухомлина, Алексея Сырникова и Александра Трофимова."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сезонов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="следили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="повседневной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подростков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Максима Макарова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ильи Синицына
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Степана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Перепечко
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Ильи Сухомлина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Алексея Сырникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Александра Трофимова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 15 [label="аппоз"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 18 [label="предик"]
+			21 -> 22 [label="соч_союзн"]
+			11 -> 13 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			1 -> 3 [label="квазиагент"]
+			18 -> 16 [label="огранич"]
+			18 -> 20 [label="аппоз"]
+			6 -> 8 [label="предл"]
+			3 -> 2 [label="количест"]
+			20 -> 21 [label="сочин"]
+			0 -> 1 [label="предл"]
+			9 -> 11 [label="аппоз"]
+}

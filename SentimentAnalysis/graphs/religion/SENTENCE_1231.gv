@@ -1,0 +1,57 @@
+digraph SENTENCE_1231 {
+	graph [label="В 2018 году на Масленице уже по традиции будет выступать группа юных талантливых танцоров и музыкантов из России."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Масленице
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="юных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="талантливых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="танцоров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="музыкантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 13 [label="квазиагент"]
+			14 -> 15 [label="соч_союзн"]
+			15 -> 16 [label="атриб"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="аналит"]
+			8 -> 10 [label="предик"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="сочин"]
+			16 -> 17 [label="предл"]
+			3 -> 4 [label="предл"]
+}

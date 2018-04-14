@@ -1,0 +1,27 @@
+digraph SENTENCE_4643 {
+	graph [label="Но никаких эмоций, кроме скуки, они не вызывают."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скуки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вызывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 2 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			4 -> 5 [label="предл"]
+			0 -> 9 [label="соч_союзн"]
+}

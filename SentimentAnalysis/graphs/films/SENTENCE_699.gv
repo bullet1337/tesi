@@ -1,0 +1,15 @@
+digraph SENTENCE_699 {
+	graph [label="Пронизывает кожу до костей."]
+	node [style=filled]
+		0 [label="Пронизывает
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="кожу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="костей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+}

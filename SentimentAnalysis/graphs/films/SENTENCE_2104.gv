@@ -1,0 +1,51 @@
+digraph SENTENCE_2104 {
+	graph [label="А если природа связывает все эпохи, то может быть она для нас и есть это единственное зеркало?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="природа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="связывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эпохи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="зеркало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			14 -> 17 [label="предик"]
+			5 -> 4 [label="опред"]
+			0 -> 8 [label="соч_союзн"]
+			11 -> 12 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 3 [label="подч_союзн"]
+			1 -> 7 [label="соотнос"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_4483 {
+	graph [label="Из 123 минут экранного времени ей отдано минут 20, причём исключительно в роли фона."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="123
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экранного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отдано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="причём
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="исключительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="_2_компл"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			7 -> 8 [label="аппрокс_колич"]
+			10 -> 12 [label="соч_союзн"]
+			2 -> 1 [label="количест"]
+			2 -> 4 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

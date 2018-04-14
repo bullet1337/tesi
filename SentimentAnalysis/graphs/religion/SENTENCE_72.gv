@@ -1,0 +1,48 @@
+digraph SENTENCE_72 {
+	graph [label="По замыслу организаторов, премия должна стать \"символом общественного признания наиболее социально активной и одаренной молодежи\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="замыслу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="организаторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="премия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="символом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="общественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="признания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="социально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="активной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одаренной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="молодежи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="соч_союзн"]
+			12 -> 11 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			0 -> 1 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			6 -> 8 [label="присвяз"]
+			15 -> 16 [label="_2_компл"]
+			1 -> 2 [label="квазиагент"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_408 {
+	graph [label="Один из придворных, Аман, был крайне раздражен таким возвышением Мордехая и, сплетя сеть интриг, добился согласия царя на уничтожение всего еврейского народа."]
+	node [style=filled]
+		0 [label="Один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="придворных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Аман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="крайне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раздражен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возвышением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мордехая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сплетя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сеть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="интриг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="добился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="согласия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="царя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="уничтожение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="еврейского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="народа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="соч_союзн"]
+			21 -> 22 [label="предл"]
+			2 -> 4 [label="аппоз"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="аппоз"]
+			19 -> 20 [label="квазиагент"]
+			15 -> 16 [label="квазиагент"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			22 -> 25 [label="_1_компл"]
+			6 -> 0 [label="предик"]
+			6 -> 8
+			6 -> 18 [label="сент_соч"]
+			0 -> 1 [label="электив"]
+			14 -> 15 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="_2_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_2_компл"]
+			8 -> 12 [label="сочин"]
+}

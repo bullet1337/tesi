@@ -1,0 +1,24 @@
+digraph SENTENCE_2433 {
+	graph [label="Я этот фильм ждал, я его дождался."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дождался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

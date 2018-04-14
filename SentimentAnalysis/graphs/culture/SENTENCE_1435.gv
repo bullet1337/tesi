@@ -1,0 +1,36 @@
+digraph SENTENCE_1435 {
+	graph [label="Самой успешной для нее стала работа в ленте \"Брюс всемогущий\" (2003)."]
+	node [style=filled]
+		0 [label="Самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="успешной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ленте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Брюс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="всемогущий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2003
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="присвяз"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="предик"]
+			4 -> 9 [label="вводн"]
+			9 -> 10 [label="опред"]
+			9 -> 13 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="предл"]
+			5 -> 6 [label="атриб"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1873 {
+	graph [label="Музыкой… и любовью к своему ребенку, и если ему хоть как-то можно помочь, надо обязательно это сделать."]
+	node [style=filled]
+		0 [label="Музыкой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любовью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ребенку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="обязательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="сочин"]
+			0 -> 8 [label="примыкат"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предик"]
+			13 -> 16 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			19 -> 17 [label="обст"]
+			19 -> 18 [label="_1_компл"]
+			16 -> 19 [label="предик"]
+			12 -> 11 [label="огранич"]
+			4 -> 6 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 3 [label="соч_союзн"]
+}

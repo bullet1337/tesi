@@ -1,0 +1,58 @@
+digraph SENTENCE_1279 {
+	graph [label="9 из 10
+Фильм сложно оценить, так же сложно, как дать оценку любви матери по 10 бальной шкале."]
+	node [style=filled]
+		0 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оценку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="матери
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="шкале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="_1_компл"]
+			16 -> 19 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			3 -> 2 [label="количест"]
+			11 -> 12 [label="сравн_союзн"]
+			0 -> 1 [label="электив"]
+			7 -> 8 [label="огранич"]
+			4 -> 0
+			4 -> 5 [label="предик"]
+			14 -> 15 [label="квазиагент"]
+			14 -> 16 [label="_1_компл"]
+			9 -> 7 [label="огранич"]
+			1 -> 3 [label="предл"]
+			19 -> 17 [label="количест"]
+			19 -> 18 [label="опред"]
+			5 -> 9 [label="_1_компл"]
+			5 -> 11 [label="_2_компл"]
+}

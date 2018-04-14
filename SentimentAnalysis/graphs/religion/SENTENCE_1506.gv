@@ -1,0 +1,48 @@
+digraph SENTENCE_1506 {
+	graph [label="В последние годы мода дарить шоколад дошла и до начальных школ и даже детских садов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дарить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шоколад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="начальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="школ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="детских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="садов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 8 [label="обст"]
+			6 -> 14 [label="предик"]
+			13 -> 12 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предл"]
+			8 -> 11 [label="сочин"]
+			10 -> 9 [label="опред"]
+			11 -> 13 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+}

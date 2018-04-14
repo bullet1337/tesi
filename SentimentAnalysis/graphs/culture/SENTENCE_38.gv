@@ -1,0 +1,41 @@
+digraph SENTENCE_38 {
+	graph [label="Этот вопрос задают себе главные герои спектакля, волею судеб оказавшиеся в сумасшедшем доме."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="задают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="герои
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="волею
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="судеб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оказавшиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сумасшедшем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="доме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="_1_компл"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 10 [label="опред"]
+			11 -> 13 [label="предл"]
+			10 -> 11 [label="присвяз"]
+			1 -> 0 [label="опред"]
+}

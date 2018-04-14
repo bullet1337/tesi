@@ -1,0 +1,21 @@
+digraph SENTENCE_1259 {
+	graph [label="По выявленным материалам правоохранители назначили проверку."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выявленным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="материалам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правоохранители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="назначили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проверку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+}

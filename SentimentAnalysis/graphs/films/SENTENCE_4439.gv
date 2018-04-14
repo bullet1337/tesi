@@ -1,0 +1,42 @@
+digraph SENTENCE_4439 {
+	graph [label="Американскую «Годзиллу» 1998 года не любят ни японцы, ни американцы, раздав ей немало «Малинок»."]
+	node [style=filled]
+		0 [label="Американскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="1998
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="японцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="американцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="раздав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="немало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Малинок
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 11 [label="сочин"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 16 [label="_1_компл"]
+			7 -> 2 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			5 -> 4 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			16 -> 18 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 5 [label="атриб"]
+}

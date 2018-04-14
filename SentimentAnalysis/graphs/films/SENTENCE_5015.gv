@@ -1,0 +1,24 @@
+digraph SENTENCE_5015 {
+	graph [label="7) В америке только одна ядерная бомба?"]
+	node [style=filled]
+		0 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="америке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="одна
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ядерная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бомба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 7 [label="разъяснит"]
+			7 -> 2 [label="обст"]
+			7 -> 5 [label="количест"]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="огранич"]
+}

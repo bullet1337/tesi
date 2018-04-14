@@ -1,0 +1,51 @@
+digraph SENTENCE_1213 {
+	graph [label="\"Еврейская община России глубоко потрясена трагедией авиарейса Москва – Орск, в результате которой погибло более 70 человек."]
+	node [style=filled]
+		1 [label="Еврейская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="община
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="глубоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="потрясена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="трагедией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="авиарейса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Москва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Орск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="погибло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 17 [label="количест"]
+			7 -> 8 [label="аппоз"]
+			7 -> 10 [label="сочин"]
+			16 -> 18 [label="сравнит"]
+			12 -> 13 [label="предл"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 15 [label="сент_соч"]
+			13 -> 14 [label="квазиагент"]
+			15 -> 12 [label="обст"]
+			15 -> 16 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+}

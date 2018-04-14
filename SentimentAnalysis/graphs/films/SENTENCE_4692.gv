@@ -1,0 +1,30 @@
+digraph SENTENCE_4692 {
+	graph [label="В этом моменте вы должны ударить себя по лбу."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="моменте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ударить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лбу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+}

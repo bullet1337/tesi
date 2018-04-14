@@ -1,0 +1,80 @@
+digraph SENTENCE_1005 {
+	graph [label="Во время стрельбы у храма Георгия Победоносца в Кизляре одна из прихожанок отвлекла внимание нападавшего на себя, чем спасла других людей, рассказал РИА Новости настоятель храма иерей Павел Каликин."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стрельбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Георгия Победоносца
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прихожанок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отвлекла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нападавшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="спасла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="настоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="иерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Павел Каликин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="предл"]
+			12 -> 13 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			20 -> 19 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 2 [label="предик"]
+			8 -> 3 [label="обст"]
+			8 -> 9 [label="электив"]
+			8 -> 11 [label="сент_соч"]
+			8 -> 22 [label="вводн"]
+			18 -> 17 [label="_2_компл"]
+			18 -> 20 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			22 -> 23 [label="предик"]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="атриб"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 18 [label="сочин"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 26 [label="аппоз"]
+			24 -> 27 [label="аппоз"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_1648 {
+	graph [label="Словно взлетая над грудой метала, грязи, изнеможенных людей, она — живет!"]
+	node [style=filled]
+		0 [label="Словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взлетая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="грудой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="метала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="грязи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="изнеможенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="сравн_союзн"]
+			4 -> 1 [label="обст"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 13 [label="релят"]
+			2 -> 3 [label="предл"]
+			1 -> 2 [label="обст"]
+			13 -> 11 [label="предик"]
+}

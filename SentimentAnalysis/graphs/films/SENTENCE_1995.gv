@@ -1,0 +1,63 @@
+digraph SENTENCE_1995 {
+	graph [label="Не могу согласиться с теми, кто видит в «Зеркале» некий сюрреализм — его здесь не больше, чем сюрреалистичны мы с вами."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="согласиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="теми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Зеркале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="некий
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сюрреализм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сюрреалистичны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="вами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 13 [label="_1_компл"]
+			22 -> 23 [label="атриб"]
+			21 -> 22 [label="предик"]
+			20 -> 21 [label="сравн_союзн"]
+			3 -> 4 [label="предл"]
+			13 -> 12 [label="опред"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 18 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			23 -> 24 [label="предл"]
+			18 -> 15 [label="предик"]
+			18 -> 16 [label="обст"]
+			18 -> 17 [label="огранич"]
+			18 -> 20 [label="сравнит"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 7 [label="релят"]
+}

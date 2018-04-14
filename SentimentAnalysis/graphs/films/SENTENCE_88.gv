@@ -1,0 +1,42 @@
+digraph SENTENCE_88 {
+	graph [label="Тяжелый фильм, который заставляет прочувствовать каждую эмоцию главной героини, каждой клеточкой своего тела."]
+	node [style=filled]
+		0 [label="Тяжелый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прочувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каждую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эмоцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="каждой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="клеточкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="сочин"]
+			5 -> 7 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="квазиагент"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="сочин"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="релят"]
+}

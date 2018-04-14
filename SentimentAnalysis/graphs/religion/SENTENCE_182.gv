@@ -1,0 +1,66 @@
+digraph SENTENCE_182 {
+	graph [label="По словам директора информационной службы римско-католической архиепархии Божией Матери в Москве священника Кирилла Горбунова, почитание 14 февраля святого Валентина носит факультативный характер."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="директора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="информационной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="римско-католической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="архиепархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Божией
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Матери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="священника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Кирилла Горбунова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="почитание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="носит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="факультативный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			6 -> 9 [label="атриб"]
+			6 -> 11 [label="сочин"]
+			8 -> 7 [label="опред"]
+			19 -> 0 [label="вводн"]
+			19 -> 18 [label="предик"]
+			19 -> 21 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="сочин"]
+			15 -> 16 [label="атриб"]
+			14 -> 15 [label="сочин"]
+			21 -> 20 [label="опред"]
+			4 -> 3 [label="опред"]
+			9 -> 10 [label="предл"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="сочин"]
+}

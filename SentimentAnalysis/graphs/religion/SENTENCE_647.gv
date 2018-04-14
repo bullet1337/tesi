@@ -1,0 +1,24 @@
+digraph SENTENCE_647 {
+	graph [label="Тут очень интересная вещь — в слове \"свой\"."]
+	node [style=filled]
+		0 [label="Тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интересная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вещь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слове
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="предик"]
+			8 -> 5 [label="огранич"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="опред"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_1113 {
+	graph [label="Один из древних отцов церкви Антоний Великий считал неприличным делать что-либо хорошее для себя прежде, чем сделает это ближнему."]
+	node [style=filled]
+		0 [label="Один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="древних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отцов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Антоний
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="считал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неприличным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хорошее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="прежде
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сделает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ближнему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="_1_компл"]
+			17 -> 18 [label="огранич"]
+			17 -> 19 [label="_2_компл"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 9 [label="сочин"]
+			7 -> 17 [label="разъяснит"]
+			10 -> 11 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			1 -> 3 [label="предл"]
+			0 -> 1 [label="электив"]
+			0 -> 5 [label="аппоз"]
+			12 -> 13 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			9 -> 14 [label="обст"]
+}

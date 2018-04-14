@@ -1,0 +1,39 @@
+digraph SENTENCE_922 {
+	graph [label="О маленькой сильной женщине, взявшей на себя слишком много, но продолжающей бороться."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="маленькой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сильной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="женщине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="взявшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="продолжающей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бороться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			6 -> 7 [label="предл"]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			5 -> 6 [label="_3_компл"]
+			5 -> 9 [label="_1_компл"]
+			5 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+}

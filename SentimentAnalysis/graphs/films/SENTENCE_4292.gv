@@ -1,0 +1,36 @@
+digraph SENTENCE_4292 {
+	graph [label="Я бы может и попереживал, но эти темы не были раскрыты."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="попереживал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раскрыты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="аналит"]
+			4 -> 2 [label="вводн"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сент_соч"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11
+			8 -> 7 [label="опред"]
+			6 -> 10 [label="соч_союзн"]
+}

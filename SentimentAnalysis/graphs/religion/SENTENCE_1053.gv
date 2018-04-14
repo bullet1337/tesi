@@ -1,0 +1,30 @@
+digraph SENTENCE_1053 {
+	graph [label="Или, будучи пешеходом, не перехожу дорогу на красный свет."]
+	node [style=filled]
+		0 [label="Или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будучи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пешеходом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="перехожу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дорогу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="красный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="предл"]
+			0 -> 6 [label="соч_союзн"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			2 -> 3 [label="присвяз"]
+}

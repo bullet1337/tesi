@@ -1,0 +1,21 @@
+digraph SENTENCE_1588 {
+	graph [label="В целом, фильм производит многогранный эффект."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="производит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="многогранный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эффект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_1100 {
+	graph [label="Как мы готовились отражать атаки националистов, которые пугали нас \"поездами дружбы\" и так далее."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="готовились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отражать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="атаки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="националистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пугали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поездами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дружбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="атриб"]
+			14 -> 16 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="_2_компл"]
+			8 -> 14 [label="сочин"]
+			16 -> 15
+			4 -> 5 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="разъяснит"]
+}

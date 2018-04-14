@@ -1,0 +1,51 @@
+digraph SENTENCE_1918 {
+	graph [label="Когда во время фильма я могу несколько раз нажать на паузу, или заниматься каким-то другим делом."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="могу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нажать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="паузу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заниматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="каким-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="делом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 12 [label="сочин"]
+			0 -> 5 [label="подч_союзн"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			7 -> 6 [label="количест"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			13 -> 16 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+}

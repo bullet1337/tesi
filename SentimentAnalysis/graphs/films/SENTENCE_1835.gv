@@ -1,0 +1,33 @@
+digraph SENTENCE_1835 {
+	graph [label="Вот и главная героиня знала, но её это не пугало."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пугало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 10 [label="соч_союзн"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="сент_соч"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			1 -> 0 [label="огранич"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_164 {
+	graph [label="В спектакле заняты Алена Бабенко, Татьяна Лялина, Полина Пахомова, Виктория Романенко, Марина Хазова, Илья Древков, Никита Ефремов, Иван Забелин, Александр Кахун и другие."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алена Бабенко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Татьяна Лялина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Полина Пахомова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Виктория Романенко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Марина Хазова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Илья Древков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Никита Ефремов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Иван Забелин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Александр Кахун
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="сочин"]
+			11 -> 13 [label="сочин"]
+			11 -> 15 [label="аппоз"]
+			5 -> 7 [label="сочин"]
+			9 -> 11 [label="сочин"]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="сочин"]
+			20 -> 21 [label="соч_союзн"]
+			7 -> 9 [label="сочин"]
+			7 -> 17 [label="аппоз"]
+			7 -> 19 [label="сочин"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_850 {
+	graph [label="Как отмечают на предприятии, морозы, пришедшие в столицу в последние дни февраля, не повлияли на работу наземного городского транспорта."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отмечают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предприятии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="морозы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пришедшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="столицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="повлияли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="наземного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="городского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="транспорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			3 -> 5 [label="аппоз"]
+			3 -> 7 [label="опред"]
+			1 -> 2 [label="обст"]
+			8 -> 9 [label="предл"]
+			2 -> 3 [label="предл"]
+			18 -> 21 [label="квазиагент"]
+			17 -> 18 [label="предл"]
+			10 -> 12 [label="предл"]
+			7 -> 8 [label="_2_компл"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			16 -> 0 [label="вводн"]
+			16 -> 10 [label="обст"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			0 -> 1 [label="сравн_союзн"]
+}

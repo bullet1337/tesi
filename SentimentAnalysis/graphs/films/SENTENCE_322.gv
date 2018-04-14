@@ -1,0 +1,65 @@
+digraph SENTENCE_322 {
+	graph [label="«Эй смотрите какие вы ничтожные, насколько несправедливы и жестоки, вы лицемерны и такие мелкие, ваши головы заняты стереотипами и прочей мишурой»."]
+	node [style=filled]
+		1 [label="Эй
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="какие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ничтожные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="несправедливы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жестоки
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лицемерны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мелкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ваши
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="заняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="стереотипами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="прочей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="мишурой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="вводн"]
+			16 -> 15 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="сочин"]
+			5 -> 13 [label="сент_соч"]
+			5 -> 20 [label="примыкат"]
+			14 -> 16 [label="соч_союзн"]
+			19 -> 18 [label="опред"]
+			24 -> 23 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="сочин"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_2_компл"]
+			22 -> 24 [label="соч_союзн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="сент_соч"]
+			21 -> 22 [label="сочин"]
+}

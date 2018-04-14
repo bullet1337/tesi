@@ -1,0 +1,30 @@
+digraph SENTENCE_1815 {
+	graph [label="Я плакала с ней каждый раз, когда плакала она."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плакала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плакала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="обст"]
+			1 -> 7 [label="обст"]
+			7 -> 8 [label="подч_союзн"]
+			8 -> 9 [label="предик"]
+}

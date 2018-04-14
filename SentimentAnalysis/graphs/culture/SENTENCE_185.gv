@@ -1,0 +1,18 @@
+digraph SENTENCE_185 {
+	graph [label="Чайковского и в зале им."]
+	node [style=filled]
+		0 [label="Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="дат_субъект"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_3994 {
+	graph [label="Положительных персонажей в фильме нет вообще."]
+	node [style=filled]
+		0 [label="Положительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+}

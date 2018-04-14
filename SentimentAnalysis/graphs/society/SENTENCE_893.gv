@@ -1,0 +1,24 @@
+digraph SENTENCE_893 {
+	graph [label="Он по-прежнему находится под постоянным наблюдением врачей."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="постоянным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="наблюдением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="врачей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 5 [label="предл"]
+}

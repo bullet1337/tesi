@@ -1,0 +1,39 @@
+digraph SENTENCE_3148 {
+	graph [label="Картина позиционировалась как психологичная, а получилось, что они просто дразнят массового зрителя."]
+	node [style=filled]
+		0 [label="Картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="позиционировалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="психологичная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дразнят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="массового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			2 -> 3 [label="сравн_союзн"]
+			5 -> 6 [label="соч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			8 -> 11 [label="подч_союзн"]
+}

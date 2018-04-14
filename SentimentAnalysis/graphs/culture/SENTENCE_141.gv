@@ -1,0 +1,33 @@
+digraph SENTENCE_141 {
+	graph [label="В моноспектакле \"Человеческий голос\" на сцене только Женщина и Музыка."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="моноспектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Человеческий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Женщина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Музыка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			6 -> 7 [label="предл"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="обст"]
+			4 -> 9 [label="сочин"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="сочин"]
+}

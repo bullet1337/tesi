@@ -1,0 +1,57 @@
+digraph SENTENCE_4015 {
+	graph [label="Когда ожидания не оправдываются, это еще не так плохо, ведь несбывшиеся мечты они могут быть компенсированы чем-то другим."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оправдываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="плохо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несбывшиеся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="компенсированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="чем-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17
+			12 -> 11 [label="огранич"]
+			0 -> 3 [label="подч_союзн"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			9 -> 0 [label="обст"]
+			9 -> 5 [label="предик"]
+			9 -> 6 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			9 -> 13 [label="предик"]
+			8 -> 7 [label="огранич"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="релят"]
+			18 -> 19 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			17 -> 18 [label="_3_компл"]
+}

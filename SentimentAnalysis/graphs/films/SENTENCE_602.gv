@@ -1,0 +1,39 @@
+digraph SENTENCE_602 {
+	graph [label="Об этом никто не знает, да она никому и не скажет — зачем?"]
+	node [style=filled]
+		0 [label="Об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="никому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="скажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 7 [label="предик"]
+			11 -> 8 [label="_2_компл"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сент_соч"]
+			6 -> 11 [label="соч_союзн"]
+}

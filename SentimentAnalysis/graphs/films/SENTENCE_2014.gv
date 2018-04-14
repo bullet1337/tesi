@@ -1,0 +1,69 @@
+digraph SENTENCE_2014 {
+	graph [label="Герой видел сон, в котором он не может войти в свой старый дом, но он смог в своём сердце вернуться к Матери."]
+	node [style=filled]
+		0 [label="Герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="войти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="старый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="вернуться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Матери
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 4 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 15 [label="сент_соч"]
+			21 -> 22 [label="_2_компл"]
+			10 -> 13 [label="предл"]
+			9 -> 10 [label="_2_компл"]
+			20 -> 19 [label="опред"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			22 -> 23 [label="предл"]
+			15 -> 17 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="разъяснит"]
+			18 -> 20 [label="предл"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="обст"]
+			17 -> 21 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

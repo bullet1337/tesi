@@ -1,0 +1,21 @@
+digraph SENTENCE_257 {
+	graph [label="В Евросоюзе, очевидно, недовольны нарушением статус-кво."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Евросоюзе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="очевидно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="недовольны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нарушением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="статус-кво
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

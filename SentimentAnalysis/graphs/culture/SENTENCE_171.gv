@@ -1,0 +1,33 @@
+digraph SENTENCE_171 {
+	graph [label="Вторая работа, которую покажет Вахтанговский театр на Симоновской сцене, — \"Бовари\"."]
+	node [style=filled]
+		0 [label="Вторая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="покажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Вахтанговский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Симоновской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Бовари
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="обст"]
+			4 -> 13 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_3200 {
+	graph [label="Кино про больных людей."]
+	node [style=filled]
+		0 [label="Кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="больных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="атриб"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+}

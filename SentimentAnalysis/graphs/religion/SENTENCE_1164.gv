@@ -1,0 +1,44 @@
+digraph SENTENCE_1164 {
+	graph [label="Подходящее, как пояснил Голубев, это то, которое устроит жителей области, а также коллектив театра."]
+	node [style=filled]
+		0 [label="Подходящее
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пояснил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Голубев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="устроит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коллектив
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 0 [label="предик"]
+			10 -> 6 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 14 [label="сент_соч"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="квазиагент"]
+			3 -> 4 [label="предик"]
+			2 -> 3 [label="сравн_союзн"]
+			0 -> 2 [label="сравнит"]
+			6 -> 7 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+}

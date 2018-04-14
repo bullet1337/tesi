@@ -1,0 +1,30 @@
+digraph SENTENCE_301 {
+	graph [label="Автором награды — золотого и фарфорового лотоса – стал скульптор Владимир Каневский."]
+	node [style=filled]
+		0 [label="Автором
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="награды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="золотого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фарфорового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лотоса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="скульптор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Владимир Каневский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="соч_союзн"]
+			8 -> 0 [label="присвяз"]
+			8 -> 9 [label="предик"]
+			6 -> 3 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			9 -> 10 [label="аппоз"]
+			3 -> 4 [label="сочин"]
+			1 -> 6 [label="квазиагент"]
+}

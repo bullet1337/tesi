@@ -1,0 +1,65 @@
+digraph SENTENCE_2296 {
+	graph [label="Общее впечатление от фильма Очень затянутый, темп фильма медленный, он идет 2 часа 20 минут, а кажется, что все 4 часа."]
+	node [style=filled]
+		0 [label="Общее
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Очень
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="затянутый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="темп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="медленный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кажется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 7 [label="сочин"]
+			1 -> 12 [label="разъяснит"]
+			19 -> 21 [label="предик"]
+			16 -> 15 [label="количест"]
+			5 -> 4 [label="огранич"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="длительн"]
+			12 -> 18 [label="сент_соч"]
+			7 -> 5 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			7 -> 9 [label="опред"]
+			21 -> 24 [label="подч_союзн"]
+			24 -> 23 [label="количест"]
+			2 -> 3 [label="предл"]
+			23 -> 22 [label="опред"]
+			14 -> 13 [label="количест"]
+			14 -> 16 [label="аддит"]
+}

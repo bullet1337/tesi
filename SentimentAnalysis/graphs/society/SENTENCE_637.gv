@@ -1,0 +1,45 @@
+digraph SENTENCE_637 {
+	graph [label="\"Первое заявление в суд на возмещение морального вреда мы планируем подать в конце марта."]
+	node [style=filled]
+		1 [label="Первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заявление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возмещение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="морального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вреда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="планируем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="подать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			11 -> 12 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="предл"]
+			10 -> 2 [label="_1_компл"]
+			10 -> 5 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			8 -> 7 [label="опред"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_247 {
+	graph [label="Но ситуация на самом деле очень запутанная, поскольку статус Иерусалима за последние столетия неоднократно менялся\", — напоминает Михаил Якушев."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="запутанная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="столетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="менялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Михаил Якушев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="квазиагент"]
+			9 -> 11 [label="атриб"]
+			4 -> 3 [label="опред"]
+			15 -> 9 [label="предик"]
+			15 -> 14 [label="обст"]
+			2 -> 4 [label="предл"]
+			19 -> 20 [label="предик"]
+			11 -> 13 [label="предл"]
+			6 -> 1 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="обст"]
+			8 -> 15 [label="подч_союзн"]
+			13 -> 12 [label="опред"]
+			0 -> 6 [label="соч_союзн"]
+			0 -> 19 [label="вводн"]
+}

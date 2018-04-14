@@ -1,0 +1,48 @@
+digraph SENTENCE_1414 {
+	graph [label="В то же время он надеется, что общая проблема наконец примирит европейских евреев с мусульманами."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="надеется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="примирит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="европейских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мусульманами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 14 [label="_2_компл"]
+			9 -> 8 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			7 -> 11 [label="подч_союзн"]
+			1 -> 2 [label="огранич"]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+			14 -> 15 [label="предл"]
+			13 -> 12 [label="опред"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_584 {
+	graph [label="Максимальная температура в городе минус 9 — минус 11 градусов, по области она опустится до минус 8 — минус 13, вечером похолодает\", — сказал РИА Новости специалист \"Фобос\"."]
+	node [style=filled]
+		0 [label="Максимальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="опустится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вечером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="похолодает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="специалист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Фобос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 1 [label="предик"]
+			5 -> 7 [label="атриб"]
+			5 -> 14 [label="сент_соч"]
+			5 -> 23 [label="вводн"]
+			5 -> 27 [label="сент_соч"]
+			15 -> 16 [label="предл"]
+			27 -> 28 [label="предик"]
+			17 -> 19 [label="атриб"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			11 -> 12 [label="предл"]
+			7 -> 9 [label="предл"]
+			22 -> 20 [label="количест"]
+			28 -> 29 [label="об_аппоз"]
+			9 -> 8 [label="количест"]
+			9 -> 11 [label="атриб"]
+			23 -> 22 [label="обст"]
+			3 -> 4 [label="аппоз"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 17 [label="обст"]
+			29 -> 31 [label="атриб"]
+}

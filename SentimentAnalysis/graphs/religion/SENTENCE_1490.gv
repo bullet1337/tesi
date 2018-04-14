@@ -1,0 +1,39 @@
+digraph SENTENCE_1490 {
+	graph [label=", а также письма и стихотворения, в которых выражали свои чувства и пожелания."]
+	node [style=filled]
+		1 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="письма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стихотворения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выражали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пожелания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 9 [label="соч_союзн"]
+			4 -> 5 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			9 -> 3 [label="предик"]
+			9 -> 7 [label="обст"]
+			9 -> 11 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+}

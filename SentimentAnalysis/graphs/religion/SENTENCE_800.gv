@@ -1,0 +1,54 @@
+digraph SENTENCE_800 {
+	graph [label="Но однажды все изменилось — один из местных жителей напал на караул, ранил военнослужащего, завладел оружием и сбежал."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="изменилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="местных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="напал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="караул
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ранил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="военнослужащего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="завладел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оружием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сбежал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+			3 -> 9 [label="разъяснит"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="сочин"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="сочин"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="сочин"]
+			0 -> 3 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			5 -> 6 [label="электив"]
+}

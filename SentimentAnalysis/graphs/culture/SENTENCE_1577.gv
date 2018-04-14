@@ -1,0 +1,51 @@
+digraph SENTENCE_1577 {
+	graph [label="Энтони запечатлел поездку отставного советского офицера в США, его выступление в ООН, встречи с известными деятелями."]
+	node [style=filled]
+		0 [label="Энтони
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="запечатлел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поездку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отставного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="офицера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ООН
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="известными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="деятелями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			17 -> 16 [label="опред"]
+			11 -> 12 [label="предл"]
+			10 -> 9 [label="квазиагент"]
+			10 -> 11 [label="атриб"]
+			2 -> 5 [label="квазиагент"]
+			2 -> 6 [label="_2_компл"]
+			14 -> 15 [label="_1_компл"]
+			15 -> 17 [label="предл"]
+			6 -> 7 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 10 [label="несобст_агент"]
+			1 -> 14 [label="_1_компл"]
+}

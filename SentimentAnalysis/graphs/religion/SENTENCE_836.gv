@@ -1,0 +1,39 @@
+digraph SENTENCE_836 {
+	graph [label="\"Есть в Церкви понятие снисхождения — икономии — к людским немощам и обстоятельствам жизни."]
+	node [style=filled]
+		1 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Церкви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="понятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="снисхождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="икономии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="людским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="немощам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обстоятельствам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="примыкат"]
+			2 -> 3 [label="предл"]
+			9 -> 11 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="предик"]
+			1 -> 9 [label="вводн"]
+			4 -> 5 [label="аппоз"]
+			13 -> 14 [label="квазиагент"]
+}

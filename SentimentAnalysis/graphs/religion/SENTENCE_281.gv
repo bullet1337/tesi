@@ -1,0 +1,59 @@
+digraph SENTENCE_281 {
+	graph [label="Когда мы молчим, мы можем думать, мы можем анализировать самих себя, окружающую нас действительность, людей, с которыми мы сталкиваемся."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молчим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="думать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="анализировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="самих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="окружающую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="действительность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="которыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сталкиваемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			23 -> 20 [label="_1_компл"]
+			23 -> 22 [label="предик"]
+			0 -> 2 [label="подч_союзн"]
+			10 -> 12 [label="_1_компл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 16 [label="сент_соч"]
+			18 -> 23 [label="релят"]
+			12 -> 11 [label="опред"]
+			16 -> 14 [label="опред"]
+			20 -> 21 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="сент_соч"]
+			14 -> 15 [label="_1_компл"]
+}

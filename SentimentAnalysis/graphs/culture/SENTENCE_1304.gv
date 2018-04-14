@@ -1,0 +1,54 @@
+digraph SENTENCE_1304 {
+	graph [label="Спортивная драма идет в прокате 8 недель, ее общие кассовые сборы на 7 неделе — 3,03 миллиарда рублей."]
+	node [style=filled]
+		0 [label="Спортивная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прокате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="недель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="общие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кассовые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="3,03
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="миллиарда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="длительн"]
+			2 -> 17 [label="сент_соч"]
+			14 -> 13 [label="количест"]
+			1 -> 0 [label="опред"]
+			6 -> 5 [label="количест"]
+			17 -> 11 [label="предик"]
+			17 -> 16 [label="количест"]
+			17 -> 18 [label="квазиагент"]
+			11 -> 8 [label="квазиагент"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			12 -> 14 [label="предл"]
+			3 -> 4 [label="предл"]
+}

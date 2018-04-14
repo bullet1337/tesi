@@ -1,0 +1,81 @@
+digraph SENTENCE_2791 {
+	graph [label="Это кто, а для чего он это сказал и что это значит и т. д. и т. п. Непонятны ни мотивы героев ни их последующие поступки."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="значит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="д
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="п
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Непонятны
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="мотивы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="последующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="поступки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="сочин"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="сент_соч"]
+			4 -> 5 [label="предл"]
+			9 -> 12 [label="соч_союзн"]
+			24 -> 25 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сочин"]
+			1 -> 8 [label="сент_соч"]
+			1 -> 23 [label="разъяснит"]
+			18 -> 19 [label="соч_союзн"]
+			23 -> 24 [label="сочин"]
+			19 -> 21 [label="квазиагент"]
+			3 -> 4 [label="соч_союзн"]
+			16 -> 18 [label="сочин"]
+			25 -> 26 [label="_1_компл"]
+			25 -> 27 [label="сочин"]
+			30 -> 28 [label="квазиагент"]
+			30 -> 29 [label="опред"]
+			27 -> 30 [label="соч_союзн"]
+}

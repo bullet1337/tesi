@@ -1,0 +1,18 @@
+digraph SENTENCE_924 {
+	graph [label="РИА Новости выбрало наиболее необычные публикации."]
+	node [style=filled]
+		0 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="выбрало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="необычные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="публикации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

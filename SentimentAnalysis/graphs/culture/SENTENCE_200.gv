@@ -1,0 +1,36 @@
+digraph SENTENCE_200 {
+	graph [label="Дзефирелли сыграл выдающуюся роль в развитии оперной режиссуры и жанра фильма-оперы."]
+	node [style=filled]
+		0 [label="Дзефирелли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сыграл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выдающуюся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="развитии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оперной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жанра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильма-оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 7 [label="разъяснит"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			7 -> 10 [label="атриб"]
+			4 -> 5 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_2_компл"]
+}

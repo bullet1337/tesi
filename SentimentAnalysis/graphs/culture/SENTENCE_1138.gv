@@ -1,0 +1,33 @@
+digraph SENTENCE_1138 {
+	graph [label="Минкультуры РФ отозвало ранее выданное прокатное удостоверение на этот фильм."]
+	node [style=filled]
+		0 [label="Минкультуры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="отозвало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выданное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прокатное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="удостоверение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="обст"]
+			2 -> 7 [label="_3_компл"]
+			6 -> 5 [label="опред"]
+}

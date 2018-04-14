@@ -1,0 +1,36 @@
+digraph SENTENCE_1755 {
+	graph [label="Семь баллов не за то, что это хорошее и поучительное кино."]
+	node [style=filled]
+		0 [label="Семь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="баллов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хорошее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поучительное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			6 -> 11 [label="подч_союзн"]
+			11 -> 7 [label="предик"]
+			11 -> 8 [label="опред"]
+			1 -> 0 [label="количест"]
+			8 -> 9 [label="сочин"]
+			4 -> 6 [label="эксплет"]
+			9 -> 10 [label="соч_союзн"]
+}

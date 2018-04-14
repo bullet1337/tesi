@@ -1,0 +1,39 @@
+digraph SENTENCE_257 {
+	graph [label="Причина, видимо, в том, что у современных людей более высокий уровень абстракции."]
+	node [style=filled]
+		0 [label="Причина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="видимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="современных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="высокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уровень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="абстракции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="эксплет"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="вводн"]
+			4 -> 5 [label="предл"]
+			12 -> 11 [label="огранич"]
+			8 -> 10 [label="предл"]
+			13 -> 8 [label="обст"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			7 -> 13 [label="подч_союзн"]
+}

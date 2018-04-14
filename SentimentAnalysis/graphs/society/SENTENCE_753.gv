@@ -1,0 +1,42 @@
+digraph SENTENCE_753 {
+	graph [label="Я очень рад этому событию, у нас уже почти целая команда\", — отметил он."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рад
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="событию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="целая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="команда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			11 -> 6 [label="атриб"]
+			11 -> 10 [label="опред"]
+			4 -> 3 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 15 [label="сент_соч"]
+			15 -> 11 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

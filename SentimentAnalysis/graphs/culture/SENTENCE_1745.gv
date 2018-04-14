@@ -1,0 +1,33 @@
+digraph SENTENCE_1745 {
+	graph [label="Калинина, в 1936 — аспирантуру Ленинградского педагогического института имени А.И."]
+	node [style=filled]
+		0 [label="Калинина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1936
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="аспирантуру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ленинградского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="педагогического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="института
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 5 [label="предл"]
+			5 -> 3 [label="количест"]
+			8 -> 0 [label="предик"]
+			8 -> 2 [label="обст"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 10 [label="сочин"]
+			10 -> 12 [label="огранич"]
+}

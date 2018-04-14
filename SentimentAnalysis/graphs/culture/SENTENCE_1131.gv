@@ -1,0 +1,27 @@
+digraph SENTENCE_1131 {
+	graph [label="Актриса и продюсер Шридеви является легендой индийского кинематографа."]
+	node [style=filled]
+		0 [label="Актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продюсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Шридеви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="легендой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="индийского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="квазиагент"]
+			1 -> 2 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 3 [label="аппоз"]
+			0 -> 1 [label="сочин"]
+}

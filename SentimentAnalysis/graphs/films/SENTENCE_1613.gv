@@ -1,0 +1,45 @@
+digraph SENTENCE_1613 {
+	graph [label="История, которую нам показывают, цепляет не своей жестокостью, она цепляет прежде всего своим реализмом."]
+	node [style=filled]
+		0 [label="История
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="цепляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жестокостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="цепляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="реализмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			6 -> 9 [label="обст"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 12 [label="сент_соч"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="обст"]
+			12 -> 14 [label="_1_компл"]
+			12 -> 16 [label="обст"]
+			9 -> 8 [label="опред"]
+			16 -> 15 [label="опред"]
+}

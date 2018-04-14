@@ -1,0 +1,40 @@
+digraph SENTENCE_410 {
+	graph [label="Кто-то — ради денег, богатства и соблазнов, а кто-то — ради куда более высшей цели."]
+	node [style=filled]
+		0 [label="Кто-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="богатства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="соблазнов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="куда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="высшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="цели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="сочин"]
+			5 -> 9 [label="сент_соч"]
+			2 -> 3 [label="предл"]
+			12 -> 16 [label="предл"]
+			15 -> 14 [label="огранич"]
+			6 -> 7 [label="соч_союзн"]
+			14 -> 13 [label="колич_огран"]
+			16 -> 15 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_668 {
+	graph [label="Режиссер добавил, что для спектакля специально была написана музыка, где будет несколько вокальных номеров."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="специально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="написана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вокальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="номеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 7 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			12 -> 11 [label="обст"]
+			12 -> 15 [label="предик"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8
+			7 -> 9 [label="предик"]
+			15 -> 13 [label="количест"]
+			15 -> 14 [label="опред"]
+}

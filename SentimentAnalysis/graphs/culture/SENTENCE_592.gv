@@ -1,0 +1,39 @@
+digraph SENTENCE_592 {
+	graph [label="Нам важно, чтобы это был и в мире узнаваемый бренд\", — сказала Комарова."]
+	node [style=filled]
+		0 [label="Нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="важно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="узнаваемый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бренд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Комарова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 14 [label="вводн"]
+			14 -> 10 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			3 -> 5 [label="подч_союзн"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="присвяз"]
+}

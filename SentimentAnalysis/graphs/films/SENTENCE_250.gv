@@ -1,0 +1,51 @@
+digraph SENTENCE_250 {
+	graph [label="История Сельмы шокирует не столько своей трагичностью, сколько неповторимым реализмом, с которым она подана к столу."]
+	node [style=filled]
+		0 [label="История
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="шокирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="трагичностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="неповторимым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реализмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="столу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			2 -> 0 [label="предик"]
+			2 -> 15 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			16 -> 17 [label="предл"]
+			15 -> 4 [label="предик"]
+			15 -> 6 [label="агент"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_4_компл"]
+}

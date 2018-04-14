@@ -1,0 +1,18 @@
+digraph SENTENCE_308 {
+	graph [label="Особенно хочется отметить работу Bjork."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Bjork
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_2_компл"]
+			3 -> 4 [label="квазиагент"]
+}

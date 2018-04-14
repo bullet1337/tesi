@@ -1,0 +1,39 @@
+digraph SENTENCE_1606 {
+	graph [label="Напоследок скажу тем, кто еще сомневается, стоит ли посмотреть этот фильм — да!"]
+	node [style=filled]
+		0 [label="Напоследок
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сомневается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_1_компл"]
+			2 -> 6 [label="релят"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 9 [label="огранич"]
+			8 -> 10 [label="предик"]
+			8 -> 14 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+}

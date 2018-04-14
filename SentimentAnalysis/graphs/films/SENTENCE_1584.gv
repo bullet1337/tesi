@@ -1,0 +1,21 @@
+digraph SENTENCE_1584 {
+	graph [label="Нельзя не обговорить и техническую часть."]
+	node [style=filled]
+		0 [label="Нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обговорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="техническую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+			0 -> 2 [label="предик"]
+}

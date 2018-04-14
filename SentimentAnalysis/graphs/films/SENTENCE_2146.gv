@@ -1,0 +1,66 @@
+digraph SENTENCE_2146 {
+	graph [label="Не выдающийся «Андрей Рублев», мощнейший «Солярис», честный и пронзительный «Сталкер», триумфальное «Иваново детство» не были для режиссера так важны, как «Зеркало»."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Андрей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Рублев
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="мощнейший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Солярис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="честный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пронзительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Сталкер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="триумфальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Иваново
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="детство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="важны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			26 -> 27 [label="предл"]
+			22 -> 19 [label="опред"]
+			22 -> 21 [label="опред"]
+			31 -> 33 [label="сравн_союзн"]
+			4 -> 3 [label="предик"]
+			4 -> 9 [label="разъяснит"]
+			4 -> 25 [label="сент_соч"]
+			16 -> 12 [label="опред"]
+			12 -> 13 [label="сочин"]
+			3 -> 1 [label="опред"]
+			29 -> 28 [label="огранич"]
+			25 -> 22 [label="предик"]
+			25 -> 24 [label="огранич"]
+			25 -> 26 [label="обст"]
+			25 -> 29 [label="присвяз"]
+			25 -> 31 [label="сравнит"]
+			13 -> 14 [label="соч_союзн"]
+			9 -> 7 [label="опред"]
+			9 -> 16 [label="сочин"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4324 {
+	graph [label="Это всё уже было и не раз."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			6 -> 5 [label="огранич"]
+			0 -> 1 [label="опред"]
+}

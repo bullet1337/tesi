@@ -1,0 +1,54 @@
+digraph SENTENCE_37 {
+	graph [label="В воскресенье московский театр Сатиры представит фантасмагорию в двух действиях по пьесе Родиона Овчинникова под названием \"Где мы…\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="московский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сатиры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фантасмагорию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="действиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Родиона Овчинникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="названием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Где
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			14 -> 16 [label="компл_аппоз"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+			5 -> 12 [label="_1_компл"]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="атриб"]
+			7 -> 9 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="предл"]
+			16 -> 17 [label="предик"]
+			12 -> 13 [label="атриб"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_1137 {
+	graph [label="Сатирическая комедия британского режиссера Армандо Ианнуччи \"Смерть Сталина\", которая должна была выйти в прокат 25 января, вызвала отрицательную реакцию российского общества, даже не успев выйти на экраны."]
+	node [style=filled]
+		0 [label="Сатирическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="комедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="британского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Армандо Ианнуччи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="января
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вызвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отрицательную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="реакцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="успев
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="выйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="экраны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="атриб"]
+			1 -> 12 [label="релят"]
+			21 -> 20 [label="опред"]
+			21 -> 23 [label="квазиагент"]
+			16 -> 17 [label="атриб"]
+			28 -> 29 [label="_2_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			13 -> 1 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			14 -> 15 [label="предл"]
+			23 -> 22 [label="опред"]
+			27 -> 25 [label="огранич"]
+			27 -> 26 [label="огранич"]
+			27 -> 28 [label="_1_компл"]
+			19 -> 13 [label="_2_компл"]
+			19 -> 16 [label="обст"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 27 [label="обст"]
+			29 -> 30 [label="предл"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="присвяз"]
+			4 -> 6 [label="аппоз"]
+}

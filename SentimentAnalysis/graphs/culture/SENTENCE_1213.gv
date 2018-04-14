@@ -1,0 +1,53 @@
+digraph SENTENCE_1213 {
+	graph [label="Мы обсуждаем разные темы – темы дружбы, счастья, взаимоотношений с родителями, детьми, деньгами\", — рассказал журналистам в Петербурге Камиль Ларин."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обсуждаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дружбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="счастья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="взаимоотношений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="родителями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="детьми
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="деньгами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="журналистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Камиль Ларин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			20 -> 5 [label="предик"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 22 [label="обст"]
+			20 -> 24 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			3 -> 2 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			8 -> 10 [label="сочин"]
+			12 -> 14 [label="_1_компл"]
+			22 -> 23 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 16 [label="агент"]
+			6 -> 8 [label="сочин"]
+}

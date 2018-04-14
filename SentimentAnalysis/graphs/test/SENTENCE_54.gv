@@ -1,0 +1,15 @@
+digraph SENTENCE_54 {
+	graph [label="Пенелопа Крус делает хорошие вещи."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошие
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		3 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+}

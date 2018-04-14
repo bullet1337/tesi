@@ -1,0 +1,30 @@
+digraph SENTENCE_2620 {
+	graph [label="Простое содержимое пытается быть тем, чем оно не является."]
+	node [style=filled]
+		0 [label="Простое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="содержимое
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="присвяз"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			4 -> 9 [label="эксплет"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

@@ -1,0 +1,49 @@
+digraph SENTENCE_583 {
+	graph [label="10 из 10
+Единственный фильм, который просто повергает в шок и разрывает душу на части !!!"]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Единственный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="повергает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="шок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разрывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="душу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="предл"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="обст"]
+			0 -> 1 [label="электив"]
+			9 -> 10 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			14 -> 15 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1350 {
+	graph [label="Дескать, он тоже \"ищет человека\", только не с фонарем, а с айфоном."]
+	node [style=filled]
+		0 [label="Дескать
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ищет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фонарем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="айфоном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			11 -> 14 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="_2_компл"]
+			15 -> 16 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+}

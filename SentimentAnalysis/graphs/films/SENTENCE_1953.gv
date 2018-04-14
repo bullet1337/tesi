@@ -1,0 +1,24 @@
+digraph SENTENCE_1953 {
+	graph [label="Наша страна — боится, что в Пхеньяне обидятся?"]
+	node [style=filled]
+		0 [label="Наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="страна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="боится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Пхеньяне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="обидятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="предл"]
+			5 -> 8 [label="подч_союзн"]
+			8 -> 6 [label="обст"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1151 {
+	graph [label="первым на ум мне моментально приходит «Танцующая в темноте»."]
+	node [style=filled]
+		0 [label="первым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="моментально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="предл"]
+			5 -> 0 [label="суб_копр"]
+			5 -> 1 [label="_2_компл"]
+			5 -> 3 [label="неакт_компл"]
+			5 -> 4 [label="обст"]
+			5 -> 8 [label="сент_соч"]
+}

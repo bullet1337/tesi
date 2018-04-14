@@ -1,0 +1,33 @@
+digraph SENTENCE_3598 {
+	graph [label="Одна из неудач фильма в выборе актеров на главные роли."]
+	node [style=filled]
+		0 [label="Одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неудач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="предл"]
+			4 -> 7 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 9 [label="предл"]
+			0 -> 1 [label="электив"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+}

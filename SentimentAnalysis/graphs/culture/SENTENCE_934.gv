@@ -1,0 +1,51 @@
+digraph SENTENCE_934 {
+	graph [label="\"Я стараюсь забыть о своей идентичности, это дает мне возможность лучше воспринять идентичность других\", — заметил актер."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стараюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="забыть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="идентичности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="воспринять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="идентичность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="_2_компл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			9 -> 13 [label="сочин"]
+			9 -> 19 [label="сент_соч"]
+			19 -> 15 [label="_1_компл"]
+			19 -> 20 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 9 [label="сент_соч"]
+}

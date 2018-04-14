@@ -1,0 +1,72 @@
+digraph SENTENCE_1276 {
+	graph [label="В монастыре находится множество ценных буддийских реликвий, в том числе единственная в своем роде и самая почитаемая в тибетском буддизме статуя Будды Шакьямуни."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="монастыре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ценных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="буддийских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реликвий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="единственная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="роде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="почитаемая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тибетском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="буддизме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="статуя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Будды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Шакьямуни
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 16 [label="опред"]
+			21 -> 17 [label="опред"]
+			21 -> 22 [label="_1_компл"]
+			15 -> 23 [label="соч_союзн"]
+			23 -> 21 [label="предик"]
+			18 -> 20 [label="предл"]
+			10 -> 9 [label="опред"]
+			12 -> 14 [label="предл"]
+			8 -> 10 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			3 -> 6 [label="квазиагент"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 11 [label="сент_соч"]
+			20 -> 19 [label="опред"]
+			0 -> 1 [label="предл"]
+			11 -> 8 [label="огранич"]
+			11 -> 12 [label="атриб"]
+			11 -> 15 [label="сент_соч"]
+			17 -> 18 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+}

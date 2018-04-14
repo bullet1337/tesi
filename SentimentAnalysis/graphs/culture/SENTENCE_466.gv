@@ -1,0 +1,33 @@
+digraph SENTENCE_466 {
+	graph [label="Сериал \"Ботаны\" посвящен призывникам, которые служат в специальной компьютерной роте."]
+	node [style=filled]
+		0 [label="Сериал
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Ботаны
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="посвящен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="призывникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="служат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="специальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="компьютерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="роте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сочин"]
+			2 -> 8 [label="сент_соч"]
+			4 -> 5 [label="_2_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+			9 -> 12 [label="предл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+}

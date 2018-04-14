@@ -1,0 +1,73 @@
+digraph SENTENCE_1115 {
+	graph [label="8 из 10
+Мое знакомство с режиссером Ларсом фон Триером, который создает свой личный ни на кого не похожий сорт кино, прошло неудачно."]
+	node [style=filled]
+		0 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мое
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="знакомство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ларсом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Триером
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="создает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="личный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="похожий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сорт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="прошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="неудачно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			23 -> 13 [label="_1_компл"]
+			23 -> 14 [label="предик"]
+			23 -> 16 [label="обст"]
+			23 -> 20 [label="предик"]
+			23 -> 24 [label="обст"]
+			0 -> 1 [label="электив"]
+			9 -> 8
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предл"]
+			6 -> 7 [label="аппоз"]
+			1 -> 4 [label="предл"]
+			12 -> 0 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 23 [label="сент_соч"]
+			19 -> 18 [label="огранич"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+}

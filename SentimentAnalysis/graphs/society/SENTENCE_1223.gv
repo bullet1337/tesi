@@ -1,0 +1,43 @@
+digraph SENTENCE_1223 {
+	graph [label="Как рассказал Гаджиев, ухудшения состояния Мартынова не наблюдается, он \"чуть-чуть\" идет на поправку.
+"]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гаджиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="ухудшения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="состояния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мартынова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наблюдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="чуть-чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="поправку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сочин"]
+			8 -> 0 [label="вводн"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предик"]
+			8 -> 14 [label="сент_соч"]
+			2 -> 4 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 2 [label="предик"]
+			14 -> 12 [label="огранич"]
+			14 -> 15 [label="_1_несобст_компл"]
+			0 -> 1 [label="сравн_союзн"]
+			15 -> 16 [label="предл"]
+}

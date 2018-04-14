@@ -1,0 +1,36 @@
+digraph SENTENCE_230 {
+	graph [label="Дело в том, что Иерусалимская церковь — крупнейший после израильских властей землевладелец."]
+	node [style=filled]
+		0 [label="Дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Иерусалимская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крупнейший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="израильских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="властей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="землевладелец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="атриб"]
+			11 -> 10 [label="опред"]
+			2 -> 4 [label="эксплет"]
+			12 -> 6 [label="предик"]
+			12 -> 8 [label="опред"]
+			4 -> 12 [label="подч_союзн"]
+			6 -> 5 [label="опред"]
+			9 -> 11 [label="предл"]
+}

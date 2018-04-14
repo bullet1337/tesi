@@ -1,0 +1,63 @@
+digraph SENTENCE_394 {
+	graph [label="Также Гуф посоветовал Птахе уделять внимание не ему, а своей девушке, при этом не очень остроумно пошутив над ее именем."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Гуф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="посоветовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Птахе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="уделять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="девушке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="остроумно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пошутив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="именем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="обст"]
+			16 -> 15 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			11 -> 10 [label="опред"]
+			18 -> 13 [label="обст"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="_1_компл"]
+			19 -> 21 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="_2_компл"]
+			4 -> 18 [label="обст"]
+			21 -> 20 [label="квазиагент"]
+}

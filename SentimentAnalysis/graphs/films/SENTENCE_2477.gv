@@ -1,0 +1,51 @@
+digraph SENTENCE_2477 {
+	graph [label="Но оказался разочарован, причем глубина разочарования усилилась завышенными ожиданиями от множества хвалебных рецензий к этому фильму."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разочарован
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глубина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разочарования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="усилилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="завышенными
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ожиданиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="множества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хвалебных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рецензий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="присвяз"]
+			1 -> 4 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			5 -> 6 [label="квазиагент"]
+			7 -> 5 [label="предик"]
+			7 -> 9 [label="обст"]
+			7 -> 10 [label="обст"]
+			7 -> 14 [label="обст"]
+			0 -> 1 [label="соч_союзн"]
+			4 -> 7 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			16 -> 15 [label="опред"]
+			10 -> 11 [label="предл"]
+			14 -> 16 [label="предл"]
+}

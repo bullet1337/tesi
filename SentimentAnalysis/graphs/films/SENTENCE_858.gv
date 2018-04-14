@@ -1,0 +1,27 @@
+digraph SENTENCE_858 {
+	graph [label="Также стоит отметить наличие несменной «команды» фон Триера."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наличие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="несменной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="команды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 4 [label="опред"]
+			6 -> 9 [label="аппоз"]
+			3 -> 6 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			9 -> 8
+}

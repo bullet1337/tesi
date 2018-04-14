@@ -1,0 +1,52 @@
+digraph SENTENCE_3979 {
+	graph [label="Переделанный Алекс выходит на улицы города, свободный словно птица в небесах… Только вот что его там ждёт?"]
+	node [style=filled]
+		0 [label="Переделанный
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Алекс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="выходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свободный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="птица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="небесах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Только
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ждёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="сравн_союзн"]
+			1 -> 0 [label="опред"]
+			14 -> 13 [label="огранич"]
+			3 -> 4 [label="предл"]
+			15 -> 14 [label="огранич"]
+			15 -> 18 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 7 [label="суб_копр"]
+			10 -> 11 [label="предл"]
+			7 -> 8 [label="сравнит"]
+			18 -> 16 [label="_1_компл"]
+			18 -> 17 [label="обст"]
+}

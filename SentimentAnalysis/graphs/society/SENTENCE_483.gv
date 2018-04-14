@@ -1,0 +1,33 @@
+digraph SENTENCE_483 {
+	graph [label="В последний день февраля отмечается Международный день редких заболеваний (Rare Disease Day)."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Международный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Rare Disease Day
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="примыкат"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="предик"]
+			0 -> 2 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+}

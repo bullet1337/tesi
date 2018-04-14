@@ -1,0 +1,27 @@
+digraph SENTENCE_498 {
+	graph [label="Наша позиция не меняется: политикой пусть занимаются политики."]
+	node [style=filled]
+		0 [label="Наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="позиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="политикой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="занимаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="политики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 7 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+}

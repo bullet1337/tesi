@@ -1,0 +1,21 @@
+digraph SENTENCE_336 {
+	graph [label="\"Говорят, 20 лет такого не было."]
+	node [style=filled]
+		1 [label="Говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 4 [label="длительн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			4 -> 3 [label="количест"]
+			1 -> 7 [label="_1_компл"]
+}

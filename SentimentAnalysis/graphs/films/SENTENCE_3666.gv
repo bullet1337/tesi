@@ -1,0 +1,18 @@
+digraph SENTENCE_3666 {
+	graph [label="Понимаете, к чему я клоню?"]
+	node [style=filled]
+		0 [label="Понимаете
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="клоню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 4 [label="предик"]
+			2 -> 3 [label="предл"]
+}

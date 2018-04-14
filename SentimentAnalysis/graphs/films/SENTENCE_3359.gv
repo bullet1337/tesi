@@ -1,0 +1,45 @@
+digraph SENTENCE_3359 {
+	graph [label="Начнём с типажа экранных героев, с того, похожи, или не похожи они на реальных персонажей."]
+	node [style=filled]
+		0 [label="Начнём
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="типажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экранных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="реальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 6 [label="обст"]
+			7 -> 9 [label="сочин"]
+			2 -> 4 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			9 -> 11 [label="сочин"]
+			15 -> 17 [label="предл"]
+			13 -> 12 [label="огранич"]
+			11 -> 13 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+}

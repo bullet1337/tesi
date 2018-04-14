@@ -1,0 +1,36 @@
+digraph SENTENCE_1403 {
+	graph [label="По мнению скандинавских медиков, обрезание — \"ненужная медицинская манипуляция\", чреватая заражением крови."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="скандинавских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="медиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обрезание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ненужная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="медицинская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="манипуляция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чреватая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заражением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="крови
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="вводн"]
+			5 -> 10 [label="предик"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 14 [label="_1_компл"]
+}

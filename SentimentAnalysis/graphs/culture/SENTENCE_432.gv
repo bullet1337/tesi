@@ -1,0 +1,30 @@
+digraph SENTENCE_432 {
+	graph [label="Я думаю, для многих зрителей этот фильм будет некомфортным."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="некомфортным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="присвяз"]
+			7 -> 6 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 8 [label="_1_компл"]
+}

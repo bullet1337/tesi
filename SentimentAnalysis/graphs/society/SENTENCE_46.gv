@@ -1,0 +1,45 @@
+digraph SENTENCE_46 {
+	graph [label="Специалисты смогли приобрести качественную молочную смесь, расходные материалы и обеспечить круглосуточное отопление в вольере."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смогли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приобрести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="качественную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молочную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смесь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расходные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="материалы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обеспечить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="круглосуточное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отопление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вольере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			2 -> 5 [label="_1_компл"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="обст"]
+			12 -> 11 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="разъяснит"]
+			1 -> 9 [label="сочин"]
+}

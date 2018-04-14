@@ -1,0 +1,72 @@
+digraph SENTENCE_1946 {
+	graph [label="Манскому удалось передать атмосферу мира, где люди превращены в живые декорации, лишенные собственного «я» и не представляющие, что какая-то иная жизнь вообще возможна."]
+	node [style=filled]
+		0 [label="Манскому
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="передать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="атмосферу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="превращены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="живые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="декорации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лишенные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="собственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="представляющие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="какая-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="иная
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="возможна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_3_компл"]
+			8 -> 16 [label="сочин"]
+			16 -> 13 [label="оп_опред"]
+			16 -> 14 [label="опред"]
+			16 -> 18 [label="сочин"]
+			9 -> 11 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			22 -> 27 [label="подч_союзн"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			27 -> 25 [label="предик"]
+			27 -> 26 [label="обст"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			18 -> 20 [label="соч_союзн"]
+			3 -> 4 [label="квазиагент"]
+}

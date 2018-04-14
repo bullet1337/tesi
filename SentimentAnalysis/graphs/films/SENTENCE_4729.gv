@@ -1,0 +1,39 @@
+digraph SENTENCE_4729 {
+	graph [label="Он же вообще просто случайный участник и военный, он ничего не знает."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="случайный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="участник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="военный
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			12 -> 0 [label="_1_компл"]
+			12 -> 9 [label="предик"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			0 -> 1 [label="огранич"]
+			0 -> 5 [label="сочин"]
+			5 -> 2 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+}

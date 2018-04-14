@@ -1,0 +1,42 @@
+digraph SENTENCE_5023 {
+	graph [label="Т. е. американцы как бы ни при чём, они защищали японцев от годзиллы."]
+	node [style=filled]
+		0 [label="Т
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="американцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="защищали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="японцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="годзиллы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 0 [label="_3_компл"]
+			12 -> 4 [label="предик"]
+			12 -> 5 [label="обст"]
+			12 -> 6 [label="аналит"]
+			12 -> 8 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_2_компл"]
+			4 -> 2 [label="опред"]
+			14 -> 15 [label="предл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+}

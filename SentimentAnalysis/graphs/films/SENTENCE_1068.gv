@@ -1,0 +1,33 @@
+digraph SENTENCE_1068 {
+	graph [label="Этот фильм показывает насколько бывают жестоки люди и безвыходны ситуации."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="насколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жестоки
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="безвыходны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 9 [label="_1_компл"]
+			5 -> 3 [label="огранич"]
+			5 -> 6 [label="предик"]
+			3 -> 4 [label="сравн_союзн"]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			9 -> 5 [label="опред"]
+}

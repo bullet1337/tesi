@@ -1,0 +1,33 @@
+digraph SENTENCE_2175 {
+	graph [label="Подчеркиваю, персонажи из прошлого похожи на настоящих, а не наоборот."]
+	node [style=filled]
+		0 [label="Подчеркиваю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="персонажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прошлого
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="похожи
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="настоящих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="наоборот
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="атриб"]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="сочин"]
+			0 -> 2 [label="предик"]
+			0 -> 5 [label="сент_соч"]
+			11 -> 10 [label="огранич"]
+			9 -> 11 [label="соч_союзн"]
+}

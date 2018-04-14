@@ -1,0 +1,48 @@
+digraph SENTENCE_2357 {
+	graph [label="Но вот сам переход от сюжета к песням самым банальным образом режет слух и глаз."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="переход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="песням
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="банальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слух
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="глаз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			10 -> 9 [label="опред"]
+			11 -> 3 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			13 -> 14 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			4 -> 5 [label="предл"]
+			12 -> 13 [label="сочин"]
+			0 -> 11 [label="соч_союзн"]
+}

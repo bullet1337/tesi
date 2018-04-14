@@ -1,0 +1,24 @@
+digraph SENTENCE_733 {
+	graph [label="\"Великий пост для человека — это маленький подвиг."]
+	node [style=filled]
+		1 [label="Великий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="маленький
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подвиг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			6 -> 2 [label="пролепт"]
+}

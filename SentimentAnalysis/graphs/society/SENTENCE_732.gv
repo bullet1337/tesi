@@ -1,0 +1,33 @@
+digraph SENTENCE_732 {
+	graph [label="В этот день началось массовое вступление добровольцев в Красную Армию."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="началось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="массовое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="добровольцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Красную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Армию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			7 -> 9 [label="предл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="_1_компл"]
+}

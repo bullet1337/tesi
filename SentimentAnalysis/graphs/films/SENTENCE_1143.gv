@@ -1,0 +1,69 @@
+digraph SENTENCE_1143 {
+	graph [label="И опять всё, как в 13 лет… Мне никогда не нравилась Бьорк, да и мюзиклы я не люблю, но здесь она — бесподобна!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="опять
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Мне
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нравилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="бесподобна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 20 [label="разъяснит"]
+			5 -> 7 [label="предл"]
+			1 -> 2 [label="опред"]
+			1 -> 4 [label="сравнит"]
+			4 -> 5 [label="сравн_союзн"]
+			15 -> 16 [label="огранич"]
+			15 -> 17 [label="предик"]
+			26 -> 23 [label="обст"]
+			26 -> 24 [label="предик"]
+			0 -> 12 [label="соч_союзн"]
+			12 -> 1 [label="обст"]
+			12 -> 9 [label="_1_компл"]
+			12 -> 10 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предик"]
+			12 -> 15 [label="сент_соч"]
+			22 -> 26 [label="соч_союзн"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="сент_соч"]
+			7 -> 6 [label="количест"]
+}

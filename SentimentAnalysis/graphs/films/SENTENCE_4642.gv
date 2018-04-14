@@ -1,0 +1,40 @@
+digraph SENTENCE_4642 {
+	graph [label="Создатели впихнули сюжетную линию с главными героями, которым мы должны переживать и сочувствовать."]
+	node [style=filled]
+		0 [label="Создатели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="впихнули
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюжетную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="линию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="героями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="переживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сочувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="сочин"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			12 -> 13 [label="соч_союзн"]
+			3 -> 2 [label="опред"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+}

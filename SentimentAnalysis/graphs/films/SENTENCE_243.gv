@@ -1,0 +1,42 @@
+digraph SENTENCE_243 {
+	graph [label="Фильм снят по правилу Догмы-95, т. е. максимально приближен к любительской съёмке."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правилу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Догмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="95
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="максимально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="приближен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любительской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="съёмке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="количест"]
+			14 -> 16 [label="предл"]
+			13 -> 10 [label="предик"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			16 -> 15 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 8 [label="примыкат"]
+			1 -> 13 [label="сент_соч"]
+}

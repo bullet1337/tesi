@@ -1,0 +1,39 @@
+digraph SENTENCE_2623 {
+	graph [label="Вместе с тем, он лишен содержания и не дает пищи зрелому уму."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="содержания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пищи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="зрелому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="уму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 5 [label="эксплет"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="_2_компл"]
+			12 -> 11 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+}

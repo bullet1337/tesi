@@ -1,0 +1,21 @@
+digraph SENTENCE_1541 {
+	graph [label="Фильм получил рейтинг в 2,7 балла."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рейтинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="2,7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="балла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="количест"]
+			2 -> 3 [label="уточн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+}

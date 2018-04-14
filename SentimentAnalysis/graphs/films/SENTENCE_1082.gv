@@ -1,0 +1,18 @@
+digraph SENTENCE_1082 {
+	graph [label="Сэльма — простая эмигрантка из Чехословакии."]
+	node [style=filled]
+		0 [label="Сэльма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="простая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="эмигрантка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Чехословакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			4 -> 5 [label="предл"]
+}

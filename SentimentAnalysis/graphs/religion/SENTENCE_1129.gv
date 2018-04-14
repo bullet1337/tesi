@@ -1,0 +1,50 @@
+digraph SENTENCE_1129 {
+	graph [label="Форум был инициирован Союзом педиатров России и Всемирным русским народным собором, главой которого является патриарх Кирилл."]
+	node [style=filled]
+		0 [label="Форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="инициирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Союзом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="педиатров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Всемирным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="русским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="народным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="главой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="агент"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 15 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			15 -> 16 [label="аппоз"]
+			3 -> 4 [label="квазиагент"]
+			10 -> 7 [label="опред"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 14 [label="релят"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			1 -> 6 [label="сент_соч"]
+}

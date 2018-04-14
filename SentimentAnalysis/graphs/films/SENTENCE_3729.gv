@@ -1,0 +1,63 @@
+digraph SENTENCE_3729 {
+	graph [label="Документы все до одного уничтожены или подделаны, все книги исправлены, картины переписаны, статуи, улицы и здания переименованы, все даты изменены."]
+	node [style=filled]
+		0 [label="Документы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уничтожены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подделаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="исправлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="переписаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="статуи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="переименованы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="даты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="изменены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			18 -> 19 [label="соч_союзн"]
+			20 -> 23 [label="предик"]
+			20 -> 24 [label="сент_соч"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 18 [label="сочин"]
+			6 -> 9 [label="предик"]
+			23 -> 22 [label="опред"]
+			13 -> 15 [label="предик"]
+			13 -> 20 [label="сент_соч"]
+			5 -> 6 [label="соч_союзн"]
+			2 -> 3 [label="предл"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 5 [label="сочин"]
+			4 -> 10 [label="сент_соч"]
+			10 -> 12 [label="предик"]
+			10 -> 13 [label="сент_соч"]
+}

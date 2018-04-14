@@ -1,0 +1,54 @@
+digraph SENTENCE_1363 {
+	graph [label="Ранее стало известно, что заместитель генерального директора Первого канала Кирилл Клейменов продолжит вести программу \"Время\" после десятилетнего перерыва."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заместитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="генерального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="директора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Первого
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="канала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Кирилл Клейменов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="продолжит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Время
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="десятилетнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="перерыва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="присвяз"]
+			1 -> 4 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			17 -> 19 [label="предл"]
+			11 -> 5 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			5 -> 7 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="обст"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+			4 -> 11 [label="подч_союзн"]
+}

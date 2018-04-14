@@ -1,0 +1,39 @@
+digraph SENTENCE_1526 {
+	graph [label="Андрей Кончаловский, в свою очередь, назвал высказывание актера \"одним из миллиона других\" мнений."]
+	node [style=filled]
+		0 [label="Андрей Кончаловский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="высказывание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мнений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="электив"]
+			15 -> 13 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			12 -> 15 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="_2_компл"]
+}

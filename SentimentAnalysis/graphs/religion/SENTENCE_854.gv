@@ -1,0 +1,72 @@
+digraph SENTENCE_854 {
+	graph [label="Лозунг \"Сплав науки и отваги — инженерные войска\" утопает в сугробах, над ним до сих пор висит билборд с портретами участников солдатского церковного хора."]
+	node [style=filled]
+		0 [label="Лозунг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Сплав
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="науки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отваги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="инженерные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="войска
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="утопает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сугробах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="висит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="билборд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="портретами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="участников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="солдатского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="церковного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="хора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			12 -> 14 [label="_1_компл"]
+			10 -> 0 [label="_1_компл"]
+			10 -> 8 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 16 [label="предик"]
+			10 -> 19 [label="сент_соч"]
+			0 -> 2 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+			18 -> 17 [label="опред"]
+			14 -> 15 [label="предл"]
+			20 -> 21 [label="атриб"]
+			22 -> 23 [label="_1_компл"]
+			16 -> 18 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			3 -> 4 [label="сочин"]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+			19 -> 20 [label="предик"]
+			21 -> 22 [label="предл"]
+			23 -> 26 [label="_1_компл"]
+}

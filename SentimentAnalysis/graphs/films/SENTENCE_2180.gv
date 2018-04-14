@@ -1,0 +1,33 @@
+digraph SENTENCE_2180 {
+	graph [label="Напомню, 1974 год, Doom’а нет еще даже в проекте."]
+	node [style=filled]
+		0 [label="Напомню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1974
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Doom
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="проекте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="_1_компл"]
+			0 -> 7 [label="сочин"]
+			3 -> 2 [label="опред"]
+			3 -> 5
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			8 -> 11 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+}

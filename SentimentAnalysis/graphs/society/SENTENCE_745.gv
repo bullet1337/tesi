@@ -1,0 +1,51 @@
+digraph SENTENCE_745 {
+	graph [label="По информации пресс-службы, у Анастасии и Павла Гришиных родились два мальчика и девочка — Тимофей, Дмитрий и Арина."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="информации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пресс-службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Анастасии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Павла Гришиных
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="родились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="девочка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Тимофей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Дмитрий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Арина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="предик"]
+			14 -> 16 [label="аппоз"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 0 [label="вводн"]
+			2 -> 4 [label="атриб"]
+			2 -> 8 [label="разъяснит"]
+			0 -> 1 [label="предл"]
+			4 -> 5 [label="предл"]
+			12 -> 14 [label="аппоз"]
+			16 -> 17 [label="сочин"]
+			5 -> 6 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+			11 -> 12 [label="соч_союзн"]
+}

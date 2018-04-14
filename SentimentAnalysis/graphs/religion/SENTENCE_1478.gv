@@ -1,0 +1,42 @@
+digraph SENTENCE_1478 {
+	graph [label="В католическом богослужебном календаре 14 февраля празднуется память святых равноапостольных Кирилла и Мефодия."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="католическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="богослужебном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="календаре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="празднуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="святых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="равноапостольных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Кирилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мефодия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="предик"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="сочин"]
+			7 -> 10 [label="аппоз"]
+			4 -> 5 [label="атриб"]
+}

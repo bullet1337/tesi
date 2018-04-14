@@ -1,0 +1,54 @@
+digraph SENTENCE_872 {
+	graph [label="Она — Сельма Как сказал Ф. Бегбедер: «Счастлив бываешь лишь преддверии счастья; потом выливается лишь бурный поток говна»."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Как
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Бегбедер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Счастлив
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="бываешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="преддверии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="счастья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="бурный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="поток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="говна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			4 -> 5 [label="предик"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+			10 -> 3 [label="сравнит"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			11 -> 13 [label="предик"]
+			11 -> 17 [label="сент_соч"]
+			19 -> 18 [label="огранич"]
+			3 -> 4 [label="сравн_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 10 [label="релят"]
+			2 -> 11 [label="сент_соч"]
+			17 -> 16 [label="обст"]
+			17 -> 20 [label="предик"]
+}

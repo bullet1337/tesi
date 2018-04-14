@@ -1,0 +1,39 @@
+digraph SENTENCE_736 {
+	graph [label="Неофициально праздник отмечается как День настоящих мужчин, защитников в широком смысле слова."]
+	node [style=filled]
+		0 [label="Неофициально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="настоящих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="защитников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="широком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			12 -> 3 [label="вводн"]
+			12 -> 8 [label="предик"]
+			12 -> 9 [label="огранич"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 12 [label="предик"]
+			4 -> 6 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			9 -> 11 [label="предл"]
+			3 -> 4 [label="сравн_союзн"]
+}

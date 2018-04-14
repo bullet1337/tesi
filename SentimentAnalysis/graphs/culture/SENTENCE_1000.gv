@@ -1,0 +1,33 @@
+digraph SENTENCE_1000 {
+	graph [label="министра культуры, спорта и туризма самопровозглашенной Луганской народной республики Дмитрий Сидоров."]
+	node [style=filled]
+		0 [label="министра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="туризма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самопровозглашенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Луганской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="народной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Дмитрий Сидоров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 3 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 9 [label="атриб"]
+			0 -> 10 [label="аппоз"]
+			3 -> 4 [label="сочин"]
+}

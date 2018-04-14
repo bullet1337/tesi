@@ -1,0 +1,60 @@
+digraph SENTENCE_1721 {
+	graph [label="А можно спокойно сесть, запустить проигрыватель и пуститься с автором в долгое путешествие по потайным уголкам неиспорченной человеческой души."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сесть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="запустить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проигрыватель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пуститься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="автором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="долгое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="путешествие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="потайным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="уголкам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="неиспорченной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="человеческой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="_3_компл"]
+			9 -> 10 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			0 -> 1 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="_2_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="сочин"]
+			11 -> 13 [label="предл"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="сочин"]
+			1 -> 3 [label="предик"]
+			16 -> 15 [label="опред"]
+			16 -> 19 [label="квазиагент"]
+			14 -> 16 [label="предл"]
+}

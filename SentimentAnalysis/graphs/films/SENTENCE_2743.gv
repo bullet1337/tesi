@@ -1,0 +1,24 @@
+digraph SENTENCE_2743 {
+	graph [label="А андроиды только и ждут, ожидая знака."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="андроиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ждут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ожидая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знака
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="обст"]
+}

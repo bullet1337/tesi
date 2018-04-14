@@ -1,0 +1,23 @@
+digraph SENTENCE_545 {
+	graph [label="Сам режиссер считает обвинение \"вымышленным и абсурдным\"."]
+	node [style=filled]
+		0 [label="Сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обвинение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вымышленным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="абсурдным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+}

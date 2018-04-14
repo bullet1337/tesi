@@ -1,0 +1,67 @@
+digraph SENTENCE_1336 {
+	graph [label="10 из 10
+Как-то однажды в жаркий летний день я поссорилась со своими друзьями, и у меня было очень плохое настроение."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Как-то
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жаркий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="летний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поссорилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="друзьями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="плохое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="настроение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 18 [label="соч_союзн"]
+			11 -> 13 [label="предл"]
+			10 -> 0 [label="предик"]
+			10 -> 3 [label="обст"]
+			10 -> 4 [label="обст"]
+			10 -> 5 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 15 [label="сент_соч"]
+			16 -> 17 [label="предл"]
+			13 -> 12 [label="опред"]
+			18 -> 16 [label="_1_компл"]
+			18 -> 21 [label="предик"]
+			21 -> 20 [label="опред"]
+			0 -> 1 [label="электив"]
+			20 -> 19 [label="огранич"]
+			1 -> 2 [label="предл"]
+			5 -> 8 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+}

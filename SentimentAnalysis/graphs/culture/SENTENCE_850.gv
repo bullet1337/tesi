@@ -1,0 +1,48 @@
+digraph SENTENCE_850 {
+	graph [label="Исполнитель главной роли Юсиф Эйвазов сказал, что не считает своего героя параноиком, как любят его изображать."]
+	node [style=filled]
+		0 [label="Исполнитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Юсиф Эйвазов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="параноиком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="любят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="изображать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="подч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			13 -> 14 [label="сравн_союзн"]
+			16 -> 15 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			14 -> 16 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="аппоз"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 13 [label="сравнит"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_4910 {
+	graph [label="И все бы ничего, но, как выясняется, самка не только успела забеременеть, но уже и яйца отложила!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ничего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выясняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="самка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="успела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="забеременеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="яйца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отложила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 19 [label="_1_компл"]
+			7 -> 8 [label="сравн_союзн"]
+			13 -> 7 [label="вводн"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="сочин"]
+			16 -> 20 [label="соч_союзн"]
+			19 -> 17 [label="огранич"]
+			19 -> 18 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			0 -> 3 [label="соч_союзн"]
+			8 -> 10 [label="предик"]
+			5 -> 13 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2
+			3 -> 5 [label="сент_соч"]
+}

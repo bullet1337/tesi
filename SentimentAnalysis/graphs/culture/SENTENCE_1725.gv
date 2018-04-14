@@ -1,0 +1,42 @@
+digraph SENTENCE_1725 {
+	graph [label="В результате нападения было убито более 60 человек, более ста получили тяжелые ранения."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нападения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="убито
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="60
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ста
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="получили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тяжелые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ранения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4
+			3 -> 5 [label="предик"]
+			3 -> 11 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			7 -> 6 [label="количест"]
+			5 -> 7 [label="сравнит"]
+}

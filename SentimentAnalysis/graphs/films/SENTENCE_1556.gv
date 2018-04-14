@@ -1,0 +1,51 @@
+digraph SENTENCE_1556 {
+	graph [label="Судьба оказалась всесильной, судьба победила… Ты расплачиваешься жизнью за свои заблуждения и ценой жизни исправляешь ошибки."]
+	node [style=filled]
+		0 [label="Судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оказалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всесильной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="победила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ты
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="расплачиваешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заблуждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="исправляешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ошибки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			10 -> 12 [label="предл"]
+			16 -> 17 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 10 [label="обст"]
+			8 -> 16 [label="сент_соч"]
+			4 -> 2 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="присвяз"]
+			1 -> 5 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			5 -> 8 [label="разъяснит"]
+			14 -> 15 [label="_1_компл"]
+}

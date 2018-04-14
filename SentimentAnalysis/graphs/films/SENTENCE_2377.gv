@@ -1,0 +1,18 @@
+digraph SENTENCE_2377 {
+	graph [label="Но лично мне не нравится."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+}

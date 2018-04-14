@@ -1,0 +1,42 @@
+digraph SENTENCE_320 {
+	graph [label="Индийская актриса Шридеви умерла от остановки сердца в возрасте 54 лет, передает телеканал."]
+	node [style=filled]
+		0 [label="Индийская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Шридеви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="умерла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="остановки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сердца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возрасте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="54
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="телеканал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="обст"]
+			3 -> 12 [label="сент_соч"]
+			12 -> 10 [label="длительн"]
+			12 -> 13 [label="предик"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			10 -> 9 [label="количест"]
+}

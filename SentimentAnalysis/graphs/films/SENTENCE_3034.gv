@@ -1,0 +1,30 @@
+digraph SENTENCE_3034 {
+	graph [label="Если говорить о фабуле, то она просто до нельзя."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фабуле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="инф_союзн"]
+			0 -> 5 [label="соотнос"]
+			8 -> 0 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			1 -> 2 [label="_3_компл"]
+}

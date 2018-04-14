@@ -1,0 +1,24 @@
+digraph SENTENCE_1561 {
+	graph [label="Данные квалифицировались как \"с высокой степенью достоверности\"."]
+	node [style=filled]
+		0 [label="Данные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="квалифицировались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="высокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="степенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="достоверности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="сравнит"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 4 [label="сравн_союзн"]
+			4 -> 6 [label="предл"]
+}

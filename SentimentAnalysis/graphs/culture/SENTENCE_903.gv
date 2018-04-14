@@ -1,0 +1,24 @@
+digraph SENTENCE_903 {
+	graph [label="Сценарий фильма \"Лето\" написали Лилия и Михаил Идовы."]
+	node [style=filled]
+		0 [label="Сценарий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="написали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Лилия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Михаил Идовы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+}

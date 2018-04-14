@@ -1,0 +1,35 @@
+digraph SENTENCE_317 {
+	graph [label="Подруга Сельмы, в исполнении Катрин Денёв- настоящая подруга, но все остальные… они ужасны."]
+	node [style=filled]
+		0 [label="Подруга Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="настоящая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подруга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="остальные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ужасны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="сент_соч"]
+			14 -> 13 [label="предик"]
+			0 -> 2 [label="атриб"]
+			0 -> 4 [label="аппоз"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="примыкат"]
+			2 -> 3 [label="предл"]
+}

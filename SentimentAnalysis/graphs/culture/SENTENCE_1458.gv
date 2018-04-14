@@ -1,0 +1,48 @@
+digraph SENTENCE_1458 {
+	graph [label="В основе картины — сказки Э. Гофмана, куклы и декорации создал выдающийся художник и скульптор Михаил Шемякин."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="основе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сказки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Э
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Гофмана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="куклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="декорации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="создал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="скульптор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Михаил Шемякин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="соч_союзн"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			16 -> 17 [label="аппоз"]
+			7 -> 9 [label="сочин"]
+			12 -> 4 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 0 [label="огранич"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 7 [label="сочин"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+}

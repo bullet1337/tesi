@@ -1,0 +1,30 @@
+digraph SENTENCE_1277 {
+	graph [label="Душераздирающая драма «Танцующая в темноте» никого не оставит равнодушным."]
+	node [style=filled]
+		0 [label="Душераздирающая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оставит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="равнодушным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 9 [label="сочин"]
+			4 -> 5 [label="предл"]
+			9 -> 7 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="об_копр"]
+}

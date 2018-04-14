@@ -1,0 +1,45 @@
+digraph SENTENCE_1690 {
+	graph [label="Я думаю, режиссер не зря заставил нас обратить внимание на то, как снят фильм."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обратить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="_1_компл"]
+			11 -> 14 [label="эксплет"]
+			9 -> 10 [label="_1_компл"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="предик"]
+}

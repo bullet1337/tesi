@@ -1,0 +1,39 @@
+digraph SENTENCE_224 {
+	graph [label="Все настолько по-настоящему, как будто вы попробовали что-то натуральное, а не синтетическое."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по-настоящему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="попробовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="натуральное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="синтетическое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			11 -> 13 [label="соч_союзн"]
+			6 -> 5 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 7 [label="сент_соч"]
+			8 -> 9 [label="опред"]
+			9 -> 11 [label="сочин"]
+}

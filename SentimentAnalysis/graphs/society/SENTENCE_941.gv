@@ -1,0 +1,26 @@
+digraph SENTENCE_941 {
+	graph [label="Фронтовик, участвовал в двух войнах: Великой Отечественной и Советско-Японской."]
+	node [style=filled]
+		0 [label="Фронтовик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="войнах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Великой Отечественной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Советско-Японской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="сочин"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="количест"]
+}

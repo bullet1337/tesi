@@ -1,0 +1,51 @@
+digraph SENTENCE_1832 {
+	graph [label="Сразу скажу, что я не любитель мьюзиклов и даже фильмы с элементами мьюзикла мне смотреть тяжело."]
+	node [style=filled]
+		0 [label="Сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мьюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="элементами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мьюзикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="атриб"]
+			12 -> 13 [label="квазиагент"]
+			8 -> 10 [label="соч_союзн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 15 [label="_2_компл"]
+			7 -> 8 [label="сочин"]
+			15 -> 14 [label="дат_субъект"]
+			15 -> 16 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			3 -> 6 [label="подч_союзн"]
+}

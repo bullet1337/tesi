@@ -1,0 +1,36 @@
+digraph SENTENCE_1496 {
+	graph [label="«Я хочу, чтобы он смог увидеть своих внуков» — говорит героиня Бьорк."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внуков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 12 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 9 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			9 -> 8 [label="опред"]
+			4 -> 6 [label="подч_союзн"]
+			13 -> 14 [label="аппоз"]
+}

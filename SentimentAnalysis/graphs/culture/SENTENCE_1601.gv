@@ -1,0 +1,65 @@
+digraph SENTENCE_1601 {
+	graph [label="Картина рассказывает историю 12-летного Атари Кобайаши, который служит охранником у продажного градоначальника и заядлого кошатника, решившего изгнать всех собак города на свалку."]
+	node [style=filled]
+		0 [label="Картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="12-летного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Атари Кобайаши
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="служит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="охранником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="продажного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="градоначальника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заядлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кошатника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="решившего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="изгнать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="свалку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="сочин"]
+			16 -> 17 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="опред"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="предл"]
+			9 -> 12 [label="сочин"]
+			17 -> 19 [label="_1_компл"]
+			17 -> 21 [label="_2_компл"]
+			2 -> 4 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="сент_соч"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			12 -> 14 [label="соч_союзн"]
+			21 -> 22 [label="предл"]
+}

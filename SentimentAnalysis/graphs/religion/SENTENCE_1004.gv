@@ -1,0 +1,66 @@
+digraph SENTENCE_1004 {
+	graph [label="Также, по его мнению, совместной борьбе с терроризмом мешает и то, что ряд государств используют боевиков для достижения своих политических целей."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="совместной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="борьбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="терроризмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мешает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="государств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="используют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="боевиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="достижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="политических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="целей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="квазиагент"]
+			7 -> 0 [label="огранич"]
+			7 -> 2 [label="вводн"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 3 [label="квазиагент"]
+			2 -> 4 [label="предл"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="эксплет"]
+			8 -> 9 [label="предл"]
+			10 -> 7 [label="_1_компл"]
+			10 -> 12 [label="предик"]
+			14 -> 17 [label="подч_союзн"]
+			20 -> 23 [label="_1_компл"]
+			17 -> 15 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="_2_компл"]
+			19 -> 20 [label="предл"]
+			23 -> 21 [label="опред"]
+			23 -> 22 [label="опред"]
+}

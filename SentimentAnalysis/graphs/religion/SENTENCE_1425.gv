@@ -1,0 +1,51 @@
+digraph SENTENCE_1425 {
+	graph [label="Минули три года — и опасность исходит уже не только от террористов, но и от европейских политиков."]
+	node [style=filled]
+		0 [label="Минули
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="опасность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="террористов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="европейских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="политиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="соч_союзн"]
+			15 -> 17 [label="предл"]
+			9 -> 8 [label="огранич"]
+			13 -> 14 [label="огранич"]
+			13 -> 15 [label="соч_союзн"]
+			2 -> 1 [label="количест"]
+			0 -> 2 [label="длительн"]
+			0 -> 4 [label="сент_соч"]
+			6 -> 5 [label="предик"]
+			6 -> 10 [label="_1_компл"]
+			10 -> 7 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предл"]
+			10 -> 13 [label="сочин"]
+			17 -> 16 [label="опред"]
+}

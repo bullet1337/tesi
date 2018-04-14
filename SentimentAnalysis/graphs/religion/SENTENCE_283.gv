@@ -1,0 +1,33 @@
+digraph SENTENCE_283 {
+	graph [label="Он подчеркнул, что лучший способ научиться молчать – ходить в храм."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="способ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="научиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="молчать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 10 [label="подч_союзн"]
+			9 -> 5 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+}

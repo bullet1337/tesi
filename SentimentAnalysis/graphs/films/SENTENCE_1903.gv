@@ -1,0 +1,66 @@
+digraph SENTENCE_1903 {
+	graph [label="Я давно была наслышана о нём, причём отзывы сулили мне как минимум тяжёлые впечатления от просмотра, как максимум слёзы в конце."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наслышана
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="причём
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отзывы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сулили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="минимум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тяжёлые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="впечатления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="максимум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="слёзы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			21 -> 22 [label="предл"]
+			7 -> 9 [label="соч_союзн"]
+			19 -> 20 [label="квазиагент"]
+			11 -> 12 [label="сравн_союзн"]
+			10 -> 11 [label="сравнит"]
+			15 -> 16 [label="предл"]
+			18 -> 19 [label="сравн_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 14 [label="_1_компл"]
+			9 -> 15 [label="_2_компл"]
+			9 -> 18 [label="сравнит"]
+			9 -> 21 [label="обст"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="присвяз"]
+			2 -> 7 [label="сент_соч"]
+			4 -> 5 [label="предл"]
+			14 -> 13 [label="опред"]
+}

@@ -1,0 +1,90 @@
+digraph SENTENCE_1603 {
+	graph [label="В общем, практически все бы было идеальным, если бы не некоторые, как мне показалось, совершенно неоправданные действия героев, хотя это всего лишь мои догадки, ведь в мире всякое бывает."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="идеальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="показалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="неоправданные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="действия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="догадки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="ведь
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="всякое
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			31 -> 30 [label="огранич"]
+			31 -> 32 [label="предл"]
+			12 -> 11 [label="огранич"]
+			27 -> 26 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="опред"]
+			14 -> 16 [label="сравн_союзн"]
+			19 -> 18 [label="огранич"]
+			28 -> 27 [label="опред"]
+			28 -> 31 [label="атриб"]
+			34 -> 10 [label="аналит"]
+			34 -> 12 [label="предик"]
+			34 -> 14 [label="вводн"]
+			34 -> 23 [label="обст"]
+			34 -> 28 [label="_1_компл"]
+			34 -> 33 [label="предик"]
+			23 -> 25 [label="подч_союзн"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="аналит"]
+			6 -> 7 [label="присвяз"]
+			6 -> 9 [label="обст"]
+			9 -> 34 [label="подч_союзн"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+			16 -> 15 [label="_2_компл"]
+			16 -> 20 [label="предик"]
+			25 -> 24 [label="предик"]
+}

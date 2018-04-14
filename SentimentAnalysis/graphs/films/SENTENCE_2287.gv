@@ -1,0 +1,66 @@
+digraph SENTENCE_2287 {
+	graph [label="До конца фильма ждала, пока не приедут санитары в белых халатах, скрутят ее, посадят в машину и увезут в сумасшедший дом."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ждала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приедут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="санитары
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="белых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="халатах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="скрутят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="посадят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="машину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="увезут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сумасшедший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="дом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="обст"]
+			3 -> 13 [label="сочин"]
+			21 -> 23 [label="предл"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 19 [label="сочин"]
+			19 -> 20 [label="соч_союзн"]
+			8 -> 9 [label="атриб"]
+			20 -> 21 [label="_3_компл"]
+			5 -> 7 [label="подч_союзн"]
+			23 -> 22 [label="опред"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="сочин"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			17 -> 18 [label="предл"]
+			0 -> 1 [label="предл"]
+}

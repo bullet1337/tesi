@@ -1,0 +1,24 @@
+digraph SENTENCE_4542 {
+	graph [label="Ладно, открою еще одну тайну, самую страшную."]
+	node [style=filled]
+		0 [label="Ладно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="открою
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тайну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="страшную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="количест"]
+			2 -> 0 [label="вводн"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+}

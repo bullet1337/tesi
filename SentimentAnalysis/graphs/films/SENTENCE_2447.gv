@@ -1,0 +1,36 @@
+digraph SENTENCE_2447 {
+	graph [label="3 из 10
+Когда услышал о данном фильм сразу подумалась «пропаганда»."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Когда
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="услышал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="данном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подумалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пропаганда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="обст"]
+			9 -> 11 [label="предик"]
+			5 -> 7 [label="предл"]
+			0 -> 1 [label="электив"]
+			3 -> 4 [label="подч_союзн"]
+			1 -> 2 [label="предл"]
+			4 -> 5 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="релят"]
+}

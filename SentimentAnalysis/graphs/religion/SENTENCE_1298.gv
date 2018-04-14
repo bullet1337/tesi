@@ -1,0 +1,63 @@
+digraph SENTENCE_1298 {
+	graph [label="У нас есть необходимый набор препаратов, также мы берем препараты, которые назначаем при сахарном диабете\", — сообщил военный врач ЦПВС Антон Ершов."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="необходимый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="набор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="препаратов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="берем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="препараты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="назначаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сахарном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="диабете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="военный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="врач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ЦПВС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Антон Ершов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			2 -> 9 [label="сент_соч"]
+			2 -> 20 [label="вводн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			20 -> 22 [label="предик"]
+			14 -> 16 [label="предл"]
+			16 -> 15 [label="опред"]
+			0 -> 1 [label="предл"]
+			9 -> 7 [label="огранич"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="аппоз"]
+			22 -> 24 [label="аппоз"]
+}

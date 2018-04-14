@@ -1,0 +1,33 @@
+digraph SENTENCE_668 {
+	graph [label="К сожалению, документальных исторических свидетельств о его жизни не сохранилось."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="документальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="исторических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свидетельств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сохранилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 7 [label="квазиагент"]
+			10 -> 0 [label="вводн"]
+			10 -> 5 [label="предик"]
+			10 -> 9 [label="огранич"]
+}

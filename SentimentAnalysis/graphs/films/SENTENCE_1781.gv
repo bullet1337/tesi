@@ -1,0 +1,43 @@
+digraph SENTENCE_1781 {
+	graph [label="Что важнее — материнская жертва ради здоровья ребенка или просто быть всегда рядом с ним?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="важнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="материнская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жертва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			5 -> 8 [label="сочин"]
+			1 -> 0 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="присвяз"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+}

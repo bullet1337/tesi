@@ -1,0 +1,18 @@
+digraph SENTENCE_423 {
+	graph [label="Фильм полон боли, страданий, мучений."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полон
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="страданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мучений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="разъяснит"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1077 {
+	graph [label="Политолог извинился перед девушкой-редактором, которая упала во время драки, но приносить извинения ведущему программы отказался."]
+	node [style=filled]
+		0 [label="Политолог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="извинился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="девушкой-редактором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="упала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="драки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="приносить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="извинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ведущему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="сочин"]
+			6 -> 16 [label="сент_соч"]
+			16 -> 15 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="сент_соч"]
+			11 -> 12 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+}

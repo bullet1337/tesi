@@ -1,0 +1,90 @@
+digraph SENTENCE_930 {
+	graph [label="Православное предание утверждает, что образ находился в стане Дмитрия Донского на Куликовом поле и помогал ему в сражении, которое состоялось в 1380 году в день празднования Рождества Богородицы (21 сентября)."]
+	node [style=filled]
+		0 [label="Православное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="утверждает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="находился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Дмитрия Донского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Куликовом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="поле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="помогал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сражении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="состоялось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="1380
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="празднования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Рождества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Богородицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="сентября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			26 -> 27 [label="_1_компл"]
+			26 -> 30 [label="атриб"]
+			13 -> 14 [label="соч_союзн"]
+			4 -> 6 [label="подч_союзн"]
+			12 -> 11 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="_2_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			24 -> 25 [label="предл"]
+			23 -> 22 [label="опред"]
+			21 -> 23 [label="предл"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 24 [label="обст"]
+			20 -> 26 [label="сент_соч"]
+			27 -> 28 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			30 -> 31 [label="атриб"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 9 [label="вводн"]
+			2 -> 10 [label="обст"]
+			2 -> 13 [label="сочин"]
+			2 -> 20 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			16 -> 17 [label="предл"]
+}

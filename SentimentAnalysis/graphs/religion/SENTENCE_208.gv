@@ -1,0 +1,81 @@
+digraph SENTENCE_208 {
+	graph [label="В годовщину встречи патриарха Кирилла с папой Франциском в Вене проходит конференция, на которой представители РПЦ, Ватикана и ближневосточных церквей обсуждают вопрос помощи христианскому населению Сирии."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="годовщину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Кирилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="папой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Франциском
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Вене
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конференция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Ватикана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ближневосточных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="церквей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="обсуждают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="христианскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="населению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="квазиагент"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 27 [label="сочин"]
+			22 -> 13 [label="обст"]
+			22 -> 15 [label="предик"]
+			22 -> 23 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			13 -> 14 [label="предл"]
+			6 -> 7 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 8 [label="обст"]
+			10 -> 11 [label="предик"]
+			10 -> 22 [label="сент_соч"]
+			26 -> 25 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			16 -> 18 [label="сочин"]
+			18 -> 19 [label="сочин"]
+			21 -> 20 [label="опред"]
+			24 -> 26 [label="_1_компл"]
+			19 -> 21 [label="соч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 5 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			3 -> 4 [label="аппоз"]
+}

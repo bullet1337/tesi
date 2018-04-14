@@ -1,0 +1,36 @@
+digraph SENTENCE_194 {
+	graph [label="Он выйдет на сцену БЗК с Симфоническим оркестром студентов Московской консерватории."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выйдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сцену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="БЗК
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Симфоническим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="студентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Московской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="консерватории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			5 -> 7 [label="предл"]
+			10 -> 9 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 10 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+}

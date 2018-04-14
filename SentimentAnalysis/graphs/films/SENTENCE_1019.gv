@@ -1,0 +1,39 @@
+digraph SENTENCE_1019 {
+	graph [label="Спустя почти сутки пишу этот текст, и до сих пор не отпускает."]
+	node [style=filled]
+		0 [label="Спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сутки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пишу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="текст
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отпускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			12 -> 8 [label="обст"]
+			12 -> 11 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			7 -> 12 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			0 -> 2 [label="предл"]
+			8 -> 10 [label="предл"]
+			5 -> 4 [label="опред"]
+}

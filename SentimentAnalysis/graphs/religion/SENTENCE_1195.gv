@@ -1,0 +1,54 @@
+digraph SENTENCE_1195 {
+	graph [label="Он выражал мнение, что сегодня День всех влюбленных превратился в коммерческий культ и сродни откровенному шабашу – Хеллоуину."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выражал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="влюбленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="превратился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="коммерческий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="культ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сродни
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="откровенному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="шабашу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Хеллоуину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 9 [label="подч_союзн"]
+			13 -> 15 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			15 -> 14 [label="обст"]
+			9 -> 5 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 13 [label="сочин"]
+			9 -> 16 [label="_2_компл"]
+			9 -> 18 [label="_1_компл"]
+			6 -> 8 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			10 -> 12 [label="предл"]
+}

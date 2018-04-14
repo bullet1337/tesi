@@ -1,0 +1,45 @@
+digraph SENTENCE_688 {
+	graph [label="Я уходила из кинотеатра сразу перед конечной сценой, и фильм не кончался для меня."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уходила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинотеатра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конечной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="обст"]
+			1 -> 12 [label="сочин"]
+			2 -> 3 [label="предл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="обст"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="сочин"]
+			13 -> 14 [label="предл"]
+}

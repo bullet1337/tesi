@@ -1,0 +1,36 @@
+digraph SENTENCE_99 {
+	graph [label="\"Поэтому тем, кто решил апробировать подобный способ дезинформации, не стоит увлекаться."]
+	node [style=filled]
+		1 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="апробировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подобный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="способ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дезинформации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="увлекаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="_1_компл"]
+			5 -> 1 [label="обст"]
+			5 -> 2 [label="огранич"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 12 [label="разъяснит"]
+			12 -> 9 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_2_компл"]
+			8 -> 7 [label="опред"]
+}

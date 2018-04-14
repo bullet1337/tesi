@@ -1,0 +1,30 @@
+digraph SENTENCE_942 {
+	graph [label="Что ж, фильм посмотрен, вывод сделан: Бьорк сыграла потрясающе."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посмотрен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вывод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сделан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="потрясающе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="обст"]
+			4 -> 0 [label="агент"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="разъяснит"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="вводн"]
+			7 -> 10 [label="сочин"]
+			0 -> 1 [label="огранич"]
+}

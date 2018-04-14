@@ -1,0 +1,21 @@
+digraph SENTENCE_817 {
+	graph [label="Я считаю, что эта позиция правильная."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="позиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			3 -> 6 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+}

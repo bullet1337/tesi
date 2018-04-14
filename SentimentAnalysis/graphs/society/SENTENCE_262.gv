@@ -1,0 +1,24 @@
+digraph SENTENCE_262 {
+	graph [label="Писать слово долго, а нарисовать символ легко."]
+	node [style=filled]
+		0 [label="Писать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нарисовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="символ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="легко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			0 -> 2 [label="обст"]
+			0 -> 4 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+			4 -> 5 [label="соч_союзн"]
+}

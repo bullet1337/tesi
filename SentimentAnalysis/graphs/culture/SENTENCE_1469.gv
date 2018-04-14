@@ -1,0 +1,30 @@
+digraph SENTENCE_1469 {
+	graph [label="Берлинале проходит с 15 по 25 февраля 2018 года."]
+	node [style=filled]
+		0 [label="Берлинале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="обст"]
+			5 -> 6 [label="атриб"]
+			6 -> 8 [label="атриб"]
+			8 -> 7 [label="опред"]
+			2 -> 3 [label="предл"]
+}

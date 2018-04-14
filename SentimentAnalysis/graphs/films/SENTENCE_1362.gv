@@ -1,0 +1,26 @@
+digraph SENTENCE_1362 {
+	graph [label="Что он мог придумать, кроме как обмануть ее?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="придумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обмануть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			3 -> 7 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+}

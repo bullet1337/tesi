@@ -1,0 +1,16 @@
+digraph SENTENCE_1110 {
+	graph [label="Всё-таки Триера нельзя считать жёноненавистником."]
+	node [style=filled]
+		0 [label="Всё-таки
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="считать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жёноненавистником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_2_компл"]
+			2 -> 3 [label="предик"]
+}

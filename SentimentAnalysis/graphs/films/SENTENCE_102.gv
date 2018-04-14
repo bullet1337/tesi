@@ -1,0 +1,33 @@
+digraph SENTENCE_102 {
+	graph [label="Вспоминаешь, как жалуешься на жизнь своим друзьям, и становится стыдно."]
+	node [style=filled]
+		0 [label="Вспоминаешь
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жалуешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="друзьям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стыдно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="_1_компл"]
+			10 -> 11 [label="присвяз"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="_2_компл"]
+			3 -> 9 [label="сочин"]
+			4 -> 5 [label="предл"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+}

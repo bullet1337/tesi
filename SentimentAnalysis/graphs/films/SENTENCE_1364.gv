@@ -1,0 +1,40 @@
+digraph SENTENCE_1364 {
+	graph [label="Отвергать то, чего ты не в состоянии понять — типичная позиция, не правда ли?"]
+	node [style=filled]
+		0 [label="Отвергать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="состоянии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="типичная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="позиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			0 -> 6 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="огранич"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_786 {
+	graph [label="Гонения на христиан Лициний начал с того, что лишил их всех придворных должностей и изгнал из дворца."]
+	node [style=filled]
+		0 [label="Гонения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Лициний
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лишил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="придворных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="должностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="изгнал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дворца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			8 -> 9 [label="подч_союзн"]
+			6 -> 8 [label="эксплет"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			16 -> 17 [label="предл"]
+			1 -> 2 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+			15 -> 16 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="квазиагент"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="_2_компл"]
+			9 -> 14 [label="сочин"]
+}

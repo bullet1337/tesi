@@ -1,0 +1,30 @@
+digraph SENTENCE_1387 {
+	graph [label="Настолько слаб, что даже убить сам себя не мог."]
+	node [style=filled]
+		0 [label="Настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слаб
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="убить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="суб_копр"]
+			3 -> 9 [label="подч_союзн"]
+			9 -> 5 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

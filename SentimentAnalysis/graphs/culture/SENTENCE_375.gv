@@ -1,0 +1,30 @@
+digraph SENTENCE_375 {
+	graph [label="\"Но с помощью рэпа я научился с ним бороться."]
+	node [style=filled]
+		1 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="помощью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рэпа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="научился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бороться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			1 -> 6 [label="соч_союзн"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 9 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			9 -> 7 [label="_1_компл"]
+}

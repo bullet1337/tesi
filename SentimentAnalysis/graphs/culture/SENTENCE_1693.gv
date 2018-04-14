@@ -1,0 +1,15 @@
+digraph SENTENCE_1693 {
+	graph [label="Это очень достойно мужчины."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="достойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мужчины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			2 -> 1 [label="огранич"]
+}

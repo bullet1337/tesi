@@ -1,0 +1,65 @@
+digraph SENTENCE_1256 {
+	graph [label="Призы Экуменического жюри (состоящего из христианских кинорежиссеров и кинокритиков) достались фильмам \"В коридорах\" Томаса Штубера, \"Стикс\" Вульфганга Фишера, а также \"Театру войны\" Лолы Ариас."]
+	node [style=filled]
+		0 [label="Призы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Экуменического
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="состоящего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кинорежиссеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кинокритиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="достались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильмам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="коридорах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Томаса Штубера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Стикс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Вульфганга Фишера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Театру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Лолы Ариас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 17 [label="аппоз"]
+			12 -> 14 [label="атриб"]
+			12 -> 20 [label="сочин"]
+			11 -> 0 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 24 [label="сент_соч"]
+			8 -> 9 [label="соч_союзн"]
+			28 -> 30 [label="квазиагент"]
+			27 -> 25 [label="огранич"]
+			27 -> 28 [label="сочин"]
+			20 -> 22 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			5 -> 7 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+}

@@ -1,0 +1,58 @@
+digraph SENTENCE_2051 {
+	graph [label="Зеркало — это символ того, что всегда правдиво; с тем, кто в нем отражается, можно поговорить даже в полном одиночестве."]
+	node [style=filled]
+		0 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="символ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="правдиво
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отражается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="поговорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="полном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="одиночестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="эксплет"]
+			16 -> 13 [label="предик"]
+			16 -> 14 [label="_2_компл"]
+			11 -> 16 [label="релят"]
+			23 -> 22 [label="опред"]
+			21 -> 20 [label="огранич"]
+			21 -> 23 [label="предл"]
+			2 -> 0 [label="пролепт"]
+			8 -> 7 [label="обст"]
+			19 -> 21 [label="обст"]
+			10 -> 11 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			6 -> 8 [label="подч_союзн"]
+			18 -> 19 [label="предик"]
+}

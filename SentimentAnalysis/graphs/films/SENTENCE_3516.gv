@@ -1,0 +1,39 @@
+digraph SENTENCE_3516 {
+	graph [label="Не знаком с женой Харламова, но Иванова мне показалась не удачным выбором."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="женой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Иванова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="удачным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выбором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			6 -> 9 [label="соч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			9 -> 7 [label="_1_компл"]
+			9 -> 8 [label="_2_компл"]
+			9 -> 12 [label="обст"]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="аппоз"]
+}

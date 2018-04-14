@@ -1,0 +1,57 @@
+digraph SENTENCE_193 {
+	graph [label="В Большом зале консерватории состоится выступление всегда ожидаемого в Москве дирижера-экспериментатора, новатора и любимца мировой музыкальной элиты Теодора Курентзиса."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Большом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="консерватории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ожидаемого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="дирижера-экспериментатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="новатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="любимца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="музыкальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="элиты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Теодора Курентзиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="соч_союзн"]
+			5 -> 7 [label="опред"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="обст"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			12 -> 13 [label="сочин"]
+			10 -> 12 [label="аппоз"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			8 -> 9 [label="предл"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 5 [label="предик"]
+			4 -> 10 [label="_1_компл"]
+			4 -> 17 [label="предик"]
+			4 -> 18 [label="вводн"]
+}

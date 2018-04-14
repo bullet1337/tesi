@@ -1,0 +1,45 @@
+digraph SENTENCE_2248 {
+	graph [label="Здесь он признался в любви к своей Семье, Искусству, Литературе, всему что ему любо."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="признался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Семье
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Искусству
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Литературе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="любо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 16 [label="разъяснит"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="сочин"]
+			16 -> 13 [label="_1_компл"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="дат_субъект"]
+			5 -> 7 [label="предл"]
+			9 -> 11 [label="сочин"]
+}

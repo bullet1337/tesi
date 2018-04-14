@@ -1,0 +1,54 @@
+digraph SENTENCE_1047 {
+	graph [label="Вместе с режиссером над постановкой работали лауреаты премии \"Золотая Маска\" сценограф Виктор Платонов и художник по костюмам Евгения Панфилова."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="постановкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лауреаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Золотая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Маска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="сценограф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Виктор Платонов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="костюмам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Евгения Панфилова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="аппоз"]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="предл"]
+			13 -> 14 [label="сочин"]
+			13 -> 18 [label="аппоз"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			5 -> 12 [label="вводн"]
+			5 -> 13 [label="предик"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			15 -> 16 [label="атриб"]
+			14 -> 15 [label="соч_союзн"]
+}

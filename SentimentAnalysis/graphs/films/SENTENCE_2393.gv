@@ -1,0 +1,39 @@
+digraph SENTENCE_2393 {
+	graph [label="Данное состояние дополняется, простите за слово, «игрой» актеров, хотя состав довольно приличный."]
+	node [style=filled]
+		0 [label="Данное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дополняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="простите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="игрой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="приличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сочин"]
+			13 -> 16 [label="подч_союзн"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 11 [label="_1_компл"]
+			4 -> 13 [label="обст"]
+			1 -> 0 [label="опред"]
+			6 -> 9 [label="аппоз"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+}

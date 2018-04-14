@@ -1,0 +1,66 @@
+digraph SENTENCE_1182 {
+	graph [label="Выступавшие под олимпийским флагом россияне выиграли две золотых, шесть серебряных, девять бронзовых наград и заняли 13-е место в медальном зачете Игр."]
+	node [style=filled]
+		0 [label="Выступавшие
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="олимпийским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="флагом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="россияне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выиграли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="золотых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шесть
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="серебряных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="девять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бронзовых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наград
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="заняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="13-е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="медальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="зачете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Игр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 3 [label="предл"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="атриб"]
+			0 -> 1 [label="обст"]
+			3 -> 2 [label="опред"]
+			15 -> 16 [label="соч_союзн"]
+			7 -> 6 [label="количест"]
+			7 -> 10 [label="сочин"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			4 -> 0 [label="опред"]
+			10 -> 9 [label="количест"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 14 [label="_2_компл"]
+			5 -> 15 [label="сочин"]
+			14 -> 12 [label="количест"]
+			14 -> 13 [label="опред"]
+			19 -> 21 [label="предл"]
+			18 -> 19 [label="атриб"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_1421 {
+	graph [label="В конкурсе участвуют 19 картин."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участвуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			4 -> 3 [label="количест"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+}

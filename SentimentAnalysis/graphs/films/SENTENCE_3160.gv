@@ -1,0 +1,38 @@
+digraph SENTENCE_3160 {
+	graph [label="Плюс ко всему из моей головы не выходили стоны Джилленхола, будоражащие сознание."]
+	node [style=filled]
+		0 [label="Плюс
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ко
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выходили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стоны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Джилленхола
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="будоражащие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сознание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="электив"]
+			0 -> 1 [label="атриб"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 11 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 6 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_353 {
+	graph [label="\"Четыре года минуло с того исторического нашего митинга, который дал начало Русской весне."]
+	node [style=filled]
+		1 [label="Четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="минуло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исторического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="митинга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="начало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="весне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 11 [label="сент_соч"]
+			12 -> 14 [label="квазиагент"]
+			2 -> 1 [label="количест"]
+			14 -> 13 [label="опред"]
+			4 -> 8 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_121 {
+	graph [label="Хореографией, сценографией, костюмами и концепцией светового оформления занимался Джон Ноймайер."]
+	node [style=filled]
+		0 [label="Хореографией
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сценографией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="костюмами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="концепцией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="светового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оформления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="занимался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Джон Ноймайер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="сочин"]
+			6 -> 8 [label="_1_компл"]
+			5 -> 6 [label="соч_союзн"]
+			0 -> 2 [label="сочин"]
+			4 -> 5 [label="сочин"]
+			9 -> 0 [label="_1_компл"]
+			9 -> 10 [label="предик"]
+			8 -> 7 [label="опред"]
+}

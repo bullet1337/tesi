@@ -1,0 +1,42 @@
+digraph SENTENCE_1462 {
+	graph [label="Помимо художественного кино и анимации, в Берлине представят картину российского документалиста Александра Абатурова \"Сын\"."]
+	node [style=filled]
+		0 [label="Помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="анимации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="представят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="документалиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Александра Абатурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Сын
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 12 [label="аппоз"]
+			9 -> 14 [label="примыкат"]
+			4 -> 6 [label="атриб"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			11 -> 10 [label="опред"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="соч_союзн"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_531 {
+	graph [label="Так, после праздника Сретения Господня она вспоминает праведного старца Симеона и пророчицу Анну."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="праздника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сретения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вспоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="праведного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="старца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Симеона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пророчицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Анну
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 13 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="предик"]
+			7 -> 0 [label="вводн"]
+			7 -> 2 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			10 -> 11 [label="сочин"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="аппоз"]
+			3 -> 5 [label="эксплет"]
+}

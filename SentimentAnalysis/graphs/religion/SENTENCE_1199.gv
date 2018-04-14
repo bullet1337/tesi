@@ -1,0 +1,81 @@
+digraph SENTENCE_1199 {
+	graph [label="Катар профинансирует строительство Исламского комплекса в Магасе, процесс возведения его объектов планируется начать уже весной, сообщает постпредство Ингушетии в Москве со ссылкой на главу республики Юнус-Бека Евкурова."]
+	node [style=filled]
+		0 [label="Катар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="профинансирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="строительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Исламского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="комплекса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Магасе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="процесс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="возведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="объектов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="начать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="весной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="постпредство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Ингушетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="ссылкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="главу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Юнус-Бека Евкурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="квазиагент"]
+			12 -> 13 [label="предик"]
+			12 -> 17 [label="сент_соч"]
+			9 -> 11 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+			17 -> 20 [label="обст"]
+			17 -> 22 [label="обст"]
+			5 -> 6 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+			22 -> 23 [label="предл"]
+			15 -> 14 [label="огранич"]
+			13 -> 15 [label="обст"]
+			20 -> 21 [label="предл"]
+			23 -> 24 [label="_1_компл"]
+			8 -> 9 [label="сочин"]
+			18 -> 19 [label="аппоз"]
+			24 -> 25 [label="предл"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 12 [label="сент_соч"]
+			25 -> 26 [label="_1_компл"]
+			25 -> 27 [label="аппоз"]
+}

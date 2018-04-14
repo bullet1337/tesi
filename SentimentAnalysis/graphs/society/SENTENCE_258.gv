@@ -1,0 +1,30 @@
+digraph SENTENCE_258 {
+	graph [label="Язык меньшим количеством форм способен выразить большее число понятий."]
+	node [style=filled]
+		0 [label="Язык
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меньшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="количеством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="форм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="способен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выразить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="большее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="число
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понятий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="агент"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+}

@@ -1,0 +1,87 @@
+digraph SENTENCE_416 {
+	graph [label="Мировой судебный участок 208 вернул Минкультуры РФ административный протокол в отношении московского кинотеатра \"Пионер\", который показал фильм \"Смерть Сталина\" без прокатного удостоверения, сообщила РИА Новости пресс-секретарь Дорогомиловского суда Москвы Евгения Горохова."]
+	node [style=filled]
+		0 [label="Мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="судебный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="участок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="208
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вернул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Минкультуры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="административный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="протокол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="московского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кинотеатра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="показал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="пресс-секретарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Дорогомиловского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="суда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Москвы Евгения Горохова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			24 -> 26 [label="предл"]
+			21 -> 22 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			19 -> 21 [label="ном_аппоз"]
+			19 -> 24 [label="атриб"]
+			26 -> 25 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			28 -> 29 [label="предик"]
+			10 -> 12 [label="квазиагент"]
+			18 -> 17 [label="_1_компл"]
+			18 -> 19 [label="предик"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="аппоз"]
+			12 -> 18 [label="релят"]
+			5 -> 6 [label="квазиагент"]
+			30 -> 32 [label="_1_компл"]
+			32 -> 31 [label="опред"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="разъяснит"]
+			4 -> 28 [label="вводн"]
+			4 -> 30 [label="_1_компл"]
+			4 -> 33 [label="разъяснит"]
+}

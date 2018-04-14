@@ -1,0 +1,27 @@
+digraph SENTENCE_4104 {
+	graph [label="Он не только чернокож, он еще и мусульманин!"]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чернокож
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мусульманин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 8 [label="разъяснит"]
+			2 -> 1 [label="огранич"]
+}

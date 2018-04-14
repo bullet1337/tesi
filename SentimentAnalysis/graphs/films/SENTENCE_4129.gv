@@ -1,0 +1,57 @@
+digraph SENTENCE_4129 {
+	graph [label="Он обыкновенный, никому не нужный отпрыск, над которым жестко издеваются другие такие же никому не нужные социальные выкидыши."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обыкновенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нужный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отпрыск
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жестко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="издеваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="никому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нужные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="социальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="выкидыши
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="предик"]
+			6 -> 1 [label="опред"]
+			6 -> 11 [label="релят"]
+			6 -> 19 [label="сочин"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			5 -> 3 [label="_2_компл"]
+			5 -> 4 [label="огранич"]
+			17 -> 13 [label="опред"]
+			17 -> 15 [label="_2_компл"]
+			17 -> 16 [label="огранич"]
+			11 -> 8 [label="_1_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="предик"]
+			13 -> 14 [label="огранич"]
+			8 -> 9 [label="предл"]
+			1 -> 5 [label="сочин"]
+}

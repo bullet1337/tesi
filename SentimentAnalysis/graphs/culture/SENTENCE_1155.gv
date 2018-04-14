@@ -1,0 +1,24 @@
+digraph SENTENCE_1155 {
+	graph [label="Народная артистка Татьяна Карпова, старейшая актриса театра Маяковского,."]
+	node [style=filled]
+		0 [label="Народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Татьяна Карпова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="старейшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+}

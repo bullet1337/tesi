@@ -1,0 +1,27 @@
+digraph SENTENCE_1371 {
+	graph [label="РИА Новости разбирается, чем российская мультипликация привлекает зарубежного зрителя."]
+	node [style=filled]
+		0 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="разбирается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мультипликация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="привлекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зарубежного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зрителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="сравнит"]
+			6 -> 8 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="сравн_союзн"]
+			8 -> 7 [label="опред"]
+}

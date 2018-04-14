@@ -1,0 +1,23 @@
+digraph SENTENCE_974 {
+	graph [label="Разочарование, может, и было какое-то, но внешнее."]
+	node [style=filled]
+		0 [label="Разочарование
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="какое-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внешнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 8 [label="сочин"]
+}

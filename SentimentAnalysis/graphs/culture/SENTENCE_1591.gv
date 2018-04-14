@@ -1,0 +1,27 @@
+digraph SENTENCE_1591 {
+	graph [label="Специалистов, которые работают в этой технологии, очень мало."]
+	node [style=filled]
+		0 [label="Специалистов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="технологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="релят"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			9 -> 0 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

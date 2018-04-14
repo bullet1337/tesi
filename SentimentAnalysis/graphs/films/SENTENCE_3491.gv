@@ -1,0 +1,33 @@
+digraph SENTENCE_3491 {
+	graph [label="Здесь у нас мельтешащий хоккей, обилие киноштампов и банальные диалоги."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мельтешащий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хоккей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обилие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="киноштампов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="банальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="диалоги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			6 -> 8 [label="сочин"]
+			10 -> 9 [label="опред"]
+			1 -> 2 [label="предл"]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="обст"]
+}

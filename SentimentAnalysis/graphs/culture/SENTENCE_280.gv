@@ -1,0 +1,39 @@
+digraph SENTENCE_280 {
+	graph [label="Петров спас миллионы жизней, но потерял все, поскольку действовал не по уставу."]
+	node [style=filled]
+		0 [label="Петров
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спас
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="миллионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потерял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="действовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уставу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="квазиагент"]
+			5 -> 6 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 5 [label="сент_соч"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			9 -> 10 [label="подч_союзн"]
+			10 -> 12 [label="обст"]
+}

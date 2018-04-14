@@ -1,0 +1,78 @@
+digraph SENTENCE_1224 {
+	graph [label="Все средства от проведения праздника, на котором в этот раз ожидаются 280 гостей, пойдут благотворительные фонды обоих приходов, рассказал РИА Новости настоятель Предтеченского собора отец Виктор Потапов."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="средства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="праздника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ожидаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="280
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гостей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пойдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="благотворительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фонды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="обоих
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="приходов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="настоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Предтеченского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Виктор Потапов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="предл"]
+			19 -> 18 [label="количест"]
+			10 -> 9 [label="опред"]
+			15 -> 13 [label="предик"]
+			15 -> 17 [label="_1_компл"]
+			21 -> 22 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			23 -> 25 [label="_1_компл"]
+			23 -> 26 [label="аппоз"]
+			13 -> 12 [label="количест"]
+			25 -> 24 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="_1_компл"]
+			22 -> 23 [label="об_аппоз"]
+			22 -> 27 [label="аппоз"]
+			11 -> 1 [label="предик"]
+			11 -> 6 [label="обст"]
+			11 -> 8 [label="обст"]
+			11 -> 15 [label="сент_соч"]
+			11 -> 21 [label="вводн"]
+}

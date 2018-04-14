@@ -1,0 +1,24 @@
+digraph SENTENCE_2318 {
+	graph [label="Ничего общего с мюзиклом я не увидела."]
+	node [style=filled]
+		0 [label="Ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мюзиклом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="увидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="_1_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+}

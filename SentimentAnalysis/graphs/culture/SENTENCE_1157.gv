@@ -1,0 +1,36 @@
+digraph SENTENCE_1157 {
+	graph [label="\"Прощание с Татьяной Карповой состоится в ее родном театре — театре имени Маяковского."]
+	node [style=filled]
+		1 [label="Прощание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Татьяной Карповой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="родном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 8 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 11 [label="сочин"]
+			8 -> 6 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			11 -> 12 [label="квазиагент"]
+}

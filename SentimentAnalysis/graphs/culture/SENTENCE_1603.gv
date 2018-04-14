@@ -1,0 +1,39 @@
+digraph SENTENCE_1603 {
+	graph [label="Голоса героям фильма подарили Брайан Крэнстон, Эдвард Нортон, Лив Шрайбер, Билл Мюррей, Джефф Голдблюм, Скарлетт Йохансон и Тильда Суинтон."]
+	node [style=filled]
+		0 [label="Голоса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подарили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Брайан Крэнстон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Эдвард Нортон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Лив Шрайбер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Билл Мюррей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Джефф Голдблюм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Скарлетт Йохансон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Тильда Суинтон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 6 [label="вводн"]
+			3 -> 12 [label="предик"]
+			6 -> 8 [label="аппоз"]
+			15 -> 16 [label="соч_союзн"]
+			0 -> 1
+			8 -> 10 [label="аппоз"]
+			1 -> 2 [label="_1_компл"]
+			12 -> 15 [label="сочин"]
+			12 -> 14 [label="аппоз"]
+}

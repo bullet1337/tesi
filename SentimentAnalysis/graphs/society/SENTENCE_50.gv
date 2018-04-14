@@ -1,0 +1,48 @@
+digraph SENTENCE_50 {
+	graph [label="Также в центре периодически проходят реабилитацию медвежата-сироты, которых спасают местные жители, и другие дикие животные."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="периодически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="реабилитацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="медвежата-сироты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спасают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="местные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="дикие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="животные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="изъясн"]
+			11 -> 10 [label="опред"]
+			13 -> 16 [label="соч_союзн"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 13 [label="сочин"]
+			1 -> 2 [label="предл"]
+}

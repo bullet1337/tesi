@@ -1,0 +1,60 @@
+digraph SENTENCE_938 {
+	graph [label="Кроме того, внуку, который служит в Центре управления в кризисных ситуациях столичного главка МЧС, было присвоено очередное звание подполковника."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="внуку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="служит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Центре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="управления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кризисных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ситуациях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="столичного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="главка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="присвоено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="очередное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="звание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="подполковника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			17 -> 14 [label="предик"]
+			17 -> 18
+			17 -> 20 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="аппоз"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="_3_компл"]
+			6 -> 17 [label="сент_соч"]
+			10 -> 12 [label="предл"]
+}

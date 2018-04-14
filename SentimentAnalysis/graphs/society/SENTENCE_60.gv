@@ -1,0 +1,39 @@
+digraph SENTENCE_60 {
+	graph [label="Отец Филипова в ответ поблагодарил президента за приглашение в Кремль и слова поддержки."]
+	node [style=filled]
+		0 [label="Отец Филипова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ответ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поблагодарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приглашение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кремль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поддержки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			10 -> 11 [label="аппоз"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="_3_компл"]
+			6 -> 9 [label="сочин"]
+			7 -> 8 [label="предл"]
+}

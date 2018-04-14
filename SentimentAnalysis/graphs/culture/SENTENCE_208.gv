@@ -1,0 +1,33 @@
+digraph SENTENCE_208 {
+	graph [label="В программе — фрагменты из спектаклей \"Трубадур\", \"Аида\", \"Бал-маскарад\", \"Дон Карлос\", \"Кармен\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фрагменты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спектаклей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Трубадур
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Аида
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Бал-маскарад
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Дон Карлос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Кармен
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="предл"]
+			1 -> 3 [label="аппоз"]
+			3 -> 4 [label="атриб"]
+			3 -> 7 [label="аппоз"]
+			7 -> 11 [label="аппоз"]
+			11 -> 15 [label="аппоз"]
+			15 -> 19 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			19 -> 23 [label="аппоз"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_207 {
+	graph [label="Ранее инициативная группа жителей Катав-Ивановского района Челябинской области, в границах которого планируется нацпарк, высказалась против создания \"Зигальги\"."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="инициативная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Катав-Ивановского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="района
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Челябинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="границах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нацпарк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="высказалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="создания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Зигальги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 6 [label="опред"]
+			17 -> 19 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			12 -> 0 [label="обст"]
+			12 -> 2 [label="предик"]
+			12 -> 13 [label="предик"]
+			12 -> 15 [label="вводн"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 9 [label="атриб"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			16 -> 17 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			15 -> 16 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+}

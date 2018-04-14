@@ -1,0 +1,84 @@
+digraph SENTENCE_765 {
+	graph [label="Храм Святого Саввы Сербского является одним из крупнейших православных храмов мира с площадью пола 3650 квадратных метров и высотой с крестом 79 метров, он рассчитан на 10 тысяч человек."]
+	node [style=filled]
+		0 [label="Храм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Святого Саввы Сербского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="крупнейших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="православных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="храмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="площадью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="3650
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="квадратных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="высотой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="крестом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="79
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="рассчитан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="атриб"]
+			14 -> 12 [label="количест"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 23 [label="сент_соч"]
+			18 -> 20 [label="компл_аппоз"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+			16 -> 17 [label="атриб"]
+			24 -> 26 [label="предл"]
+			26 -> 25 [label="количест"]
+			26 -> 27 [label="квазиагент"]
+			17 -> 18 [label="предл"]
+			3 -> 4 [label="электив"]
+			0 -> 1 [label="_1_компл"]
+			15 -> 16 [label="соч_союзн"]
+			20 -> 19 [label="количест"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 14 [label="компл_аппоз"]
+			4 -> 7 [label="предл"]
+}

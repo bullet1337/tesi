@@ -1,0 +1,24 @@
+digraph SENTENCE_330 {
+	graph [label="Голос Бьорк здесь как никогда хорош, срывающийся, эмоциональный."]
+	node [style=filled]
+		0 [label="Голос Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хорош
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="срывающийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эмоциональный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="сравн_союзн"]
+			1 -> 2 [label="сравнит"]
+			8 -> 6 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="обст"]
+			4 -> 8 [label="сочин"]
+}

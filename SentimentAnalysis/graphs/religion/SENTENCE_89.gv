@@ -1,0 +1,38 @@
+digraph SENTENCE_89 {
+	graph [label="Проблема неуправляемых исламских центров, называемых параджемаатами, в труднодоступных районах БиГ существует десятилетиями."]
+	node [style=filled]
+		0 [label="Проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неуправляемых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исламских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="центров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="называемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="параджемаатами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="труднодоступных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="районах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="БиГ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="существует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="десятилетиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="предл"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="обст"]
+			12 -> 13 [label="кратно_длительн"]
+			11 -> 0 [label="предик"]
+			0 -> 3 [label="_1_компл"]
+}

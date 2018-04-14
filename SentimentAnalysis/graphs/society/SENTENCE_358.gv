@@ -1,0 +1,60 @@
+digraph SENTENCE_358 {
+	graph [label="С праздником севастопольцев со сцены поздравил губернатор города Дмитрий Овсянников, начальник штаба и первый заместитель командующего ЧФ РФ, контр-адмирал Дмитрий Лиин."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="праздником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="севастопольцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Дмитрий Овсянников
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="начальник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="штаба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заместитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="командующего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ЧФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="контр-адмирал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Дмитрий Лиин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="_1_компл"]
+			7 -> 8 [label="аппоз"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="аппоз"]
+			14 -> 19 [label="аппоз"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="сочин"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="атриб"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			5 -> 20 [label="вводн"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_564 {
+	graph [label="Если уж и говорить о том, у кого из трех персонажей самое «золотое сердце», то я предпочту именно Сельму."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="золотое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="предпочту
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Сельму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_3_компл"]
+			0 -> 3 [label="инф_союзн"]
+			22 -> 21 [label="огранич"]
+			14 -> 12 [label="опред"]
+			5 -> 20 [label="эксплет"]
+			15 -> 14 [label="опред"]
+			11 -> 10 [label="количест"]
+			11 -> 15 [label="квазиагент"]
+			7 -> 8 [label="предл"]
+			7 -> 9 [label="электив"]
+			7 -> 18 [label="предл"]
+			9 -> 11 [label="предл"]
+			4 -> 5 [label="предл"]
+			20 -> 7 [label="обст"]
+			20 -> 19 [label="предик"]
+			20 -> 22 [label="_1_компл"]
+}

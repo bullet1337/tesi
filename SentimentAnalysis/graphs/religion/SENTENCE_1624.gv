@@ -1,0 +1,54 @@
+digraph SENTENCE_1624 {
+	graph [label="В народных гуляниях этих дней планируют поучаствовать менее половины (46%), а сжигать чучело Масленицы собираются 39% опрошенных."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="народных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гуляниях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="планируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поучаствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="менее
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="половины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="46
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сжигать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чучело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Масленицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="собираются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="39
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="опрошенных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="_1_компл"]
+			7 -> 8 [label="сравнит"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			8 -> 10 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 18 [label="сент_соч"]
+			14 -> 15 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 14 [label="сочин"]
+			0 -> 2 [label="предл"]
+			21 -> 19 [label="количест"]
+			18 -> 17 [label="предик"]
+			18 -> 21 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

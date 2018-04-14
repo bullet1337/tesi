@@ -1,0 +1,48 @@
+digraph SENTENCE_816 {
+	graph [label="В главном монастырском храме хранятся мощи епископа Вязниковского, священномученика Германа (Ряшенцева), расстрелянного в 1937 году."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="монастырском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хранятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="епископа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Вязниковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="священномученика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Германа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Ряшенцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="расстрелянного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="1937
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="аппоз"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			15 -> 16 [label="обст"]
+			9 -> 10 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 9 [label="сочин"]
+			10 -> 12 [label="аппоз"]
+			10 -> 15 [label="опред"]
+			16 -> 18 [label="предл"]
+			18 -> 17 [label="опред"]
+			0 -> 3 [label="предл"]
+}

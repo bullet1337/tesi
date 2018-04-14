@@ -1,0 +1,24 @@
+digraph SENTENCE_286 {
+	graph [label="Отличные музыкальные номера и великолепный вокал Бьорк."]
+	node [style=filled]
+		0 [label="Отличные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="номера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="великолепный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вокал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			6 -> 2 [label="предик"]
+			3 -> 5 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_4912 {
+	graph [label="Ну ГНУСы, что с них взять!"]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ГНУСы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="взять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 4 [label="_2_компл"]
+			1 -> 0 [label="вводн"]
+			1 -> 6 [label="предик"]
+}

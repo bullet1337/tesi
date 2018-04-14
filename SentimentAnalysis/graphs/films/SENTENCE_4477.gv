@@ -1,0 +1,24 @@
+digraph SENTENCE_4477 {
+	graph [label="Хлопает глазками, открывает ротик нелепо и невпопад."]
+	node [style=filled]
+		0 [label="Хлопает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="глазками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="открывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ротик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нелепо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="невпопад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="соч_союзн"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="сочин"]
+			5 -> 6 [label="сочин"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_4826 {
+	graph [label="Но их хоть не скучно смотреть, так как там хоть что-то происходит."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скучно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="соч_союзн"]
+			9 -> 12 [label="релят"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			12 -> 11 [label="предик"]
+			8 -> 9 [label="сравн_союзн"]
+			7 -> 8 [label="эксплет"]
+			11 -> 10 [label="огранич"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="обст"]
+}

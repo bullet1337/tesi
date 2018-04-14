@@ -1,0 +1,33 @@
+digraph SENTENCE_987 {
+	graph [label="Помнить его за его острый ум, энциклопедические знания\", — подытожила она."]
+	node [style=filled]
+		0 [label="Помнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="острый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="энциклопедические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="подытожила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 5 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="обст"]
+			0 -> 8 [label="_1_компл"]
+			5 -> 3 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			8 -> 7 [label="опред"]
+			12 -> 0 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+}

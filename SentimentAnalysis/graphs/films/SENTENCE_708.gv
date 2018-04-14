@@ -1,0 +1,18 @@
+digraph SENTENCE_708 {
+	graph [label="Смотреть кино было очень тяжело."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			4 -> 3 [label="огранич"]
+			0 -> 1 [label="_1_компл"]
+}

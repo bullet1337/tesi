@@ -1,0 +1,51 @@
+digraph SENTENCE_647 {
+	graph [label="Вы знаете, что в Москве есть пансион воспитанниц Минобороны, где у нас проходят обучение замечательные девочки."]
+	node [style=filled]
+		0 [label="Вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пансион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="воспитанниц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Минобороны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="обучение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="замечательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="девочки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="квазиагент"]
+			7 -> 14 [label="релят"]
+			12 -> 13 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="предик"]
+			15 -> 17 [label="_2_компл"]
+			14 -> 11 [label="обст"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			3 -> 6 [label="подч_союзн"]
+}

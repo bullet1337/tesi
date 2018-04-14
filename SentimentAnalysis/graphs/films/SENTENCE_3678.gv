@@ -1,0 +1,51 @@
+digraph SENTENCE_3678 {
+	graph [label="Увы большинство людей этого не понимают… Это прекрасно демонстрирует нам этот фильм, а точнее его рейтинг."]
+	node [style=filled]
+		0 [label="Увы
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Это
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="демонстрирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="точнее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рейтинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 17 [label="соч_союзн"]
+			5 -> 0 [label="вводн"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 9 [label="_1_компл"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 12 [label="_1_компл"]
+			9 -> 14 [label="сент_соч"]
+			1 -> 2 [label="квазиагент"]
+			17 -> 15 [label="вводн"]
+			17 -> 16 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+}

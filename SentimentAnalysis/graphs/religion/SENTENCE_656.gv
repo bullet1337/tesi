@@ -1,0 +1,48 @@
+digraph SENTENCE_656 {
+	graph [label="\"Вот священник, врач как никто другой знает, сколько вокруг страдания, и какие мы баловни судьбы."]
+	node [style=filled]
+		1 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="священник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="врач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="страдания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="какие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="баловни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="судьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 17 [label="соч_союзн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="предл"]
+			11 -> 14 [label="сент_соч"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="сочин"]
+			2 -> 8 [label="сент_соч"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="аппоз"]
+			8 -> 5 [label="обст"]
+			8 -> 6 [label="вводн"]
+			8 -> 7 [label="предик"]
+			8 -> 11 [label="сент_соч"]
+}

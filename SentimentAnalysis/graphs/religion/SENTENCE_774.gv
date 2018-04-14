@@ -1,0 +1,38 @@
+digraph SENTENCE_774 {
+	graph [label="Осенью в столице Казахстана состоится шестой Съезд лидеров мировых и традиционных религий."]
+	node [style=filled]
+		0 [label="Осенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Казахстана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шестой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Съезд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="лидеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мировых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="традиционных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="религий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="квазиагент"]
+			9 -> 11 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="сочин"]
+}

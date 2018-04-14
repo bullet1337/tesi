@@ -1,0 +1,18 @@
+digraph SENTENCE_255 {
+	graph [label="Так происходит во всех языках."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="языках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="вводн"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+}

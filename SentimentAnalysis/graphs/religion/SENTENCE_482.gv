@@ -1,0 +1,33 @@
+digraph SENTENCE_482 {
+	graph [label="Люди продолжают нести свечи, иконы и цветы к месту трагедии."]
+	node [style=filled]
+		0 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продолжают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="свечи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="иконы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="цветы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="месту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="трагедии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			9 -> 10 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 8 [label="_3_компл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4678 {
+	graph [label="С такими товарищами снимай хоть на Оскар."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="товарищами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="снимай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хоть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="_2_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+}

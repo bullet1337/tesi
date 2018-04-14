@@ -1,0 +1,68 @@
+digraph SENTENCE_2803 {
+	graph [label="Операторская работа вероятно качественная, но сам материал… А ещё одна причина, почему мне не понравился фильм — почти ничего общего с литературным первоисточником."]
+	node [style=filled]
+		0 [label="Операторская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="качественная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="материал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="А
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="одна
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="причина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="понравился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="литературным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="первоисточником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="опред"]
+			9 -> 17 [label="соч_союзн"]
+			12 -> 11 [label="количест"]
+			5 -> 7 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			22 -> 23 [label="_1_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="вводн"]
+			3 -> 5 [label="сент_соч"]
+			25 -> 24 [label="опред"]
+			17 -> 12 [label="предик"]
+			17 -> 14 [label="обст"]
+			17 -> 15 [label="_1_компл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 21 [label="разъяснит"]
+			23 -> 25 [label="предл"]
+			1 -> 0 [label="опред"]
+}

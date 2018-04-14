@@ -1,0 +1,45 @@
+digraph SENTENCE_1598 {
+	graph [label="\"Это реверанс в сторону классического \"Союзмультфильма\" и по жанру, и по технологии\", — заметил Машковцев."]
+	node [style=filled]
+		1 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="реверанс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="классического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Союзмультфильма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жанру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="технологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Машковцев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 7 [label="квазиагент"]
+			13 -> 14 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+			10 -> 13 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="атриб"]
+			2 -> 9 [label="сочин"]
+			2 -> 19 [label="вводн"]
+			7 -> 5 [label="опред"]
+			19 -> 20 [label="предик"]
+			3 -> 4 [label="предл"]
+			14 -> 15 [label="предл"]
+}

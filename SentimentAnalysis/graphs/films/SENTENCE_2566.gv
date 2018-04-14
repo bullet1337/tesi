@@ -1,0 +1,60 @@
+digraph SENTENCE_2566 {
+	graph [label="Те невероятно красивые туманы, что Дени пускал на 30 секунд в Прибытии, тут растянутся на 2 часа 40 минут."]
+	node [style=filled]
+		0 [label="Те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="красивые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="туманы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Дени
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="пускал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="секунд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Прибытии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="растянутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			18 -> 17 [label="количест"]
+			18 -> 20 [label="аддит"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="количест"]
+			20 -> 19 [label="количест"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="_3_компл"]
+			7 -> 11 [label="обст"]
+			7 -> 15 [label="разъяснит"]
+			3 -> 0 [label="опред"]
+			3 -> 2 [label="опред"]
+			16 -> 18 [label="предл"]
+			2 -> 1 [label="огранич"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1511 {
+	graph [label="в день памяти святых благоверных Петра и Февронии Муромских, живших в XIII веке."]
+	node [style=filled]
+		0 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="памяти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="святых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="благоверных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Петра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Февронии Муромских
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="живших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="XIII
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			3 -> 0 [label="огранич"]
+			3 -> 5 [label="атриб"]
+			6 -> 7 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			7 -> 9 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_407 {
+	graph [label="И когда перед царем встала проблема выбора жены, он остановился на Есфири."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="царем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="встала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выбора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="остановился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Есфири
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			4 -> 2 [label="_2_компл"]
+			4 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			0 -> 10 [label="соч_союзн"]
+			10 -> 1 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 4 [label="подч_союзн"]
+}

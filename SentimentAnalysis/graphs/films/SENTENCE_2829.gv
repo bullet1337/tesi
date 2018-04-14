@@ -1,0 +1,33 @@
+digraph SENTENCE_2829 {
+	graph [label="А что они делают, похоже не знают даже они сами."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="похоже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="вводн"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 7 [label="разъяснит"]
+}

@@ -1,0 +1,81 @@
+digraph SENTENCE_1152 {
+	graph [label="Пять пожилых женщин в дагестанском Кизляре стали жертвами стрельбы, которую устроил 22-летний Халил Халилов из охотничьего ружья в православном храме в Прощеное Воскресенье, еще четверо человек госпитализированы."]
+	node [style=filled]
+		0 [label="Пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пожилых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дагестанском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жертвами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стрельбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="устроил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="22-летний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Халил Халилов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="охотничьего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ружья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="православном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Воскресенье
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="четверо
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="госпитализированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 18 [label="опред"]
+			5 -> 4 [label="опред"]
+			2 -> 0 [label="количест"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			26 -> 25 [label="количест"]
+			14 -> 16 [label="предл"]
+			6 -> 2 [label="предик"]
+			6 -> 7 [label="присвяз"]
+			6 -> 11 [label="сент_соч"]
+			16 -> 15 [label="опред"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 13 [label="предик"]
+			11 -> 14 [label="обст"]
+			11 -> 17 [label="обст"]
+			11 -> 20 [label="обст"]
+			11 -> 27 [label="сент_соч"]
+			22 -> 21 [label="опред"]
+			20 -> 22 [label="предл"]
+			27 -> 26 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			17 -> 19 [label="предл"]
+			25 -> 24 [label="огранич"]
+			3 -> 5 [label="предл"]
+			13 -> 12 [label="опред"]
+}

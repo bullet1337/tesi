@@ -1,0 +1,36 @@
+digraph SENTENCE_998 {
+	graph [label="Маэстро является худруком и главным дирижером коллектива с сезона 2015/16."]
+	node [style=filled]
+		0 [label="Маэстро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="худруком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дирижером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="коллектива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сезона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="кратн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="обст"]
+			3 -> 5 [label="соч_союзн"]
+			2 -> 3 [label="сочин"]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			8 -> 9 [label="нум_аппоз"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_1787 {
+	graph [label="Однако я никак не мог себя заставить просмотреть хотя бы один."]
+	node [style=filled]
+		0 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 7 [label="_2_компл"]
+			3 -> 2 [label="огранич"]
+			10 -> 8 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			7 -> 10 [label="_1_компл"]
+}

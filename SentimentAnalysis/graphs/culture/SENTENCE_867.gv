@@ -1,0 +1,54 @@
+digraph SENTENCE_867 {
+	graph [label="Но когда она приехала на фестиваль Санденс в США, она смогла почувствовать энергию перемен, которые начали происходить."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приехала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Санденс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="почувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="энергию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="перемен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="начали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="происходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="подч_союзн"]
+			13 -> 14 [label="квазиагент"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			5 -> 6 [label="аппоз"]
+			0 -> 11 [label="соч_союзн"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			11 -> 1 [label="обст"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 17 [label="сент_соч"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_177 {
+	graph [label="Тем не менее ни один из этих фильмов не оставил того душераздирающего,эмоционального впечатления, за что я так и люблю кино."]
+	node [style=filled]
+		0 [label="Тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="душераздирающего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="эмоционального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="впечатления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			4 -> 0 [label="огранич"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="электив"]
+			5 -> 7 [label="предл"]
+			16 -> 17 [label="предл"]
+			7 -> 6 [label="опред"]
+			21 -> 18 [label="предик"]
+			21 -> 19 [label="обст"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="_1_компл"]
+			9 -> 4 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 14 [label="_1_компл"]
+			9 -> 21 [label="сент_соч"]
+			14 -> 10 [label="опред"]
+			14 -> 11 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="_2_компл"]
+}

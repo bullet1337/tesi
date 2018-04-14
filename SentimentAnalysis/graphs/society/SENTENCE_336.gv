@@ -1,0 +1,54 @@
+digraph SENTENCE_336 {
+	graph [label="Обследоваться у кардиолога, акушера-гинеколога, хирурга, оториноларинголога и уролога предлагает жителям ВАО городская клиническая больница №15 имени Филатова."]
+	node [style=filled]
+		0 [label="Обследоваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кардиолога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="акушера-гинеколога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хирурга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оториноларинголога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="уролога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предлагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ВАО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="городская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="клиническая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="больница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Филатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 13 [label="_1_компл"]
+			2 -> 4 [label="аппоз"]
+			4 -> 6 [label="аппоз"]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 19 [label="атриб"]
+			0 -> 1 [label="_1_компл"]
+			6 -> 8 [label="аппоз"]
+			6 -> 9 [label="сочин"]
+			19 -> 18 [label="количест"]
+			19 -> 20 [label="квазиагент"]
+			11 -> 0 [label="_1_компл"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 16 [label="предик"]
+}

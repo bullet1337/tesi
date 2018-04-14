@@ -1,0 +1,33 @@
+digraph SENTENCE_863 {
+	graph [label="Похожий случай был в январе 2017 года в бухте Раковая."]
+	node [style=filled]
+		0 [label="Похожий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="случай
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="январе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бухте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Раковая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="присвяз"]
+			2 -> 9 [label="сочин"]
+			9 -> 7 [label="огранич"]
+			4 -> 6 [label="атриб"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="предл"]
+			1 -> 0 [label="опред"]
+}

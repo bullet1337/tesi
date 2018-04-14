@@ -1,0 +1,27 @@
+digraph SENTENCE_1552 {
+	graph [label="\"Я видел его, и он мне очень понравился."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="понравился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 9 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="сент_соч"]
+			9 -> 6 [label="предик"]
+			9 -> 7 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+}

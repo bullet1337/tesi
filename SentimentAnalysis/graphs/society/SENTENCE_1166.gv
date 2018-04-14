@@ -1,0 +1,33 @@
+digraph SENTENCE_1166 {
+	graph [label="Он прокомментировал для радиостанции \"Говорит Москва\" информацию о задержании Мацейчука."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прокомментировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="радиостанции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Говорит
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Москва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="информацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="задержании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мацейчука
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="аппоз"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="предик"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="вводн"]
+			1 -> 8 [label="_1_компл"]
+}

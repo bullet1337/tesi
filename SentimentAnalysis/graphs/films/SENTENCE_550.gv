@@ -1,0 +1,18 @@
+digraph SENTENCE_550 {
+	graph [label="У Бьорк очень необычный голос."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="необычный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="предл"]
+}

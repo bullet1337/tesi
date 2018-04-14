@@ -1,0 +1,45 @@
+digraph SENTENCE_588 {
+	graph [label="Молебен заканчивается в 6 часов утра, и настоятель поздравляет всех с наступившим Новым годом."]
+	node [style=filled]
+		0 [label="Молебен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заканчивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="утра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="настоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поздравляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наступившим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Новым
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="годом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="квазиагент"]
+			7 -> 9 [label="соч_союзн"]
+			11 -> 14 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="_2_компл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 7 [label="сент_соч"]
+			2 -> 4 [label="предл"]
+}

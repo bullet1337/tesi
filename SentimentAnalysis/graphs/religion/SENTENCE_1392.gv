@@ -1,0 +1,42 @@
+digraph SENTENCE_1392 {
+	graph [label="Но норвежский премьер, а также ряд видных политиков ЕС беспощадно раскритиковали эту идею."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="норвежский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="премьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="видных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="политиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ЕС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="беспощадно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раскритиковали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="идею
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 2 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сочин"]
+			4 -> 6 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="квазиагент"]
+			0 -> 11 [label="соч_союзн"]
+}

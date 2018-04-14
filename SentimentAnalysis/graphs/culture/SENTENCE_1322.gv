@@ -1,0 +1,24 @@
+digraph SENTENCE_1322 {
+	graph [label="Особое внимание американский профессор уделяет языку \"Ленинграда\"."]
+	node [style=filled]
+		0 [label="Особое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="внимание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="профессор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уделяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="языку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ленинграда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+}

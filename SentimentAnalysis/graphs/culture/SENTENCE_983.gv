@@ -1,0 +1,81 @@
+digraph SENTENCE_983 {
+	graph [label="Мюнхенский филармонический оркестр под управлением маэстро Гергиева представит \"Симфонию духовых\" и музыку балета \"Петрушка\" Стравинского, а также будет исполнен Концерт для фортепиано с оркестром №4 Бетховена."]
+	node [style=filled]
+		0 [label="Мюнхенский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="филармонический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оркестр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="управлением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="маэстро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Гергиева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Симфонию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="духовых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="балета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Петрушка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Стравинского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="исполнен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Концерт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фортепиано
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Бетховена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="атриб"]
+			20 -> 22 [label="соч_союзн"]
+			7 -> 2 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 16 [label="_2_компл"]
+			7 -> 20 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			25 -> 26 [label="предл"]
+			5 -> 6 [label="аппоз"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			31 -> 30 [label="количест"]
+			28 -> 31 [label="компл_аппоз"]
+			24 -> 25 [label="атриб"]
+			16 -> 18 [label="аппоз"]
+			9 -> 10 [label="опред"]
+			9 -> 12 [label="сочин"]
+			27 -> 28 [label="предл"]
+			26 -> 27 [label="атриб"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			22 -> 21 [label="огранич"]
+			22 -> 23
+			22 -> 24 [label="предик"]
+}

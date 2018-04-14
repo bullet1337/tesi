@@ -1,0 +1,24 @@
+digraph SENTENCE_1395 {
+	graph [label="Здесь, в Норвегии, мы уважаем свободу религии."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Норвегии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уважаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="свободу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="религии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+}

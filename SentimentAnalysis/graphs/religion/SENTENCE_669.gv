@@ -1,0 +1,44 @@
+digraph SENTENCE_669 {
+	graph [label="В житии святого описывается история обращения им решившей искусить отшельника блудницы по имени Зоя."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="житии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="описывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обращения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="решившей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="искусить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отшельника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="блудницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Зоя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="обст"]
+			11 -> 12 [label="предл"]
+			6 -> 7 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			9 -> 10 [label="аппоз"]
+			12 -> 13 [label="компл_аппоз"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

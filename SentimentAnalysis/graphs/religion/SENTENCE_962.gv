@@ -1,0 +1,39 @@
+digraph SENTENCE_962 {
+	graph [label="Впервые версию о его авторстве высказал в 1918 году известный искусствовед-реставратор Игорь Грабарь."]
+	node [style=filled]
+		0 [label="Впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="версию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="авторстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="высказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1918
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="искусствовед-реставратор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Игорь Грабарь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 6 [label="обст"]
+			5 -> 10 [label="_1_компл"]
+			5 -> 11 [label="предик"]
+			10 -> 9 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="квазиагент"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+}

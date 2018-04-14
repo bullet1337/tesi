@@ -1,0 +1,53 @@
+digraph SENTENCE_44 {
+	graph [label="Прежде всего, это храмы и гостиницы, где мы принимаем порядка пяти и даже больше тысяч паломников ежегодно."]
+	node [style=filled]
+		0 [label="Прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="храмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="гостиницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="принимаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="порядка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пяти
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="паломников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ежегодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 6 [label="соч_союзн"]
+			16 -> 17 [label="квазиагент"]
+			13 -> 15 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сочин"]
+			4 -> 10 [label="сент_соч"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="сравнит"]
+			15 -> 18 [label="обст"]
+}

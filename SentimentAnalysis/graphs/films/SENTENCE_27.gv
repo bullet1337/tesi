@@ -1,0 +1,36 @@
+digraph SENTENCE_27 {
+	graph [label="Тупой, противной боли, которая так и норовит вырваться наружу через слезы."]
+	node [style=filled]
+		0 [label="Тупой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="противной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="норовит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вырваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наружу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слезы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 8 [label="релят"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="_2_компл"]
+			10 -> 11 [label="сочин"]
+}

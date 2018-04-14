@@ -1,0 +1,44 @@
+digraph SENTENCE_351 {
+	graph [label="Что ты будешь делать, если у тебя заберут единственную работу, на которую ты способен?"]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тебя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заберут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="единственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="способен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			12 -> 13 [label="предл"]
+			5 -> 8 [label="подч_союзн"]
+			15 -> 12 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="аналит"]
+			2 -> 15 [label="присвяз"]
+			6 -> 7 [label="предл"]
+			8 -> 6 [label="обст"]
+			8 -> 10 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_2866 {
+	graph [label="А ведь потенциал у данного противника Грю и компании был воистину неимоверный."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="потенциал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="данного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="противника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Грю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воистину
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="неимоверный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="сочин"]
+			2 -> 1 [label="огранич"]
+			2 -> 6 [label="сочин"]
+			0 -> 9 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			9 -> 2 [label="предик"]
+			9 -> 11 [label="присвяз"]
+			7 -> 8 [label="соч_союзн"]
+			11 -> 10 [label="огранич"]
+			3 -> 5 [label="предл"]
+}

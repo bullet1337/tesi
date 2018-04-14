@@ -1,0 +1,42 @@
+digraph SENTENCE_1382 {
+	graph [label="Он близок к краху, он хочет умереть, он совершенно искренне об этом говорит."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="близок
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="краху
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="умереть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			14 -> 9 [label="предик"]
+			14 -> 11 [label="обст"]
+			14 -> 12 [label="_3_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 14 [label="сент_соч"]
+			12 -> 13 [label="предл"]
+			11 -> 10 [label="огранич"]
+}

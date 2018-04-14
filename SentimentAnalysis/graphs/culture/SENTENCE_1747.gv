@@ -1,0 +1,18 @@
+digraph SENTENCE_1747 {
+	graph [label="Участвовал в Великой отечественной войне."]
+	node [style=filled]
+		0 [label="Участвовал
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Великой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="отечественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="войне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="предл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+}

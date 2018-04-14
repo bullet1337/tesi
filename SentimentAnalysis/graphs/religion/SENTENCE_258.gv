@@ -1,0 +1,39 @@
+digraph SENTENCE_258 {
+	graph [label="Возможно, мэрия Иерусалима не ожидала такого отпора со стороны хранителей христианских святынь."]
+	node [style=filled]
+		0 [label="Возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мэрия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отпора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хранителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="святынь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+}

@@ -1,0 +1,47 @@
+digraph SENTENCE_2952 {
+	graph [label="Из плюсов можно отметить отличную прорисовку, очень сочную цветовую гамму, динамизм повествования и отличный саундтрек."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плюсов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отличную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прорисовку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сочную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="цветовую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="гамму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="динамизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="повествования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="саундтрек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="сочин"]
+			13 -> 14 [label="сочин"]
+			0 -> 1 [label="предл"]
+			14 -> 16 [label="соч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			5 -> 4 [label="опред"]
+			16 -> 15 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="сочин"]
+			8 -> 7 [label="огранич"]
+}

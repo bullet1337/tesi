@@ -1,0 +1,45 @@
+digraph SENTENCE_2611 {
+	graph [label="Вильнев застревал на простейших и малозначительных эпизодах так надолго, что вызывал колебания пространственно-временного континуума."]
+	node [style=filled]
+		0 [label="Вильнев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="застревал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="простейших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="малозначительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эпизодах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="надолго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вызывал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="колебания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пространственно-временного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="континуума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			3 -> 4 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			10 -> 11 [label="подч_союзн"]
+			2 -> 6 [label="предл"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			6 -> 3 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 8 [label="обст"]
+			1 -> 10 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+}

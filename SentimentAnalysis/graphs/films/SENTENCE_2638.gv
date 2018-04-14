@@ -1,0 +1,20 @@
+digraph SENTENCE_2638 {
+	graph [label="Каждый видит то, что хочет видеть."]
+	node [style=filled]
+		0 [label="Каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 5 [label="подч_союзн"]
+}

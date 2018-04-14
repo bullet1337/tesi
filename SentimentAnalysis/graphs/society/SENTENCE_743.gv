@@ -1,0 +1,42 @@
+digraph SENTENCE_743 {
+	graph [label="\"Если потребуется, мы будем вам помогать\", — сказала министр, слова которой приводятся в сообщении."]
+	node [style=filled]
+		1 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="потребуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="помогать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="приводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предик"]
+			5 -> 1 [label="обст"]
+			5 -> 7 [label="аналит"]
+			5 -> 11 [label="вводн"]
+			11 -> 12 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			14 -> 15 [label="квазиагент"]
+			1 -> 2 [label="подч_союзн"]
+			12 -> 16 [label="релят"]
+			17 -> 18 [label="предл"]
+			16 -> 14 [label="предик"]
+			16 -> 17 [label="обст"]
+}

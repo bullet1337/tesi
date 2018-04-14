@@ -1,0 +1,66 @@
+digraph SENTENCE_32 {
+	graph [label="В субботу на сцене Большого театра состоится один из самых ожидаемых премьерных показов для всех любителей оперы — шедевр Петра Ильича Чайковского \"Пиковая дама\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="субботу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Большого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ожидаемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="премьерных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="показов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Петра Ильича Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Пиковая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="дама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+			8 -> 12 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_2_компл"]
+			6 -> 7 [label="предик"]
+			6 -> 22 [label="разъяснит"]
+			18 -> 19 [label="аппоз"]
+			2 -> 3 [label="предл"]
+			22 -> 21 [label="опред"]
+			5 -> 4 [label="опред"]
+			13 -> 15 [label="предл"]
+			12 -> 9 [label="опред"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="атриб"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			7 -> 8 [label="электив"]
+			7 -> 18 [label="аппоз"]
+}

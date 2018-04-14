@@ -1,0 +1,51 @@
+digraph SENTENCE_166 {
+	graph [label="Ранее уже были проведены замеры отношения российской молодежи к РПЦ (в 2005, 2008 и 2011 годах)."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="проведены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="замеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отношения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="российской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="молодежи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="2005
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2008
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 11 [label="атриб"]
+			4 -> 12 [label="примыкат"]
+			4 -> 15 [label="сочин"]
+			17 -> 16 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3
+			2 -> 4 [label="предик"]
+			11 -> 5 [label="предл"]
+			5 -> 7 [label="квазиагент"]
+			5 -> 8 [label="_1_компл"]
+			15 -> 17 [label="соч_союзн"]
+			12 -> 14 [label="кратн"]
+			8 -> 9 [label="предл"]
+			7 -> 6 [label="опред"]
+}

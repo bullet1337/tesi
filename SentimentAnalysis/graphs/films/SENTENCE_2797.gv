@@ -1,0 +1,33 @@
+digraph SENTENCE_2797 {
+	graph [label="Некоторые сцены сняты интересно, но в целом, фильм меня разочаровал."]
+	node [style=filled]
+		0 [label="Некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разочаровал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			6 -> 7 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="сент_соч"]
+			5 -> 11 [label="соч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="_1_компл"]
+			9 -> 6 [label="огранич"]
+}

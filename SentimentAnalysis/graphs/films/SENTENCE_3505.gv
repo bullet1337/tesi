@@ -1,0 +1,27 @@
+digraph SENTENCE_3505 {
+	graph [label="Но все и так знают, что мы выиграем."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выиграем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			8 -> 7 [label="предик"]
+			6 -> 8 [label="подч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 4 [label="соч_союзн"]
+}

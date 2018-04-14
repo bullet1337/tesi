@@ -1,0 +1,18 @@
+digraph SENTENCE_3420 {
+	graph [label="Он же не хотел сниматься!"]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хотел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сниматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+}

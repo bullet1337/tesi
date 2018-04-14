@@ -1,0 +1,89 @@
+digraph SENTENCE_110 {
+	graph [label="Март — самый театральный месяц, когда москвичи в рамках фестиваля \"Золотая Маска\" смогут посмотреть лучшие работы не только столичных театров, но и трупп из провинции, не уступающих москвичам и петербуржцам."]
+	node [style=filled]
+		0 [label="Март
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="театральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="москвичи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Золотая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Маска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="смогут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лучшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="столичных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="театров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="трупп
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="провинции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="уступающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="москвичам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="петербуржцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="атриб"]
+			7 -> 15 [label="релят"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 24 [label="сочин"]
+			20 -> 19 [label="огранич"]
+			4 -> 3 [label="опред"]
+			0 -> 4 [label="аппоз"]
+			0 -> 6 [label="примыкат"]
+			9 -> 10 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			18 -> 22 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			13 -> 12 [label="опред"]
+			33 -> 34 [label="соч_союзн"]
+			16 -> 18 [label="_1_компл"]
+			28 -> 31 [label="опред"]
+			24 -> 25 [label="огранич"]
+			24 -> 26 [label="соч_союзн"]
+			32 -> 33 [label="сочин"]
+			21 -> 20 [label="огранич"]
+			31 -> 30 [label="огранич"]
+			31 -> 32 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			27 -> 28 [label="предл"]
+			26 -> 27 [label="атриб"]
+			22 -> 21 [label="опред"]
+}

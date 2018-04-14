@@ -1,0 +1,59 @@
+digraph SENTENCE_2701 {
+	graph [label="Нам предлагают немногочисленные сюжетные повороты и твисты, но они настолько примитивные, что с лёгкостью угадываются задолго до их раскрытия."]
+	node [style=filled]
+		0 [label="Нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="предлагают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="немногочисленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сюжетные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="повороты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="твисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="примитивные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лёгкостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="угадываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="задолго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="раскрытия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			13 -> 16 [label="подч_союзн"]
+			8 -> 11 [label="соч_союзн"]
+			20 -> 19 [label="квазиагент"]
+			17 -> 18 [label="_1_компл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			14 -> 15 [label="предл"]
+			16 -> 14 [label="обст"]
+			16 -> 17 [label="обст"]
+			18 -> 20 [label="предл"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 8 [label="сент_соч"]
+			5 -> 6 [label="соч_союзн"]
+}

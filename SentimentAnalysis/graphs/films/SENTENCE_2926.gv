@@ -1,0 +1,51 @@
+digraph SENTENCE_2926 {
+	graph [label="Сюжет с юмором пойдут максимум для детей дошкольного возраста, так что для них и будет интересен."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="юмором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пойдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="максимум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дошкольного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возраста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="интересен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="атриб"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="присвяз"]
+			11 -> 15 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			6 -> 8 [label="атриб"]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="обст"]
+			3 -> 10 [label="обст"]
+			12 -> 13 [label="предл"]
+			8 -> 7 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+}

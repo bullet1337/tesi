@@ -1,0 +1,21 @@
+digraph SENTENCE_69 {
+	graph [label="Окончил Краснодарское высшее военное авиационное училище."]
+	node [style=filled]
+		0 [label="Окончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Краснодарское
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="высшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="военное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="авиационное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="училище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			0 -> 5 [label="предик"]
+			5 -> 2 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+}

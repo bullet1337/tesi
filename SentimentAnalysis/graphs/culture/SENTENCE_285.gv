@@ -1,0 +1,42 @@
+digraph SENTENCE_285 {
+	graph [label="Непосредственный и жизнерадостный попутчик круто меняет жизнь Гарри, давно потерявшего способность искренне улыбаться."]
+	node [style=filled]
+		0 [label="Непосредственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизнерадостный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="попутчик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="круто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Гарри
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="потерявшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="способность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="улыбаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			1 -> 2 [label="соч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			3 -> 0 [label="опред"]
+			7 -> 10 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			13 -> 12 [label="обст"]
+			0 -> 1 [label="сочин"]
+}

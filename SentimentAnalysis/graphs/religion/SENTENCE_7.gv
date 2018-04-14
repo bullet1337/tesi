@@ -1,0 +1,53 @@
+digraph SENTENCE_7 {
+	graph [label="Завтра снова придем\", — наперебой говорят паломницы-москвички и выспрашивают у земляков-журналистов, почему закрыт храм и когда его откроют."]
+	node [style=filled]
+		0 [label="Завтра
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="снова
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="придем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="наперебой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="паломницы-москвички
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выспрашивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="земляков-журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="закрыт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="откроют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="подч_союзн"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="предик"]
+			9 -> 10 [label="соч_союзн"]
+			15 -> 14 [label="обст"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 15 [label="сочин"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="обст"]
+			2 -> 7 [label="вводн"]
+			2 -> 9 [label="сочин"]
+			2 -> 16 [label="предик"]
+			2 -> 17 [label="сент_соч"]
+			11 -> 12 [label="предл"]
+			20 -> 19 [label="_1_компл"]
+}

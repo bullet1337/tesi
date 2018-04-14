@@ -1,0 +1,47 @@
+digraph SENTENCE_1646 {
+	graph [label="К XVIII веке нем было 20 анафемствований и до 4 000 имен людей, объявленных еретиками."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="XVIII
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="анафемствований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="объявленных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="еретиками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="предик"]
+			4 -> 7 [label="сент_соч"]
+			12 -> 14 [label="опред"]
+			0 -> 2 [label="предл"]
+			9 -> 10 [label="кратн"]
+			6 -> 5 [label="количест"]
+			8 -> 11 [label="предл"]
+			14 -> 15 [label="_2_компл"]
+			11 -> 9 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+}

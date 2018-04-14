@@ -1,0 +1,21 @@
+digraph SENTENCE_1304 {
+	graph [label="В мире теней найти свет жизни."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="теней
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+}

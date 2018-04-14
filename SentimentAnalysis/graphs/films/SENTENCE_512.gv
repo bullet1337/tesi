@@ -1,0 +1,39 @@
+digraph SENTENCE_512 {
+	graph [label="Этот фильм настолько чистый, настолько необычный, настолько прекрасный, настолько несвойственный фон Триеру."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чистый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="необычный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прекрасный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несвойственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Триеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="сочин"]
+			3 -> 2 [label="огранич"]
+			13 -> 1 [label="предик"]
+			13 -> 3 [label="опред"]
+			13 -> 6 [label="опред"]
+			13 -> 14 [label="сочин"]
+			1 -> 0 [label="опред"]
+			9 -> 8 [label="огранич"]
+			9 -> 12 [label="сочин"]
+			12 -> 11 [label="огранич"]
+}

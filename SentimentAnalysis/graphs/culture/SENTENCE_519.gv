@@ -1,0 +1,27 @@
+digraph SENTENCE_519 {
+	graph [label="В принципе, то, что ожидалось, то и получилось."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="принципе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ожидалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			3 -> 0 [label="огранич"]
+			3 -> 6 [label="эксплет"]
+			3 -> 8 [label="сочин"]
+			0 -> 1 [label="предл"]
+			8 -> 10 [label="соч_союзн"]
+			6 -> 5 [label="предик"]
+}

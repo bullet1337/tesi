@@ -1,0 +1,42 @@
+digraph SENTENCE_1610 {
+	graph [label="\"Этот год — год собаки, так что я обязательно заведу себе одну\", — заметила она."]
+	node [style=filled]
+		1 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="собаки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="обязательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заведу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заметила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 11 [label="подч_союзн"]
+			7 -> 4 [label="пролепт"]
+			7 -> 8 [label="эксплет"]
+			2 -> 1 [label="опред"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="неакт_компл"]
+			17 -> 2 [label="_1_компл"]
+			17 -> 7 [label="обст"]
+			17 -> 13 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+			4 -> 5 [label="квазиагент"]
+}

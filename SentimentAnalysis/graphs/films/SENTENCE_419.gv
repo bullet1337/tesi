@@ -1,0 +1,37 @@
+digraph SENTENCE_419 {
+	graph [label="10 из 10
+Кино, усиленно претворяющееся документальным, сейчас далеко не редкость."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="усиленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="претворяющееся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="документальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="редкость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			0 -> 1 [label="электив"]
+			12 -> 7 [label="опред"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="огранич"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="количест"]
+			3 -> 6 [label="опред"]
+			6 -> 5 [label="обст"]
+			6 -> 12 [label="_1_компл"]
+}

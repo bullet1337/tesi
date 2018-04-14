@@ -1,0 +1,24 @@
+digraph SENTENCE_1359 {
+	graph [label="Даже близкие — не всегда понимали, даже сын."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="близкие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="понимали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 8 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+}

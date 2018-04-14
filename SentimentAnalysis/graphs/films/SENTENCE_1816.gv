@@ -1,0 +1,55 @@
+digraph SENTENCE_1816 {
+	graph [label="И я прошла с ней те 107 шагов… 10 из 10
+Долго не могла заставить себя посмотреть."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="107
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шагов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Долго
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="электив"]
+			10 -> 11 [label="предл"]
+			6 -> 5 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="_2_компл"]
+			7 -> 6 [label="количест"]
+			7 -> 9
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="суб_копр"]
+			2 -> 14 [label="сент_соч"]
+}

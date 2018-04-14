@@ -1,0 +1,52 @@
+digraph SENTENCE_2060 {
+	graph [label="Многим это занятие покажется сложным, кому-то скучным и ненужным, и я не стану их за это осуждать."]
+	node [style=filled]
+		0 [label="Многим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="занятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="покажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сложным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кому-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="скучным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ненужным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стану
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="осуждать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="огранич"]
+			14 -> 18 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+			7 -> 8 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			18 -> 15 [label="_1_компл"]
+			18 -> 16 [label="обст"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			6 -> 7 [label="опред"]
+			6 -> 11 [label="сочин"]
+}

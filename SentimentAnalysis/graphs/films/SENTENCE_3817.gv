@@ -1,0 +1,45 @@
+digraph SENTENCE_3817 {
+	graph [label="Не хочет выбирать нормальную жизнь — пусть гниет где-нибудь в сточной канаве на краю мира."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выбирать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нормальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гниет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="где-нибудь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сточной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="канаве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="краю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="сент_соч"]
+			13 -> 14 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+			4 -> 3 [label="опред"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="обст"]
+			7 -> 9 [label="обст"]
+			7 -> 12 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+}

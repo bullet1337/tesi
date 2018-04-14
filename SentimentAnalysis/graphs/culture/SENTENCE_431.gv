@@ -1,0 +1,45 @@
+digraph SENTENCE_431 {
+	graph [label="\"Это как зеркало, которое мы даем зрителю, в котором он может увидеть свои возможности."]
+	node [style=filled]
+		1 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зеркало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="даем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="возможности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			13 -> 10 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сравн_союзн"]
+			2 -> 7 [label="разъяснит"]
+			2 -> 13 [label="сент_соч"]
+			14 -> 16 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+}

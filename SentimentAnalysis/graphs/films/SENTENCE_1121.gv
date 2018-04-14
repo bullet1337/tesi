@@ -1,0 +1,63 @@
+digraph SENTENCE_1121 {
+	graph [label="«Танцующая в темноте» — великолепная музыкальная драма, с отличным актерским составом, особенно порадовала главная героиня Сельма, которую блестяще исполнила актриса Бьорк."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="великолепная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="музыкальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отличным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актерским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="составом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="порадовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="блестяще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="исполнила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="аппоз"]
+			18 -> 23 [label="релят"]
+			8 -> 1 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="атриб"]
+			16 -> 8 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="_1_компл"]
+			1 -> 2 [label="обст"]
+			2 -> 3 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			23 -> 21 [label="_1_компл"]
+			23 -> 22 [label="обст"]
+			23 -> 24 [label="предик"]
+			10 -> 13 [label="предл"]
+			24 -> 25 [label="аппоз"]
+}

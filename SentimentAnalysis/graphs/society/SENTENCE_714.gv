@@ -1,0 +1,45 @@
+digraph SENTENCE_714 {
+	graph [label="\"Это важный шаг, необходимый (поднятие минимального размера оплаты труда в России), но не последний."]
+	node [style=filled]
+		1 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="важный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="шаг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="необходимый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поднятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="минимального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="размера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оплаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="труда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="атриб"]
+			10 -> 16 [label="сочин"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 7 [label="сочин"]
+			18 -> 17 [label="огранич"]
+			12 -> 13 [label="предл"]
+			16 -> 18 [label="соч_союзн"]
+			7 -> 5 [label="опред"]
+			7 -> 9 [label="сочин"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+}

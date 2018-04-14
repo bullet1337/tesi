@@ -1,0 +1,33 @@
+digraph SENTENCE_1244 {
+	graph [label="Отдушину она видит только в постановке мюзикла в заводской самодеятельности."]
+	node [style=filled]
+		0 [label="Отдушину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мюзикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заводской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самодеятельности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			4 -> 7 [label="сочин"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_2_компл"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+}

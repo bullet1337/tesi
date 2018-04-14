@@ -1,0 +1,56 @@
+digraph SENTENCE_244 {
+	graph [label="В пятницу на сцене театра имени Моссовета состоится премьерный показ спектакля \"Великолепный рогоносец\" в постановке известного режиссера Нины Чусовой."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Моссовета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="премьерный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Великолепный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="рогоносец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="известного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Нины Чусовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="_2_компл"]
+			7 -> 9 [label="предик"]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="атриб"]
+			5 -> 6 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="аппоз"]
+			3 -> 4 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			2 -> 3 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="об_аппоз"]
+			15 -> 16 [label="предл"]
+			16 -> 18 [label="_1_компл"]
+}

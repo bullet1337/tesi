@@ -1,0 +1,48 @@
+digraph SENTENCE_3869 {
+	graph [label="Хочу отдать должное художникам по костюмом и декорациям — созданный ими мир очень и очень хорош."]
+	node [style=filled]
+		0 [label="Хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="должное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="художникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="костюмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="декорациям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="созданный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хорош
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="атриб"]
+			3 -> 11 [label="сочин"]
+			12 -> 13 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			13 -> 14 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			15 -> 12 [label="огранич"]
+			7 -> 9 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+			1 -> 15 [label="обст"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 6 [label="сочин"]
+			9 -> 10 [label="агент"]
+}

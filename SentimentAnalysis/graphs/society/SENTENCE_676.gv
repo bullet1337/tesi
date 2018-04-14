@@ -1,0 +1,63 @@
+digraph SENTENCE_676 {
+	graph [label="В ночные часы в Москве 18-20 градусов мороза, по области минус 17 – минус 22 градуса, местами до минус 25."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ночные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="часы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="градусов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мороза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="22
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="градуса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			11 -> 12 [label="предл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			2 -> 8 [label="сочин"]
+			14 -> 13 [label="огранич"]
+			8 -> 5 [label="количест"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 11 [label="атриб"]
+			8 -> 20 [label="сочин"]
+			12 -> 16 [label="компл_аппоз"]
+			16 -> 14 [label="количест"]
+			16 -> 18 [label="аддит"]
+			22 -> 23 [label="предл"]
+			18 -> 17 [label="количест"]
+			5 -> 7 [label="кратн"]
+			0 -> 2 [label="предл"]
+			0 -> 21 [label="соотнос"]
+			21 -> 22 [label="предл"]
+}

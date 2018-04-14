@@ -1,0 +1,15 @@
+digraph SENTENCE_3942 {
+	graph [label="А смотреть-то надо шире."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смотреть-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="шире
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1
+			2 -> 3 [label="сочин"]
+}

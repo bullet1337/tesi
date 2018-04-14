@@ -1,0 +1,36 @@
+digraph SENTENCE_3201 {
+	graph [label="И для таких же невротиков (я не про геев, если что)."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="невротиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="геев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 8 [label="соч_союзн"]
+			1 -> 4 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			8 -> 11 [label="обст"]
+			4 -> 2 [label="опред"]
+			11 -> 12 [label="подч_союзн"]
+			2 -> 3 [label="огранич"]
+}

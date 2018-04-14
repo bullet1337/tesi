@@ -1,0 +1,39 @@
+digraph SENTENCE_1072 {
+	graph [label="Между ними началась драка, после чего присутствующие в студии стали разнимать мужчин."]
+	node [style=filled]
+		0 [label="Между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ними
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="началась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="драка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="присутствующие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разнимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мужчин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 10 [label="сент_соч"]
+			3 -> 7 [label="опред"]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+}

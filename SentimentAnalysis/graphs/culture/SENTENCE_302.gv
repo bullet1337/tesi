@@ -1,0 +1,48 @@
+digraph SENTENCE_302 {
+	graph [label="Участие в конкурсе примут сериалы \"Салам, Масква\", \"Троцкий\", \"Демон революции\", \"Доктор Рихтер\", \"Оптимисты\", \"Анна Каренина\" и другие."]
+	node [style=filled]
+		0 [label="Участие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сериалы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Салам
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Масква
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Троцкий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Демон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="революции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Доктор Рихтер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Оптимисты
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="Анна Каренина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 12 [label="опред"]
+			16 -> 17 [label="сочин"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			29 -> 31 [label="сочин"]
+			21 -> 25 [label="сочин"]
+			31 -> 32 [label="соч_союзн"]
+			17 -> 21 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			25 -> 29 [label="сочин"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 8 [label="атриб"]
+			4 -> 16 [label="сочин"]
+}

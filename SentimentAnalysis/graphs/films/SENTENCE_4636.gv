@@ -1,0 +1,55 @@
+digraph SENTENCE_4636 {
+	graph [label="Собственно за эти вау-моменты и оценка —  2,5 из 10
+Очень ждал этого фильма, хотя не без опасения."]
+	node [style=filled]
+		0 [label="Собственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вау-моменты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оценка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Очень
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="ждал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="опасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			8 -> 9 [label="предл"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="сочин"]
+			5 -> 7 [label="_1_компл"]
+			11 -> 0 [label="вводн"]
+			11 -> 1 [label="обст"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			11 -> 15 [label="обст"]
+			7 -> 8 [label="электив"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			15 -> 17 [label="подч_союзн"]
+			4 -> 5 [label="соч_союзн"]
+}

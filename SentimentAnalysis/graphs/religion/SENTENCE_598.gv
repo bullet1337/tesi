@@ -1,0 +1,38 @@
+digraph SENTENCE_598 {
+	graph [label="На ветвях дерева висели огромные плоды, подобные сосудам, вмещающим пять ведер воды."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ветвях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дерева
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="висели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="огромные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="плоды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подобные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сосудам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вмещающим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ведер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_1_компл"]
+			12 -> 11 [label="количест"]
+			12 -> 13 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="опред"]
+}

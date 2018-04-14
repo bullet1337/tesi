@@ -1,0 +1,54 @@
+digraph SENTENCE_4373 {
+	graph [label="Вы, конечно же, скажите, мол, ну вот я посмотрел фильм про геев и я все еще натурал."]
+	node [style=filled]
+		0 [label="Вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скажите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мол
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="посмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="геев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="натурал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="вводн"]
+			5 -> 7 [label="вводн"]
+			5 -> 12 [label="_1_компл"]
+			12 -> 9 [label="вводн"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 16 [label="сент_соч"]
+			13 -> 14 [label="атриб"]
+			2 -> 3 [label="огранич"]
+			16 -> 20 [label="соч_союзн"]
+			14 -> 15 [label="предл"]
+			20 -> 17 [label="предик"]
+			20 -> 19 [label="огранич"]
+			9 -> 10 [label="огранич"]
+			19 -> 18 [label="огранич"]
+}

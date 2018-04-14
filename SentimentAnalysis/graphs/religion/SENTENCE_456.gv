@@ -1,0 +1,42 @@
+digraph SENTENCE_456 {
+	graph [label="\"Великий пост – это путь к пасхальной радости, которую дает нам встреча со Христом."]
+	node [style=filled]
+		1 [label="Великий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="путь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пасхальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="радости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Христом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="предл"]
+			4 -> 2 [label="пролепт"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_3_компл"]
+			5 -> 11 [label="релят"]
+			13 -> 14 [label="_1_компл"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 13 [label="предик"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="опред"]
+			14 -> 15 [label="предл"]
+}

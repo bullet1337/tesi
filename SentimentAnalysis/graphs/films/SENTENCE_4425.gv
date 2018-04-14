@@ -1,0 +1,45 @@
+digraph SENTENCE_4425 {
+	graph [label="Всё это — звенья одной цепи, и гомосексуальность, которую неутомимо пропагандирует Запад, — её первое звено."]
+	node [style=filled]
+		0 [label="Всё
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="звенья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="цепи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="гомосексуальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="неутомимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пропагандирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Запад
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="звено
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="количест"]
+			5 -> 7 [label="сочин"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="предик"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="квазиагент"]
+			3 -> 12 [label="релят"]
+			3 -> 18 [label="сочин"]
+			1 -> 0 [label="опред"]
+			18 -> 16 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+}

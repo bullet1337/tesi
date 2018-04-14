@@ -1,0 +1,30 @@
+digraph SENTENCE_1436 {
+	graph [label="Энистон вышла замуж за актера Брэда Питта в 2000 году."]
+	node [style=filled]
+		0 [label="Энистон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="вышла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="замуж
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Брэда Питта
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="атриб"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_823 {
+	graph [label="В том числе не снимать подобного рода людей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подобного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			7 -> 6 [label="атриб"]
+			6 -> 5 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 7 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

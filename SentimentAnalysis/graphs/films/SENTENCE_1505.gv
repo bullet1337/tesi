@@ -1,0 +1,33 @@
+digraph SENTENCE_1505 {
+	graph [label="Единственный человеком, которому Сельма доверила свой секрет, подло предал ее."]
+	node [style=filled]
+		0 [label="Единственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="доверила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подло
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="предал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			10 -> 1 [label="_2_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="релят"]
+			5 -> 3 [label="_2_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+}

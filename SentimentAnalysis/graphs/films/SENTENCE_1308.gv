@@ -1,0 +1,42 @@
+digraph SENTENCE_1308 {
+	graph [label="Затронуты и другие вопросы/темы, но они всё же отходят на второй план."]
+	node [style=filled]
+		0 [label="Затронуты
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="план
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 11 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="предл"]
+			11 -> 8 [label="сент_предик"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			2 -> 1 [label="огранич"]
+			0 -> 3 [label="предик"]
+			0 -> 7 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			9 -> 10 [label="огранич"]
+}

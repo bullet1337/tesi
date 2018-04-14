@@ -1,0 +1,60 @@
+digraph SENTENCE_795 {
+	graph [label="Актер Джеффри Тэмбор покинет сериал \"Очевидное\", где он играет главную роль, из-за обвинений в домогательствах, говорится в заявлении производителя сериала — интернет-компании."]
+	node [style=filled]
+		0 [label="Актер Джеффри Тэмбор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="покинет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Очевидное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="главную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обвинений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="домогательствах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="заявлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="производителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сериала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="интернет-компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 24 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="разъяснит"]
+			1 -> 9 [label="сент_соч"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 13 [label="обст"]
+			9 -> 18 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			18 -> 15 [label="обст"]
+			18 -> 19 [label="обст"]
+			20 -> 21 [label="квазиагент"]
+			19 -> 20 [label="предл"]
+			11 -> 10 [label="опред"]
+}

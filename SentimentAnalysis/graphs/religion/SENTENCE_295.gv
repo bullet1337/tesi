@@ -1,0 +1,63 @@
+digraph SENTENCE_295 {
+	graph [label="Союз еврейских гмин (районов) Польши возмущен сравнением польских и еврейских участников Холокоста, говорится в заявлении, распространенном этой организацией в понедельник."]
+	node [style=filled]
+		0 [label="Союз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еврейских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гмин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="районов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Польши
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="возмущен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сравнением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="польских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="еврейских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="участников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Холокоста
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заявлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="распространенном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="организацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+			17 -> 19 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			22 -> 23 [label="предл"]
+			2 -> 1 [label="опред"]
+			9 -> 10 [label="сочин"]
+			21 -> 20 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			0 -> 4 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 12 [label="_1_компл"]
+			7 -> 15 [label="вводн"]
+			15 -> 16 [label="обст"]
+			19 -> 21 [label="агент"]
+			19 -> 22 [label="обст"]
+			12 -> 9 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+}

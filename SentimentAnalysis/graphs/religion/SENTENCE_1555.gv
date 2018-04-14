@@ -1,0 +1,60 @@
+digraph SENTENCE_1555 {
+	graph [label="Иоанна Крестителя на Латеранском холме, но тест папской беседы с клиром был обнародован службой печати Святого престола лишь в субботу."]
+	node [style=filled]
+		0 [label="Иоанна Крестителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Латеранском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="холме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="папской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="беседы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="клиром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обнародован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="службой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="печати
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Святого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="престола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="субботу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			12 -> 13 [label="агент"]
+			12 -> 18 [label="обст"]
+			11 -> 0 [label="предик"]
+			11 -> 12
+			1 -> 3 [label="предл"]
+			6 -> 8 [label="разъяснит"]
+			0 -> 1 [label="атриб"]
+			0 -> 5 [label="сочин"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			9 -> 10 [label="предл"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+}

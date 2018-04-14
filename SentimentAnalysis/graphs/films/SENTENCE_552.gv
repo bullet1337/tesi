@@ -1,0 +1,45 @@
+digraph SENTENCE_552 {
+	graph [label="Песня «I`ve seen it all» одна из лучших песен-саундтреков, которые я только слышала."]
+	node [style=filled]
+		0 [label="Песня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="I
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="ve
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="seen
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="it
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="all
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="песен-саундтреков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="слышала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			0 -> 2
+			0 -> 4 [label="аппоз"]
+			6 -> 7 [label="аппоз"]
+			4 -> 5 [label="аппоз"]
+			17 -> 14 [label="_1_компл"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+			12 -> 11 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			9 -> 0 [label="предик"]
+			9 -> 10 [label="электив"]
+			9 -> 17 [label="сент_соч"]
+}

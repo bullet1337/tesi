@@ -1,0 +1,30 @@
+digraph SENTENCE_600 {
+	graph [label="Фестиваль в четверг открывает анимационный фильм Уэса Андерсона \"Остров собак\"."]
+	node [style=filled]
+		0 [label="Фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="открывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="анимационный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Уэса Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Остров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="аппоз"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="аппоз"]
+			5 -> 8 [label="сочин"]
+			1 -> 2 [label="предл"]
+}

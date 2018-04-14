@@ -1,0 +1,27 @@
+digraph SENTENCE_780 {
+	graph [label="Каждый раз, пересматривая, я сижу будто под гипнозом."]
+	node [style=filled]
+		0 [label="Каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пересматривая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сижу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будто
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гипнозом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			6 -> 1 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 8 [label="сравн_союзн"]
+}

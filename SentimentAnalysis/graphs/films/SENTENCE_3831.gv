@@ -1,0 +1,27 @@
+digraph SENTENCE_3831 {
+	graph [label="Были (и есть) актёры, полностью отдававшие себя роли."]
+	node [style=filled]
+		0 [label="Были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="актёры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отдававшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="сент_соч"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			5 -> 8 [label="опред"]
+}

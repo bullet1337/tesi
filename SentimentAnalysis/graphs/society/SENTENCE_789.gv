@@ -1,0 +1,54 @@
+digraph SENTENCE_789 {
+	graph [label="Ранее в январе вице-премьер Ольга Голодец сообщила, что очередь в ясли в России составляет более 272 тысяч человек."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="январе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вице-премьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Ольга Голодец
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ясли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="составляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="272
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			9 -> 10 [label="предл"]
+			13 -> 8 [label="предик"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			7 -> 13 [label="подч_союзн"]
+			11 -> 12 [label="предл"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="аппоз"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			14 -> 16 [label="сравнит"]
+			16 -> 15 [label="количест"]
+			16 -> 17 [label="квазиагент"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_3672 {
+	graph [label="На московской премьере звезды первой величины аплодировали стоя и кричали «браво», на краснодарской — некоторые зрители неистово болели за советскую команду."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="московской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="премьере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="звезды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="величины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аплодировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кричали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="браво
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="краснодарской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="неистово
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="болели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="советскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="команду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="атриб"]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 20 [label="разъяснит"]
+			6 -> 0 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 8 [label="сочин"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			20 -> 14 [label="обст"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="обст"]
+			20 -> 21 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			21 -> 23 [label="предл"]
+			14 -> 15 [label="предл"]
+			23 -> 22 [label="опред"]
+			18 -> 17 [label="опред"]
+}

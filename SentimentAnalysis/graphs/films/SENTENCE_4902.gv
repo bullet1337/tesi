@@ -1,0 +1,27 @@
+digraph SENTENCE_4902 {
+	graph [label="Заряжается от радиации, может летать, плавать и ходить."]
+	node [style=filled]
+		0 [label="Заряжается
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="радиации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="летать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="плавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 4 [label="сочин"]
+			5 -> 7 [label="сочин"]
+			7 -> 8 [label="сочин"]
+			1 -> 2 [label="предл"]
+}

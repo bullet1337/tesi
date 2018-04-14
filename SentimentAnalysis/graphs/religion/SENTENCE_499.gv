@@ -1,0 +1,54 @@
+digraph SENTENCE_499 {
+	graph [label="Мы занимаемся благим делом – гуманитарной миссией\", — заявил начальствующий епископ Российского объединенного союза христиан веры евангельской (пятидесятников) Сергей Ряховский."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="занимаемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="делом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гуманитарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="миссией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="начальствующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="епископ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Российского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="объединенного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="союза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="христиан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="веры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="евангельской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пятидесятников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Сергей Ряховский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 6 [label="обст_тавт"]
+			1 -> 10 [label="вводн"]
+			10 -> 12 [label="предик"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			20 -> 18 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="опред"]
+			12 -> 15 [label="атриб"]
+			12 -> 17 [label="аппоз"]
+			12 -> 20 [label="атриб"]
+			12 -> 22 [label="аппоз"]
+			6 -> 5 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_497 {
+	graph [label="Мясникова добавила, что в стране действуют две основные программы."]
+	node [style=filled]
+		0 [label="Мясникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="действуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="основные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 6 [label="подч_союзн"]
+			6 -> 4 [label="обст"]
+			6 -> 9 [label="предик"]
+			4 -> 5 [label="предл"]
+			9 -> 7 [label="количест"]
+			9 -> 8 [label="опред"]
+}

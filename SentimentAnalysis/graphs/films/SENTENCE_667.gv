@@ -1,0 +1,48 @@
+digraph SENTENCE_667 {
+	graph [label="Хотя, если сравнивать с более его ранними творениями, то да, съёмка всё же качественно улучшилась."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сравнивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ранними
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="творениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="съёмка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="качественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="улучшилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="инф_союзн"]
+			2 -> 10 [label="соотнос"]
+			3 -> 4 [label="_2_компл"]
+			8 -> 5 [label="огранич"]
+			8 -> 6 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			17 -> 2 [label="обст"]
+			17 -> 13 [label="суб_копр"]
+			17 -> 14 [label="предик"]
+			17 -> 16 [label="обст"]
+			4 -> 8 [label="предл"]
+			13 -> 11 [label="огранич"]
+			0 -> 17 [label="подч_союзн"]
+			14 -> 15 [label="огранич"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_1175 {
+	graph [label="По словам Кондратьева, включение трассы в список федеральных улучшит проходимость большегрузов к портам Черного и Азовского морей."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кондратьева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="включение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="трассы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="список
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="федеральных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="улучшит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проходимость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="большегрузов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="портам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Черного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Азовского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="морей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			14 -> 15 [label="сочин"]
+			9 -> 0 [label="вводн"]
+			9 -> 4 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			0 -> 1 [label="предл"]
+			13 -> 17 [label="атриб"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			17 -> 14 [label="опред"]
+			15 -> 16 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+}

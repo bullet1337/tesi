@@ -1,0 +1,33 @@
+digraph SENTENCE_1726 {
+	graph [label="Из-за боязни наступать на старые грабли, рождаются всякого рода «кровосмешения»."]
+	node [style=filled]
+		0 [label="Из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="боязни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="старые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="грабли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рождаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всякого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="кровосмешения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 7 [label="сочин"]
+			7 -> 11 [label="предик"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			11 -> 9 [label="атриб"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="предл"]
+}

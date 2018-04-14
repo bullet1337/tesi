@@ -1,0 +1,43 @@
+digraph SENTENCE_4173 {
+	graph [label="Но «Лунный свет» далеко не «Эдвард руки-ножницы», а Барри Дженкинс вообще ни разу не Тим Бертон."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Лунный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Эдвард
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="руки-ножницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Барри Дженкинс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Тим Бертон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 8 [label="соч_союзн"]
+			18 -> 16 [label="обст"]
+			18 -> 17 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 3 [label="предик"]
+			8 -> 6 [label="огранич"]
+			8 -> 9 [label="аппоз"]
+			8 -> 12 [label="сочин"]
+			3 -> 2 [label="опред"]
+			15 -> 18 [label="соч_союзн"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1121 {
+	graph [label="Храм гроба Господня, как и все иерусалимские церкви, синагоги и мечети, освобожден от муниципального налога."]
+	node [style=filled]
+		0 [label="Храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="гроба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="иерусалимские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="синагоги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мечети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="освобожден
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="муниципального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="налога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сравнит"]
+			2 -> 14 [label="сочин"]
+			15 -> 17 [label="предл"]
+			17 -> 16 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="сочин"]
+			4 -> 5 [label="огранич"]
+			4 -> 8 [label="сравн_союзн"]
+			11 -> 12 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			14 -> 15 [label="_2_компл"]
+			10 -> 11 [label="сочин"]
+}

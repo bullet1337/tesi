@@ -1,0 +1,38 @@
+digraph SENTENCE_662 {
+	graph [label="Да, даже в темноте можно найти правильный путь, главное — чувствовать его сердцем."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="путь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="чувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сердцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			10 -> 12 [label="предик"]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_2_компл"]
+}

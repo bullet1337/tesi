@@ -1,0 +1,21 @@
+digraph SENTENCE_2142 {
+	graph [label="Или мы все — это одно целое?"]
+	node [style=filled]
+		0 [label="Или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="целое
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 6 [label="сочин"]
+			6 -> 5 [label="количест"]
+			0 -> 4 [label="соч_союзн"]
+}

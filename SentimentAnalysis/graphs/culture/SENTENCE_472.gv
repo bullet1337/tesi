@@ -1,0 +1,54 @@
+digraph SENTENCE_472 {
+	graph [label="Российский академический молодежный театр (РАМТ) представляет новый спектакль \"Последние дни\", созданный художественным руководителем театра, известным режиссером Алексеем Бородиным."]
+	node [style=filled]
+		0 [label="Российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="академический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молодежный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="РАМТ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Последние
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="созданный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="художественным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="руководителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="известным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Алексеем Бородиным
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="атриб"]
+			9 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 21 [label="аппоз"]
+			3 -> 0 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			15 -> 17 [label="агент"]
+			12 -> 11 [label="опред"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="аппоз"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 9 [label="предик"]
+}

@@ -1,0 +1,71 @@
+digraph SENTENCE_351 {
+	graph [label="Митинг в центре Севастополя начался в полдень, в нем приняли участие депутаты заксобрания, глава парламента Екатерина Алтабаева, губернатор города Дмитрий Овсянников, представители штаба Черноморского флота."]
+	node [style=filled]
+		0 [label="Митинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Севастополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="начался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полдень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="депутаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заксобрания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="парламента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Екатерина Алтабаева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Дмитрий Овсянников
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="штаба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Черноморского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="флота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 10 [label="сент_соч"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="сочин"]
+			10 -> 8 [label="_1_несобст_компл"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="предик"]
+			0 -> 1 [label="атриб"]
+			20 -> 21 [label="аппоз"]
+			8 -> 9 [label="предл"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="аппоз"]
+			24 -> 26 [label="квазиагент"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 23 [label="сочин"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			23 -> 24 [label="_1_компл"]
+			26 -> 25 [label="опред"]
+}

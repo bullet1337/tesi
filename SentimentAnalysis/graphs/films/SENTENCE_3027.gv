@@ -1,0 +1,45 @@
+digraph SENTENCE_3027 {
+	graph [label="Речка движется и не движется, а любовь оно и есть, что на заборе пишется."]
+	node [style=filled]
+		0 [label="Речка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="движется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="движется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пишется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 10 [label="соч_союзн"]
+			6 -> 15 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сент_соч"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="сочин"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			2 -> 4 [label="соч_союзн"]
+			15 -> 7 [label="_1_компл"]
+			15 -> 12 [label="предик"]
+			15 -> 13 [label="обст"]
+			13 -> 14 [label="предл"]
+}

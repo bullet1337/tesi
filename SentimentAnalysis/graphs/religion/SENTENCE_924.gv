@@ -1,0 +1,48 @@
+digraph SENTENCE_924 {
+	graph [label="В 2010 году этот день по благословению патриарха Кирилла был объявлен главным праздником православного казачества."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2010
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="благословению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кирилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="объявлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="праздником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="православного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="казачества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			10 -> 12 [label="_2_компл"]
+			14 -> 13 [label="опред"]
+			5 -> 6 [label="предл"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="аппоз"]
+			6 -> 7 [label="квазиагент"]
+			9 -> 0 [label="обст"]
+			9 -> 4 [label="предик"]
+			9 -> 5 [label="обст"]
+			9 -> 10
+			9 -> 14 [label="предик"]
+			12 -> 11 [label="опред"]
+			4 -> 3 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_959 {
+	graph [label="Сможете ли трудиться, не покладая рук, день и ночь, отказывая себе во всём?"]
+	node [style=filled]
+		0 [label="Сможете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трудиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="покладая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ночь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="отказывая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 12 [label="обст"]
+			9 -> 10 [label="соч_союзн"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 14 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			8 -> 9 [label="сочин"]
+}

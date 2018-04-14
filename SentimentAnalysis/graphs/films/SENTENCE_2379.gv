@@ -1,0 +1,42 @@
+digraph SENTENCE_2379 {
+	graph [label="Здесь очень хорошо представлено рождение жанра «industrial» который появился примерно в таком духе."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="представлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="жанра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="industrial
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="появился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="примерно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="таком
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="духе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="предл"]
+			3 -> 4 [label="предик"]
+			14 -> 13 [label="опред"]
+			5 -> 7 [label="аппоз"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="вводн"]
+			2 -> 10 [label="сент_соч"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="обст"]
+}

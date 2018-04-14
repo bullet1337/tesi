@@ -1,0 +1,75 @@
+digraph SENTENCE_700 {
+	graph [label="В рамках фестиваля в особой его части будут представлены литературно-музыкальные проекты: \"Путешествие Пушкина в Африку\", \"Разговоры в темноте\", \"О любви и смерти\", \"Шаляпинские вечера\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="особой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="представлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="литературно-музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проекты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Путешествие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Африку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Разговоры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="О
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Шаляпинские
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="вечера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			28 -> 29 [label="соч_союзн"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="квазиагент"]
+			1 -> 2 [label="квазиагент"]
+			21 -> 22 [label="предл"]
+			27 -> 28 [label="сочин"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 26 [label="_3_компл"]
+			0 -> 1 [label="предл"]
+			0 -> 3 [label="сочин"]
+			29 -> 34 [label="квазиагент"]
+			3 -> 6 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 8
+			7 -> 10 [label="предик"]
+			26 -> 27 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			13 -> 15 [label="_2_компл"]
+			34 -> 33 [label="опред"]
+			15 -> 16 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="_1_компл"]
+			10 -> 20 [label="разъяснит"]
+}

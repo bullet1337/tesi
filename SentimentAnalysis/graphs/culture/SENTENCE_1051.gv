@@ -1,0 +1,33 @@
+digraph SENTENCE_1051 {
+	graph [label="Шедевры древнегреческого искусства представит Музей Акрополя на новой выставке \"Элевсина."]
+	node [style=filled]
+		0 [label="Шедевры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="древнегреческого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="искусства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="представит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Музей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Акрополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выставке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Элевсина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="аппоз"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="атриб"]
+			6 -> 8 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_324 {
+	graph [label="Если вы человек и если у вас есть сердце, то вы будете плакать или даже рыдать, возможно вы прослезитесь, но равнодушными точно не останетесь."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="будете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="плакать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рыдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прослезитесь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="равнодушными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="точно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="останетесь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="подч_союзн"]
+			4 -> 10 [label="соотнос"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			3 -> 12 [label="соч_союзн"]
+			16 -> 15 [label="огранич"]
+			20 -> 19 [label="предик"]
+			20 -> 22 [label="сент_соч"]
+			14 -> 16 [label="соч_союзн"]
+			26 -> 23 [label="присвяз"]
+			26 -> 24 [label="обст"]
+			26 -> 25 [label="огранич"]
+			12 -> 4 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="аналит"]
+			12 -> 18 [label="присвяз"]
+			12 -> 20 [label="сент_соч"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="сент_соч"]
+			0 -> 2 [label="подч_союзн"]
+			22 -> 26 [label="соч_союзн"]
+			5 -> 6 [label="предл"]
+			13 -> 14 [label="сочин"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1009 {
+	graph [label="Она кинулась на вооруженного преступника и пакетами пыталась отбить у него ружье."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кинулась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вооруженного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="преступника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пакетами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пыталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отбить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ружье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 7 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 11 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+}

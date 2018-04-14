@@ -1,0 +1,42 @@
+digraph SENTENCE_1388 {
+	graph [label="С другой, крошечная островная страна не может не считаться с мнением материковой Европы."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="крошечная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="островная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="страна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="считаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мнением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="материковой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Европы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			13 -> 12 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			11 -> 13 [label="квазиагент"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+}

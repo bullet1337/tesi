@@ -1,0 +1,60 @@
+digraph SENTENCE_546 {
+	graph [label="Даже ученики Иисуса не сразу поняли, что Иисус – Мессия, а старец, олицетворяющий Ветхий Завет, знал это с самого начала."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ученики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Иисуса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Иисус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Мессия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="старец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="олицетворяющий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ветхий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Завет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="знал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 19 [label="подч_союзн"]
+			13 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			19 -> 8 [label="предик"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 21 [label="обст"]
+			23 -> 22 [label="опред"]
+			8 -> 10 [label="аппоз"]
+			8 -> 12 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			4 -> 3 [label="огранич"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			21 -> 23 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="аппоз"]
+			15 -> 17 [label="_1_компл"]
+}

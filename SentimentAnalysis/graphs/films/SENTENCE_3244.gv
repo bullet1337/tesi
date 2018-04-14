@@ -1,0 +1,36 @@
+digraph SENTENCE_3244 {
+	graph [label="Харламов же по фильму задавака и зазнайка, а не тонкая душа?"]
+	node [style=filled]
+		0 [label="Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="задавака
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зазнайка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тонкая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="душа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="атриб"]
+			0 -> 5 [label="сочин"]
+			0 -> 8 [label="примыкат"]
+			2 -> 3 [label="предл"]
+			3 -> 4 [label="аппоз"]
+			10 -> 9 [label="огранич"]
+			5 -> 6 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			8 -> 11 [label="соч_союзн"]
+}

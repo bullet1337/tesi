@@ -1,0 +1,36 @@
+digraph SENTENCE_3261 {
+	graph [label="Просто у Харламова метр с кепкой 169см и 70кг."]
+	node [style=filled]
+		0 [label="Просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="метр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кепкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="169
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="см
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			4 -> 5 [label="предл"]
+			7 -> 6 [label="количест"]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="атриб"]
+			5 -> 7 [label="компл_аппоз"]
+			5 -> 8 [label="сочин"]
+			10 -> 9 [label="количест"]
+}

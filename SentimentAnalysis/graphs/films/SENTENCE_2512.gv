@@ -1,0 +1,48 @@
+digraph SENTENCE_2512 {
+	graph [label=") очень мало осмысленных фраз; произносимые реплики чаще всего эмоциональны, но их смысловой источник не ясен."]
+	node [style=filled]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="осмысленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фраз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="произносимые
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="реплики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чаще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="эмоциональны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="смысловой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="источник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ясен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 9 [label="сравнит"]
+			7 -> 6 [label="опред"]
+			15 -> 13 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			10 -> 2 [label="_1_компл"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="обст"]
+			10 -> 12 [label="сент_соч"]
+			12 -> 17 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			17 -> 15 [label="предик"]
+			17 -> 16 [label="огранич"]
+}

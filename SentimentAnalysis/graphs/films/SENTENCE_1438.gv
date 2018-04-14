@@ -1,0 +1,24 @@
+digraph SENTENCE_1438 {
+	graph [label="Вставленные музыкальные номера просто замечательные, очень трогательные."]
+	node [style=filled]
+		0 [label="Вставленные
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="номера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="замечательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трогательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 2 [label="предик"]
+			7 -> 3 [label="огранич"]
+			7 -> 4 [label="опред"]
+			7 -> 6 [label="огранич"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+}

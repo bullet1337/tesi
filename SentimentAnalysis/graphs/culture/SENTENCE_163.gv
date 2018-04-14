@@ -1,0 +1,36 @@
+digraph SENTENCE_163 {
+	graph [label="Вместе с режиссером над постановкой работали художник Мария Трегубова и композитор Григорий Гоберник."]
+	node [style=filled]
+		0 [label="Вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="постановкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Мария Трегубова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="композитор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Григорий Гоберник
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 10 [label="аппоз"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			3 -> 4 [label="предл"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			6 -> 7 [label="аппоз"]
+			6 -> 8 [label="сочин"]
+}

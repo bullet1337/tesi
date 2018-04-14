@@ -1,0 +1,36 @@
+digraph SENTENCE_1397 {
+	graph [label="Есть фильмы, где этот прием (который я люблю) смотрится гораздо лучше."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="люблю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смотрится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 3 [label="обст"]
+			11 -> 5 [label="предик"]
+			11 -> 9 [label="вводн"]
+			11 -> 13 [label="_1_компл"]
+			9 -> 7 [label="_1_компл"]
+			9 -> 8 [label="предик"]
+			0 -> 1 [label="предик"]
+			0 -> 11 [label="сент_соч"]
+			5 -> 4 [label="опред"]
+			13 -> 12 [label="колич_огран"]
+}

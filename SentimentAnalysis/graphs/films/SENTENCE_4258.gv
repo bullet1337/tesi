@@ -1,0 +1,54 @@
+digraph SENTENCE_4258 {
+	graph [label="Наблюдая за откровенным браком операторской работы я начал оправдывать это тем, что это же абсолютно «авторское кино»."]
+	node [style=filled]
+		0 [label="Наблюдая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="откровенным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="браком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="операторской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оправдывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="авторское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			5 -> 4 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 5 [label="длительн"]
+			1 -> 3 [label="предл"]
+			10 -> 12 [label="эксплет"]
+			7 -> 0 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			12 -> 18 [label="подч_союзн"]
+			13 -> 14 [label="огранич"]
+			17 -> 15 [label="огранич"]
+			18 -> 13 [label="предик"]
+			18 -> 17 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+}

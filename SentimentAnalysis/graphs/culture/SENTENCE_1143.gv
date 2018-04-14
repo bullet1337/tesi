@@ -1,0 +1,57 @@
+digraph SENTENCE_1143 {
+	graph [label="Кроме того, мировой суд оштрафовал \"Пионер\" на 80 тысяч рублей за показ без прокатного удостоверения картины \"Диван Сталина\"."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оштрафовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="80
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Диван
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			15 -> 17 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="_2_компл"]
+			5 -> 13 [label="_3_компл"]
+			5 -> 15 [label="обст"]
+			5 -> 18 [label="_1_компл"]
+			18 -> 20 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			9 -> 11 [label="предл"]
+			20 -> 21 [label="атриб"]
+			17 -> 16 [label="опред"]
+}

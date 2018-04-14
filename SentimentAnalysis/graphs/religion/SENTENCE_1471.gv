@@ -1,0 +1,53 @@
+digraph SENTENCE_1471 {
+	graph [label="Изначально празднование памяти святого Валентина было установлено как почитание его мученичества, без какой-либо связи с покровительством влюбленных."]
+	node [style=filled]
+		0 [label="Изначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="празднование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="памяти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="установлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="почитание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мученичества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="какой-либо
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="покровительством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="влюбленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			7 -> 8 [label="сравн_союзн"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="изъясн"]
+			5 -> 4 [label="предик"]
+			5 -> 6
+			5 -> 10 [label="предик"]
+			5 -> 12 [label="обст"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			10 -> 9 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			12 -> 14 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+			6 -> 7 [label="сравнит"]
+}

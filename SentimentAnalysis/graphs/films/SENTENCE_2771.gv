@@ -1,0 +1,49 @@
+digraph SENTENCE_2771 {
+	graph [label="4 из 10
+Этот фильм большинство кинокритиков называют иконой кинофантастики, неповторимым шедевром и эталоном жанра."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Этот
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кинокритиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="называют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="иконой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кинофантастики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="неповторимым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="эталоном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="жанра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			4 -> 7 [label="примыкат"]
+			8 -> 9 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			14 -> 15 [label="квазиагент"]
+			0 -> 1 [label="электив"]
+			1 -> 4 [label="предл"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			9 -> 12 [label="сочин"]
+}

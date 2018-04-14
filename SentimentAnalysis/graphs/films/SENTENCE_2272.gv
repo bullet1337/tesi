@@ -1,0 +1,34 @@
+digraph SENTENCE_2272 {
+	graph [label="Так вот, значит, как вершится правосудие в повернутой на юрисдикции Америке."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="значит
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вершится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правосудие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="повернутой
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="юрисдикции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="атриб"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="предик"]
+			0 -> 1 [label="огранич"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="обст"]
+			3 -> 0 [label="вводн"]
+			11 -> 12 [label="квазиагент"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_93 {
+	graph [label="\"Такую, которая и нужна России\", — заключил Путин."]
+	node [style=filled]
+		1 [label="Такую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нужна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="заключил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="предик"]
+			1 -> 5 [label="релят"]
+			1 -> 10 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_2_компл"]
+}

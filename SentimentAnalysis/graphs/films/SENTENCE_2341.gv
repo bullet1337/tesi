@@ -1,0 +1,44 @@
+digraph SENTENCE_2341 {
+	graph [label="Золотую пальмовую ветвь можно было дать какому-нибудь другому фильму режиссёра, но точно не этому."]
+	node [style=filled]
+		0 [label="Золотую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пальмовую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ветвь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="какому-нибудь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="другому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="точно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			5 -> 8 [label="_2_компл"]
+			11 -> 14 [label="соч_союзн"]
+			4 -> 3 [label="присвяз"]
+			4 -> 5 [label="предик"]
+			4 -> 11 [label="сент_соч"]
+			14 -> 12 [label="огранич"]
+			14 -> 13 [label="огранич"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_600 {
+	graph [label="Сельма — блаженная чудачка, любящая мюзиклы."]
+	node [style=filled]
+		0 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="блаженная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чудачка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любящая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="аппоз"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="опред"]
+			3 -> 2 [label="опред"]
+}

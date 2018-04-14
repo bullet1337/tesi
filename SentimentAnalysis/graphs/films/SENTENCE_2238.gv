@@ -1,0 +1,59 @@
+digraph SENTENCE_2238 {
+	graph [label="Смотря фильм я наблюдал то как главный герой, незримый нами на экране помогает нас воспринимать собственным взглядом его жизнь."]
+	node [style=filled]
+		0 [label="Смотря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наблюдал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="незримый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="помогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="воспринимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="собственным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="взглядом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="сравн_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			17 -> 16 [label="опред"]
+			11 -> 12 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			19 -> 18 [label="квазиагент"]
+			9 -> 10 [label="_1_компл"]
+			15 -> 17 [label="обст"]
+			15 -> 19 [label="_1_компл"]
+			13 -> 5 [label="вводн"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="_2_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_52 {
+	graph [label="В Москве скончалась народная артистка СССР, лауреат Сталинской премии, старейшая актриса театра имени Маяковского Татьяна Карпова."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="скончалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="лауреат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сталинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="старейшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Татьяна Карпова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			2 -> 7 [label="разъяснит"]
+			14 -> 15 [label="квазиагент"]
+			13 -> 14 [label="атриб"]
+			13 -> 16 [label="сочин"]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 12 [label="сочин"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+}

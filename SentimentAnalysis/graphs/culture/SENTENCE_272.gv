@@ -1,0 +1,21 @@
+digraph SENTENCE_272 {
+	graph [label="Праздничные выходные порадуют и любителей рэп-культуры."]
+	node [style=filled]
+		0 [label="Праздничные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выходные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="порадуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рэп-культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+}

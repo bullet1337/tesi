@@ -1,0 +1,21 @@
+digraph SENTENCE_273 {
+	graph [label="Он произвёл на меня неизгладимое впечатление."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="произвёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неизгладимое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+}

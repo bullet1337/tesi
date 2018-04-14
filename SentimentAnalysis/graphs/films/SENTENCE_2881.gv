@@ -1,0 +1,42 @@
+digraph SENTENCE_2881 {
+	graph [label="Все, кто в этом мультфильме будут причастны ко злу, — недоподростки с диагнозом нервозности."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мультфильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="причастны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ко
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="злу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="недоподростки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="диагнозом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нервозности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			14 -> 15 [label="аппоз"]
+			9 -> 12 [label="квазиагент"]
+			0 -> 6 [label="релят"]
+			6 -> 2 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="присвяз"]
+			6 -> 13 [label="обст"]
+}

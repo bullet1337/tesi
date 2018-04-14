@@ -1,0 +1,63 @@
+digraph SENTENCE_1364 {
+	graph [label="Екатерина Андреева и Виталий Елисеев, в свою очередь, будут вести эфир на другие часовые пояса, а также появятся в субботних выпусках передачи."]
+	node [style=filled]
+		0 [label="Екатерина Андреева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Виталий Елисеев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="эфир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="часовые
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пояса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="появятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="субботних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="выпусках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="передачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			1 -> 2 [label="соч_союзн"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="_2_компл"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="_1_компл"]
+			0 -> 1 [label="сочин"]
+			19 -> 21 [label="предл"]
+			6 -> 5 [label="опред"]
+			16 -> 18 [label="соч_союзн"]
+			11 -> 14 [label="предл"]
+			8 -> 0 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 9 [label="аналит"]
+			8 -> 16 [label="сочин"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="_3_компл"]
+}

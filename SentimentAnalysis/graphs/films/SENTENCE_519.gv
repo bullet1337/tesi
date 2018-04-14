@@ -1,0 +1,39 @@
+digraph SENTENCE_519 {
+	graph [label="И наша героиня выбирает все — ради своего сына, и ничего — для себя."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выбирает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			10 -> 13 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			13 -> 11 [label="предик"]
+			13 -> 14 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="обст"]
+			3 -> 10 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+}

@@ -1,0 +1,78 @@
+digraph SENTENCE_34 {
+	graph [label="Известный сюжет с элементами мистики о молодом инженере Германне, одержимом идеей разведать секрет трех карт у старухи-графини вновь оживет благодаря работе известного драматического режиссера Римаса Туминоса."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="элементами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мистики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="молодом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="инженере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Германне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="одержимом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="идеей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разведать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="карт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="старухи-графини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вновь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="оживет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="известного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="драматического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Римаса Туминоса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="предл"]
+			12 -> 1 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			16 -> 17 [label="предл"]
+			19 -> 16 [label="обст"]
+			19 -> 18 [label="обст"]
+			19 -> 20 [label="обст"]
+			15 -> 14 [label="количест"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			13 -> 19 [label="изъясн"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+			21 -> 24 [label="квазиагент"]
+			3 -> 4 [label="квазиагент"]
+			24 -> 22 [label="опред"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="аппоз"]
+			20 -> 21 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 11 [label="сочин"]
+			11 -> 10 [label="опред"]
+}

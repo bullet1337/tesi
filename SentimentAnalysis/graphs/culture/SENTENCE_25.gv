@@ -1,0 +1,84 @@
+digraph SENTENCE_25 {
+	graph [label="Гости экспозиции в Лаврушинском переулке увидят восемь полотен, которые живописец исполнил в разные периоды творчества, среди них парадные и камерные изображения, групповой семейный портрет, конный \"портрет-прогулка\", автопортреты."]
+	node [style=filled]
+		0 [label="Гости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="экспозиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Лаврушинском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="переулке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="увидят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="восемь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полотен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="живописец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="исполнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="периоды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="творчества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="парадные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="камерные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="изображения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="групповой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="семейный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="портрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="конный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="портрет-прогулка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="автопортреты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+			26 -> 30 [label="сочин"]
+			2 -> 4 [label="предл"]
+			30 -> 28 [label="опред"]
+			30 -> 33 [label="сочин"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			14 -> 17 [label="атриб"]
+			12 -> 14 [label="предл"]
+			19 -> 20 [label="сочин"]
+			7 -> 6 [label="количест"]
+			7 -> 11 [label="релят"]
+			7 -> 26 [label="разъяснит"]
+			17 -> 18 [label="предл"]
+			20 -> 21 [label="соч_союзн"]
+			5 -> 0 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			22 -> 19 [label="опред"]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="аппоз"]
+			0 -> 2 [label="атриб"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 22 [label="предик"]
+}

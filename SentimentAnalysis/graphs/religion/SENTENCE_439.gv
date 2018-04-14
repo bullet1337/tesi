@@ -1,0 +1,48 @@
+digraph SENTENCE_439 {
+	graph [label="\"Яблоко\" в феврале 2016 года приняло решение о выдвижении основателя партии своим кандидатом в президенты."]
+	node [style=filled]
+		1 [label="Яблоко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="феврале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приняло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выдвижении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="основателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кандидатом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="президенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="предл"]
+			15 -> 16 [label="предл"]
+			8 -> 9 [label="_2_компл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 14 [label="сочин"]
+			7 -> 1 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			4 -> 6 [label="атриб"]
+}

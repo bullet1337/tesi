@@ -1,0 +1,51 @@
+digraph SENTENCE_128 {
+	graph [label="Этот фильм сильнее, чем «Реквием» и «Зеленая миля» вместе взятые (хотя оба эти фильма я обожаю)."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Реквием
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Зеленая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="миля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="взятые
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="обожаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 19 [label="_1_компл"]
+			21 -> 20 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="сравнит"]
+			2 -> 14 [label="сент_соч"]
+			2 -> 16 [label="обст"]
+			4 -> 6 [label="сравн_союзн"]
+			6 -> 8 [label="сочин"]
+			14 -> 13 [label="обст"]
+			16 -> 21 [label="подч_союзн"]
+			8 -> 11 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="опред"]
+			19 -> 17 [label="количест"]
+			19 -> 18 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_894 {
+	graph [label="Родные и близкие люди находятся рядом с ним\", —."]
+	node [style=filled]
+		0 [label="Родные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="близкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="находятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			0 -> 1 [label="сочин"]
+			6 -> 7 [label="предл"]
+			3 -> 2 [label="опред"]
+			1 -> 3 [label="соч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+}

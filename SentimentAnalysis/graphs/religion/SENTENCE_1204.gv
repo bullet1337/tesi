@@ -1,0 +1,57 @@
+digraph SENTENCE_1204 {
+	graph [label="На территории в 20 гектаров разместятся Соборная мечеть, Духовное управление мусульман, исламский университет, общежитие для студентов, культурно-досуговый комплекс."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="территории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гектаров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разместятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Соборная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="мечеть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Духовное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="управление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="исламский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="университет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="общежитие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="студентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="культурно-досуговый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="комплекс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 20 [label="опред"]
+			16 -> 17 [label="атриб"]
+			16 -> 21 [label="сочин"]
+			7 -> 6 [label="опред"]
+			7 -> 10 [label="сочин"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 7 [label="предик"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			17 -> 18 [label="предл"]
+			2 -> 4 [label="предл"]
+			11 -> 14 [label="сочин"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="сочин"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="сочин"]
+			4 -> 3 [label="количест"]
+}

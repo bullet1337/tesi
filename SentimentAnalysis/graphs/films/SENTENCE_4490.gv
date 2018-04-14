@@ -1,0 +1,36 @@
+digraph SENTENCE_4490 {
+	graph [label="Народ не давит, корабли не топит, мосты и здания не рушит!"]
+	node [style=filled]
+		0 [label="Народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="давит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="корабли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="топит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мосты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рушит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 12 [label="соч_союзн"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="сент_соч"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="сочин"]
+}

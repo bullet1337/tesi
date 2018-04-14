@@ -1,0 +1,48 @@
+digraph SENTENCE_21 {
+	graph [label="По словам синоптика, пока таких \"пронырливых\" циклонов не ожидается ни с запада, ни с юга."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="синоптика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пронырливых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="циклонов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="запада
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="юга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			13 -> 16 [label="сочин"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			16 -> 17 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+			11 -> 0 [label="вводн"]
+			11 -> 4 [label="огранич"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="обст"]
+			9 -> 5 [label="опред"]
+			9 -> 7 [label="опред"]
+}

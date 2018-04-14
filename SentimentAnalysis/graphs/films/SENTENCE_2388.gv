@@ -1,0 +1,42 @@
+digraph SENTENCE_2388 {
+	graph [label="В этом плане к ней у меня нет претензий, всё было сыграно отлично."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="претензий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сыграно
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отлично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 11 [label="релят"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			12 -> 13 [label="обст"]
+			3 -> 4 [label="предл"]
+			5 -> 3 [label="вводн"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12
+}

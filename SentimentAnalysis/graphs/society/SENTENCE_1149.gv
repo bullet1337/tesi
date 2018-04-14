@@ -1,0 +1,54 @@
+digraph SENTENCE_1149 {
+	graph [label="Немцов занимал в 1990-х годах ряд высоких постов в правительстве России, а в 2000-х перешел в оппозицию."]
+	node [style=filled]
+		0 [label="Немцов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="занимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1990-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="высоких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="постов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="правительстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2000-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="перешел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оппозицию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			13 -> 14 [label="предл"]
+			15 -> 13 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			12 -> 15 [label="соч_союзн"]
+			2 -> 4 [label="предл"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			5 -> 7 [label="квазиагент"]
+			16 -> 17 [label="предл"]
+}

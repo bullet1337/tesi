@@ -1,0 +1,24 @@
+digraph SENTENCE_581 {
+	graph [label="Планируется, что реестр заработает в 2020 году."]
+	node [style=filled]
+		0 [label="Планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="реестр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заработает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2020
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			2 -> 4 [label="подч_союзн"]
+			7 -> 6 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			0 -> 2 [label="предик"]
+}

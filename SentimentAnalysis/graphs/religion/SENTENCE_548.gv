@@ -1,0 +1,66 @@
+digraph SENTENCE_548 {
+	graph [label="\"Семьдесят\" — число символическое: именно столько старейшин помогали Моисею вести народ через пустыню и было свидетелями того, как Бог дал ему Закон."]
+	node [style=filled]
+		1 [label="Семьдесят
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="число
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="символическое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="старейшин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="помогали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Моисею
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="вести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пустыню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="свидетелями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Бог
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="дал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Закон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="аппоз"]
+			11 -> 13 [label="сочин"]
+			14 -> 15 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 10 [label="разъяснит"]
+			16 -> 17 [label="соч_союзн"]
+			4 -> 1 [label="количест"]
+			23 -> 21 [label="обст"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+			23 -> 25 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			18 -> 19 [label="_1_компл"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="предик"]
+			10 -> 14 [label="обст"]
+			10 -> 16 [label="сент_соч"]
+			17 -> 18 [label="присвяз"]
+			19 -> 23 [label="эксплет"]
+}

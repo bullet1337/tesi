@@ -1,0 +1,52 @@
+digraph SENTENCE_1385 {
+	graph [label="Он боялся, ему было противно то, что он делает, он ненавидел себя, но он взял эти деньги."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="боялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="противно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ненавидел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="взял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="деньги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="сент_соч"]
+			18 -> 17 [label="предик"]
+			18 -> 20 [label="_1_компл"]
+			16 -> 18 [label="соч_союзн"]
+			8 -> 10 [label="подч_союзн"]
+			4 -> 5 [label="присвяз"]
+			4 -> 6 [label="предик"]
+			4 -> 13 [label="сент_соч"]
+			20 -> 19 [label="опред"]
+			6 -> 8 [label="эксплет"]
+			10 -> 9 [label="предик"]
+			1 -> 0 [label="предик"]
+}

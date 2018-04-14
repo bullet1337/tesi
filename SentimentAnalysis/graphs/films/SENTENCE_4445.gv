@@ -1,0 +1,36 @@
+digraph SENTENCE_4445 {
+	graph [label="Оказывается, гигантские монстры, питавшиеся… радиацией, это древнейшая форма жизни на земле."]
+	node [style=filled]
+		0 [label="Оказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гигантские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="монстры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="питавшиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="радиацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="древнейшая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="форма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="земле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			13 -> 14 [label="предл"]
+			9 -> 0 [label="пролепт"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			11 -> 13 [label="атриб"]
+}

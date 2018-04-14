@@ -1,0 +1,39 @@
+digraph SENTENCE_88 {
+	graph [label="Получил известность благодаря арт-фотографиям, на которых он полностью сливается с окружающей средой."]
+	node [style=filled]
+		0 [label="Получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="арт-фотографиям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="окружающей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="средой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="обст"]
+			0 -> 9 [label="сент_соч"]
+			12 -> 11 [label="опред"]
+			9 -> 5 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			10 -> 12 [label="предл"]
+}

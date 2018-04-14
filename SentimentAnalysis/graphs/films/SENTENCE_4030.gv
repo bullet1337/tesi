@@ -1,0 +1,42 @@
+digraph SENTENCE_4030 {
+	graph [label="В списках похожих отсутствует главный похожий фильм — Система Безопасности (Fail-Safe) того же года."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="списках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="похожих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отсутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="похожий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Система
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Безопасности
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Fail-Safe
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="опред"]
+			13 -> 14 [label="огранич"]
+			8 -> 9 [label="квазиагент"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="ном_аппоз"]
+			9 -> 11 [label="аппоз"]
+			11 -> 15 [label="атриб"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+}

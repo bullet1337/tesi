@@ -1,0 +1,24 @@
+digraph SENTENCE_4682 {
+	graph [label="Вылезла, испортила воздух, вперед на город — все."]
+	node [style=filled]
+		0 [label="Вылезла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="испортила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="воздух
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вперед
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="город
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			0 -> 2 [label="сочин"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			2 -> 9 [label="_1_компл"]
+			3 -> 5 [label="атриб"]
+}

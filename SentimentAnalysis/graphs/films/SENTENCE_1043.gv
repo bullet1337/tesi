@@ -1,0 +1,55 @@
+digraph SENTENCE_1043 {
+	graph [label="Идти к цели, к мечте, ни перед чем не останавливаясь, идти, не видя настоящего, но мечтая о будущем."]
+	node [style=filled]
+		0 [label="Идти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="цели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мечте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="останавливаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="идти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="видя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="настоящего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мечтая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="будущем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 19 [label="сочин"]
+			21 -> 22 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			11 -> 8 [label="обст"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="предл"]
+			13 -> 16 [label="обст"]
+			19 -> 20 [label="соч_союзн"]
+			20 -> 21 [label="_1_компл"]
+}

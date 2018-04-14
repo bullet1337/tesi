@@ -1,0 +1,18 @@
+digraph SENTENCE_3323 {
+	graph [label="Никогда об этом не слыхал."]
+	node [style=filled]
+		0 [label="Никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слыхал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+}

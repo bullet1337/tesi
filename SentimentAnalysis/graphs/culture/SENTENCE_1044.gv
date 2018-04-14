@@ -1,0 +1,39 @@
+digraph SENTENCE_1044 {
+	graph [label="С ним происходит страшная трансформация, он сходит с ума, становится злым гением."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="страшная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="трансформация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="злым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			0 -> 1 [label="предл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 11 [label="сочин"]
+			11 -> 13 [label="присвяз"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			2 -> 7 [label="разъяснит"]
+			8 -> 9 [label="предл"]
+			4 -> 3 [label="опред"]
+}

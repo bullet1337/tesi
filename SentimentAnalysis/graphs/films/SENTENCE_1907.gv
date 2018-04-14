@@ -1,0 +1,30 @@
+digraph SENTENCE_1907 {
+	graph [label="Но это всё же проблема моя, а не фильма."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="огранич"]
+			0 -> 4 [label="соч_союзн"]
+			7 -> 9 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 5 [label="опред"]
+			4 -> 7 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+}

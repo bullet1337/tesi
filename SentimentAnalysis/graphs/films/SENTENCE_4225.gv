@@ -1,0 +1,68 @@
+digraph SENTENCE_4225 {
+	graph [label="Вот только этот фильм — шедевральное творение Мэла Гибсона, о национальном герое США — Дезмонде Доссе, «Hacksaw ridge», или же, в нашей версии — «По соображениям совести»."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шедевральное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="творение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Мэла Гибсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="национальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="герое
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Дезмонде Доссе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Hacksaw
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="ridge
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="версии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="По
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="соображениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="совести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 26 [label="предл"]
+			1 -> 0 [label="огранич"]
+			29 -> 30 [label="предл"]
+			26 -> 25 [label="опред"]
+			26 -> 29 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			6 -> 5 [label="опред"]
+			17 -> 18 [label="аппоз"]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="опред"]
+			3 -> 6 [label="ном_аппоз"]
+			3 -> 7 [label="квазиагент"]
+			3 -> 9 [label="_1_компл"]
+			3 -> 21 [label="сочин"]
+			30 -> 31 [label="квазиагент"]
+			21 -> 22 [label="огранич"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 14 [label="аппоз"]
+			14 -> 17 [label="аппоз"]
+}

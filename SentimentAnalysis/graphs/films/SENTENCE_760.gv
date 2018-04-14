@@ -1,0 +1,54 @@
+digraph SENTENCE_760 {
+	graph [label="Ведь самое простое увидеть в списке актеров какого-нибудь известного певца и сразу решить:«фуфло, распиаренное приглашенной знаменитостью»."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="простое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="списке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="какого-нибудь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="известного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="певца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="решить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фуфло
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="распиаренное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="приглашенной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="знаменитостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			6 -> 9 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			12 -> 11 [label="обст"]
+			12 -> 19 [label="_1_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 10 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="опред"]
+			17 -> 15 [label="огранич"]
+			10 -> 12 [label="соч_союзн"]
+}

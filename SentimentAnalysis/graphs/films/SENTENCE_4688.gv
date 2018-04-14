@@ -1,0 +1,39 @@
+digraph SENTENCE_4688 {
+	graph [label="И тут до меня дошло, потому что за штурвалом корабля стоит Вася Пряник."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="штурвалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="корабля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Вася Пряник
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="предл"]
+			4 -> 1 [label="обст"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 6 [label="обст"]
+			2 -> 3 [label="предл"]
+			9 -> 10 [label="атриб"]
+			0 -> 4 [label="соч_союзн"]
+			6 -> 7 [label="эксплет"]
+			11 -> 8 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			7 -> 11 [label="подч_союзн"]
+}

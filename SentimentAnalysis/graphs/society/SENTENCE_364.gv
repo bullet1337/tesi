@@ -1,0 +1,57 @@
+digraph SENTENCE_364 {
+	graph [label="На нем жители Севастополя отказались признавать украинские власти после государственного переворота в Киеве, выбрали народного мэра города Алексея Чалого."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Севастополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="отказались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="признавать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="украинские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="государственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="переворота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Киеве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="выбрали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="народного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мэра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Алексея Чалого
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			17 -> 18 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 14 [label="разъяснит"]
+			0 -> 1 [label="предл"]
+			14 -> 16 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+}

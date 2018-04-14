@@ -1,0 +1,29 @@
+digraph SENTENCE_484 {
+	graph [label="\"Для нас успех фильма \"Последний богатырь\" стал большой радостью!"]
+	node [style=filled]
+		1 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="успех
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Последний
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="богатырь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="радостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 9 [label="разъяснит"]
+			7 -> 6 [label="опред"]
+			11 -> 10 [label="опред"]
+			9 -> 7 [label="предик"]
+			9 -> 11 [label="присвяз"]
+}

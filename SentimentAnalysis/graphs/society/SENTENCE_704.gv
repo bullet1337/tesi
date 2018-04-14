@@ -1,0 +1,60 @@
+digraph SENTENCE_704 {
+	graph [label="Это говорит о том, что определенная часть хищников остается неучтенной, несмотря на внушительные размеры сети фотомониторинга\", — рассказали в пресс-службе."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="определенная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хищников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="неучтенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="внушительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="размеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фотомониторинга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 15 [label="предл"]
+			5 -> 9 [label="подч_союзн"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="присвяз"]
+			9 -> 12 [label="обст"]
+			9 -> 13 [label="присвяз"]
+			22 -> 23 [label="предл"]
+			2 -> 3 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+			3 -> 5 [label="эксплет"]
+			15 -> 14 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			1 -> 21 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			21 -> 16 [label="предик"]
+			21 -> 22 [label="обст"]
+}

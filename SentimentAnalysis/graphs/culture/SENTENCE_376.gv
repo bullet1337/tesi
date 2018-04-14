@@ -1,0 +1,30 @@
+digraph SENTENCE_376 {
+	graph [label="И большинство из вас об этом даже не подозревали."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подозревали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 8 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 1 [label="_1_компл"]
+			8 -> 4 [label="_2_компл"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			4 -> 5 [label="предл"]
+}

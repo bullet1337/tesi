@@ -1,0 +1,59 @@
+digraph SENTENCE_962 {
+	graph [label="\"Позвоночница\" живет чужими историями, она связывает совершенно незнакомых людей, ранимых и неприспособленных к современной действительности, \"включает\" их в реальность."]
+	node [style=filled]
+		1 [label="Позвоночница
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чужими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="историями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="связывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="незнакомых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ранимых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="неприспособленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="действительности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="включает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			10 -> 9 [label="огранич"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 8 [label="сент_соч"]
+			14 -> 15 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 11 [label="_1_компл"]
+			21 -> 16 [label="вводн"]
+			21 -> 23 [label="_1_компл"]
+			21 -> 24 [label="_2_компл"]
+			5 -> 4 [label="опред"]
+			13 -> 14 [label="сочин"]
+			13 -> 21 [label="примыкат"]
+			24 -> 25 [label="предл"]
+			16 -> 18 [label="предл"]
+			18 -> 17 [label="опред"]
+}

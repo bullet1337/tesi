@@ -1,0 +1,51 @@
+digraph SENTENCE_2446 {
+	graph [label="Итог: тема не раскрыта; «фильм» — даже с натяжкой названный «фильмом» — никакой ценности и интереса не представляет."]
+	node [style=filled]
+		0 [label="Итог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раскрыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="натяжкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="названный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ценности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="интереса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			7 -> 0 [label="предик"]
+			7 -> 11 [label="атриб"]
+			7 -> 15 [label="сочин"]
+			7 -> 23 [label="сент_соч"]
+			23 -> 22 [label="огранич"]
+			20 -> 21 [label="соч_союзн"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			15 -> 13 [label="опред"]
+			15 -> 19 [label="сочин"]
+			0 -> 4 [label="релят"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="сочин"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_4329 {
+	graph [label="Сейчас подростки в 13 лет так себя не ведут."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подростки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ведут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="количест"]
+			1 -> 2 [label="атриб"]
+			8 -> 0 [label="обст"]
+			8 -> 1 [label="предик"]
+			8 -> 5 [label="обст"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+}

@@ -1,0 +1,29 @@
+digraph SENTENCE_883 {
+	graph [label="Сотни, тысячи жертв среди гражданского населения, детей, женщин, стариков."]
+	node [style=filled]
+		0 [label="Сотни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тысячи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жертв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гражданского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стариков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			10 -> 12 [label="сочин"]
+			4 -> 6 [label="предл"]
+			8 -> 10 [label="сочин"]
+			0 -> 2 [label="квазиагент"]
+			0 -> 4 [label="атриб"]
+}

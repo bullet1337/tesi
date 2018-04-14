@@ -1,0 +1,33 @@
+digraph SENTENCE_925 {
+	graph [label="Когда я делаю выбор, меня чаще всего привлекает режиссерское кино."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="делаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чаще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="привлекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссерское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 5 [label="_1_компл"]
+			8 -> 6 [label="обст"]
+			8 -> 10 [label="_1_компл"]
+			0 -> 2 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 7 [label="сравнит"]
+}

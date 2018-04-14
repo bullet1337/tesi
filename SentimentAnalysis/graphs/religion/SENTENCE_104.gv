@@ -1,0 +1,51 @@
+digraph SENTENCE_104 {
+	graph [label="По словам Ратаса, новости об атаках с большим количеством жертв в зонах конфликтов по-прежнему поступают ежедневно."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Ратаса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="новости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="атаках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="большим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="количеством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жертв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зонах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="конфликтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поступают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ежедневно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="предл"]
+			2 -> 4 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+			1 -> 5 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 11 [label="атриб"]
+			15 -> 0 [label="вводн"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			12 -> 13 [label="квазиагент"]
+			7 -> 9 [label="предл"]
+			5 -> 6 [label="предл"]
+}

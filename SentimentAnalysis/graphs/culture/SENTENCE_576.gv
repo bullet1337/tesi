@@ -1,0 +1,24 @@
+digraph SENTENCE_576 {
+	graph [label="В конкурсе российских дебютов участвуют 8 картин."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дебютов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участвуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="количест"]
+			1 -> 3 [label="_1_компл"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="опред"]
+}

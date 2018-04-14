@@ -1,0 +1,57 @@
+digraph SENTENCE_4213 {
+	graph [label="Первая часть вытаскивается неплохой игрой Махершаллы Али (хотя образ весьма сырой, но это вина сценаристов), и какой-никакой, но завязкой."]
+	node [style=filled]
+		0 [label="Первая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вытаскивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неплохой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="игрой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Махершаллы Али
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="весьма
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сырой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сценаристов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="какой-никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="завязкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 18 [label="сочин"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			1 -> 0 [label="опред"]
+			7 -> 10 [label="подч_союзн"]
+			18 -> 19 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			21 -> 22 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 7 [label="обст"]
+			2 -> 12 [label="сент_соч"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="сочин"]
+			14 -> 21 [label="сочин"]
+			12 -> 14 [label="соч_союзн"]
+}

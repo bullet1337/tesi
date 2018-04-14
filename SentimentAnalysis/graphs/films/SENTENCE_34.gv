@@ -1,0 +1,27 @@
+digraph SENTENCE_34 {
+	graph [label="Почему ее судьба волновала всего лишь нескольких человек?"]
+	node [style=filled]
+		0 [label="Почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="волновала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			6 -> 5 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 7 [label="предик"]
+			5 -> 4 [label="огранич"]
+			7 -> 6 [label="количест"]
+}

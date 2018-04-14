@@ -1,0 +1,36 @@
+digraph SENTENCE_524 {
+	graph [label="\"А за шесть лет появились другие заболевания, для которых зарегистрировано лечение."]
+	node [style=filled]
+		1 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="шесть
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="появились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заболевания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="зарегистрировано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лечение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="количест"]
+			5 -> 2 [label="_2_компл"]
+			5 -> 7 [label="предик"]
+			5 -> 11 [label="сент_соч"]
+			1 -> 5 [label="соч_союзн"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="предик"]
+			9 -> 10 [label="предл"]
+			2 -> 4 [label="предл"]
+			7 -> 6 [label="опред"]
+}

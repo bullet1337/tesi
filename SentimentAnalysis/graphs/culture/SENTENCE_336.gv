@@ -1,0 +1,39 @@
+digraph SENTENCE_336 {
+	graph [label="Многие очевидцы баттла выложили многочисленные фото участников и рассказали о победе Гуфа."]
+	node [style=filled]
+		0 [label="Многие
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очевидцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="баттла
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выложили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многочисленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фото
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="победе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			9 -> 10 [label="предл"]
+			8 -> 9 [label="_3_компл"]
+			7 -> 8 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+}

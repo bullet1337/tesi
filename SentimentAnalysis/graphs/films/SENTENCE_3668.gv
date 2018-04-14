@@ -1,0 +1,68 @@
+digraph SENTENCE_3668 {
+	graph [label="Но с главным вопросом «Была ли это рядовая спортивная победа, или же триумф всей страны?» кинотворцы так и не смогли внятно разобраться."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопросом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Была
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рядовая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спортивная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="победа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="триумф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кинотворцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="смогли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="внятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="разобраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			12 -> 13 [label="огранич"]
+			12 -> 14 [label="соч_союзн"]
+			5 -> 6 [label="огранич"]
+			5 -> 7 [label="предик"]
+			5 -> 10 [label="присвяз"]
+			5 -> 23 [label="сент_соч"]
+			1 -> 3 [label="предл"]
+			25 -> 24 [label="обст"]
+			20 -> 21
+			23 -> 19 [label="предик"]
+			23 -> 20 [label="обст"]
+			23 -> 22 [label="огранич"]
+			23 -> 25 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+			14 -> 16 [label="атриб"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="сочин"]
+}

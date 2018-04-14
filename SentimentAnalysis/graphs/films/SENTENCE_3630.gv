@@ -1,0 +1,58 @@
+digraph SENTENCE_3630 {
+	graph [label="1 из 10
+В моей фанатской хоккейной юности кумирами были канадец Уэйн Гретцки и наша ЦСКовская троица (Крутов-Макаров-Ларионов)."]
+	node [style=filled]
+		0 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фанатской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хоккейной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="юности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кумирами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="канадец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Уэйн Гретцки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ЦСКовская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="троица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Крутов-Макаров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Ларионов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="электив"]
+			10 -> 11 [label="аппоз"]
+			10 -> 12 [label="сочин"]
+			3 -> 7 [label="предл"]
+			12 -> 15 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			17 -> 19 [label="аппоз"]
+			9 -> 0 [label="предик"]
+			9 -> 3 [label="обст"]
+			9 -> 8 [label="присвяз"]
+			9 -> 10 [label="присвяз"]
+			9 -> 17 [label="разъяснит"]
+			7 -> 4 [label="опред"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+}

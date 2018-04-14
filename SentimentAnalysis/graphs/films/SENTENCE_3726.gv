@@ -1,0 +1,63 @@
+digraph SENTENCE_3726 {
+	graph [label="У меня такое ощущение возникло после прочтения цитаты из «1984»:  «Ты понимаешь, что прошлое, начиная со вчерашнего дня, фактически отменено?"]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="возникло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прочтения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="цитаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1984
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Ты
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="понимаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="прошлое
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="начиная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вчерашнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="отменено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 18 [label="предик"]
+			26 -> 20 [label="обст"]
+			26 -> 25 [label="огранич"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 15 [label="сент_соч"]
+			7 -> 8 [label="_1_компл"]
+			20 -> 21 [label="_2_компл"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			8 -> 10 [label="предл"]
+			5 -> 6 [label="предл"]
+			21 -> 23 [label="предл"]
+			23 -> 22 [label="опред"]
+			17 -> 26 [label="подч_союзн"]
+}

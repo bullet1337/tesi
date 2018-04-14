@@ -1,0 +1,42 @@
+digraph SENTENCE_593 {
+	graph [label="По поводу голоса Бьорк идет много споров, кто-то считает его ужасным, другие боготворят!"]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поводу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="голоса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="споров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ужасным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="боготворят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 0 [label="вводн"]
+			2 -> 4 [label="сент_соч"]
+			2 -> 9 [label="вводн"]
+			2 -> 14 [label="разъяснит"]
+			14 -> 11 [label="_2_компл"]
+			14 -> 13 [label="предик"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+}

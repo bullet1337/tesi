@@ -1,0 +1,63 @@
+digraph SENTENCE_422 {
+	graph [label="Исключения редки (Монстро, Все умрут, а я останусь, Ведьма из Блэр), и Танцующая в темноте — несомненно к этим исключениям относится."]
+	node [style=filled]
+		0 [label="Исключения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="редки
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Монстро
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Все
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="умрут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="останусь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Ведьма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Блэр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="несомненно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="исключениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="сент_соч"]
+			17 -> 22 [label="соч_союзн"]
+			25 -> 24 [label="опред"]
+			19 -> 20 [label="предл"]
+			26 -> 23 [label="_1_компл"]
+			22 -> 18 [label="предик"]
+			8 -> 10 [label="соч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="присвяз"]
+			13 -> 14 [label="предл"]
+			12 -> 13 [label="атриб"]
+			12 -> 17 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="сент_соч"]
+			1 -> 26 [label="разъяснит"]
+			23 -> 25 [label="предл"]
+			18 -> 19 [label="обст"]
+}

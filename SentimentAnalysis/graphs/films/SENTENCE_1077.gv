@@ -1,0 +1,33 @@
+digraph SENTENCE_1077 {
+	graph [label="Или «Антихрист» где Триер вообще сравнивает женщину с дьявольским сосудом."]
+	node [style=filled]
+		0 [label="Или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Антихрист
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сравнивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="женщину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дьявольским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сосудом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			7 -> 4 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="_2_компл"]
+			9 -> 11 [label="предл"]
+			0 -> 2 [label="соч_союзн"]
+			0 -> 7 [label="соч_союзн"]
+}

@@ -1,0 +1,44 @@
+digraph SENTENCE_2530 {
+	graph [label="Всё происходит само собой, увлекаемое неведомым зрителю замыслом и стремящееся в безотрадный мрак неизвестности."]
+	node [style=filled]
+		0 [label="Всё
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="само
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="увлекаемое
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неведомым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="замыслом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стремящееся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="безотрадный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мрак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неизвестности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			9 -> 14 [label="соч_союзн"]
+			11 -> 13 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+			5 -> 2 [label="огранич"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			7 -> 9 [label="сочин"]
+			14 -> 10 [label="опред"]
+			2 -> 3
+			13 -> 12 [label="опред"]
+}

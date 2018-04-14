@@ -1,0 +1,69 @@
+digraph SENTENCE_129 {
+	graph [label="\"Это человек, который всегда говорил только о Христе, только о вере, только о христианстве, только о семейных и духовных ценностях\", — отмечает Ряховский."]
+	node [style=filled]
+		1 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="говорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Христе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="христианстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="семейных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="духовных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ценностях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Ряховский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="предик"]
+			2 -> 6 [label="релят"]
+			2 -> 28 [label="вводн"]
+			21 -> 22 [label="сочин"]
+			24 -> 21 [label="опред"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предл"]
+			16 -> 20 [label="сочин"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_3_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			22 -> 23 [label="соч_союзн"]
+			28 -> 29 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 24 [label="предл"]
+			9 -> 12 [label="_1_компл"]
+			13 -> 16 [label="_1_компл"]
+}

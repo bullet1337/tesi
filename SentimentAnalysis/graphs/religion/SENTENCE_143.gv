@@ -1,0 +1,84 @@
+digraph SENTENCE_143 {
+	graph [label="Округ занимает второе место в городе по количеству жилых домов, вовлеченных в программу реновации, здесь планируют переселить жителей из 818 пятиэтажных домов в современное жилье нового поколения."]
+	node [style=filled]
+		0 [label="Округ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="занимает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="количеству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жилых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="домов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вовлеченных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="реновации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="планируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="переселить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="818
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="пятиэтажных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="домов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="современное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="жилье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="нового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="поколения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="опред"]
+			24 -> 26 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="_2_компл"]
+			18 -> 28 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			13 -> 14 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			7 -> 9 [label="квазиагент"]
+			11 -> 12 [label="_2_компл"]
+			20 -> 23 [label="предл"]
+			23 -> 21 [label="количест"]
+			23 -> 22 [label="опред"]
+			23 -> 24 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 6 [label="обст"]
+			1 -> 17 [label="сент_соч"]
+			17 -> 16 [label="обст"]
+			17 -> 18 [label="_1_компл"]
+			26 -> 25 [label="опред"]
+			28 -> 27 [label="опред"]
+}

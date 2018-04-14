@@ -1,0 +1,66 @@
+digraph SENTENCE_737 {
+	graph [label="Президентский совет по правам человека провел межведомственное совещание о соблюдении прав трудовых мигрантов из Узбекистана, говорится в сообщении на сайте ведомства."]
+	node [style=filled]
+		0 [label="Президентский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="совет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="провел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="межведомственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совещание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="соблюдении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="трудовых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мигрантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Узбекистана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ведомства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="квазиагент"]
+			2 -> 3 [label="предл"]
+			10 -> 12 [label="квазиагент"]
+			3 -> 4 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="атриб"]
+			13 -> 14 [label="предл"]
+			19 -> 20 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			5 -> 1 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 16 [label="вводн"]
+			17 -> 18 [label="предл"]
+			16 -> 17 [label="обст"]
+			16 -> 19 [label="обст"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1168 {
+	graph [label="\"Он не сказал, в какую сторону стрелял, отмечу это."]
+	node [style=filled]
+		1 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="какую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стрелял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отмечу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_3_компл"]
+			3 -> 8 [label="вводн"]
+			3 -> 10 [label="вводн"]
+			3 -> 11 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+}

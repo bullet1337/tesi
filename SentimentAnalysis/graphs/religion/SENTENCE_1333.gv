@@ -1,0 +1,45 @@
+digraph SENTENCE_1333 {
+	graph [label="В ответ тот предрек, что Дже после очередного перерождения вдохнет в учение новую жизнь."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ответ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предрек
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Дже
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очередного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="перерождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вдохнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="учение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="новую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="предл"]
+			5 -> 10 [label="подч_союзн"]
+			14 -> 13 [label="опред"]
+			7 -> 9 [label="предл"]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 14 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_288 {
+	graph [label="Повод для оптимизма у лингвистов — акция \"Тотальный диктант\": десятки тысяч человек ежегодно проверяют свою грамотность, которая остается обязательным атрибутом образованного, культурного гражданина."]
+	node [style=filled]
+		0 [label="Повод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оптимизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лингвистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="акция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Тотальный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="диктант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="десятки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ежегодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="проверяют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="грамотность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="обязательным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="атрибутом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="образованного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="культурного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="гражданина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="атриб"]
+			21 -> 20 [label="предик"]
+			21 -> 23 [label="присвяз"]
+			1 -> 2 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 9 [label="сочин"]
+			6 -> 16 [label="сент_соч"]
+			18 -> 17 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			16 -> 15 [label="обст"]
+			16 -> 18 [label="_1_компл"]
+			16 -> 21 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			12 -> 13 [label="квазиагент"]
+			27 -> 24 [label="опред"]
+			27 -> 26 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="сочин"]
+			23 -> 22 [label="опред"]
+			23 -> 27 [label="квазиагент"]
+}

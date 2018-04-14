@@ -1,0 +1,42 @@
+digraph SENTENCE_826 {
+	graph [label="Движение трамваев восстановлено после ДТП на северо-западе Москвы, заявили РИА Новости в пресс-службе Мосгортранса."]
+	node [style=filled]
+		0 [label="Движение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трамваев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="восстановлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ДТП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="северо-западе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="заявили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Мосгортранса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="вводн"]
+			4 -> 5 [label="атриб"]
+			11 -> 12 [label="предл"]
+			12 -> 13 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			9 -> 10 [label="предик"]
+			9 -> 11 [label="обст"]
+}

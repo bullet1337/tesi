@@ -1,0 +1,96 @@
+digraph SENTENCE_1234 {
+	graph [label="За прошедшее время ваш форум прочно утвердился как одно из наиболее ярких, заметных событий в календаре культурной жизни страны, снискал поистине мировую известность\", — говорится в приветственной телеграмме, опубликованной на сайте Кремля."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошедшее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ваш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прочно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="утвердился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ярких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заметных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="календаре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="культурной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="снискал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="поистине
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="мировую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="известность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="приветственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="телеграмме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="опубликованной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="Кремля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="квазиагент"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="сравнит"]
+			6 -> 18 [label="предик"]
+			6 -> 21 [label="сент_соч"]
+			24 -> 23 [label="опред"]
+			29 -> 31 [label="предл"]
+			28 -> 29 [label="обст"]
+			28 -> 33 [label="сочин"]
+			21 -> 24 [label="_1_компл"]
+			21 -> 28 [label="сочин"]
+			31 -> 30 [label="опред"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			35 -> 36 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			33 -> 34 [label="_2_компл"]
+			7 -> 8 [label="сравн_союзн"]
+			8 -> 9 [label="электив"]
+			23 -> 22 [label="огранич"]
+			34 -> 35 [label="предл"]
+			11 -> 10 [label="огранич"]
+			15 -> 16 [label="предл"]
+			9 -> 14 [label="предл"]
+			14 -> 11 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="атриб"]
+}

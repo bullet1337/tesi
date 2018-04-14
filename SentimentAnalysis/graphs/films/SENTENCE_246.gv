@@ -1,0 +1,39 @@
+digraph SENTENCE_246 {
+	graph [label="Триер задаётся этим вопросом и вместе с нами испытывает Сельму на прочность."]
+	node [style=filled]
+		0 [label="Триер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="задаётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопросом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="испытывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Сельму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прочность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			3 -> 8 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			6 -> 7 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_345 {
+	graph [label="Возглавил совет муфтий мусульман Крыма Эмирали Аблаев."]
+	node [style=filled]
+		0 [label="Возглавил
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="совет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="муфтий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Эмирали Аблаев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="предик"]
+			3 -> 4 [label="аппоз"]
+			2 -> 3 [label="аппоз"]
+			2 -> 5 [label="атриб"]
+}

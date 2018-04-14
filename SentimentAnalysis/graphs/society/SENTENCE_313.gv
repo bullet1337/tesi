@@ -1,0 +1,15 @@
+digraph SENTENCE_313 {
+	graph [label="Желаем Антону скорейшего выздоровления!"]
+	node [style=filled]
+		0 [label="Желаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Антону
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="скорейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выздоровления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 3 [label="_1_компл"]
+}

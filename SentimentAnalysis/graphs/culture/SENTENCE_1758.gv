@@ -1,0 +1,66 @@
+digraph SENTENCE_1758 {
+	graph [label="Если бы я не отменил второе шоу, чтобы пойти в больницу, я бы умер сегодня вечером\", — написал 47-летний Смит в своем."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отменил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="шоу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пойти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="больницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="умер
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вечером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="47-летний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Смит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 0 [label="обст"]
+			21 -> 23 [label="_1_компл"]
+			21 -> 24 [label="обст"]
+			8 -> 9 [label="инф_союзн"]
+			23 -> 22 [label="опред"]
+			10 -> 11 [label="предл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="аналит"]
+			15 -> 16 [label="обст"]
+			15 -> 17 [label="обст"]
+			4 -> 1 [label="аналит"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="обст"]
+			9 -> 10 [label="_2_компл"]
+			11 -> 15 [label="релят"]
+			0 -> 4 [label="подч_союзн"]
+			24 -> 25 [label="предл"]
+			6 -> 5 [label="опред"]
+}

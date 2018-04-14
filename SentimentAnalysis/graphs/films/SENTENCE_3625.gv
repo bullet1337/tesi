@@ -1,0 +1,35 @@
+digraph SENTENCE_3625 {
+	graph [label="Какое всё это имеет отношение к хоккею и Харламову — не понимаю."]
+	node [style=filled]
+		0 [label="Какое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хоккею
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Харламову
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="понимаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			11 -> 3 [label="_1_компл"]
+			11 -> 10 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+}

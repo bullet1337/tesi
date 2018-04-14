@@ -1,0 +1,33 @@
+digraph SENTENCE_1414 {
+	graph [label="Второплановые роли разыграны продуманно, не ломая общей картины, образы запоминаются."]
+	node [style=filled]
+		0 [label="Второплановые
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разыграны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="продуманно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ломая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="общей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="образы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="запоминаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="обст"]
+			2 -> 11 [label="сент_соч"]
+			11 -> 10 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="опред"]
+}

@@ -1,0 +1,38 @@
+digraph SENTENCE_1465 {
+	graph [label="Он всегда рядом, когда нам необходимо его присутствие, умеющий ждать и сопереживать."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="необходимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="присутствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="умеющий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ждать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сопереживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="_2_компл"]
+			11 -> 12 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 7 [label="квазиагент"]
+			8 -> 10 [label="опред"]
+			4 -> 6 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="обст"]
+}

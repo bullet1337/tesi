@@ -1,0 +1,51 @@
+digraph SENTENCE_360 {
+	graph [label="Живущая в своём выдуманном мире мюзиклов, где не бывает плохих концов, она смешивает реальность и фантазию."]
+	node [style=filled]
+		0 [label="Живущая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="своём
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выдуманном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="плохих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="концов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="смешивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фантазию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="соч_союзн"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			9 -> 5 [label="предик"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="присвяз"]
+			9 -> 14 [label="сент_соч"]
+			11 -> 10 [label="опред"]
+			5 -> 0 [label="опред"]
+			0 -> 1 [label="_1_компл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			1 -> 4 [label="предл"]
+			15 -> 16 [label="сочин"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_3352 {
+	graph [label="Придя из кинотеатра домой, первым делом я бросился сверять факты биографии В. Харламова (да здравствует «Википедия») с киношными перипетиями."]
+	node [style=filled]
+		0 [label="Придя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кинотеатра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="делом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бросился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сверять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="факты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="биографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="здравствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Википедия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="киношными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="перипетиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 24 [label="предл"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 3 [label="обст"]
+			1 -> 2 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+			12 -> 14 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="_2_компл"]
+			9 -> 17 [label="_1_компл"]
+			19 -> 22 [label="атриб"]
+			24 -> 23 [label="опред"]
+			17 -> 16
+			17 -> 19 [label="предик"]
+}

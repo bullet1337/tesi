@@ -1,0 +1,45 @@
+digraph SENTENCE_672 {
+	graph [label="А Мартиниан, когда зажили ожоги, перебрался подальше от подобных искушений — на пустынный скалистый остров."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Мартиниан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="зажили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожоги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="перебрался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="искушений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пустынный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="скалистый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="остров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предик"]
+			7 -> 1 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			13 -> 16 [label="предл"]
+			8 -> 9 [label="атриб"]
+			0 -> 7 [label="соч_союзн"]
+			3 -> 4 [label="подч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="атриб"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			9 -> 11 [label="предл"]
+}

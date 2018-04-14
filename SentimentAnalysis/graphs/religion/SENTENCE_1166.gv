@@ -1,0 +1,51 @@
+digraph SENTENCE_1166 {
+	graph [label="Вопрос находится на контроле губернатора Ростовской области, срок исполнения — 1 июля 2018 года\", — говорится в документах."]
+	node [style=filled]
+		0 [label="Вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="контроле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="губернатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ростовской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="срок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="исполнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="июля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="документах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			11 -> 12 [label="атриб"]
+			14 -> 13 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="длительн"]
+			1 -> 11 [label="_1_компл"]
+			1 -> 18 [label="вводн"]
+			18 -> 19 [label="обст"]
+			6 -> 5 [label="опред"]
+			12 -> 14 [label="атриб"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="аппоз"]
+			2 -> 3 [label="предл"]
+}

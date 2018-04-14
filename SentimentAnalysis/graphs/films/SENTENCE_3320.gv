@@ -1,0 +1,45 @@
+digraph SENTENCE_3320 {
+	graph [label="Ну, не кощунственно ли на один уровень ставить защиту Родины и выполнение прихотей садиста?!"]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кощунственно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="уровень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="защиту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Родины
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выполнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="прихотей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="садиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="_1_компл"]
+			7 -> 6 [label="количест"]
+			11 -> 12 [label="соч_союзн"]
+			10 -> 11 [label="сочин"]
+			5 -> 7 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			3 -> 0 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="вводн"]
+			3 -> 8 [label="предик"]
+			13 -> 14 [label="квазиагент"]
+			8 -> 9 [label="_1_компл"]
+}

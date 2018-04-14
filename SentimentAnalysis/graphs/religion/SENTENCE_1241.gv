@@ -1,0 +1,33 @@
+digraph SENTENCE_1241 {
+	graph [label="\"Ваххабиты, прикрывающиеся сегодня псевдоисламом, ничего общего с Исламом не имеют."]
+	node [style=filled]
+		1 [label="Ваххабиты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="прикрывающиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="псевдоисламом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="общего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Исламом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имеют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 12 [label="релят"]
+			12 -> 7 [label="_1_компл"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="огранич"]
+			9 -> 10 [label="предл"]
+			7 -> 8 [label="опред"]
+			3 -> 4 [label="обст"]
+}

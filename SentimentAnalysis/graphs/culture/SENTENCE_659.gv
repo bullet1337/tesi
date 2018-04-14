@@ -1,0 +1,33 @@
+digraph SENTENCE_659 {
+	graph [label="Постановка посвящена 200-летию со дня рождения Ивана Сергеевича Тургенева, классика мировой литературы."]
+	node [style=filled]
+		0 [label="Постановка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="посвящена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="200-летию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Ивана Сергеевича Тургенева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="классика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="литературы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 8 [label="разъяснит"]
+			2 -> 3 [label="атриб"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			10 -> 9 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			8 -> 10 [label="сочин"]
+}

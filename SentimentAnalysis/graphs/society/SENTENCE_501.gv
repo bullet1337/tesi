@@ -1,0 +1,48 @@
+digraph SENTENCE_501 {
+	graph [label="По словам Мясниковой, число пациентов, входящих в данную программу, оценивается примерно в 17 тысяч человек."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мясниковой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="число
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пациентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="входящих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="данную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оценивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="примерно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="количест"]
+			16 -> 17 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			12 -> 0 [label="вводн"]
+			12 -> 4 [label="предик"]
+			12 -> 14 [label="предик"]
+			5 -> 7 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 8 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="предл"]
+}

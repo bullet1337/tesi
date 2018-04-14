@@ -1,0 +1,27 @@
+digraph SENTENCE_210 {
+	graph [label="При этом нацпарк будет способствовать социально-экономическому развитию региона."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нацпарк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="способствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="социально-экономическому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="развитию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="аналит"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+}

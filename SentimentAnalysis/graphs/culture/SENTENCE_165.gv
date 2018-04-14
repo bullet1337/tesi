@@ -1,0 +1,36 @@
+digraph SENTENCE_165 {
+	graph [label="Вахтанговский театр представляет в марте две премьеры на новой Симоновской сцене."]
+	node [style=filled]
+		0 [label="Вахтанговский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="марте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="премьеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="новой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Симоновской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="предик"]
+			7 -> 10 [label="предл"]
+			1 -> 0 [label="опред"]
+			6 -> 5 [label="количест"]
+			6 -> 7 [label="атриб"]
+			3 -> 4 [label="предл"]
+}

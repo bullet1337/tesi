@@ -1,0 +1,45 @@
+digraph SENTENCE_395 {
+	graph [label="А впереди — неизбежность, абсолютно вероятный конец, судьба, от которой не убежишь и не скроешься."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="впереди
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неизбежность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вероятный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="убежишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="скроешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			15 -> 17 [label="соч_союзн"]
+			0 -> 14 [label="соч_союзн"]
+			6 -> 5 [label="огранич"]
+			3 -> 1 [label="огранич"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 9 [label="сочин"]
+			14 -> 3 [label="_1_компл"]
+			14 -> 11 [label="_2_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="сочин"]
+			17 -> 16 [label="огранич"]
+			7 -> 6 [label="опред"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1335 {
+	graph [label="В степной Калмыкии, где особенно сильна связь с Тибетом, первый Новый год празднуется в честь ламы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="степной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Калмыкии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сильна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="связь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Тибетом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Новый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="празднуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ламы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 13 [label="атриб"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="огранич"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			2 -> 1 [label="опред"]
+			14 -> 0 [label="обст"]
+			14 -> 7 [label="предик"]
+			14 -> 15 [label="обст"]
+			16 -> 17 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			0 -> 2 [label="предл"]
+			15 -> 16 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+}

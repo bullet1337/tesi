@@ -1,0 +1,24 @@
+digraph SENTENCE_4792 {
+	graph [label="Значит придётся продолжать смотреть то, что непонятно."]
+	node [style=filled]
+		0 [label="Значит
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="придётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продолжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="непонятно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			4 -> 6 [label="эксплет"]
+			3 -> 4 [label="_1_компл"]
+			1 -> 0 [label="вводн"]
+			1 -> 2 [label="предик"]
+			6 -> 7 [label="подч_союзн"]
+}

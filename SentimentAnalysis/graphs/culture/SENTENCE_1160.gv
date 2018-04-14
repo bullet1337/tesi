@@ -1,0 +1,51 @@
+digraph SENTENCE_1160 {
+	graph [label="Бекмамбетов привез на Берлинский кинофестиваль фильм \"Профиль\", он участвует во второй по значимости программе фестиваля \"Панорама\"."]
+	node [style=filled]
+		0 [label="Бекмамбетов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="привез
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Берлинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Профиль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="участвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="значимости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Панорама
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_3_компл"]
+			1 -> 5 [label="_1_компл"]
+			16 -> 13 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 19 [label="аппоз"]
+			12 -> 16 [label="предл"]
+			2 -> 4 [label="предл"]
+			5 -> 7 [label="ном_аппоз"]
+			5 -> 11 [label="релят"]
+			14 -> 15 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			13 -> 14 [label="атриб"]
+}

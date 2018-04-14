@@ -1,0 +1,36 @@
+digraph SENTENCE_55 {
+	graph [label="Президент отметил, что Роман Филипов был для сослуживцев настоящим боевым товарищем."]
+	node [style=filled]
+		0 [label="Президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Роман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Филипов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сослуживцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="настоящим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="боевым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="товарищем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 6 [label="подч_союзн"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="присвяз"]
+			7 -> 8 [label="предл"]
+}

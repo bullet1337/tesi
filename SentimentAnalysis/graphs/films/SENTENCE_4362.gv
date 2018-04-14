@@ -1,0 +1,27 @@
+digraph SENTENCE_4362 {
+	graph [label="Можете смело этот фильм пропускать у меня всё."]
+	node [style=filled]
+		0 [label="Можете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пропускать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			0 -> 4 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			7 -> 5 [label="_1_компл"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 7 [label="_1_компл"]
+}

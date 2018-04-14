@@ -1,0 +1,36 @@
+digraph SENTENCE_594 {
+	graph [label="Берлинский кинофестиваль проходит в столице Германии с 15 по 25 февраля."]
+	node [style=filled]
+		0 [label="Берлинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Германии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="предл"]
+			6 -> 8 [label="соотнос"]
+			1 -> 0 [label="опред"]
+			9 -> 10 [label="атриб"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+}

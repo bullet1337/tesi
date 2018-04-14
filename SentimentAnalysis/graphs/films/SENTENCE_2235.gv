@@ -1,0 +1,41 @@
+digraph SENTENCE_2235 {
+	graph [label="Фильм «Зеркало» всячески рекомендовал посмотреть режиссер нашего представления, упомянутого в моей предыдущей рецензии."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="всячески
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рекомендовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="представления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="упомянутого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="предыдущей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рецензии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="опред"]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			11 -> 12 [label="обст"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			12 -> 15 [label="предл"]
+}

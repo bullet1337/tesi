@@ -1,0 +1,57 @@
+digraph SENTENCE_2621 {
+	graph [label="Монотонность выдается за многословность, патетика выдается за эстетику, глупость выдается за загадочность, слегка завуалированная шаблонность выдается за новизну."]
+	node [style=filled]
+		0 [label="Монотонность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многословность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="патетика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="эстетику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="глупость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="загадочность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слегка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="завуалированная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="шаблонность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="выдается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="новизну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="сент_соч"]
+			12 -> 13 [label="предл"]
+			16 -> 15 [label="огранич"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			11 -> 18 [label="сент_соч"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="обст"]
+			7 -> 8 [label="предл"]
+			17 -> 16 [label="опред"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="сент_соч"]
+			19 -> 20 [label="предл"]
+}

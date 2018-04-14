@@ -1,0 +1,30 @@
+digraph SENTENCE_5004 {
+	graph [label="3) Почему во всех кадрах у японца одинаковое лицо?"]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Почему
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кадрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="японца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одинаковое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лицо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			9 -> 0 [label="предик"]
+			9 -> 2 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="опред"]
+			3 -> 5 [label="предл"]
+			6 -> 3 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

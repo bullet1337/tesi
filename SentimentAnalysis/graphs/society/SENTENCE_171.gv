@@ -1,0 +1,53 @@
+digraph SENTENCE_171 {
+	graph [label="При этом глава республики назвал \"маразмом\" намерение объявить на Украине 26 февраля \"днем сопротивления Крыма российской оккупации\"."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="маразмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="намерение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="объявить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Украине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сопротивления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="российской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="оккупации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="квазиагент"]
+			16 -> 19 [label="сочин"]
+			12 -> 13 [label="атриб"]
+			19 -> 18 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="обст"]
+			9 -> 15 [label="_2_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_2_компл"]
+			8 -> 9 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+}

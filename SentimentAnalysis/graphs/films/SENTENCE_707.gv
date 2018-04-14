@@ -1,0 +1,39 @@
+digraph SENTENCE_707 {
+	graph [label="Сюжет картины превосходен, а вот музыкальное сопровождение проигрывает на фоне развития фильма."]
+	node [style=filled]
+		0 [label="Сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="превосходен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="музыкальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сопровождение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проигрывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="сент_соч"]
+			2 -> 8 [label="разъяснит"]
+			4 -> 6 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			6 -> 5 [label="огранич"]
+			9 -> 10 [label="предл"]
+}

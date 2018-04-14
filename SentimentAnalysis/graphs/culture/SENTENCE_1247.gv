@@ -1,0 +1,39 @@
+digraph SENTENCE_1247 {
+	graph [label="Подробности этой встречи канал НТВ покажет 17 февраля в 20:00 (мск)."]
+	node [style=filled]
+		0 [label="Подробности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="канал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="НТВ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="покажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мск
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 9 [label="количест"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="обст"]
+			5 -> 8 [label="обст"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			6 -> 7 [label="атриб"]
+			0 -> 2 [label="_1_компл"]
+			9 -> 11 [label="кратн"]
+			8 -> 13 [label="предл"]
+			3 -> 4 [label="аппоз"]
+}

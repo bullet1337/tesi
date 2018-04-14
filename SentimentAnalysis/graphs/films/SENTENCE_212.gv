@@ -1,0 +1,48 @@
+digraph SENTENCE_212 {
+	graph [label="Женщина которая была практически слепа, у которой был ребенок с той же болезнью на глазах."]
+	node [style=filled]
+		0 [label="Женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слепа
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ребенок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="болезнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="глазах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			11 -> 12 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			13 -> 11 [label="опред"]
+			8 -> 0 [label="предик"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 9 [label="присвяз"]
+			8 -> 10 [label="обст"]
+			8 -> 14 [label="присвяз"]
+			14 -> 15 [label="предл"]
+			10 -> 13 [label="предл"]
+			6 -> 7 [label="предл"]
+			0 -> 2 [label="примыкат"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_932 {
+	graph [label="Однако сотрудники Третьяковки, изучив особенности ее написания и архивные материалы, пришли к выводу, что икона была написана уже после Куликовской битвы."]
+	node [style=filled]
+		0 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сотрудники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Третьяковки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="изучив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="особенности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="написания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="архивные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="материалы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пришли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выводу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="написана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Куликовской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="битвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="подч_союзн"]
+			23 -> 22 [label="опред"]
+			21 -> 20 [label="огранич"]
+			21 -> 23 [label="предл"]
+			5 -> 7 [label="квазиагент"]
+			8 -> 10 [label="соч_союзн"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сочин"]
+			12 -> 0 [label="огранич"]
+			12 -> 1 [label="предик"]
+			12 -> 13 [label="_2_компл"]
+			18 -> 17 [label="предик"]
+			18 -> 19
+			4 -> 5 [label="_1_компл"]
+			19 -> 21 [label="обст"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			13 -> 14 [label="предл"]
+			14 -> 16 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+}

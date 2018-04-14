@@ -1,0 +1,27 @@
+digraph SENTENCE_235 {
+	graph [label="Чем модный в кинематографии \"ремейк\" лучше обычной \"переделки\"?"]
+	node [style=filled]
+		0 [label="Чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="модный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинематографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ремейк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обычной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="переделки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+			7 -> 5 [label="предик"]
+			7 -> 10 [label="сравнит"]
+			10 -> 8 [label="опред"]
+			0 -> 1 [label="сравн_союзн"]
+			0 -> 7 [label="сент_соч"]
+}

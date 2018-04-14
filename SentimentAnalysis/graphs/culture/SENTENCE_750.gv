@@ -1,0 +1,27 @@
+digraph SENTENCE_750 {
+	graph [label="Может быть, сейчас это даже жестче\", — заметил режиссер."]
+	node [style=filled]
+		0 [label="Может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жестче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 10 [label="вводн"]
+			10 -> 11 [label="предик"]
+}

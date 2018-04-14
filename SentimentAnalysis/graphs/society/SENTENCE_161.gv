@@ -1,0 +1,57 @@
+digraph SENTENCE_161 {
+	graph [label="Помогли сирийской армии разгромить крупные, хорошо оснащенные террористические группировки\", — сказал Путин на церемонии вручения государственных наград в Кремле."]
+	node [style=filled]
+		0 [label="Помогли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сирийской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разгромить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="крупные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оснащенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="террористические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="группировки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вручения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="государственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="наград
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Кремле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="_2_компл"]
+			0 -> 6 [label="примыкат"]
+			0 -> 9 [label="_1_компл"]
+			0 -> 13 [label="вводн"]
+			20 -> 21 [label="предл"]
+			2 -> 1 [label="опред"]
+			15 -> 16 [label="предл"]
+			6 -> 7 [label="предик"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="атриб"]
+			3 -> 4 [label="_1_компл"]
+			13 -> 14 [label="предик"]
+			13 -> 15 [label="обст"]
+			9 -> 8 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+			17 -> 19 [label="_1_компл"]
+}

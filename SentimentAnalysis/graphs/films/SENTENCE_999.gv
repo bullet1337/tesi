@@ -1,0 +1,48 @@
+digraph SENTENCE_999 {
+	graph [label="Т. е. вставочки, в которых все так радостно танцуют и поют в грёзах главной героини."]
+	node [style=filled]
+		0 [label="Т
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="е
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вставочки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="радостно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="танцуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="поют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="грёзах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 4 [label="предик"]
+			11 -> 6 [label="обст"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="сочин"]
+			6 -> 7 [label="предл"]
+			10 -> 9 [label="огранич"]
+			14 -> 15 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+			4 -> 2 [label="опред"]
+			2 -> 0 [label="композ"]
+			15 -> 17 [label="квазиагент"]
+			13 -> 14 [label="обст"]
+}

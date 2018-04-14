@@ -1,0 +1,42 @@
+digraph SENTENCE_1480 {
+	graph [label="Как же низок человек в своем предательстве, которое рушит жизни и ломает людей."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="низок
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="предательстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="рушит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ломает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			9 -> 4 [label="обст"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="сочин"]
+			6 -> 5 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 3 [label="предик"]
+			3 -> 9 [label="релят"]
+			12 -> 13 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			11 -> 12 [label="соч_союзн"]
+}

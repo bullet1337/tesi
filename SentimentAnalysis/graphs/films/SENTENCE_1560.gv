@@ -1,0 +1,33 @@
+digraph SENTENCE_1560 {
+	graph [label="Не зря они нашли друг друга и исповедались друг другу."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нашли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исповедались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8
+			6 -> 7 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			7 -> 9 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			5 -> 4
+}

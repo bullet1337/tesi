@@ -1,0 +1,42 @@
+digraph SENTENCE_108 {
+	graph [label="Более пятидесяти лет она посвятила педагогической деятельности, была профессором кафедры пения Белорусской консерватории."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пятидесяти
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посвятила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="педагогической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="деятельности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="профессором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кафедры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Белорусской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="консерватории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="_1_компл"]
+			0 -> 2 [label="сравнит"]
+			11 -> 13 [label="сочин"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="разъяснит"]
+			2 -> 1 [label="количест"]
+			6 -> 5 [label="опред"]
+			9 -> 10 [label="атриб"]
+			8 -> 9 [label="присвяз"]
+			13 -> 12 [label="опред"]
+}

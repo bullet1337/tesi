@@ -1,0 +1,41 @@
+digraph SENTENCE_2605 {
+	graph [label="Чем бессмысленнее и обыденнее была сцена, тем сильнее Вильнев ее раскручивал и растягивал."]
+	node [style=filled]
+		0 [label="Чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бессмысленнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обыденнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Вильнев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раскручивал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="растягивал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="атриб"]
+			2 -> 3 [label="соч_союзн"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 7 [label="сравнит"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			0 -> 1 [label="сравн_союзн"]
+			1 -> 2 [label="сочин"]
+			4 -> 5 [label="предик"]
+			4 -> 11 [label="сент_соч"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_1235 {
+	graph [label="\"Мы покупаем в интернете русский антиквариат, выставляем его на молчаливый аукцион и предлагаем людям делать замечательные подарки\", — сказал отец Виктор."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="покупаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="интернете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="русский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="антиквариат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выставляем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="молчаливый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="аукцион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="предлагаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="замечательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="подарки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Виктор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			23 -> 24 [label="аппоз"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+			8 -> 13 [label="сочин"]
+			22 -> 23 [label="предик"]
+			18 -> 17 [label="опред"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 16 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="_1_компл"]
+			2 -> 8 [label="сочин"]
+			2 -> 22 [label="вводн"]
+			12 -> 11 [label="опред"]
+			3 -> 4 [label="предл"]
+			16 -> 18 [label="_1_компл"]
+}

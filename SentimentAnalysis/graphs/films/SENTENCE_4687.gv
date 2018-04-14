@@ -1,0 +1,30 @@
+digraph SENTENCE_4687 {
+	graph [label="Видите, я сам уже стал орать вместе с вами."]
+	node [style=filled]
+		0 [label="Видите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="орать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вами
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			2 -> 3 [label="опред"]
+			5 -> 0 [label="вводн"]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="обст"]
+}

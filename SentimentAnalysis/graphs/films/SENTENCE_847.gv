@@ -1,0 +1,21 @@
+digraph SENTENCE_847 {
+	graph [label="Исполнительница главной роли Бьорк просто неподражаема."]
+	node [style=filled]
+		0 [label="Исполнительница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неподражаема
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="огранич"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			2 -> 1 [label="опред"]
+}

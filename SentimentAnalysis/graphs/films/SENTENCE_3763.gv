@@ -1,0 +1,69 @@
+digraph SENTENCE_3763 {
+	graph [label="Здесь говорилось, что в фильме много исторических несоответствий: скандал вышел совсем в другом матче, тренера сборной убрали по другим причинам и тд."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говорилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исторических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="несоответствий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="скандал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вышел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="другом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="матче
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тренера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сборной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="убрали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="причинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="тд
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="обст"]
+			3 -> 6 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			8 -> 7 [label="опред"]
+			19 -> 17 [label="предик"]
+			19 -> 18 [label="_1_компл"]
+			19 -> 20 [label="обст"]
+			19 -> 23 [label="сочин"]
+			13 -> 12 [label="огранич"]
+			13 -> 15 [label="предл"]
+			22 -> 21 [label="опред"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 19 [label="релят"]
+			20 -> 22 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			1 -> 11 [label="сент_соч"]
+			23 -> 24 [label="соч_союзн"]
+}

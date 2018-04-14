@@ -1,0 +1,66 @@
+digraph SENTENCE_1123 {
+	graph [label="\"Однако коммерческие здания, такие, как гостиницы, торговые и офисные помещения, облагаются муниципальным налогом, независимо от того, кто ими владеет\", — добавил он."]
+	node [style=filled]
+		1 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="коммерческие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="гостиницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="торговые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="офисные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="помещения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="облагаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="муниципальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="налогом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="независимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="владеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 25 [label="эксплет"]
+			3 -> 2 [label="опред"]
+			5 -> 1 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="сравнит"]
+			5 -> 15 [label="разъяснит"]
+			5 -> 29 [label="вводн"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 13 [label="атриб"]
+			25 -> 23 [label="предик"]
+			25 -> 24 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			15 -> 17 [label="_2_компл"]
+			15 -> 19 [label="обст"]
+			10 -> 11 [label="сочин"]
+			19 -> 20 [label="_1_компл"]
+			20 -> 21 [label="предл"]
+			7 -> 8 [label="сравн_союзн"]
+			29 -> 30 [label="предик"]
+			13 -> 10 [label="опред"]
+}

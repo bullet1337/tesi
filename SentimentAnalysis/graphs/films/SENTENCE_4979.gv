@@ -1,0 +1,54 @@
+digraph SENTENCE_4979 {
+	graph [label="Особенно обидно это в свете того, что Годзилла здесь получился лучшим из всех что когда-либо посещали киноэкраны."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обидно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="свете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="получился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лучшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="когда-либо
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="посещали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="киноэкраны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="эксплет"]
+			1 -> 0 [label="огранич"]
+			4 -> 5 [label="квазиагент"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="электив"]
+			14 -> 16 [label="подч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="предл"]
+			7 -> 10 [label="подч_союзн"]
+			7 -> 14 [label="сент_соч"]
+			12 -> 13 [label="предл"]
+			16 -> 15 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+}

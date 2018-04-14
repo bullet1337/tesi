@@ -1,0 +1,36 @@
+digraph SENTENCE_398 {
+	graph [label="Финальный раунд Птаха начал с обвинений в зависти к другим рэперам."]
+	node [style=filled]
+		0 [label="Финальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раунд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обвинений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зависти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="рэперам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 8 [label="_3_компл"]
+			10 -> 9 [label="опред"]
+			5 -> 6 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="предл"]
+			6 -> 7 [label="предл"]
+}

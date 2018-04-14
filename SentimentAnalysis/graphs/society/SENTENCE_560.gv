@@ -1,0 +1,66 @@
+digraph SENTENCE_560 {
+	graph [label="Валентин Михайлович был необычайно талантливым, разносторонне одарённым человеком – выдающимся государственным и общественным деятелем, блестящим дипломатом\", — говорится в телеграмме, опубликованной на сайте Кремля."]
+	node [style=filled]
+		0 [label="Валентин Михайлович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="необычайно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="талантливым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="разносторонне
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одарённым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выдающимся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="государственным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="общественным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="деятелем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="блестящим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дипломатом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="телеграмме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="опубликованной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Кремля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			26 -> 27 [label="квазиагент"]
+			20 -> 21 [label="обст"]
+			20 -> 24 [label="сочин"]
+			16 -> 15 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="опред"]
+			21 -> 22 [label="предл"]
+			24 -> 25 [label="_2_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 13 [label="присвяз"]
+			1 -> 20 [label="вводн"]
+			25 -> 26 [label="предл"]
+			10 -> 11 [label="сочин"]
+			5 -> 7 [label="агент"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сочин"]
+			13 -> 3 [label="опред"]
+			13 -> 10 [label="опред"]
+			13 -> 16 [label="_1_компл"]
+}

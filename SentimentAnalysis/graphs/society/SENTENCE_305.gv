@@ -1,0 +1,42 @@
+digraph SENTENCE_305 {
+	graph [label="Я это очень хорошо знаю, у меня сын два года в Париже учился."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хорошо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Париже
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="учился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="атриб"]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 13 [label="сочин"]
+			6 -> 7 [label="предл"]
+			3 -> 2 [label="огранич"]
+			11 -> 12 [label="предл"]
+			8 -> 10 [label="атриб"]
+}

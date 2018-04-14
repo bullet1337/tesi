@@ -1,0 +1,65 @@
+digraph SENTENCE_3987 {
+	graph [label="Хотя те, кто читал оригинальный роман Энтони Бёрджесса, говорят что там имелось в виду не совсем то, или вовсе совсем не то."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="читал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оригинальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="роман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Энтони Бёрджесса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="виду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 22 [label="огранич"]
+			9 -> 1 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			1 -> 4 [label="релят"]
+			17 -> 16 [label="огранич"]
+			17 -> 19 [label="сочин"]
+			22 -> 20 [label="огранич"]
+			22 -> 21 [label="огранич"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			19 -> 23 [label="соч_союзн"]
+			0 -> 9 [label="подч_союзн"]
+			12 -> 11 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			13 -> 14 [label="предл"]
+			13 -> 17 [label="сочин"]
+			10 -> 12 [label="подч_союзн"]
+}

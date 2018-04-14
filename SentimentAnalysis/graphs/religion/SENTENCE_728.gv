@@ -1,0 +1,18 @@
+digraph SENTENCE_728 {
+	graph [label="А вот с развлечениями построже."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="развлечениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="построже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			4 -> 2 [label="колич_огран"]
+			0 -> 4 [label="соч_союзн"]
+}

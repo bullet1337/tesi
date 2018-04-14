@@ -1,0 +1,69 @@
+digraph SENTENCE_1716 {
+	graph [label="Кроме того, он приобрел новые автомобили для некоторых семей, оплатил покупки в супермаркетах и просто дарил пачки денег на улице нуждающимся людям."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="приобрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="новые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="автомобили
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="некоторых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="семей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оплатил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="покупки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="супермаркетах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пачки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="улице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="нуждающимся
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 11 [label="сочин"]
+			7 -> 9 [label="предл"]
+			13 -> 14 [label="предл"]
+			0 -> 1 [label="предл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 20 [label="обст"]
+			17 -> 22 [label="_1_компл"]
+			17 -> 23 [label="_2_компл"]
+			15 -> 17 [label="соч_союзн"]
+			18 -> 19 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+			9 -> 8 [label="опред"]
+			6 -> 5 [label="опред"]
+			11 -> 7 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="обст"]
+			11 -> 15 [label="сочин"]
+}

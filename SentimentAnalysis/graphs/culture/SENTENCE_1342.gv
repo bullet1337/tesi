@@ -1,0 +1,30 @@
+digraph SENTENCE_1342 {
+	graph [label="Для Сергея Шнурова, как и большинства петербуржцев, это семейные хроники."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Сергея Шнурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="петербуржцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="семейные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хроники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			0 -> 3 [label="сравнит"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="сравн_союзн"]
+			5 -> 6 [label="квазиагент"]
+			8 -> 0 [label="пролепт"]
+}

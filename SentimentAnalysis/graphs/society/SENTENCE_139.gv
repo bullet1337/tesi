@@ -1,0 +1,69 @@
+digraph SENTENCE_139 {
+	graph [label="Путин отметил, что память о нем навсегда сохранится в сердцах его родных, друзей, коллег, учеников – \"всех, кто знал этого яркого, неординарного человека\"."]
+	node [style=filled]
+		0 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="навсегда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сохранится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сердцах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="родных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коллег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="учеников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="знал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="яркого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="неординарного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 4 [label="предик"]
+			8 -> 5 [label="_3_компл"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			10 -> 12 [label="сочин"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 14 [label="сочин"]
+			14 -> 16 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 24 [label="разъяснит"]
+			3 -> 8 [label="подч_союзн"]
+			24 -> 21 [label="_1_компл"]
+			24 -> 23 [label="предик"]
+			24 -> 29 [label="предик"]
+			16 -> 18 [label="аппоз"]
+			29 -> 25 [label="опред"]
+			29 -> 26 [label="опред"]
+			29 -> 28 [label="опред"]
+			9 -> 10 [label="предл"]
+}

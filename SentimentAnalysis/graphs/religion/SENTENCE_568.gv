@@ -1,0 +1,30 @@
+digraph SENTENCE_568 {
+	graph [label="Таким образом, она стала единственной женщиной-пророчицей в Новом Завете."]
+	node [style=filled]
+		0 [label="Таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="единственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="женщиной-пророчицей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Новом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Завете
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="присвяз"]
+			1 -> 0 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+}

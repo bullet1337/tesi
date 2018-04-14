@@ -1,0 +1,21 @@
+digraph SENTENCE_271 {
+	graph [label="Есть в языке и своя мода."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="присвяз"]
+			0 -> 3 [label="сент_соч"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 5 [label="соч_союзн"]
+}

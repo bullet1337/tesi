@@ -1,0 +1,33 @@
+digraph SENTENCE_1051 {
+	graph [label="Яркий, жизнерадостный, где она танцует и поёт, а главное — видит."]
+	node [style=filled]
+		0 [label="Яркий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="жизнерадостный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="танцует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="главное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="вводн"]
+			10 -> 13 [label="соч_союзн"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="сочин"]
+			0 -> 2 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 10 [label="сочин"]
+}

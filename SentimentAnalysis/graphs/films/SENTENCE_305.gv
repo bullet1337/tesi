@@ -1,0 +1,30 @@
+digraph SENTENCE_305 {
+	graph [label="А он действительно ужасен и так реален, как никогда."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ужасен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			3 -> 8 [label="сравнит"]
+			6 -> 5 [label="огранич"]
+			4 -> 6 [label="соч_союзн"]
+			8 -> 9 [label="сравн_союзн"]
+			0 -> 3 [label="соч_союзн"]
+}

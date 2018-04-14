@@ -1,0 +1,36 @@
+digraph SENTENCE_406 {
+	graph [label="Сама же картина метафорична и не обязательно воспринимать происходящее только буквально."]
+	node [style=filled]
+		0 [label="Сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="метафорична
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обязательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воспринимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="происходящее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			0 -> 1 [label="огранич"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			4 -> 7 [label="соч_союзн"]
+}

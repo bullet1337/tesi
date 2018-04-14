@@ -1,0 +1,45 @@
+digraph SENTENCE_55 {
+	graph [label="Сейчас, после того как это повторилось несколько раз, возле них (мечетей) будет усилена безопасность."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="повторилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возле
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мечетей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="усилена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="безопасность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="эксплет"]
+			2 -> 3 [label="предл"]
+			15 -> 0 [label="обст"]
+			15 -> 2 [label="обст"]
+			15 -> 10 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 16
+			15 -> 17 [label="предик"]
+			10 -> 11 [label="предл"]
+			8 -> 7 [label="количест"]
+			4 -> 6 [label="подч_союзн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="обст"]
+}

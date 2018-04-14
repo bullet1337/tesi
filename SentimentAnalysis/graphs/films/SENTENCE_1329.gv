@@ -1,0 +1,21 @@
+digraph SENTENCE_1329 {
+	graph [label="Кстати, музыкальные номера поразили своей постановкой."]
+	node [style=filled]
+		0 [label="Кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="номера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поразили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="постановкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_2_компл"]
+			3 -> 2 [label="опред"]
+			6 -> 5 [label="опред"]
+}

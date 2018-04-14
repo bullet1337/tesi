@@ -1,0 +1,72 @@
+digraph SENTENCE_858 {
+	graph [label="Сотрудники МЧС спасли нерпу, которая не могла попасть к открытой воде в Авачинской бухте в Петропавловске-Камчатском, сообщает ГУ МЧС России по Камчатскому краю."]
+	node [style=filled]
+		0 [label="Сотрудники
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="спасли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нерпу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попасть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="открытой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="воде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Авачинской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="бухте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Петропавловске-Камчатском
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ГУ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Камчатскому
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="краю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 12 [label="обст"]
+			24 -> 23 [label="опред"]
+			11 -> 10 [label="опред"]
+			22 -> 24 [label="предл"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="атриб"]
+			0 -> 1 [label="_1_компл"]
+			18 -> 19 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 18 [label="разъяснит"]
+			20 -> 21 [label="квазиагент"]
+			15 -> 16 [label="предл"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 22 [label="атриб"]
+			9 -> 11 [label="предл"]
+}

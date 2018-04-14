@@ -1,0 +1,30 @@
+digraph SENTENCE_370 {
+	graph [label="Закончил свой раунд Птаха очередным обвинением противника в лицемерии."]
+	node [style=filled]
+		0 [label="Закончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раунд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="очередным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обвинением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="противника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лицемерии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			0 -> 5 [label="_2_компл"]
+			0 -> 7 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="предл"]
+}

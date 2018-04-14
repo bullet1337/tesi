@@ -1,0 +1,39 @@
+digraph SENTENCE_3181 {
+	graph [label="Смею заметить, что без их участия сборы были бы в разы меньше."]
+	node [style=filled]
+		0 [label="Смею
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заметить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="аналит"]
+			8 -> 10 [label="обст"]
+			8 -> 12 [label="присвяз"]
+			6 -> 5 [label="квазиагент"]
+			3 -> 8 [label="подч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			1 -> 3 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+}

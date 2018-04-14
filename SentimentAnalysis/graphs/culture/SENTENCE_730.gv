@@ -1,0 +1,42 @@
+digraph SENTENCE_730 {
+	graph [label="Режиссер Андрей Кончаловский, в свою очередь, отметил, что позиция Серебрякова вызывает у него только сочувствие."]
+	node [style=filled]
+		0 [label="Режиссер Андрей Кончаловский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="позиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Серебрякова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="вызывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сочувствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			8 -> 11 [label="подч_союзн"]
+			12 -> 13 [label="предл"]
+			4 -> 3 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 15 [label="_1_компл"]
+			15 -> 14 [label="огранич"]
+}

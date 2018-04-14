@@ -1,0 +1,48 @@
+digraph SENTENCE_187 {
+	graph [label="Поэтому весь день будет посвящен только вхождению в период покаяния, в пост\", — подчеркнул собеседник агентства."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посвящен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="только
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вхождению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="покаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="собеседник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			16 -> 17 [label="предик"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4
+			3 -> 16 [label="вводн"]
+			4 -> 6 [label="_2_компл"]
+			17 -> 18 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+			11 -> 12 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="сочин"]
+			9 -> 11 [label="_2_компл"]
+}

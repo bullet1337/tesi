@@ -1,0 +1,30 @@
+digraph SENTENCE_2639 {
+	graph [label="Ну и пусть, что фильм безбожно и искусственно растянут."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="безбожно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="искусственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="растянут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			1 -> 0 [label="вводн"]
+			1 -> 9 [label="соч_союзн"]
+			9 -> 2 [label="огранич"]
+			9 -> 5 [label="предик"]
+			9 -> 6 [label="обст"]
+			2 -> 4
+}

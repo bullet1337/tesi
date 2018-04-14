@@ -1,0 +1,66 @@
+digraph SENTENCE_1607 {
+	graph [label="Тема чистого понедельника затрагивается и Ветхим Заветом, чтение которого с этого дня начинается во всех храмах с Книги пророка Исаии, призывавшего:."]
+	node [style=filled]
+		0 [label="Тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чистого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понедельника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="затрагивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ветхим
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Заветом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="чтение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Книги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="пророка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Исаии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="призывавшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			6 -> 5 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="атриб"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			13 -> 8 [label="предик"]
+			13 -> 10 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			10 -> 12 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 13 [label="сент_соч"]
+			17 -> 18 [label="предл"]
+			5 -> 4 [label="огранич"]
+			19 -> 20 [label="аппоз"]
+			14 -> 16 [label="предл"]
+			18 -> 19 [label="квазиагент"]
+			18 -> 22 [label="опред"]
+}

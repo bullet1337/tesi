@@ -1,0 +1,18 @@
+digraph SENTENCE_1933 {
+	graph [label="Спасибо режиссеру за этот фильм!"]
+	node [style=filled]
+		0 [label="Спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссеру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 2 [label="атриб"]
+			4 -> 3 [label="опред"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_1059 {
+	graph [label="Спасибо Бьорк и Ларсу фон Триеру."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ларсу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триеру
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="соч_союзн"]
+			5 -> 4
+			0 -> 1 [label="вводн"]
+			0 -> 2 [label="сочин"]
+			0 -> 5 [label="_1_компл"]
+}

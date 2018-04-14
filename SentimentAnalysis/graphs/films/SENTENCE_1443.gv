@@ -1,0 +1,27 @@
+digraph SENTENCE_1443 {
+	graph [label="Про музыкальную составляющую скажу ещё раз: очень здорово."]
+	node [style=filled]
+		0 [label="Про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыкальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="составляющую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="здорово
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			5 -> 4 [label="огранич"]
+			3 -> 0 [label="_3_компл"]
+			3 -> 5 [label="обст"]
+			3 -> 8 [label="обст"]
+			2 -> 1 [label="опред"]
+			8 -> 7 [label="огранич"]
+}

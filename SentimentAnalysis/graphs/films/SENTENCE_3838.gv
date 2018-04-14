@@ -1,0 +1,24 @@
+digraph SENTENCE_3838 {
+	graph [label="Вот только будет ли он принят зрителями?"]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="принят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрителями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="огранич"]
+			2 -> 4 [label="предик"]
+			2 -> 5
+			1 -> 0 [label="огранич"]
+			5 -> 6 [label="агент"]
+}

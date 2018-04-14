@@ -1,0 +1,33 @@
+digraph SENTENCE_3576 {
+	graph [label="Единственное, что порадовало в фильме, это съёмки собственно хоккейных матчей."]
+	node [style=filled]
+		0 [label="Единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="порадовало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="съёмки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="собственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хоккейных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="матчей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="релят"]
+			4 -> 5 [label="предл"]
+			10 -> 9 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="_1_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_98 {
+	graph [label="Как в отрицательную сторону, так и в положительную."]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отрицательную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="положительную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сравн_союзн"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			7 -> 0 [label="вводн"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+}

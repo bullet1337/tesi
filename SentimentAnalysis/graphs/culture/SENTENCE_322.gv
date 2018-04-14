@@ -1,0 +1,21 @@
+digraph SENTENCE_322 {
+	graph [label="Звезда индийского кино скончалась в Дубае."]
+	node [style=filled]
+		0 [label="Звезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="индийского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скончалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Дубае
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			4 -> 5 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			0 -> 2 [label="атриб"]
+}

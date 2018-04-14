@@ -1,0 +1,18 @@
+digraph SENTENCE_461 {
+	graph [label="Джефф и Кати не танцуют."]
+	node [style=filled]
+		0 [label="Джефф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кати
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="танцуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			1 -> 2 [label="соч_союзн"]
+}

@@ -1,0 +1,78 @@
+digraph SENTENCE_843 {
+	graph [label="Оно обладает собственной художественной выразительностью, в нем есть отголоски не только пушкинской \"Пиковой дамы\", но и \"Медного всадника\" и других сочинений\", — сказал режиссер накануне премьеры."]
+	node [style=filled]
+		0 [label="Оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обладает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="художественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выразительностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отголоски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пушкинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Пиковой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="дамы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Медного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="всадника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сочинений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="премьеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 25 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 8 [label="сент_соч"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="предик"]
+			8 -> 18 [label="сент_соч"]
+			11 -> 10 [label="огранич"]
+			24 -> 26 [label="соч_союзн"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			15 -> 12 [label="опред"]
+			15 -> 14 [label="опред"]
+			6 -> 7 [label="предл"]
+			30 -> 22 [label="_1_компл"]
+			30 -> 31 [label="предик"]
+			30 -> 32 [label="обст"]
+			9 -> 15 [label="квазиагент"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			32 -> 33 [label="предл"]
+			18 -> 19 [label="огранич"]
+			18 -> 30 [label="соч_союзн"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_611 {
+	graph [label="Сомнения начали усиливаться по мере взросления дочки Вероники."]
+	node [style=filled]
+		0 [label="Сомнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="усиливаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="взросления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дочки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Вероники
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="обст"]
+			6 -> 7 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="разъяснит"]
+			5 -> 6 [label="квазиагент"]
+}

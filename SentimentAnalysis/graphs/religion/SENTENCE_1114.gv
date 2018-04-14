@@ -1,0 +1,63 @@
+digraph SENTENCE_1114 {
+	graph [label="А знаменитый подвижник XX века старец Силуан Афонский писал, что \"блаженна душа, любящая брата своего, ибо брат наш есть наша жизнь\"."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаменитый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подвижник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="XX
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="старец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Силуан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Афонский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="писал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="блаженна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="душа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любящая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="брата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ибо
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="брат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			2 -> 5 [label="аппоз"]
+			2 -> 8 [label="релят"]
+			24 -> 23 [label="опред"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 12 [label="подч_союзн"]
+			22 -> 20 [label="предик"]
+			22 -> 24 [label="присвяз"]
+			12 -> 13 [label="предик"]
+			5 -> 6 [label="аппоз"]
+			13 -> 15 [label="опред"]
+			4 -> 3 [label="опред"]
+			19 -> 22 [label="подч_союзн"]
+			20 -> 21 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+}

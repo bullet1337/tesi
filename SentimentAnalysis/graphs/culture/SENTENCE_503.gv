@@ -1,0 +1,30 @@
+digraph SENTENCE_503 {
+	graph [label="В письме фильм назван \"пасквилем на историю нашей страны\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="письме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="назван
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пасквилем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 6 [label="обст"]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_287 {
+	graph [label="Если не хватает чисто художественных средств, то прибегают к средствам ниже пояса\", — комментирует Михеев."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хватает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чисто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="художественных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="средств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прибегают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="средствам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ниже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пояса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="комментирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Михеев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="предик"]
+			4 -> 3 [label="огранич"]
+			16 -> 17 [label="предик"]
+			11 -> 12 [label="сравнит"]
+			0 -> 2 [label="подч_союзн"]
+			0 -> 7 [label="соотнос"]
+			9 -> 10 [label="предл"]
+			5 -> 4 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="обст"]
+			8 -> 16 [label="вводн"]
+}

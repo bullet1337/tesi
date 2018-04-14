@@ -1,0 +1,21 @@
+digraph SENTENCE_1361 {
+	graph [label="Вся Россия гораздо больше, чем Москва!"]
+	node [style=filled]
+		0 [label="Вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Россия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Москва
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="колич_огран"]
+			3 -> 5 [label="сравнит"]
+			1 -> 0 [label="опред"]
+			5 -> 6 [label="сравн_союзн"]
+}

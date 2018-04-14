@@ -1,0 +1,47 @@
+digraph SENTENCE_223 {
+	graph [label="Уж не знаю специально ли это или как еще, но это все в самую точку."]
+	node [style=filled]
+		0 [label="Уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="специально
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="самую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="точку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 8 [label="огранич"]
+			7 -> 10 [label="огранич"]
+			7 -> 11 [label="огранич"]
+			7 -> 13 [label="сравн_союзн"]
+			11 -> 12 [label="опред"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="предик"]
+			3 -> 6 [label="сочин"]
+			13 -> 15 [label="предл"]
+}

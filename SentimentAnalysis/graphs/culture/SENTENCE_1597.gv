@@ -1,0 +1,45 @@
+digraph SENTENCE_1597 {
+	graph [label="Он добавил, что также у студии в запуске кукольная короткометражка, которая называется \"Страшный секрет\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="студии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="запуске
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кукольная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="короткометражка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="называется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Страшный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="секрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="сочин"]
+			13 -> 12 [label="предик"]
+			13 -> 16 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			10 -> 5 [label="обст"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="релят"]
+			7 -> 8 [label="предл"]
+			3 -> 10 [label="подч_союзн"]
+}

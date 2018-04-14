@@ -1,0 +1,27 @@
+digraph SENTENCE_4401 {
+	graph [label="Как раз понятно, почему мы этого не понимаем."]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="понимаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 4 [label="обст"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			2 -> 0 [label="вводн"]
+			2 -> 8 [label="предик"]
+			0 -> 1 [label="сравн_союзн"]
+}

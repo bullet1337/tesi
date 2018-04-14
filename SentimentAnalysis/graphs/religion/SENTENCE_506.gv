@@ -1,0 +1,42 @@
+digraph SENTENCE_506 {
+	graph [label="\"Наша позиция такова: Сирийская Арабская Республика должна оставаться единой и нельзя убивать людей."]
+	node [style=filled]
+		1 [label="Наша
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="позиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такова
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сирийская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Арабская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Республика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оставаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="единой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="убивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 8 [label="разъяснит"]
+			9 -> 10 [label="присвяз"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="сочин"]
+			12 -> 13 [label="предик"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+}

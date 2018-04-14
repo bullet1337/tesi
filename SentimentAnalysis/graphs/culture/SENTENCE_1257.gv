@@ -1,0 +1,24 @@
+digraph SENTENCE_1257 {
+	graph [label="Приз гильдии также ушёл картине \"В коридорах\"."]
+	node [style=filled]
+		0 [label="Приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="гильдии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ушёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="коридорах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="_2_компл"]
+			0 -> 1 [label="аппоз"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_299 {
+	graph [label="Они соревнуются в ряде номинаций\", — сказал Жигунов."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="соревнуются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ряде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="номинаций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Жигунов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="квазиагент"]
+			8 -> 9 [label="предик"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 8 [label="вводн"]
+}

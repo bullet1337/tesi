@@ -1,0 +1,75 @@
+digraph SENTENCE_1379 {
+	graph [label="Родители много работают и не отрываются от компьютера, братья и сестры ссорятся, у них сложности в школе, они не хотят выполнять обязанности по дому."]
+	node [style=filled]
+		0 [label="Родители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отрываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="компьютера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="братья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сестры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ссорятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сложности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="хотят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="выполнять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="обязанности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="дому
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 24 [label="_1_компл"]
+			25 -> 26 [label="предл"]
+			16 -> 17 [label="атриб"]
+			3 -> 5 [label="соч_союзн"]
+			24 -> 25 [label="атриб"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="предик"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="_1_компл"]
+			17 -> 18 [label="предл"]
+			12 -> 14 [label="_2_компл"]
+			12 -> 16 [label="предик"]
+			12 -> 22 [label="сент_соч"]
+			14 -> 15 [label="предл"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="сочин"]
+			2 -> 12 [label="сент_соч"]
+}

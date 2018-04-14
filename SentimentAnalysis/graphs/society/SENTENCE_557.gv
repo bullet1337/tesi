@@ -1,0 +1,72 @@
+digraph SENTENCE_557 {
+	graph [label="Видный дипломат и журналист, бывший председатель правления агентства печати \"Новости\" (АПН) Валентин Фалин скончался на 92-м году жизни, сообщили в четверг РИА Новости его близкие."]
+	node [style=filled]
+		0 [label="Видный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дипломат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="журналист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бывший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="печати
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="АПН
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Валентин Фалин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="92-м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="близкие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 21 [label="_2_компл"]
+			23 -> 24 [label="обст"]
+			23 -> 26 [label="предик"]
+			23 -> 28 [label="сент_соч"]
+			24 -> 25 [label="предл"]
+			17 -> 14 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="обст"]
+			17 -> 20 [label="обст"]
+			2 -> 3 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			6 -> 23 [label="разъяснит"]
+			28 -> 27 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="аппоз"]
+			8 -> 17 [label="релят"]
+			18 -> 19 [label="предл"]
+}

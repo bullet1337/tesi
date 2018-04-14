@@ -1,0 +1,42 @@
+digraph SENTENCE_1437 {
+	graph [label="К концу фильма действие развивается неторопливо и обрывочно, что передает состояние безнадежности, обреченности."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="концу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="развивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неторопливо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обрывочно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="безнадежности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обреченности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 9 [label="предик"]
+			9 -> 10 [label="подч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 7 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="сочин"]
+			10 -> 11 [label="предик"]
+			12 -> 14 [label="квазиагент"]
+			11 -> 12 [label="квазиагент"]
+}

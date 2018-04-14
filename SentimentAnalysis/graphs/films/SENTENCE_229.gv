@@ -1,0 +1,33 @@
+digraph SENTENCE_229 {
+	graph [label="Она мать-одиночка, воспитывающая сына, который унаследовал от неё страшную болезнь."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мать-одиночка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="воспитывающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="унаследовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="страшную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="болезнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="опред"]
+			1 -> 7 [label="сент_соч"]
+			3 -> 4 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 11 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+}

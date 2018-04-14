@@ -1,0 +1,57 @@
+digraph SENTENCE_1676 {
+	graph [label="Отзыв прокатного удостоверения у фильма \"Смерть Сталина\" стала для него хорошей рекламой, заявил режиссер Алексей Герман-младший в интервью РИА Новости."]
+	node [style=filled]
+		0 [label="Отзыв
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хорошей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рекламой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Алексей Герман-младший
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 19 [label="предл"]
+			9 -> 0 [label="предик"]
+			9 -> 3 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="обст"]
+			9 -> 13 [label="присвяз"]
+			9 -> 15 [label="вводн"]
+			10 -> 11 [label="предл"]
+			13 -> 12 [label="опред"]
+			19 -> 20 [label="_1_компл"]
+			0 -> 2 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			6 -> 7 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			15 -> 16 [label="предик"]
+			15 -> 18 [label="обст"]
+}

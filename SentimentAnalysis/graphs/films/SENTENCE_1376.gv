@@ -1,0 +1,18 @@
+digraph SENTENCE_1376 {
+	graph [label="Не каждый зритель это поймет."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поймет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			1 -> 0 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+}

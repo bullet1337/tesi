@@ -1,0 +1,24 @@
+digraph SENTENCE_853 {
+	graph [label="С Дэвидом Морсом и Петером Стормаре вышла интересная штука."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Дэвидом Морсом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Петером Стормаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вышла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="интересная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="штука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="предик"]
+			1 -> 2 [label="сочин"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_1461 {
+	graph [label="По инициативе Русской православной церкви была создана межрелигиозная рабочая группа, в состав которой вошли представители основных христианских и мусульманских общин России."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="инициативе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="создана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="межрелигиозная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рабочая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="представители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="основных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="христианских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мусульманских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="общин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 6
+			5 -> 9 [label="предик"]
+			5 -> 14 [label="сент_соч"]
+			14 -> 15 [label="предик"]
+			1 -> 4 [label="квазиагент"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="атриб"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			15 -> 20 [label="_1_компл"]
+			17 -> 18 [label="сочин"]
+			11 -> 12 [label="предл"]
+			20 -> 16 [label="опред"]
+			20 -> 17 [label="опред"]
+			20 -> 21 [label="квазиагент"]
+			18 -> 19 [label="соч_союзн"]
+			12 -> 13 [label="квазиагент"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1039 {
+	graph [label="В рамках мероприятия, посвященного Дню защитника Отечества, председатель городского совета ветеранов Ольга Шестибратова передала подписные листы главе Горячего Ключа."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посвященного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Дню
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="городского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ветеранов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Ольга Шестибратова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="передала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подписные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="листы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="главе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Горячего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Ключа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 18 [label="опред"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 12 [label="аппоз"]
+			12 -> 13 [label="аппоз"]
+			5 -> 6 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			17 -> 19 [label="_1_компл"]
+			14 -> 7 [label="_1_компл"]
+			14 -> 16 [label="предик"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 0 [label="_2_компл"]
+			7 -> 9 [label="примыкат"]
+			2 -> 4 [label="опред"]
+			4 -> 5 [label="_2_компл"]
+}

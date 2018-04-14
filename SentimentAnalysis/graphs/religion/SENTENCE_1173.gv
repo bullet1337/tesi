@@ -1,0 +1,36 @@
+digraph SENTENCE_1173 {
+	graph [label="В этом празднике объединилась память множества святых разных стран и народов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="празднике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="объединилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="множества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="святых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="народов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			5 -> 8 [label="квазиагент"]
+}

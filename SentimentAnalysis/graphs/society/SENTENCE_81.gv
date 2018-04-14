@@ -1,0 +1,39 @@
+digraph SENTENCE_81 {
+	graph [label="Глава государства отметил, что российские солдаты и офицеры достойно выполняют воинский долг."]
+	node [style=filled]
+		0 [label="Глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="государства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="солдаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="офицеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="достойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выполняют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="воинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="долг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			10 -> 6 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 10 [label="подч_союзн"]
+			0 -> 1 [label="_1_компл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_659 {
+	graph [label="По его словам, на него приходится 36% всех выбросов, 29% приходится на алюминиевый комбинат, затем по объему выбросов идут теплоэлектростанции."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="36
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выбросов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="29
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="алюминиевый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="комбинат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="объему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="выбросов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="идут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="теплоэлектростанции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			20 -> 21 [label="предл"]
+			14 -> 12 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 10 [label="предик"]
+			15 -> 17 [label="предл"]
+			0 -> 2 [label="предл"]
+			23 -> 19 [label="обст"]
+			23 -> 20 [label="обст"]
+			23 -> 24 [label="предик"]
+			21 -> 22 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			10 -> 7 [label="количест"]
+			10 -> 9 [label="опред"]
+			10 -> 14 [label="релят"]
+			10 -> 23 [label="разъяснит"]
+			2 -> 1 [label="квазиагент"]
+}

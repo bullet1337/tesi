@@ -1,0 +1,45 @@
+digraph SENTENCE_952 {
+	graph [label="По традиции залы Дома музыки станут местом встреч со знаменитыми джазовыми ансамблями и солистами."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="залы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Дома
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="станут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="местом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="встреч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="знаменитыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="джазовыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ансамблями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="солистами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			12 -> 13 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			6 -> 7 [label="квазиагент"]
+			8 -> 11 [label="предл"]
+			0 -> 1 [label="предл"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+}

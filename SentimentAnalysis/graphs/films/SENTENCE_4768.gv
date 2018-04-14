@@ -1,0 +1,27 @@
+digraph SENTENCE_4768 {
+	graph [label="Его отец, Джо Броуди, история совсем не лучше."]
+	node [style=filled]
+		0 [label="Его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Джо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Броуди
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 6 [label="предик"]
+			9 -> 8 [label="огранич"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="аппоз"]
+			4 -> 1 [label="_1_компл"]
+			4 -> 9 [label="сент_соч"]
+			8 -> 7 [label="огранич"]
+}

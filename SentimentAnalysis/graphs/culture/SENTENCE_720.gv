@@ -1,0 +1,24 @@
+digraph SENTENCE_720 {
+	graph [label="Расскажите ли вы об этом или утаите?"]
+	node [style=filled]
+		0 [label="Расскажите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="утаите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="предик"]
+			0 -> 3 [label="_3_компл"]
+			0 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+}

@@ -1,0 +1,58 @@
+digraph SENTENCE_1223 {
+	graph [label="Я влюблена в эту киноленту без остатка и убеждена, что её нужно смотреть просто потому, что она такая существует."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="влюблена
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="киноленту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="остатка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="убеждена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="такая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="существует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			12 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="эксплет"]
+			13 -> 15 [label="обст"]
+			17 -> 20 [label="подч_союзн"]
+			8 -> 10 [label="_2_компл"]
+			5 -> 2 [label="огранич"]
+			5 -> 6 [label="предл"]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="обст"]
+			1 -> 7 [label="сочин"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="предик"]
+}

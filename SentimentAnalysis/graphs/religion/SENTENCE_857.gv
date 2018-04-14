@@ -1,0 +1,45 @@
+digraph SENTENCE_857 {
+	graph [label="Договоримся с командованием, придут ребята — и им интересно, и мы пользу принесем\", — улыбается он."]
+	node [style=filled]
+		0 [label="Договоримся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="командованием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="придут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ребята
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пользу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="принесем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="улыбается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предик"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 4 [label="вводн"]
+			0 -> 7 [label="сент_соч"]
+			0 -> 18 [label="вводн"]
+			11 -> 14 [label="соч_союзн"]
+			9 -> 8 [label="_1_компл"]
+			9 -> 11 [label="сент_соч"]
+			1 -> 2 [label="предл"]
+			7 -> 9 [label="соч_союзн"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="_1_компл"]
+			18 -> 19 [label="предик"]
+}

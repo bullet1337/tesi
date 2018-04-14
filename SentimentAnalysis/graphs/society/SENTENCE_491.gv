@@ -1,0 +1,51 @@
+digraph SENTENCE_491 {
+	graph [label="По ее словам, эта же статья и определяет перечень редких заболеваний, которые встречаются на территории страны."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="статья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="определяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="перечень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="редких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заболеваний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="встречаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="территории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			4 -> 5 [label="огранич"]
+			2 -> 1 [label="квазиагент"]
+			8 -> 0 [label="вводн"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 14 [label="разъяснит"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="_2_компл"]
+			9 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			0 -> 2 [label="предл"]
+			15 -> 16 [label="предл"]
+			16 -> 17 [label="квазиагент"]
+}

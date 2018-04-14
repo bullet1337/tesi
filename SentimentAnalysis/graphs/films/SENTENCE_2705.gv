@@ -1,0 +1,41 @@
+digraph SENTENCE_2705 {
+	graph [label="Большую часть времени приходится наблюдать за безжизненным, унылым и плохо прописанным героем Райана Гослинга."]
+	node [style=filled]
+		0 [label="Большую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наблюдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="безжизненным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="унылым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прописанным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="героем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Райана Гослинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 9 [label="сочин"]
+			6 -> 8 [label="сочин"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="агент"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			12 -> 13 [label="аппоз"]
+			9 -> 11 [label="соч_союзн"]
+			4 -> 5 [label="_1_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1900 {
+	graph [label="Даже титры не заставят меня положить конец этому фильму."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="титры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заставят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="положить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			8 -> 7 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="неакт_компл"]
+			1 -> 0 [label="огранич"]
+}

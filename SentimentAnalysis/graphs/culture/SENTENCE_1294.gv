@@ -1,0 +1,29 @@
+digraph SENTENCE_1294 {
+	graph [label="Чайковского 28 мая, выступит всемирно известный хорватско-австрийский контратенор Макс Эмануэль Ценчич."]
+	node [style=filled]
+		0 [label="Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="28
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всемирно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хорватско-австрийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="контратенор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Макс Эмануэль Ценчич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="обст"]
+			4 -> 8 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="атриб"]
+}

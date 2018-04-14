@@ -1,0 +1,42 @@
+digraph SENTENCE_199 {
+	graph [label="Ведь Триер не просто высмеивает американцев, а посылает Америку своим фильмом в нокаут."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="высмеивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="американцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="посылает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Америку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нокаут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			7 -> 8 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="_4_компл"]
+			8 -> 12 [label="обст"]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="сочин"]
+			11 -> 10 [label="опред"]
+}

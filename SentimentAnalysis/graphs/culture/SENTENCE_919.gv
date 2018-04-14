@@ -1,0 +1,55 @@
+digraph SENTENCE_919 {
+	graph [label="В том числе потому, что я был здесь до (берлинской) стены, во время стены и после ее падения."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="том
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="числе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="берлинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="падения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="опред"]
+			17 -> 18 [label="сочин"]
+			3 -> 0 [label="огранич"]
+			3 -> 5 [label="эксплет"]
+			5 -> 7 [label="подч_союзн"]
+			2 -> 1 [label="опред"]
+			9 -> 13 [label="предл"]
+			15 -> 16 [label="предл"]
+			0 -> 2 [label="предл"]
+			19 -> 21 [label="предл"]
+			21 -> 20 [label="квазиагент"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 9 [label="присвяз"]
+			7 -> 15 [label="обст"]
+}

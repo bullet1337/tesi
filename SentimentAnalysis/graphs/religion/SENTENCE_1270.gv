@@ -1,0 +1,57 @@
+digraph SENTENCE_1270 {
+	graph [label="Сразу после сообщений о возгорании в сети интернет появились фотографии, на которых было видно охваченное ярким пламенем здание."]
+	node [style=filled]
+		0 [label="Сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сообщений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="возгорании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="интернет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="появились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="охваченное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ярким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пламенем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="здание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="атриб"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			17 -> 16 [label="опред"]
+			15 -> 17 [label="агент"]
+			11 -> 12 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="предик"]
+			8 -> 13 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			5 -> 6 [label="предл"]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="присвяз"]
+			13 -> 15 [label="сент_соч"]
+			13 -> 18 [label="предик"]
+}

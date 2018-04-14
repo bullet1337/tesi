@@ -1,0 +1,21 @@
+digraph SENTENCE_3734 {
+	graph [label="Как только она совершена, свидетельства исчезают»."]
+	node [style=filled]
+		0 [label="Как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="совершена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свидетельства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="исчезают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			0 -> 3 [label="подч_союзн"]
+}

@@ -1,0 +1,53 @@
+digraph SENTENCE_945 {
+	graph [label="Видимо, на драмы меня еще долго не потянет, и уж тем более к пересмотру «Танцующая в темноте»."]
+	node [style=filled]
+		0 [label="Видимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="драмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потянет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пересмотру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 2 [label="обст"]
+			8 -> 4 [label="_1_компл"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="сент_соч"]
+			6 -> 5 [label="огранич"]
+			13 -> 12 [label="атриб"]
+			2 -> 3 [label="предл"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="предл"]
+			14 -> 17 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			18 -> 19 [label="предл"]
+			17 -> 18 [label="обст"]
+}

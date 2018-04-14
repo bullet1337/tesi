@@ -1,0 +1,21 @@
+digraph SENTENCE_3141 {
+	graph [label="Причины конфликтов в фильм скрыты, неявны."]
+	node [style=filled]
+		0 [label="Причины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конфликтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скрыты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="неявны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 6 [label="присвяз"]
+}

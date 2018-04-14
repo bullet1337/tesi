@@ -1,0 +1,62 @@
+digraph SENTENCE_1132 {
+	graph [label="Кино не обычное, в нем слишком много всего, что заставляет тщательно все обдумать, дабы потом правильно сформировать вывод всего увиденного."]
+	node [style=filled]
+		0 [label="Кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обычное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заставляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тщательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обдумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дабы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="правильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сформировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="вывод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="увиденного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 19 [label="подч_союзн"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="огранич"]
+			19 -> 17 [label="обст"]
+			19 -> 18 [label="обст"]
+			19 -> 20 [label="_1_компл"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 16 [label="обст"]
+			20 -> 22 [label="разъяснит"]
+			10 -> 11 [label="подч_союзн"]
+			0 -> 2 [label="опред"]
+			7 -> 0 [label="предик"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			22 -> 21 [label="_1_компл"]
+			11 -> 14 [label="_2_компл"]
+}

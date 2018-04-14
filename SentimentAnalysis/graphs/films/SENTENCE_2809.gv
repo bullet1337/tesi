@@ -1,0 +1,30 @@
+digraph SENTENCE_2809 {
+	graph [label="Ридли Скотт наложил с высокой колокольни на все мои ожидания."]
+	node [style=filled]
+		0 [label="Ридли Скотт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="наложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="высокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="колокольни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="_4_компл"]
+			2 -> 4 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 8 [label="предл"]
+			4 -> 3 [label="опред"]
+}

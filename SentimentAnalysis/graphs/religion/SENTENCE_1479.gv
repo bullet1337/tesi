@@ -1,0 +1,33 @@
+digraph SENTENCE_1479 {
+	graph [label="В православной церкви оба мученика Валентина имеют собственные дни поминовения."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мученика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Валентина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="имеют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="собственные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поминовения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+}

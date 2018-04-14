@@ -1,0 +1,60 @@
+digraph SENTENCE_1129 {
+	graph [label="Почти слепая Сельма видит только свой мир, в котором музыка никогда не заканчивается, а люди никогда не перестают танцевать."]
+	node [style=filled]
+		0 [label="Почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заканчивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="перестают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="танцевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			3 -> 2 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 13 [label="примыкат"]
+			3 -> 15 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+			1 -> 0 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			15 -> 19 [label="соч_союзн"]
+			13 -> 8 [label="обст"]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="огранич"]
+			2 -> 1 [label="опред"]
+			19 -> 16 [label="предик"]
+			19 -> 17 [label="обст"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="_1_компл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_4895 {
+	graph [label="В чем изюмина главного героя со странным именем Форд (Аарон Тейлор-Джонсон)?"]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="изюмина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="странным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="именем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Форд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Аарон Тейлор-Джонсон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			2 -> 5 [label="атриб"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="предик"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			5 -> 7 [label="предл"]
+}

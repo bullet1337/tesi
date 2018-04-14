@@ -1,0 +1,18 @@
+digraph SENTENCE_1331 {
+	graph [label="Все музыкальные сцены были безупречны."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="безупречны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="присвяз"]
+}

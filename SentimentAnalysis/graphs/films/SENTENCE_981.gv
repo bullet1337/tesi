@@ -1,0 +1,33 @@
+digraph SENTENCE_981 {
+	graph [label="Кажется, что не видеть в прямом смысле это просто ужасно."]
+	node [style=filled]
+		0 [label="Кажется
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прямом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смысле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ужасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			5 -> 7 [label="предл"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="обст"]
+			4 -> 10 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+}

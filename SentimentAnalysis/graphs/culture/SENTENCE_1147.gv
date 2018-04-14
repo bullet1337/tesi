@@ -1,0 +1,18 @@
+digraph SENTENCE_1147 {
+	graph [label="\"Даже не начинайте про Мэнсона."]
+	node [style=filled]
+		1 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начинайте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Мэнсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_3_компл"]
+			4 -> 5 [label="предл"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_894 {
+	graph [label="XI Зимний международный фестиваль искусств Юрия Башмета проходит в Сочи с 16 по 25 февраля."]
+	node [style=filled]
+		0 [label="XI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Зимний
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="искусств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Юрия Башмета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сочи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			3 -> 0 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="предл"]
+			9 -> 11 [label="соотнос"]
+			12 -> 13 [label="атриб"]
+			6 -> 3 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="_1_компл"]
+}

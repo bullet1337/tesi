@@ -1,0 +1,28 @@
+digraph SENTENCE_1524 {
+	graph [label="Подобное поведение Серебрякова, по словам режиссера, нелогично и подловато."]
+	node [style=filled]
+		0 [label="Подобное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поведение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Серебрякова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нелогично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подловато
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			8 -> 9 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+}

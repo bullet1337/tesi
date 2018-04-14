@@ -1,0 +1,15 @@
+digraph SENTENCE_437 {
+	graph [label="РИА Новости предлагает пятерку лучших."]
+	node [style=filled]
+		0 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="предлагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пятерку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_2_компл"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+}

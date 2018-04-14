@@ -1,0 +1,71 @@
+digraph SENTENCE_191 {
+	graph [label="Также будет исполнена пьеса \"Шепот в тумане памяти\", которую написала по заказу этого оркестра один из ведущих современных композиторов Северной Америки Огаста Рид Томас."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Шепот
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тумане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="памяти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="написала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заказу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="оркестра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ведущих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="современных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="композиторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Америки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Огаста
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Рид Томас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 16 [label="квазиагент"]
+			1 -> 0 [label="огранич"]
+			1 -> 2
+			1 -> 3 [label="предик"]
+			1 -> 12 [label="сент_соч"]
+			13 -> 14 [label="предл"]
+			12 -> 5 [label="предик"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="обст"]
+			12 -> 17 [label="_1_компл"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			21 -> 23 [label="сочин"]
+			17 -> 18 [label="электив"]
+			23 -> 22 [label="опред"]
+			5 -> 6 [label="атриб"]
+			18 -> 21 [label="предл"]
+			16 -> 15 [label="опред"]
+			24 -> 25 [label="предик"]
+			6 -> 7 [label="предл"]
+			7 -> 8 [label="аппоз"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1601 {
+	graph [label="Бьорк сыграла великолепно, да что я ее одну выделяю, все сыграли великолепно!"]
+	node [style=filled]
+		0 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="великолепно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одну
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="выделяю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сыграли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="великолепно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="_1_компл"]
+			12 -> 6 [label="предик"]
+			12 -> 7 [label="_1_компл"]
+			12 -> 9 [label="вводн"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="обст"]
+			4 -> 5 [label="сент_соч"]
+			5 -> 12 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="сент_соч"]
+}

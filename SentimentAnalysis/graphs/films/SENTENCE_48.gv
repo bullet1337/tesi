@@ -1,0 +1,51 @@
+digraph SENTENCE_48 {
+	graph [label="Этим словом так часто раскидываются, что оно утратило свое значение и приобрело попсовый и пошлый характер."]
+	node [style=filled]
+		0 [label="Этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="раскидываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="утратило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="значение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="приобрело
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="попсовый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пошлый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 11 [label="сочин"]
+			1 -> 0 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			16 -> 13 [label="опред"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			3 -> 2 [label="огранич"]
+			12 -> 16 [label="_1_компл"]
+			6 -> 8 [label="подч_союзн"]
+}

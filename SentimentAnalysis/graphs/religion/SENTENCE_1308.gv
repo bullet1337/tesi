@@ -1,0 +1,50 @@
+digraph SENTENCE_1308 {
+	graph [label="Кого-то появление настоящей домашней еды в однообразном рационе может подвигнуть на изменения своей жизни к лучшему."]
+	node [style=filled]
+		0 [label="Кого-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="появление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="настоящей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="домашней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="еды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="однообразном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рационе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подвигнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изменения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лучшему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 4 [label="квазиагент"]
+			1 -> 5 [label="_2_компл"]
+			5 -> 7 [label="предл"]
+			7 -> 6 [label="опред"]
+			13 -> 12 [label="опред"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 14 [label="обст"]
+			8 -> 1 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			14 -> 15 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_3096 {
+	graph [label="Фильм «Горбатая гора» не относится к разряду таких фильмов."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Горбатая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="гора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="разряду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			8 -> 10 [label="квазиагент"]
+			7 -> 8 [label="предл"]
+			3 -> 2 [label="опред"]
+			10 -> 9 [label="опред"]
+}

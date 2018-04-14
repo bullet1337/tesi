@@ -1,0 +1,111 @@
+digraph SENTENCE_1715 {
+	graph [label="В музыкальном клипе рэпер спонсировал обучение одному из студентов Университета Майами на сумму в 50 тысяч долларов, пожертвовал 50 и 20 тысяч молодежному центру и пожарной части соответственно, еще 10 тысяч передал музыкальной школе при Университете Майами."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыкальном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="клипе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рэпер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спонсировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обучение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одному
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="студентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Университета Майами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сумму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="50
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="долларов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пожертвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="50
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="молодежному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="центру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пожарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="соответственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="передал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="музыкальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="Университете
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		37 [label="Майами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предл"]
+			11 -> 12 [label="квазиагент"]
+			24 -> 26 [label="соч_союзн"]
+			31 -> 27 [label="огранич"]
+			31 -> 29 [label="огранич"]
+			31 -> 30 [label="количест"]
+			2 -> 1 [label="опред"]
+			34 -> 33 [label="опред"]
+			32 -> 34 [label="_2_компл"]
+			32 -> 35 [label="обст"]
+			8 -> 9 [label="атриб"]
+			26 -> 25 [label="опред"]
+			26 -> 31 [label="примыкат"]
+			23 -> 22 [label="опред"]
+			23 -> 24 [label="сочин"]
+			10 -> 11 [label="предл"]
+			14 -> 13 [label="количест"]
+			14 -> 15 [label="квазиагент"]
+			12 -> 14 [label="предл"]
+			35 -> 36 [label="предл"]
+			21 -> 18 [label="количест"]
+			21 -> 23 [label="сочин"]
+			17 -> 21 [label="_1_компл"]
+			17 -> 32 [label="сочин"]
+			19 -> 20 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			36 -> 37 [label="атриб"]
+			18 -> 19 [label="сочин"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 10 [label="обст"]
+			4 -> 17 [label="сочин"]
+			6 -> 7 [label="электив"]
+}

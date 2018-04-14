@@ -1,0 +1,36 @@
+digraph SENTENCE_600 {
+	graph [label="\"Так, как, например, сегодня обеспечивает реализацию таможенного конфиската Росимущество\", — напомнил депутат."]
+	node [style=filled]
+		1 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обеспечивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="реализацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="таможенного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конфиската
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Росимущество
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="напомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="депутат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			16 -> 1 [label="обст"]
+			16 -> 3 [label="вводн"]
+			16 -> 12 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			8 -> 5 [label="вводн"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="предик"]
+			3 -> 8 [label="сравн_союзн"]
+}

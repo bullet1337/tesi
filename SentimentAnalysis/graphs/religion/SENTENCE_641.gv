@@ -1,0 +1,42 @@
+digraph SENTENCE_641 {
+	graph [label="Мы встречаемся для того, чтобы пожаловаться друг другу, какие отвратительные вокруг нас люди."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="встречаемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пожаловаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="другу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="какие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отвратительные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			3 -> 5 [label="эксплет"]
+			2 -> 3 [label="предл"]
+			8 -> 7
+			6 -> 8 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			11 -> 14 [label="предик"]
+			5 -> 6 [label="инф_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 11 [label="сент_соч"]
+}

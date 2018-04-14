@@ -1,0 +1,60 @@
+digraph SENTENCE_1141 {
+	graph [label="Все несколько лет до второго просмотра я в мельчайших деталях помнила весь фильм, пересмотр, в принципе, и не требовался."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мельчайших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="деталях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="помнила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пересмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="принципе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="требовался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="предл"]
+			9 -> 8 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="ном_аппоз"]
+			5 -> 4 [label="опред"]
+			19 -> 21 [label="соч_союзн"]
+			21 -> 20 [label="огранич"]
+			3 -> 2 [label="предл"]
+			3 -> 5 [label="предл"]
+			1 -> 0 [label="опред"]
+			7 -> 9 [label="предл"]
+			2 -> 1 [label="количест"]
+			10 -> 3 [label="обст"]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 16 [label="обст"]
+			10 -> 19 [label="сочин"]
+}

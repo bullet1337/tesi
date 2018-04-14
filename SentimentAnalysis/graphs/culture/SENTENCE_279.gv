@@ -1,0 +1,53 @@
+digraph SENTENCE_279 {
+	graph [label="Офицер счел тревогу ложной, благодаря чему удалось избежать ответного удара по США и их союзникам в НАТО."]
+	node [style=filled]
+		0 [label="Офицер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="счел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тревогу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ложной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="избежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ответного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="удара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="союзникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="НАТО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			16 -> 17 [label="предл"]
+			5 -> 6 [label="предл"]
+			15 -> 14 [label="_1_компл"]
+			13 -> 15 [label="соч_союзн"]
+			3 -> 7 [label="примыкат"]
+			3 -> 13 [label="сочин"]
+			3 -> 16 [label="атриб"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="предик"]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			8 -> 10 [label="_1_компл"]
+}

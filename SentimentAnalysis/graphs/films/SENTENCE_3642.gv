@@ -1,0 +1,44 @@
+digraph SENTENCE_3642 {
+	graph [label="В данном фильме под прицел профессионалов отечественной киноиндустрии попали Валерий Харламов и его тренер Тарасов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прицел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="профессионалов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отечественной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="киноиндустрии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="попали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Валерий Харламов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тренер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="огранич"]
+			5 -> 3 [label="огранич"]
+			5 -> 7 [label="сочин"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="аппоз"]
+			8 -> 5 [label="предик"]
+			8 -> 9 [label="вводн"]
+			8 -> 10 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			2 -> 1 [label="опред"]
+}

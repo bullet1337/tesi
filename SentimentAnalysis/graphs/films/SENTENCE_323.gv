@@ -1,0 +1,63 @@
+digraph SENTENCE_323 {
+	graph [label="В общем обнажая огромное количество проблем, Ларс фон Триер делает это как то мерзко и драматизм от этого лишь усиливается."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обнажая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="огромное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="количество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проблем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мерзко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="драматизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="усиливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 2 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			10 -> 13 [label="огранич"]
+			10 -> 14 [label="обст"]
+			10 -> 15 [label="сент_соч"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="_2_компл"]
+			9 -> 8
+			17 -> 18 [label="предл"]
+			0 -> 1 [label="предл"]
+			20 -> 16 [label="предик"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			7 -> 9 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			15 -> 20 [label="соч_союзн"]
+}

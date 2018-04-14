@@ -1,0 +1,66 @@
+digraph SENTENCE_112 {
+	graph [label="В ходе встречи с главой Римско-католической церкви Ратас также обсудил вопросы подготовки официального визита папы Римского в Эстонию осенью этого года."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="встречи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="главой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Римско-католической
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ратас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обсудил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="подготовки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="официального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="папы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Римского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Эстонию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="осенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="_1_компл"]
+			11 -> 18 [label="_2_компл"]
+			10 -> 11 [label="_1_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			14 -> 15 [label="опред"]
+			16 -> 17 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			9 -> 0 [label="обст"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			3 -> 6 [label="предл"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			18 -> 20 [label="атриб"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			13 -> 16 [label="_1_компл"]
+}

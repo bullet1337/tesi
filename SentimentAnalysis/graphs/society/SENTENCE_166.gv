@@ -1,0 +1,48 @@
+digraph SENTENCE_166 {
+	graph [label="В ночь на 27 февраля над зданиями правительства и парламента Крыма были подняты флаги РФ."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ночь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зданиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="парламента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="подняты
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="флаги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			1 -> 2 [label="атриб"]
+			6 -> 7 [label="квазиагент"]
+			9 -> 10 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			3 -> 4 [label="атриб"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			2 -> 5 [label="сочин"]
+			0 -> 1 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 12
+			11 -> 13 [label="предик"]
+}

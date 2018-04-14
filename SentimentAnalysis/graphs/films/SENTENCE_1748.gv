@@ -1,0 +1,54 @@
+digraph SENTENCE_1748 {
+	graph [label="Отсюда и все злоключения героини, отсюда и ее готовность пойти на убийство, а затем и на смерть."]
+	node [style=filled]
+		0 [label="Отсюда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="злоключения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отсюда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="готовность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пойти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="убийство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="смерть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			0 -> 3 [label="предик"]
+			0 -> 6 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 14 [label="сочин"]
+			11 -> 12 [label="предл"]
+			6 -> 9 [label="предик"]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			14 -> 17 [label="соч_союзн"]
+			9 -> 7 [label="огранич"]
+			9 -> 8 [label="квазиагент"]
+			9 -> 10 [label="_1_компл"]
+}

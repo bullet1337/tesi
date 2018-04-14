@@ -1,0 +1,60 @@
+digraph SENTENCE_561 {
+	graph [label="Режиссер картины Ридли Скотт после сексуального скандала, разразившегося вокруг Спейси, решил не рисковать и переснять все сцены с участием актера."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Ридли Скотт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сексуального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скандала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разразившегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Спейси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="решил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рисковать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="переснять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="участием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="опред"]
+			17 -> 16 [label="опред"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="сочин"]
+			7 -> 8 [label="обст"]
+			14 -> 15 [label="соч_союзн"]
+			0 -> 1 [label="аппоз"]
+			0 -> 3 [label="атриб"]
+			18 -> 19 [label="предл"]
+			3 -> 5 [label="предл"]
+			8 -> 9 [label="предл"]
+			1 -> 2 [label="аппоз"]
+			19 -> 20 [label="квазиагент"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 18 [label="обст"]
+			11 -> 0 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+}

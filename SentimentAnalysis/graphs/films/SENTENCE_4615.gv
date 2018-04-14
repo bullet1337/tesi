@@ -1,0 +1,24 @@
+digraph SENTENCE_4615 {
+	graph [label="Все на месте, но эффекта нет вообще."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эффекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			4 -> 6 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="предл"]
+			1 -> 4 [label="сент_соч"]
+}

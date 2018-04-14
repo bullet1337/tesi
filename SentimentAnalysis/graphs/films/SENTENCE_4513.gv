@@ -1,0 +1,51 @@
+digraph SENTENCE_4513 {
+	graph [label="Час сидишь, два сидишь — а того, отчего челюсти выпадают или глаза зажмуриваются — так и не видишь."]
+	node [style=filled]
+		0 [label="Час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сидишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сидишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отчего
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="челюсти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выпадают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="зажмуриваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="видишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 14 [label="соч_союзн"]
+			14 -> 7 [label="предик"]
+			14 -> 16 [label="обст"]
+			16 -> 17
+			4 -> 0 [label="_1_компл"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 6 [label="сент_соч"]
+			4 -> 19 [label="сочин"]
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="предик"]
+			19 -> 18 [label="огранич"]
+			7 -> 11 [label="эксплет"]
+			7 -> 12 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+}

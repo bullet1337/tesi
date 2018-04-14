@@ -1,0 +1,63 @@
+digraph SENTENCE_940 {
+	graph [label="Майор в отставке Федор Чухломин родился 23 февраля 1918 года в деревня Лисья Гора Верхне-Лальского сельского совета Лальского района нынешней Кировской области."]
+	node [style=filled]
+		0 [label="Майор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отставке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Федор Чухломин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="родился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1918
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="деревня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Лисья
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Гора Верхне-Лальского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="сельского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Лальского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="района
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нынешней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Кировской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			6 -> 8 [label="атриб"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="разъяснит"]
+			8 -> 7 [label="опред"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			5 -> 6 [label="атриб"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="атриб"]
+			0 -> 3 [label="аппоз"]
+			15 -> 16 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 9 [label="обст"]
+			4 -> 12 [label="суб_копр"]
+			16 -> 19 [label="квазиагент"]
+}

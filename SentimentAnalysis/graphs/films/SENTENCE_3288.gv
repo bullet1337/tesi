@@ -1,0 +1,51 @@
+digraph SENTENCE_3288 {
+	graph [label="Очень странно слышать слова «шедевр», «оскара!», «наконец научились снимать» в одном предложении с названием этого фильма."]
+	node [style=filled]
+		0 [label="Очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слышать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оскара
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="научились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="одном
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="предложении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="названием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="аппоз"]
+			16 -> 18 [label="_2_компл"]
+			24 -> 23 [label="опред"]
+			1 -> 0 [label="огранич"]
+			21 -> 22 [label="предл"]
+			15 -> 9 [label="предик"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			20 -> 19 [label="количест"]
+			20 -> 21 [label="атриб"]
+			22 -> 24 [label="компл_аппоз"]
+			18 -> 20 [label="предл"]
+			2 -> 1 [label="_2_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 15 [label="разъяснит"]
+}

@@ -1,0 +1,18 @@
+digraph SENTENCE_156 {
+	graph [label="Год Горького в МХТ им."]
+	node [style=filled]
+		0 [label="Год
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Горького
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="МХТ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			2 -> 0 [label="предл"]
+			2 -> 3 [label="примыкат"]
+			2 -> 4 [label="дат_субъект"]
+}

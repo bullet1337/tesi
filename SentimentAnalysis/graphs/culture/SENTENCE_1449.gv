@@ -1,0 +1,24 @@
+digraph SENTENCE_1449 {
+	graph [label="Часть сборов пойдет в поддержку молодых авторов."]
+	node [style=filled]
+		0 [label="Часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сборов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пойдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поддержку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="авторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			3 -> 4 [label="предл"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+}

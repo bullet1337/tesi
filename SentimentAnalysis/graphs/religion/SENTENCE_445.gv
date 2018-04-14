@@ -1,0 +1,33 @@
+digraph SENTENCE_445 {
+	graph [label="После панихиды патриарх Кирилл начал чтение Великого покаянного канона Андрея Критского."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="панихиды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="покаянного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="канона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Андрея Критского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			5 -> 8 [label="_1_компл"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_439 {
+	graph [label="Действие происходит в 1943 году, когда советские войска форсируют Днепр."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1943
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="советские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="войска
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="форсируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Днепр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			6 -> 9 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="обст"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1386 {
+	graph [label="Сегодня он входит в пятерку самых узнаваемых в Европе."]
+	node [style=filled]
+		0 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="входит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пятерку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="узнаваемых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Европе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			4 -> 6 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+}

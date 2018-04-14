@@ -1,0 +1,36 @@
+digraph SENTENCE_861 {
+	graph [label="\"Лично для меня, теология — это, прежде всего, нравственная основа нашего общества."]
+	node [style=filled]
+		1 [label="Лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="теология
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нравственная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="основа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="пролепт"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			9 -> 10 [label="предл"]
+			15 -> 14 [label="опред"]
+			13 -> 2 [label="обст"]
+			13 -> 7 [label="предик"]
+			13 -> 9 [label="обст"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="квазиагент"]
+}

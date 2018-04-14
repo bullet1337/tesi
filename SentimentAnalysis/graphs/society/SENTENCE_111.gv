@@ -1,0 +1,78 @@
+digraph SENTENCE_111 {
+	graph [label="Сам глава комитета Госдумы по международным делам назвал поклепом прозвучавшие в его адрес обвинения и выразил уверенность в том, что руководство ГД разберется в ситуации."]
+	node [style=filled]
+		0 [label="Сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="комитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Госдумы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="международным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="делам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поклепом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прозвучавшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="адрес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="выразил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="уверенность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="руководство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ГД
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="разберется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			18 -> 20 [label="эксплет"]
+			9 -> 10 [label="обст"]
+			21 -> 22 [label="_1_компл"]
+			20 -> 23 [label="подч_союзн"]
+			12 -> 11 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			17 -> 18 [label="предл"]
+			23 -> 21 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 9 [label="сочин"]
+			7 -> 13 [label="_1_компл"]
+			7 -> 14 [label="сочин"]
+			15 -> 16 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			24 -> 25 [label="предл"]
+}

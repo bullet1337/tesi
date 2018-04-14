@@ -1,0 +1,32 @@
+digraph SENTENCE_2628 {
+	graph [label="Получится хронометраж фильма, минус несколько реально стоящих моментов и минут."]
+	node [style=filled]
+		0 [label="Получится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хронометраж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="несколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стоящих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="моментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 5 [label="количест"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			9 -> 10 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предик"]
+			4 -> 8 [label="предл"]
+}

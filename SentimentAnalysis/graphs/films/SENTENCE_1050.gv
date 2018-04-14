@@ -1,0 +1,33 @@
+digraph SENTENCE_1050 {
+	graph [label="Танцующая в темноте всё время мечтает, что жизнь — это мюзикл."]
+	node [style=filled]
+		0 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мечтает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 4 [label="длительн"]
+			5 -> 7 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			4 -> 3 [label="опред"]
+			10 -> 8 [label="пролепт"]
+			7 -> 11 [label="подч_союзн"]
+			11 -> 10 [label="предик"]
+			0 -> 1 [label="обст"]
+}

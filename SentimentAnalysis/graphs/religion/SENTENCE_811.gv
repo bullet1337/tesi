@@ -1,0 +1,39 @@
+digraph SENTENCE_811 {
+	graph [label="Они с трудом справляются с доставшимся им огромным наследством, но не унывают."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трудом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="справляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="доставшимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="огромным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наследством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="унывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 10 [label="сочин"]
+			12 -> 11 [label="огранич"]
+			4 -> 8 [label="предл"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			10 -> 12 [label="соч_союзн"]
+}

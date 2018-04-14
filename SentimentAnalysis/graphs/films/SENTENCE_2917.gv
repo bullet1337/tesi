@@ -1,0 +1,36 @@
+digraph SENTENCE_2917 {
+	graph [label="От белокурого Дрю меня чуть не стошнило — настолько ванильным он оказался."]
+	node [style=filled]
+		0 [label="От
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="белокурого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Дрю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стошнило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ванильным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оказался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="предик"]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="сент_соч"]
+			0 -> 2 [label="предл"]
+			9 -> 8 [label="огранич"]
+}

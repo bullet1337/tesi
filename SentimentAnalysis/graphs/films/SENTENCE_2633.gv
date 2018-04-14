@@ -1,0 +1,18 @@
+digraph SENTENCE_2633 {
+	graph [label="Но их было чертовски много."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чертовски
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="соч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			4 -> 3 [label="огранич"]
+}

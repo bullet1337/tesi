@@ -1,0 +1,44 @@
+digraph SENTENCE_1536 {
+	graph [label="Ничто не имеет ценности и значения перед высшим счастьем, имя которому «будущее моего ребёнка»."]
+	node [style=filled]
+		0 [label="Ничто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ценности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="значения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="высшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="счастьем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="будущее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ребёнка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			10 -> 15 [label="квазиагент"]
+			5 -> 6 [label="атриб"]
+			8 -> 7 [label="опред"]
+			15 -> 11 [label="_1_компл"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			3 -> 4 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+}

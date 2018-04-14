@@ -1,0 +1,48 @@
+digraph SENTENCE_528 {
+	graph [label="Православная молодежь выстроит на ступенях кафедрального собора столицы крест из 71 лампады, по числу погибших."]
+	node [style=filled]
+		0 [label="Православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="молодежь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выстроит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ступенях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кафедрального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="столицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="71
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лампады
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="числу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			9 -> 11 [label="предл"]
+			14 -> 15 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			7 -> 8 [label="аппоз"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			11 -> 10 [label="количест"]
+			11 -> 13 [label="атриб"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_982 {
+	graph [label="\"Когда такие люди уходят, они оставляют большой след."]
+	node [style=filled]
+		1 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оставляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="след
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			7 -> 1 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			4 -> 3 [label="предик"]
+			1 -> 4 [label="подч_союзн"]
+}

@@ -1,0 +1,78 @@
+digraph SENTENCE_3929 {
+	graph [label="4 из 10  только за смелость в фильме на время его проката
+Это стоило мне волевых усилий, но таки я его досмотрела… Значит, смысл такой."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смелость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Это
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="стоило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="волевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="усилий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="досмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Значит
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="смысл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			11 -> 10 [label="квазиагент"]
+			11 -> 13 [label="примыкат"]
+			11 -> 18 [label="сент_соч"]
+			5 -> 6 [label="атриб"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 16 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			16 -> 15 [label="опред"]
+			18 -> 22 [label="соч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="предл"]
+			4 -> 8 [label="обст"]
+			22 -> 19 [label="огранич"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="_1_компл"]
+			22 -> 24 [label="вводн"]
+			22 -> 26 [label="_1_компл"]
+			22 -> 27 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="электив"]
+}

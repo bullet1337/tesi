@@ -1,0 +1,66 @@
+digraph SENTENCE_4611 {
+	graph [label="На нас просто кидают все новые и новые вводные, которые якобы должны связать все в логическую цепочку, но этого не получается."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кидают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="новые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="новые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вводные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="якобы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="связать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="логическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="цепочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 22 [label="соч_союзн"]
+			8 -> 4 [label="опред"]
+			8 -> 5 [label="опред"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 19 [label="сент_соч"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 8 [label="_1_компл"]
+			3 -> 12 [label="сент_соч"]
+			6 -> 7 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="сочин"]
+			17 -> 16 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="_2_компл"]
+			15 -> 17 [label="предл"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+}

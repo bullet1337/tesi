@@ -1,0 +1,60 @@
+digraph SENTENCE_1629 {
+	graph [label="Всероссийский опрос \"ВЦИОМ-Спутник\" был проведен 6-7 февраля 2018 года среди 2 тысяч респондентов в возрасте от 18 лет."]
+	node [style=filled]
+		0 [label="Всероссийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="опрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ВЦИОМ-Спутник
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проведен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="респондентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="возрасте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="релят"]
+			1 -> 17 [label="примыкат"]
+			12 -> 11 [label="опред"]
+			7 -> 9 [label="кратн"]
+			7 -> 10 [label="атриб"]
+			7 -> 13 [label="электив"]
+			17 -> 7 [label="предик"]
+			17 -> 18 [label="предл"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="квазиагент"]
+			21 -> 20 [label="количест"]
+			10 -> 12 [label="атриб"]
+			5 -> 3 [label="предик"]
+			5 -> 6
+			19 -> 21 [label="предл"]
+			13 -> 15 [label="предл"]
+			18 -> 19 [label="компл_аппоз"]
+}

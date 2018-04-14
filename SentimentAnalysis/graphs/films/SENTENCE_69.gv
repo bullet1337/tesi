@@ -1,0 +1,18 @@
+digraph SENTENCE_69 {
+	graph [label="Эта маленькая женщина меня удивила."]
+	node [style=filled]
+		0 [label="Эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="маленькая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="удивила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+}

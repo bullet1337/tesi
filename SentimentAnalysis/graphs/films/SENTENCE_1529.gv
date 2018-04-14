@@ -1,0 +1,65 @@
+digraph SENTENCE_1529 {
+	graph [label="У меня есть ребёнок, и я хочу чтобы он был счастлив и я лучше всех знаю, что счастье невозможно без зрения."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ребёнок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="счастлив
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="счастье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="невозможно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="подч_союзн"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+			8 -> 10 [label="подч_союзн"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="присвяз"]
+			10 -> 12 [label="сент_соч"]
+			12 -> 14 [label="соч_союзн"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 16 [label="разъяснит"]
+			16 -> 15 [label="_1_компл"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="атриб"]
+			21 -> 22 [label="предл"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="соч_союзн"]
+			14 -> 13 [label="предик"]
+}

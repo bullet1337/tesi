@@ -1,0 +1,51 @@
+digraph SENTENCE_1586 {
+	graph [label="Такой подход возможен для художественного произведения, но, пожалуй, не слишком годится для фильма, претендующего на документальность."]
+	node [style=filled]
+		0 [label="Такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возможен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="произведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="годится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="претендующего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="документальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="предл"]
+			12 -> 11 [label="огранич"]
+			13 -> 9 [label="вводн"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_2_компл"]
+			14 -> 15 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			17 -> 18 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+			15 -> 17 [label="опред"]
+			7 -> 13 [label="соч_союзн"]
+}

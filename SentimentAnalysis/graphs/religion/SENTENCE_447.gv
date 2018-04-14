@@ -1,0 +1,39 @@
+digraph SENTENCE_447 {
+	graph [label="Известный христианский проповедник Билли Грэм скончался в возрасте 99 лет, сообщил телеканал Fox News."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="христианский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проповедник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Билли Грэм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возрасте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="99
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="телеканал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Fox News
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 10 [label="разъяснит"]
+			10 -> 8 [label="длительн"]
+			10 -> 11 [label="предик"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			8 -> 7 [label="количест"]
+			5 -> 6 [label="предл"]
+			11 -> 12 [label="аппоз"]
+}

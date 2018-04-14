@@ -1,0 +1,42 @@
+digraph SENTENCE_786 {
+	graph [label="\"С прискорбием сообщаем о преждевременной кончине, наступившей по естественным причинам, известной актрисы Эммы Чэмберс."]
+	node [style=filled]
+		1 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прискорбием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сообщаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="преждевременной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кончине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="наступившей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="естественным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="причинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="известной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Эммы Чэмберс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="предл"]
+			9 -> 11 [label="предл"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="_3_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			8 -> 9 [label="обст"]
+			8 -> 15 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			1 -> 2 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="_1_компл"]
+}

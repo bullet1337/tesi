@@ -1,0 +1,60 @@
+digraph SENTENCE_1429 {
+	graph [label="Выдающийся еврейский философ Маймонид писал, что если евреям запрещено что-то делать в определенном месте, то они должны покинуть его."]
+	node [style=filled]
+		0 [label="Выдающийся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еврейский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="философ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Маймонид
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="писал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="евреям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="запрещено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="определенном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="месте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="покинуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 7 [label="обст"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			9 -> 8 [label="_2_компл"]
+			9 -> 11 [label="предик"]
+			12 -> 14 [label="предл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="обст"]
+			7 -> 9 [label="подч_союзн"]
+			7 -> 16 [label="соотнос"]
+			14 -> 13 [label="опред"]
+			6 -> 18 [label="подч_союзн"]
+			19 -> 20 [label="_1_компл"]
+}

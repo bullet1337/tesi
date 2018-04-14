@@ -1,0 +1,48 @@
+digraph SENTENCE_831 {
+	graph [label="Поначалу бывает сложно разобраться, что к чему, так как фон Триер не собирается ничего объяснять."]
+	node [style=filled]
+		0 [label="Поначалу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="разобраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="собирается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="объяснять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="сравн_союзн"]
+			14 -> 6 [label="обст"]
+			14 -> 9 [label="обст"]
+			14 -> 10 [label="сравнит"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="_1_компл"]
+			16 -> 15 [label="_1_компл"]
+			5 -> 14 [label="подч_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="присвяз"]
+			1 -> 3 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_4621 {
+	graph [label="Диалоги не просто плохие, они откровенно тупы и вызывают искреннее раздражение."]
+	node [style=filled]
+		0 [label="Диалоги
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плохие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="откровенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тупы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вызывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="искреннее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раздражение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			8 -> 9 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="сочин"]
+			9 -> 11 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 7 [label="сент_соч"]
+}

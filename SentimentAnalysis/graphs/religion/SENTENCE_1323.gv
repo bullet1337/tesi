@@ -1,0 +1,48 @@
+digraph SENTENCE_1323 {
+	graph [label="\"Буддийский Новый год празднуется в первый день первого месяца лунного календаря, который называется Белым месяцем."]
+	node [style=filled]
+		1 [label="Буддийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Новый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="празднуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="месяца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лунного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="календаря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="называется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Белым
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="месяцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 14 [label="сочин"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			5 -> 7 [label="предл"]
+			14 -> 9 [label="_1_компл"]
+			14 -> 13 [label="предик"]
+			14 -> 16 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_828 {
+	graph [label="Это новый инструмент для того, чтобы осуществлять диалог между миром и искусством\", — сказала Лошак."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="инструмент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="осуществлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="диалог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="искусством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Лошак
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="_1_компл"]
+			6 -> 7 [label="инф_союзн"]
+			4 -> 6 [label="эксплет"]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="предл"]
+			10 -> 11 [label="сочин"]
+			8 -> 9 [label="квазиагент"]
+			16 -> 17 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="обст"]
+			2 -> 16 [label="вводн"]
+			11 -> 12 [label="соч_союзн"]
+}

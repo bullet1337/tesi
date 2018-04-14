@@ -1,0 +1,24 @@
+digraph SENTENCE_3830 {
+	graph [label="Да и было ли что-то действительно классическим?"]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="классическим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="опред"]
+			2 -> 3 [label="огранич"]
+			2 -> 4 [label="предик"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="соч_союзн"]
+			6 -> 5 [label="огранич"]
+}

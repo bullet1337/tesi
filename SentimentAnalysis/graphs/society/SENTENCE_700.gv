@@ -1,0 +1,78 @@
+digraph SENTENCE_700 {
+	graph [label="Новые фотоловушки разместили за линией инженерно-технических сооружений у границы с Китаем, потому что в этих местах иногда замечают животных, которые живут на территории двух стран."]
+	node [style=filled]
+		0 [label="Новые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фотоловушки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разместили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="линией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="инженерно-технических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сооружений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="границы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Китаем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="местах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="иногда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="замечают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="животных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="живут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="территории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="предл"]
+			7 -> 8 [label="предл"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="предл"]
+			6 -> 5 [label="опред"]
+			22 -> 21 [label="предик"]
+			22 -> 23 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			3 -> 4 [label="предл"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 7 [label="_2_компл"]
+			2 -> 9 [label="_2_компл"]
+			2 -> 12 [label="обст"]
+			2 -> 22 [label="сент_соч"]
+			12 -> 13 [label="эксплет"]
+			4 -> 6 [label="квазиагент"]
+			13 -> 18 [label="подч_союзн"]
+			24 -> 26 [label="квазиагент"]
+			18 -> 14 [label="обст"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="_1_компл"]
+			26 -> 25 [label="количест"]
+			23 -> 24 [label="предл"]
+}

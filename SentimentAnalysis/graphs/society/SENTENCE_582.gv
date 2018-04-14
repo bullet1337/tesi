@@ -1,0 +1,77 @@
+digraph SENTENCE_582 {
+	graph [label="Погода с переменной облачностью, без осадков и с температурой воздуха до минус 13 ожидается в пятницу в Московском регионе, сообщили РИА Новости в центре погоды \"Фобос\"."]
+	node [style=filled]
+		0 [label="Погода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="переменной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="облачностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="осадков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="температурой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воздуха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="минус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="13
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ожидается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Московском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="регионе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="центре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="погоды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Фобос
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="соч_союзн"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="предл"]
+			5 -> 7 [label="сочин"]
+			5 -> 14 [label="сент_соч"]
+			5 -> 21 [label="вводн"]
+			15 -> 16 [label="предл"]
+			19 -> 18 [label="опред"]
+			21 -> 22 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 27 [label="аппоз"]
+			12 -> 13 [label="нум_аппоз"]
+			0 -> 1 [label="атриб"]
+			9 -> 10 [label="квазиагент"]
+			14 -> 15 [label="обст"]
+			14 -> 17 [label="обст"]
+			3 -> 2 [label="опред"]
+			11 -> 12 [label="предл"]
+			1 -> 3 [label="предл"]
+			23 -> 24 [label="предл"]
+			8 -> 9 [label="предл"]
+			8 -> 11 [label="соотнос"]
+			17 -> 19 [label="предл"]
+}

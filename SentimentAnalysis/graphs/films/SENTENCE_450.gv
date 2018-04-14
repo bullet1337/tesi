@@ -1,0 +1,18 @@
+digraph SENTENCE_450 {
+	graph [label="А что же сама Сельма?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 4 [label="соч_союзн"]
+			1 -> 2 [label="огранич"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+}

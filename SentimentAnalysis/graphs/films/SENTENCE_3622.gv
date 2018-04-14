@@ -1,0 +1,30 @@
+digraph SENTENCE_3622 {
+	graph [label="Вот, кто противоречивая личность, герой-диссидент и вообще шаман какой-то."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="противоречивая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="личность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="герой-диссидент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шаман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="опред"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 6 [label="примыкат"]
+}

@@ -1,0 +1,50 @@
+digraph SENTENCE_2602 {
+	graph [label="Где-то после 40 минуты фильма я уже больше не мог воспринимать происходящее на экране, как фильм."]
+	node [style=filled]
+		0 [label="Где-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="больше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воспринимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="происходящее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="_1_компл"]
+			3 -> 2 [label="количест"]
+			3 -> 4 [label="квазиагент"]
+			10 -> 11 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			9 -> 1 [label="обст"]
+			9 -> 5 [label="предик"]
+			9 -> 7 [label="обст"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			15 -> 16 [label="сравн_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предл"]
+			12 -> 13 [label="предл"]
+}

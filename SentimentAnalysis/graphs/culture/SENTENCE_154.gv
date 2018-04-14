@@ -1,0 +1,45 @@
+digraph SENTENCE_154 {
+	graph [label="В спектакле занята вся труппа МХТ, а также стажеры и студенты Театральной школы Олега Табакова."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="занята
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="труппа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="МХТ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стажеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="студенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Театральной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Олега Табакова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			13 -> 9 [label="предик"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="разъяснит"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			2 -> 7 [label="сент_соч"]
+			10 -> 11 [label="соч_союзн"]
+			7 -> 13 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+}

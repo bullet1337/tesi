@@ -1,0 +1,21 @@
+digraph SENTENCE_1155 {
+	graph [label="Но нет, ослепнув, этого не обрести."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ослепнув
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обрести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="соч_союзн"]
+			7 -> 3 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			1 -> 7 [label="предик"]
+}

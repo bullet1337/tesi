@@ -1,0 +1,42 @@
+digraph SENTENCE_1250 {
+	graph [label=", объединяет таланты из разных уголков мира и дарит детям шанс исполнить заветные мечты."]
+	node [style=filled]
+		1 [label="объединяет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="таланты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уголков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дарит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="шанс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="исполнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="заветные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			11 -> 13 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			3 -> 5 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="сочин"]
+			2 -> 3 [label="атриб"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 10 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_971 {
+	graph [label="Она сильная, безусловно сильная."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="сочин"]
+}

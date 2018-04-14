@@ -1,0 +1,24 @@
+digraph SENTENCE_2576 {
+	graph [label="Интрига — хороша была для 82го года."]
+	node [style=filled]
+		0 [label="Интрига
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="хороша
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="82
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			6 -> 5 [label="количест"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="обст"]
+			4 -> 7 [label="предл"]
+}

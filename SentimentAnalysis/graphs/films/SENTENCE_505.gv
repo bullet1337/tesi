@@ -1,0 +1,45 @@
+digraph SENTENCE_505 {
+	graph [label="Одного здравого, рационального рассудка, даже самого здравого из всех, и самого рационального, тут недостаточно."]
+	node [style=filled]
+		0 [label="Одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здравого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рационального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рассудка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="здравого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рационального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="недостаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="соч_союзн"]
+			4 -> 0 [label="количест"]
+			4 -> 1 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 17
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="электив"]
+			10 -> 12 [label="сочин"]
+			9 -> 10 [label="предл"]
+			7 -> 6 [label="огранич"]
+			17 -> 8 [label="предик"]
+			17 -> 16 [label="обст"]
+}

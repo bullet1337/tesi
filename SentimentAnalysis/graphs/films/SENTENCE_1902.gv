@@ -1,0 +1,64 @@
+digraph SENTENCE_1902 {
+	graph [label="10 из 10 и дорога в мою золотую коллекцию
+«Танцующая в темноте» — второй фильм Ларса фон Триера, который я посмотрела."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дорога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="золотую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="коллекцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Ларса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 16 [label="предик"]
+			23 -> 21 [label="_1_компл"]
+			23 -> 22 [label="предик"]
+			1 -> 2 [label="предл"]
+			11 -> 12 [label="предл"]
+			19 -> 18
+			16 -> 10 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			17 -> 19 [label="аппоз"]
+			4 -> 5 [label="_2_компл"]
+			3 -> 4 [label="соч_союзн"]
+			10 -> 0
+			10 -> 11 [label="обст"]
+			0 -> 1 [label="электив"]
+			0 -> 3 [label="сочин"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 8 [label="предл"]
+}

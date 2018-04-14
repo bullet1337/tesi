@@ -1,0 +1,39 @@
+digraph SENTENCE_342 {
+	graph [label="На лекции посетители узнают о первых признаках заболевания и методах его лечения."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лекции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="посетители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="узнают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="первых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="признаках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заболевания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="методах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 11 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			4 -> 6 [label="предл"]
+			11 -> 10 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+}

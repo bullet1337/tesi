@@ -1,0 +1,41 @@
+digraph SENTENCE_293 {
+	graph [label="Я сейчас встречаю студентов, не знающих, откуда фраза \"Мой дядя самых честных правил…\"."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="встречаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="студентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="знающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="откуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фраза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мой
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="дядя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="честных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="правил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			15 -> 12 [label="предик"]
+			15 -> 14 [label="опред"]
+			12 -> 8 [label="обст"]
+			12 -> 9 [label="предик"]
+			12 -> 11 [label="опред"]
+			14 -> 13 [label="опред"]
+			3 -> 6 [label="опред"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1116 {
+	graph [label="Я смотрел только два его фильма, после просмотра которых понял, что кино, созданное Ларсом мне не очень нравится."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="понял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="созданное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ларсом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нравится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 15 [label="опред"]
+			7 -> 8 [label="предл"]
+			12 -> 20 [label="подч_союзн"]
+			20 -> 13 [label="предик"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 3 [label="количест"]
+			5 -> 4 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 7 [label="обст"]
+			1 -> 10 [label="разъяснит"]
+			15 -> 16 [label="агент"]
+}

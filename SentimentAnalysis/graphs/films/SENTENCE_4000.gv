@@ -1,0 +1,63 @@
+digraph SENTENCE_4000 {
+	graph [label="Причём к чему именно должно быть отвращение: к Алексу, к банде или к обществу — непонятно, и получается ко всему сразу."]
+	node [style=filled]
+		0 [label="Причём
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отвращение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Алексу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="банде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="обществу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="непонятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="получается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ко
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="предик"]
+			4 -> 17 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			0 -> 20 [label="соч_союзн"]
+			21 -> 22 [label="предл"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 11 [label="атриб"]
+			8 -> 9 [label="предл"]
+			11 -> 12 [label="предл"]
+			11 -> 13 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			20 -> 1 [label="обст"]
+			20 -> 4 [label="длительн"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 23 [label="обст"]
+}

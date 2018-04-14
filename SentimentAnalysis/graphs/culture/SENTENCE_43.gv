@@ -1,0 +1,39 @@
+digraph SENTENCE_43 {
+	graph [label="На этой неделе в российский прокат вышла романтическая французская комедия Лорана Тирара \"Сердцеед\"."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вышла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="романтическая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="французская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="комедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Лорана Тирара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Сердцеед
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			0 -> 2 [label="предл"]
+			10 -> 12 [label="аппоз"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 9 [label="предик"]
+			2 -> 1 [label="опред"]
+}

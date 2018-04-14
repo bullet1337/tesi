@@ -1,0 +1,27 @@
+digraph SENTENCE_2748 {
+	graph [label="Вот взять главного злодея в исполнении Джареда Лето."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="злодея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Джареда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			3 -> 6 [label="аппоз"]
+			3 -> 7 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

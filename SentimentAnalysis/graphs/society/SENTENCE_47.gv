@@ -1,0 +1,24 @@
+digraph SENTENCE_47 {
+	graph [label="Центр \"Тигр\" создан 19 сентября 2012 года."]
+	node [style=filled]
+		0 [label="Центр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Тигр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сентября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2012
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="атриб"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="обст"]
+			5 -> 6 [label="атриб"]
+			0 -> 2 [label="аппоз"]
+			8 -> 7 [label="опред"]
+}

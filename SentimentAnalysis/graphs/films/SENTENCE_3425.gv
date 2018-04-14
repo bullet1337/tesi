@@ -1,0 +1,24 @@
+digraph SENTENCE_3425 {
+	graph [label="И тут гром среди ясного неба — шедевр!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ясного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="атриб"]
+			5 -> 4 [label="опред"]
+			0 -> 7 [label="соч_союзн"]
+			3 -> 5 [label="предл"]
+			7 -> 1 [label="обст"]
+			7 -> 2 [label="предик"]
+}

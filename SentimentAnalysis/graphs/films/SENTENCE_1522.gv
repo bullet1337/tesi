@@ -1,0 +1,18 @@
+digraph SENTENCE_1522 {
+	graph [label="Но зритель этого не увидит."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="увидит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+}

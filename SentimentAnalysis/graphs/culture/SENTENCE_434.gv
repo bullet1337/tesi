@@ -1,0 +1,81 @@
+digraph SENTENCE_434 {
+	graph [label="Режиссер заметила, что совсем не ожидала получить \"Золотого медведя\", но она считает, что на самом деле эта награда имеет смысл, так как фильм очень актуален сегодня."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заметила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ожидала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Золотого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="медведя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="награда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="смысл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="актуален
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 10 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			26 -> 27 [label="сравнит"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="_1_компл"]
+			15 -> 30 [label="_2_компл"]
+			27 -> 28 [label="сравн_союзн"]
+			17 -> 23 [label="подч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			23 -> 18 [label="обст"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 26 [label="обст"]
+			3 -> 6 [label="подч_союзн"]
+			30 -> 29 [label="огранич"]
+			30 -> 31 [label="атриб"]
+			20 -> 19 [label="опред"]
+			22 -> 21 [label="опред"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			18 -> 20 [label="предл"]
+			13 -> 15 [label="соч_союзн"]
+}

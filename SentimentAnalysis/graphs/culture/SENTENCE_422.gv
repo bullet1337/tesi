@@ -1,0 +1,54 @@
+digraph SENTENCE_422 {
+	graph [label="Минкультуры РФ отозвало ранее выданное прокатное удостоверение на фильм \"Смерть Сталина\", картина должна была выйти 25 января."]
+	node [style=filled]
+		0 [label="Минкультуры
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="отозвало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выданное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прокатное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="удостоверение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Смерть
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="должна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="января
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="ном_аппоз"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="присвяз"]
+			16 -> 17 [label="сент_соч"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 6 [label="обст"]
+			2 -> 7 [label="_3_компл"]
+			2 -> 16 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			17 -> 18 [label="обст"]
+			18 -> 19 [label="атриб"]
+}

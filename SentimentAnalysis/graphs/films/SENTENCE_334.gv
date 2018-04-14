@@ -1,0 +1,41 @@
+digraph SENTENCE_334 {
+	graph [label="Фильм-не для всех, но если у вас не каменное сердце, то вы что-то испытаете."]
+	node [style=filled]
+		0 [label="Фильм-не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каменное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="испытаете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			1 -> 4 [label="сочин"]
+			9 -> 8 [label="огранич"]
+			6 -> 7 [label="предл"]
+			6 -> 10 [label="предик"]
+}

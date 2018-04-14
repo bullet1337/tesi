@@ -1,0 +1,47 @@
+digraph SENTENCE_4206 {
+	graph [label="В виду всего сказанного, 4 из 10 и то — только за Махершалу Али и интересную тему."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="виду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказанного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Махершалу Али
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="интересную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="опред"]
+			2 -> 8 [label="сочин"]
+			6 -> 7 [label="предл"]
+			5 -> 6 [label="электив"]
+			14 -> 16 [label="соч_союзн"]
+			3 -> 5 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+			13 -> 14 [label="сочин"]
+			9 -> 0 [label="вводн"]
+			9 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			16 -> 15 [label="опред"]
+}

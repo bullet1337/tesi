@@ -1,0 +1,57 @@
+digraph SENTENCE_446 {
+	graph [label="Глава республики Крым Сергей Аксенов сдал пробный Единый государственный экзамен (ЕГЭ) по русскому языку на отлично, сообщила пресс-служба Рособрнадзора."]
+	node [style=filled]
+		0 [label="Глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Крым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Сергей Аксенов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сдал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пробный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Единый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="государственный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="экзамен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ЕГЭ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="русскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="языку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отлично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Рособрнадзора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="предик"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 15 [label="обст"]
+			4 -> 18 [label="вводн"]
+			10 -> 12 [label="_2_компл"]
+			19 -> 20 [label="квазиагент"]
+			8 -> 5 [label="опред"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="примыкат"]
+			14 -> 13 [label="опред"]
+			18 -> 19 [label="предик"]
+			15 -> 16 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			0 -> 3 [label="аппоз"]
+			12 -> 14 [label="предл"]
+}

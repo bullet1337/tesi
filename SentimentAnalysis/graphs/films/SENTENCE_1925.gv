@@ -1,0 +1,51 @@
+digraph SENTENCE_1925 {
+	graph [label="Фильм о сильней, одинокой женщине, которая ничего не жалела ради своего ребенка, не жалела свою жизнь."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сильней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одинокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="женщине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жалела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="жалела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="предл"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			10 -> 0 [label="предик"]
+			10 -> 2 [label="_1_компл"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="обст"]
+			10 -> 16 [label="сочин"]
+			18 -> 17 [label="опред"]
+			2 -> 5 [label="сравнит"]
+			13 -> 12 [label="опред"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_4004 {
+	graph [label="Но это уже моя субъективная точка зрения."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="субъективная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="точка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6
+			0 -> 5 [label="соч_союзн"]
+			3 -> 2 [label="огранич"]
+}

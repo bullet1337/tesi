@@ -1,0 +1,36 @@
+digraph SENTENCE_1473 {
+	graph [label="Добрый и нерешительный Джефф, которому мешают излишняя скромность и отсутствие настойчивости."]
+	node [style=filled]
+		0 [label="Добрый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нерешительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Джефф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мешают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="излишняя
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="скромность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отсутствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="настойчивости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="квазиагент"]
+			3 -> 0 [label="опред"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+}

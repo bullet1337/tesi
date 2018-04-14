@@ -1,0 +1,24 @@
+digraph SENTENCE_820 {
+	graph [label="Суворов потребовал от депутата показать фотографии погибших."]
+	node [style=filled]
+		0 [label="Суворов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потребовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="депутата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="погибших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="опред"]
+			2 -> 3 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_634 {
+	graph [label="Однако срок давности в этих происшествиях значительно меньше."]
+	node [style=filled]
+		0 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="срок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="давности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="происшествиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="значительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="меньше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			7 -> 0 [label="огранич"]
+			7 -> 1 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="колич_огран"]
+			3 -> 5 [label="предл"]
+}

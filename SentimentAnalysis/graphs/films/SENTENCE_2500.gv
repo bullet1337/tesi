@@ -1,0 +1,129 @@
+digraph SENTENCE_2500 {
+	graph [label="Выход есть, пересмотреть Солярис снова, потратить еще одни 3 часа на этот фильм… По-моему, Солярис снят… никак… Слишком все затянуто и не интересно, а когда фильм так снят, отвлекаешься на каждую мелочь, не связанную с фильмом, и в итоге фильм просто пролетает."]
+	node [style=filled]
+		0 [label="Выход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пересмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Солярис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="снова
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="потратить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одни
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="По-моему
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Солярис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Слишком
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="затянуто
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="интересно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="отвлекаешься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="каждую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="мелочь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="связанную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		46 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		47 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		48 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		49 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		50 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		51 [label="пролетает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="сент_соч"]
+			14 -> 13 [label="опред"]
+			9 -> 8 [label="огранич"]
+			10 -> 9 [label="опред"]
+			36 -> 31 [label="обст"]
+			36 -> 37 [label="обст"]
+			36 -> 42 [label="сочин"]
+			11 -> 10 [label="количест"]
+			11 -> 12 [label="атриб"]
+			11 -> 19 [label="примыкат"]
+			11 -> 25 [label="сент_соч"]
+			23 -> 21 [label="огранич"]
+			39 -> 38 [label="опред"]
+			37 -> 39 [label="предл"]
+			51 -> 47 [label="обст"]
+			51 -> 49 [label="предик"]
+			51 -> 50 [label="огранич"]
+			31 -> 34 [label="подч_союзн"]
+			19 -> 16 [label="вводн"]
+			19 -> 18 [label="предик"]
+			30 -> 36 [label="соч_союзн"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 5 [label="обст"]
+			7 -> 11 [label="разъяснит"]
+			12 -> 14 [label="предл"]
+			34 -> 32 [label="предик"]
+			34 -> 33 [label="обст"]
+			47 -> 48 [label="предл"]
+			46 -> 51 [label="соч_союзн"]
+			42 -> 41 [label="огранич"]
+			42 -> 43 [label="_2_компл"]
+			42 -> 46 [label="сочин"]
+			24 -> 23 [label="огранич"]
+			28 -> 27 [label="огранич"]
+			43 -> 44 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			25 -> 24 [label="предик"]
+			25 -> 26 [label="сочин"]
+			25 -> 30 [label="сент_соч"]
+			26 -> 28 [label="соч_союзн"]
+}

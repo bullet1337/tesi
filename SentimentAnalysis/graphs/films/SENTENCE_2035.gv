@@ -1,0 +1,63 @@
+digraph SENTENCE_2035 {
+	graph [label="Бросается в глаза большое количество параллелей: Мария — Наталья — мать самого Тарковского, Алексей — Игнат — судьба самого режиссера, которая осталась за кадром."]
+	node [style=filled]
+		0 [label="Бросается
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="количество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="параллелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Мария
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Наталья
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Алексей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Игнат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="осталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="кадром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 19 [label="аппоз"]
+			13 -> 12 [label="опред"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="присвяз"]
+			7 -> 9 [label="аппоз"]
+			9 -> 11 [label="аппоз"]
+			21 -> 20 [label="опред"]
+			25 -> 26 [label="предл"]
+			1 -> 2 [label="предл"]
+			19 -> 21 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 4 [label="предик"]
+			0 -> 7 [label="вводн"]
+			0 -> 13 [label="предик"]
+			0 -> 15 [label="вводн"]
+			0 -> 24 [label="сент_соч"]
+			15 -> 17 [label="аппоз"]
+}

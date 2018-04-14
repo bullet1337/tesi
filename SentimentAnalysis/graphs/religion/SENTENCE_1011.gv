@@ -1,0 +1,39 @@
+digraph SENTENCE_1011 {
+	graph [label="По словам очевидцев, Мелькомова часто просила милостыню, сидя на лавочке около храма."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очевидцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Мелькомова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="просила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="милостыню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сидя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лавочке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="предл"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="длительн"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+}

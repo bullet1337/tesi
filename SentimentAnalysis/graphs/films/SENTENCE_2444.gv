@@ -1,0 +1,54 @@
+digraph SENTENCE_2444 {
+	graph [label="Сами северокорейцы наверно подумали: «Вот странный, мы ему дали агитфильм снять, а он его не снял.» Всё."]
+	node [style=filled]
+		0 [label="Сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="северокорейцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="наверно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подумали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Вот
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="странный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="агитфильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="снял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Всё
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 19 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			19 -> 16 [label="предик"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+			19 -> 22 [label="_1_компл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="_2_компл"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 13 [label="сочин"]
+			11 -> 15 [label="сент_соч"]
+			7 -> 6 [label="огранич"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="вводн"]
+			3 -> 7 [label="_1_компл"]
+			3 -> 11 [label="разъяснит"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_322 {
+	graph [label="Он был выкован в 1187 году, то есть ему почти 850 лет."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выкован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="1187
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="850
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			12 -> 9 [label="дат_субъект"]
+			12 -> 11 [label="количест"]
+			8 -> 12 [label="предик"]
+			3 -> 5 [label="предл"]
+			2 -> 3 [label="обст"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+}

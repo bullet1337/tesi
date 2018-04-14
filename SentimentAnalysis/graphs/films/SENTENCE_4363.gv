@@ -1,0 +1,61 @@
+digraph SENTENCE_4363 {
+	graph [label="Спасибо 2 из 10
+В последнее время очень популярна шутка — «хочешь получить оскар?- сними фильм про чернокожих или геев»."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="В
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="последнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="популярна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шутка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хочешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="оскар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сними
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чернокожих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="геев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			20 -> 21 [label="сочин"]
+			8 -> 6 [label="длительн"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предик"]
+			19 -> 20 [label="предл"]
+			17 -> 18 [label="_1_компл"]
+			4 -> 3 [label="количест"]
+			0 -> 1 [label="нум_аппоз"]
+			0 -> 2 [label="атриб"]
+			0 -> 8 [label="сент_соч"]
+			0 -> 12 [label="вводн"]
+			0 -> 17 [label="_1_компл"]
+			21 -> 22 [label="соч_союзн"]
+			13 -> 14 [label="_1_компл"]
+			18 -> 19 [label="_1_компл"]
+}

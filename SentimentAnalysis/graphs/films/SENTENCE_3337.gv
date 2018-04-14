@@ -1,0 +1,18 @@
+digraph SENTENCE_3337 {
+	graph [label="Недосмотрели режиссер со сценаристом, недосмотрели!.."]
+	node [style=filled]
+		0 [label="Недосмотрели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сценаристом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="недосмотрели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предик"]
+			0 -> 5 [label="сент_соч"]
+			2 -> 3 [label="предл"]
+			5 -> 2 [label="обст"]
+}

@@ -1,0 +1,46 @@
+digraph SENTENCE_3370 {
+	graph [label=") В результате, в картине нет ни Петрова, ни Михайлова (игравших в одной тройке с Харламовым!"]
+	node [style=filled]
+		1 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Петрова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Михайлова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="игравших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тройке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Харламовым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 1 [label="обст"]
+			6 -> 4 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			8 -> 10 [label="сочин"]
+			11 -> 13 [label="опред"]
+			13 -> 14 [label="обст"]
+			14 -> 16 [label="предл"]
+			17 -> 18 [label="предл"]
+			4 -> 5 [label="предл"]
+			16 -> 15 [label="количест"]
+			16 -> 17 [label="атриб"]
+}

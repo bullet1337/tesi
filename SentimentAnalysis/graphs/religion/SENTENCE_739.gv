@@ -1,0 +1,48 @@
+digraph SENTENCE_739 {
+	graph [label="По традиции в последние четыре дня недели принято печь блины, а в воскресенье — устраивать гуляния."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="четыре
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="принято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="печь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="блины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="устраивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="гуляния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 5 [label="предл"]
+			12 -> 13 [label="предл"]
+			15 -> 12 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			7 -> 0 [label="вводн"]
+			7 -> 2 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="предик"]
+			7 -> 9 [label="предик"]
+			7 -> 11 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			11 -> 15 [label="соч_союзн"]
+			5 -> 4 [label="количест"]
+}

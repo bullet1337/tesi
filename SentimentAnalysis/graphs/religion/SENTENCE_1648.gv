@@ -1,0 +1,45 @@
+digraph SENTENCE_1648 {
+	graph [label="Чин ежегодно совершался в кафедральных соборах на середине храма перед иконами Спасителя и Богородицы."]
+	node [style=filled]
+		0 [label="Чин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ежегодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="совершался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кафедральных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="соборах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="середине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="иконами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Спасителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Богородицы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="квазиагент"]
+			3 -> 5 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			8 -> 9 [label="атриб"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="опред"]
+			10 -> 11 [label="сочин"]
+			11 -> 12 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="обст"]
+			2 -> 6 [label="обст"]
+}

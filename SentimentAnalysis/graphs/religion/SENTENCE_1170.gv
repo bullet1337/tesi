@@ -1,0 +1,42 @@
+digraph SENTENCE_1170 {
+	graph [label="Он также пожелал буддистам в Новом году здоровья, благополучия и всего самого доброго."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пожелал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="буддистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Новом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="благополучия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="доброго
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="сочин"]
+			7 -> 9 [label="сочин"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 4 [label="обст"]
+			2 -> 7 [label="_1_компл"]
+			10 -> 13 [label="соч_союзн"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_4145 {
+	graph [label="Не знаю, как там было в оригинальной пьесе, но здесь сюжета, фактически, нет."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оригинальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 16 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			16 -> 11 [label="обст"]
+			16 -> 12 [label="предик"]
+			16 -> 14 [label="огранич"]
+			8 -> 7 [label="опред"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="присвяз"]
+			5 -> 10 [label="сент_соч"]
+			1 -> 0 [label="огранич"]
+			1 -> 5 [label="_1_компл"]
+}

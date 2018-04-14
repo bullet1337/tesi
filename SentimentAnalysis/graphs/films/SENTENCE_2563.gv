@@ -1,0 +1,45 @@
+digraph SENTENCE_2563 {
+	graph [label="Только не как Райан гослинг бегите — с ленцой и вселенской мудростью Федора Двинятина на лице."]
+	node [style=filled]
+		0 [label="Только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Райан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="гослинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бегите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ленцой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вселенской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мудростью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Федора Двинятина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 2 [label="вводн"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 12 [label="предик"]
+			11 -> 10 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			1 -> 0 [label="огранич"]
+			12 -> 13 [label="атриб"]
+			13 -> 14 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="сочин"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="сравн_союзн"]
+}

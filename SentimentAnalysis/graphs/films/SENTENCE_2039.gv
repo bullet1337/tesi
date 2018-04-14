@@ -1,0 +1,66 @@
+digraph SENTENCE_2039 {
+	graph [label="Тарковский не докучает зрителю своими нравоучениями, единственную мораль, пронизывающую фильм, можно вынести из слов доктора (Анатолий Солоницин)- нужно быть ближе к природе."]
+	node [style=filled]
+		0 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="докучает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрителю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нравоучениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="единственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мораль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пронизывающую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вынести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="слов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="доктора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Анатолий Солоницин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ближе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="природе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="_2_компл"]
+			2 -> 13 [label="сент_соч"]
+			10 -> 11 [label="_1_компл"]
+			13 -> 14 [label="предик"]
+			13 -> 22 [label="сент_соч"]
+			17 -> 19 [label="аппоз"]
+			22 -> 23 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			25 -> 26 [label="предл"]
+			23 -> 24 [label="присвяз"]
+}

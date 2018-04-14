@@ -1,0 +1,54 @@
+digraph SENTENCE_240 {
+	graph [label="\"Может быть, патриарх Феофил подает сигнал арабской общественности, что он отстаивает и их законные права\", — допускает эксперт."]
+	node [style=filled]
+		1 [label="Может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Феофил
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="подает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сигнал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="арабской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="общественности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отстаивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="законные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="допускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="эксперт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 17 [label="_1_компл"]
+			21 -> 22 [label="предик"]
+			9 -> 8 [label="опред"]
+			14 -> 21 [label="соч_союзн"]
+			4 -> 5 [label="аппоз"]
+			7 -> 9 [label="квазиагент"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="предик"]
+			6 -> 1 [label="вводн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 11 [label="предик"]
+			17 -> 15 [label="квазиагент"]
+			17 -> 16 [label="опред"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="сент_соч"]
+			11 -> 13 [label="подч_союзн"]
+}

@@ -1,0 +1,15 @@
+digraph SENTENCE_1976 {
+	graph [label="Отец стоит на дорожке."]
+	node [style=filled]
+		0 [label="Отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дорожке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+}

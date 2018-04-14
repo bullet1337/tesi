@@ -1,0 +1,67 @@
+digraph SENTENCE_1370 {
+	graph [label="Во время этого второго ремонта в феврале 1992 года и были обретены мощи патриарха Тихона — прямо под гробницей, которую все привыкли считать пустой."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ремонта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="феврале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1992
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обретены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Тихона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="прямо
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="гробницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="привыкли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="считать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="пустой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="аппоз"]
+			22 -> 21 [label="предик"]
+			22 -> 23 [label="_1_компл"]
+			10 -> 11
+			11 -> 12 [label="_2_компл"]
+			11 -> 17 [label="обст"]
+			23 -> 24 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			6 -> 8 [label="атриб"]
+}

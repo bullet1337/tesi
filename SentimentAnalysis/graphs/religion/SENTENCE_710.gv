@@ -1,0 +1,24 @@
+digraph SENTENCE_710 {
+	graph [label="Поэтому второе название Прощеного воскресенья — Адамово изгнание."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Прощеного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="воскресенья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Адамово
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="изгнание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 7 [label="атриб"]
+			2 -> 1 [label="опред"]
+}

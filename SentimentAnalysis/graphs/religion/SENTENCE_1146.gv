@@ -1,0 +1,57 @@
+digraph SENTENCE_1146 {
+	graph [label="В рамках проекта в Москве проходят выставки, мемориальные и просветительские мероприятия, посвященные тем, кто спасал евреев от нацизма."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мемориальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="просветительские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посвященные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="спасал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нацизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предл"]
+			14 -> 17 [label="релят"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="сочин"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			9 -> 10 [label="соч_союзн"]
+			11 -> 8 [label="опред"]
+			11 -> 13 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 11 [label="_1_компл"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="_2_компл"]
+			13 -> 14 [label="_2_компл"]
+			0 -> 1 [label="предл"]
+}

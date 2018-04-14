@@ -1,0 +1,24 @@
+digraph SENTENCE_3827 {
+	graph [label="Слово «классика» давно уже потеряло своё значение."]
+	node [style=filled]
+		0 [label="Слово
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="классика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="потеряло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="значение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			6 -> 0 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="_1_компл"]
+}

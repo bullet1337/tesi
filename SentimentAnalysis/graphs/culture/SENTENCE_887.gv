@@ -1,0 +1,45 @@
+digraph SENTENCE_887 {
+	graph [label="Гала-концерт открытия зимнего международного фестиваля искусств Юрия Башмета прошел в Зимнем театре Сочи в субботу."]
+	node [style=filled]
+		0 [label="Гала-концерт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="открытия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="зимнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="международного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искусств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Юрия Башмета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Зимнем
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сочи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="субботу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			0 -> 1 [label="аппоз"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 12 [label="обст"]
+			1 -> 4 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			12 -> 13 [label="предл"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="аппоз"]
+}

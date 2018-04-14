@@ -1,0 +1,18 @@
+digraph SENTENCE_1229 {
+	graph [label="При всей теоретической подкованности — нет."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="теоретической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подкованности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="обст"]
+			0 -> 3 [label="предл"]
+}

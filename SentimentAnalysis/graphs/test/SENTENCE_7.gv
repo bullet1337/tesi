@@ -1,0 +1,30 @@
+digraph SENTENCE_7 {
+	graph [label="Пенелопа Крус помощник и спаситель маленьких детей и заботливых мам."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="помощник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спаситель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="маленьких
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заботливых
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		8 [label="мам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 1 [label="об_аппоз"]
+			6 -> 8 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			1 -> 2 [label="сочин"]
+			8 -> 7 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+}

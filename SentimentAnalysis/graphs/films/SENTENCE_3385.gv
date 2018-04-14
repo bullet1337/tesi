@@ -1,0 +1,42 @@
+digraph SENTENCE_3385 {
+	graph [label="(Тарасов был тот ещё самодур, но не истреблял же он сознательно свою команду!"]
+	node [style=filled]
+		1 [label="Тарасов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="самодур
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="истреблял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сознательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="команду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="огранич"]
+			9 -> 11 [label="предик"]
+			9 -> 14 [label="_1_компл"]
+			7 -> 9 [label="соч_союзн"]
+			14 -> 12 [label="атриб"]
+			14 -> 13 [label="опред"]
+			4 -> 3 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="присвяз"]
+			2 -> 7 [label="сочин"]
+			5 -> 4 [label="огранич"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_178 {
+	graph [label="Покажут свои работы, номинированные на национальную театральную премию, театры из Екатеринбурга, Воронежа, Перми, Санкт-Петербурга, Якутска, откуда традиционно ожидаются интересные спектакли."]
+	node [style=filled]
+		0 [label="Покажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="номинированные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="национальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="театральную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="премию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="театры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Екатеринбурга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Воронежа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Перми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Санкт-Петербурга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Якутска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="откуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="традиционно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ожидаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="интересные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="спектакли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 24 [label="сент_соч"]
+			12 -> 14 [label="сочин"]
+			10 -> 11 [label="атриб"]
+			26 -> 25 [label="опред"]
+			18 -> 20 [label="сочин"]
+			14 -> 16 [label="сочин"]
+			5 -> 8 [label="предл"]
+			11 -> 12 [label="предл"]
+			4 -> 5 [label="_2_компл"]
+			24 -> 22 [label="_1_компл"]
+			24 -> 23 [label="обст"]
+			24 -> 26 [label="предик"]
+			16 -> 18 [label="сочин"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="аппоз"]
+}

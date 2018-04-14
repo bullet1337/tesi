@@ -1,0 +1,47 @@
+digraph SENTENCE_1447 {
+	graph [label="Роль Довлатова сыграл сербский актер Милан Марич, в фильме также снялись Данила Козловский, Елена Лядова, Светлана Ходченкова и Антон Шагин."]
+	node [style=filled]
+		0 [label="Роль Довлатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сыграл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сербский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Милан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Марич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="снялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Данила Козловский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Елена Лядова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Светлана Ходченкова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Антон Шагин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			3 -> 10 [label="релят"]
+			3 -> 13 [label="аппоз"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			7 -> 8 [label="предл"]
+			15 -> 16 [label="сочин"]
+			10 -> 5 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="примыкат"]
+			16 -> 17 [label="соч_союзн"]
+}

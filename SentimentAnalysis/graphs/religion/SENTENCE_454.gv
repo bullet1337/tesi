@@ -1,0 +1,39 @@
+digraph SENTENCE_454 {
+	graph [label="Он неоднократно приезжал с проповедями в Россию и другие страны бывшего СССР."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приезжал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проповедями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бывшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			7 -> 9 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="_2_компл"]
+			2 -> 7 [label="сочин"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+}

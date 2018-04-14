@@ -1,0 +1,81 @@
+digraph SENTENCE_805 {
+	graph [label="Надо сказать, что это замечательная скульптура очень знаменитого скульптора, которая использует образ Микки Мауса, он ничуть не хуже других образов, которые используют для памятников, включая исторических персонажей."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="замечательная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="скульптура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знаменитого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="скульптора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="использует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Микки Мауса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ничуть
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="образов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="используют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="памятников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="включая
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="исторических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			3 -> 6 [label="подч_союзн"]
+			30 -> 29 [label="опред"]
+			26 -> 28 [label="атриб"]
+			19 -> 16 [label="предик"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="сравнит"]
+			19 -> 21 [label="сравнит"]
+			1 -> 3 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 24 [label="сент_соч"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="_2_компл"]
+			9 -> 8 [label="опред"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="_1_компл"]
+			0 -> 1 [label="предик"]
+			0 -> 12 [label="разъяснит"]
+			13 -> 14 [label="квазиагент"]
+			13 -> 19 [label="релят"]
+			28 -> 30 [label="_1_компл"]
+			25 -> 26 [label="предл"]
+			18 -> 17 [label="огранич"]
+}

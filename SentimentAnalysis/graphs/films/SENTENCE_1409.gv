@@ -1,0 +1,21 @@
+digraph SENTENCE_1409 {
+	graph [label="Здесь нет Бьорк, знаменитой исландской певицы."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="знаменитой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исландской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="певицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			2 -> 6 [label="_1_компл"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+}

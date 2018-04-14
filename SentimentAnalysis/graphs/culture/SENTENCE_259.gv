@@ -1,0 +1,53 @@
+digraph SENTENCE_259 {
+	graph [label="В течение 15 минут участникам действа предстоит делать выбор, от самого простого до самого сложного, финального решения."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="действа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="предстоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="делать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="простого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сложного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="финального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="решения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			10 -> 12 [label="предл"]
+			10 -> 13 [label="соотнос"]
+			6 -> 7 [label="предик"]
+			15 -> 14 [label="опред"]
+			12 -> 11 [label="опред"]
+			13 -> 18 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="количест"]
+			3 -> 4 [label="сочин"]
+			18 -> 15 [label="опред"]
+			18 -> 17 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+}

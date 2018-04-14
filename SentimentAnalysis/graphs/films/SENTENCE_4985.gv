@@ -1,0 +1,39 @@
+digraph SENTENCE_4985 {
+	graph [label="Если уж на то пошло, то атмосфера фильма — его же главный косяк."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="атмосфера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="косяк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="подч_союзн"]
+			0 -> 6 [label="соотнос"]
+			4 -> 2 [label="обст"]
+			7 -> 8 [label="квазиагент"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			10 -> 11 [label="огранич"]
+			13 -> 0 [label="обст"]
+			13 -> 7 [label="предик"]
+			13 -> 10 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+}

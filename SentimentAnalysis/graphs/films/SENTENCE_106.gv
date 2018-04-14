@@ -1,0 +1,51 @@
+digraph SENTENCE_106 {
+	graph [label="Неужели, вы не найдете мать с подобной проблемой, вынужденную работать в семь смен, чтобы вылечить ребенка?"]
+	node [style=filled]
+		0 [label="Неужели
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="найдете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подобной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проблемой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вынужденную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="семь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="смен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вылечить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ребенка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="предл"]
+			4 -> 0 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			10 -> 11 [label="_2_компл"]
+			6 -> 8 [label="предл"]
+			17 -> 18 [label="_1_компл"]
+			11 -> 12 [label="обст"]
+			11 -> 16 [label="обст"]
+			16 -> 17 [label="инф_союзн"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="опред"]
+			14 -> 13 [label="количест"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_1264 {
+	graph [label="Но это же Ларс фон Триер, с ним забудьте все стереотипы о кино, он их смело и талантливо отбрасывает."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="забудьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стереотипы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="смело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="талантливо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="отбрасывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			5 -> 4
+			7 -> 8 [label="предл"]
+			1 -> 2 [label="огранич"]
+			20 -> 15 [label="предик"]
+			20 -> 16 [label="_1_компл"]
+			20 -> 17 [label="обст"]
+			9 -> 7 [label="обст"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 20 [label="сент_соч"]
+			0 -> 3 [label="соч_союзн"]
+			17 -> 18 [label="сочин"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="аппоз"]
+			3 -> 9 [label="сент_соч"]
+			18 -> 19 [label="соч_союзн"]
+}

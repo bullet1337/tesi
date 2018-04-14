@@ -1,0 +1,39 @@
+digraph SENTENCE_1601 {
+	graph [label="Но это еще не те цифры, которые должны были бы нас утешать."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="цифры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="утешать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="присвяз"]
+			9 -> 10 [label="аналит"]
+			9 -> 12 [label="сент_соч"]
+			12 -> 11 [label="_1_компл"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 9 [label="сент_соч"]
+			4 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			0 -> 5 [label="соч_союзн"]
+}

@@ -1,0 +1,44 @@
+digraph SENTENCE_126 {
+	graph [label="Грэм также был неформальным советником ряда президентов США, за что получил прозвище \"совесть Америки\"."]
+	node [style=filled]
+		0 [label="Грэм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неформальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="советником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ряда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="президентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прозвище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="совесть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Америки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="_1_компл"]
+			11 -> 12 [label="_1_компл"]
+			14 -> 15 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="присвяз"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			12 -> 14 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="_2_компл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_4231 {
+	graph [label="Паузы в сценах и диалогах настолько длинные, что их можно проматывать нещадно без потерь."]
+	node [style=filled]
+		0 [label="Паузы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сценах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="диалогах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="настолько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="длинные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проматывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нещадно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="потерь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="огранич"]
+			3 -> 4 [label="соч_союзн"]
+			0 -> 1 [label="_1_компл"]
+			10 -> 11 [label="предик"]
+			11 -> 12 [label="обст"]
+			13 -> 14 [label="предл"]
+			12 -> 13 [label="сочин"]
+			2 -> 3 [label="сочин"]
+}

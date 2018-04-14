@@ -1,0 +1,42 @@
+digraph SENTENCE_1761 {
+	graph [label="В ряде картин Смита присутствует харизматичный персонаж Молчаливый Боб, которого играет сам режиссер."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ряде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Смита
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="присутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="харизматичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Молчаливый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Боб
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 13 [label="_1_компл"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+			6 -> 11 [label="релят"]
+			13 -> 12 [label="опред"]
+}

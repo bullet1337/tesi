@@ -1,0 +1,30 @@
+digraph SENTENCE_2777 {
+	graph [label="Светлым пятном были лишь тусклые фонари и полицейские мигалки."]
+	node [style=filled]
+		0 [label="Светлым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пятном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тусклые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фонари
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полицейские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мигалки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			2 -> 1 [label="присвяз"]
+			2 -> 5 [label="предик"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="опред"]
+			6 -> 8 [label="соч_союзн"]
+}

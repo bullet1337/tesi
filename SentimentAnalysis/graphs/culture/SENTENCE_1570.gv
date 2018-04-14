@@ -1,0 +1,51 @@
+digraph SENTENCE_1570 {
+	graph [label="Когда иностранный режиссер берется за историю о жизни в России, от расхожих стереотипов никуда не деться."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="иностранный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="берется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="расхожих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стереотипов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="никуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="деться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			6 -> 11 [label="сочин"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="атриб"]
+			0 -> 3 [label="подч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="предл"]
+			16 -> 0 [label="обст"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+}

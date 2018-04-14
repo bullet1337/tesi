@@ -1,0 +1,24 @@
+digraph SENTENCE_1569 {
+	graph [label="Павел VI скончался 6 августа 1978 года."]
+	node [style=filled]
+		0 [label="Павел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="VI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="августа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1978
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="атриб"]
+			3 -> 4 [label="атриб"]
+			6 -> 5 [label="опред"]
+			0 -> 1
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+}

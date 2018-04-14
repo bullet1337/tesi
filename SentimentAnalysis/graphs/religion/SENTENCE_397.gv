@@ -1,0 +1,39 @@
+digraph SENTENCE_397 {
+	graph [label="А народная молва вообще обвинит их в черной магии, кровсмешении и детоубийстве."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="народная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обвинит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="черной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="магии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кровсмешении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="детоубийстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="сочин"]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 10 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			2 -> 1 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+}

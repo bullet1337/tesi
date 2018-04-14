@@ -1,0 +1,30 @@
+digraph SENTENCE_344 {
+	graph [label="В состав совета вошли 15 специалистов из различных областей."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="специалистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="различных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="областей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="_1_компл"]
+			3 -> 5 [label="предик"]
+			5 -> 4 [label="количест"]
+			5 -> 6 [label="атриб"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+}

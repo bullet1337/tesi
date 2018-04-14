@@ -1,0 +1,60 @@
+digraph SENTENCE_249 {
+	graph [label="Обнесенный стеной исторический район, где как раз находятся основные христианские святыни, относится к восточному Иерусалиму, на который претендуют палестинцы."]
+	node [style=filled]
+		0 [label="Обнесенный
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="стеной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исторический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="район
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="находятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="основные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="христианские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="святыни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="восточному
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Иерусалиму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="претендуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="палестинцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="сравн_союзн"]
+			8 -> 3 [label="предик"]
+			8 -> 5 [label="_1_компл"]
+			8 -> 6 [label="вводн"]
+			8 -> 11 [label="_1_компл"]
+			8 -> 13 [label="сочин"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			3 -> 0 [label="опред"]
+			3 -> 2 [label="опред"]
+			16 -> 15 [label="опред"]
+			18 -> 19 [label="предл"]
+			20 -> 18 [label="_1_компл"]
+			20 -> 21 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 20 [label="сочин"]
+			0 -> 1 [label="_2_компл"]
+			14 -> 16 [label="предл"]
+}

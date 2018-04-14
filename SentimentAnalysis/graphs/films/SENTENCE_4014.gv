@@ -1,0 +1,51 @@
+digraph SENTENCE_4014 {
+	graph [label="Но (я не виню в этом Стенли Кубрика, конечно) я не получил того, чего я ожидал."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="виню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Стенли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Кубрика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ожидал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			14 -> 10 [label="вводн"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			8 -> 7 [label="композ"]
+			0 -> 4 [label="соч_союзн"]
+			15 -> 19 [label="эксплет"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="предик"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 14 [label="сочин"]
+}

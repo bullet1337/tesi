@@ -1,0 +1,66 @@
+digraph SENTENCE_328 {
+	graph [label="\"Святогробское братство\" называет эту меру беспрецедентной, но аль-Хусейни рассказывает, что в 1990 году ворота храма закрывались для паломников на двое суток."]
+	node [style=filled]
+		1 [label="Святогробское
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="братство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="называет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="беспрецедентной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="аль-Хусейни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="1990
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ворота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="закрывались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="паломников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="двое
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="суток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="_2_компл"]
+			4 -> 9 [label="сент_соч"]
+			13 -> 19 [label="подч_союзн"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			14 -> 16 [label="предл"]
+			17 -> 18 [label="квазиагент"]
+			19 -> 14 [label="обст"]
+			19 -> 17 [label="предик"]
+			19 -> 20 [label="обст"]
+			19 -> 22 [label="обст"]
+			9 -> 11 [label="соч_союзн"]
+			22 -> 24 [label="предл"]
+			16 -> 15 [label="опред"]
+			24 -> 23 [label="количест"]
+}

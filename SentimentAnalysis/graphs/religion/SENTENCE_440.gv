@@ -1,0 +1,72 @@
+digraph SENTENCE_440 {
+	graph [label="На заупокойное богослужение по погибшим в Кизляре в московском храме Христа Спасителя собралось около 200 человек, службу возглавил патриарх Московский и всея Руси Кирилл."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заупокойное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="богослужение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="погибшим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="московском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="храме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Христа Спасителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="собралось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="около
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="200
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="службу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="возглавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 11 [label="предл"]
+			20 -> 22 [label="соч_союзн"]
+			18 -> 19 [label="опред"]
+			18 -> 23 [label="аппоз"]
+			19 -> 20 [label="сочин"]
+			11 -> 4 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			7 -> 9 [label="предл"]
+			4 -> 5 [label="обст"]
+			4 -> 7 [label="обст"]
+			22 -> 21 [label="опред"]
+			12 -> 14 [label="предл"]
+			17 -> 16 [label="_1_компл"]
+			17 -> 18 [label="предик"]
+			0 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			14 -> 13 [label="количест"]
+			14 -> 17 [label="релят"]
+}

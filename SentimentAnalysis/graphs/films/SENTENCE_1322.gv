@@ -1,0 +1,62 @@
+digraph SENTENCE_1322 {
+	graph [label="Замечательная певица Бьорк так талантливо воплотила на экраны драматическую роль бедной Сельмы, что порой ее героиня может довести до слез."]
+	node [style=filled]
+		0 [label="Замечательная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="певица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="талантливо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="воплотила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="экраны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="драматическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бедной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="порой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="довести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="слез
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_2_компл"]
+			16 -> 15 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			13 -> 17 [label="подч_союзн"]
+			4 -> 3 [label="огранич"]
+			17 -> 14 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			9 -> 13 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			18 -> 19 [label="_2_компл"]
+			19 -> 20 [label="предл"]
+			6 -> 7 [label="предл"]
+}

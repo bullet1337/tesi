@@ -1,0 +1,21 @@
+digraph SENTENCE_573 {
+	graph [label="Но в Доггвиле была неподражаемая Николь."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Доггвиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неподражаемая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Николь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			5 -> 4 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 5 [label="присвяз"]
+}

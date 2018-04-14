@@ -1,0 +1,39 @@
+digraph SENTENCE_1456 {
+	graph [label="В Берлине состоится и самая долгожданная премьера российской анимации — кукольный мультфильм \"Гофманиада\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="долгожданная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="российской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="анимации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кукольный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мультфильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Гофманиада
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="сочин"]
+			5 -> 4 [label="опред"]
+			6 -> 3 [label="огранич"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 11 [label="сочин"]
+}

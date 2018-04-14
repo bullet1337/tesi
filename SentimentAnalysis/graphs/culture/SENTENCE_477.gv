@@ -1,0 +1,27 @@
+digraph SENTENCE_477 {
+	graph [label="Две главные фигуры — великий поэт и царь Петр."]
+	node [style=filled]
+		0 [label="Две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фигуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="великий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поэт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="царь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Петр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="аппоз"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="сочин"]
+			2 -> 0 [label="количест"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="сочин"]
+}

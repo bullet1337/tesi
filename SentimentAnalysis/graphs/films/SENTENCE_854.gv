@@ -1,0 +1,48 @@
+digraph SENTENCE_854 {
+	graph [label="Морса все привыкли видеть в образах положительных героев, Стормаре же ассоциируется со злодеями и негодяями."]
+	node [style=filled]
+		0 [label="Морса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="привыкли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="образах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="положительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Стормаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ассоциируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="злодеями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="негодяями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="огранич"]
+			11 -> 0 [label="_1_компл"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			13 -> 14 [label="сочин"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			5 -> 7 [label="квазиагент"]
+			3 -> 4 [label="обст"]
+			0 -> 2 [label="релят"]
+			4 -> 5 [label="предл"]
+			12 -> 13 [label="предл"]
+}

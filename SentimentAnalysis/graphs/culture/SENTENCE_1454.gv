@@ -1,0 +1,45 @@
+digraph SENTENCE_1454 {
+	graph [label="Стилистически фильм напоминает другой успешный проект Бекмамбетова — \"Убрать из друзей\", снятый в 2015 году."]
+	node [style=filled]
+		0 [label="Стилистически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="другой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="успешный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бекмамбетова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Убрать
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="снятый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="обст"]
+			11 -> 14 [label="опред"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 10 [label="_2_компл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 9 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			15 -> 17 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+}

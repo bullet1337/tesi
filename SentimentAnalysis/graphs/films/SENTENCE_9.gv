@@ -1,0 +1,39 @@
+digraph SENTENCE_9 {
+	graph [label=") Но потом, по мере развития сюжета, я начал с нетерпением ждать их."]
+	node [style=filled]
+		1 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нетерпением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ждать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			10 -> 2 [label="обст"]
+			10 -> 4 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 13 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 10 [label="соч_союзн"]
+			11 -> 12 [label="предл"]
+}

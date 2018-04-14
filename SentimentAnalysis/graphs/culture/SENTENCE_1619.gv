@@ -1,0 +1,51 @@
+digraph SENTENCE_1619 {
+	graph [label="В нем есть поэзия, видно, что человек на экране пишет историю, у него есть свой стиль."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поэзия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пишет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="стиль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			7 -> 11 [label="подч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 5 [label="присвяз"]
+			2 -> 7 [label="предик"]
+			2 -> 16 [label="сент_соч"]
+			18 -> 17 [label="опред"]
+			0 -> 1 [label="предл"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			14 -> 15 [label="предл"]
+			9 -> 10 [label="предл"]
+}

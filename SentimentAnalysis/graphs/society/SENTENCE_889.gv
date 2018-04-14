@@ -1,0 +1,51 @@
+digraph SENTENCE_889 {
+	graph [label="Состояние артиста \"Цирка Мстислава Запашного\" Антона Мартынова, сорвавшегося с высоты во время выступления в Элисте, улучшилось, сообщает пресс-служба цирка."]
+	node [style=filled]
+		0 [label="Состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="артиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Цирка Мстислава Запашного
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Антона Мартынова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="сорвавшегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="высоты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Элисте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="улучшилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="цирка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="атриб"]
+			1 -> 3 [label="аппоз"]
+			7 -> 8 [label="обст"]
+			7 -> 10 [label="обст"]
+			7 -> 12 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			8 -> 9 [label="предл"]
+			16 -> 0 [label="предик"]
+			16 -> 18 [label="вводн"]
+			18 -> 19 [label="предик"]
+			19 -> 20 [label="квазиагент"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 5 [label="аппоз"]
+			0 -> 7 [label="опред"]
+			13 -> 14 [label="предл"]
+}

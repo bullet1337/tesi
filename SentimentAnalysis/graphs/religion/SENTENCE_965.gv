@@ -1,0 +1,60 @@
+digraph SENTENCE_965 {
+	graph [label="Специалисты приписывали Феофану Греку многие иконы того времени, поскольку сведения о других греческих мастерах, работавших в Москве, просто не сохранились."]
+	node [style=filled]
+		0 [label="Специалисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приписывали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Феофану Греку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иконы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="того
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сведения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="греческих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мастерах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="работавших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сохранились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="атриб"]
+			6 -> 5 [label="опред"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="опред"]
+			15 -> 16 [label="обст"]
+			8 -> 21 [label="подч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			10 -> 13 [label="предл"]
+			16 -> 17 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 8 [label="обст"]
+			2 -> 4 [label="сочин"]
+			21 -> 9 [label="предик"]
+			21 -> 20 [label="огранич"]
+}

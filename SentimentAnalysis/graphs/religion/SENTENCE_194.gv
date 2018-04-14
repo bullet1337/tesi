@@ -1,0 +1,54 @@
+digraph SENTENCE_194 {
+	graph [label="По желанию самого понтифика торжественное мероприятие в итоге перенесли на центральную площадь Ватикана перед собором святого Петра."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="желанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="понтифика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="торжественное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мероприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="перенесли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="центральную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="площадь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Ватикана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="собором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Петра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 16 [label="атриб"]
+			1 -> 3 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			9 -> 11 [label="предл"]
+			3 -> 2 [label="опред"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="_3_компл"]
+			8 -> 13 [label="обст"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="разъяснит"]
+			13 -> 14 [label="предл"]
+			16 -> 15 [label="опред"]
+}

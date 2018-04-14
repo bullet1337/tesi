@@ -1,0 +1,30 @@
+digraph SENTENCE_444 {
+	graph [label="Начать с того, что она сознательно подарила ему слепоту."]
+	node [style=filled]
+		0 [label="Начать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сознательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подарила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="слепоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="подч_союзн"]
+			2 -> 4 [label="эксплет"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 9 [label="_1_компл"]
+			0 -> 1 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+}

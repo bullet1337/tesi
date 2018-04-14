@@ -1,0 +1,39 @@
+digraph SENTENCE_1066 {
+	graph [label="В Прощеное воскресенье Русская православная церковь совершает за богослужениями \"воспоминание Адамова изгнания\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Русская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="совершает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="богослужениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="воспоминание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Адамова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="изгнания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="_1_компл"]
+			6 -> 12 [label="предик"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			2 -> 1 [label="опред"]
+}

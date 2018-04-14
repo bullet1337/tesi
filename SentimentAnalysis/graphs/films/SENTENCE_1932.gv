@@ -1,0 +1,54 @@
+digraph SENTENCE_1932 {
+	graph [label="В первый раз в жизни у меня было такое, когда фильм закончился, я просто вслух сказала «спасибо»."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="закончился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вслух
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="предик"]
+			16 -> 15 [label="огранич"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 8 [label="присвяз"]
+			7 -> 10 [label="обст"]
+			7 -> 17 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			17 -> 14 [label="предик"]
+			17 -> 16 [label="обст"]
+			17 -> 19 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			10 -> 12 [label="подч_союзн"]
+}

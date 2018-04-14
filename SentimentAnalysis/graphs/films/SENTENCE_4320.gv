@@ -1,0 +1,24 @@
+digraph SENTENCE_4320 {
+	graph [label="Нам показывают трилогию о жизни чернокожего Широна."]
+	node [style=filled]
+		0 [label="Нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трилогию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чернокожего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Широна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="_2_компл"]
+			1 -> 2 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			4 -> 6 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+}

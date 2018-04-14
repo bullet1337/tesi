@@ -1,0 +1,39 @@
+digraph SENTENCE_3483 {
+	graph [label="Таким образом, возвращаясь к Легенде 17, можно сделать следующие выводы: 1) Много вымысла."]
+	node [style=filled]
+		0 [label="Таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возвращаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Легенде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="следующие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выводы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Много
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="вымысла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="_1_компл"]
+			8 -> 6
+			8 -> 9 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="аппоз"]
+}

@@ -1,0 +1,64 @@
+digraph SENTENCE_44 {
+	graph [label="Действие картины разворачивается в начале прошлого века: главный герой, известный ловелас капитан Невиль, готовится выступать в военный поход с армией Наполеона."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разворачивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ловелас
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="капитан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Невиль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="готовится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выступать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="военный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="поход
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="армией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Наполеона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			13 -> 14 [label="аппоз"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			18 -> 20 [label="предл"]
+			9 -> 8 [label="опред"]
+			16 -> 13 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 23 [label="аппоз"]
+			0 -> 1 [label="квазиагент"]
+			21 -> 22 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 16 [label="релят"]
+			17 -> 18 [label="_2_компл"]
+}

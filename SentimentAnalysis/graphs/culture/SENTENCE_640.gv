@@ -1,0 +1,51 @@
+digraph SENTENCE_640 {
+	graph [label="Роли в картине исполнили Кристина Бродская, Стас Дужников, Александр Коршунов, Сергей Чирков, Виктор Добронравов, Игорь Скляр, Кирилл Кяро, Екатерина Васильева, Никита Тарасов, Елена Лядова и другие."]
+	node [style=filled]
+		0 [label="Роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="исполнили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Кристина Бродская
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Стас Дужников
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Александр Коршунов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Сергей Чирков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Виктор Добронравов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Игорь Скляр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Кирилл Кяро
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Екатерина Васильева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Никита Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Елена Лядова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="сочин"]
+			23 -> 24 [label="соч_союзн"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 8 [label="вводн"]
+			3 -> 10 [label="предик"]
+			3 -> 12 [label="вводн"]
+			3 -> 14 [label="предик"]
+			0 -> 1 [label="_2_компл"]
+			14 -> 18 [label="сочин"]
+			14 -> 16 [label="аппоз"]
+			18 -> 20 [label="сочин"]
+			22 -> 23 [label="сочин"]
+			1 -> 2 [label="предл"]
+			4 -> 6 [label="аппоз"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_155 {
+	graph [label="А ведь в жизни всё так."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="огранич"]
+			5 -> 4 [label="предик"]
+			4 -> 2 [label="колич_огран"]
+			2 -> 3 [label="предл"]
+			0 -> 5 [label="соч_союзн"]
+}

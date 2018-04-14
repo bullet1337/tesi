@@ -1,0 +1,33 @@
+digraph SENTENCE_365 {
+	graph [label="И ещё, 9,99 из 10 раз уж надо поставить оценку."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="9,99
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="оценку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="электив"]
+			8 -> 3 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предик"]
+			0 -> 8 [label="соч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="количест"]
+}

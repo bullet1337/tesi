@@ -1,0 +1,33 @@
+digraph SENTENCE_2591 {
+	graph [label="Эдакий псевдоинтеллектуал в своих ранних работах и квазивизионер в последних."]
+	node [style=filled]
+		0 [label="Эдакий
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="псевдоинтеллектуал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ранних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="квазивизионер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="последних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 1 [label="предик"]
+			7 -> 2 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="атриб"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="опред"]
+			2 -> 5 [label="предл"]
+			8 -> 9 [label="предл"]
+}

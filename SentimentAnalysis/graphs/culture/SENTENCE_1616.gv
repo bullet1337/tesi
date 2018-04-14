@@ -1,0 +1,84 @@
+digraph SENTENCE_1616 {
+	graph [label="Зрители в семи российских городах увидели лучшие работы бельгийца: \"День восьмой\", премьера которого состоялась в Канне в 1996 году, фантастическую мелодраму \"Господин Никто\" и сатирический \"Новейший завет\"."]
+	node [style=filled]
+		0 [label="Зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="семи
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="городах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="увидели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лучшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бельгийца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="восьмой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Канне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="1996
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="фантастическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="мелодраму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Господин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Никто
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="сатирический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="Новейший
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="завет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="предл"]
+			15 -> 12 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			8 -> 11 [label="аппоз"]
+			17 -> 15 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 20 [label="_2_компл"]
+			17 -> 25 [label="_1_компл"]
+			25 -> 24 [label="опред"]
+			25 -> 27 [label="разъяснит"]
+			5 -> 0 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 17 [label="сент_соч"]
+			18 -> 19 [label="предл"]
+			31 -> 30 [label="огранич"]
+			1 -> 4 [label="предл"]
+			4 -> 2 [label="количест"]
+			4 -> 3 [label="опред"]
+			22 -> 21 [label="опред"]
+			34 -> 28 [label="предик"]
+			34 -> 31 [label="опред"]
+			34 -> 33 [label="опред"]
+			0 -> 1 [label="атриб"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			27 -> 34 [label="аппоз"]
+}

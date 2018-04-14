@@ -1,0 +1,56 @@
+digraph SENTENCE_933 {
+	graph [label="Итоги исследований представлены в книге искусствоведа Левона Нерсесяна и реставратора Дмитрия Суховеркова \"Богоматерь Донская\", вышедшей в серии \"История одного шедевра\"."]
+	node [style=filled]
+		0 [label="Итоги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="исследований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="представлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="книге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искусствоведа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Левона Нерсесяна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="реставратора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Дмитрия Суховеркова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Богоматерь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Донская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="вышедшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="серии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="История
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="шедевра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="опред"]
+			11 -> 15 [label="опред"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="соч_союзн"]
+			15 -> 16 [label="обст"]
+			5 -> 6 [label="аппоз"]
+			5 -> 7 [label="сочин"]
+			17 -> 19 [label="ном_аппоз"]
+			4 -> 5 [label="ном_аппоз"]
+			16 -> 17 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			19 -> 21 [label="_1_компл"]
+			21 -> 20 [label="количест"]
+}

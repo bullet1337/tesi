@@ -1,0 +1,32 @@
+digraph SENTENCE_112 {
+	graph [label="Самое грустное, что я сразу подумала, что так и будет."]
+	node [style=filled]
+		0 [label="Самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="грустное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подумала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 8 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			3 -> 6 [label="подч_союзн"]
+			11 -> 9 [label="обст"]
+			11 -> 10 [label="огранич"]
+			8 -> 11 [label="подч_союзн"]
+}

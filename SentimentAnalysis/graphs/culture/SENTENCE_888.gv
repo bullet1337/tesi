@@ -1,0 +1,48 @@
+digraph SENTENCE_888 {
+	graph [label="\"Постепенно фестиваль становится тем, что изначально Башмет и придумал, — нашим ответом Зальцбургу, большим, комплексным мероприятием."]
+	node [style=filled]
+		1 [label="Постепенно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="изначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Башмет
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="придумал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нашим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ответом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Зальцбургу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="большим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="комплексным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мероприятием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 17 [label="опред"]
+			20 -> 19 [label="опред"]
+			10 -> 7 [label="обст"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 14 [label="_1_компл"]
+			10 -> 20 [label="_2_компл"]
+			6 -> 10 [label="подч_союзн"]
+			4 -> 6 [label="эксплет"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="аппоз"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="присвяз"]
+}

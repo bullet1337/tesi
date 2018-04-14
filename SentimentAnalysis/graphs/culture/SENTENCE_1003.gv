@@ -1,0 +1,63 @@
+digraph SENTENCE_1003 {
+	graph [label="По его словам, на концерт были приглашены члены семей военнослужащих Народной милиции ЛНР, сотрудников МВД и МЧС, а также медработников."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приглашены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="члены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="семей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="военнослужащих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Народной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="милиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ЛНР
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="сотрудников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="МВД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="медработников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="обст"]
+			6 -> 7
+			6 -> 8 [label="предик"]
+			15 -> 13 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 20 [label="сочин"]
+			2 -> 1 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 15 [label="сочин"]
+			20 -> 22 [label="соч_союзн"]
+			4 -> 5 [label="предл"]
+			22 -> 21 [label="огранич"]
+			17 -> 18 [label="соч_союзн"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 12 [label="атриб"]
+			16 -> 17 [label="сочин"]
+			12 -> 11 [label="опред"]
+}

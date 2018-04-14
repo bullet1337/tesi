@@ -1,0 +1,36 @@
+digraph SENTENCE_1007 {
+	graph [label="Это десятый результат в стране и третий в Приволжском федеральном округе."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="десятый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="результат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Приволжском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="федеральном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="округе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			2 -> 5 [label="сочин"]
+			6 -> 7 [label="атриб"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			7 -> 10 [label="предл"]
+}

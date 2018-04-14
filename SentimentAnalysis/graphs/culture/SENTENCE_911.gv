@@ -1,0 +1,56 @@
+digraph SENTENCE_911 {
+	graph [label="В составе \"Кино\" Рыбин выступал в качестве гитариста, при участии Алексея Рыбина был записан первый альбом группы, называвшийся \"45\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="составе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Рыбин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="выступал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гитариста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="участии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Алексея Рыбина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="записан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="альбом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="называвшийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="45
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="квазиагент"]
+			1 -> 3 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			20 -> 22 [label="_1_компл"]
+			12 -> 13 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 14 [label="сочин"]
+			7 -> 8 [label="предл"]
+			17 -> 16 [label="опред"]
+			14 -> 11 [label="обст"]
+			14 -> 15
+			14 -> 17 [label="предик"]
+			18 -> 20 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+}

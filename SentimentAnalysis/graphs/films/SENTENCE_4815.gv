@@ -1,0 +1,32 @@
+digraph SENTENCE_4815 {
+	graph [label="Экшн, который начинается только с середины фильма не цепляет абсолютно."]
+	node [style=filled]
+		0 [label="Экшн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="середины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="цепляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			9 -> 8 [label="огранич"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="обст"]
+			3 -> 9 [label="сочин"]
+}

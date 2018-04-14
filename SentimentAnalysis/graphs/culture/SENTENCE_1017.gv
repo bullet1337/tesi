@@ -1,0 +1,57 @@
+digraph SENTENCE_1017 {
+	graph [label="Известный режиссер Нина Чусова возвращает на московскую сцену знаменитую пьесу Фернана Кроммелинка \"Великолепный рогоносец\", принесшая своему создателю мировую славу."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Нина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Чусова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="возвращает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="московскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сцену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="знаменитую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пьесу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Фернана Кроммелинка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Великолепный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="рогоносец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="принесшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="создателю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мировую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="славу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 9 [label="_1_компл"]
+			4 -> 10 [label="вводн"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			13 -> 16 [label="опред"]
+			16 -> 18 [label="неакт_компл"]
+			5 -> 7 [label="предл"]
+			9 -> 8 [label="опред"]
+			7 -> 6 [label="опред"]
+			10 -> 13 [label="аппоз"]
+			20 -> 19 [label="опред"]
+}

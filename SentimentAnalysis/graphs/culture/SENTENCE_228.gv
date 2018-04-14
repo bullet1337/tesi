@@ -1,0 +1,48 @@
+digraph SENTENCE_228 {
+	graph [label="Чем сложнее материал, тем больше усилий, сильнее стремление сделать постановку на самом высоком художественном уровне\"."]
+	node [style=filled]
+		0 [label="Чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сложнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="материал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="усилий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стремление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сделать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="постановку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="высоком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="художественном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="уровне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сравн_союзн"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="обст"]
+			14 -> 13 [label="опред"]
+			5 -> 6 [label="предик"]
+			0 -> 1 [label="сравн_союзн"]
+			0 -> 4 [label="соотнос"]
+			0 -> 9 [label="сравн_союзн"]
+			12 -> 16 [label="предл"]
+			9 -> 10 [label="_2_компл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			6 -> 8 [label="примыкат"]
+			1 -> 2 [label="предик"]
+}

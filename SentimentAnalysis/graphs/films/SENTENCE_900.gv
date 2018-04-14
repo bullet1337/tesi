@@ -1,0 +1,57 @@
+digraph SENTENCE_900 {
+	graph [label="На самом деле трогает, на самом деле страшно… Советую посмотреть тем, кто хочет получить новую пищу для размышлений."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="трогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="деле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="страшно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Советую
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="новую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пищу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="размышлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			10 -> 8 [label="обст"]
+			10 -> 11 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="обст"]
+			3 -> 10 [label="разъяснит"]
+			12 -> 15 [label="релят"]
+			19 -> 20 [label="предл"]
+			7 -> 6 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+}

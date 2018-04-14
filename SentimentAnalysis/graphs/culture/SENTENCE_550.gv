@@ -1,0 +1,51 @@
+digraph SENTENCE_550 {
+	graph [label="В этом году вести церемонию будет звезда сериала \"Красиво жить не запретишь\", актриса и режиссер Джоанна Ламли."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церемонию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="звезда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сериала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Красиво
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="запретишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Джоанна Ламли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			17 -> 18 [label="аппоз"]
+			12 -> 11 [label="огранич"]
+			12 -> 15 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+			10 -> 9 [label="обст"]
+			16 -> 17 [label="соч_союзн"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			6 -> 7 [label="атриб"]
+			5 -> 6 [label="предик"]
+			5 -> 10 [label="аналит"]
+			5 -> 12 [label="сочин"]
+}

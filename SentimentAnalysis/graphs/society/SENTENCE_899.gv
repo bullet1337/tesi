@@ -1,0 +1,42 @@
+digraph SENTENCE_899 {
+	graph [label="По его словам, ветер во вторник будет северо-восточный, 2-7 метров в секунду."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ветер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вторник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="северо-восточный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="секунду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="кратн"]
+			14 -> 15 [label="предл"]
+			7 -> 0 [label="вводн"]
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="присвяз"]
+			7 -> 13 [label="предик"]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="квазиагент"]
+			13 -> 10 [label="количест"]
+			13 -> 14 [label="распред"]
+			0 -> 2 [label="предл"]
+}

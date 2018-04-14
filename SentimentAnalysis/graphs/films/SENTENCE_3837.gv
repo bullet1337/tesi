@@ -1,0 +1,21 @@
+digraph SENTENCE_3837 {
+	graph [label="По сути — снять то не тяжело."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="снять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="вводн"]
+			3 -> 4 [label="огранич"]
+			3 -> 6 [label="_2_компл"]
+			6 -> 5 [label="огранич"]
+			0 -> 1 [label="предл"]
+}

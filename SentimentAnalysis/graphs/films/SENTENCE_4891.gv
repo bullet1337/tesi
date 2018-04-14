@@ -1,0 +1,18 @@
+digraph SENTENCE_4891 {
+	graph [label="Чтобы народ на Кена Ватабе пошел?"]
+	node [style=filled]
+		0 [label="Чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="народ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кена Ватабе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="пошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			0 -> 4 [label="подч_союзн"]
+			2 -> 3 [label="предл"]
+}

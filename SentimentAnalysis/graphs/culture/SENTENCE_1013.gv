@@ -1,0 +1,71 @@
+digraph SENTENCE_1013 {
+	graph [label="Культовая рок-группа \"Алиса\" даст два масштабных концерта, приуроченных к 35-летнему юбилею коллектива, в Санкт-Петербурге и Москве, сообщает пресс-служба концертного агентства T.C.I."]
+	node [style=filled]
+		0 [label="Культовая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рок-группа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="даст
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="масштабных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="концерта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="приуроченных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="35-летнему
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="юбилею
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="коллектива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Санкт-Петербурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="концертного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="T
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="C
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="I
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 18 [label="сочин"]
+			18 -> 19 [label="соч_союзн"]
+			11 -> 13 [label="предл"]
+			21 -> 22 [label="предик"]
+			1 -> 0 [label="опред"]
+			8 -> 6 [label="количест"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="опред"]
+			27 -> 29
+			24 -> 23 [label="опред"]
+			25 -> 27 [label="аппоз"]
+			5 -> 1 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 21 [label="вводн"]
+			22 -> 24 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			16 -> 17 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 16 [label="обст"]
+}

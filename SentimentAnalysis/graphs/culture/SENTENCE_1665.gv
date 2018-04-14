@@ -1,0 +1,27 @@
+digraph SENTENCE_1665 {
+	graph [label="Но мы набрались смелости и обратились к нему."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="набрались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смелости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обратились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 2 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+}

@@ -1,0 +1,75 @@
+digraph SENTENCE_64 {
+	graph [label="Патриарх Московский и всея Руси Кирилл потрясен расстрелом прихожан в Кизляре и выражает соболезнования родственникам погибших, сообщил РИА Новости глава патриаршей пресс- службы иерей Александр Волков."]
+	node [style=filled]
+		0 [label="Патриарх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Кирилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="потрясен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="расстрелом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прихожан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="выражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="соболезнования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="родственникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="патриаршей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пресс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="иерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Александр Волков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 15 [label="_1_компл"]
+			19 -> 21 [label="_1_компл"]
+			19 -> 23 [label="аппоз"]
+			19 -> 24 [label="примыкат"]
+			19 -> 25 [label="аппоз"]
+			21 -> 20 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 11 [label="сочин"]
+			6 -> 17 [label="вводн"]
+			6 -> 19 [label="предик"]
+			4 -> 3 [label="опред"]
+			11 -> 12 [label="соч_союзн"]
+			1 -> 2 [label="сочин"]
+			17 -> 18 [label="предик"]
+			0 -> 1 [label="опред"]
+			0 -> 5 [label="аппоз"]
+			2 -> 4 [label="соч_союзн"]
+			13 -> 14 [label="_2_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="атриб"]
+}

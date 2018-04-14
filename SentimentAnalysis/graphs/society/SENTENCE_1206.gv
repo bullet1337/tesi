@@ -1,0 +1,33 @@
+digraph SENTENCE_1206 {
+	graph [label="\"Аэрофлот\" изменил допустимые габариты ручной клади, сообщается на сайте компании."]
+	node [style=filled]
+		1 [label="Аэрофлот
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="изменил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="допустимые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="габариты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ручной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="клади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="_3_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 9 [label="сент_соч"]
+			5 -> 4 [label="опред"]
+			7 -> 6 [label="опред"]
+}

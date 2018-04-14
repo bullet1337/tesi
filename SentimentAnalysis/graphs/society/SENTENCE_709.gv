@@ -1,0 +1,36 @@
+digraph SENTENCE_709 {
+	graph [label="Как отмечает пресс-служба, это почти в полтора раза больше площади Москвы."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полтора
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="площади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="предл"]
+			0 -> 1 [label="сравн_союзн"]
+			10 -> 11 [label="квазиагент"]
+			2 -> 9 [label="изъясн"]
+			9 -> 4 [label="предик"]
+			9 -> 6 [label="колич_огран"]
+			9 -> 10 [label="сравнит"]
+			1 -> 2 [label="предик"]
+			8 -> 7 [label="количест"]
+}

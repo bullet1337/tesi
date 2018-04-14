@@ -1,0 +1,33 @@
+digraph SENTENCE_2440 {
+	graph [label="Ни личностного, ни внутреннего, ни внешнего конфликтов в фильме нет."]
+	node [style=filled]
+		0 [label="Ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="личностного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="внутреннего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="внешнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конфликтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 8 [label="предик"]
+			0 -> 11 [label="соч_союзн"]
+			8 -> 1 [label="опред"]
+			8 -> 9 [label="атриб"]
+			6 -> 7 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			1 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+			4 -> 6 [label="сочин"]
+}

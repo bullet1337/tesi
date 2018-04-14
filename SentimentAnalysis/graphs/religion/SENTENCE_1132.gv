@@ -1,0 +1,80 @@
+digraph SENTENCE_1132 {
+	graph [label="Позднее предстоятель Русской православной церкви заявил РИА Новости, что запрет абортов в настоящее время в России невозможен, при этом РПЦ считает целесообразным их вывод из системы ОМС."]
+	node [style=filled]
+		0 [label="Позднее
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="предстоятель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="запрет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="абортов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="невозможен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="целесообразным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="вывод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="системы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ОМС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			18 -> 19 [label="предл"]
+			21 -> 18 [label="обст"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="_2_компл"]
+			21 -> 24 [label="_1_компл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="атриб"]
+			9 -> 14 [label="_1_компл"]
+			24 -> 23 [label="квазиагент"]
+			24 -> 25 [label="_1_компл"]
+			1 -> 4 [label="аппоз"]
+			16 -> 9 [label="предик"]
+			16 -> 21 [label="разъяснит"]
+			13 -> 12 [label="опред"]
+			26 -> 27 [label="квазиагент"]
+			25 -> 26 [label="предл"]
+			11 -> 13 [label="предл"]
+			14 -> 15 [label="предл"]
+			8 -> 16 [label="подч_союзн"]
+}

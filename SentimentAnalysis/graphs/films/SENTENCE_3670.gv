@@ -1,0 +1,36 @@
+digraph SENTENCE_3670 {
+	graph [label="Все лучше, чем очередная фрейдистская комедия от Сарика Андреасяна и создателей «Камеди-клаб»."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очередная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фрейдистская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="комедия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сарика Андреасяна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="создателей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Камеди-клаб
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			8 -> 9 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сравнит"]
+			3 -> 6 [label="сравн_союзн"]
+}

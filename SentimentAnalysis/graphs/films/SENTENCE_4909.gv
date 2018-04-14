@@ -1,0 +1,30 @@
+digraph SENTENCE_4909 {
+	graph [label="И вдвоем они начинают разрушать город и дубасить Годзиллу."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вдвоем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начинают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="разрушать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="город
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дубасить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="сочин"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 7 [label="соч_союзн"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+}

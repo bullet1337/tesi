@@ -1,0 +1,36 @@
+digraph SENTENCE_4701 {
+	graph [label="Плевать на сборы, после таких фильмов нужно выгонять на задворки Голливуда."]
+	node [style=filled]
+		0 [label="Плевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выгонять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="задворки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Голливуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 0 [label="предик"]
+			7 -> 4 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			6 -> 5 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 1 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			4 -> 6 [label="предл"]
+			9 -> 10 [label="предл"]
+}

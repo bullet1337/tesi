@@ -1,0 +1,27 @@
+digraph SENTENCE_1273 {
+	graph [label="Самой продаваемой композицией альбома стала Shape of You."]
+	node [style=filled]
+		0 [label="Самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="продаваемой
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="композицией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="альбома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Shape
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="of
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="You
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="аппоз"]
+			4 -> 2 [label="присвяз"]
+			4 -> 5 [label="предик"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			6 -> 7 [label="аппоз"]
+}

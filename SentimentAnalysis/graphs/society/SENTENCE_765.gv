@@ -1,0 +1,39 @@
+digraph SENTENCE_765 {
+	graph [label="Поэтому этот разговор о будущем не преждевременный – это разговор о сегодняшнем дне."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="разговор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будущем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="преждевременный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разговор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сегодняшнем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="дне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_2_компл"]
+			12 -> 11 [label="опред"]
+			6 -> 5 [label="огранич"]
+			3 -> 4 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 2 [label="предик"]
+			9 -> 6 [label="опред"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_2_компл"]
+			10 -> 12 [label="предл"]
+}

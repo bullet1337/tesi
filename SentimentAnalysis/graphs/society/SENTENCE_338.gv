@@ -1,0 +1,33 @@
+digraph SENTENCE_338 {
+	graph [label="Получить консультацию онколога смогут горожане в онкологическом клиническом диспансере №1."]
+	node [style=filled]
+		0 [label="Получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="консультацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="онколога
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смогут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="горожане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="онкологическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="клиническом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="диспансере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			4 -> 5 [label="атриб"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="предик"]
+			5 -> 8 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="нум_аппоз"]
+}

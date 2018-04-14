@@ -1,0 +1,47 @@
+digraph SENTENCE_1320 {
+	graph [label="Царевич Иоасаф, прообразом которого послужил Будда, — христианский святой (память его отмечается Русской православной церковью 19 ноября)."]
+	node [style=filled]
+		0 [label="Царевич Иоасаф
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="прообразом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="послужил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Будда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="христианский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="святой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="церковью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ноября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 13 [label="изъясн"]
+			0 -> 2 [label="аппоз"]
+			11 -> 8 [label="опред"]
+			11 -> 9 [label="опред"]
+			13 -> 11 [label="длительн"]
+			13 -> 12 [label="предик"]
+			13 -> 16 [label="_2_компл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			17 -> 18 [label="атриб"]
+}

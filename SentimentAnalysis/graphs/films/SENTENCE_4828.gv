@@ -1,0 +1,36 @@
+digraph SENTENCE_4828 {
+	graph [label="Апофеоз — самой Годзиллы тут буквально минут на 20… Надо ли что-то добавлять?"]
+	node [style=filled]
+		0 [label="Апофеоз
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Надо
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="добавлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="огранич"]
+			10 -> 13 [label="предик"]
+			13 -> 12 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			7 -> 6 [label="предл"]
+			6 -> 5 [label="огранич"]
+			0 -> 3 [label="квазиагент"]
+			8 -> 10 [label="кратн"]
+}

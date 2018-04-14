@@ -1,0 +1,24 @@
+digraph SENTENCE_1717 {
+	graph [label="Всего рэпер раздал почти 997 тысяч долларов."]
+	node [style=filled]
+		0 [label="Всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рэпер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раздал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="997
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="долларов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="количест"]
+			5 -> 6 [label="квазиагент"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+}

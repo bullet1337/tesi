@@ -1,0 +1,33 @@
+digraph SENTENCE_778 {
+	graph [label="Чтобы полностью оценить происходящее на экране, нужно не отрываясь смотреть."]
+	node [style=filled]
+		0 [label="Чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="происходящее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отрываясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			7 -> 0 [label="обст"]
+			7 -> 10 [label="предик"]
+			10 -> 9 [label="обст"]
+			0 -> 2 [label="инф_союзн"]
+			9 -> 8 [label="огранич"]
+			2 -> 1 [label="_2_компл"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="_1_компл"]
+}

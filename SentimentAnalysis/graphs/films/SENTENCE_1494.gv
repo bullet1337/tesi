@@ -1,0 +1,50 @@
+digraph SENTENCE_1494 {
+	graph [label="Ей становится хуже каждый день, и скоро она не сможет видеть, а значит и работать тоже."]
+	node [style=filled]
+		0 [label="Ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="скоро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сможет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="видеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="значит
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="сочин"]
+			10 -> 7 [label="обст"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			13 -> 16 [label="соч_союзн"]
+			6 -> 10 [label="соч_союзн"]
+			16 -> 14 [label="вводн"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="огранич"]
+			1 -> 2 [label="присвяз"]
+			1 -> 4 [label="предик"]
+			1 -> 6 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+}

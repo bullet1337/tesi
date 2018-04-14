@@ -1,0 +1,18 @@
+digraph SENTENCE_3503 {
+	graph [label="В лучших традиция Голливуда нулевых."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="традиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Голливуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="нулевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+}

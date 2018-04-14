@@ -1,0 +1,39 @@
+digraph SENTENCE_301 {
+	graph [label="Он же ничего не учит, не знает ни одной цитаты из Мольера."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="учит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="цитаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мольера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="огранич"]
+			11 -> 12 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 7 [label="разъяснит"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			7 -> 6 [label="огранич"]
+			7 -> 10 [label="_1_компл"]
+}

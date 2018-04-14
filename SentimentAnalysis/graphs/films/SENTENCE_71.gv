@@ -1,0 +1,32 @@
+digraph SENTENCE_71 {
+	graph [label="И то, что она почти не видит, восполняется музыкой изнутри."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="видит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="восполняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="музыкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="изнутри
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 4 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			1 -> 3 [label="эксплет"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="обст"]
+			6 -> 5 [label="огранич"]
+			3 -> 7 [label="подч_союзн"]
+}

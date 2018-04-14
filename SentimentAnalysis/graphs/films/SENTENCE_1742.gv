@@ -1,0 +1,30 @@
+digraph SENTENCE_1742 {
+	graph [label="Это кино не про то, как мать спасает сына."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="спасает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			4 -> 8 [label="эксплет"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="атриб"]
+}

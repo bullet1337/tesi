@@ -1,0 +1,60 @@
+digraph SENTENCE_1420 {
+	graph [label="Чувства обнажены до предела, ни на мгновение не отпускают, пусть даже происходящие на экране мерзко, низко, шокирует и отталкивает."]
+	node [style=filled]
+		0 [label="Чувства
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="обнажены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мгновение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отпускают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пусть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="происходящие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мерзко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="низко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="шокирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="отталкивает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="обст"]
+			21 -> 22 [label="соч_союзн"]
+			11 -> 20 [label="подч_союзн"]
+			14 -> 15 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="обст"]
+			1 -> 9 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			20 -> 13 [label="предик"]
+			20 -> 16 [label="обст"]
+			20 -> 18 [label="обст"]
+			20 -> 21 [label="сочин"]
+}

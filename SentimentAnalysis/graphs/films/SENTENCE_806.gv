@@ -1,0 +1,63 @@
+digraph SENTENCE_806 {
+	graph [label="Просто режиссер вставил танцы и песни, чтобы лучше показать чувства Сельмы, чтобы единение с ней было еще глубже, еще сильнее."]
+	node [style=filled]
+		0 [label="Просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="танцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="единение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="глубже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="предл"]
+			22 -> 21 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			9 -> 8 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			7 -> 9 [label="инф_союзн"]
+			19 -> 18 [label="огранич"]
+			19 -> 22 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="обст"]
+			2 -> 10 [label="_1_компл"]
+			2 -> 13 [label="обст"]
+			13 -> 17 [label="подч_союзн"]
+			17 -> 14 [label="предик"]
+			17 -> 15 [label="обст"]
+			17 -> 19 [label="присвяз"]
+}

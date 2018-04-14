@@ -1,0 +1,45 @@
+digraph SENTENCE_766 {
+	graph [label="\"Битвы, отрубленные головы, пытки и прочие страсти — у нас все немного ненастоящее, все понарошку."]
+	node [style=filled]
+		1 [label="Битвы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отрубленные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пытки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прочие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="страсти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="немного
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ненастоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="понарошку
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 11 [label="обст"]
+			15 -> 13 [label="_1_компл"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="сочин"]
+			11 -> 12 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 15 [label="разъяснит"]
+			1 -> 4 [label="квазиагент"]
+			1 -> 6 [label="сочин"]
+			6 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			17 -> 18 [label="атриб"]
+}

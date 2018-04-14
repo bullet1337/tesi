@@ -1,0 +1,21 @@
+digraph SENTENCE_827 {
+	graph [label="Это не очень по-монашески\", — сетует он."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по-монашески
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сетует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			7 -> 0 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+}

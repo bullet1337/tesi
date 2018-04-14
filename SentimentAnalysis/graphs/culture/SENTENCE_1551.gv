@@ -1,0 +1,36 @@
+digraph SENTENCE_1551 {
+	graph [label="Список возглавляет Джокер из фильма о Бэтмене \"Темный рыцарь\" 2008 года."]
+	node [style=filled]
+		0 [label="Список
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="возглавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Джокер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бэтмене
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Темный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="рыцарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2008
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="атриб"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 9 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			12 -> 11 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="атриб"]
+}

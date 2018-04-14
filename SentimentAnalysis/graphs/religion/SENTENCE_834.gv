@@ -1,0 +1,33 @@
+digraph SENTENCE_834 {
+	graph [label="Сейчас священники на камеры освящают стратегические бомбардировщики и подводные ракетоносцы."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="священники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="камеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="освящают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стратегические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бомбардировщики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подводные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ракетоносцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			7 -> 9 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			2 -> 3 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+}

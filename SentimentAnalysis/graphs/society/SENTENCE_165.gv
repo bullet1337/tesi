@@ -1,0 +1,30 @@
+digraph SENTENCE_165 {
+	graph [label="В результате беспорядков два человека погибли, 79 получили ранения."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="беспорядков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="погибли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="79
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="получили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ранения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="сент_соч"]
+			4 -> 3 [label="количест"]
+}

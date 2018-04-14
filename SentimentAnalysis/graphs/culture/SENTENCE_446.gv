@@ -1,0 +1,21 @@
+digraph SENTENCE_446 {
+	graph [label="Действие происходит с 1942-го по 1945-й."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1942-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1945-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+}

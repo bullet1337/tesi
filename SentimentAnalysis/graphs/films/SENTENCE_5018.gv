@@ -1,0 +1,27 @@
+digraph SENTENCE_5018 {
+	graph [label="Не, не слышал  9) Гнусов привлекает ядерная энергия."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слышал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Гнусов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="привлекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ядерная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="энергия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 4 [label="количест"]
+			9 -> 8 [label="опред"]
+			3 -> 2 [label="огранич"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			2 -> 0 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+}

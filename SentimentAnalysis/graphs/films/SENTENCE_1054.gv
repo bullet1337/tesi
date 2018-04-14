@@ -1,0 +1,45 @@
+digraph SENTENCE_1054 {
+	graph [label="Среди всей этой несправедливости, вершащей закон и судьбы людей, не видно света, только темнота."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="несправедливости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вершащей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="закон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="судьбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="темнота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="огранич"]
+			7 -> 8 [label="соч_союзн"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			0 -> 3 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			12 -> 0 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 16 [label="предик"]
+			6 -> 7 [label="сочин"]
+			8 -> 9 [label="квазиагент"]
+}

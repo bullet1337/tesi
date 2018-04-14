@@ -1,0 +1,93 @@
+digraph SENTENCE_4722 {
+	graph [label="Начинается фильм про катастрофу на АЭС в Японии, затем показывают, как главный герой приезжает домой, сюсюкается с женой, вот бесит такое начало, когда в фильме про монстров показывают семейную идиллию."]
+	node [style=filled]
+		0 [label="Начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="катастрофу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="АЭС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Японии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="приезжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сюсюкается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="женой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="бесит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="начало
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="монстров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="семейную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="идиллию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="обст"]
+			18 -> 23 [label="сочин"]
+			28 -> 29 [label="предл"]
+			0 -> 1 [label="предик"]
+			0 -> 10 [label="сент_соч"]
+			2 -> 3 [label="предл"]
+			12 -> 15 [label="подч_союзн"]
+			34 -> 33 [label="опред"]
+			27 -> 32 [label="подч_союзн"]
+			23 -> 22 [label="огранич"]
+			23 -> 25 [label="_1_компл"]
+			23 -> 27 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_2_компл"]
+			19 -> 20 [label="предл"]
+			25 -> 24 [label="опред"]
+			6 -> 7 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 18 [label="сочин"]
+			32 -> 28 [label="обст"]
+			32 -> 34 [label="_1_компл"]
+			30 -> 31 [label="предл"]
+			4 -> 5 [label="предл"]
+			14 -> 13 [label="опред"]
+			29 -> 30 [label="_1_компл"]
+			3 -> 4 [label="атриб"]
+			3 -> 6 [label="атриб"]
+}

@@ -1,0 +1,72 @@
+digraph SENTENCE_1 {
+	graph [label="Это неповторимо… Блестяще… Несравненно… Мне сейчас сложно собрать свои мысли воедино, и сказать что-нибудь более или менее внятное, но я все же попытаюсь."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неповторимо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Блестяще
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Несравненно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Мне
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сложно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="воедино
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что-нибудь
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="внятное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="попытаюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="соч_союзн"]
+			5 -> 3 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 9 [label="сент_соч"]
+			17 -> 21 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			19 -> 20 [label="соч_союзн"]
+			27 -> 24 [label="предик"]
+			27 -> 25 [label="_1_компл"]
+			23 -> 27 [label="соч_союзн"]
+			9 -> 5 [label="обст"]
+			9 -> 7 [label="дат_субъект"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="предик"]
+			9 -> 23 [label="сент_соч"]
+			18 -> 19 [label="сочин"]
+			21 -> 18 [label="огранич"]
+			25 -> 26 [label="огранич"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 13 [label="обст"]
+			10 -> 15 [label="сочин"]
+}

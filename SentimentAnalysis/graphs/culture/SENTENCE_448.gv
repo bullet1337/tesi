@@ -1,0 +1,60 @@
+digraph SENTENCE_448 {
+	graph [label="Они направляются в воинскую часть, чтобы пройти службу, по дороге встречая еще одного молодого попутчика, но попадают под обстрел."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="направляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="воинскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пройти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="службу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дороге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="встречая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="одного
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="молодого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="попутчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="попадают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="обстрел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 6 [label="обст"]
+			6 -> 7 [label="инф_союзн"]
+			14 -> 13 [label="огранич"]
+			12 -> 16 [label="_1_компл"]
+			12 -> 18 [label="сочин"]
+			8 -> 10 [label="_1_компл"]
+			2 -> 4 [label="предл"]
+			16 -> 14 [label="количест"]
+			16 -> 15 [label="опред"]
+			10 -> 11 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="обст"]
+			19 -> 20 [label="_2_компл"]
+			20 -> 21 [label="предл"]
+			18 -> 19 [label="соч_союзн"]
+}

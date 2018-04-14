@@ -1,0 +1,39 @@
+digraph SENTENCE_912 {
+	graph [label="Рыбин — автор многочисленных публикаций о рок-музыкантах и более чем десятка остросюжетных романов."]
+	node [style=filled]
+		0 [label="Рыбин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многочисленных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="публикаций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="рок-музыкантах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="десятка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="остросюжетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="романов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			9 -> 10 [label="сравн_союзн"]
+			5 -> 6 [label="предл"]
+			12 -> 11 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			8 -> 9 [label="сравнит"]
+			10 -> 12 [label="квазиагент"]
+			0 -> 2 [label="об_аппоз"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="сочин"]
+}

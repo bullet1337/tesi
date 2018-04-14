@@ -1,0 +1,65 @@
+digraph SENTENCE_2722 {
+	graph [label="В частности, один из таких репликантов, Кей «какой-то там номер» (Райан Гослинг) служит Бегунком по острию, истребляя себе подобных нарушителей старого типа."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="репликантов
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="какой-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="номер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Райан Гослинг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="служит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Бегунком
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="острию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="истребляя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="нарушителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="старого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="типа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 10 [label="предик"]
+			17 -> 11 [label="обст"]
+			17 -> 12 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 22 [label="обст"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="предик"]
+			22 -> 19 [label="обст"]
+			22 -> 23 [label="неакт_компл"]
+			22 -> 25 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="электив"]
+			8 -> 17 [label="релят"]
+			27 -> 26 [label="опред"]
+			25 -> 24 [label="опред"]
+			25 -> 27 [label="атриб"]
+			4 -> 6 [label="предл"]
+			19 -> 20 [label="предл"]
+			12 -> 15 [label="квазиагент"]
+}

@@ -1,0 +1,45 @@
+digraph SENTENCE_2401 {
+	graph [label="А эта картина наиболее верно, точно и самое главное правдиво отображает окружающий нас мир?"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="верно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="точно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="главное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="правдиво
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отображает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="окружающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 11 [label="сент_соч"]
+			0 -> 4 [label="соч_союзн"]
+			9 -> 6 [label="огранич"]
+			9 -> 8 [label="опред"]
+			6 -> 7 [label="огранич"]
+			14 -> 12 [label="опред"]
+			2 -> 1 [label="опред"]
+			11 -> 9 [label="вводн"]
+			11 -> 10 [label="обст"]
+			11 -> 14 [label="_1_компл"]
+			12 -> 13 [label="_1_компл"]
+}

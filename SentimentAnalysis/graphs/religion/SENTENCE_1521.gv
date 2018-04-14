@@ -1,0 +1,24 @@
+digraph SENTENCE_1521 {
+	graph [label="\"Мы приветствуем создание этой ассоциации — научно-образовательного центра."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приветствуем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="создание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ассоциации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="научно-образовательного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="центра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			3 -> 5 [label="_1_компл"]
+}

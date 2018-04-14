@@ -1,0 +1,36 @@
+digraph SENTENCE_575 {
+	graph [label="Фестиваль пройдет с 1 по 7 марта в столице Югре — Ханты-Мансийске."]
+	node [style=filled]
+		0 [label="Фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="7
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Югре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Ханты-Мансийске
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 11 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+			2 -> 4 [label="соотнос"]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			11 -> 7 [label="огранич"]
+			5 -> 6 [label="атриб"]
+}

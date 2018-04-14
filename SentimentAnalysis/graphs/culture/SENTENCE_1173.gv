@@ -1,0 +1,67 @@
+digraph SENTENCE_1173 {
+	graph [label="Во вторник на расширенном заседании коллегии Роскомнадзора продюсер Игорь Матвиенко отметил, что многие современные рэп-композиции пропагандируют \"наркотики, секс, красивую жизнь, с этим связанную\"."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вторник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="расширенном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заседании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="коллегии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Роскомнадзора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="продюсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Игорь Матвиенко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="современные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рэп-композиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пропагандируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="наркотики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="секс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="красивую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="связанную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			7 -> 0
+			7 -> 8 [label="аппоз"]
+			7 -> 9 [label="вводн"]
+			5 -> 6 [label="_1_компл"]
+			15 -> 14 [label="_2_компл"]
+			15 -> 17 [label="_1_компл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			24 -> 25 [label="предл"]
+			9 -> 11 [label="предик"]
+			11 -> 15 [label="подч_союзн"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="_1_компл"]
+			22 -> 26 [label="опред"]
+}

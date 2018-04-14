@@ -1,0 +1,33 @@
+digraph SENTENCE_180 {
+	graph [label="Сочетание глубокой драмы с мюзиклом, носящий альтернативный характер — нечто бесподобное."]
+	node [style=filled]
+		0 [label="Сочетание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="глубокой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="драмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мюзиклом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="носящий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="альтернативный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нечто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бесподобное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			10 -> 0 [label="предик"]
+			10 -> 11 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="_2_компл"]
+			4 -> 6 [label="опред"]
+			6 -> 8 [label="_1_компл"]
+}

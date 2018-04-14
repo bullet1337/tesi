@@ -1,0 +1,36 @@
+digraph SENTENCE_1050 {
+	graph [label="Это, уверен он, принесет огромную пользу \"для собственной души и окружающих\"."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уверен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="принесет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пользу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="окружающих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="обст"]
+			12 -> 13 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+}

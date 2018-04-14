@@ -1,0 +1,39 @@
+digraph SENTENCE_163 {
+	graph [label="Не знаю, смог бы кто-либо сыграть эту роль так же как Бьорк."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто-либо
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сыграть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="_1_компл"]
+			11 -> 12 [label="сравн_союзн"]
+			9 -> 10 [label="огранич"]
+			9 -> 11 [label="сравнит"]
+			3 -> 4 [label="аналит"]
+			3 -> 5 [label="предик"]
+			3 -> 6 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+}

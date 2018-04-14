@@ -1,0 +1,54 @@
+digraph SENTENCE_720 {
+	graph [label="В такой духе спрашивают, когда мы совершаем ошибки и этот оставленный ребенок тоже был своего рода ошибкой."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="духе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спрашивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совершаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ошибки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оставленный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ребенок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ошибкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="обст"]
+			17 -> 16 [label="атриб"]
+			16 -> 15 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 9 [label="сент_соч"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 17 [label="присвяз"]
+			5 -> 7 [label="подч_союзн"]
+			9 -> 14 [label="соч_союзн"]
+}

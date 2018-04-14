@@ -1,0 +1,18 @@
+digraph SENTENCE_1100 {
+	graph [label="И это её большая заслуга."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заслуга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			0 -> 4 [label="соч_союзн"]
+}

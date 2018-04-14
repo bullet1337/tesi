@@ -1,0 +1,33 @@
+digraph SENTENCE_1011 {
+	graph [label="Помню, как его «Догвилль» перепахал, подобно взбесившемуся трактору, мое сознание."]
+	node [style=filled]
+		0 [label="Помню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Догвилль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="перепахал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="подобно
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="взбесившемуся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="трактору
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сознание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 3 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 9 [label="обст"]
+			7 -> 14 [label="предик"]
+			2 -> 7 [label="подч_союзн"]
+			0 -> 2 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			14 -> 13 [label="опред"]
+			9 -> 11 [label="предл"]
+}

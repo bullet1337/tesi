@@ -1,0 +1,48 @@
+digraph SENTENCE_956 {
+	graph [label="Более того, авторы книги подчеркивают, что икона была окружена почитанием сразу же с момента создания."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подчеркивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="икона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="окружена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="почитанием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="момента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="создания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="подч_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 10
+			10 -> 11 [label="_2_компл"]
+			10 -> 14 [label="обст"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			12 -> 13 [label="огранич"]
+			15 -> 16 [label="квазиагент"]
+			14 -> 12 [label="огранич"]
+			14 -> 15 [label="предл"]
+			0 -> 1 [label="сравнит"]
+			3 -> 4 [label="_1_компл"]
+}

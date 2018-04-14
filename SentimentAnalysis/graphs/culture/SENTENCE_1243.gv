@@ -1,0 +1,51 @@
+digraph SENTENCE_1243 {
+	graph [label="Богдан столкнулся в жизни со столькими бедами — и он сумел пройти через все испытания с честью."]
+	node [style=filled]
+		0 [label="Богдан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="столкнулся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="столькими
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бедами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сумел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пройти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="испытания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="честью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			1 -> 8 [label="сент_соч"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="атриб"]
+			15 -> 16 [label="предл"]
+			2 -> 3 [label="предл"]
+			12 -> 14 [label="предл"]
+}

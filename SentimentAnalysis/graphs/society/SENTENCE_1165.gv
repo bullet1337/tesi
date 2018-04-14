@@ -1,0 +1,48 @@
+digraph SENTENCE_1165 {
+	graph [label="На прошлой неделе они провели настоящий боксерский поединок, в котором Осташко одержал победу по очкам."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошлой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="провели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="настоящий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="боксерский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поединок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Осташко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="одержал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="победу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="очкам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+			13 -> 14 [label="_2_компл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 12 [label="сочин"]
+			0 -> 2 [label="предл"]
+}

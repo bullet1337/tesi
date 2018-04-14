@@ -1,0 +1,48 @@
+digraph SENTENCE_198 {
+	graph [label="Он всегда идет своим путем: открывает репетиции для зрителей и не хочет уезжать из Перми."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="идет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="путем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="открывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="репетиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зрителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="уезжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Перми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="обст"]
+			2 -> 6 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="обст"]
+			6 -> 10 [label="сочин"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			8 -> 9 [label="предл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_588 {
+	graph [label="Некоторые могут подумать, что это полный бред."]
+	node [style=filled]
+		0 [label="Некоторые
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="подумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="полный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бред
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="подч_союзн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 4 [label="_1_компл"]
+}

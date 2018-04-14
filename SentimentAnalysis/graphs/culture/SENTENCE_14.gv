@@ -1,0 +1,51 @@
+digraph SENTENCE_14 {
+	graph [label="Фильм \"Аамир\" рассказывает историю 13-летнего курдского мальчика из Мосула в знаменитом лагере беженцев во французском Кале."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Аамир
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="13-летнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="курдского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Мосула
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="знаменитом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лагере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="беженцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="французском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Кале
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 13 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="обст"]
+			4 -> 15 [label="обст"]
+			15 -> 17 [label="предл"]
+			5 -> 8 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			0 -> 2 [label="аппоз"]
+			9 -> 10 [label="предл"]
+}

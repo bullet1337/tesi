@@ -1,0 +1,36 @@
+digraph SENTENCE_4852 {
+	graph [label="Годзиллу показывают на уцелевшем большом экране и благодарят за спасение города."]
+	node [style=filled]
+		0 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уцелевшем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="большом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="благодарят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спасение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 5 [label="предл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			7 -> 8 [label="_2_компл"]
+}

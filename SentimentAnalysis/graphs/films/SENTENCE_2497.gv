@@ -1,0 +1,51 @@
+digraph SENTENCE_2497 {
+	graph [label="Я считаю, что есть какое-то общепринятое мнение о том, что Солярис — шедевр, а Тарковский — гениальный режиссер."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какое-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="общепринятое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Солярис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="гениальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="соч_союзн"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			11 -> 14 [label="подч_союзн"]
+			8 -> 9 [label="предл"]
+			20 -> 19 [label="опред"]
+			3 -> 4 [label="подч_союзн"]
+			4 -> 7 [label="предик"]
+			17 -> 20 [label="об_аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			9 -> 11 [label="эксплет"]
+			14 -> 12 [label="предик"]
+			14 -> 16 [label="сочин"]
+}

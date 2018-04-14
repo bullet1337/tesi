@@ -1,0 +1,33 @@
+digraph SENTENCE_1807 {
+	graph [label="Она делает это, держа втайне свою собственную стремительно наступающую слепоту."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="делает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="держа
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="втайне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="собственную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стремительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="наступающую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слепоту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 10 [label="_1_компл"]
+			10 -> 6 [label="опред"]
+			10 -> 7 [label="опред"]
+			10 -> 9 [label="опред"]
+}

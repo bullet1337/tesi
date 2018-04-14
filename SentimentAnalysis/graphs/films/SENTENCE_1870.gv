@@ -1,0 +1,24 @@
+digraph SENTENCE_1870 {
+	graph [label="Чем еще может жить человек лишенный всего?"]
+	node [style=filled]
+		0 [label="Чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_2_компл"]
+			4 -> 5 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="предик"]
+			0 -> 2 [label="сравн_союзн"]
+}

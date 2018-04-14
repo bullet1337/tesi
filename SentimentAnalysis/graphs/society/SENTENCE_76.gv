@@ -1,0 +1,36 @@
+digraph SENTENCE_76 {
+	graph [label="Летчика похоронили в его родном Воронеже, на Аллее Славы Коминтерновского кладбища."]
+	node [style=filled]
+		0 [label="Летчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="похоронили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="родном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Воронеже
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Аллее
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Славы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Коминтерновского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="кладбища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 5 [label="предл"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 7 [label="обст"]
+			1 -> 9 [label="предик"]
+			1 -> 11 [label="разъяснит"]
+			5 -> 3 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			7 -> 8 [label="предл"]
+			11 -> 10 [label="опред"]
+}

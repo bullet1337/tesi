@@ -1,0 +1,45 @@
+digraph SENTENCE_1576 {
+	graph [label="Русская церковь во время военных действий оказывала и сейчас оказывает там значительную гуманитарную помощь."]
+	node [style=filled]
+		0 [label="Русская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="военных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="действий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оказывала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="значительную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="гуманитарную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="помощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 3 [label="предл"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			6 -> 1 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="обст"]
+			6 -> 9 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			9 -> 10 [label="_2_компл"]
+			9 -> 13 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+}

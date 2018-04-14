@@ -1,0 +1,48 @@
+digraph SENTENCE_877 {
+	graph [label="В 1992 году первое место на Играх в Альбервиле заняла объединенная команда стран бывшего СССР."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1992
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Играх
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Альбервиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="заняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="объединенная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="команда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бывшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 13 [label="опред"]
+			5 -> 6 [label="предл"]
+			0 -> 2 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+			12 -> 14 [label="квазиагент"]
+			9 -> 0 [label="обст"]
+			9 -> 4 [label="_1_компл"]
+			9 -> 11 [label="предик"]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="атриб"]
+			2 -> 1 [label="опред"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+}

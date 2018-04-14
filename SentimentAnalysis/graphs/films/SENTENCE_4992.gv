@@ -1,0 +1,39 @@
+digraph SENTENCE_4992 {
+	graph [label="Вывод: Крайне неоднозначный блокбастер, не лишенный обаяния, но имеющий ряд очевидных недостатков."]
+	node [style=filled]
+		0 [label="Вывод
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Крайне
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="неоднозначный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="блокбастер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лишенный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обаяния
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имеющий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="очевидных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="недостатков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			4 -> 3 [label="опред"]
+			0 -> 8 [label="_1_компл"]
+			0 -> 10 [label="сочин"]
+			3 -> 2 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			12 -> 14 [label="квазиагент"]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="опред"]
+}

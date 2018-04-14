@@ -1,0 +1,33 @@
+digraph SENTENCE_748 {
+	graph [label="\"Например, когда он приходил в офис во время своей реабилитации."]
+	node [style=filled]
+		1 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приходил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="офис
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="реабилитации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="подч_союзн"]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			11 -> 1 [label="вводн"]
+			11 -> 3 [label="обст"]
+			11 -> 8 [label="огранич"]
+			11 -> 10 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_1312 {
+	graph [label="В службе \"Милосердие\" надеются, что за Масленицу удастся накормить блинами порядка 500 человек."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Милосердие
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="надеются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Масленицу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="удастся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="накормить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="блинами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="порядка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="500
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="обст"]
+			10 -> 11 [label="предик"]
+			13 -> 15 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			15 -> 14 [label="количест"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			12 -> 13 [label="компл_аппоз"]
+			7 -> 10 [label="подч_союзн"]
+}

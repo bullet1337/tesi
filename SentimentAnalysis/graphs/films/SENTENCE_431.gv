@@ -1,0 +1,37 @@
+digraph SENTENCE_431 {
+	graph [label="8 из 10
+Рискну озвучить э-э-э-э, несколько маргинальную точку зрения."]
+	node [style=filled]
+		0 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Рискну
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="озвучить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="э-э
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="э-э
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="несколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="маргинальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="точку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			11 -> 5 [label="вводн"]
+			11 -> 7 [label="вводн"]
+			11 -> 10 [label="опред"]
+			11 -> 12
+			10 -> 9 [label="огранич"]
+			3 -> 0
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="электив"]
+			4 -> 11 [label="_1_компл"]
+}

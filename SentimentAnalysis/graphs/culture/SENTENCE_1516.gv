@@ -1,0 +1,33 @@
+digraph SENTENCE_1516 {
+	graph [label="\"Я снимал его в двух фильмах, оба были предельно патриотичны."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оба
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="предельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="патриотичны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="присвяз"]
+			4 -> 6 [label="предл"]
+			11 -> 10 [label="огранич"]
+			6 -> 5 [label="количест"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 9 [label="сент_соч"]
+}

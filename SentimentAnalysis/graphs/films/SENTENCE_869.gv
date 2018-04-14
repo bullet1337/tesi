@@ -1,0 +1,25 @@
+digraph SENTENCE_869 {
+	graph [label="Безусловно,  10 из 10
+Она мечатала танцевать."]
+	node [style=filled]
+		0 [label="Безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Она
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="мечатала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="танцевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="электив"]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+}

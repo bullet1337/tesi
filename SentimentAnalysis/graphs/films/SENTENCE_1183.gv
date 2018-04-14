@@ -1,0 +1,56 @@
+digraph SENTENCE_1183 {
+	graph [label="Лично у меня нет сомнений в том, что на режиссера оказала влияние картина Тарковского, снятая на его Родине."]
+	node [style=filled]
+		0 [label="Лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сомнений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="влияние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="снятая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Родине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 11 [label="подч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предл"]
+			19 -> 18 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			17 -> 19 [label="предл"]
+			6 -> 8 [label="эксплет"]
+			4 -> 5 [label="_1_компл"]
+			16 -> 17 [label="обст"]
+			13 -> 14 [label="аппоз"]
+			13 -> 16 [label="опред"]
+			9 -> 10 [label="предл"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+}

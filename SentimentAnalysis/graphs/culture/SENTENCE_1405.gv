@@ -1,0 +1,52 @@
+digraph SENTENCE_1405 {
+	graph [label="Круз публиковался в Альфа-книге с 2008 года, он автор цикла романов \"Эпоха мертвых\", \"У Великой реки\", \"Тьма\"."]
+	node [style=filled]
+		0 [label="Круз
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="публиковался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Альфа-книге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="2008
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="цикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="романов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Эпоха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="мертвых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="У
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Великой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="реки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Тьма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			4 -> 6 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			8 -> 9 [label="об_аппоз"]
+			18 -> 20 [label="предл"]
+			20 -> 19 [label="опред"]
+			20 -> 24 [label="аппоз"]
+			11 -> 13 [label="ном_аппоз"]
+}

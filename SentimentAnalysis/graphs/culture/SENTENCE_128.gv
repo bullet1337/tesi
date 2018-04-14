@@ -1,0 +1,33 @@
+digraph SENTENCE_128 {
+	graph [label="В масштабной программе гала-концерта примут участие самые яркие балетные звезды."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="масштабной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="гала-концерта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="примут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="яркие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="балетные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="звезды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 2 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="_1_несобст_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="предик"]
+}

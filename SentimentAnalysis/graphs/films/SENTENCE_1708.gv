@@ -1,0 +1,18 @@
+digraph SENTENCE_1708 {
+	graph [label="Окружающая реальность показана излишне гротескно."]
+	node [style=filled]
+		0 [label="Окружающая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="излишне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гротескно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст"]
+			4 -> 3 [label="огранич"]
+}

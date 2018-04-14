@@ -1,0 +1,90 @@
+digraph SENTENCE_543 {
+	graph [label="В мае прошлого года в московском театре \"Гоголь-центр\" и дома у его худрука Кирилла Серебренникова прошли обыски в рамках дела о хищении госсредств в основанной им некоммерческой организации \"Седьмая студия\"."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прошлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="московском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Гоголь-центр
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дома
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="худрука
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Кирилла Серебренникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="обыски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="хищении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="госсредств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="основанной
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="некоммерческой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="организации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Седьмая
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="студия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 16 [label="соч_союзн"]
+			28 -> 25 [label="опред"]
+			28 -> 27 [label="опред"]
+			21 -> 22 [label="предл"]
+			3 -> 2 [label="опред"]
+			4 -> 6 [label="предл"]
+			12 -> 14 [label="предл"]
+			31 -> 30 [label="опред"]
+			16 -> 11 [label="предик"]
+			16 -> 12 [label="обст"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="обст"]
+			16 -> 21 [label="_2_компл"]
+			18 -> 19 [label="предл"]
+			22 -> 23 [label="_1_компл"]
+			22 -> 24 [label="атриб"]
+			8 -> 0 [label="обст"]
+			8 -> 10 [label="сент_соч"]
+			8 -> 31 [label="сочин"]
+			19 -> 20 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			24 -> 28 [label="предл"]
+			0 -> 1 [label="предл"]
+			0 -> 4 [label="сочин"]
+			1 -> 3 [label="атриб"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 15 [label="аппоз"]
+			25 -> 26 [label="агент"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_344 {
+	graph [label="Гуф соглашается на баттл при условии, если организатор \"Версуса\" Ресторатор (Александр Тимарцев) заплатит ему два миллиона рублей."]
+	node [style=filled]
+		0 [label="Гуф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="соглашается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="баттл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="условии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="организатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Версуса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Ресторатор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Александр Тимарцев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="заплатит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			19 -> 18 [label="количест"]
+			19 -> 20 [label="квазиагент"]
+			8 -> 10 [label="аппоз"]
+			8 -> 14 [label="об_аппоз"]
+			10 -> 12 [label="аппоз"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="обст"]
+			7 -> 16 [label="подч_союзн"]
+			16 -> 8 [label="предик"]
+			16 -> 17 [label="неакт_компл"]
+			16 -> 19 [label="_1_компл"]
+			5 -> 7 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+}

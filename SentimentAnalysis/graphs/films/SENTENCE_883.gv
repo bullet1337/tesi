@@ -1,0 +1,30 @@
+digraph SENTENCE_883 {
+	graph [label="Это есть реализм, а не красочная цветастенькая голливудская мишура."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="реализм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="красочная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="цветастенькая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="голливудская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мишура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="огранич"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			1 -> 4 [label="сочин"]
+			9 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			4 -> 9 [label="соч_союзн"]
+}

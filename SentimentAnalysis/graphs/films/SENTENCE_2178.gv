@@ -1,0 +1,21 @@
+digraph SENTENCE_2178 {
+	graph [label="В фильме есть несколько революционных моментов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="революционных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="моментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 5 [label="предик"]
+			5 -> 3 [label="количест"]
+			5 -> 4 [label="опред"]
+}

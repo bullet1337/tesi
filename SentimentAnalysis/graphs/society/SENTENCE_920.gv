@@ -1,0 +1,51 @@
+digraph SENTENCE_920 {
+	graph [label="фотографии и видео, на которых их питомцы запечатлены в необычных и смешных позах во время сна."]
+	node [style=filled]
+		0 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="видео
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="питомцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="запечатлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="необычных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смешных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="позах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			7 -> 6 [label="_1_компл"]
+			9 -> 13 [label="предл"]
+			13 -> 10 [label="опред"]
+			1 -> 2 [label="соч_союзн"]
+			10 -> 11 [label="сочин"]
+			4 -> 5 [label="предл"]
+			8 -> 0 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_2_компл"]
+			8 -> 14 [label="обст"]
+			8 -> 16 [label="_1_компл"]
+			14 -> 15 [label="предл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_875 {
+	graph [label="Ранее СМИ сообщили, что мировой суд оштрафовал \"Пионер\" на 80 тысяч рублей за показ без прокатного удостоверения картины \"Диван Сталина\"."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оштрафовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Пионер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="80
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="показ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="прокатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="удостоверения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Диван
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 12 [label="количест"]
+			13 -> 14 [label="квазиагент"]
+			4 -> 7 [label="подч_союзн"]
+			20 -> 22 [label="_1_компл"]
+			17 -> 19 [label="предл"]
+			15 -> 16 [label="предл"]
+			11 -> 13 [label="предл"]
+			22 -> 23 [label="атриб"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 11 [label="обст"]
+			7 -> 15 [label="_2_компл"]
+			7 -> 17 [label="обст"]
+			7 -> 20 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+			6 -> 5 [label="опред"]
+}

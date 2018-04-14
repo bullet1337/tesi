@@ -1,0 +1,52 @@
+digraph SENTENCE_1703 {
+	graph [label="За существование приходится бороться, работать на трёх работах в две смены, или того хуже — бежать от режима."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="существование
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приходится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бороться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трёх
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="работах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бежать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="режима
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="сравнит"]
+			6 -> 8 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="обст"]
+			9 -> 11 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 15 [label="соч_союзн"]
+			8 -> 7 [label="количест"]
+			11 -> 10 [label="количест"]
+			17 -> 18 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			2 -> 3 [label="предик"]
+			2 -> 13 [label="сент_соч"]
+}

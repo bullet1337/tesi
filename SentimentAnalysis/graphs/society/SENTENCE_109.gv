@@ -1,0 +1,63 @@
+digraph SENTENCE_109 {
+	graph [label="На сайте телеканала сообщается, что две журналистки, работающие в Госдуме, на условиях анонимности рассказали \"Дождю\" о домогательствах со стороны парламентария."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="телеканала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="журналистки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="работающие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Госдуме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="условиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="анонимности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Дождю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="домогательствах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="парламентария
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			5 -> 16 [label="подч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+			16 -> 7 [label="предик"]
+			16 -> 15 [label="_2_компл"]
+			16 -> 18 [label="_2_компл"]
+			16 -> 20 [label="_3_компл"]
+			0 -> 1 [label="предл"]
+			22 -> 23 [label="предл"]
+			21 -> 22 [label="атриб"]
+			9 -> 10 [label="обст"]
+			9 -> 13 [label="обст"]
+			13 -> 14 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			23 -> 24 [label="квазиагент"]
+			7 -> 6 [label="количест"]
+			7 -> 9 [label="опред"]
+}

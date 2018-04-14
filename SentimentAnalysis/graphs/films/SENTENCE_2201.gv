@@ -1,0 +1,71 @@
+digraph SENTENCE_2201 {
+	graph [label="Фильм без сюжета как такового, но смотрится на одном дыхании, каждый кадр поражает и трогает, буквально врезаясь в память с первого же просмотра."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такового
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="смотрится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="одном
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дыхании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кадр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="поражает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="трогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="буквально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="врезаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="память
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			3 -> 4 [label="сравн_союзн"]
+			13 -> 12 [label="опред"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="_1_компл"]
+			2 -> 3 [label="сравнит"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 14 [label="сент_соч"]
+			8 -> 10 [label="предл"]
+			1 -> 2 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			20 -> 21 [label="предл"]
+			25 -> 23 [label="опред"]
+			14 -> 13 [label="предик"]
+			14 -> 15 [label="сочин"]
+			0 -> 1 [label="атриб"]
+			0 -> 6 [label="аппоз"]
+			22 -> 25 [label="предл"]
+			16 -> 19 [label="обст"]
+			23 -> 24 [label="огранич"]
+}

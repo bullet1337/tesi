@@ -1,0 +1,42 @@
+digraph SENTENCE_900 {
+	graph [label="Мои представления о морали слишком расходятся с представлениями автор \"Лета\", — прокомментировал РИА Новости Рыбин."]
+	node [style=filled]
+		0 [label="Мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="представления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="морали
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="расходятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="представлениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Лета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="прокомментировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Рыбин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 14 [label="вводн"]
+			8 -> 10 [label="_1_компл"]
+			14 -> 8 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="разъяснит"]
+			6 -> 7 [label="предл"]
+			2 -> 3 [label="предл"]
+}

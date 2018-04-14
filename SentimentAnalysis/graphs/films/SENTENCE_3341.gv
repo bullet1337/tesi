@@ -1,0 +1,63 @@
+digraph SENTENCE_3341 {
+	graph [label="Вот только кроме вопроса, за что съели Кука, у меня добавился еще один — За что невзлюбил тренер Тарасов хоккеиста Харламова?"]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопроса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="съели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кука
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="добавился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="За
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="невзлюбил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тренер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="хоккеиста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="предл"]
+			1 -> 0 [label="огранич"]
+			21 -> 22 [label="аппоз"]
+			18 -> 19 [label="предик"]
+			12 -> 10 [label="_1_компл"]
+			12 -> 16 [label="разъяснит"]
+			10 -> 11 [label="предл"]
+			16 -> 14 [label="количест"]
+			16 -> 17 [label="предл"]
+			14 -> 13 [label="огранич"]
+			7 -> 2 [label="обст"]
+			7 -> 5 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="разъяснит"]
+			7 -> 18 [label="вводн"]
+			19 -> 20 [label="аппоз"]
+			19 -> 21 [label="сочин"]
+}

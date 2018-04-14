@@ -1,0 +1,29 @@
+digraph SENTENCE_807 {
+	graph [label="К тому же кино слишком уж серьезное для мюзикла."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="серьезное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мюзикла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="огранич"]
+			4 -> 5 [label="огранич"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+}

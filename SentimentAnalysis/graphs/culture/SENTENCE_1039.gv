@@ -1,0 +1,63 @@
+digraph SENTENCE_1039 {
+	graph [label="Сейчас пока только наметки, но я надеюсь, что в результате будет представлено много разных зон — драматических, комических, детективных\", — сказал Деревянко."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наметки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="надеюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="представлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="драматических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="комических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="детективных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Деревянко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="огранич"]
+			10 -> 11 [label="предл"]
+			12 -> 10 [label="обст"]
+			12 -> 13
+			12 -> 14 [label="предик"]
+			5 -> 7 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сент_соч"]
+			3 -> 26 [label="релят"]
+			7 -> 6 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			9 -> 12 [label="подч_союзн"]
+			14 -> 16 [label="_1_компл"]
+			26 -> 18 [label="_1_компл"]
+			26 -> 27 [label="предик"]
+			20 -> 22 [label="сочин"]
+			16 -> 15 [label="опред"]
+			18 -> 20 [label="сочин"]
+}

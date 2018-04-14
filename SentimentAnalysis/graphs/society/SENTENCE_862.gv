@@ -1,0 +1,36 @@
+digraph SENTENCE_862 {
+	graph [label="Сотрудники МЧС отмечают, что подобные спасательные операции проводятся на Камчатке нечасто."]
+	node [style=filled]
+		0 [label="Сотрудники
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="отмечают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подобные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="спасательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="операции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проводятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Камчатке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="нечасто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="обст"]
+			8 -> 11 [label="обст"]
+			4 -> 8 [label="подч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+}

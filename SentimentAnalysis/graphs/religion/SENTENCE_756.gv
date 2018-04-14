@@ -1,0 +1,47 @@
+digraph SENTENCE_756 {
+	graph [label="Он также на русском языке поблагодарил президента РФ Владимира Путина, руководство страны и Русскую православную Церковь."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="русском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поблагодарил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="президента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Владимира Путина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="руководство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Русскую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="православную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Церковь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="сочин"]
+			12 -> 15 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="аппоз"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+}

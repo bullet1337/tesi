@@ -1,0 +1,26 @@
+digraph SENTENCE_149 {
+	graph [label="А такое просто по определению нельзя назвать обычным!"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="определению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обычным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			1 -> 5 [label="соч_союзн"]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+}

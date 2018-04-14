@@ -1,0 +1,38 @@
+digraph SENTENCE_1287 {
+	graph [label="В СПЧ выступили за пересмотр в апелляционной инстанции приговора по этому делу."]
+	node [style=filled]
+		0 [label="В
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="СПЧ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="выступили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пересмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="апелляционной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="инстанции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="приговора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="делу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="обст"]
+			2 -> 8 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 7 [label="предл"]
+}

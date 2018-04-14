@@ -1,0 +1,24 @@
+digraph SENTENCE_2158 {
+	graph [label="А как интересно следить за движением камеры!"]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="следить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="движением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="камеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 6 [label="разъяснит"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			0 -> 2 [label="соч_союзн"]
+}

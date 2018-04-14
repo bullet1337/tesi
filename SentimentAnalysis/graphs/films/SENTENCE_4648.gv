@@ -1,0 +1,45 @@
+digraph SENTENCE_4648 {
+	graph [label="За ними интересно наблюдать, есть сцены, где им сопереживаешь, они умиляют, веселят и расстраивают."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ними
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наблюдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сопереживаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="умиляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="веселят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="расстраивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="_1_компл"]
+			6 -> 10 [label="релят"]
+			2 -> 3 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			13 -> 0 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="сочин"]
+			5 -> 6 [label="предик"]
+			16 -> 17 [label="соч_союзн"]
+}

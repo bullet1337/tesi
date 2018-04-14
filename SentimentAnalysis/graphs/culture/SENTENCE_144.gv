@@ -1,0 +1,42 @@
+digraph SENTENCE_144 {
+	graph [label="Дмитрий Бертман ставил этот спектакль более 20 лет тому назад для примы \"Геликон-оперы\" Наталии Загоринской."]
+	node [style=filled]
+		0 [label="Дмитрий Бертман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ставил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="назад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="примы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Геликон-оперы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Наталии Загоринской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 14 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 8 [label="обст"]
+			1 -> 9 [label="_2_компл"]
+			1 -> 12 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			4 -> 6 [label="сравнит"]
+			3 -> 2 [label="опред"]
+			8 -> 4 [label="предл"]
+			8 -> 7 [label="атриб"]
+			6 -> 5 [label="количест"]
+}

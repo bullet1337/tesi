@@ -1,0 +1,57 @@
+digraph SENTENCE_3777 {
+	graph [label="В итоге имеем не самый лучший фильм про тяжелую и вредную для здоровья, но объективно совершенно бесполезную профессию."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имеем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лучший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тяжелую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вредную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="объективно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="бесполезную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="профессию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			9 -> 10 [label="соч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 6 [label="_1_компл"]
+			2 -> 7 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			8 -> 9 [label="сочин"]
+			8 -> 14 [label="сент_соч"]
+			4 -> 3 [label="огранич"]
+			18 -> 8 [label="опред"]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+			14 -> 17 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			7 -> 18 [label="предл"]
+}

@@ -1,0 +1,62 @@
+digraph SENTENCE_303 {
+	graph [label="Да какой тут к чёрту хэппи энд, забудьте, ведь это же Ларс фон Триер, вам придётся абстрагироваться от голливудских стереотипов."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="какой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чёрту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хэппи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="энд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="забудьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="придётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="абстрагироваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="голливудских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="стереотипов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="аппоз"]
+			15 -> 14
+			8 -> 0 [label="вводн"]
+			8 -> 6 [label="_1_компл"]
+			13 -> 11 [label="предик"]
+			13 -> 15 [label="аппоз"]
+			3 -> 4 [label="предл"]
+			6 -> 1 [label="опред"]
+			6 -> 2 [label="обст"]
+			6 -> 3 [label="вводн"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="огранич"]
+			19 -> 20 [label="_1_компл"]
+			18 -> 13 [label="предик"]
+			18 -> 17 [label="_1_компл"]
+			18 -> 19 [label="_1_компл"]
+			20 -> 22 [label="предл"]
+			22 -> 21 [label="опред"]
+}

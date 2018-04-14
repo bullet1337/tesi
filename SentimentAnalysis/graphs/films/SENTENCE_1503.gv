@@ -1,0 +1,39 @@
+digraph SENTENCE_1503 {
+	graph [label="Подруга Квальда всегда рядом, но похоже, что в ней не нуждается Сельма."]
+	node [style=filled]
+		0 [label="Подруга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Квальда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="похоже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нуждается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="сочин"]
+			8 -> 12 [label="подч_союзн"]
+			12 -> 9 [label="_1_компл"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предик"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 6 [label="соч_союзн"]
+			6 -> 8 [label="предик"]
+			9 -> 10 [label="предл"]
+}

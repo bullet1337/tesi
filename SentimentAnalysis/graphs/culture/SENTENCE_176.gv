@@ -1,0 +1,24 @@
+digraph SENTENCE_176 {
+	graph [label="Март — самый насыщенный месяц фестиваля \"Золотая Маска\"."]
+	node [style=filled]
+		0 [label="Март
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="насыщенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Золотая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Маска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			8 -> 0 [label="вводн"]
+			8 -> 4 [label="предик"]
+			8 -> 7 [label="опред"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_767 {
+	graph [label="Он напомнил, что за последние годы значительно выросло качество и доступность московского образования."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="напомнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="значительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выросло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="качество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="доступность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="московского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 8 [label="подч_союзн"]
+			8 -> 4 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="предик"]
+			9 -> 10 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			11 -> 13 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+}

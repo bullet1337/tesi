@@ -1,0 +1,30 @@
+digraph SENTENCE_2646 {
+	graph [label="Ну и Гослинг весь такой гуляет, глядит так необыкновенно!"]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гослинг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гуляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="глядит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="необыкновенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="вводн"]
+			1 -> 4 [label="соч_союзн"]
+			1 -> 7 [label="соч_союзн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="суб_копр"]
+			9 -> 8 [label="огранич"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 9 [label="обст"]
+}

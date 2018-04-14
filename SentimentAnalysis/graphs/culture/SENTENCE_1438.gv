@@ -1,0 +1,24 @@
+digraph SENTENCE_1438 {
+	graph [label="В немецкой столице открывается 68-й Берлинский кинофестиваль."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="немецкой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="столице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="открывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="68-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Берлинский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			3 -> 6 [label="разъяснит"]
+			6 -> 5 [label="опред"]
+			0 -> 2 [label="предл"]
+}

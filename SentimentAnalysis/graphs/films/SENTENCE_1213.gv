@@ -1,0 +1,49 @@
+digraph SENTENCE_1213 {
+	graph [label="Оно всё целиковое, на что работает известная доля сценарных условностей, не позволяя истории распадаться на составляющие."]
+	node [style=filled]
+		0 [label="Оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="целиковое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="доля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сценарных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="условностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="позволяя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="распадаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="составляющие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 15 [label="_1_компл"]
+			2 -> 6 [label="примыкат"]
+			15 -> 16 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="предик"]
+			6 -> 13 [label="обст"]
+			16 -> 17 [label="предл"]
+}

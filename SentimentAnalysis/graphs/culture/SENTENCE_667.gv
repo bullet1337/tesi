@@ -1,0 +1,51 @@
+digraph SENTENCE_667 {
+	graph [label="— Мы хотим рассказать о Тургеневе, его жизни и творчестве языком современного театра, используя драму, пластику, видео\"."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хотим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рассказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Тургеневе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="творчестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="языком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="современного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="используя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="драму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="пластику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="видео
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 11 [label="_2_компл"]
+			15 -> 16 [label="_1_компл"]
+			3 -> 4 [label="_3_компл"]
+			3 -> 8 [label="_1_компл"]
+			3 -> 15 [label="обст"]
+			13 -> 12 [label="опред"]
+			16 -> 18 [label="сочин"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			9 -> 10 [label="соч_союзн"]
+			8 -> 7 [label="квазиагент"]
+			8 -> 9 [label="сочин"]
+			4 -> 5 [label="предл"]
+			11 -> 13 [label="квазиагент"]
+			18 -> 20 [label="сочин"]
+}

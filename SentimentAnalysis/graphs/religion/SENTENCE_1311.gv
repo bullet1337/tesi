@@ -1,0 +1,52 @@
+digraph SENTENCE_1311 {
+	graph [label="Кормить бездомных в \"Ангаре спасения\" планируют в течение всей недели, так что угощение можно приносить каждый день."]
+	node [style=filled]
+		0 [label="Кормить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бездомных
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Ангаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="планируют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="угощение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="приносить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			9 -> 11 [label="квазиагент"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="обст"]
+			7 -> 13 [label="обст"]
+			11 -> 10 [label="опред"]
+			16 -> 17 [label="предик"]
+			19 -> 18 [label="опред"]
+			17 -> 19 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="обст"]
+			2 -> 4 [label="предл"]
+}

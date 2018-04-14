@@ -1,0 +1,57 @@
+digraph SENTENCE_427 {
+	graph [label="Оно показывает людей, оно показывает ситуации, оно воспевает силу человека, идущего к своей цели, его характер и мощь."]
+	node [style=filled]
+		0 [label="Оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="воспевает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="силу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="идущего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="цели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="характер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="мощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="сент_соч"]
+			10 -> 11 [label="квазиагент"]
+			20 -> 21 [label="соч_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 19 [label="сент_соч"]
+			19 -> 18 [label="квазиагент"]
+			19 -> 20 [label="сочин"]
+			16 -> 15 [label="опред"]
+			14 -> 16 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="сент_соч"]
+			13 -> 14 [label="_2_компл"]
+			11 -> 13 [label="опред"]
+}

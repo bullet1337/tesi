@@ -1,0 +1,27 @@
+digraph SENTENCE_398 {
+	graph [label="Она тоже теряет свет — ей грозит полная слепота."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="теряет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="свет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="грозит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="полная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слепота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			6 -> 5 [label="_2_компл"]
+			6 -> 8 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="сент_соч"]
+}

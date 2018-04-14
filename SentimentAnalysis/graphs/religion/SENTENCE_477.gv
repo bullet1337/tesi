@@ -1,0 +1,45 @@
+digraph SENTENCE_477 {
+	graph [label="Пять погибших женщин в Прощеное воскресенье – это Вера Моргунова, Людмила Щербакова (Леуткина), Ирина Мелькомова, Вера Блинникова и Надежда Терлиян."]
+	node [style=filled]
+		0 [label="Пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Вера Моргунова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Людмила Щербакова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Леуткина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Ирина Мелькомова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Вера Блинникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Надежда Терлиян
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 12 [label="аппоз"]
+			2 -> 0 [label="количест"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="атриб"]
+			15 -> 17 [label="сочин"]
+			17 -> 18 [label="сочин"]
+			7 -> 2 [label="пролепт"]
+			3 -> 5 [label="предл"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="сочин"]
+			8 -> 15 [label="разъяснит"]
+			5 -> 4 [label="опред"]
+			18 -> 19 [label="соч_союзн"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1470 {
+	graph [label="Жюри основного конкурса возглавляет известный немецкий режиссер Том Тыквер."]
+	node [style=filled]
+		0 [label="Жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="основного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="возглавляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="немецкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Том Тыквер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			2 -> 1 [label="опред"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="аппоз"]
+			0 -> 2 [label="атриб"]
+}

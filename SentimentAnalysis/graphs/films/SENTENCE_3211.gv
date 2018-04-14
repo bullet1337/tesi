@@ -1,0 +1,36 @@
+digraph SENTENCE_3211 {
+	graph [label="Друзья, неужели вам ЭТО действительно нравиться или вы просто разыгрываете политкорректность?!"]
+	node [style=filled]
+		0 [label="Друзья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неужели
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ЭТО
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="действительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нравиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="разыгрываете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="политкорректность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="_1_компл"]
+			6 -> 2 [label="огранич"]
+			6 -> 3 [label="дат_субъект"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="сент_соч"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			7 -> 10 [label="соч_союзн"]
+}

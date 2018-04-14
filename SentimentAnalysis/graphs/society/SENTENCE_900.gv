@@ -1,0 +1,27 @@
+digraph SENTENCE_900 {
+	graph [label="Атмосферное давление повысится до 762 миллиметров ртутного столба."]
+	node [style=filled]
+		0 [label="Атмосферное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="давление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="повысится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="762
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="миллиметров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ртутного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="столба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			1 -> 0 [label="опред"]
+			5 -> 4 [label="количест"]
+			5 -> 7 [label="атриб"]
+			3 -> 5 [label="предл"]
+}

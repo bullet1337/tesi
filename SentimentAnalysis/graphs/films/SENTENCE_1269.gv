@@ -1,0 +1,63 @@
+digraph SENTENCE_1269 {
+	graph [label="Причём она так хотела сыграть в этом фильме фон Триера, что тот даже переписал сценарий, чтобы Денёв в нём сыграла."]
+	node [style=filled]
+		0 [label="Причём
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хотела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сыграть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="переписал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нём
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="обст"]
+			11 -> 14 [label="подч_союзн"]
+			19 -> 20 [label="предл"]
+			9 -> 8
+			0 -> 3 [label="соч_союзн"]
+			17 -> 21 [label="подч_союзн"]
+			21 -> 18 [label="предик"]
+			21 -> 19 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="обст"]
+			4 -> 11 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="аппоз"]
+}

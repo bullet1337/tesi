@@ -1,0 +1,30 @@
+digraph SENTENCE_8 {
+	graph [label="Пенелопа Крус убийца хороших и добрых детей и заботливых мам."]
+	node [style=filled]
+		0 [label="Пенелопа Крус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="убийца
+S" color="" fillcolor=red penwidth=1 shape=ellipse]
+		2 [label="хороших
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="добрых
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		5 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заботливых
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		8 [label="мам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			3 -> 4 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 5 [label="_1_компл"]
+			2 -> 3 [label="сочин"]
+			5 -> 2 [label="опред"]
+			5 -> 6 [label="сочин"]
+			6 -> 8 [label="соч_союзн"]
+}

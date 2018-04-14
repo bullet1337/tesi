@@ -1,0 +1,47 @@
+digraph SENTENCE_706 {
+	graph [label="А зная, что это её первая крупная работа в кино, ещё более удивительная её игра."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="первая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="крупная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="работа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ещё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="удивительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			3 -> 8 [label="подч_союзн"]
+			9 -> 10 [label="предл"]
+			13 -> 12 [label="огранич"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="квазиагент"]
+			8 -> 4 [label="предик"]
+			8 -> 5 [label="квазиагент"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 16 [label="сочин"]
+}

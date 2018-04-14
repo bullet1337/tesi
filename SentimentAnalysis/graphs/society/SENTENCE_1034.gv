@@ -1,0 +1,51 @@
+digraph SENTENCE_1034 {
+	graph [label="Губернатор Краснодарского края Вениамин Кондратьев поддержал инициативу жителей Горячего Ключа о присвоении их городу звания воинской славы."]
+	node [style=filled]
+		0 [label="Губернатор
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Краснодарского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Вениамин Кондратьев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="поддержал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="инициативу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Горячего
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Ключа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="присвоении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="городу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="звания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="воинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="славы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_2_компл"]
+			10 -> 13 [label="сочин"]
+			13 -> 15 [label="_1_компл"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			6 -> 8 [label="_1_компл"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			12 -> 11 [label="атриб"]
+			5 -> 6 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+}

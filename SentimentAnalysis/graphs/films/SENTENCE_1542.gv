@@ -1,0 +1,18 @@
+digraph SENTENCE_1542 {
+	graph [label="Прав бездушный прокурор — Сельма эгоистична."]
+	node [style=filled]
+		0 [label="Прав
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бездушный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прокурор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="эгоистична
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предик"]
+			0 -> 5 [label="разъяснит"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="аппоз"]
+}

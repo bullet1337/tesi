@@ -1,0 +1,27 @@
+digraph SENTENCE_1304 {
+	graph [label="\"Ангар спасения\" — это центр комплексной помощи бездомным людям."]
+	node [style=filled]
+		1 [label="Ангар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="центр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="комплексной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бездомным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 6 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="сент_соч"]
+}

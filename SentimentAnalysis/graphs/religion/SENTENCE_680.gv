@@ -1,0 +1,60 @@
+digraph SENTENCE_680 {
+	graph [label="Как следует из заявления Резника, с просьбой о передаче Сампсониевского собора РПЦ к городским властям обратилась Санкт-Петербургская епархия РПЦ."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="следует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заявления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Резника
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просьбой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="передаче
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сампсониевского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="собора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="городским
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="властям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обратилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Санкт-Петербургская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="епархия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="вводн"]
+			2 -> 3 [label="предл"]
+			2 -> 6 [label="сочин"]
+			2 -> 16 [label="вводн"]
+			2 -> 18 [label="предик"]
+			16 -> 17 [label="предик"]
+			13 -> 15 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 12 [label="_2_компл"]
+			9 -> 13 [label="_3_компл"]
+			0 -> 1 [label="сравн_союзн"]
+			3 -> 4 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+			6 -> 7 [label="предл"]
+			15 -> 14 [label="опред"]
+			18 -> 19 [label="квазиагент"]
+}

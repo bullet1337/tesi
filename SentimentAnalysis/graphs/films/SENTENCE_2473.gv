@@ -1,0 +1,39 @@
+digraph SENTENCE_2473 {
+	graph [label="Итог: однобокий фильм, снятый с одной конкретной целью, документальным называть его нельзя."]
+	node [style=filled]
+		0 [label="Итог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="однобокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="снятый
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="конкретной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="целью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="документальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="называть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="обст"]
+			12 -> 11 [label="_2_компл"]
+			12 -> 13 [label="_1_компл"]
+			9 -> 7 [label="количест"]
+			9 -> 8 [label="опред"]
+			9 -> 12 [label="_1_компл"]
+			6 -> 9 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="опред"]
+			3 -> 14 [label="сент_соч"]
+}

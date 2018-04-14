@@ -1,0 +1,18 @@
+digraph SENTENCE_2428 {
+	graph [label="Игра актеров не сильно впечатляющая."]
+	node [style=filled]
+		0 [label="Игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="впечатляющая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 4 [label="опред"]
+			4 -> 3 [label="обст"]
+}

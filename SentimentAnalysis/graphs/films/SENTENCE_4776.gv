@@ -1,0 +1,39 @@
+digraph SENTENCE_4776 {
+	graph [label="Нелепым образом их арестовывают едва они нашли дискету и вышли на улицу."]
+	node [style=filled]
+		0 [label="Нелепым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="арестовывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="едва
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нашли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дискету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вышли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="улицу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="соч_союзн"]
+			3 -> 1 [label="вводн"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+}

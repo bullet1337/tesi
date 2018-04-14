@@ -1,0 +1,33 @@
+digraph SENTENCE_352 {
+	graph [label="До этого по центру города прошли участники народной самообороны Севастополя."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="центру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="народной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="самообороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Севастополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="предик"]
+			2 -> 3 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			3 -> 4 [label="квазиагент"]
+}

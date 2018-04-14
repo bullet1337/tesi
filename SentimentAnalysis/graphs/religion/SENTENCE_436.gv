@@ -1,0 +1,42 @@
+digraph SENTENCE_436 {
+	graph [label="С 2011 по 2016 годы Явлинский руководил фракцией \"Яблоко\" в законодательном собрании Санкт-Петербурга."]
+	node [style=filled]
+		0 [label="С
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="годы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Явлинский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="руководил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фракцией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Яблоко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="законодательном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="собрании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Санкт-Петербурга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			4 -> 3 [label="опред"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			2 -> 4 [label="предл"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="соотнос"]
+			7 -> 9 [label="ном_аппоз"]
+			11 -> 13 [label="предл"]
+}

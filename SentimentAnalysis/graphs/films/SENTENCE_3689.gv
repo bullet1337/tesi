@@ -1,0 +1,72 @@
+digraph SENTENCE_3689 {
+	graph [label="Теперь, чуть ли не на каждом шагу слышу: «Легенда N17 — шедевр»; «Наконец то русские научились снимать кино» и т. п. Чему вы восхищаетесь?"]
+	node [style=filled]
+		0 [label="Теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чуть
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="каждом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шагу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="слышу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Легенда N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Наконец
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="русские
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="научились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="т
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="п
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Чему
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="восхищаетесь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			25 -> 26 [label="соч_союзн"]
+			18 -> 19 [label="огранич"]
+			22 -> 23 [label="_1_компл"]
+			23 -> 25 [label="сочин"]
+			4 -> 2 [label="огранич"]
+			8 -> 0 [label="обст"]
+			8 -> 5 [label="обст"]
+			8 -> 21 [label="сент_соч"]
+			32 -> 30 [label="_1_компл"]
+			32 -> 31 [label="предик"]
+			7 -> 6 [label="опред"]
+			2 -> 3 [label="огранич"]
+			26 -> 28 [label="квазиагент"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="предл"]
+			11 -> 14 [label="сочин"]
+			11 -> 12 [label="нум_аппоз"]
+			21 -> 11 [label="предик"]
+			21 -> 18 [label="обст"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 32 [label="сент_соч"]
+}

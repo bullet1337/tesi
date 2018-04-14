@@ -1,0 +1,36 @@
+digraph SENTENCE_5012 {
+	graph [label="Вернее плохо, так как там, где главный герой, все вокруг дохнут."]
+	node [style=filled]
+		0 [label="Вернее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вокруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дохнут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="эксплет"]
+			0 -> 3 [label="сравнит"]
+			13 -> 0 [label="_1_компл"]
+			13 -> 7 [label="обст"]
+			13 -> 9 [label="предик"]
+			13 -> 12 [label="обст"]
+			9 -> 8 [label="опред"]
+			4 -> 5 [label="сравн_союзн"]
+			12 -> 11 [label="огранич"]
+}

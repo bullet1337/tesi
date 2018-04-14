@@ -1,0 +1,45 @@
+digraph SENTENCE_3023 {
+	graph [label="Сыграли, вероятно, правдоподобно, публика высказала респект и уважуху, за нетрадиционных никто принимать не стал."]
+	node [style=filled]
+		0 [label="Сыграли
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="вероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правдоподобно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="публика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="высказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="респект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="уважуху
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нетрадиционных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="принимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="обст"]
+			7 -> 17 [label="сент_соч"]
+			8 -> 9 [label="сочин"]
+			0 -> 4 [label="разъяснит"]
+			17 -> 14 [label="предик"]
+			17 -> 15 [label="_1_компл"]
+			17 -> 16 [label="огранич"]
+			12 -> 13 [label="предл"]
+			4 -> 2 [label="вводн"]
+			4 -> 6 [label="предик"]
+			4 -> 7 [label="сент_соч"]
+			9 -> 10 [label="соч_союзн"]
+}

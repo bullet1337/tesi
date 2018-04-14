@@ -1,0 +1,30 @@
+digraph SENTENCE_645 {
+	graph [label="\"Пост – это есть и самое настоящее крестоношение, — продолжил священник."]
+	node [style=filled]
+		1 [label="Пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="крестоношение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="продолжил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="священник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 8 [label="присвяз"]
+			4 -> 11 [label="вводн"]
+			3 -> 1 [label="пролепт"]
+			11 -> 12 [label="предик"]
+			8 -> 5 [label="огранич"]
+			8 -> 7 [label="опред"]
+}

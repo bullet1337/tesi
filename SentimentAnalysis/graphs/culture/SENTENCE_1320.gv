@@ -1,0 +1,99 @@
+digraph SENTENCE_1320 {
+	graph [label="Так, милиционер на лошади из видео на песню \"В Питере — пить\" — пушкинский \"Медный всадник\", а героиня ролика \"Экспонат\" — неудавшаяся Золушка, точнее, дочь злой мачехи, которая никак не может влезть в заветную туфельку."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="милиционер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лошади
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="видео
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="песню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Питере
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="пить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пушкинский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Медный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="всадник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ролика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Экспонат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="неудавшаяся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Золушка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="точнее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="дочь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="злой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="мачехи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="влезть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		43 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="заветную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		45 [label="туфельку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			13 -> 0 [label="обст"]
+			13 -> 2 [label="обст"]
+			13 -> 10 [label="обст"]
+			13 -> 19 [label="дат_субъект"]
+			13 -> 22 [label="сочин"]
+			13 -> 41 [label="разъяснит"]
+			3 -> 4 [label="предл"]
+			40 -> 39 [label="огранич"]
+			2 -> 3 [label="атриб"]
+			2 -> 5 [label="атриб"]
+			2 -> 7 [label="атриб"]
+			45 -> 44 [label="опред"]
+			42 -> 43 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+			30 -> 29 [label="опред"]
+			22 -> 34 [label="соч_союзн"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 26 [label="аппоз"]
+			36 -> 35 [label="опред"]
+			5 -> 6 [label="предл"]
+			34 -> 23 [label="вводн"]
+			34 -> 30 [label="предик"]
+			34 -> 32 [label="вводн"]
+			34 -> 36 [label="_1_компл"]
+			19 -> 16 [label="опред"]
+			19 -> 18 [label="опред"]
+			41 -> 38 [label="предик"]
+			41 -> 40 [label="огранич"]
+			41 -> 42 [label="_1_компл"]
+			43 -> 45 [label="предл"]
+}

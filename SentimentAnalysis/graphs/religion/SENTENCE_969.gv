@@ -1,0 +1,51 @@
+digraph SENTENCE_969 {
+	graph [label="Также не установлен мастер, написавший на оборотной стороне иконы образ Успения (которому и посвящен коломенский собор)."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="установлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мастер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="написавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оборотной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стороне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="иконы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Успения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="которому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="посвящен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коломенский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="собор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 15 [label="сент_соч"]
+			17 -> 16 [label="опред"]
+			8 -> 7 [label="опред"]
+			15 -> 11 [label="предик"]
+			15 -> 13 [label="_2_компл"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="_2_компл"]
+			3 -> 5 [label="опред"]
+			9 -> 10 [label="сочин"]
+			5 -> 6 [label="обст"]
+			5 -> 9 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+}

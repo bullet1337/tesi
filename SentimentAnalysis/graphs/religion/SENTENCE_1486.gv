@@ -1,0 +1,57 @@
+digraph SENTENCE_1486 {
+	graph [label="Девушка, имя которой доставалось молодому человеку, становилась на предстоящий год его \"Валентиной\", также как и он ее \"Валентином\"."]
+	node [style=filled]
+		0 [label="Девушка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="доставалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="молодому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="человеку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="становилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="предстоящий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Валентиной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Валентином
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 21 [label="атриб"]
+			20 -> 19 [label="огранич"]
+			18 -> 17 [label="огранич"]
+			18 -> 20 [label="сравн_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			11 -> 10 [label="опред"]
+			6 -> 5 [label="опред"]
+			14 -> 12 [label="_1_компл"]
+			8 -> 9 [label="обст"]
+			8 -> 14 [label="присвяз"]
+			8 -> 18 [label="сравнит"]
+			8 -> 23 [label="присвяз"]
+			9 -> 11 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+}

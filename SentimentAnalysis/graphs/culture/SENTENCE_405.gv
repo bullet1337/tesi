@@ -1,0 +1,69 @@
+digraph SENTENCE_405 {
+	graph [label="В конце выступления Птаха заявил, что рад за бывшую жену Гуфа, что та нашла себе другого мужчину, а для сына Гуфа — отца."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Птаха
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рад
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бывшую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жену
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нашла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="другого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мужчину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Гуфа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			20 -> 23 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="аппоз"]
+			21 -> 22 [label="предл"]
+			18 -> 17 [label="опред"]
+			23 -> 21 [label="обст"]
+			23 -> 25 [label="аппоз"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="неакт_компл"]
+			15 -> 18 [label="_1_компл"]
+			15 -> 20 [label="сент_соч"]
+			8 -> 10 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 7 [label="подч_союзн"]
+			6 -> 13 [label="сент_соч"]
+			13 -> 15 [label="подч_союзн"]
+}

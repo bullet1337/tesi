@@ -1,0 +1,39 @@
+digraph SENTENCE_1144 {
+	graph [label="В этом году к колонне также присоединились кандидат в президенты России Ксения Собчак."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="колонне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="присоединились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кандидат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="президенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Ксения Собчак
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="_1_компл"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предик"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="предл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 11 [label="аппоз"]
+}

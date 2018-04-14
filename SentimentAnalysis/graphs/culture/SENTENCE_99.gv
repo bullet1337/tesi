@@ -1,0 +1,45 @@
+digraph SENTENCE_99 {
+	graph [label="Работы \"художника-невидимки\" Лю Болина можно будет увидеть в \"Эрарте\" до 20 мая 2018 года."]
+	node [style=filled]
+		0 [label="Работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="художника-невидимки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Лю
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Болина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Эрарте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			7 -> 0 [label="предик"]
+			7 -> 4 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="присвяз"]
+			7 -> 8 [label="сочин"]
+			0 -> 2 [label="квазиагент"]
+			15 -> 17 [label="атриб"]
+			9 -> 11 [label="предл"]
+			8 -> 9 [label="обст"]
+			8 -> 13 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			14 -> 15 [label="атриб"]
+}

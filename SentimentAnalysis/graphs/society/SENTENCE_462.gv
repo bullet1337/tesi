@@ -1,0 +1,72 @@
+digraph SENTENCE_462 {
+	graph [label="Почти 12,5 тысяч многодетных семей зарегистрировано в Липецкой области по итогам 2017 года, что на 9% больше, чем годом ранее, сообщает пресс-служба обладминистрации."]
+	node [style=filled]
+		0 [label="Почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="12,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="многодетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="семей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зарегистрировано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="итогам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="годом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="обладминистрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="количест"]
+			2 -> 4 [label="квазиагент"]
+			10 -> 12 [label="квазиагент"]
+			20 -> 21 [label="сравн_союзн"]
+			18 -> 16 [label="колич_огран"]
+			18 -> 20 [label="сравнит"]
+			12 -> 11 [label="опред"]
+			4 -> 3 [label="опред"]
+			14 -> 24 [label="подч_союзн"]
+			25 -> 26 [label="квазиагент"]
+			6 -> 8 [label="предл"]
+			9 -> 10 [label="предл"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 9 [label="обст"]
+			5 -> 14 [label="_2_компл"]
+			1 -> 0 [label="огранич"]
+			15 -> 18 [label="предл"]
+			24 -> 15 [label="обст"]
+			24 -> 22 [label="обст"]
+			24 -> 25 [label="предик"]
+}

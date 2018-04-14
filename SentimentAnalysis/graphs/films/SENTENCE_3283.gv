@@ -1,0 +1,75 @@
+digraph SENTENCE_3283 {
+	graph [label="Начиная с фактов- авария, сломаная лодыжка была далеко не в первой игре, команду Тарасов уводил с совсем другого матча, его же конфликт с властями."]
+	node [style=filled]
+		0 [label="Начиная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фактов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="авария
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сломаная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лодыжка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="игре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="команду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Тарасов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="уводил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="другого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="матча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="же
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="конфликт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="властями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="предл"]
+			20 -> 19 [label="огранич"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 4 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			7 -> 6 [label="опред"]
+			1 -> 2 [label="предл"]
+			18 -> 21 [label="предл"]
+			17 -> 18 [label="_2_компл"]
+			15 -> 16 [label="аппоз"]
+			23 -> 24 [label="огранич"]
+			21 -> 20 [label="опред"]
+			21 -> 25 [label="компл_аппоз"]
+			10 -> 9 [label="огранич"]
+			8 -> 0 [label="обст"]
+			8 -> 7 [label="предик"]
+			8 -> 11 [label="обст"]
+			8 -> 15 [label="предик"]
+			8 -> 17 [label="сент_соч"]
+			25 -> 23 [label="квазиагент"]
+			25 -> 26 [label="_1_компл"]
+			26 -> 27 [label="предл"]
+}

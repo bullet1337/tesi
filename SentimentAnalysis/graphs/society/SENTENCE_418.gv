@@ -1,0 +1,36 @@
+digraph SENTENCE_418 {
+	graph [label="Для большинства комментаторов \"новый образ\" информатора WADA стал поводом для шуток."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="большинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="комментаторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="новый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="информатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="WADA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поводом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="шуток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 8 [label="аппоз"]
+			2 -> 5 [label="сочин"]
+			11 -> 12 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сочин"]
+			9 -> 0 [label="обст"]
+			9 -> 10 [label="присвяз"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_211 {
+	graph [label="Я понятия не имела, что это за шедевр я сейчас смотрю, потом только, когда фильм закончился я взяла газету и нашла название."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="понятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смотрю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="закончился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="взяла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="газету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="нашла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			11 -> 6 [label="предик"]
+			11 -> 7 [label="обст"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 13 [label="обст"]
+			11 -> 20 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			18 -> 17 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			5 -> 11 [label="подч_союзн"]
+			22 -> 23 [label="соч_союзн"]
+			20 -> 16 [label="обст"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 22 [label="сочин"]
+			16 -> 14 [label="огранич"]
+			16 -> 18 [label="подч_союзн"]
+}

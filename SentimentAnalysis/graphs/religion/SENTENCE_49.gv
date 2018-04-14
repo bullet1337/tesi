@@ -1,0 +1,54 @@
+digraph SENTENCE_49 {
+	graph [label="Риск заключается в том, что налог будет браться со здания миссии и зданий Горненского монастыря, кроме храмов."]
+	node [style=filled]
+		0 [label="Риск
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="заключается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="налог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="браться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="миссии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Горненского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="монастыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="храмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="предл"]
+			13 -> 15 [label="квазиагент"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="аналит"]
+			5 -> 7 [label="подч_союзн"]
+			2 -> 3 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 5 [label="эксплет"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 17 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			11 -> 12 [label="сочин"]
+			15 -> 14 [label="опред"]
+			12 -> 13 [label="соч_союзн"]
+}

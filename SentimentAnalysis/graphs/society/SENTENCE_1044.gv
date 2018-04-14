@@ -1,0 +1,81 @@
+digraph SENTENCE_1044 {
+	graph [label="Депутаты совета местного самоуправления Нальчика приняли решение о присвоении имени погибшего от рук боевиков Героя России, начальника республиканского УБОП Анатолия Кярова городской гимназии №4, сообщает администрация столицы Кабардино-Балкарии."]
+	node [style=filled]
+		0 [label="Депутаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="местного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самоуправления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Нальчика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="присвоении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="погибшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="боевиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Героя России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="начальника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="республиканского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="УБОП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Анатолия Кярова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="гимназии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="администрация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="столицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Кабардино-Балкарии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 3 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			21 -> 20 [label="опред"]
+			21 -> 23 [label="нум_аппоз"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			13 -> 14 [label="аппоз"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 25 [label="изъясн"]
+			16 -> 18 [label="_1_компл"]
+			16 -> 19 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="опред"]
+			8 -> 16 [label="разъяснит"]
+			18 -> 17 [label="опред"]
+			7 -> 8 [label="предл"]
+			27 -> 28 [label="аппоз"]
+			6 -> 7 [label="_2_компл"]
+			12 -> 13 [label="квазиагент"]
+			26 -> 27 [label="_1_компл"]
+			25 -> 21 [label="_2_компл"]
+			25 -> 26 [label="предик"]
+}

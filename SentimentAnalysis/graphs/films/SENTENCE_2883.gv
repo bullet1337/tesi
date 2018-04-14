@@ -1,0 +1,65 @@
+digraph SENTENCE_2883 {
+	graph [label="Понятно, что плохие поступки персонажей связаны с их разрушенным прошлым, у кого-то с более далеким, а у других — с более близким."]
+	node [style=filled]
+		0 [label="Понятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плохие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поступки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="связаны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разрушенным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прошлым
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кого-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="далеким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="близким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предик"]
+			24 -> 23 [label="огранич"]
+			12 -> 13 [label="предл"]
+			12 -> 18 [label="сочин"]
+			10 -> 8 [label="квазиагент"]
+			10 -> 9 [label="опред"]
+			7 -> 10 [label="предл"]
+			18 -> 19 [label="соч_союзн"]
+			13 -> 14 [label="атриб"]
+			22 -> 24 [label="предл"]
+			19 -> 20 [label="предл"]
+			19 -> 22 [label="сочин"]
+			14 -> 16 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			16 -> 15 [label="огранич"]
+			2 -> 6 [label="подч_союзн"]
+}

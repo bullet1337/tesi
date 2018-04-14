@@ -1,0 +1,63 @@
+digraph SENTENCE_430 {
+	graph [label="По ее словам, реакция людей была очень разной, так как это зависит от того, что конкретно он задевает в каждом."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="реакция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="разной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="зависит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="конкретно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="задевает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="каждом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			17 -> 20 [label="подч_союзн"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 5 [label="квазиагент"]
+			10 -> 11 [label="эксплет"]
+			11 -> 13 [label="сравн_союзн"]
+			8 -> 7 [label="огранич"]
+			21 -> 22 [label="предл"]
+			15 -> 17 [label="эксплет"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="присвяз"]
+			6 -> 10 [label="обст"]
+			14 -> 15 [label="предл"]
+			20 -> 18 [label="обст"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="_3_компл"]
+}

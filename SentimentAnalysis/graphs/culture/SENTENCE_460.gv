@@ -1,0 +1,42 @@
+digraph SENTENCE_460 {
+	graph [label="Сериал о буднях воспитанников знаменитого Суворовского училища выходил с 2006-го по 2007 год."]
+	node [style=filled]
+		0 [label="Сериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="буднях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="воспитанников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знаменитого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Суворовского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="училища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выходил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="2006-го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2007
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			8 -> 10 [label="соотнос"]
+			1 -> 2 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="обст"]
+			12 -> 11 [label="опред"]
+			3 -> 6 [label="_1_компл"]
+			2 -> 3 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+}

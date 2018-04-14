@@ -1,0 +1,30 @@
+digraph SENTENCE_252 {
+	graph [label="Это совместная постановка Большого театра и Английской национальной оперы."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="совместная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постановка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Большого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Английской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="национальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+}

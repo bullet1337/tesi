@@ -1,0 +1,48 @@
+digraph SENTENCE_1683 {
+	graph [label="Уже другим человеком, не таким, каким я была, когда смотрела его в первые два раза."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="другим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="подч_союзн"]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="огранич"]
+			16 -> 15 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="обст"]
+			1 -> 0 [label="огранич"]
+			14 -> 17 [label="предл"]
+			17 -> 16 [label="количест"]
+			9 -> 2 [label="присвяз"]
+			9 -> 5 [label="суб_копр"]
+			9 -> 7 [label="присвяз"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="обст"]
+}

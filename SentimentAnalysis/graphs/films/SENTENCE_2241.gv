@@ -1,0 +1,75 @@
+digraph SENTENCE_2241 {
+	graph [label="Основа сюжета — главный незримый герой пытается разобраться в отношениях с матерью и попытаться их наладить и во впечатлениях своего детства пытается он найти ключик."]
+	node [style=filled]
+		0 [label="Основа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сюжета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="незримый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разобраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отношениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="матерью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="попытаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="наладить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="впечатлениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="детства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пытается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ключик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 20 [label="_1_компл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 5 [label="релят"]
+			12 -> 13 [label="соч_союзн"]
+			13 -> 15 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 11 [label="предл"]
+			21 -> 22 [label="предик"]
+			21 -> 23 [label="_1_компл"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 12 [label="сочин"]
+			6 -> 21 [label="вводн"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 17 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			23 -> 24 [label="_1_компл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_575 {
+	graph [label="Да, надо предупредить того, кто собрался смотреть этот фильм, расслабившись на диване с тарелкой попкорна — не получится."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предупредить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="собрался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="расслабившись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="диване
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тарелкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="попкорна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="получится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="эксплет"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 20 [label="_2_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			15 -> 16 [label="предл"]
+			2 -> 0 [label="вводн"]
+			2 -> 3 [label="предик"]
+			20 -> 19 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 12 [label="обст"]
+			13 -> 14 [label="предл"]
+			12 -> 13 [label="обст"]
+			12 -> 15 [label="обст"]
+}

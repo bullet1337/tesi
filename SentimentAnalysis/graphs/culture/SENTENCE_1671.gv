@@ -1,0 +1,54 @@
+digraph SENTENCE_1671 {
+	graph [label="Однажды харизматичный брат Макса Брукс (Чэндлер) организовывает вечер по разгадыванию \"убийственного\" квеста с \"ряжеными\" головорезами и агентами ФБР."]
+	node [style=filled]
+		0 [label="Однажды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="харизматичный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="брат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Макса Брукс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Чэндлер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="организовывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вечер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="разгадыванию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="убийственного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="квеста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ряжеными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="головорезами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="агентами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ФБР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="предл"]
+			20 -> 21 [label="соч_союзн"]
+			15 -> 19 [label="предл"]
+			3 -> 5 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			19 -> 17 [label="опред"]
+			19 -> 20 [label="сочин"]
+			7 -> 0 [label="обст"]
+			7 -> 2 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 14 [label="предик"]
+			14 -> 9 [label="вводн"]
+			14 -> 12 [label="опред"]
+			14 -> 15 [label="атриб"]
+			21 -> 22 [label="_1_компл"]
+}

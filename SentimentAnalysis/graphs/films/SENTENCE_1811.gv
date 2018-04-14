@@ -1,0 +1,24 @@
+digraph SENTENCE_1811 {
+	graph [label="Именно такие люди сломали веру, сломали силу."]
+	node [style=filled]
+		0 [label="Именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сломали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="веру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сломали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="силу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 6 [label="сочин"]
+			2 -> 1 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+}

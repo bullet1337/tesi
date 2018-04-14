@@ -1,0 +1,48 @@
+digraph SENTENCE_458 {
+	graph [label="Не проходить мимо чужой беды и помогать тем, кто нуждается в помощи\", — считает глава \"Милосердия\"."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чужой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="беды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помогать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нуждается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Милосердия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="сочин"]
+			1 -> 16 [label="вводн"]
+			6 -> 7 [label="_2_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			7 -> 10 [label="релят"]
+			5 -> 6 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			16 -> 17 [label="предик"]
+			17 -> 19 [label="_1_компл"]
+}

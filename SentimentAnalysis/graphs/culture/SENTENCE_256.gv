@@ -1,0 +1,80 @@
+digraph SENTENCE_256 {
+	graph [label="В создании спектакля участвовали дирижер Уильям Лейси, режиссер Дэвид Олден, сценограф Пол Стейнберг, художник по костюмам Констанс Хоффман, режиссер по пластике Максайн Брэм, режиссер сценического боя Джессика Джексон-Смит, главный хормейстер Валерий Борисов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="создании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="спектакля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участвовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дирижер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Уильям Лейси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Дэвид Олден
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="сценограф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Пол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Стейнберг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="художник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="костюмам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Констанс Хоффман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пластике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Максайн Брэм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="сценического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="боя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Джессика Джексон-Смит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="хормейстер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Валерий Борисов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 8 [label="предик"]
+			10 -> 11 [label="сочин"]
+			26 -> 25 [label="опред"]
+			0 -> 1 [label="предл"]
+			19 -> 22 [label="аппоз"]
+			19 -> 30 [label="об_аппоз"]
+			14 -> 15 [label="атриб"]
+			14 -> 17 [label="аппоз"]
+			14 -> 19 [label="об_аппоз"]
+			5 -> 7 [label="аппоз"]
+			30 -> 29 [label="опред"]
+			30 -> 31 [label="аппоз"]
+			15 -> 16 [label="предл"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			3 -> 10 [label="сент_соч"]
+			4 -> 5 [label="аппоз"]
+			22 -> 20 [label="атриб"]
+			22 -> 24 [label="аппоз"]
+			20 -> 21 [label="предл"]
+			11 -> 12 [label="аппоз"]
+			24 -> 26 [label="_1_компл"]
+			24 -> 27 [label="аппоз"]
+			1 -> 2 [label="_1_компл"]
+}

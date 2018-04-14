@@ -1,0 +1,28 @@
+digraph SENTENCE_741 {
+	graph [label="\"Люди могут поесть блинов и пообщаться друг с другом."]
+	node [style=filled]
+		1 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поесть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="блинов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пообщаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="другом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			5 -> 6 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+}

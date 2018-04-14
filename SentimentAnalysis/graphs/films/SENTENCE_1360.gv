@@ -1,0 +1,24 @@
+digraph SENTENCE_1360 {
+	graph [label="Ее жалели, но не это ей было нужно."]
+	node [style=filled]
+		0 [label="Ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жалели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нужно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="огранич"]
+			7 -> 8 [label="присвяз"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="сент_соч"]
+}

@@ -1,0 +1,54 @@
+digraph SENTENCE_1 {
+	graph [label="Они приехали в Иерусалим из Москвы, чтобы поклониться гробу Господня, а оказались у наглухо закрытых дверей храма."]
+	node [style=filled]
+		0 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приехали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Иерусалим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поклониться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гробу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Господня
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="оказались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="наглухо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="закрытых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дверей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="соч_союзн"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			14 -> 17 [label="предл"]
+			16 -> 15 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 7 [label="обст"]
+			1 -> 10 [label="разъяснит"]
+			1 -> 12 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			7 -> 8 [label="инф_союзн"]
+			2 -> 3 [label="предл"]
+			13 -> 14 [label="присвяз"]
+}

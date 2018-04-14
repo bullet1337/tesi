@@ -1,0 +1,62 @@
+digraph SENTENCE_205 {
+	graph [label="Сейчас это международный дискуссионный форум, собирающий политиков, дипломатов, военных, бизнесменов, научных и общественных деятелей из более чем 40 стран мира."]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="международный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дискуссионный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собирающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="политиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дипломатов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="военных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бизнесменов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="научных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="общественных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="деятелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="40
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="стран
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="соч_союзн"]
+			18 -> 15 [label="опред"]
+			18 -> 19 [label="атриб"]
+			6 -> 7 [label="_1_компл"]
+			15 -> 16 [label="сочин"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="опред"]
+			20 -> 21 [label="сравнит"]
+			13 -> 11 [label="опред"]
+			13 -> 18 [label="сочин"]
+			7 -> 9 [label="сочин"]
+			9 -> 13 [label="сочин"]
+			21 -> 23 [label="сравн_союзн"]
+			23 -> 22 [label="количест"]
+			23 -> 24 [label="квазиагент"]
+}

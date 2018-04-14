@@ -1,0 +1,57 @@
+digraph SENTENCE_507 {
+	graph [label="По словам Мясниковой, это приводит к тому, что в лечении случаются перерывы, когда пациенты вынуждены дожидаться поступления финансирования."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мясниковой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лечении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="случаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="перерывы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пациенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вынуждены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дожидаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="поступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="финансирования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 17 [label="подч_союзн"]
+			10 -> 11 [label="предл"]
+			6 -> 7 [label="предл"]
+			0 -> 1 [label="предл"]
+			12 -> 10 [label="обст"]
+			12 -> 13 [label="предик"]
+			12 -> 15 [label="обст"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_2_компл"]
+			9 -> 12 [label="подч_союзн"]
+			7 -> 9 [label="эксплет"]
+			1 -> 2 [label="квазиагент"]
+			18 -> 19 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			19 -> 20 [label="квазиагент"]
+}

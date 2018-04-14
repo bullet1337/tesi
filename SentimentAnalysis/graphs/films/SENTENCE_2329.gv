@@ -1,0 +1,60 @@
+digraph SENTENCE_2329 {
+	graph [label="Уже после первого получаса картины (который, казалось, длился целую вечность) у меня просто заболели глаза, да и голова тоже."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="получаса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="длился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="целую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вечность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="заболели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="голова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 17 [label="релят"]
+			10 -> 1 [label="обст"]
+			10 -> 6 [label="предик"]
+			10 -> 8 [label="вводн"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 20 [label="сент_соч"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			22 -> 23 [label="огранич"]
+			20 -> 21 [label="огранич"]
+			20 -> 22 [label="соч_союзн"]
+			17 -> 14 [label="_1_компл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предик"]
+}

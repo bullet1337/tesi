@@ -1,0 +1,18 @@
+digraph SENTENCE_421 {
+	graph [label="Кинотеатр намерен обжаловать это решение."]
+	node [style=filled]
+		0 [label="Кинотеатр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="намерен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обжаловать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+}

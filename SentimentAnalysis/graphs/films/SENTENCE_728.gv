@@ -1,0 +1,24 @@
+digraph SENTENCE_728 {
+	graph [label="Может быть, она поменяла бы свое решение."]
+	node [style=filled]
+		0 [label="Может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="поменяла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="аналит"]
+			4 -> 7 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+}

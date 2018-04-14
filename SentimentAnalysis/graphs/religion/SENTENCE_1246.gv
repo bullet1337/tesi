@@ -1,0 +1,69 @@
+digraph SENTENCE_1246 {
+	graph [label="Олимпийская чемпионка Алина Загитова завоевала золото на Олимпиаде в Южной Корее благодаря упорству, мастерству и молитвам в Соборной мечети, считает муфтий Москвы Ильдар Аляутдинов."]
+	node [style=filled]
+		0 [label="Олимпийская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чемпионка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Алина Загитова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="завоевала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="золото
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Олимпиаде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Южной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Корее
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="благодаря
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="упорству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мастерству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="молитвам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Соборной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="мечети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="муфтий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Ильдар Аляутдинов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 15 [label="соч_союзн"]
+			13 -> 14 [label="сочин"]
+			7 -> 9 [label="предл"]
+			21 -> 22 [label="атриб"]
+			21 -> 23 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="обст"]
+			3 -> 10 [label="обст"]
+			3 -> 13 [label="_1_компл"]
+			3 -> 20 [label="вводн"]
+			9 -> 8 [label="опред"]
+			10 -> 11 [label="предл"]
+			18 -> 17 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="аппоз"]
+			20 -> 16 [label="обст"]
+			20 -> 21 [label="предик"]
+			6 -> 7 [label="атриб"]
+			16 -> 18 [label="предл"]
+}

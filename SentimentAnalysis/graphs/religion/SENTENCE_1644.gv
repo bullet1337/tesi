@@ -1,0 +1,74 @@
+digraph SENTENCE_1644 {
+	graph [label="В России чин Торжества Православия был введен в XI веке прподбным Феодосием Киево-Печерским и неоднократно изменялся — рукописные списки в разных местах отличались друг от друга."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="чин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Торжества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Православия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="введен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="XI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прподбным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Феодосием
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Киево-Печерским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="неоднократно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="изменялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="рукописные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="списки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="местах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="отличались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="обст"]
+			15 -> 18 [label="_1_компл"]
+			15 -> 22 [label="сочин"]
+			6 -> 7 [label="_3_компл"]
+			19 -> 21 [label="предл"]
+			12 -> 13 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			5 -> 4 [label="предик"]
+			5 -> 6
+			13 -> 15 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			24 -> 25 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="атриб"]
+			7 -> 9 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="релят"]
+			2 -> 10 [label="сочин"]
+			21 -> 20 [label="опред"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,42 @@
+digraph SENTENCE_39 {
+	graph [label="Пока малыша кормят из бутылочки молочной смесью, а спит он в утепленном домике-берлоге."]
+	node [style=filled]
+		0 [label="Пока
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="малыша
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кормят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бутылочки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="молочной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смесью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="спит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="утепленном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="домике-берлоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="_2_компл"]
+			2 -> 8 [label="сочин"]
+			11 -> 13 [label="предл"]
+			9 -> 10 [label="предик"]
+			9 -> 11 [label="обст"]
+			6 -> 5 [label="опред"]
+			13 -> 12 [label="опред"]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+}

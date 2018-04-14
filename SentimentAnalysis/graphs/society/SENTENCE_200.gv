@@ -1,0 +1,53 @@
+digraph SENTENCE_200 {
+	graph [label="В его планах было создание открытой площадки для обсуждения лучших педагогических и управленческих практик в общем образовании."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="планах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="создание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="открытой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="площадки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обсуждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="педагогических
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="управленческих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="практик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="образовании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="предл"]
+			8 -> 13 [label="_1_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			16 -> 15 [label="опред"]
+			2 -> 1 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			13 -> 9 [label="опред"]
+			13 -> 10 [label="опред"]
+			4 -> 6 [label="_1_компл"]
+			10 -> 11 [label="сочин"]
+			14 -> 16 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+}

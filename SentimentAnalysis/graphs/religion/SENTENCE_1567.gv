@@ -1,0 +1,57 @@
+digraph SENTENCE_1567 {
+	graph [label="Он вошел в историю католицизма как реформатор, в частности, проведший крупную реорганизацию Римской курии, и активный проводник экуменизма."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="католицизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реформатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="проведший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="крупную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="реорганизацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Римской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="курии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="активный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="проводник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="экуменизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="сравнит"]
+			5 -> 6 [label="сравн_союзн"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 8 [label="атриб"]
+			6 -> 11 [label="опред"]
+			6 -> 17 [label="сочин"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="аппоз"]
+			17 -> 19 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			8 -> 9 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+}

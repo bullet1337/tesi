@@ -1,0 +1,42 @@
+digraph SENTENCE_3661 {
+	graph [label="Сборная же Канады, состоящая из бравых молодцев славянской внешности, придавала происходящему комический оттенок."]
+	node [style=filled]
+		0 [label="Сборная
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Канады
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="состоящая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бравых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="молодцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="славянской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внешности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="придавала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="происходящему
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="комический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="оттенок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="сочин"]
+			0 -> 4 [label="опред"]
+			14 -> 13 [label="опред"]
+			5 -> 7 [label="предл"]
+			11 -> 0 [label="вводн"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			11 -> 14 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			9 -> 8 [label="опред"]
+}

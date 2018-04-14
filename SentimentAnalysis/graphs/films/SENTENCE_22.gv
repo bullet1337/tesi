@@ -1,0 +1,54 @@
+digraph SENTENCE_22 {
+	graph [label="Лишь несколько лет спустя, пересмотрев его в очередной раз, мне удалось разглядеть всю его глубину и мощь."]
+	node [style=filled]
+		0 [label="Лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="спустя
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пересмотрев
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очередной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разглядеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="глубину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="мощь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			9 -> 8 [label="опред"]
+			17 -> 18 [label="соч_союзн"]
+			3 -> 2 [label="предл"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="квазиагент"]
+			16 -> 17 [label="сочин"]
+			12 -> 5 [label="обст"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			1 -> 0 [label="огранич"]
+			2 -> 1 [label="количест"]
+			7 -> 9 [label="предл"]
+			13 -> 16 [label="_1_компл"]
+}

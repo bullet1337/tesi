@@ -1,0 +1,51 @@
+digraph SENTENCE_512 {
+	graph [label="Эту работу с самого начала, по их словам, ведут РПЦ и Императорское православное палестинское общество (ИППО)."]
+	node [style=filled]
+		0 [label="Эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="начала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ведут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Императорское
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="православное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="палестинское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ИППО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 16 [label="соч_союзн"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="квазиагент"]
+			2 -> 4 [label="предл"]
+			2 -> 6 [label="соотнос"]
+			10 -> 1 [label="_1_компл"]
+			10 -> 2 [label="обст"]
+			10 -> 11 [label="предик"]
+			10 -> 18 [label="вводн"]
+			11 -> 12 [label="сочин"]
+			1 -> 0 [label="опред"]
+			4 -> 3 [label="опред"]
+			16 -> 13 [label="опред"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+}

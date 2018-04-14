@@ -1,0 +1,30 @@
+digraph SENTENCE_144 {
+	graph [label="Ну мать, ну дитя… Что же в этом такого?"]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мать
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="дитя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Что
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 6 [label="предик"]
+			10 -> 8 [label="огранич"]
+			6 -> 7 [label="огранич"]
+			8 -> 9 [label="предл"]
+			4 -> 0 [label="вводн"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 10 [label="сент_соч"]
+}

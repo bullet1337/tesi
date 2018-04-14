@@ -1,0 +1,36 @@
+digraph SENTENCE_2747 {
+	graph [label="При этом вопросов накапливается к концу третьего часа больше, чем ответов."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вопросов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="накапливается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="концу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="третьего
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ответов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 4 [label="колич_огран"]
+			8 -> 10 [label="сравнит"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 8 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			7 -> 6 [label="опред"]
+			10 -> 11 [label="сравн_союзн"]
+			5 -> 7 [label="квазиагент"]
+}

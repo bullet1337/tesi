@@ -1,0 +1,48 @@
+digraph SENTENCE_372 {
+	graph [label="\"Переправа закрылась в понедельник в 22.47, то есть 10 часов не работает по погодным условиям."]
+	node [style=filled]
+		1 [label="Переправа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="закрылась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="22.47
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="погодным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="условиям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="количест"]
+			16 -> 15 [label="опред"]
+			5 -> 6 [label="предл"]
+			14 -> 16 [label="предл"]
+			3 -> 4 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="присвяз"]
+			9 -> 13 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="обст"]
+			2 -> 9 [label="сент_соч"]
+}

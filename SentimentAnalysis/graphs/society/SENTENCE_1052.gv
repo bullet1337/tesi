@@ -1,0 +1,63 @@
+digraph SENTENCE_1052 {
+	graph [label="С 1992 года служил в управлении по борьбе с организованной преступностью при МВД Кабардино-Балкарии, с 1999 года — заместителем начальника УБОП."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1992
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="служил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="управлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="борьбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="организованной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="преступностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="МВД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Кабардино-Балкарии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="1999
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="заместителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="начальника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="УБОП
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			20 -> 21 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			6 -> 7 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 11 [label="обст"]
+			3 -> 15 [label="обст"]
+			3 -> 19 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			11 -> 12 [label="предл"]
+			15 -> 17 [label="предл"]
+			19 -> 20 [label="аппоз"]
+			8 -> 10 [label="предл"]
+			12 -> 13 [label="квазиагент"]
+}

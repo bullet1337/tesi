@@ -1,0 +1,59 @@
+digraph SENTENCE_1892 {
+	graph [label="Вроде и «Рассекая волны», и «Догвилль» полны смысла и женской стойкости и силы воли, что не может не радовать."]
+	node [style=filled]
+		0 [label="Вроде
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Рассекая
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="волны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Догвилль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="полны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смысла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="женской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стойкости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="силы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="воли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="радовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="квазиагент"]
+			11 -> 9 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			13 -> 15 [label="соч_союзн"]
+			12 -> 13 [label="сочин"]
+			24 -> 23 [label="огранич"]
+			22 -> 21 [label="огранич"]
+			22 -> 24 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+			7 -> 11 [label="соч_союзн"]
+			20 -> 22 [label="подч_союзн"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 7 [label="сочин"]
+			3 -> 20 [label="_1_компл"]
+			16 -> 17 [label="соч_союзн"]
+}

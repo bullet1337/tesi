@@ -1,0 +1,54 @@
+digraph SENTENCE_4800 {
+	graph [label="Никому не дает покоя этот ящер, сделанный японцами в 1954 году (рискну предположить, как ответ американскому Кинг Конгу)."]
+	node [style=filled]
+		0 [label="Никому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="покоя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ящер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сделанный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="японцами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1954
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рискну
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="предположить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ответ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="американскому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Кинг Конгу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 18 [label="опред"]
+			17 -> 19 [label="квазиагент"]
+			13 -> 14 [label="_1_компл"]
+			9 -> 11 [label="предл"]
+			14 -> 16 [label="сравнит"]
+			7 -> 8 [label="агент"]
+			7 -> 9 [label="обст"]
+			2 -> 0 [label="_2_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 13 [label="сочин"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="опред"]
+			11 -> 10 [label="опред"]
+			16 -> 17 [label="сравн_союзн"]
+}

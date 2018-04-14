@@ -1,0 +1,36 @@
+digraph SENTENCE_195 {
+	graph [label="\"Коллектив Высшей школы экономики глубоко скорбит в связи с гибелью Сергея Павловича."]
+	node [style=filled]
+		1 [label="Коллектив
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Высшей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="экономики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глубоко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="скорбит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="гибелью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Сергея Павловича
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предл"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="обст"]
+			9 -> 10 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			10 -> 11 [label="аппоз"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 6 [label="релят"]
+}

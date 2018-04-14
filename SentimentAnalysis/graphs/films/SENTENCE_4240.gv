@@ -1,0 +1,35 @@
+digraph SENTENCE_4240 {
+	graph [label="Главным же звуковым сопровождением, судя по всему, была выбрана оглушительная тишина."]
+	node [style=filled]
+		0 [label="Главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="звуковым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сопровождением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="судя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выбрана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оглушительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тишина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			12 -> 11 [label="опред"]
+			5 -> 6 [label="_2_компл"]
+			3 -> 0 [label="опред"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="огранич"]
+			9 -> 5 [label="вводн"]
+			9 -> 10
+			9 -> 12 [label="предик"]
+}

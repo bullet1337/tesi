@@ -1,0 +1,48 @@
+digraph SENTENCE_3319 {
+	graph [label="А садюга, выпучив глаза, орет при этом: Не уворачивайся, а защищай ворота, как Родину защищают."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="садюга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выпучив
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="орет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="уворачивайся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="защищай
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ворота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Родину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="защищают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="сравн_союзн"]
+			11 -> 10 [label="огранич"]
+			11 -> 13 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			6 -> 1 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="разъяснит"]
+			0 -> 6 [label="соч_союзн"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="сравнит"]
+			14 -> 19 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			7 -> 8 [label="предл"]
+}

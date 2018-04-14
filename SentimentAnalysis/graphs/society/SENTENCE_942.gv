@@ -1,0 +1,42 @@
+digraph SENTENCE_942 {
+	graph [label="В 1947 году старшина запаса Чухломин поступил на службу в пожарную охрану Москвы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1947
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="старшина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запаса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Чухломин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="поступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="службу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пожарную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="охрану
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="обст"]
+			6 -> 12 [label="предик"]
+			2 -> 1 [label="опред"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="предл"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="предл"]
+}

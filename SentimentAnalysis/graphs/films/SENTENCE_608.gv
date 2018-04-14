@@ -1,0 +1,24 @@
+digraph SENTENCE_608 {
+	graph [label="Казалось бы, всё здорово, нечеловеческий подвиг совершен."]
+	node [style=filled]
+		0 [label="Казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="здорово
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нечеловеческий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подвиг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="совершен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="аналит"]
+			3 -> 0 [label="вводн"]
+			3 -> 4 [label="огранич"]
+			3 -> 8 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			8 -> 7 [label="предик"]
+}

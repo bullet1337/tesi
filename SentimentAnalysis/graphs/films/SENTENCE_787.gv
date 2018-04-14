@@ -1,0 +1,55 @@
+digraph SENTENCE_787 {
+	graph [label="Фильм не говорит: «Вот, это ужасно, это не честно, такого не должно быть, это все потому-то и потому-то»."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Вот
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ужасно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="потому-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="потому-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 8 [label="_1_компл"]
+			16 -> 10 [label="предик"]
+			16 -> 12 [label="обст"]
+			16 -> 14 [label="предик"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 16 [label="сент_соч"]
+			7 -> 5 [label="огранич"]
+			22 -> 23 [label="соч_союзн"]
+			19 -> 20 [label="опред"]
+			12 -> 11 [label="огранич"]
+			21 -> 22 [label="сочин"]
+}

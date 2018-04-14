@@ -1,0 +1,66 @@
+digraph SENTENCE_1006 {
+	graph [label="Стали известны лауреаты ежегодной московской театральной премии \"Гвоздь сезона\" – пять спектаклей сезона 2016-2017, сообщили в пресс-службе Союза театральных деятелей РФ."]
+	node [style=filled]
+		0 [label="Стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лауреаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ежегодной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="московской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театральной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Гвоздь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="сезона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спектаклей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сезона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Союза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="театральных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="деятелей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 3 [label="опред"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			2 -> 6 [label="_1_компл"]
+			21 -> 22 [label="квазиагент"]
+			0 -> 1 [label="присвяз"]
+			0 -> 2 [label="предик"]
+			0 -> 19 [label="вводн"]
+			22 -> 24 [label="квазиагент"]
+			15 -> 17 [label="кратн"]
+			8 -> 9 [label="квазиагент"]
+			8 -> 13 [label="сочин"]
+			13 -> 12 [label="количест"]
+			13 -> 14 [label="атриб"]
+			19 -> 20 [label="обст"]
+			20 -> 21 [label="предл"]
+			14 -> 15 [label="примыкат"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="_1_компл"]
+}

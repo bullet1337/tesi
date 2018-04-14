@@ -1,0 +1,30 @@
+digraph SENTENCE_4838 {
+	graph [label="Не буду писать о сюжете, он до банального неинтересен."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="писать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сюжете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="банального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="неинтересен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_3_компл"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="аналит"]
+			1 -> 9 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			9 -> 6 [label="предик"]
+			9 -> 7 [label="обст"]
+}

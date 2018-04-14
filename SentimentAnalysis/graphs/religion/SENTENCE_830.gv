@@ -1,0 +1,51 @@
+digraph SENTENCE_830 {
+	graph [label="Ко всему прочему, в Зосимовой очень ждут кого-то, кто смог бы петь на службах вместо военнослужащих."]
+	node [style=filled]
+		0 [label="Ко
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прочему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Зосимовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ждут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кого-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="службах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="вместо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="военнослужащих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="аналит"]
+			11 -> 13 [label="_1_компл"]
+			7 -> 2 [label="_1_компл"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предик"]
+			8 -> 11 [label="релят"]
+			1 -> 7 [label="релят"]
+			16 -> 17 [label="предл"]
+			4 -> 5 [label="предл"]
+			13 -> 14 [label="обст"]
+			13 -> 16 [label="обст"]
+			14 -> 15 [label="предл"]
+}

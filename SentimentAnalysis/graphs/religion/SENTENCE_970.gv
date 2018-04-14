@@ -1,0 +1,39 @@
+digraph SENTENCE_970 {
+	graph [label="Это изображение тоже искусное, хотя и не может сравниться с главным шедевром."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="изображение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="искусное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сравниться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="главным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="шедевром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			12 -> 11 [label="опред"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="обст"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 8 [label="подч_союзн"]
+}

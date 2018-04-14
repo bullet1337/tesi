@@ -1,0 +1,39 @@
+digraph SENTENCE_120 {
+	graph [label="\"Анна Каренина\" в Большом — это совместная постановка с Гамбургским и Национальным балетом Канады."]
+	node [style=filled]
+		1 [label="Анна Каренина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Большом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совместная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="постановка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Гамбургским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Национальным
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="балетом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Канады
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="сочин"]
+			3 -> 4 [label="предл"]
+			13 -> 10 [label="опред"]
+			13 -> 14 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+			9 -> 13 [label="предл"]
+			8 -> 1 [label="предик"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+}

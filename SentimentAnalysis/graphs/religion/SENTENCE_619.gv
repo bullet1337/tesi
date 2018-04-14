@@ -1,0 +1,42 @@
+digraph SENTENCE_619 {
+	graph [label="На четырнадцатый день Будда мановением руки сотворил огромную колесницу, которая достигла мира богов."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="четырнадцатый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Будда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="мановением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="руки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сотворил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="колесницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="достигла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="богов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="сочин"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 11 [label="сент_соч"]
+			2 -> 1 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_4695 {
+	graph [label="Если бы смотрел в кино — реально бы стал плакать."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="плакать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="подч_союзн"]
+			8 -> 0 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="аналит"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 1 [label="аналит"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+}

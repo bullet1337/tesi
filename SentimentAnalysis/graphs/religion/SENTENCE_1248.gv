@@ -1,0 +1,42 @@
+digraph SENTENCE_1248 {
+	graph [label="Двукратная чемпионка мира Евгения Медведева (238,26) заняла второе место, третьей стала канадка Кейтлин Осмонд (231,02)."]
+	node [style=filled]
+		0 [label="Двукратная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чемпионка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Евгения Медведева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="238,26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="второе
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="третьей
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="канадка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Кейтлин Осмонд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="231,02
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="аппоз"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="аппоз"]
+			1 -> 7 [label="релят"]
+			12 -> 1 [label="предик"]
+			12 -> 11 [label="присвяз"]
+			12 -> 13 [label="присвяз"]
+			7 -> 5 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			13 -> 14 [label="атриб"]
+			9 -> 8 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_969 {
+	graph [label="То, что фильм становится ярче, когда героиня мечтает — великолепно."]
+	node [style=filled]
+		0 [label="То
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ярче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мечтает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="великолепно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="подч_союзн"]
+			5 -> 7 [label="сравнит"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="обст"]
+			2 -> 4 [label="подч_союзн"]
+			0 -> 2 [label="эксплет"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="присвяз"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_641 {
+	graph [label="В пятницу глава Минобороны осмотрел секции форума, пообщался с юнармейцами и посетил мастер-класс режиссера Никиты Михалкова."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пятницу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Минобороны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="осмотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="секции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пообщался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="юнармейцами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="посетил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мастер-класс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Никиты Михалкова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 11 [label="сочин"]
+			12 -> 13 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+}

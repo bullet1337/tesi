@@ -1,0 +1,114 @@
+digraph SENTENCE_1360 {
+	graph [label="В  декабре 1924 года на патриарха было совершено покушение, во время которого погиб его келейник Яков Полозов, а через месяц патриарх Тихон слег и в апреле 1925 года скончался и был похоронен в Малом соборе московского Донского монастыря."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="декабре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1924
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совершено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="покушение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="погиб
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="келейник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Яков Полозов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="месяц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Тихон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="слег
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="апреле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="1925
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="похоронен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="Малом
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		35 [label="соборе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="московского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="Донского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		38 [label="монастыря
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 7
+			6 -> 8 [label="предик"]
+			6 -> 18 [label="сент_соч"]
+			6 -> 23 [label="вводн"]
+			6 -> 24 [label="сент_соч"]
+			13 -> 10 [label="обст"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="предик"]
+			8 -> 13 [label="релят"]
+			31 -> 32
+			31 -> 38 [label="предик"]
+			0 -> 1 [label="предл"]
+			38 -> 36 [label="опред"]
+			38 -> 37 [label="опред"]
+			25 -> 26 [label="предл"]
+			33 -> 35 [label="предл"]
+			4 -> 5 [label="предл"]
+			30 -> 31 [label="соч_союзн"]
+			24 -> 29 [label="соч_союзн"]
+			3 -> 2 [label="опред"]
+			18 -> 21 [label="соч_союзн"]
+			28 -> 27 [label="опред"]
+			19 -> 20 [label="предл"]
+			32 -> 33 [label="_2_компл"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 16 [label="аппоз"]
+			29 -> 25 [label="обст"]
+			29 -> 30 [label="сочин"]
+			1 -> 3 [label="атриб"]
+			26 -> 28 [label="атриб"]
+			10 -> 11 [label="предл"]
+			35 -> 34 [label="опред"]
+			21 -> 19 [label="обст"]
+			21 -> 22 [label="аппоз"]
+}

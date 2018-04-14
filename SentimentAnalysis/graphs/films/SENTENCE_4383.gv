@@ -1,0 +1,53 @@
+digraph SENTENCE_4383 {
+	graph [label="18, стих 20  Этот фильм нельзя ни в коем случае смотреть не сформировавшимся подросткам: их он погубит."]
+	node [style=filled]
+		0 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="20
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Этот
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="коем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сформировавшимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="подросткам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="погубит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			6 -> 11 [label="предик"]
+			6 -> 18 [label="сент_соч"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предл"]
+			14 -> 13 [label="опред"]
+			13 -> 12 [label="огранич"]
+			18 -> 16 [label="_1_компл"]
+			18 -> 17 [label="предик"]
+			2 -> 0 [label="количест"]
+			11 -> 8 [label="обст"]
+			11 -> 14 [label="_2_компл"]
+			5 -> 2 [label="предик"]
+			5 -> 3 [label="количест"]
+			5 -> 4 [label="опред"]
+}

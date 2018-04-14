@@ -1,0 +1,26 @@
+digraph SENTENCE_3656 {
+	graph [label="Это прекрасно сделанное с технической точки зрения кино."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прекрасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сделанное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="технической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="точки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="квазиагент"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="обст"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6
+}

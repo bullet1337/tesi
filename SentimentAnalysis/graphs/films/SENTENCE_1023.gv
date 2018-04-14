@@ -1,0 +1,60 @@
+digraph SENTENCE_1023 {
+	graph [label="Никогда не был поклонником музыкального творчества Бьорк, но не знаю, кто бы прожил эту роль так, как удалось ей."]
+	node [style=filled]
+		0 [label="Никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поклонником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="музыкального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="творчества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="прожил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="удалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			3 -> 6 [label="аппоз"]
+			5 -> 4 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="присвяз"]
+			2 -> 8 [label="сочин"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="аналит"]
+			14 -> 16 [label="_1_компл"]
+			14 -> 17 [label="обст"]
+			16 -> 15 [label="опред"]
+			8 -> 10 [label="соч_союзн"]
+			20 -> 21 [label="предик"]
+			17 -> 19 [label="эксплет"]
+			10 -> 9 [label="огранич"]
+			10 -> 14 [label="_1_компл"]
+			19 -> 20 [label="сравн_союзн"]
+}

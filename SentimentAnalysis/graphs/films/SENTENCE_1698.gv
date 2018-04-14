@@ -1,0 +1,30 @@
+digraph SENTENCE_1698 {
+	graph [label="С фон Триером знаком по «Догвилю», «Мандерлею» и «Антихристу»."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Триером
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="знаком
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Догвилю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Мандерлею
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Антихристу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="предл"]
+			12 -> 14 [label="соч_союзн"]
+			10 -> 12 [label="сочин"]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="атриб"]
+			3 -> 10 [label="_1_компл"]
+}

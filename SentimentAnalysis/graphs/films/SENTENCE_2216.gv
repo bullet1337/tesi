@@ -1,0 +1,66 @@
+digraph SENTENCE_2216 {
+	graph [label="Все эти сюрреалистические чудеса ничуть не уступают финалу фильма «Космическая Одессея 2001» или моментам в красной комнате в сериале Дэвида Линча «Твин Пикс»."]
+	node [style=filled]
+		0 [label="Все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюрреалистические
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чудеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ничуть
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уступают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="финалу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Космическая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Одессея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="2001
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="моментам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="красной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="комнате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сериале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Дэвида Линча
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Твин Пикс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="атриб"]
+			16 -> 18 [label="предл"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 23 [label="разъяснит"]
+			19 -> 20 [label="предл"]
+			7 -> 8 [label="квазиагент"]
+			8 -> 11 [label="аппоз"]
+			15 -> 16 [label="атриб"]
+			15 -> 21 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="сочин"]
+			5 -> 4 [label="огранич"]
+			14 -> 15 [label="соч_союзн"]
+			3 -> 0 [label="опред"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+}

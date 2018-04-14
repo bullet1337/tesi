@@ -1,0 +1,51 @@
+digraph SENTENCE_1922 {
+	graph [label="Когда просто не можешь продолжать просмотр фильма, вынужден остановить несколько раз, обдумать, просто прийти в себя."]
+	node [style=filled]
+		0 [label="Когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="продолжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вынужден
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="остановить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обдумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="прийти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			9 -> 11 [label="_1_компл"]
+			0 -> 3 [label="подч_союзн"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			8 -> 0 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 13 [label="_2_компл"]
+			13 -> 16 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="_2_компл"]
+			4 -> 5 [label="_1_компл"]
+			11 -> 10 [label="количест"]
+			17 -> 18 [label="предл"]
+}

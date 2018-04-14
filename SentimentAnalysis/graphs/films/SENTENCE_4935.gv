@@ -1,0 +1,29 @@
+digraph SENTENCE_4935 {
+	graph [label="Под руководством почти дебютанта и под присмотром самой «Toho»."]
+	node [style=filled]
+		0 [label="Под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дебютанта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="присмотром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Toho
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 9 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			5 -> 6 [label="предл"]
+			9 -> 7 [label="опред"]
+}

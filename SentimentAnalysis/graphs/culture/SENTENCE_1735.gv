@@ -1,0 +1,36 @@
+digraph SENTENCE_1735 {
+	graph [label="Суд Норвегии признал Брейвика вменяемым и приговорил к 21 году тюрьмы."]
+	node [style=filled]
+		0 [label="Суд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Норвегии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="признал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Брейвика
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вменяемым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приговорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тюрьмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			7 -> 9 [label="предл"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 10 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 5 [label="сочин"]
+}

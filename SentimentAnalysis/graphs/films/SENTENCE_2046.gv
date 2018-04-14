@@ -1,0 +1,65 @@
+digraph SENTENCE_2046 {
+	graph [label="Тарковский как режиссер вообще недемократичен: < «Зеркало»> «конечно, непонятно массе, привыкшей к киношке и не умеющей читать книг, слушать музыку, глядеть живопись…»."]
+	node [style=filled]
+		0 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="недемократичен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Зеркало
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="непонятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="массе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="привыкшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="киношке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="умеющей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="читать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="книг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="слушать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="музыку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="глядеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="живопись
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="соч_союзн"]
+			18 -> 19 [label="предл"]
+			22 -> 21 [label="огранич"]
+			22 -> 23 [label="_1_компл"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 26 [label="сочин"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 14 [label="сент_соч"]
+			0 -> 1 [label="сравнит"]
+			29 -> 30 [label="_1_компл"]
+			14 -> 8 [label="предик"]
+			14 -> 12 [label="вводн"]
+			15 -> 17 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 20 [label="сочин"]
+			26 -> 27 [label="_1_компл"]
+			26 -> 29 [label="сочин"]
+			1 -> 2 [label="сравн_союзн"]
+}

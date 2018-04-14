@@ -1,0 +1,25 @@
+digraph SENTENCE_478 {
+	graph [label="Последняя сцена напоминает не столько тюрьму, сколько театр."]
+	node [style=filled]
+		0 [label="Последняя
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="напоминает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тюрьму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сколько
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="сочин"]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			7 -> 8 [label="соч_союзн"]
+}

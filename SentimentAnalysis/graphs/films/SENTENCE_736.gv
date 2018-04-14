@@ -1,0 +1,39 @@
+digraph SENTENCE_736 {
+	graph [label="Получается так, что он погибает, и главная героиня становится виновницей его смерти."]
+	node [style=filled]
+		0 [label="Получается
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="погибает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="виновницей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 5 [label="подч_союзн"]
+			0 -> 1 [label="обст"]
+			7 -> 10 [label="соч_союзн"]
+			11 -> 13 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="сент_соч"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="присвяз"]
+			13 -> 12 [label="квазиагент"]
+}

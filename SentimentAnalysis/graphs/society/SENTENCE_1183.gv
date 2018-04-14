@@ -1,0 +1,54 @@
+digraph SENTENCE_1183 {
+	graph [label="Президент России Владимир Путин возложил венок к Могиле Неизвестного солдата у Кремлевской стены по случаю Дня защитника Отечества."]
+	node [style=filled]
+		0 [label="Президент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Владимир Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="возложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="венок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Могиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Неизвестного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="солдата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Кремлевской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="стены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="случаю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Дня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 7 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			5 -> 6 [label="предл"]
+			14 -> 15 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="аппоз"]
+			9 -> 11 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 8 [label="_1_компл"]
+			3 -> 9 [label="обст"]
+			3 -> 12 [label="обст"]
+			3 -> 16 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+}

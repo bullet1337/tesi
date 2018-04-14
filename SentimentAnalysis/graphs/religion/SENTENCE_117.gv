@@ -1,0 +1,57 @@
+digraph SENTENCE_117 {
+	graph [label="Коллеги обсудили приоритеты следующего долгосрочного бюджета Европейского союза, вопросы, связанные с выборами в Европарламент, и темы, касающиеся миграции."]
+	node [style=filled]
+		0 [label="Коллеги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обсудили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приоритеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="следующего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="долгосрочного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бюджета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Европейского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="союза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вопросы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="связанные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выборами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Европарламент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="темы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="касающиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="миграции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			20 -> 21 [label="_1_компл"]
+			9 -> 11 [label="опред"]
+			14 -> 15 [label="предл"]
+			2 -> 5 [label="квазиагент"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			13 -> 14 [label="_2_компл"]
+			12 -> 13 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 9 [label="сочин"]
+			11 -> 12 [label="_2_компл"]
+			18 -> 20 [label="опред"]
+			15 -> 17 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+}

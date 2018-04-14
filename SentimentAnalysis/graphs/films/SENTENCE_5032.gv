@@ -1,0 +1,33 @@
+digraph SENTENCE_5032 {
+	graph [label="В целом, фильм сделан в расчёте на типичного японского школьника."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сделан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="расчёте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="типичного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="японского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="школьника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			7 -> 10 [label="предл"]
+			5 -> 6 [label="предл"]
+}

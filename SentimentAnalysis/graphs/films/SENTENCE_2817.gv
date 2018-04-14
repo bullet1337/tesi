@@ -1,0 +1,33 @@
+digraph SENTENCE_2817 {
+	graph [label="И даже если, чего-то хотят, то нет мотивировки этих действий."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чего-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хотят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мотивировки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="действий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="подч_союзн"]
+			2 -> 7 [label="соотнос"]
+			5 -> 4 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			0 -> 8 [label="соч_союзн"]
+			8 -> 2 [label="обст"]
+			8 -> 9 [label="предик"]
+}

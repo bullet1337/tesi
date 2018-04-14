@@ -1,0 +1,51 @@
+digraph SENTENCE_644 {
+	graph [label="В частности, участница \"Юнармии\" из Севастополя спросила, планируется ли строительство кадетского училища для девочек в Севастополе."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Юнармии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Севастополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="спросила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="планируется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="строительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="кадетского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="училища
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="девочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Севастополе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 0 [label="обст"]
+			9 -> 3 [label="предик"]
+			9 -> 11 [label="_2_компл"]
+			0 -> 1 [label="предл"]
+			13 -> 15 [label="_1_компл"]
+			13 -> 16 [label="атриб"]
+			13 -> 18 [label="атриб"]
+			11 -> 12 [label="огранич"]
+			11 -> 13 [label="предик"]
+			7 -> 8 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="атриб"]
+			18 -> 19 [label="предл"]
+			16 -> 17 [label="предл"]
+			15 -> 14 [label="опред"]
+}

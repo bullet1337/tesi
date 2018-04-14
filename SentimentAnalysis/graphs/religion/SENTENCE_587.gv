@@ -1,0 +1,42 @@
+digraph SENTENCE_587 {
+	graph [label="В храмах в течение всего дня и всей ночи проходят торжественные службы — хуралы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="храмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="течение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ночи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="торжественные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хуралы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			6 -> 8 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 11 [label="предик"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="атриб"]
+			1 -> 6 [label="сочин"]
+}

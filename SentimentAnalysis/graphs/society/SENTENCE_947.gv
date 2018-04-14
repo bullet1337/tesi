@@ -1,0 +1,63 @@
+digraph SENTENCE_947 {
+	graph [label="Видный дипломат и журналист, бывший председатель правления АПН Валентин Фалин скончался на 92-м году жизни, сообщили в четверг РИА Новости его близкие."]
+	node [style=filled]
+		0 [label="Видный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дипломат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="журналист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бывший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="правления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="АПН
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Валентин Фалин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="92-м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="близкие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 14 [label="_2_компл"]
+			16 -> 17 [label="обст"]
+			16 -> 19 [label="предик"]
+			16 -> 21 [label="предик"]
+			7 -> 8 [label="квазиагент"]
+			6 -> 1 [label="предик"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="сент_соч"]
+			6 -> 16 [label="вводн"]
+			17 -> 18 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="обст"]
+			11 -> 12 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			2 -> 3 [label="соч_союзн"]
+			21 -> 20 [label="_1_компл"]
+}

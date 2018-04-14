@@ -1,0 +1,33 @@
+digraph SENTENCE_1549 {
+	graph [label="Будет ли он счастлив, обретя зрение ценой преступления против любви?"]
+	node [style=filled]
+		0 [label="Будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="счастлив
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="обретя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="преступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="предик"]
+			0 -> 3 [label="присвяз"]
+			0 -> 5 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+}

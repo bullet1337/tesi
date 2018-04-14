@@ -1,0 +1,27 @@
+digraph SENTENCE_421 {
+	graph [label="Позднее информатор WADA появился в эфире телеканала CBS."]
+	node [style=filled]
+		0 [label="Позднее
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="информатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="WADA
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="появился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эфире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="телеканала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="CBS
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="предл"]
+			5 -> 6 [label="квазиагент"]
+			6 -> 7 [label="аппоз"]
+			1 -> 2 [label="аппоз"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+}

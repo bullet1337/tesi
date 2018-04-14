@@ -1,0 +1,51 @@
+digraph SENTENCE_37 {
+	graph [label="\"Однако церкви фактически заблокировали выполнение этих предписаний, и налог ими не выплачивался\", — сказано в материалах РДМ."]
+	node [style=filled]
+		1 [label="Однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заблокировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выполнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="предписаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="налог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="выплачивался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сказано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="материалах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="РДМ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			17 -> 18 [label="обст"]
+			9 -> 10 [label="соч_союзн"]
+			5 -> 7 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="сочин"]
+			19 -> 20 [label="квазиагент"]
+			4 -> 1 [label="огранич"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 13 [label="сент_соч"]
+			4 -> 17 [label="вводн"]
+			18 -> 19 [label="предл"]
+}

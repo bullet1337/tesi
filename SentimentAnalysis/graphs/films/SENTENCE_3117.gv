@@ -1,0 +1,33 @@
+digraph SENTENCE_3117 {
+	graph [label="Моя оценка  3 из 10  и лишь за операторскую работу."]
+	node [style=filled]
+		0 [label="Моя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оценка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="операторскую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="нум_аппоз"]
+			1 -> 5 [label="сочин"]
+			2 -> 3 [label="электив"]
+			3 -> 4 [label="предл"]
+			5 -> 7 [label="соч_союзн"]
+			9 -> 8 [label="опред"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="предл"]
+}

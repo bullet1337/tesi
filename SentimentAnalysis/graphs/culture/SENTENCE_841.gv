@@ -1,0 +1,41 @@
+digraph SENTENCE_841 {
+	graph [label="Туминас отметил, что либретто, написанное Модестом Чайковским по повести Александра Пушкина, очень близко к пьесе."]
+	node [style=filled]
+		0 [label="Туминас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="либретто
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="написанное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Модестом Чайковским
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="повести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Александра Пушкина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="близко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пьесе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			14 -> 15 [label="предл"]
+			9 -> 10 [label="аппоз"]
+			4 -> 6 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 7 [label="агент"]
+			6 -> 8 [label="обст"]
+			6 -> 13 [label="обст"]
+}

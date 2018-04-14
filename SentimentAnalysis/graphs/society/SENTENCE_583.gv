@@ -1,0 +1,33 @@
+digraph SENTENCE_583 {
+	graph [label="\"Днем в Москве и области переменная облачность, без существенных осадков."]
+	node [style=filled]
+		1 [label="Днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="переменная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="облачность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="существенных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="осадков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			3 -> 4 [label="сочин"]
+			1 -> 2 [label="атриб"]
+			7 -> 1 [label="обст"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="атриб"]
+			2 -> 3 [label="предл"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_25 {
+	graph [label="Игумен Никон предполагает, что акция протеста продлится до \"позитивного отклика от муниципалитета Иерусалима\", и надеется, что компромисс удастся найти в ближайшие дни."]
+	node [style=filled]
+		0 [label="Игумен Никон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="предполагает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="акция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="протеста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="продлится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="позитивного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отклика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="муниципалитета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Иерусалима
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="надеется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="компромисс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="удастся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ближайшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 20 [label="_1_компл"]
+			21 -> 22 [label="предик"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 11 [label="_1_компл"]
+			6 -> 16 [label="сочин"]
+			25 -> 24 [label="опред"]
+			3 -> 6 [label="подч_союзн"]
+			11 -> 12 [label="предл"]
+			22 -> 23 [label="_2_компл"]
+			10 -> 9 [label="опред"]
+			23 -> 25 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			17 -> 19 [label="_1_компл"]
+			4 -> 5 [label="_1_компл"]
+			19 -> 21 [label="подч_союзн"]
+			7 -> 10 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			16 -> 17 [label="соч_союзн"]
+}

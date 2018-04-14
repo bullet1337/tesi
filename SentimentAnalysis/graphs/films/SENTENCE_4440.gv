@@ -1,0 +1,42 @@
+digraph SENTENCE_4440 {
+	graph [label="Поэтому и продолжения тот фильм так и не получил, всё ограничилось лишь мультсериалом."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="продолжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ограничилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мультсериалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			4 -> 3 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 2 [label="предик"]
+			8 -> 5 [label="обст"]
+			8 -> 7 [label="огранич"]
+			8 -> 11 [label="изъясн"]
+			5 -> 6
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+}

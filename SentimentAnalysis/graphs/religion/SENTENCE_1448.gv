@@ -1,0 +1,33 @@
+digraph SENTENCE_1448 {
+	graph [label="По данным шерифа округа Бровард Скотта Исраэля, жертвами стрельбы стали 17 человек."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="данным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="шерифа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="округа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Бровард Скотта Исраэля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="жертвами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стрельбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			8 -> 10 [label="предик"]
+			4 -> 0 [label="вводн"]
+			4 -> 7 [label="сочин"]
+			4 -> 8 [label="разъяснит"]
+			4 -> 6 [label="аппоз"]
+			10 -> 9 [label="количест"]
+			1 -> 2 [label="квазиагент"]
+}

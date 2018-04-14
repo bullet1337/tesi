@@ -1,0 +1,48 @@
+digraph SENTENCE_4287 {
+	graph [label="Во-первых, он замкнут и ни с кем не разговаривает и оправдывать это лишь мамашей-наркоманкой глупо."]
+	node [style=filled]
+		0 [label="Во-первых
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="замкнут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="разговаривает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оправдывать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мамашей-наркоманкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="глупо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="вводн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сочин"]
+			3 -> 12 [label="предик"]
+			3 -> 14 [label="агент"]
+			3 -> 15 [label="обст"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 9 [label="соч_союзн"]
+			14 -> 13 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="сочин"]
+}

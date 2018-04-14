@@ -1,0 +1,15 @@
+digraph SENTENCE_2712 {
+	graph [label="2049 год: Космическая одиссея."]
+	node [style=filled]
+		0 [label="2049
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Космическая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="одиссея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="опред"]
+}

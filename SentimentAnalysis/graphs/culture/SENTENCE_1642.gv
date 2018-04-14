@@ -1,0 +1,36 @@
+digraph SENTENCE_1642 {
+	graph [label="Причем трое из четверых даже не знают, зачем они туда едут."]
+	node [style=filled]
+		0 [label="Причем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="трое
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="четверых
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="туда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="едут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="предик"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 11 [label="_1_компл"]
+			1 -> 2 [label="электив"]
+			0 -> 6 [label="соч_союзн"]
+			11 -> 8 [label="обст"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="_2_компл"]
+			2 -> 3 [label="предл"]
+}

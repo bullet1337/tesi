@@ -1,0 +1,87 @@
+digraph SENTENCE_1125 {
+	graph [label="Федеральный институт развития образования присоединится к Российской академии народного хозяйства и государственной службы при президенте России (РАНХиГС), следует из распоряжения правительства РФ, опубликованного на сайте кабмина в понедельник."]
+	node [style=filled]
+		0 [label="Федеральный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="институт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="присоединится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="академии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="народного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хозяйства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="государственной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="президенте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="РАНХиГС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="следует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="распоряжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="правительства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="опубликованного
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="кабмина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			26 -> 27 [label="обст"]
+			10 -> 12 [label="соч_союзн"]
+			13 -> 14 [label="предл"]
+			21 -> 22 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 10 [label="сочин"]
+			27 -> 28 [label="предл"]
+			20 -> 13 [label="обст"]
+			20 -> 21 [label="_1_компл"]
+			20 -> 26 [label="сочин"]
+			12 -> 11 [label="опред"]
+			5 -> 7 [label="предл"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="аппоз"]
+			23 -> 24 [label="_1_компл"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 20 [label="сент_соч"]
+			22 -> 23 [label="квазиагент"]
+			30 -> 31 [label="предл"]
+			28 -> 29 [label="квазиагент"]
+			28 -> 30 [label="атриб"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+}

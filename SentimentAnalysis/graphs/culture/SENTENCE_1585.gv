@@ -1,0 +1,62 @@
+digraph SENTENCE_1585 {
+	graph [label="История выходит грустной: изгнанный из армии, одинокий и всеми забытый человек, который волевым решением спас миллионы людей от реальной гибели."]
+	node [style=filled]
+		0 [label="История
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="выходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="грустной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="изгнанный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одинокий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всеми
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="забытый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="волевым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="решением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="спас
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="миллионы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="реальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="гибели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			4 -> 2 [label="_2_компл"]
+			4 -> 5 [label="обст"]
+			17 -> 14 [label="_1_компл"]
+			17 -> 16 [label="обст"]
+			17 -> 18 [label="предик"]
+			18 -> 19 [label="квазиагент"]
+			5 -> 6 [label="предл"]
+			8 -> 4 [label="опред"]
+			8 -> 9 [label="сочин"]
+			8 -> 17 [label="релят"]
+			16 -> 15 [label="опред"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			9 -> 12 [label="соч_союзн"]
+			19 -> 20 [label="атриб"]
+			22 -> 21 [label="опред"]
+			20 -> 22 [label="предл"]
+}

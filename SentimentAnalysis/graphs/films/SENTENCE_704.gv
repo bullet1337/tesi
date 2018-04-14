@@ -1,0 +1,21 @@
+digraph SENTENCE_704 {
+	graph [label="Она меня потрясла, до глубины души."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="потрясла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="глубины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="души
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+}

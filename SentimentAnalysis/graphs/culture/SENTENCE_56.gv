@@ -1,0 +1,45 @@
+digraph SENTENCE_56 {
+	graph [label="В свою очередь, директор театра Леонид Ошарин сообщил, что прощание с Карповой состоится театре им."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="директор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Леонид Ошарин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прощание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Карповой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 10 [label="предик"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 15 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			9 -> 13 [label="подч_союзн"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 4 [label="предик"]
+			7 -> 9 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+}

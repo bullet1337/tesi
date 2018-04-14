@@ -1,0 +1,66 @@
+digraph SENTENCE_835 {
+	graph [label="Большой театр представляет третью в ХХI веке постановку оперы Петра Ильича Чайковского \"Пиковая дама\": свою версию оперного шедевра создал известный драматический режиссер Римас Туминас."]
+	node [style=filled]
+		0 [label="Большой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="театр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="третью
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ХХI
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="постановку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Петра Ильича Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Пиковая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="дама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="версию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оперного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="шедевра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="создал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="драматический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Римас Туминас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			18 -> 17 [label="опред"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 7 [label="_1_компл"]
+			2 -> 19 [label="вводн"]
+			8 -> 9 [label="аппоз"]
+			8 -> 12 [label="сочин"]
+			3 -> 4 [label="атриб"]
+			12 -> 11 [label="опред"]
+			12 -> 16 [label="сочин"]
+			19 -> 22 [label="предик"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			7 -> 3 [label="опред"]
+			7 -> 8 [label="разъяснит"]
+			22 -> 20 [label="опред"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="аппоз"]
+}

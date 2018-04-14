@@ -1,0 +1,51 @@
+digraph SENTENCE_1042 {
+	graph [label="\"Страстная неделя рассматривается как особый период, когда мы день за днем хронологически переживаем события перед Пасхой."]
+	node [style=filled]
+		1 [label="Страстная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рассматривается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="особый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хронологически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="переживаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="события
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Пасхой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 12 [label="предл"]
+			8 -> 14 [label="подч_союзн"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 8 [label="обст"]
+			4 -> 6 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			15 -> 16 [label="атриб"]
+			2 -> 1 [label="опред"]
+			16 -> 17 [label="предл"]
+			14 -> 9 [label="предик"]
+			14 -> 10 [label="обст"]
+			14 -> 11 [label="обст"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+}

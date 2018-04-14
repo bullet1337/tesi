@@ -1,0 +1,22 @@
+digraph SENTENCE_1036 {
+	graph [label="10 из 10
+Что такое темнота?"]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Что
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="темнота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			3 -> 0
+			3 -> 4 [label="опред"]
+			3 -> 5 [label="предик"]
+			1 -> 2 [label="предл"]
+}

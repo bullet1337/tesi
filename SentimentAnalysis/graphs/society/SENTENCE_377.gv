@@ -1,0 +1,66 @@
+digraph SENTENCE_377 {
+	graph [label="Керченская паромная переправа (порт Крым — порт Кавказ) и аэропорт Симферополя сейчас являются главными транспортными артериями, связывающими полуостров Крым с материковой Россией."]
+	node [style=filled]
+		0 [label="Керченская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="паромная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="переправа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="порт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Крым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="порт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Кавказ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="аэропорт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Симферополя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="являются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="главными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="транспортными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="артериями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="связывающими
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="полуостров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Крым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="материковой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Россией
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			24 -> 23 [label="опред"]
+			4 -> 5 [label="сочин"]
+			8 -> 10 [label="сочин"]
+			11 -> 12 [label="аппоз"]
+			10 -> 11 [label="соч_союзн"]
+			19 -> 20 [label="_1_компл"]
+			19 -> 22 [label="_2_компл"]
+			14 -> 2 [label="предик"]
+			14 -> 13 [label="обст"]
+			14 -> 17 [label="_1_компл"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сочин"]
+			22 -> 24 [label="предл"]
+			5 -> 7 [label="сочин"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			17 -> 19 [label="опред"]
+			20 -> 21 [label="сочин"]
+			7 -> 8 [label="сочин"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_850 {
+	graph [label="Нашу беседу прерывают — одному из братьев стало плохо, тяжелый приступ аритмии, и он просит его причастить."]
+	node [style=filled]
+		0 [label="Нашу
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="беседу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прерывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одному
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="братьев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плохо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тяжелый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="приступ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="аритмии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="просит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="причастить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			14 -> 16 [label="соч_союзн"]
+			7 -> 8 [label="присвяз"]
+			7 -> 11 [label="предик"]
+			7 -> 14 [label="сент_соч"]
+			1 -> 0 [label="опред"]
+			4 -> 5 [label="электив"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="_2_компл"]
+			18 -> 17 [label="_1_компл"]
+}

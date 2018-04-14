@@ -1,0 +1,30 @@
+digraph SENTENCE_1505 {
+	graph [label="\"У нас нет лобби, внутренних связей, которые могли помочь."]
+	node [style=filled]
+		1 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лобби
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="внутренних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="связей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="могли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 7 [label="квазиагент"]
+			4 -> 10 [label="релят"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 4 [label="предик"]
+			1 -> 2 [label="предл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_614 {
+	graph [label="Но и игнорировать эти обстоятельства мы тоже не могли."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="игнорировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обстоятельства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="могли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 8 [label="соч_союзн"]
+			8 -> 2 [label="_1_компл"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

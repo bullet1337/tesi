@@ -1,0 +1,27 @@
+digraph SENTENCE_3122 {
+	graph [label="Особых чувств между главными героями я не заметила."]
+	node [style=filled]
+		0 [label="Особых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чувств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="заметила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="предл"]
+			7 -> 1 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+}

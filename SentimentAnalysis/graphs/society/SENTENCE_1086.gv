@@ -1,0 +1,84 @@
+digraph SENTENCE_1086 {
+	graph [label="Московское управление Федеральной антимонопольной службы (ФАС) РФ признала недопустимой рекламу интерактивного музея \"КидБург\" из-за изображения детей и слоганов, которые оказывали давление на родителей, сообщается на сайте службы."]
+	node [style=filled]
+		0 [label="Московское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="управление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Федеральной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="антимонопольной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ФАС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="признала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="недопустимой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рекламу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="интерактивного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="музея
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="КидБург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="из-за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="изображения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="слоганов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="оказывали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="давление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="родителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="сообщается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="сайте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="службы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			9 -> 1 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 13 [label="_2_компл"]
+			9 -> 15 [label="_1_компл"]
+			9 -> 17 [label="обст"]
+			9 -> 24 [label="сент_соч"]
+			19 -> 20 [label="сочин"]
+			6 -> 8 [label="квазиагент"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 29 [label="сочин"]
+			20 -> 21 [label="соч_союзн"]
+			26 -> 27 [label="предл"]
+			25 -> 26 [label="_1_компл"]
+			30 -> 31 [label="предл"]
+			17 -> 18 [label="предл"]
+			31 -> 32 [label="квазиагент"]
+			18 -> 19 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="квазиагент"]
+			29 -> 30 [label="_3_компл"]
+}

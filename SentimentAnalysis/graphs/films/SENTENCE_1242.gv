@@ -1,0 +1,63 @@
+digraph SENTENCE_1242 {
+	graph [label="Сама же Сельма пугающими темпами теряет зрение, но если она потеряет работу — это означает, что она не сможет помочь сыну."]
+	node [style=filled]
+		0 [label="Сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="пугающими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="темпами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="теряет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="потеряет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="означает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сможет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сыну
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 2 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сент_соч"]
+			17 -> 20 [label="подч_союзн"]
+			9 -> 11 [label="подч_союзн"]
+			8 -> 15 [label="соч_союзн"]
+			15 -> 9 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			21 -> 22 [label="_1_компл"]
+			0 -> 1 [label="огранич"]
+			4 -> 3 [label="опред"]
+			2 -> 0 [label="опред"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="_1_компл"]
+}

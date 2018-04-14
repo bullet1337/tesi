@@ -1,0 +1,57 @@
+digraph SENTENCE_506 {
+	graph [label="По его словам, участники просмотра сошлись во мнении, что фильм плох с профессиональной точки зрения и абсолютно лжив."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сошлись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плох
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="профессиональной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="точки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лжив
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="_1_компл"]
+			10 -> 12 [label="подч_союзн"]
+			17 -> 19 [label="соч_союзн"]
+			2 -> 1 [label="квазиагент"]
+			4 -> 5 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="обст"]
+			12 -> 17 [label="сочин"]
+			19 -> 18 [label="огранич"]
+			0 -> 2 [label="предл"]
+			7 -> 8 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			13 -> 15 [label="предл"]
+			15 -> 14 [label="опред"]
+			15 -> 16
+}

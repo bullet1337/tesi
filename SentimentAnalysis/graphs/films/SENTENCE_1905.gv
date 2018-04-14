@@ -1,0 +1,45 @@
+digraph SENTENCE_1905 {
+	graph [label="Конечно же, в силу вышеназванных факторов мои ожидания от «Танцующей в темноте» были высокими."]
+	node [style=filled]
+		0 [label="Конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="силу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вышеназванных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="факторов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Танцующей
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="высокими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 3 [label="огранич"]
+			9 -> 11 [label="предл"]
+			9 -> 12 [label="сочин"]
+			12 -> 13 [label="предл"]
+			15 -> 0 [label="вводн"]
+			15 -> 9 [label="предик"]
+			15 -> 16 [label="присвяз"]
+			4 -> 6 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			0 -> 1 [label="огранич"]
+			8 -> 7 [label="опред"]
+			3 -> 4 [label="предл"]
+}

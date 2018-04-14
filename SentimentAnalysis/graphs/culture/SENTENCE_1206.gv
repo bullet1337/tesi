@@ -1,0 +1,42 @@
+digraph SENTENCE_1206 {
+	graph [label="В этот раз закадычные друзья проведут время за разговорами по дороге в Петербург."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="закадычные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="друзья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проведут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="разговорами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дороге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Петербург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="предл"]
+			4 -> 3 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="_2_компл"]
+}

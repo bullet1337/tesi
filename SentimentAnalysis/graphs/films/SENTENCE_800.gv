@@ -1,0 +1,24 @@
+digraph SENTENCE_800 {
+	graph [label="И вот что я о нем думаю."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 6 [label="соч_союзн"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="_2_компл"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="огранич"]
+}

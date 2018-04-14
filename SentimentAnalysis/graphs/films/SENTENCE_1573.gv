@@ -1,0 +1,35 @@
+digraph SENTENCE_1573 {
+	graph [label="Простая женщина, у которой нет никого и ничего дороже родного сына."]
+	node [style=filled]
+		0 [label="Простая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дороже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="родного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сына
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			8 -> 9 [label="атриб"]
+			1 -> 0 [label="опред"]
+			9 -> 11 [label="сравнит"]
+			5 -> 1 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			7 -> 8 [label="соч_союзн"]
+			6 -> 7 [label="сочин"]
+}

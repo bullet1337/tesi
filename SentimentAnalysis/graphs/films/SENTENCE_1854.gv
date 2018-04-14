@@ -1,0 +1,35 @@
+digraph SENTENCE_1854 {
+	graph [label="Смысл в том, что бы даже в этом случае не останавливаться."]
+	node [style=filled]
+		0 [label="Смысл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="случае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="останавливаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 5 [label="аналит"]
+			11 -> 7 [label="обст"]
+			11 -> 10 [label="огранич"]
+			9 -> 8 [label="опред"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="предл"]
+			2 -> 4 [label="эксплет"]
+}

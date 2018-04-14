@@ -1,0 +1,30 @@
+digraph SENTENCE_3447 {
+	graph [label="Тогда чемпион России по футболу прошлого года тоже Спартак."]
+	node [style=filled]
+		0 [label="Тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="чемпион
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="футболу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прошлого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Спартак
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 1 [label="предик"]
+			8 -> 7 [label="огранич"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="атриб"]
+}

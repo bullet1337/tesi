@@ -1,0 +1,48 @@
+digraph SENTENCE_283 {
+	graph [label="Впервые на большом экране российские зрители смогут увидеть раннюю работу ван Дормаля — трагикомедию \"День восьмой\"."]
+	node [style=filled]
+		0 [label="Впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="большом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смогут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="раннюю
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ван
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Дормаля
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="трагикомедию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="восьмой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			13 -> 15 [label="аппоз"]
+			3 -> 2 [label="опред"]
+			11 -> 10
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			6 -> 0 [label="обст"]
+			6 -> 1 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="предик"]
+			6 -> 16 [label="_1_компл"]
+			7 -> 9 [label="_1_компл"]
+			1 -> 3 [label="предл"]
+}

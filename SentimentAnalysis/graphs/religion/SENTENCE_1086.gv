@@ -1,0 +1,81 @@
+digraph SENTENCE_1086 {
+	graph [label="Священники читают молитву, прося у Бога благословения для всех на предстоящий длительный пост (помимо 40-дневного Великого поста, это еще и следующая за ним Страстная \"седмица\", неделя)."]
+	node [style=filled]
+		0 [label="Священники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="читают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="молитву
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Бога
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="благословения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="предстоящий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="длительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="40-дневного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="следующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Страстная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="седмица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			8 -> 9 [label="предл"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			23 -> 24 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			1 -> 28 [label="сент_соч"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 10 [label="_2_компл"]
+			4 -> 15 [label="обст"]
+			15 -> 18 [label="предл"]
+			7 -> 8 [label="атриб"]
+			5 -> 6 [label="предл"]
+			24 -> 25 [label="предл"]
+			28 -> 20 [label="предик"]
+			28 -> 21 [label="огранич"]
+			28 -> 22 [label="огранич"]
+			28 -> 23 [label="опред"]
+			28 -> 26 [label="опред"]
+			28 -> 31 [label="сочин"]
+			10 -> 13 [label="предл"]
+}

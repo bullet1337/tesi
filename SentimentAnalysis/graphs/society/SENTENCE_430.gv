@@ -1,0 +1,69 @@
+digraph SENTENCE_430 {
+	graph [label="По приказу Сталина 23 февраля 1944 года чеченский и ингушский народы были высланы в Среднюю Азию и Сибирь, а Чечено-Ингушская автономия упразднена."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="приказу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1944
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чеченский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ингушский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="народы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="высланы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Среднюю
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Азию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Сибирь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Чечено-Ингушская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="автономия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="упразднена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+			13 -> 15 [label="предл"]
+			7 -> 8 [label="сочин"]
+			22 -> 21 [label="предик"]
+			12 -> 13 [label="_3_компл"]
+			0 -> 1 [label="предл"]
+			11 -> 0 [label="вводн"]
+			11 -> 10 [label="предик"]
+			11 -> 12
+			11 -> 19 [label="сент_соч"]
+			10 -> 7 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			16 -> 17 [label="соч_союзн"]
+			19 -> 22 [label="соч_союзн"]
+			3 -> 4 [label="атриб"]
+			1 -> 2 [label="квазиагент"]
+			1 -> 3 [label="атриб"]
+			21 -> 20 [label="опред"]
+			4 -> 6 [label="атриб"]
+}

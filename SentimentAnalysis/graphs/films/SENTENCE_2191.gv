@@ -1,0 +1,38 @@
+digraph SENTENCE_2191 {
+	graph [label="Это авторское творение, гений мирового кинематографа знал, что снимать и как монтировать."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="авторское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="творение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мирового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кинематографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="знал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="монтировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			10 -> 11 [label="сочин"]
+			7 -> 9 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сочин"]
+			2 -> 7 [label="разъяснит"]
+			13 -> 12 [label="обст"]
+			4 -> 6 [label="сочин"]
+}

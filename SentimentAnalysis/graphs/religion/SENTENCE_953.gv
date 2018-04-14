@@ -1,0 +1,24 @@
+digraph SENTENCE_953 {
+	graph [label="Она известна как заказчица многих художественных работ."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заказчица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="художественных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="работ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="_1_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="сравн_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1268 {
+	graph [label="Катрин Денёв… Да что тут говорить, сыграла как всегда — шедеврально."]
+	node [style=filled]
+		0 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Да
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="шедеврально
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="сравн_союзн"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="обст"]
+			2 -> 5 [label="инф_союзн"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 8 [label="сравнит"]
+			7 -> 11 [label="разъяснит"]
+			0 -> 2 [label="примыкат"]
+}

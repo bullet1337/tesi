@@ -1,0 +1,30 @@
+digraph SENTENCE_223 {
+	graph [label="Результаты будут переданы в управление Росприроднадзора по Северной Осетии."]
+	node [style=filled]
+		0 [label="Результаты
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="переданы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="управление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Росприроднадзора
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Осетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="предл"]
+			4 -> 5 [label="_1_компл"]
+			2 -> 3 [label="_4_компл"]
+			5 -> 6 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2
+			3 -> 4 [label="предл"]
+}

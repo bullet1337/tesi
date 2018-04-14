@@ -1,0 +1,42 @@
+digraph SENTENCE_1805 {
+	graph [label="Это единственное, ради чего она живет, работает в несколько смен, подрабатывая на дому."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="несколько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="подрабатывая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="дому
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 11 [label="предл"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			8 -> 9 [label="_3_компл"]
+			8 -> 13 [label="обст"]
+			14 -> 15 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 6 [label="релят"]
+			1 -> 8 [label="разъяснит"]
+			3 -> 4 [label="предл"]
+			13 -> 14 [label="_2_компл"]
+			11 -> 10 [label="количест"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_3480 {
+	graph [label="Но, безусловно, такой способ игры не всегда является осуществимым."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="способ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="осуществимым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="огранич"]
+			0 -> 5 [label="соч_союзн"]
+			9 -> 8 [label="обст"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 2 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 9 [label="релят"]
+}

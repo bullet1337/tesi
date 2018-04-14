@@ -1,0 +1,21 @@
+digraph SENTENCE_118 {
+	graph [label="Это общая сумма 487 миллиардов рублей."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сумма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="487
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="миллиардов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			4 -> 3 [label="количест"]
+			4 -> 5 [label="квазиагент"]
+}

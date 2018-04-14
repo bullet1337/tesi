@@ -1,0 +1,54 @@
+digraph SENTENCE_355 {
+	graph [label="Люди были на блокпостах, патрулировали улицы, стояли у стен городской администрации и горсовета, обеспечивая решения координационного совета."]
+	node [style=filled]
+		0 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="блокпостах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="патрулировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="стояли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="администрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="горсовета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обеспечивая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="решения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="координационного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="совета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			1 -> 5 [label="сочин"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сочин"]
+			9 -> 10 [label="предл"]
+			13 -> 14 [label="соч_союзн"]
+			10 -> 12 [label="квазиагент"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 16 [label="сочин"]
+			17 -> 19 [label="квазиагент"]
+			19 -> 18 [label="опред"]
+			16 -> 17 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+			2 -> 3 [label="предл"]
+}

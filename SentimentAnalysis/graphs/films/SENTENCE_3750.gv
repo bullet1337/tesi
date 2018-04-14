@@ -1,0 +1,57 @@
+digraph SENTENCE_3750 {
+	graph [label="В римских амфитеатрах бесновался (пардон, болел) еще больший процент населения, однако имен большинства тогдашних кумиров история не сохранила."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="римских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="амфитеатрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бесновался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пардон
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="болел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="больший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="процент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="имен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="большинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тогдашних
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="кумиров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сохранила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="квазиагент"]
+			16 -> 18 [label="квазиагент"]
+			18 -> 17 [label="опред"]
+			10 -> 9 [label="огранич"]
+			21 -> 14 [label="огранич"]
+			21 -> 15 [label="_1_компл"]
+			21 -> 19 [label="предик"]
+			21 -> 20 [label="огранич"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="обст"]
+			3 -> 7 [label="разъяснит"]
+			7 -> 5 [label="вводн"]
+			7 -> 11 [label="предик"]
+			7 -> 21 [label="сент_соч"]
+			0 -> 2 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+}

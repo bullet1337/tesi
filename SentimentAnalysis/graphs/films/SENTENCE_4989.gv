@@ -1,0 +1,42 @@
+digraph SENTENCE_4989 {
+	graph [label="Под конец вся эта беготня солдат со здоровенной ядерной бомбой подмышкой(не шучу!"]
+	node [style=filled]
+		0 [label="Под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="беготня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="солдат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="здоровенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ядерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бомбой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подмышкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="шучу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="атриб"]
+			0 -> 1 [label="предл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			6 -> 9 [label="предл"]
+			13 -> 10 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="опред"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="сочин"]
+			4 -> 13 [label="сент_соч"]
+}

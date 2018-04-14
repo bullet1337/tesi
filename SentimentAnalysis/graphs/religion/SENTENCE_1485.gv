@@ -1,0 +1,21 @@
+digraph SENTENCE_1485 {
+	graph [label="Затем каждый вынимал по одному билетику."]
+	node [style=filled]
+		0 [label="Затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вынимал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="одному
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="билетику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="обст"]
+			5 -> 4 [label="количест"]
+}

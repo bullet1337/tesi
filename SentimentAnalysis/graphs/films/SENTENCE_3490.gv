@@ -1,0 +1,24 @@
+digraph SENTENCE_3490 {
+	graph [label="3)  Ну и наконец, постановка в целом."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Ну
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наконец
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="постановка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="целом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="вводн"]
+			3 -> 4 [label="соч_союзн"]
+			6 -> 0 [label="количест"]
+			6 -> 7 [label="атриб"]
+			0 -> 3 [label="сочин"]
+			7 -> 8 [label="предл"]
+}

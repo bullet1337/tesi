@@ -1,0 +1,33 @@
+digraph SENTENCE_3472 {
+	graph [label="Если, конечно, это не экранизация Робина Гуда, или другого полумифического персонажа."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="экранизация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Робина Гуда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="полумифического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="персонажа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 2 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="сочин"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			0 -> 6 [label="подч_союзн"]
+			9 -> 12 [label="соч_союзн"]
+			7 -> 9 [label="сочин"]
+}

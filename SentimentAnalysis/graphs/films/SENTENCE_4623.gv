@@ -1,0 +1,36 @@
+digraph SENTENCE_4623 {
+	graph [label="Из бездарных диалогов вытекает вторая главная проблема: персонажи совершенно отвратительно прописаны."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бездарных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="диалогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вытекает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вторая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проблема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="персонажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отвратительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прописаны
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			10 -> 9 [label="огранич"]
+			0 -> 2 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="обст"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			3 -> 11 [label="сент_соч"]
+}

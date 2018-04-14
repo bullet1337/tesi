@@ -1,0 +1,29 @@
+digraph SENTENCE_700 {
+	graph [label="Правильно выстроить работу – это больше половины дела\", — заявил Игумнов."]
+	node [style=filled]
+		0 [label="Правильно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="выстроить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="больше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="половины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Игумнов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="квазиагент"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			5 -> 6 [label="сравнит"]
+			11 -> 4 [label="предик"]
+			11 -> 5 [label="_1_компл"]
+			4 -> 1 [label="пролепт"]
+}

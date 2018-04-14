@@ -1,0 +1,48 @@
+digraph SENTENCE_1514 {
+	graph [label="Кумир Сельмы и вдруг появляется в зале суда, а потом еще и начинает танцевать и петь."]
+	node [style=filled]
+		0 [label="Кумир Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вдруг
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="появляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="суда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="начинает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="танцевать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			12 -> 9 [label="обст"]
+			12 -> 10 [label="огранич"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			5 -> 6 [label="квазиагент"]
+			1 -> 3 [label="соч_союзн"]
+			14 -> 15 [label="соч_союзн"]
+			8 -> 12 [label="соч_союзн"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 8 [label="сочин"]
+			0 -> 1 [label="сочин"]
+			13 -> 14 [label="сочин"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_2759 {
+	graph [label="Андроидам Нексус 6 никаких знаков не требовалось, а тут всё мнутся."]
+	node [style=filled]
+		0 [label="Андроидам Нексус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="требовалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мнутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="предик"]
+			0 -> 3 [label="сочин"]
+			3 -> 1 [label="количест"]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="_2_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="сент_соч"]
+			7 -> 10 [label="соч_союзн"]
+}

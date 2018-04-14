@@ -1,0 +1,57 @@
+digraph SENTENCE_4546 {
+	graph [label="В этом плане та же «Война миров» смотрится гораздо круче, хоть и там человеческие характеры занимают много места."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="плане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Война
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="миров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смотрится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="круче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="человеческие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="характеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="занимают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="места
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			2 -> 1 [label="опред"]
+			9 -> 0 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 14 [label="сочин"]
+			18 -> 15 [label="обст"]
+			18 -> 17 [label="_1_компл"]
+			18 -> 19 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 18 [label="соч_союзн"]
+			11 -> 10 [label="огранич"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="огранич"]
+			6 -> 3 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			19 -> 20 [label="_1_компл"]
+}

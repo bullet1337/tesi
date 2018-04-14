@@ -1,0 +1,30 @@
+digraph SENTENCE_2715 {
+	graph [label="Но всё же за тридцать лет событий случилось много."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тридцать
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			0 -> 7 [label="соч_союзн"]
+			5 -> 4 [label="количест"]
+			3 -> 5 [label="предл"]
+			7 -> 1 [label="предик"]
+			7 -> 3 [label="обст"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+}

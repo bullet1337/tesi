@@ -1,0 +1,48 @@
+digraph SENTENCE_1455 {
+	graph [label="Ведь дело в том, что сама Сельма больна, в связи с чем постепенно теряет зрение."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="больна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="связи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="постепенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="теряет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="подч_союзн"]
+			15 -> 2 [label="обст"]
+			15 -> 12 [label="обст"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="атриб"]
+			12 -> 13 [label="предл"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="эксплет"]
+			10 -> 11 [label="предл"]
+}

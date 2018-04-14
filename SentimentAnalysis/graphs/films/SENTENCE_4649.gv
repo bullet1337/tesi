@@ -1,0 +1,36 @@
+digraph SENTENCE_4649 {
+	graph [label="Как ни странно, но монстры в фильме живее и реалистичнее людей."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="странно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="монстры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="живее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="реалистичнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 8 [label="соч_союзн"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="сент_соч"]
+			8 -> 5 [label="предик"]
+			8 -> 9 [label="сочин"]
+			5 -> 6 [label="атриб"]
+			10 -> 11 [label="сравнит"]
+			9 -> 10 [label="соч_союзн"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,60 @@
+digraph SENTENCE_1442 {
+	graph [label="Действие картины режиссера Алексея Германа — младшего разворачивается в Ленинграде накануне эмиграции его друга — будущего Нобелевского лауреата по литературе поэта Иосифа Бродского."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Алексея Германа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="младшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разворачивается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ленинграде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="эмиграции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="будущего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Нобелевского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="лауреата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="литературе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="поэта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Иосифа Бродского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="аппоз"]
+			12 -> 11 [label="_1_компл"]
+			17 -> 18 [label="предл"]
+			2 -> 3 [label="аппоз"]
+			6 -> 0 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 9 [label="обст"]
+			6 -> 16 [label="_1_компл"]
+			6 -> 17 [label="обст"]
+			6 -> 19 [label="_1_компл"]
+			6 -> 20 [label="разъяснит"]
+			0 -> 1 [label="квазиагент"]
+			0 -> 2 [label="аппоз"]
+			10 -> 12 [label="квазиагент"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			9 -> 10 [label="предл"]
+			7 -> 8 [label="предл"]
+}

@@ -1,0 +1,93 @@
+digraph SENTENCE_1223 {
+	graph [label="Благотворительный вечер, который в 20-й раз устраивают приходы святого Иоанна Предтечи (Русская православная церковь) и святого Николая (Православная церковь в Америке), впервые пройдет под покровительством нового российского посла в Вашингтоне Анатолия Антонова."]
+	node [style=filled]
+		0 [label="Благотворительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вечер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="20-й
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="устраивают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="приходы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Иоанна Предтечи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Русская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="православная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Николая
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Православная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Америке
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="покровительством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="нового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="посла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="Вашингтоне
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		35 [label="Анатолия Антонова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 9 [label="опред"]
+			27 -> 22 [label="обст"]
+			27 -> 26 [label="обст"]
+			27 -> 28 [label="обст"]
+			8 -> 10 [label="квазиагент"]
+			8 -> 14 [label="сочин"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 16 [label="сочин"]
+			4 -> 5 [label="предл"]
+			16 -> 18 [label="соч_союзн"]
+			29 -> 32 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			7 -> 1 [label="предик"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 27 [label="разъяснит"]
+			28 -> 29 [label="предл"]
+			22 -> 23 [label="предл"]
+			21 -> 20 [label="опред"]
+			33 -> 34 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="аппоз"]
+			32 -> 30 [label="опред"]
+			32 -> 31 [label="опред"]
+			32 -> 33 [label="_2_компл"]
+			32 -> 35 [label="аппоз"]
+}

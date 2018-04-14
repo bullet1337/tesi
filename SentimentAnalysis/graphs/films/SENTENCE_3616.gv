@@ -1,0 +1,45 @@
+digraph SENTENCE_3616 {
+	graph [label="Но самое неприятное, что — в фильме, кроме опять таки плакатного Харламова, — почти никого нет."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="неприятное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="опять
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плакатного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 4 [label="предик"]
+			18 -> 9 [label="обст"]
+			18 -> 17 [label="предик"]
+			6 -> 7 [label="предл"]
+			9 -> 6 [label="огранич"]
+			9 -> 13 [label="предл"]
+			13 -> 10 [label="огранич"]
+			13 -> 12 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 18 [label="разъяснит"]
+			10 -> 11 [label="огранич"]
+			0 -> 2 [label="соч_союзн"]
+			17 -> 16 [label="огранич"]
+}

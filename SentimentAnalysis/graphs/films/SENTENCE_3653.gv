@@ -1,0 +1,32 @@
+digraph SENTENCE_3653 {
+	graph [label="«Легенда N17» сделана как раз по этим лекалам нашего времени."]
+	node [style=filled]
+		1 [label="Легенда N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сделана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лекалам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="времени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="сравн_союзн"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="квазиагент"]
+			4 -> 1 [label="предик"]
+			4 -> 5 [label="сравнит"]
+			11 -> 10 [label="опред"]
+			1 -> 2 [label="нум_аппоз"]
+}

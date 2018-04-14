@@ -1,0 +1,30 @@
+digraph SENTENCE_621 {
+	graph [label="Сияние, исходившее от этих отражений, наполнило светом все миры."]
+	node [style=filled]
+		0 [label="Сияние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исходившее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отражений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="наполнило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="светом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			10 -> 9 [label="опред"]
+			7 -> 0 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 10 [label="_1_компл"]
+			0 -> 2 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+}

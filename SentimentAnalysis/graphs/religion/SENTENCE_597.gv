@@ -1,0 +1,78 @@
+digraph SENTENCE_597 {
+	graph [label="В первый день первого весеннего месяца он воткнул в землю свою зубочистку, и из нее выросло огромное дерево, заслонившее кроной весь небосвод, Солнце и Луну."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="весеннего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="месяца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="воткнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="землю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="зубочистку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выросло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="огромное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="дерево
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="заслонившее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="кроной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="небосвод
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Солнце
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Луну
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			23 -> 22 [label="опред"]
+			23 -> 25 [label="сочин"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			25 -> 26 [label="сочин"]
+			14 -> 15 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="опред"]
+			13 -> 16 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			11 -> 10 [label="опред"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 23 [label="_1_компл"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 11 [label="_1_компл"]
+			7 -> 13 [label="сент_соч"]
+			26 -> 27 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			0 -> 2 [label="предл"]
+}

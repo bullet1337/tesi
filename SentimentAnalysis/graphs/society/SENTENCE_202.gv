@@ -1,0 +1,35 @@
+digraph SENTENCE_202 {
+	graph [label="Учеников Сергея Павловича, возглавляющих школы, сегодня можно найти в самых разных регионах России."]
+	node [style=filled]
+		0 [label="Учеников Сергея Павловича
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="возглавляющих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="школы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="найти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="разных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="регионах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			0 -> 2 [label="опред"]
+			8 -> 11 [label="предл"]
+			10 -> 9 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+}

@@ -1,0 +1,44 @@
+digraph SENTENCE_248 {
+	graph [label="А вот нынешнее положение священного города не определено, что донельзя осложняет спор о налогах."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нынешнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="положение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="священного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="определено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="донельзя
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="осложняет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="спор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="налогах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			9 -> 11 [label="подч_союзн"]
+			0 -> 7 [label="соч_союзн"]
+			7 -> 3 [label="предик"]
+			7 -> 6 [label="огранич"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 1 [label="огранич"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="квазиагент"]
+}

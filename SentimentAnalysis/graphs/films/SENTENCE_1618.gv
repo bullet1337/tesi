@@ -1,0 +1,30 @@
+digraph SENTENCE_1618 {
+	graph [label="Сельма необычная, странная, кто-то бы возможно назвал ее сумасшедшей."]
+	node [style=filled]
+		0 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="необычная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="странная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="кто-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="возможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сумасшедшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="опред"]
+			3 -> 8 [label="разъяснит"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="аналит"]
+			8 -> 7 [label="вводн"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="_2_компл"]
+}

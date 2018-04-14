@@ -1,0 +1,56 @@
+digraph SENTENCE_617 {
+	graph [label="Во время записи выпуска сомнения пермячки подтвердились — ДНК-тесты показали родство Татьяны Савельевой со Швецовыми, а Вероники Швецовой — с Савельевыми."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="записи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выпуска
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сомнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пермячки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="подтвердились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ДНК-тесты
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="показали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="родство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Татьяны Савельевой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Швецовыми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Вероники
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Швецовой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Савельевыми
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="_1_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 8 [label="предик"]
+			6 -> 9 [label="разъяснит"]
+			4 -> 5 [label="квазиагент"]
+			19 -> 20 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 15 [label="сент_соч"]
+			16 -> 17 [label="квазиагент"]
+			16 -> 19 [label="атриб"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 12 [label="атриб"]
+			12 -> 13 [label="предл"]
+}

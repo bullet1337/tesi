@@ -1,0 +1,27 @@
+digraph SENTENCE_538 {
+	graph [label="Ее мечты — это ее способ уйти от проблем."]
+	node [style=filled]
+		0 [label="Ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="способ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уйти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проблем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="пролепт"]
+			7 -> 8 [label="предл"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="квазиагент"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			1 -> 0 [label="квазиагент"]
+}

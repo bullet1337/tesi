@@ -1,0 +1,63 @@
+digraph SENTENCE_1602 {
+	graph [label="Потому что большое количество молодежи еще живет как бы вне Церкви, хотя нередко это люди, разделяющие христианские убеждения\", — сказал патриарх."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="количество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="молодежи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="живет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Церкви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="нередко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="разделяющие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="христианские
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="убеждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 19 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 12 [label="обст"]
+			19 -> 18 [label="опред"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="предик"]
+			15 -> 17 [label="опред"]
+			23 -> 24 [label="предик"]
+			12 -> 15 [label="подч_союзн"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			0 -> 1 [label="эксплет"]
+			0 -> 23 [label="вводн"]
+			9 -> 7 [label="огранич"]
+			9 -> 10 [label="предл"]
+			1 -> 6 [label="подч_союзн"]
+			7 -> 8
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1541 {
+	graph [label="Она не попыталась посочувствовать ему, помочь выпутаться, ведь он был на грани самоубийства и говорил ей об этом."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="попыталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посочувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выпутаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="грани
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="самоубийства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="говорил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			16 -> 17 [label="_2_компл"]
+			16 -> 18 [label="_3_компл"]
+			6 -> 4 [label="_1_компл"]
+			6 -> 7 [label="_2_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 9 [label="обст"]
+			2 -> 14 [label="_1_компл"]
+			2 -> 15 [label="сочин"]
+			3 -> 6 [label="_1_компл"]
+			9 -> 11 [label="подч_союзн"]
+			18 -> 19 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="присвяз"]
+}

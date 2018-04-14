@@ -1,0 +1,63 @@
+digraph SENTENCE_213 {
+	graph [label="Глина и ржавчина из шахты окрасили реку Ардон в Северной Осетии в ярко-оранжевый цвет, экологической опасности нет, сообщает Минприроды республики."]
+	node [style=filled]
+		0 [label="Глина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ржавчина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="шахты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="окрасили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ардон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Осетии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ярко-оранжевый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="цвет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экологической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="опасности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Минприроды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			0 -> 1 [label="сочин"]
+			13 -> 12 [label="опред"]
+			16 -> 15 [label="опред"]
+			1 -> 2 [label="соч_союзн"]
+			17 -> 16 [label="предик"]
+			17 -> 19 [label="сент_соч"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			5 -> 11 [label="_2_компл"]
+			5 -> 17 [label="разъяснит"]
+			8 -> 10 [label="предл"]
+			3 -> 4 [label="предл"]
+			20 -> 21 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			19 -> 20 [label="предик"]
+			6 -> 7 [label="аппоз"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1384 {
+	graph [label="За иудеев и мусульман вступились даже в Ватикане."]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="иудеев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вступились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ватикане
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="сочин"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="обст"]
+}

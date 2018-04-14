@@ -1,0 +1,81 @@
+digraph SENTENCE_3397 {
+	graph [label="Приведу напоследок две цитаты: 1) «Всё это не о Харламове.» (с) А. Колесников; 2) «Считаю фильм „Легенда N 17“ скотством — омерзительным, зловредным г**ном.» (с) В. Уткин."]
+	node [style=filled]
+		0 [label="Приведу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="напоследок
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="цитаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Всё
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Харламове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="А
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Колесников
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Считаю
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Легенда N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="скотством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="омерзительным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="зловредным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="г
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="ном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		44 [label="В
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		46 [label="Уткин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			38 -> 42 [label="атриб"]
+			16 -> 18 [label="предл"]
+			20 -> 22 [label="аппоз"]
+			12 -> 16 [label="атриб"]
+			36 -> 33 [label="опред"]
+			36 -> 35 [label="опред"]
+			26 -> 28 [label="ном_аппоз"]
+			26 -> 31 [label="сочин"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+			31 -> 29 [label="количест"]
+			31 -> 36 [label="атриб"]
+			31 -> 38 [label="сочин"]
+			3 -> 2 [label="количест"]
+			3 -> 5 [label="аппоз"]
+			3 -> 25 [label="релят"]
+			9 -> 8 [label="опред"]
+			25 -> 9 [label="_1_компл"]
+			25 -> 11 [label="_3_компл"]
+			25 -> 20 [label="предик"]
+			25 -> 26 [label="_2_компл"]
+			42 -> 44 [label="предл"]
+			44 -> 46 [label="предл"]
+}

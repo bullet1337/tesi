@@ -1,0 +1,21 @@
+digraph SENTENCE_1743 {
+	graph [label="Виталий Закруткин родился 27 марта 1908 года."]
+	node [style=filled]
+		0 [label="Виталий Закруткин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="родился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="1908
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			5 -> 4 [label="опред"]
+			2 -> 3 [label="атриб"]
+			3 -> 5 [label="атриб"]
+}

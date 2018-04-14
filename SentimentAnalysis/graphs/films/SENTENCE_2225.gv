@@ -1,0 +1,24 @@
+digraph SENTENCE_2225 {
+	graph [label="И здесь Тарковский опередил своё время существенно."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Тарковский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="опередил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="существенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			3 -> 1 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 6 [label="обст"]
+}

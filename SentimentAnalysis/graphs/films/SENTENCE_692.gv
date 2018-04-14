@@ -1,0 +1,33 @@
+digraph SENTENCE_692 {
+	graph [label="Я уходила из кинотеатра, до того как начиналась заключительная песня."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="уходила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кинотеатра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="начиналась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заключительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="песня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="_2_компл"]
+			1 -> 8 [label="сент_соч"]
+			8 -> 7 [label="_2_компл"]
+			8 -> 10 [label="предик"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="предл"]
+}

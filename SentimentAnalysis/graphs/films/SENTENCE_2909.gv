@@ -1,0 +1,21 @@
+digraph SENTENCE_2909 {
+	graph [label="Но мультик плевал на мои ожидания."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мультик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="плевал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ожидания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			0 -> 2 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="предл"]
+}

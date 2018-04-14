@@ -1,0 +1,63 @@
+digraph SENTENCE_1993 {
+	graph [label="Мы слышим голос главного героя, не видя его лица, мы фактически смотрим на всё его глазами, которыми становится камера оператора."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="слышим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="видя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотрим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="глазами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="которыми
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="камера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="оператора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 20 [label="сент_соч"]
+			4 -> 3 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="обст"]
+			1 -> 13 [label="сент_соч"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			21 -> 22 [label="квазиагент"]
+			20 -> 19 [label="присвяз"]
+			20 -> 21 [label="предик"]
+			2 -> 4 [label="квазиагент"]
+			9 -> 8 [label="квазиагент"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="квазиагент"]
+			14 -> 17 [label="предл"]
+}

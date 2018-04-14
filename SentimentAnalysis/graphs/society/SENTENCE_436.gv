@@ -1,0 +1,45 @@
+digraph SENTENCE_436 {
+	graph [label="Гражданская панихида пройдет на Троекуровском кладбище в зале прощаний в 15.00\", — сообщили близкие дипломата."]
+	node [style=filled]
+		0 [label="Гражданская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="панихида
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Троекуровском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="кладбище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="прощаний
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="15.00
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="близкие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дипломата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="предик"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="обст"]
+			2 -> 14 [label="вводн"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			16 -> 15 [label="опред"]
+			3 -> 5 [label="предл"]
+			1 -> 0 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			6 -> 7 [label="предл"]
+}

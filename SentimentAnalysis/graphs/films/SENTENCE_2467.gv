@@ -1,0 +1,41 @@
+digraph SENTENCE_2467 {
+	graph [label="В конце нам показывают плачущую девочку, пытаясь показать всю беспросветность жизни в КНДР."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="плачущую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="девочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пытаясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="беспросветность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="КНДР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 12 [label="атриб"]
+			7 -> 8 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="_2_компл"]
+			3 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			5 -> 4 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+}

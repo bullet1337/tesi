@@ -1,0 +1,47 @@
+digraph SENTENCE_3031 {
+	graph [label="Можно даже сравнить, кто круче: мафия или годзилла, хотя оно понятно, что круче, естественно, годзилла."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сравнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="круче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мафия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="годзилла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="понятно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="круче
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="естественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="годзилла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="соч_союзн"]
+			5 -> 7 [label="предик"]
+			5 -> 11 [label="обст"]
+			7 -> 8 [label="сочин"]
+			0 -> 2 [label="предик"]
+			13 -> 12 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			15 -> 16 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			11 -> 13 [label="подч_союзн"]
+			20 -> 4 [label="предик"]
+			20 -> 5 [label="вводн"]
+			20 -> 18 [label="вводн"]
+}

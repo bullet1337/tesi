@@ -1,0 +1,38 @@
+digraph SENTENCE_3790 {
+	graph [label="1,5 из 10  Не смейте смотреть а если будете смотреть готовьте тазик."]
+	node [style=filled]
+		0 [label="1,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="смейте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="готовьте
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="тазик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="сент_соч"]
+			0 -> 1 [label="электив"]
+			7 -> 8 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			8 -> 9 [label="аналит"]
+}

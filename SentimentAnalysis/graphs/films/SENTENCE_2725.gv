@@ -1,0 +1,42 @@
+digraph SENTENCE_2725 {
+	graph [label="Известным латентным расистам только этого не хватало, поэтому Кея просят по-бырому зачистить следы."]
+	node [style=filled]
+		0 [label="Известным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="латентным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="расистам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хватало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кея
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="просят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="по-бырому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зачистить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="следы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			4 -> 3 [label="огранич"]
+			6 -> 2 [label="_2_компл"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 10 [label="разъяснит"]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 12 [label="сочин"]
+			12 -> 13 [label="_1_компл"]
+}

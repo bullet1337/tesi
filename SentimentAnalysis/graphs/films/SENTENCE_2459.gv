@@ -1,0 +1,43 @@
+digraph SENTENCE_2459 {
+	graph [label="Можно привести в пример и автобус, который толкают люди под конечно же грустную мелодию."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="привести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пример
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="автобус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="толкают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="грустную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мелодию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			0 -> 1 [label="предик"]
+			14 -> 11 [label="вводн"]
+			14 -> 13 [label="опред"]
+			11 -> 12 [label="огранич"]
+			9 -> 10 [label="атриб"]
+			5 -> 4 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="_1_компл"]
+			10 -> 14 [label="предл"]
+}

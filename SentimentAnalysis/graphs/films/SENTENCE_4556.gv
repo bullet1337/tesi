@@ -1,0 +1,18 @@
+digraph SENTENCE_4556 {
+	graph [label="Макс Боренштейн, вам знакомо это имя?"]
+	node [style=filled]
+		0 [label="Макс Боренштейн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знакомо
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="предик"]
+}

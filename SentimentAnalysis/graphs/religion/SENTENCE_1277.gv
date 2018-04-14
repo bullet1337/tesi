@@ -1,0 +1,44 @@
+digraph SENTENCE_1277 {
+	graph [label="В 2000 году монастырь Джоканг был официально внесен в список всемирного культурного наследия ЮНЕСКО."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="монастырь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Джоканг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="официально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="внесен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="список
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всемирного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="культурного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="наследия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ЮНЕСКО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 12 [label="квазиагент"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="квазиагент"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			3 -> 5 [label="релят"]
+			5 -> 4 [label="предик"]
+			5 -> 7
+			2 -> 1 [label="опред"]
+			8 -> 9 [label="предл"]
+			0 -> 2 [label="предл"]
+}

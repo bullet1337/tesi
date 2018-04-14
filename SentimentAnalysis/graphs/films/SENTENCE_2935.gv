@@ -1,0 +1,72 @@
+digraph SENTENCE_2935 {
+	graph [label="Из ниоткуда появляется глупый злодей, еще более глупый брат Грю по имени Дрю.. И начинается какая-то глупая беготня туда-сюда, отдаленно напоминающая Шоу Бенни Хилла."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ниоткуда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="появляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="глупый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="злодей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="глупый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="брат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Грю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Дрю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="какая-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="глупая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="беготня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="туда-сюда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="отдаленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="напоминающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Шоу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Бенни Хилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="соч_союзн"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			19 -> 23 [label="опред"]
+			11 -> 12 [label="предл"]
+			2 -> 4 [label="предик"]
+			2 -> 15 [label="сент_соч"]
+			16 -> 19 [label="предик"]
+			23 -> 22 [label="обст"]
+			23 -> 24 [label="_1_компл"]
+			24 -> 25 [label="квазиагент"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="атриб"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="разъяснит"]
+			7 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="опред"]
+			4 -> 9 [label="об_аппоз"]
+			22 -> 20 [label="огранич"]
+			12 -> 13 [label="квазиагент"]
+}

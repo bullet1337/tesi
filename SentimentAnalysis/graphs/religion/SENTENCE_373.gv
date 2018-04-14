@@ -1,0 +1,84 @@
+digraph SENTENCE_373 {
+	graph [label="Евсевий Кесарийский сообщает, что Игнатий был вторым епископом Антиохии после апостола Евода, принявшего рукоположение от апостола Петра; Феодорит же утверждает, что он был преемником самого апостола Петра."]
+	node [style=filled]
+		0 [label="Евсевий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Кесарийский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Игнатий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вторым
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="епископом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Антиохии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="апостола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Евода
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="принявшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="рукоположение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="апостола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Петра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Феодорит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="утверждает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="преемником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="апостола
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Петра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 0 [label="вводн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 22 [label="сент_соч"]
+			29 -> 28 [label="опред"]
+			29 -> 30 [label="аппоз"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="опред"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="_2_компл"]
+			17 -> 18 [label="аппоз"]
+			26 -> 25 [label="предик"]
+			26 -> 27 [label="присвяз"]
+			18 -> 20 [label="аппоз"]
+			20 -> 21 [label="огранич"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			8 -> 10 [label="атриб"]
+			10 -> 11 [label="предл"]
+			4 -> 6 [label="подч_союзн"]
+			27 -> 29 [label="разъяснит"]
+			24 -> 26 [label="подч_союзн"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="присвяз"]
+			22 -> 24 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+}

@@ -1,0 +1,41 @@
+digraph SENTENCE_4661 {
+	graph [label="Тому же герою в середине фильма двумя предложениями рассказывают что, где и как."]
+	node [style=filled]
+		0 [label="Тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="герою
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="середине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="двумя
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="предложениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рассказывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 2 [label="_2_компл"]
+			8 -> 3 [label="обст"]
+			8 -> 7 [label="_2_компл"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			11 -> 12 [label="сочин"]
+			7 -> 6 [label="количест"]
+			12 -> 13 [label="соч_союзн"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 0 [label="опред"]
+			0 -> 1 [label="огранич"]
+}

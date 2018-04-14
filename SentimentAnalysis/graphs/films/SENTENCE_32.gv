@@ -1,0 +1,70 @@
+digraph SENTENCE_32 {
+	graph [label="Но, все равно этот фильм несколько отличается от других его творений: он музыкальный, и в нем непостижимым образом сочетаются лиричность и страшная реальность."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="равно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="несколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отличается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="творений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="музыкальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="непостижимым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сочетаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="лиричность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="страшная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="реальность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="предл"]
+			23 -> 25 [label="соч_союзн"]
+			21 -> 20 [label="обст"]
+			21 -> 22 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			16 -> 21 [label="соч_союзн"]
+			0 -> 3 [label="соч_союзн"]
+			25 -> 24 [label="опред"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="квазиагент"]
+			20 -> 17 [label="огранич"]
+			20 -> 19 [label="опред"]
+			14 -> 16 [label="сочин"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="сент_соч"]
+			22 -> 23 [label="сочин"]
+			8 -> 11 [label="предл"]
+			5 -> 4 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_253 {
+	graph [label="События, происходящие на экране, периодически прерываются на мюзикл."]
+	node [style=filled]
+		0 [label="События
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="происходящие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="экране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="периодически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прерываются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мюзикл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			0 -> 2 [label="опред"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="обст"]
+}

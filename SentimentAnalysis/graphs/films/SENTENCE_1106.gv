@@ -1,0 +1,21 @@
+digraph SENTENCE_1106 {
+	graph [label="Да и вообще достаточно сильный момент."]
+	node [style=filled]
+		0 [label="Да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="момент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			0 -> 1 [label="огранич"]
+			0 -> 5 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+}

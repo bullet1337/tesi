@@ -1,0 +1,43 @@
+digraph SENTENCE_170 {
+	graph [label="Надеюсь, что такой проект мы сможем выстроить и осуществить\", — добавил декан факультета социальных наук."]
+	node [style=filled]
+		0 [label="Надеюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="проект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сможем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выстроить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="осуществить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="декан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="факультета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="социальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="наук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+			15 -> 17 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			13 -> 14 [label="предик"]
+			0 -> 2 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 13 [label="вводн"]
+			4 -> 3 [label="опред"]
+}

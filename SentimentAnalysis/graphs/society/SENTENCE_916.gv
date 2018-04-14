@@ -1,0 +1,51 @@
+digraph SENTENCE_916 {
+	graph [label="По словам премьера, это происходит, несмотря на то что власти продолжают инвестировать в создание рабочих мест."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="премьера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="происходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="продолжают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="инвестировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="создание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="рабочих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мест
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="подч_союзн"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			13 -> 14 [label="_2_компл"]
+			17 -> 16 [label="опред"]
+			15 -> 17 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="обст"]
+			5 -> 8 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			9 -> 10 [label="эксплет"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+}

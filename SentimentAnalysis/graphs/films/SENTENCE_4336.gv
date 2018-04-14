@@ -1,0 +1,57 @@
+digraph SENTENCE_4336 {
+	graph [label="Что ж, посмотрим кто окажется униженным и оскорбленным в этом году, чтобы морально подготовить себя к Оскару-2017."]
+	node [style=filled]
+		0 [label="Что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посмотрим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="окажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="униженным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="оскорбленным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="морально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="подготовить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Оскару
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="_1_компл"]
+			3 -> 5 [label="сент_соч"]
+			6 -> 7 [label="сочин"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			5 -> 13 [label="обст"]
+			0 -> 1 [label="огранич"]
+			9 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			13 -> 15 [label="инф_союзн"]
+			8 -> 9 [label="обст"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 17 [label="_2_компл"]
+			15 -> 20 [label="_1_компл"]
+			7 -> 8 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+}

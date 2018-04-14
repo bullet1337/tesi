@@ -1,0 +1,51 @@
+digraph SENTENCE_1505 {
+	graph [label="Шоколадными наборами, специально выпущенными к этому дню, обмениваются подруги, многие японки покупают \"валентиновый\" шоколад самим себе."]
+	node [style=filled]
+		0 [label="Шоколадными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наборами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="специально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выпущенными
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дню
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обмениваются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="подруги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="многие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="японки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="покупают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="валентиновый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="шоколад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="самим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			9 -> 1 [label="присвяз"]
+			9 -> 10 [label="предик"]
+			9 -> 14 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			13 -> 12 [label="опред"]
+			20 -> 19 [label="опред"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 4 [label="опред"]
+			18 -> 16 [label="опред"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 18 [label="предик"]
+			14 -> 20 [label="неакт_компл"]
+}

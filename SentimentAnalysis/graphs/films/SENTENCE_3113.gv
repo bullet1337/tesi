@@ -1,0 +1,48 @@
+digraph SENTENCE_3113 {
+	graph [label="А любовь… любовь не ищете в этом фильме, ее здесь нет и никогда не было."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ищете
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="аппоз"]
+			8 -> 7 [label="опред"]
+			14 -> 13 [label="огранич"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="_1_компл"]
+			12 -> 16 [label="сент_соч"]
+			0 -> 5 [label="соч_союзн"]
+			5 -> 1 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 12 [label="сент_соч"]
+			16 -> 14 [label="обст"]
+			16 -> 15 [label="огранич"]
+			6 -> 8 [label="предл"]
+}

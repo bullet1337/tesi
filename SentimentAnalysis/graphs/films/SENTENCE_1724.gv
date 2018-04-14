@@ -1,0 +1,72 @@
+digraph SENTENCE_1724 {
+	graph [label="Мюзиклы — это модно После заката эпохи голливудских мюзиклов 30-70 годов XX века, налицо явный спад интереса и общий застой в этом жанре."]
+	node [style=filled]
+		0 [label="Мюзиклы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="модно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="После
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="заката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эпохи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="голливудских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="70
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="годов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="XX
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="налицо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="явный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="спад
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="интереса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="общий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="застой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="жанре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			16 -> 18 [label="предик"]
+			5 -> 6 [label="атриб"]
+			8 -> 7 [label="опред"]
+			8 -> 12 [label="атриб"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="квазиагент"]
+			18 -> 20 [label="сочин"]
+			9 -> 11 [label="кратн"]
+			12 -> 9 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="обст"]
+			3 -> 16 [label="сент_соч"]
+			23 -> 25 [label="предл"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="атриб"]
+			20 -> 22 [label="соч_союзн"]
+			2 -> 0 [label="пролепт"]
+			25 -> 24 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			14 -> 13 [label="опред"]
+}

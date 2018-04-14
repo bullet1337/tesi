@@ -1,0 +1,36 @@
+digraph SENTENCE_328 {
+	graph [label="Особенно хорош здесь заглавный саундтрек Ive Seen It All, он такой каким и должен быть."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хорош
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заглавный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="саундтрек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Ive Seen It All
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="опред"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="предик"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+}

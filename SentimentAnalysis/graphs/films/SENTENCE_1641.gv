@@ -1,0 +1,42 @@
+digraph SENTENCE_1641 {
+	graph [label="Чтобы не случилось теперь, ей уже легко, потому что мечта ее жизни исполнилась!"]
+	node [style=filled]
+		0 [label="Чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="случилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="легко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мечта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="исполнилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 11 [label="предик"]
+			7 -> 0 [label="обст"]
+			7 -> 5 [label="дат_субъект"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			9 -> 10 [label="эксплет"]
+			13 -> 12 [label="квазиагент"]
+			11 -> 13 [label="квазиагент"]
+			0 -> 2 [label="подч_союзн"]
+			10 -> 14 [label="подч_союзн"]
+}

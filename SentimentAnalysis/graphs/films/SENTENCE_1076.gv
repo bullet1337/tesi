@@ -1,0 +1,48 @@
+digraph SENTENCE_1076 {
+	graph [label="Будь это хоть «Догвилль» где униженная и оскорблённая Грейс терпит всё от жителей адского городка."]
+	node [style=filled]
+		0 [label="Будь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хоть
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Догвилль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="униженная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оскорблённая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Грейс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="терпит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всё
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="адского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="городка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="_2_компл"]
+			7 -> 8 [label="сочин"]
+			14 -> 16 [label="_1_компл"]
+			8 -> 9 [label="соч_союзн"]
+			16 -> 15 [label="опред"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предл"]
+			11 -> 6 [label="обст"]
+			11 -> 7 [label="предик"]
+			11 -> 13 [label="_1_компл"]
+			1 -> 0 [label="пролепт"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="огранич"]
+			4 -> 11 [label="релят"]
+}

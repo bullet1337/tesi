@@ -1,0 +1,33 @@
+digraph SENTENCE_2596 {
+	graph [label="Очевидно, он слишком полноценен и хорош для подобной несусветной ерунды."]
+	node [style=filled]
+		0 [label="Очевидно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полноценен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хорош
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подобной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="несусветной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ерунды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="соч_союзн"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			10 -> 8 [label="опред"]
+			10 -> 9 [label="опред"]
+			7 -> 10 [label="предл"]
+}

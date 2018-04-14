@@ -1,0 +1,102 @@
+digraph SENTENCE_637 {
+	graph [label="Российский фантастический экшн фильм Дмитрия Тюрина \"Рубеж\" с Павлом Прилучным рассказывает о молодом циничном бизнесмене Михаиле, роль которого исполнил Павел Прилучный, который встречает свою любовь и эта встреча влечет за собой временные и пространственные аномалии."]
+	node [style=filled]
+		0 [label="Российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фантастический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="экшн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Дмитрия Тюрина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Рубеж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Павлом Прилучным
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="молодом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="циничном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бизнесмене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Михаиле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="которого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="исполнил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Павел
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Прилучный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="встречает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="свою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="влечет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="собой
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="временные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="пространственные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="аномалии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="атриб"]
+			3 -> 4 [label="аппоз"]
+			26 -> 25 [label="опред"]
+			8 -> 9 [label="предл"]
+			24 -> 23 [label="предик"]
+			24 -> 26 [label="_1_компл"]
+			15 -> 17 [label="аппоз"]
+			11 -> 14 [label="предл"]
+			33 -> 34 [label="сочин"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="аппоз"]
+			14 -> 19 [label="релят"]
+			27 -> 30 [label="соч_союзн"]
+			29 -> 28 [label="опред"]
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			2 -> 6 [label="сочин"]
+			30 -> 29 [label="предик"]
+			30 -> 31 [label="_2_компл"]
+			30 -> 36 [label="_1_компл"]
+			10 -> 2 [label="предик"]
+			10 -> 11 [label="_3_компл"]
+			10 -> 24 [label="_1_компл"]
+			10 -> 27 [label="сент_соч"]
+			34 -> 35 [label="соч_союзн"]
+			31 -> 32 [label="предл"]
+			19 -> 18 [label="_1_компл"]
+			19 -> 20 [label="предик"]
+			20 -> 21 [label="опред"]
+			36 -> 33 [label="опред"]
+}

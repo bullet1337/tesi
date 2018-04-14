@@ -1,0 +1,39 @@
+digraph SENTENCE_191 {
+	graph [label="Во вторую очередь — техникой съёмки: наплечные Low-End цифровые камеры придали фильму документари-стайл."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вторую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="техникой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="съёмки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="наплечные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Low-End
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="цифровые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="камеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="придали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="документари-стайл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+			12 -> 13 [label="аппоз"]
+			0 -> 2 [label="предл"]
+			11 -> 0 [label="обст"]
+			11 -> 5 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="_2_компл"]
+			10 -> 9 [label="опред"]
+			5 -> 4 [label="композ"]
+			5 -> 8 [label="_1_компл"]
+}

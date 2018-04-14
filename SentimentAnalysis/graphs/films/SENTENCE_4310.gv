@@ -1,0 +1,27 @@
+digraph SENTENCE_4310 {
+	graph [label="Ох и ах, вы там все белые расисты."]
+	node [style=filled]
+		0 [label="Ох
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ах
+INTJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="белые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="расисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 2 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="предик"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="вводн"]
+			1 -> 5 [label="соч_союзн"]
+}

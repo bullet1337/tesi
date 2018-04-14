@@ -1,0 +1,33 @@
+digraph SENTENCE_851 {
+	graph [label="\"Я абсолютно не считаю Германа сумасшедшим, — сказал артист накануне премьеры."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Германа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сумасшедшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="артист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="накануне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="премьеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			10 -> 11 [label="атриб"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 9 [label="_2_компл"]
+			11 -> 12 [label="предл"]
+			9 -> 6 [label="_1_компл"]
+			9 -> 10 [label="предик"]
+}

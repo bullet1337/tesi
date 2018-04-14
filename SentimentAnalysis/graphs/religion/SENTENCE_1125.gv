@@ -1,0 +1,99 @@
+digraph SENTENCE_1125 {
+	graph [label="Тема вывода абортов по желанию женщины из ОМС была вновь поднята на первом Гиппократовском медицинском форуме \"Здравоохранение, новые технологии и медицинская этика на страже жизни и здоровья детей\", который проходит в Москве."]
+	node [style=filled]
+		0 [label="Тема
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вывода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="абортов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="желанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="женщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ОМС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вновь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поднята
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="первом
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Гиппократовском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="медицинском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="форуме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Здравоохранение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="новые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="технологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="медицинская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="этика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="страже
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="здоровья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="квазиагент"]
+			1 -> 2 [label="_1_компл"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="обст"]
+			11 -> 15 [label="предл"]
+			21 -> 23 [label="соч_союзн"]
+			26 -> 27 [label="сочин"]
+			6 -> 7 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="предл"]
+			3 -> 6 [label="атриб"]
+			3 -> 8 [label="сент_соч"]
+			25 -> 26 [label="_1_компл"]
+			34 -> 35 [label="предл"]
+			27 -> 28 [label="соч_союзн"]
+			15 -> 12 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			23 -> 22 [label="опред"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="сочин"]
+			28 -> 29 [label="квазиагент"]
+			33 -> 32 [label="предик"]
+			33 -> 34 [label="обст"]
+			24 -> 17 [label="предик"]
+			24 -> 25 [label="предл"]
+			24 -> 33 [label="сент_соч"]
+			4 -> 5 [label="квазиагент"]
+			17 -> 20 [label="сочин"]
+			8 -> 10
+			8 -> 24 [label="сент_соч"]
+}

@@ -1,0 +1,65 @@
+digraph SENTENCE_2513 {
+	graph [label="Можно лишь пространно фантазировать, чем обусловлены те или иные слова, зачем их сказали именно сейчас и что вообще хотели ими сказать."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пространно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фантазировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обусловлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="иные
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="хотели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 21 [label="_2_компл"]
+			18 -> 20 [label="подч_союзн"]
+			0 -> 2 [label="_1_компл"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 6 [label="сент_соч"]
+			7 -> 8 [label="сочин"]
+			14 -> 12 [label="обст"]
+			14 -> 13 [label="_1_компл"]
+			14 -> 16 [label="обст"]
+			14 -> 17 [label="сент_соч"]
+			6 -> 5 [label="_2_компл"]
+			6 -> 10 [label="предик"]
+			6 -> 14 [label="сент_соч"]
+			10 -> 7 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			20 -> 19 [label="обст"]
+			20 -> 22 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+}

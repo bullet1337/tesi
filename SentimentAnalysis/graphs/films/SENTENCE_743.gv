@@ -1,0 +1,54 @@
+digraph SENTENCE_743 {
+	graph [label="Денев и Бьорк составили прекрасный дуэт в этом кино, и все это заслуга режиссера Ларса фон Триера."]
+	node [style=filled]
+		0 [label="Денев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="составили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прекрасный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дуэт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заслуга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Ларса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 13 [label="сент_соч"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="квазиагент"]
+			16 -> 17 [label="аппоз"]
+			12 -> 6 [label="пролепт"]
+			12 -> 10 [label="огранич"]
+			12 -> 11 [label="опред"]
+			1 -> 2 [label="соч_союзн"]
+			0 -> 1 [label="сочин"]
+			14 -> 15 [label="аппоз"]
+			15 -> 16 [label="аппоз"]
+			8 -> 7 [label="опред"]
+}

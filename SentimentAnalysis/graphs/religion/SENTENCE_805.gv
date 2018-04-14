@@ -1,0 +1,58 @@
+digraph SENTENCE_805 {
+	graph [label="Надо было крыльцо у храма построить — это очень тяжелые земляные работы, а у нас ни сил, ни инструментов нет."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="крыльцо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="храма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="построить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тяжелые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="земляные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сил
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="инструментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="соч_союзн"]
+			16 -> 21 [label="соч_союзн"]
+			3 -> 4 [label="предл"]
+			14 -> 15 [label="предл"]
+			1 -> 0 [label="присвяз"]
+			1 -> 2 [label="предик"]
+			1 -> 5 [label="разъяснит"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			5 -> 3 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 11 [label="обст"]
+			5 -> 13 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+			21 -> 17 [label="предик"]
+			17 -> 19 [label="сочин"]
+}

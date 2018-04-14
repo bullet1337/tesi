@@ -1,0 +1,24 @@
+digraph SENTENCE_3262 {
+	graph [label="В сравнении с ним и я Рэмбо."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сравнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Рэмбо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			0 -> 4 [label="сочин"]
+			1 -> 2 [label="_2_компл"]
+			6 -> 5 [label="предик"]
+			2 -> 3 [label="предл"]
+}

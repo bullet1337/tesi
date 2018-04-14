@@ -1,0 +1,59 @@
+digraph SENTENCE_4857 {
+	graph [label="Даже если Годзилла не хочет вас есть, он может вас раздавить или снести здание просто по дороге к воде."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="раздавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="снести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="здание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="дороге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="воде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 1 [label="обст"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="предл"]
+			12 -> 13 [label="соч_союзн"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			1 -> 0 [label="огранич"]
+			1 -> 4 [label="подч_союзн"]
+			17 -> 18 [label="_2_компл"]
+			18 -> 19 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="обст"]
+}

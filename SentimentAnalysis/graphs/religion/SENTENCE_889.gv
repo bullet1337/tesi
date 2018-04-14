@@ -1,0 +1,27 @@
+digraph SENTENCE_889 {
+	graph [label="Помолимся, чтобы это произошло немедленно\", — призвал папа Франциск."]
+	node [style=filled]
+		0 [label="Помолимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="немедленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="призвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="папа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Франциск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="предик"]
+			9 -> 5 [label="обст"]
+			9 -> 10 [label="_2_компл"]
+			2 -> 4 [label="подч_союзн"]
+			0 -> 2 [label="обст"]
+			0 -> 9 [label="сочин"]
+			10 -> 11 [label="аппоз"]
+}

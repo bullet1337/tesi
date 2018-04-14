@@ -1,0 +1,21 @@
+digraph SENTENCE_228 {
+	graph [label="РИА Новости выяснило, как меняется наш язык."]
+	node [style=filled]
+		0 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="выяснило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="наш
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="язык
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="предик"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="_1_компл"]
+}

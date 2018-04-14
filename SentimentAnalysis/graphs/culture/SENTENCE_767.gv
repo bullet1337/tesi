@@ -1,0 +1,54 @@
+digraph SENTENCE_767 {
+	graph [label="И именно на этом языке мы говорим о жизни и смерти, о свободе и любви\", — добавил Константинов."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="говорим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свободе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Константинов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 6 [label="соч_союзн"]
+			8 -> 9 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_3_компл"]
+			6 -> 19 [label="вводн"]
+			7 -> 8 [label="предл"]
+			7 -> 12 [label="сочин"]
+			19 -> 20 [label="предик"]
+			12 -> 13 [label="предл"]
+			9 -> 10 [label="соч_союзн"]
+			13 -> 14 [label="сочин"]
+}

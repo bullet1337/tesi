@@ -1,0 +1,48 @@
+digraph SENTENCE_1344 {
+	graph [label="\"Они и поженились с дедом-моряком, служившим в Кронштадте, в блокаду, в 43 году\", — говорит музыкант."]
+	node [style=filled]
+		1 [label="Они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="поженились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дедом-моряком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="служившим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кронштадте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="блокаду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="43
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="опред"]
+			7 -> 8 [label="_3_компл"]
+			7 -> 11 [label="обст"]
+			16 -> 15 [label="опред"]
+			11 -> 12 [label="предл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 20 [label="вводн"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="предл"]
+			20 -> 14 [label="обст"]
+			20 -> 21 [label="предик"]
+			14 -> 16 [label="предл"]
+}

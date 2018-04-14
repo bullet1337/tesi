@@ -1,0 +1,36 @@
+digraph SENTENCE_1574 {
+	graph [label="Она не живёт ради себя вообще, что сказывается по ходу картины."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="живёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ходу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 7 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			7 -> 8 [label="подч_союзн"]
+}

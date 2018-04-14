@@ -1,0 +1,33 @@
+digraph SENTENCE_4748 {
+	graph [label="Ну а кульминацией тупизма стала финальная схватка Годзиллы и монстров."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кульминацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тупизма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="финальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="схватка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Годзиллы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="монстров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="присвяз"]
+			4 -> 6 [label="предик"]
+			2 -> 3 [label="квазиагент"]
+			1 -> 0 [label="вводн"]
+			1 -> 4 [label="соч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="квазиагент"]
+			8 -> 9 [label="соч_союзн"]
+			7 -> 8 [label="сочин"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_1177 {
+	graph [label="Действие фильма начинается в 1941 году."]
+	node [style=filled]
+		0 [label="Действие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="начинается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="1941
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+}

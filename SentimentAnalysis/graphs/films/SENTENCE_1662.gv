@@ -1,0 +1,75 @@
+digraph SENTENCE_1662 {
+	graph [label="Держишь Сельму за руку, и помогаешь ей добраться до дома, следишь, что бы она не поранилась на станке, танцуешь и поешь вместе с ней."]
+	node [style=filled]
+		0 [label="Держишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Сельму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="руку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="помогаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="добраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="следишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="поранилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="станке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="танцуешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="поешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			14 -> 18 [label="подч_союзн"]
+			8 -> 9 [label="_2_компл"]
+			22 -> 23 [label="сочин"]
+			26 -> 27 [label="предл"]
+			18 -> 15 [label="аналит"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="обст"]
+			23 -> 24 [label="соч_союзн"]
+			24 -> 25 [label="обст"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+			19 -> 20 [label="предл"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 5 [label="сочин"]
+			0 -> 12 [label="вводн"]
+			0 -> 14 [label="_1_компл"]
+			0 -> 22 [label="сочин"]
+			25 -> 26 [label="_1_компл"]
+}

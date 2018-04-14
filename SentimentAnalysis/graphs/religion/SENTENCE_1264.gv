@@ -1,0 +1,48 @@
+digraph SENTENCE_1264 {
+	graph [label="Печально, что молодой человек, сделавший это, по всей видимости, вообще не имеет никакой системы ценностей."]
+	node [style=filled]
+		0 [label="Печально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="молодой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сделавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="видимости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="системы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ценностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="опред"]
+			0 -> 2 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			9 -> 11 [label="предл"]
+			2 -> 15 [label="подч_союзн"]
+			11 -> 10 [label="опред"]
+			15 -> 4 [label="предик"]
+			15 -> 13 [label="обст"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="_1_компл"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="квазиагент"]
+}

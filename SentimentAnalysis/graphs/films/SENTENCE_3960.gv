@@ -1,0 +1,27 @@
+digraph SENTENCE_3960 {
+	graph [label="Как-то прошел мимо, к сожалению (или к счастью)."]
+	node [style=filled]
+		0 [label="Как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="счастью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="вводн"]
+			4 -> 5 [label="предл"]
+			4 -> 7 [label="сочин"]
+			8 -> 9 [label="предл"]
+}

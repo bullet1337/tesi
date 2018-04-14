@@ -1,0 +1,24 @@
+digraph SENTENCE_1710 {
+	graph [label="Снимет фильм лично главный \"Митек\" Северной столицы."]
+	node [style=filled]
+		0 [label="Снимет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Митек
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="столицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			3 -> 2 [label="огранич"]
+			1 -> 5 [label="ном_аппоз"]
+			1 -> 8 [label="квазиагент"]
+			0 -> 1 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+}

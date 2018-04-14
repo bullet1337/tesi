@@ -1,0 +1,45 @@
+digraph SENTENCE_620 {
+	graph [label="Из нее образовалось множество подобных колесниц, и в каждой из них находилось отражение Будды."]
+	node [style=filled]
+		0 [label="Из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="образовалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="множество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подобных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="колесниц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="каждой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="находилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отражение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Будды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="предл"]
+			9 -> 10 [label="электив"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 7 [label="сент_соч"]
+			3 -> 5 [label="квазиагент"]
+			12 -> 8 [label="_1_компл"]
+			12 -> 13 [label="предик"]
+			7 -> 12 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+}

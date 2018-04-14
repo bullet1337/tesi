@@ -1,0 +1,95 @@
+digraph SENTENCE_784 {
+	graph [label="Покровитель православного воинства Феодор Стратилат, уроженец Малой Азии, правитель Ираклии Понтийской (ныне Эрегли, Турция), принял мученическую смерть за исповедание христианства в 319 году при римском императоре Лицинии, властителе жадном, властолюбивом, раздражительном, агрессивно невежественном."]
+	node [style=filled]
+		0 [label="Покровитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="православного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="воинства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Феодор Стратилат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="уроженец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Малой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Азии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="правитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Ираклии Понтийской
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="ныне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Эрегли
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Турция
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="принял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="мученическую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="смерть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="исповедание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="христианства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="319
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="римском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="императоре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Лицинии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="властителе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="жадном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="властолюбивом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="раздражительном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="агрессивно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="невежественном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			27 -> 29 [label="предл"]
+			13 -> 12 [label="обст"]
+			13 -> 15 [label="предик"]
+			37 -> 39 [label="сочин"]
+			5 -> 0 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 9 [label="сочин"]
+			5 -> 13 [label="сент_соч"]
+			5 -> 18 [label="вводн"]
+			5 -> 30 [label="сочин"]
+			18 -> 20 [label="предик"]
+			18 -> 24 [label="обст"]
+			9 -> 10 [label="сочин"]
+			30 -> 27 [label="обст"]
+			30 -> 32 [label="сочин"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 23 [label="квазиагент"]
+			33 -> 35 [label="сочин"]
+			24 -> 26 [label="предл"]
+			29 -> 28 [label="опред"]
+			2 -> 1 [label="опред"]
+			26 -> 25 [label="опред"]
+			39 -> 40 [label="сочин"]
+			21 -> 22 [label="предл"]
+			35 -> 37 [label="сочин"]
+}

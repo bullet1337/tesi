@@ -1,0 +1,59 @@
+digraph SENTENCE_104 {
+	graph [label="\"Подобного рода обвинения делаются легко и громко, а когда обнаруживается ложность порочащих сведений, общество данной темой уже не интересуется."]
+	node [style=filled]
+		1 [label="Подобного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="рода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="делаются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="легко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="громко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обнаруживается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ложность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="порочащих
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сведений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="данной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="темой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="интересуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 9 [label="сент_соч"]
+			21 -> 16 [label="предик"]
+			21 -> 18 [label="_1_компл"]
+			21 -> 19 [label="огранич"]
+			21 -> 20 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			2 -> 1 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+			11 -> 12 [label="предик"]
+			14 -> 21 [label="релят"]
+			5 -> 6 [label="сочин"]
+			10 -> 11 [label="подч_союзн"]
+			12 -> 13 [label="опред"]
+			3 -> 2 [label="атриб"]
+			18 -> 17 [label="опред"]
+}

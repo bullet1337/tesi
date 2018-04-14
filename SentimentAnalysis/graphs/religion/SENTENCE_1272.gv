@@ -1,0 +1,42 @@
+digraph SENTENCE_1272 {
+	graph [label="Пожар оперативно потушили, и уже на следующий день храм был открыт для посещения."]
+	node [style=filled]
+		0 [label="Пожар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оперативно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="потушили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="открыт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посещения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			4 -> 10 [label="соч_союзн"]
+			11 -> 12 [label="обст"]
+			8 -> 7 [label="опред"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="предл"]
+			10 -> 6 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="сочин"]
+}

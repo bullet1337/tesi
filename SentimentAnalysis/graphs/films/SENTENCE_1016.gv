@@ -1,0 +1,48 @@
+digraph SENTENCE_1016 {
+	graph [label="Дальше — все будет сильно хуже… Это было два часа почти физической боли (я о себе)."]
+	node [style=filled]
+		0 [label="Дальше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сильно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Это
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="два
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="часа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="физической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="боли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="предл"]
+			5 -> 4 [label="огранич"]
+			13 -> 12 [label="опред"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="присвяз"]
+			3 -> 8 [label="сент_соч"]
+			12 -> 11 [label="огранич"]
+			10 -> 9 [label="количест"]
+			10 -> 13 [label="квазиагент"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="присвяз"]
+			8 -> 16 [label="сент_соч"]
+			0 -> 3 [label="разъяснит"]
+}

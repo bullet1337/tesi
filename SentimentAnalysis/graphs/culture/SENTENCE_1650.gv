@@ -1,0 +1,57 @@
+digraph SENTENCE_1650 {
+	graph [label="Впервые персонаж Чёрная Пантера — появился в 1966-м году в серии комиксов Mаrvel \"Фантастическая четвёрка\", как один из супергероев."]
+	node [style=filled]
+		0 [label="Впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Чёрная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Пантера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="появился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="1966-м
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="серии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="комиксов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Mаrvel
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Фантастическая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="четвёрка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="супергероев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			15 -> 14 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="неакт_компл"]
+			5 -> 9 [label="_2_компл"]
+			5 -> 15 [label="предик"]
+			5 -> 18 [label="сравнит"]
+			18 -> 19 [label="сравн_союзн"]
+			9 -> 10 [label="предл"]
+			19 -> 20 [label="электив"]
+			11 -> 12 [label="атриб"]
+			1 -> 3 [label="квазиагент"]
+			20 -> 21 [label="предл"]
+			10 -> 11 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_3209 {
+	graph [label="Ну что ж, это их дело."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			6 -> 0 [label="вводн"]
+			6 -> 1 [label="вводн"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="квазиагент"]
+}

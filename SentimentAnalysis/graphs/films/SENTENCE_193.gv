@@ -1,0 +1,42 @@
+digraph SENTENCE_193 {
+	graph [label="Фильм не снят в рамках Догмы-95, но придерживается выборочных пунктов этого манифеста."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рамках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Догмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="95
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="придерживается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="выборочных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пунктов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="манифеста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_1_компл"]
+			4 -> 5 [label="квазиагент"]
+			9 -> 10 [label="соч_союзн"]
+			14 -> 13 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+			5 -> 7 [label="нум_аппоз"]
+			3 -> 4 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="обст"]
+			2 -> 9 [label="сочин"]
+}

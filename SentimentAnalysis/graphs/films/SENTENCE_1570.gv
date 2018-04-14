@@ -1,0 +1,39 @@
+digraph SENTENCE_1570 {
+	graph [label="«Танцующая в темноте» лишь отчасти следует «Догме», поскольку почти ей не соответствует."]
+	node [style=filled]
+		1 [label="Танцующая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отчасти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="следует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Догме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="почти
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="соответствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 13 [label="огранич"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			7 -> 1 [label="предик"]
+			7 -> 2 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 12 [label="обст"]
+			12 -> 16 [label="подч_союзн"]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="огранич"]
+}

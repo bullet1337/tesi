@@ -1,0 +1,18 @@
+digraph SENTENCE_4846 {
+	graph [label="Годзилла вообще очень странный хищник."]
+	node [style=filled]
+		0 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="странный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хищник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 1 [label="огранич"]
+			4 -> 3 [label="опред"]
+			3 -> 2 [label="огранич"]
+}

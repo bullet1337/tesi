@@ -1,0 +1,45 @@
+digraph SENTENCE_1392 {
+	graph [label="Спасибо Петеру Стормаре, Джефу, который любил ее, зная, что она не смогла бы ответить ему."]
+	node [style=filled]
+		0 [label="Спасибо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Петеру Стормаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Джефу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="любил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ответить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_2_компл"]
+			0 -> 3 [label="_1_компл"]
+			0 -> 6 [label="разъяснит"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			11 -> 14 [label="подч_союзн"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="аналит"]
+			14 -> 16 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			16 -> 17 [label="_2_компл"]
+}

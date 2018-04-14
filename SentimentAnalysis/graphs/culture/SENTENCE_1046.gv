@@ -1,0 +1,32 @@
+digraph SENTENCE_1046 {
+	graph [label="В спектакле много музыки, исполняемой небольшим оркестром, и визуальных эффектов."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="спектакле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исполняемой
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="небольшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="визуальных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="эффектов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="сочин"]
+			0 -> 1 [label="предл"]
+			3 -> 5 [label="опред"]
+			5 -> 7 [label="агент"]
+			9 -> 11 [label="соч_союзн"]
+			2 -> 3 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+}

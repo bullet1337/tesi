@@ -1,0 +1,45 @@
+digraph SENTENCE_2339 {
+	graph [label="Также и Каннский кинофестиваль иногда восхищает своими неожиданными мудрыми решениями, а временами — своей недальновидностью."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Каннский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="кинофестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иногда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="восхищает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своими
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="неожиданными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мудрыми
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="решениями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="временами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="недальновидностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="огранич"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 9 [label="_1_компл"]
+			5 -> 11 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			9 -> 6 [label="опред"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			11 -> 15 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			15 -> 12 [label="огранич"]
+			15 -> 14 [label="опред"]
+}

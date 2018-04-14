@@ -1,0 +1,42 @@
+digraph SENTENCE_705 {
+	graph [label="\"Разговоры в темноте\" (автор пьесы и режиссер Ира Гонто) — письма трех женщин к мужчине."]
+	node [style=filled]
+		1 [label="Разговоры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пьесы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Ира Гонто
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="письма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="мужчине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 17 [label="предл"]
+			9 -> 10 [label="аппоз"]
+			15 -> 14 [label="количест"]
+			15 -> 16 [label="атриб"]
+			8 -> 9 [label="соч_союзн"]
+			1 -> 2 [label="_2_компл"]
+			6 -> 1 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="сочин"]
+			6 -> 13 [label="_1_компл"]
+			6 -> 15 [label="сочин"]
+			2 -> 3 [label="предл"]
+}

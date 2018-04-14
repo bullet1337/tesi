@@ -1,0 +1,63 @@
+digraph SENTENCE_250 {
+	graph [label="Главный редактор портала \"Словари XXI века\" Алексей Михеев отмечает, что иностранные слова быстро русифицируются: \"Сначала какой-нибудь \"лайк\" воспринимался как нечто чужеродное."]
+	node [style=filled]
+		0 [label="Главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="редактор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="портала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Словари
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="XXI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Алексей Михеев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="иностранные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="быстро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="русифицируются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Сначала
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="какой-нибудь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="лайк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="воспринимался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="нечто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="чужеродное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 1 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 23 [label="сочин"]
+			13 -> 12 [label="опред"]
+			21 -> 19 [label="опред"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="обст"]
+			11 -> 15 [label="подч_союзн"]
+			24 -> 25 [label="сравн_союзн"]
+			25 -> 26 [label="опред"]
+			6 -> 5 [label="опред"]
+			23 -> 18 [label="обст"]
+			23 -> 21 [label="предик"]
+			23 -> 24 [label="_2_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="аппоз"]
+			1 -> 8 [label="об_аппоз"]
+			4 -> 6 [label="атриб"]
+}

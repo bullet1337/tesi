@@ -1,0 +1,90 @@
+digraph SENTENCE_1614 {
+	graph [label="В фильме \"Нелюбовь\" Андрея Звягинцева чувствуется особенный авторский стиль, в этой картине есть поэзия, но невозможно предугадать, получит ли она \"Оскар\", заявил в интервью РИА Новости бельгийский режиссер Жако Ван Дормаль."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Нелюбовь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Андрея Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="чувствуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="особенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="авторский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="стиль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="поэзия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="предугадать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="получит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="бельгийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="Жако
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		35 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		36 [label="Дормаль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			28 -> 29 [label="обст"]
+			1 -> 3 [label="квазиагент"]
+			1 -> 5 [label="аппоз"]
+			18 -> 19 [label="предик"]
+			21 -> 22 [label="огранич"]
+			21 -> 23 [label="предик"]
+			21 -> 25 [label="_1_компл"]
+			11 -> 13 [label="предл"]
+			0 -> 1 [label="предл"]
+			30 -> 31 [label="_1_компл"]
+			14 -> 11 [label="обст"]
+			14 -> 15 [label="предик"]
+			14 -> 17 [label="сент_соч"]
+			13 -> 12 [label="опред"]
+			33 -> 32 [label="опред"]
+			33 -> 34 [label="аппоз"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 14 [label="релят"]
+			19 -> 21 [label="_1_компл"]
+			17 -> 18 [label="соч_союзн"]
+			36 -> 33 [label="предик"]
+			36 -> 35
+			29 -> 30 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 9 [label="предик"]
+			6 -> 28 [label="вводн"]
+			6 -> 36 [label="сент_соч"]
+}

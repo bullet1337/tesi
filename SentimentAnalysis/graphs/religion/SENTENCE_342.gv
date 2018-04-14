@@ -1,0 +1,45 @@
+digraph SENTENCE_342 {
+	graph [label="Решение принято на внеочередном курултае (собрании) мусульман Крыма, который прошел в субботу в Симферополе."]
+	node [style=filled]
+		0 [label="Решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="принято
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="внеочередном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="курултае
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="собрании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мусульман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Крыма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="субботу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Симферополе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			13 -> 14 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="обст"]
+			12 -> 15 [label="_2_компл"]
+			4 -> 3 [label="опред"]
+			6 -> 8 [label="квазиагент"]
+			2 -> 4 [label="предл"]
+			15 -> 16 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="агент"]
+			1 -> 12 [label="сент_соч"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_846 {
+	graph [label="Конфликт оперы построен на треугольнике Лиза — Графиня — Герман, но, по мнению Туминаса, \"главный герой — Герман, он должен оказаться в фокусе зрительского внимания\"."]
+	node [style=filled]
+		0 [label="Конфликт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="оперы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="построен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="треугольнике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Лиза
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Графиня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Герман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Туминаса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="герой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Герман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="оказаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="фокусе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="зрительского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="внимания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предл"]
+			5 -> 7 [label="аппоз"]
+			14 -> 15 [label="квазиагент"]
+			19 -> 18 [label="опред"]
+			19 -> 21 [label="аппоз"]
+			11 -> 24 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 5 [label="разъяснит"]
+			2 -> 11 [label="сент_соч"]
+			3 -> 4 [label="предл"]
+			15 -> 19 [label="аппоз"]
+			25 -> 26 [label="присвяз"]
+			24 -> 13 [label="обст"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			24 -> 29 [label="предик"]
+			29 -> 28 [label="опред"]
+			7 -> 9 [label="аппоз"]
+			0 -> 1 [label="квазиагент"]
+			26 -> 27 [label="предл"]
+}

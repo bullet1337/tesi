@@ -1,0 +1,18 @@
+digraph SENTENCE_936 {
+	graph [label="\"Спасибо, что пришли, что помните."]
+	node [style=filled]
+		1 [label="Спасибо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пришли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="помните
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			1 -> 4 [label="соч_союзн"]
+			6 -> 7 [label="подч_союзн"]
+}

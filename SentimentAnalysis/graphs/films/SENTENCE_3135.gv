@@ -1,0 +1,39 @@
+digraph SENTENCE_3135 {
+	graph [label="А потом те, которые особо «прогрессивно смотрят вдаль» будут говорить: «Это шедевр»."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прогрессивно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="смотрят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вдаль
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Это
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="шедевр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="аналит"]
+			11 -> 16 [label="предик"]
+			7 -> 4 [label="предик"]
+			7 -> 5 [label="огранич"]
+			2 -> 7 [label="релят"]
+			0 -> 8 [label="соч_союзн"]
+			16 -> 15 [label="опред"]
+			8 -> 1 [label="обст"]
+			8 -> 2 [label="предик"]
+			8 -> 11 [label="разъяснит"]
+}

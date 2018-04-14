@@ -1,0 +1,85 @@
+digraph SENTENCE_2405 {
+	graph [label="Ведь история достойна этого… Если «Да» — то фильм не стоит ничего… За потраченное время, проделанную работу и испорченное настроение 1 из 10
+Простите меня, господа умники, понимающие искусство."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="история
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="достойна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Если
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Да
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="За
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="потраченное
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="проделанную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="работу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="испорченное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="настроение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="Простите
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="господа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="умники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="понимающие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 27 [label="предл"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="аппоз"]
+			28 -> 16 [label="обст"]
+			28 -> 21 [label="_1_компл"]
+			34 -> 35 [label="_1_компл"]
+			31 -> 32 [label="аппоз"]
+			31 -> 34 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			16 -> 18 [label="предл"]
+			5 -> 13 [label="подч_союзн"]
+			7 -> 10 [label="огранич"]
+			18 -> 17 [label="опред"]
+			14 -> 28 [label="релят"]
+			22 -> 24 [label="соч_союзн"]
+			25 -> 26 [label="электив"]
+			13 -> 7 [label="вводн"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="предик"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="сочин"]
+}

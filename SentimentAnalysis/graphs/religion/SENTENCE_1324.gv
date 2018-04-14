@@ -1,0 +1,33 @@
+digraph SENTENCE_1324 {
+	graph [label="А буддийский лунный календарь основан на Кангьюре — собрании изречений Будды."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буддийский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="лунный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="календарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="основан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Кангьюре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="собрании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="изречений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Будды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 8 [label="агент"]
+			0 -> 4 [label="соч_союзн"]
+			9 -> 10 [label="квазиагент"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+}

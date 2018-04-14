@@ -1,0 +1,23 @@
+digraph SENTENCE_4261 {
+	graph [label="Это абсолютно четкий посыл к широчайшей аудитории."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="четкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="посыл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="широчайшей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аудитории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+}

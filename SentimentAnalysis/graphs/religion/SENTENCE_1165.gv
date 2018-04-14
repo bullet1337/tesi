@@ -1,0 +1,60 @@
+digraph SENTENCE_1165 {
+	graph [label="\"Министерством культуры Ростовской области совместно с администрацией Ростова-на-Дону рассматривается вопрос о выделении земельного участка под строительство театра кукол."]
+	node [style=filled]
+		1 [label="Министерством
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Ростовской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="совместно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="администрацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ростова-на
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Дону
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="рассматривается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выделении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="земельного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="участка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="строительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="кукол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			5 -> 8 [label="сочин"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="атриб"]
+			16 -> 15 [label="опред"]
+			11 -> 1 [label="обст"]
+			11 -> 5 [label="обст"]
+			11 -> 12 [label="предик"]
+			17 -> 18 [label="предл"]
+			19 -> 20 [label="аппоз"]
+			4 -> 3 [label="опред"]
+			8 -> 10 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			14 -> 16 [label="_1_компл"]
+			14 -> 17 [label="_4_компл"]
+			6 -> 7 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+}

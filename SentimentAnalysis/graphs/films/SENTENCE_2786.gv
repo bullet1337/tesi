@@ -1,0 +1,36 @@
+digraph SENTENCE_2786 {
+	graph [label="Бесконечный дождь, мрак и колоритные персонажи в не менее колоритных одеждах."]
+	node [style=filled]
+		0 [label="Бесконечный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дождь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мрак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="колоритные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="персонажи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="колоритных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="одеждах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="сочин"]
+			10 -> 9 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			4 -> 6 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			3 -> 4 [label="сочин"]
+			7 -> 11 [label="предл"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1214 {
+	graph [label="Поток ледяной воды, внезапно пролившийся на голову."]
+	node [style=filled]
+		0 [label="Поток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ледяной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="воды
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="внезапно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пролившийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="голову
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_2_компл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="квазиагент"]
+			0 -> 5 [label="опред"]
+}

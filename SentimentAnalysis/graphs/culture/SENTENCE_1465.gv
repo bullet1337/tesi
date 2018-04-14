@@ -1,0 +1,87 @@
+digraph SENTENCE_1465 {
+	graph [label="Те же, кто предпочитает проверенные временем кинохиты, в секции Berlinale Classic могут посмотреть культовый фильм режиссера Михаила Калатозова \"Летят журавли\", который получил \"Золотой пальмовую ветвь\" Каннского кинофестиваля в 1958 году."]
+	node [style=filled]
+		0 [label="Те
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="предпочитает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проверенные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="временем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кинохиты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="секции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Berlinale Classic
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="культовый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Михаила Калатозова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Летят
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="журавли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Золотой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="пальмовую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="ветвь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Каннского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="кинофестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="1958
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 20 [label="предик"]
+			19 -> 24 [label="сент_соч"]
+			34 -> 33 [label="опред"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 9 [label="сент_соч"]
+			0 -> 1 [label="огранич"]
+			0 -> 4 [label="релят"]
+			10 -> 11 [label="аппоз"]
+			12 -> 0 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 19 [label="сент_соч"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="предл"]
+			24 -> 23 [label="предик"]
+			24 -> 28 [label="_1_компл"]
+			24 -> 32 [label="обст"]
+			16 -> 17 [label="аппоз"]
+			13 -> 15 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="квазиагент"]
+			32 -> 34 [label="предл"]
+			31 -> 30 [label="опред"]
+			28 -> 26 [label="опред"]
+			28 -> 27 [label="опред"]
+			28 -> 31 [label="квазиагент"]
+}

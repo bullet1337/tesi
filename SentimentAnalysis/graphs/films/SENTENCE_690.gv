@@ -1,0 +1,36 @@
+digraph SENTENCE_690 {
+	graph [label="Она навсегда останется с чувством предвкушения и сумеет придумать своё окончание."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="навсегда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="останется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чувством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="предвкушения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сумеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="придумать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="окончание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			6 -> 7 [label="соч_союзн"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="присвяз"]
+			2 -> 6 [label="сочин"]
+			7 -> 8 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+}

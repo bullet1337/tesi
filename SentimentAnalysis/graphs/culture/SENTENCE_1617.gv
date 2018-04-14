@@ -1,0 +1,36 @@
+digraph SENTENCE_1617 {
+	graph [label="Режиссер признался, что обожает все фильмы Андрея Тарковского и оценил \"Нелюбовь\" Андрея Звягинцева."]
+	node [style=filled]
+		0 [label="Режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="признался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обожает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Андрея Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оценил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Нелюбовь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Андрея Звягинцева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 4 [label="подч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="аппоз"]
+			8 -> 9 [label="соч_союзн"]
+			9 -> 11 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			4 -> 13 [label="предик"]
+}

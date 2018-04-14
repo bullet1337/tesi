@@ -1,0 +1,34 @@
+digraph SENTENCE_1544 {
+	graph [label="Но что толку в полноценном зрении, если я любви не имею?"]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="толку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="полноценном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="имею
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 11 [label="подч_союзн"]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="_1_компл"]
+			11 -> 10 [label="огранич"]
+			2 -> 3 [label="атриб"]
+			2 -> 7 [label="примыкат"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+}

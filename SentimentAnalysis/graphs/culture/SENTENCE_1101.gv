@@ -1,0 +1,35 @@
+digraph SENTENCE_1101 {
+	graph [label="Для публики выставка будет открыта с 26 марта по 31 мая."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="публики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="выставка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="открыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="31
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мая
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="обст"]
+			0 -> 1 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 4
+			9 -> 10 [label="атриб"]
+			6 -> 7 [label="атриб"]
+			5 -> 6 [label="предл"]
+}

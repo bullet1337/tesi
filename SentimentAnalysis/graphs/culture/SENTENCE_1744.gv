@@ -1,0 +1,36 @@
+digraph SENTENCE_1744 {
+	graph [label="В 1932 году экстерном окончил Благовещенский педагогический институт имени М.И."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1932
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="экстерном
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="окончил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Благовещенский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="педагогический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="институт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="М
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="И
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предл"]
+			9 -> 11 [label="сочин"]
+			2 -> 1 [label="опред"]
+			8 -> 9 [label="квазиагент"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 7 [label="_1_компл"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+}

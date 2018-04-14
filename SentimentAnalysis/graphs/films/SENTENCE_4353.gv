@@ -1,0 +1,24 @@
+digraph SENTENCE_4353 {
+	graph [label="Окно Овертона работает на полную мощность, хочется сказать."]
+	node [style=filled]
+		0 [label="Окно Овертона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="работает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мощность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_2_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 6 [label="сочин"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="предл"]
+}

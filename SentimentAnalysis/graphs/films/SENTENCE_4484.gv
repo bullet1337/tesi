@@ -1,0 +1,43 @@
+digraph SENTENCE_4484 {
+	graph [label="Чудовище, чьё имя вывели в название фильма, тут третьестепенный персонаж после Пипца и Гнусов."]
+	node [style=filled]
+		0 [label="Чудовище
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="чьё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вывели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="название
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="третьестепенный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="персонаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Пипца
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Гнусов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="_2_компл"]
+			14 -> 15 [label="соч_союзн"]
+			6 -> 7 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+			13 -> 14 [label="сочин"]
+			12 -> 13 [label="предл"]
+			5 -> 6 [label="предл"]
+}

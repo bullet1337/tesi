@@ -1,0 +1,42 @@
+digraph SENTENCE_960 {
+	graph [label="Но эту легенду выдумали не древние летописцы, а историки искусства\", — замечает автор книги."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="легенду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выдумали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="древние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="летописцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="историки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="искусства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="замечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="автор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="книги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="аппоз"]
+			8 -> 9 [label="соч_союзн"]
+			14 -> 15 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			0 -> 3 [label="соч_союзн"]
+			5 -> 4 [label="огранич"]
+			2 -> 1 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сочин"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 6 [label="предик"]
+			3 -> 14 [label="сент_соч"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_4618 {
+	graph [label="Даже не знаю, что в этом фильме хуже — сценарий или.. сценарий."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сценарий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 13 [label="соч_союзн"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 10 [label="подч_союзн"]
+			10 -> 5 [label="обст"]
+			10 -> 8 [label="опред"]
+			10 -> 11 [label="сочин"]
+			5 -> 7 [label="предл"]
+}

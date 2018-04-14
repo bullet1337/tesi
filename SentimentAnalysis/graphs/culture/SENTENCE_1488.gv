@@ -1,0 +1,27 @@
+digraph SENTENCE_1488 {
+	graph [label="Мультфильму американского эстета Уэса Андерсона досталась награда за режиссуру."]
+	node [style=filled]
+		0 [label="Мультфильму
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="американского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="эстета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Уэса Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="досталась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="награда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="режиссуру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="атриб"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			0 -> 2 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			6 -> 7 [label="предл"]
+}

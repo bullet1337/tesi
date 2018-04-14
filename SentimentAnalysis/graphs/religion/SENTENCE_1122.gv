@@ -1,0 +1,27 @@
+digraph SENTENCE_1122 {
+	graph [label="Никаких изменений в этом отношении нет\", — сказал Баркат."]
+	node [style=filled]
+		0 [label="Никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="изменений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отношении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Баркат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 1 [label="предик"]
+			5 -> 2 [label="_1_компл"]
+			5 -> 9 [label="вводн"]
+			9 -> 10 [label="предик"]
+			1 -> 0 [label="опред"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+}

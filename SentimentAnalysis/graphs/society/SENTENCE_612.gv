@@ -1,0 +1,39 @@
+digraph SENTENCE_612 {
+	graph [label="Отсутствие внешнего сходства с родителями стало поводом для постоянных ссор с супругом."]
+	node [style=filled]
+		0 [label="Отсутствие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="внешнего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сходства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="родителями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поводом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="постоянных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ссор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="супругом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 6 [label="присвяз"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="_1_компл"]
+			0 -> 2 [label="квазиагент"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="атриб"]
+			3 -> 4 [label="предл"]
+}

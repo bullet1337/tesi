@@ -1,0 +1,36 @@
+digraph SENTENCE_1189 {
+	graph [label="Глава государства возложил цветы к каждой стелле города-героя у Кремлевской стены."]
+	node [style=filled]
+		0 [label="Глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="государства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="возложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="цветы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="каждой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стелле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="города-героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кремлевской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="стены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			4 -> 6 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="_2_компл"]
+			2 -> 8 [label="обст"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+}

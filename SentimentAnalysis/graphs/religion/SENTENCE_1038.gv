@@ -1,0 +1,33 @@
+digraph SENTENCE_1038 {
+	graph [label="В IV-V веках церковь рассматривает Великий пост обязательным для верующих."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="IV-V
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="веках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рассматривает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обязательным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="верующих
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			6 -> 5 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="_2_компл"]
+}

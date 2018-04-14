@@ -1,0 +1,32 @@
+digraph SENTENCE_1567 {
+	graph [label="О Петрове много писали, его называли \"человеком, который спас мир\"."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Петрове
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="писали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="называли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="спас
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="_3_компл"]
+			3 -> 2 [label="обст"]
+			0 -> 1 [label="предл"]
+			8 -> 11 [label="релят"]
+			11 -> 10 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			6 -> 5 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+}

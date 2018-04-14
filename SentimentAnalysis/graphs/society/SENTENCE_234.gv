@@ -1,0 +1,41 @@
+digraph SENTENCE_234 {
+	graph [label="Зачем россиянам \"имидж\", если есть \"образ\", к чему \"лонгрид\", если можно сказать \"статья\"?"]
+	node [style=filled]
+		0 [label="Зачем
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="россиянам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="имидж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="образ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="чему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лонгрид
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="статья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 12 [label="огранич"]
+			6 -> 7 [label="подч_союзн"]
+			20 -> 22 [label="_1_компл"]
+			7 -> 9 [label="предик"]
+			7 -> 18 [label="обст"]
+			19 -> 20 [label="предик"]
+			18 -> 19 [label="подч_союзн"]
+			0 -> 1 [label="дат_субъект"]
+			0 -> 3 [label="предик"]
+			9 -> 15 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+}

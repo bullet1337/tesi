@@ -1,0 +1,39 @@
+digraph SENTENCE_2334 {
+	graph [label="И тут хотелось сказать «НЕ ВЕРЮ», ну какая из нее рабочая завода?"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тут
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="НЕ
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="ВЕРЮ
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="какая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рабочая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="завода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 6 [label="сочин"]
+			2 -> 10 [label="_2_компл"]
+			6 -> 5 [label="огранич"]
+			11 -> 12 [label="предл"]
+			10 -> 9 [label="вводн"]
+			10 -> 11 [label="электив"]
+			10 -> 14 [label="предик"]
+			0 -> 2 [label="соч_союзн"]
+}

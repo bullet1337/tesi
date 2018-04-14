@@ -1,0 +1,67 @@
+digraph SENTENCE_1934 {
+	graph [label="5 или 10 минут я ничего не могла говорить, просто сидела и думала, даже не знаю о чем, мысли летали, где то."]
+	node [style=filled]
+		0 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="могла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сидела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="думала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="мысли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="летали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 24 [label="разъяснит"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 11 [label="сент_соч"]
+			24 -> 25 [label="предик"]
+			0 -> 1 [label="сочин"]
+			12 -> 13 [label="соч_союзн"]
+			18 -> 19 [label="предл"]
+			1 -> 2 [label="соч_союзн"]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="_2_компл"]
+			17 -> 21 [label="_1_компл"]
+			17 -> 22 [label="сочин"]
+			3 -> 0 [label="количест"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="сочин"]
+			11 -> 17 [label="сент_соч"]
+}

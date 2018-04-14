@@ -1,0 +1,43 @@
+digraph SENTENCE_1265 {
+	graph [label="Говоря про актёров, то может некоторые сомнения вызвать участие певицы в качестве главной героини."]
+	node [style=filled]
+		0 [label="Говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актёров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="некоторые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сомнения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вызвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="певицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_3_компл"]
+			0 -> 4 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 11 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="квазиагент"]
+}

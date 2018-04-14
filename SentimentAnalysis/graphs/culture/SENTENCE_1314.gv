@@ -1,0 +1,48 @@
+digraph SENTENCE_1314 {
+	graph [label="В итоге получилась лента \"В Питере — петь\" — даже не столько фильм, сколько развернутое интервью с Сергеем Шнуровым."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="получилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Питере
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="петь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="столько
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сколько
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="развернутое
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Сергеем Шнуровым
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 6 [label="предл"]
+			16 -> 18 [label="_1_компл"]
+			3 -> 5 [label="атриб"]
+			13 -> 11 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="разъяснит"]
+			19 -> 20 [label="предл"]
+			0 -> 1 [label="предл"]
+}

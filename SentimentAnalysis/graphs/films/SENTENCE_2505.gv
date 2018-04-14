@@ -1,0 +1,72 @@
+digraph SENTENCE_2505 {
+	graph [label="Недавно в очередной раз услышал или прочитал что-то о гениальности Тарковского, и решил-таки заставить себя и «вкусить сполна» одно из лучших его творений."]
+	node [style=filled]
+		0 [label="Недавно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="очередной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="услышал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="прочитал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гениальности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="решил-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вкусить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="сполна
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="творений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 22 [label="электив"]
+			4 -> 0 [label="обст"]
+			4 -> 1 [label="обст"]
+			4 -> 5 [label="сочин"]
+			4 -> 12 [label="сент_соч"]
+			9 -> 10 [label="квазиагент"]
+			16 -> 18 [label="соч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			5 -> 6 [label="соч_союзн"]
+			18 -> 19 [label="обст"]
+			18 -> 21 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="квазиагент"]
+			12 -> 14 [label="соч_союзн"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="сочин"]
+			22 -> 25 [label="предл"]
+}

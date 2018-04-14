@@ -1,0 +1,48 @@
+digraph SENTENCE_3498 {
+	graph [label="4 из 10
+Да, хоккей — это то немногое, чем мы можем гордиться на мировом уровне."]
+	node [style=filled]
+		0 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Да
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="хоккей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="немногое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="гордиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="мировом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уровне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="обст"]
+			11 -> 13 [label="сравн_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="опред"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="электив"]
+			17 -> 16 [label="опред"]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="огранич"]
+			5 -> 8 [label="сент_соч"]
+			15 -> 17 [label="предл"]
+}

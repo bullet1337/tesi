@@ -1,0 +1,51 @@
+digraph SENTENCE_579 {
+	graph [label="Международное жюри \"Духа огня\", как сообщил председатель отборочной комиссии кинофестиваля Борис Нелепо, возглавит португальский продюсер Паулу Бранку."]
+	node [style=filled]
+		0 [label="Международное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Духа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="огня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отборочной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="комиссии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="кинофестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Борис
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Нелепо
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="возглавит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="португальский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="продюсер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Паулу Бранку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="сравн_союзн"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="аппоз"]
+			8 -> 9 [label="предик"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 13 [label="аппоз"]
+			16 -> 1 [label="предик"]
+			16 -> 14 [label="обст"]
+			16 -> 18 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="сочин"]
+			1 -> 7 [label="вводн"]
+			3 -> 4 [label="квазиагент"]
+}

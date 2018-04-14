@@ -1,0 +1,51 @@
+digraph SENTENCE_3183 {
+	graph [label="Прежде всего, я выражаю огромную благодарность своей девушке, которая была рядом, пока я смотрел эту белиберду."]
+	node [style=filled]
+		0 [label="Прежде
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выражаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="огромную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="благодарность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="девушке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рядом
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="смотрел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="белиберду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 11 [label="сент_соч"]
+			14 -> 16 [label="подч_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="_1_компл"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="присвяз"]
+			11 -> 14 [label="обст"]
+			18 -> 17 [label="опред"]
+			8 -> 7 [label="опред"]
+			0 -> 1 [label="предл"]
+}

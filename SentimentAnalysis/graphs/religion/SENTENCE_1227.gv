@@ -1,0 +1,33 @@
+digraph SENTENCE_1227 {
+	graph [label="В конце января там в четвертый раз прошел Татьянин бал."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="января
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="четвертый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Татьянин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="бал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			8 -> 9 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 0 [label="обст"]
+			7 -> 3 [label="обст"]
+			7 -> 4 [label="обст"]
+			7 -> 8 [label="предик"]
+			0 -> 1 [label="предл"]
+}

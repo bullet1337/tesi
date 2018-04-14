@@ -1,0 +1,48 @@
+digraph SENTENCE_643 {
+	graph [label="Надо хотя бы в Великий пост как-то себя ограничить от всего этого\", — сказал отец Владимир."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Великий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ограничить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="отец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Владимир
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 5 [label="предл"]
+			0 -> 8 [label="предик"]
+			0 -> 15 [label="вводн"]
+			5 -> 4 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			9 -> 11 [label="предл"]
+			8 -> 1 [label="огранич"]
+			8 -> 2 [label="аналит"]
+			8 -> 3 [label="обст"]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			15 -> 16 [label="предик"]
+}

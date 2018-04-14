@@ -1,0 +1,29 @@
+digraph SENTENCE_2147 {
+	graph [label="А для оператора Георгия Рерберга этот фильм стал подлинным триумфом."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оператора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Георгия Рерберга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="подлинным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="триумфом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 6 [label="релят"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="присвяз"]
+}

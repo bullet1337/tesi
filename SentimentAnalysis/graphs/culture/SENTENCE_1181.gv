@@ -1,0 +1,15 @@
+digraph SENTENCE_1181 {
+	graph [label="Пленный Ивушкин задумывает дерзкий побег."]
+	node [style=filled]
+		0 [label="Пленный Ивушкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="задумывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дерзкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="побег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+}

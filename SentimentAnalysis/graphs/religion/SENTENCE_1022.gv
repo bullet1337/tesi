@@ -1,0 +1,45 @@
+digraph SENTENCE_1022 {
+	graph [label="Так с 544 года Сретение вошло в число двенадцати (двунадесятых) особо торжественных общецерковных празднеств."]
+	node [style=filled]
+		0 [label="Так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="544
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сретение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="вошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="число
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="двенадцати
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="двунадесятых
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="торжественных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="общецерковных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="празднеств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 10 [label="квазиагент"]
+			10 -> 8 [label="колич_вспом"]
+			6 -> 7 [label="предл"]
+			13 -> 12 [label="огранич"]
+			5 -> 0 [label="обст"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 15 [label="предик"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+}

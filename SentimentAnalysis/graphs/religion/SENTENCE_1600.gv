@@ -1,0 +1,48 @@
+digraph SENTENCE_1600 {
+	graph [label="Мы имеем в одной Москве более 8 тысяч молодых людей, которые составляют православный актив молодежи."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="имеем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="одной
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="составляют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="православный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="актив
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="молодежи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			7 -> 6 [label="количест"]
+			7 -> 9 [label="квазиагент"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			2 -> 4 [label="предл"]
+			5 -> 7 [label="сравнит"]
+			9 -> 8 [label="опред"]
+}

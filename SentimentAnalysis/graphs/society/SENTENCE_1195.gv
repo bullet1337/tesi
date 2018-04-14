@@ -1,0 +1,45 @@
+digraph SENTENCE_1195 {
+	graph [label="Почетный караул у Могилы Неизвестного солдата — \"Пост номер 1\" — был установлен в 1997 году."]
+	node [style=filled]
+		0 [label="Почетный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="караул
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Могилы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Неизвестного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="солдата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Пост
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="номер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="1
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="установлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="1997
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			15 -> 17 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="примыкат"]
+			13 -> 1 [label="предик"]
+			13 -> 14
+			14 -> 15 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="аппоз"]
+			9 -> 10 [label="нум_аппоз"]
+			17 -> 16 [label="опред"]
+			8 -> 9 [label="нум_аппоз"]
+}

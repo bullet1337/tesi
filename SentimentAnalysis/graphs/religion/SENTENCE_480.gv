@@ -1,0 +1,63 @@
+digraph SENTENCE_480 {
+	graph [label="В городе приспущены флаги РФ и Дагестана, отменены все развлекательные и музыкальные мероприятия и программы на местных телестудиях и радио."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="приспущены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="флаги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Дагестана
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="отменены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="развлекательные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мероприятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="местных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="телестудиях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="радио
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			16 -> 18 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="сент_соч"]
+			8 -> 13 [label="предик"]
+			15 -> 16 [label="атриб"]
+			10 -> 11 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 5 [label="сочин"]
+			19 -> 20 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			13 -> 9 [label="опред"]
+			13 -> 10 [label="опред"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			5 -> 6 [label="соч_союзн"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="сочин"]
+}

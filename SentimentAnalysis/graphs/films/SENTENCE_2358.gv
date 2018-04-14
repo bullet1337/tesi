@@ -1,0 +1,32 @@
+digraph SENTENCE_2358 {
+	graph [label="И, как результат, правила игры Триера зритель отказывается принять вовсе."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="результат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="правила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Триера
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="зритель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="отказывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="принять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вовсе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 5 [label="соч_союзн"]
+			2 -> 3 [label="сравн_союзн"]
+			10 -> 11 [label="огранич"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			7 -> 9 [label="релят"]
+			5 -> 2 [label="вводн"]
+			5 -> 6 [label="квазиагент"]
+}

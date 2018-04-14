@@ -1,0 +1,18 @@
+digraph SENTENCE_2551 {
+	graph [label="Безвкусица, идиотизм и унылое говно!"]
+	node [style=filled]
+		0 [label="Безвкусица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="идиотизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="унылое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="говно
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="сочин"]
+			5 -> 4 [label="опред"]
+			3 -> 5 [label="соч_союзн"]
+}

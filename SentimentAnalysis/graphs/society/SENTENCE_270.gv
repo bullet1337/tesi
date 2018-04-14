@@ -1,0 +1,21 @@
+digraph SENTENCE_270 {
+	graph [label="Раньше мы бы сказали: \"малиново-клубничный йогурт\"."]
+	node [style=filled]
+		0 [label="Раньше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="малиново-клубничный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="йогурт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="аналит"]
+			3 -> 7 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+}

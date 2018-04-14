@@ -1,0 +1,64 @@
+digraph SENTENCE_1936 {
+	graph [label="Музыка, игра актеров, сюжет и вообще за все  9,5 из 10
+О Северной Корее невероятно трудно говорить непредвзято, а порой — невозможно."]
+	node [style=filled]
+		0 [label="Музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="игра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="9,5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="О
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Северной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Корее
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="невероятно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="трудно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="непредвзято
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="порой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="невозможно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="электив"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 6 [label="сочин"]
+			3 -> 5 [label="аппоз"]
+			11 -> 12 [label="предл"]
+			17 -> 16 [label="огранич"]
+			17 -> 18 [label="предик"]
+			17 -> 21 [label="сент_соч"]
+			13 -> 15 [label="предл"]
+			24 -> 22 [label="огранич"]
+			21 -> 24 [label="соч_союзн"]
+			15 -> 14 [label="опред"]
+			8 -> 10 [label="предл"]
+			8 -> 13 [label="сочин"]
+			18 -> 19 [label="обст"]
+}

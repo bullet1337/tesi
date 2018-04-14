@@ -1,0 +1,51 @@
+digraph SENTENCE_225 {
+	graph [label="\"Я узнал о том, что пьеса \"Юлий Цезарь\" не ставилась 115 лет, совсем недавно, — сказал РИА Новости Грымов."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="узнал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Юлий Цезарь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ставилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="115
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="недавно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Грымов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="эксплет"]
+			6 -> 12 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 20 [label="разъяснит"]
+			17 -> 16 [label="огранич"]
+			7 -> 9 [label="квазиагент"]
+			20 -> 14 [label="длительн"]
+			20 -> 17 [label="обст"]
+			20 -> 21 [label="_2_компл"]
+			20 -> 22 [label="предик"]
+			3 -> 4 [label="предл"]
+			14 -> 13 [label="количест"]
+			12 -> 7 [label="предик"]
+			12 -> 11 [label="огранич"]
+}

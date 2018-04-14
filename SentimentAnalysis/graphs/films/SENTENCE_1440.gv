@@ -1,0 +1,68 @@
+digraph SENTENCE_1440 {
+	graph [label="Её героиня Сэльма милая, добрая, потрясающая, очень забавная, мечтательная и в итоге всё-таки сильная (несмотря на то, что сама она считает иначе)."]
+	node [style=filled]
+		0 [label="Её
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="героиня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Сэльма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="милая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="добрая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="потрясающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="забавная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мечтательная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всё-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сильная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сама
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="иначе
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="сочин"]
+			26 -> 24 [label="суб_копр"]
+			26 -> 25 [label="предик"]
+			26 -> 27 [label="обст"]
+			5 -> 7 [label="сочин"]
+			14 -> 15 [label="предл"]
+			3 -> 5 [label="сочин"]
+			21 -> 23 [label="эксплет"]
+			23 -> 26 [label="подч_союзн"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="аппоз"]
+			13 -> 20 [label="соч_союзн"]
+			20 -> 14 [label="обст"]
+			20 -> 17 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="предл"]
+			12 -> 13 [label="сочин"]
+			17 -> 16 [label="огранич"]
+			7 -> 10 [label="сочин"]
+}

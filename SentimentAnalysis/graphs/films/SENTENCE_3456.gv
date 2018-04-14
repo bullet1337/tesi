@@ -1,0 +1,21 @@
+digraph SENTENCE_3456 {
+	graph [label="Харламова мариновали на скамье после «Звезды»?"]
+	node [style=filled]
+		0 [label="Харламова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="мариновали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="скамье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Звезды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="предл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="обст"]
+}

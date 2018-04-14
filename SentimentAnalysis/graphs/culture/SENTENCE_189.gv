@@ -1,0 +1,69 @@
+digraph SENTENCE_189 {
+	graph [label="Известный скрипач Вадим Репин (худрук фестиваля) выступит с Кларой-Джуми Кан (Германия) и камерным оркестром Sejong Soloiists, основанным музыкантами из Южной Кореи и базирующимся в США."]
+	node [style=filled]
+		0 [label="Известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="скрипач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Вадим Репин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="худрук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кларой-Джуми Кан
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Германия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="камерным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Sejong Soloiists
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="основанным
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="музыкантами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Южной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Кореи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="базирующимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			24 -> 25 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="аппоз"]
+			15 -> 18 [label="опред"]
+			5 -> 4 [label="опред"]
+			20 -> 22 [label="предл"]
+			2 -> 7 [label="релят"]
+			2 -> 11 [label="сочин"]
+			25 -> 26 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			7 -> 5 [label="предик"]
+			7 -> 8 [label="обст"]
+			18 -> 19 [label="агент"]
+			18 -> 23 [label="сочин"]
+			13 -> 15 [label="соч_союзн"]
+			22 -> 21 [label="опред"]
+			23 -> 24 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+			19 -> 20 [label="атриб"]
+			11 -> 13 [label="сочин"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1206 {
+	graph [label="По его словам, катарская сторона будет принимать участие в строительстве объектов комплекса и контролировать процесс."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="катарская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сторона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="принимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="строительстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="объектов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="комплекса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="контролировать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="процесс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			0 -> 2 [label="предл"]
+			13 -> 14 [label="соч_союзн"]
+			2 -> 1 [label="квазиагент"]
+			8 -> 9 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+			14 -> 15 [label="_1_компл"]
+			11 -> 12 [label="атриб"]
+			9 -> 10 [label="предл"]
+			6 -> 0 [label="вводн"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="аналит"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 13 [label="сочин"]
+}

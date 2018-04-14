@@ -1,0 +1,36 @@
+digraph SENTENCE_1181 {
+	graph [label="Для Сельмы сын означает не меньше, чем для Александра весь Мир."]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="означает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="меньше
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Александра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Мир
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			7 -> 8 [label="сравн_союзн"]
+			5 -> 4 [label="огранич"]
+			5 -> 7 [label="сравнит"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="предл"]
+			9 -> 11 [label="аппоз"]
+}

@@ -1,0 +1,51 @@
+digraph SENTENCE_1554 {
+	graph [label="Третью строчку заняла Женщина-кошка в исполнении Мишель Пфайффер, ставшая антагонистом в фильме Тима Бертона \"Бэтмен возвращается\" 1992 года."]
+	node [style=filled]
+		0 [label="Третью
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="строчку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="заняла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Женщина-кошка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Мишель Пфайффер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="ставшая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="антагонистом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Тима Бертона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Бэтмен
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="возвращается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="1992
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="аппоз"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 6 [label="вводн"]
+			2 -> 15 [label="разъяснит"]
+			18 -> 17 [label="опред"]
+			9 -> 10 [label="атриб"]
+			11 -> 12 [label="аппоз"]
+			15 -> 18 [label="предик"]
+			6 -> 8 [label="опред"]
+			8 -> 9 [label="присвяз"]
+			3 -> 4 [label="атриб"]
+			10 -> 11 [label="предл"]
+			1 -> 0 [label="опред"]
+}

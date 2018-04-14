@@ -1,0 +1,21 @@
+digraph SENTENCE_1019 {
+	graph [label="В главных ролях — Павел Деревянко и Юлия Хлынина."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ролях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Павел Деревянко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Юлия Хлынина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 1 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="сочин"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="соч_союзн"]
+}

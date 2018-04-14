@@ -1,0 +1,39 @@
+digraph SENTENCE_62 {
+	graph [label="Вскоре она поехала в Москву на экзамен в школу при МХАТ-2."]
+	node [style=filled]
+		0 [label="Вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поехала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Москву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="экзамен
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="школу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="МХАТ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="предл"]
+			10 -> 12 [label="нум_аппоз"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 9 [label="обст"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="_2_компл"]
+			7 -> 8 [label="предл"]
+}

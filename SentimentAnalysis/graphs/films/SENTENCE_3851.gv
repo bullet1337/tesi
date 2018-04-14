@@ -1,0 +1,38 @@
+digraph SENTENCE_3851 {
+	graph [label="Очередная битва между КНИГОЙ и ФИЛЬМОМ, проиграна последним, причём с полным провалом."]
+	node [style=filled]
+		0 [label="Очередная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="битва
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="КНИГОЙ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ФИЛЬМОМ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="проиграна
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="последним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="причём
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="полным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="провалом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 1 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 10 [label="обст"]
+			11 -> 13 [label="предл"]
+			3 -> 4 [label="сочин"]
+			13 -> 12 [label="опред"]
+			2 -> 3 [label="предл"]
+}

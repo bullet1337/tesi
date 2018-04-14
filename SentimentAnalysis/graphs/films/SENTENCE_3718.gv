@@ -1,0 +1,18 @@
+digraph SENTENCE_3718 {
+	graph [label="Есть известный роман Джорджа Оруэлла «1984»."]
+	node [style=filled]
+		0 [label="Есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="роман
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Джорджа Оруэлла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="1984
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="квазиагент"]
+			2 -> 5 [label="ном_аппоз"]
+			0 -> 2 [label="предик"]
+}

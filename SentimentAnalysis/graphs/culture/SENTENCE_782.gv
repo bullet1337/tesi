@@ -1,0 +1,48 @@
+digraph SENTENCE_782 {
+	graph [label="Ретроспектива бельгийского режиссера пройдет также в Калининграде, Екатеринбурге, Казани, Самаре и Сургуте, дополняется в сообщении."]
+	node [style=filled]
+		0 [label="Ретроспектива
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="бельгийского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пройдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Калининграде
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Екатеринбурге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Казани
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Самаре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Сургуте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="дополняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="обст"]
+			3 -> 16 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+			0 -> 2 [label="квазиагент"]
+			8 -> 10 [label="сочин"]
+			2 -> 1 [label="опред"]
+			12 -> 13 [label="сочин"]
+			10 -> 12 [label="сочин"]
+			16 -> 17 [label="обст"]
+			6 -> 8 [label="сочин"]
+			17 -> 18 [label="предл"]
+			5 -> 6 [label="предл"]
+}

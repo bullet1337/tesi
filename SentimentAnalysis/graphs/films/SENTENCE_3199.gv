@@ -1,0 +1,18 @@
+digraph SENTENCE_3199 {
+	graph [label="В общем, добавить особо нечего."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="добавить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="особо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нечего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			5 -> 4 [label="огранич"]
+}

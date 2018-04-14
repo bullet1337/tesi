@@ -1,0 +1,34 @@
+digraph SENTENCE_691 {
+	graph [label="9 из 10
+«В детстве, — сказала она, — я всех обманывала."]
+	node [style=filled]
+		0 [label="9
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="В
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="детстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всех
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обманывала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="электив"]
+			14 -> 9 [label="_1_несобст_компл"]
+			14 -> 12 [label="предик"]
+			14 -> 13 [label="_1_компл"]
+			8 -> 0 [label="предик"]
+			8 -> 4 [label="обст"]
+			8 -> 14 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+}

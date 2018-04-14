@@ -1,0 +1,48 @@
+digraph SENTENCE_1564 {
+	graph [label="Дровишек в огонь подбросила и его наиболее известная лента — «Танцующая в темноте» 2000 года выпуска."]
+	node [style=filled]
+		0 [label="Дровишек
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="огонь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="подбросила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="наиболее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="известная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Танцующая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выпуска
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 5 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			11 -> 8 [label="предик"]
+			11 -> 12 [label="обст"]
+			12 -> 13 [label="предл"]
+			4 -> 11 [label="соч_союзн"]
+			13 -> 16 [label="атриб"]
+			7 -> 6 [label="огранич"]
+			1 -> 2 [label="предл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="сент_соч"]
+}

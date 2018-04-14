@@ -1,0 +1,41 @@
+digraph SENTENCE_214 {
+	graph [label="Встреча такого уровня стала первой за всю историю Русской православной и Римско-католической церквей."]
+	node [style=filled]
+		0 [label="Встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="уровня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="историю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Римско-католической
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="церквей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 12 [label="_1_компл"]
+			0 -> 2 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			9 -> 10 [label="сочин"]
+			12 -> 8 [label="опред"]
+			12 -> 9 [label="опред"]
+			5 -> 7 [label="предл"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 5 [label="атриб"]
+}

@@ -1,0 +1,68 @@
+digraph SENTENCE_246 {
+	graph [label="Мэрия как бы говорит: видите, раз Америка полностью признала Иерусалим столицей, то мы теперь, как уже законная власть, можем вводить такой налог."]
+	node [style=filled]
+		0 [label="Мэрия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="видите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Америка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="признала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Иерусалим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="столицей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="теперь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="законная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="власть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="можем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="вводить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="налог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 10 [label="подч_союзн"]
+			1 -> 2
+			21 -> 20 [label="опред"]
+			5 -> 7 [label="обст"]
+			5 -> 14 [label="_1_компл"]
+			14 -> 23 [label="эксплет"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="_2_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			23 -> 15 [label="предик"]
+			23 -> 16 [label="обст"]
+			23 -> 18 [label="обст"]
+			23 -> 21 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+			20 -> 19 [label="огранич"]
+			26 -> 25 [label="опред"]
+			24 -> 26 [label="_1_компл"]
+}

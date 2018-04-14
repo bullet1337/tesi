@@ -1,0 +1,48 @@
+digraph SENTENCE_2860 {
+	graph [label="Привлечение в сюжет неудачливого брата Грю по имени Дрю также не пошло мультфильму на пользу."]
+	node [style=filled]
+		0 [label="Привлечение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неудачливого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="брата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Грю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Дрю
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мультфильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пользу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			2 -> 4 [label="квазиагент"]
+			7 -> 8 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="атриб"]
+			11 -> 0 [label="предик"]
+			11 -> 9 [label="огранич"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="неакт_компл"]
+			11 -> 13 [label="обст"]
+			0 -> 1 [label="_2_компл"]
+			1 -> 2 [label="предл"]
+			13 -> 14 [label="предл"]
+}

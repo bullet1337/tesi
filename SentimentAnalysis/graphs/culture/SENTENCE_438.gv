@@ -1,0 +1,63 @@
+digraph SENTENCE_438 {
+	graph [label="Классический советский телесериал киностудии \"Мосфильм\" по одноименной повести Юрия Бондарева был снят к 40-летию победы Красной армии в Великой Отечественной войне."]
+	node [style=filled]
+		0 [label="Классический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="советский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="телесериал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="киностудии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Мосфильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="одноименной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="повести
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Юрия Бондарева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="снят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="40-летию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="победы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Красной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Великой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Отечественной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="войне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="атриб"]
+			5 -> 10 [label="сочин"]
+			14 -> 15 [label="квазиагент"]
+			18 -> 21 [label="предл"]
+			9 -> 8 [label="опред"]
+			11 -> 2 [label="предик"]
+			11 -> 12
+			2 -> 0 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="аппоз"]
+			2 -> 5 [label="сочин"]
+			12 -> 13 [label="_2_компл"]
+			17 -> 16 [label="опред"]
+			7 -> 9 [label="предл"]
+			15 -> 17 [label="квазиагент"]
+			15 -> 18 [label="атриб"]
+			13 -> 14 [label="предл"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+}

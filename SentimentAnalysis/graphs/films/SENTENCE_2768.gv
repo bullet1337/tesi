@@ -1,0 +1,39 @@
+digraph SENTENCE_2768 {
+	graph [label="), и то ощущаешь, будто встречу со старым другом, который потерял в общем-то всё."]
+	node [style=filled]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ощущаешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="будто
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="встречу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="старым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потерял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общем-то
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 10 [label="предл"]
+			14 -> 15 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 16 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 13 [label="релят"]
+			4 -> 6 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+}

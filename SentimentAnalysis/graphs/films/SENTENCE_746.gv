@@ -1,0 +1,60 @@
+digraph SENTENCE_746 {
+	graph [label="Живая, а не мертвая!», а та ей ответила: «Ему нужно зрение…» Это одно из самых величайших и противоречивых фильмов."]
+	node [style=filled]
+		0 [label="Живая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мертвая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ответила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Ему
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="нужно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="зрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Это
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="одно
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="величайших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="противоречивых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			23 -> 22 [label="опред"]
+			23 -> 24 [label="сочин"]
+			26 -> 23 [label="опред"]
+			20 -> 0 [label="оп_опред"]
+			20 -> 19 [label="предик"]
+			20 -> 21 [label="электив"]
+			2 -> 4 [label="соч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="_2_компл"]
+			11 -> 14 [label="_2_компл"]
+			11 -> 15 [label="_1_компл"]
+			15 -> 16 [label="предик"]
+			24 -> 25 [label="соч_союзн"]
+			8 -> 11 [label="соч_союзн"]
+			21 -> 26 [label="предл"]
+			0 -> 2 [label="сочин"]
+			0 -> 8 [label="сент_соч"]
+}

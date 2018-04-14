@@ -1,0 +1,47 @@
+digraph SENTENCE_1345 {
+	graph [label="В фильме он кажется предельно искренним и в личных вопросах, и в разговорах о творчестве."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="предельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="искренним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="личных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вопросах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разговорах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="творчестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			12 -> 13 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			9 -> 8 [label="опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			7 -> 9 [label="предл"]
+			7 -> 11 [label="сочин"]
+			14 -> 15 [label="предл"]
+}

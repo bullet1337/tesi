@@ -1,0 +1,57 @@
+digraph SENTENCE_22 {
+	graph [label="Первоначально церковные источники говорили, что акция протеста продлится всего час, но потом стало известно о ее бессрочном характере."]
+	node [style=filled]
+		0 [label="Первоначально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церковные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="источники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="акция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="протеста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="продлится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="час
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="известно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="бессрочном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="характере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 19 [label="предл"]
+			10 -> 9 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			19 -> 17 [label="квазиагент"]
+			19 -> 18 [label="опред"]
+			5 -> 8 [label="подч_союзн"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 13 [label="обст"]
+			14 -> 15 [label="присвяз"]
+			12 -> 14 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			8 -> 6 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			8 -> 12 [label="сочин"]
+			15 -> 16 [label="_2_компл"]
+}

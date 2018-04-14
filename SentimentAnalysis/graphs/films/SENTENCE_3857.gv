@@ -1,0 +1,38 @@
+digraph SENTENCE_3857 {
+	graph [label="Все, что запоминается после просмотра — набор картинок, красивых и интересных, но пустых."]
+	node [style=filled]
+		0 [label="Все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="запоминается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="набор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="картинок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="красивых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="интересных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пустых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			14 -> 15 [label="соч_союзн"]
+			12 -> 14 [label="сочин"]
+			10 -> 11 [label="сочин"]
+			11 -> 12 [label="соч_союзн"]
+}

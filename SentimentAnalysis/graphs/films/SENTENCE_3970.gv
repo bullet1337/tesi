@@ -1,0 +1,18 @@
+digraph SENTENCE_3970 {
+	graph [label="Не угадали, всё гораздо хуже."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="угадали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			5 -> 4 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			1 -> 5 [label="_1_компл"]
+}

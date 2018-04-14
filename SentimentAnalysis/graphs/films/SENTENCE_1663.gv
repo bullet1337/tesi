@@ -1,0 +1,24 @@
+digraph SENTENCE_1663 {
+	graph [label="Безусловно, в первую очередь это заслуга Бьорк."]
+	node [style=filled]
+		0 [label="Безусловно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="первую
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очередь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заслуга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 0 [label="вводн"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 4 [label="предл"]
+			4 -> 3 [label="опред"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_954 {
+	graph [label="Ценителям камерной классики предлагается ряд изысканных программ."]
+	node [style=filled]
+		0 [label="Ценителям
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="камерной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="классики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предлагается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="изысканных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="программ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			3 -> 0 [label="_2_компл"]
+			3 -> 4 [label="предик"]
+			0 -> 2 [label="квазиагент"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_2738 {
+	graph [label="Это было бы логично, если б ЭМ-импульсы откатили человечество в каменный век, как должно было статься по логике."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="логично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="б
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ЭМ-импульсы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="откатили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="человечество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="каменный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="век
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="статься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="логике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 6 [label="предик"]
+			6 -> 8 [label="релят"]
+			12 -> 11 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="аналит"]
+			1 -> 3 [label="обст"]
+			1 -> 5 [label="обст"]
+			1 -> 17 [label="сочин"]
+			18 -> 19 [label="предл"]
+			5 -> 16 [label="подч_союзн"]
+			8 -> 7 [label="_1_компл"]
+			8 -> 9 [label="предик"]
+			8 -> 10 [label="обст"]
+			8 -> 14 [label="сравнит"]
+			17 -> 18 [label="обст"]
+			14 -> 15 [label="сравн_союзн"]
+			10 -> 12 [label="предл"]
+}

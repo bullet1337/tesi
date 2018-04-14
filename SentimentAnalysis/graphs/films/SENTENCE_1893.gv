@@ -1,0 +1,64 @@
+digraph SENTENCE_1893 {
+	graph [label="И хотя его фильмы заставляли о многом задуматься, особой любви к ним я не испытывала… пока не посмотрела «Танцующую в темноте»."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="заставляли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="многом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="задуматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="особой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ним
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="испытывала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="посмотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Танцующую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 5 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			22 -> 23 [label="предл"]
+			1 -> 4 [label="подч_союзн"]
+			10 -> 9 [label="опред"]
+			15 -> 11 [label="обст"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="_2_компл"]
+			4 -> 10 [label="_1_компл"]
+			4 -> 15 [label="_2_компл"]
+			21 -> 22 [label="обст"]
+			3 -> 2 [label="квазиагент"]
+			11 -> 12 [label="предл"]
+			19 -> 18 [label="огранич"]
+			17 -> 19 [label="подч_союзн"]
+}

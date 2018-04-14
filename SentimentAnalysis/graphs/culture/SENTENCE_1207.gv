@@ -1,0 +1,24 @@
+digraph SENTENCE_1207 {
+	graph [label="Картину снимала кинокомпания Сергея Сельянова СТВ и киностудия \"Стрела\"."]
+	node [style=filled]
+		0 [label="Картину
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="снимала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кинокомпания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Сергея Сельянова СТВ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="киностудия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Стрела
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			2 -> 3 [label="аппоз"]
+			2 -> 4 [label="сочин"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 7 [label="разъяснит"]
+			4 -> 5 [label="соч_союзн"]
+}

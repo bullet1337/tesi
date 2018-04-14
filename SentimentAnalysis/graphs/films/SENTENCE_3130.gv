@@ -1,0 +1,30 @@
+digraph SENTENCE_3130 {
+	graph [label="Я очень ровно отношусь к людям с нетрадиционной ориентацией."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ровно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отношусь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="людям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нетрадиционной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ориентацией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 7 [label="опред"]
+			5 -> 6 [label="атриб"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="_2_компл"]
+			3 -> 4 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			4 -> 5 [label="предл"]
+			2 -> 1 [label="огранич"]
+}

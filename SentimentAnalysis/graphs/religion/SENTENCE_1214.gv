@@ -1,0 +1,30 @@
+digraph SENTENCE_1214 {
+	graph [label="Мы разделяем горе семей погибших, скорбим вместе с ними."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="разделяем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="горе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="семей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="погибших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="скорбим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ними
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 6 [label="сочин"]
+			3 -> 4 [label="квазиагент"]
+			6 -> 7 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			2 -> 3 [label="квазиагент"]
+}

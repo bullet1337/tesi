@@ -1,0 +1,30 @@
+digraph SENTENCE_1221 {
+	graph [label="По словам актеров, в фильме \"О чем говорят мужчины."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="О
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мужчины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 0 [label="вводн"]
+			9 -> 7 [label="_3_компл"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="предл"]
+			7 -> 8 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			2 -> 4 [label="атриб"]
+}

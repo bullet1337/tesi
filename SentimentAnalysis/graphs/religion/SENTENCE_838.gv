@@ -1,0 +1,60 @@
+digraph SENTENCE_838 {
+	graph [label="Ведь в древней Церкви воин, который приходил с войны, даже защищая свое отечество, должен был три года не причащаться."]
+	node [style=filled]
+		0 [label="Ведь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="древней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Церкви
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="воин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приходил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="войны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="защищая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отечество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="причащаться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			21 -> 20 [label="огранич"]
+			14 -> 13 [label="опред"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 12 [label="обст"]
+			7 -> 16 [label="примыкат"]
+			7 -> 17 [label="сент_соч"]
+			7 -> 21 [label="обст"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+			4 -> 0 [label="огранич"]
+			4 -> 1 [label="обст"]
+			4 -> 7 [label="разъяснит"]
+			17 -> 19 [label="длительн"]
+			8 -> 9 [label="предл"]
+			19 -> 18 [label="количест"]
+}

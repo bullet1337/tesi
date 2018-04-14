@@ -1,0 +1,48 @@
+digraph SENTENCE_1041 {
+	graph [label="Великий пост и Страстная неделя завершатся к Пасхе, которая в этом году отмечается 8 апреля."]
+	node [style=filled]
+		0 [label="Великий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Страстная
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="неделя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="завершатся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Пасхе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отмечается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="апреля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="предл"]
+			4 -> 3 [label="опред"]
+			13 -> 9 [label="предик"]
+			13 -> 10 [label="обст"]
+			13 -> 14 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+			2 -> 4 [label="соч_союзн"]
+			14 -> 15 [label="атриб"]
+			12 -> 11 [label="опред"]
+			5 -> 1 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 13 [label="сент_соч"]
+			6 -> 7 [label="предл"]
+}

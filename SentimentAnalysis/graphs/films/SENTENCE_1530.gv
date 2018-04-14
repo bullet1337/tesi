@@ -1,0 +1,33 @@
+digraph SENTENCE_1530 {
+	graph [label="Я готова убить человека, который станет на пути моего счастья."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="готова
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="убить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="счастья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="релят"]
+			2 -> 3 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 10 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			7 -> 8 [label="предл"]
+}

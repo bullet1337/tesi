@@ -1,0 +1,42 @@
+digraph SENTENCE_4948 {
+	graph [label="Первое что бросается в глаза — плохое 3D, просто из рук вон халтурное."]
+	node [style=filled]
+		0 [label="Первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="бросается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="глаза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="плохое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="D
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="рук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="вон
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="халтурное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 6 [label="суб_копр"]
+			2 -> 8 [label="примыкат"]
+			2 -> 10 [label="обст"]
+			2 -> 11 [label="_2_компл"]
+			2 -> 13 [label="обст"]
+			2 -> 14 [label="сочин"]
+			8 -> 7 [label="количест"]
+			3 -> 4 [label="предл"]
+			0 -> 2 [label="разъяснит"]
+			11 -> 12 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_1041 {
+	graph [label="Брести на ощупь, наугад по этому тернистому пути."]
+	node [style=filled]
+		0 [label="Брести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ощупь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="наугад
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тернистому
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 8 [label="предл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 4 [label="обст"]
+			0 -> 5 [label="обст"]
+}

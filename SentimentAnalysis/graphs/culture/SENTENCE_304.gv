@@ -1,0 +1,21 @@
+digraph SENTENCE_304 {
+	graph [label="В частности, зрителям покажут выдающиеся телеспектакли."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="частности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="зрителям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="покажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выдающиеся
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="телеспектакли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 6 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			6 -> 5 [label="опред"]
+}

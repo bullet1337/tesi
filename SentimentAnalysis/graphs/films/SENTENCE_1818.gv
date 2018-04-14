@@ -1,0 +1,33 @@
+digraph SENTENCE_1818 {
+	graph [label="Первые пятнадцать-двадцать минут фильма хотелось выключить и поставить клеймо «нудно»."]
+	node [style=filled]
+		0 [label="Первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="пятнадцать-двадцать
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="минут
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выключить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="поставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="клеймо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нудно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="длительн"]
+			4 -> 5 [label="_2_компл"]
+			2 -> 1 [label="количест"]
+			2 -> 3 [label="квазиагент"]
+			5 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="обст"]
+			1 -> 0 [label="опред"]
+}

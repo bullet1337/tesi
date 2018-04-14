@@ -1,0 +1,51 @@
+digraph SENTENCE_3885 {
+	graph [label="Для меня Кинг — вне конкуренции, безоговорочный hitmaker, посему и на просмотр нашумевшей экранизации возлагала прямо-таки надеждищи!"]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кинг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вне
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="конкуренции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="безоговорочный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="hitmaker
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="просмотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нашумевшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экранизации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="возлагала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="прямо-таки
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="надеждищи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 5 [label="предл"]
+			4 -> 10 [label="разъяснит"]
+			4 -> 16 [label="сент_соч"]
+			18 -> 17 [label="огранич"]
+			11 -> 12 [label="соч_союзн"]
+			8 -> 7 [label="опред"]
+			15 -> 14 [label="опред"]
+			0 -> 1 [label="предл"]
+			16 -> 15 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			5 -> 8 [label="квазиагент"]
+			10 -> 11 [label="сочин"]
+			12 -> 13 [label="предл"]
+}

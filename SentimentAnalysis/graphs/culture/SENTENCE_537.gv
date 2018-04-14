@@ -1,0 +1,15 @@
+digraph SENTENCE_537 {
+	graph [label="\"Меня беспокоит судьба Кирилла Серебренникова."]
+	node [style=filled]
+		1 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="беспокоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="судьба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Кирилла Серебренникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="квазиагент"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+}

@@ -1,0 +1,33 @@
+digraph SENTENCE_186 {
+	graph [label="Гаджиев ранее сообщил, что причиной падения Мартынова стал незакрепленный карабин."]
+	node [style=filled]
+		0 [label="Гаджиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="причиной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="падения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Мартынова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="незакрепленный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="карабин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			4 -> 8 [label="подч_союзн"]
+			8 -> 5 [label="присвяз"]
+			8 -> 10 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 4 [label="_1_компл"]
+			5 -> 6 [label="_1_компл"]
+}

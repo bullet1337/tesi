@@ -1,0 +1,30 @@
+digraph SENTENCE_518 {
+	graph [label="Надо, чтобы практическое здравоохранение догнало эту науку\", — добавила Мясникова."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="практическое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="здравоохранение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="догнало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="науку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мясникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предик"]
+			0 -> 11 [label="вводн"]
+			2 -> 5 [label="подч_союзн"]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			4 -> 3 [label="опред"]
+}

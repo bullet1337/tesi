@@ -1,0 +1,39 @@
+digraph SENTENCE_798 {
+	graph [label="\"Я против того, чтобы упрощать экзамены для того, чтобы получить статус адвоката."]
+	node [style=filled]
+		1 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="упрощать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="экзамены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="статус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="адвоката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="инф_союзн"]
+			13 -> 14 [label="квазиагент"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="инф_союзн"]
+			3 -> 5 [label="эксплет"]
+			8 -> 9 [label="предл"]
+			9 -> 11 [label="эксплет"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_182 {
+	graph [label="В результате происшествия Мартынов получил серьезную травму головы и различные переломы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="происшествия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мартынов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="серьезную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="травму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="различные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="переломы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="сочин"]
+			8 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			10 -> 9 [label="опред"]
+}

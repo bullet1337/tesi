@@ -1,0 +1,39 @@
+digraph SENTENCE_4253 {
+	graph [label="И когда случился оскар, у меня не осталось никаких шансов не пойти."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="случился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="оскар
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="осталось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="никаких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="шансов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пойти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="_1_компл"]
+			8 -> 1 [label="обст"]
+			8 -> 5 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="предик"]
+			5 -> 6 [label="предл"]
+			0 -> 8 [label="соч_союзн"]
+			1 -> 2 [label="подч_союзн"]
+			2 -> 3 [label="предик"]
+			12 -> 11 [label="огранич"]
+}

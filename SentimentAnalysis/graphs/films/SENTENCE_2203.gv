@@ -1,0 +1,60 @@
+digraph SENTENCE_2203 {
+	graph [label="Средствами кино передаётся фактически непередаваемое — чувства и даже сны героя, который сам даже не присутствует при этом в кадре."]
+	node [style=filled]
+		0 [label="Средствами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="передаётся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="непередаваемое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чувства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="присутствует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			16 -> 12 [label="предик"]
+			16 -> 13 [label="суб_копр"]
+			16 -> 14 [label="огранич"]
+			16 -> 15 [label="огранич"]
+			16 -> 17 [label="обст"]
+			16 -> 19 [label="_1_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 7 [label="сочин"]
+			7 -> 9 [label="соч_союзн"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="аппоз"]
+			2 -> 0 [label="_2_компл"]
+			2 -> 6 [label="предик"]
+			2 -> 16 [label="сент_соч"]
+			4 -> 3 [label="огранич"]
+			17 -> 18 [label="предл"]
+			19 -> 20 [label="предл"]
+}

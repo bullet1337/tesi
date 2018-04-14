@@ -1,0 +1,42 @@
+digraph SENTENCE_3303 {
+	graph [label="Ладно, это неважно, я всего лишь хочу увидеть РЕАЛЬНЫЙ ДРАМАТИЗМ игры через боль."]
+	node [style=filled]
+		0 [label="Ладно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неважно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="РЕАЛЬНЫЙ
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="ДРАМАТИЗМ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="боль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 2 [label="предик"]
+			8 -> 3 [label="обст"]
+			8 -> 5 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			7 -> 6 [label="огранич"]
+			12 -> 13 [label="атриб"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="сочин"]
+			9 -> 11 [label="_1_компл"]
+}

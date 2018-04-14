@@ -1,0 +1,33 @@
+digraph SENTENCE_536 {
+	graph [label="По словам Мясниковой, это приводит к трудностям с получением лечения."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Мясниковой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="приводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="трудностям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="получением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="лечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			9 -> 10 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+}

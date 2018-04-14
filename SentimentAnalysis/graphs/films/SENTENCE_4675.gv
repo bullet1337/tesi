@@ -1,0 +1,42 @@
+digraph SENTENCE_4675 {
+	graph [label="У фильма огромный бюджет, поэтому проблемы с графикой мы сразу убираем в сторону."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="огромный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бюджет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="проблемы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="графикой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="убираем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			0 -> 1 [label="предл"]
+			1 -> 3 [label="аппоз"]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			11 -> 0 [label="обст"]
+			11 -> 5 [label="обст"]
+			11 -> 6 [label="_1_компл"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_2_компл"]
+			3 -> 2 [label="опред"]
+}

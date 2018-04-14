@@ -1,0 +1,36 @@
+digraph SENTENCE_2004 {
+	graph [label="Потом дети, бегущие встречать отца, вернувшегося с фронта без руки, спотыкающиеся, падающие."]
+	node [style=filled]
+		0 [label="Потом
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бегущие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="встречать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="вернувшегося
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фронта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="руки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="спотыкающиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="падающие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			15 -> 13 [label="опред"]
+			4 -> 5 [label="_1_компл"]
+			7 -> 8 [label="_2_компл"]
+			5 -> 7 [label="опред"]
+			8 -> 9 [label="предл"]
+			1 -> 3 [label="опред"]
+			11 -> 15 [label="квазиагент"]
+}

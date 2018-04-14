@@ -1,0 +1,30 @@
+digraph SENTENCE_985 {
+	graph [label="Также афишу фестиваля украсят концертные программы \"Свидание со Стравинским\"."]
+	node [style=filled]
+		0 [label="Также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="афишу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="украсят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="концертные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Свидание
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Стравинским
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			3 -> 0 [label="огранич"]
+			3 -> 1 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 7 [label="предик"]
+			8 -> 9 [label="предл"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_3650 {
+	graph [label="В общем и целом фильм впечатляет получить впечатления от любого другого фильма."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="целом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="впечатляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="впечатления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="любого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="другого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="сочин"]
+			4 -> 0 [label="обст"]
+			2 -> 3 [label="соч_союзн"]
+			8 -> 11 [label="предл"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 8 [label="_2_компл"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			0 -> 1 [label="предл"]
+}

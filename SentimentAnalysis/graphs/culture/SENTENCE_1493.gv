@@ -1,0 +1,45 @@
+digraph SENTENCE_1493 {
+	graph [label="Гран-при жюри присудили фильму \"Рожа\" Мальгорсаты Шумовски, а приз Альфреда Бауэра — картине \"Наследницы\" парагвайца Марсело Мартинесси."]
+	node [style=filled]
+		0 [label="Гран-при
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="присудили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Рожа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Мальгорсаты
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Шумовски
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Альфреда Бауэра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Наследницы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="парагвайца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Марсело Мартинесси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="сочин"]
+			0 -> 1 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="разъяснит"]
+			5 -> 7 [label="сочин"]
+			5 -> 8 [label="разъяснит"]
+			10 -> 11 [label="соч_союзн"]
+			14 -> 16 [label="_1_компл"]
+			14 -> 18 [label="сочин"]
+			11 -> 12 [label="квазиагент"]
+			11 -> 14 [label="сочин"]
+			18 -> 19 [label="сочин"]
+}

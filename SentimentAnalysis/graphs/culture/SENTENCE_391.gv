@@ -1,0 +1,24 @@
+digraph SENTENCE_391 {
+	graph [label="До сих пор, несмотря ни на что."]
+	node [style=filled]
+		0 [label="До
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="несмотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="огранич"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

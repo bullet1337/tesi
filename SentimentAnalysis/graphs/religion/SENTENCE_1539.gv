@@ -1,0 +1,39 @@
+digraph SENTENCE_1539 {
+	graph [label="Кто-то выложил его, хотя он был предназначен для внутреннего пользования\", — сказал собеседник."]
+	node [style=filled]
+		0 [label="Кто-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="выложил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="предназначен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="внутреннего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="пользования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="собеседник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_3_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			1 -> 14 [label="вводн"]
+			14 -> 15 [label="предик"]
+			6 -> 5 [label="предик"]
+			6 -> 7
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			4 -> 6 [label="подч_союзн"]
+}

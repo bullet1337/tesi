@@ -1,0 +1,48 @@
+digraph SENTENCE_371 {
+	graph [label="Гуф начал свое выступление на китайском языке (Долматов в юности некоторое время жил в Китае."]
+	node [style=filled]
+		0 [label="Гуф
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="выступление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="китайском
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="языке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Долматов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="юности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="некоторое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="жил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Китае
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="предл"]
+			14 -> 15 [label="предл"]
+			6 -> 5 [label="опред"]
+			12 -> 11 [label="опред"]
+			13 -> 12 [label="длительн"]
+			13 -> 14 [label="_1_компл"]
+			4 -> 6 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 13 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="атриб"]
+			3 -> 8 [label="аппоз"]
+			3 -> 9 [label="атриб"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_176 {
+	graph [label="А тем, кто не смог в этот день участвовать в мессе, домашние обычно приносят освященный пепел и посыпают им их головы."]
+	node [style=filled]
+		0 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="участвовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="мессе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="домашние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обычно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="приносят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="освященный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пепел
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="посыпают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="головы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="предл"]
+			15 -> 1 [label="_1_компл"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="обст"]
+			15 -> 17 [label="предик"]
+			15 -> 18 [label="сочин"]
+			1 -> 5 [label="релят"]
+			9 -> 6 [label="_1_компл"]
+			6 -> 8 [label="предл"]
+			17 -> 16 [label="опред"]
+			0 -> 15 [label="соч_союзн"]
+			18 -> 19 [label="соч_союзн"]
+			22 -> 21 [label="квазиагент"]
+			19 -> 20 [label="_2_компл"]
+			19 -> 22 [label="_1_компл"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 9 [label="_1_компл"]
+			5 -> 10 [label="обст"]
+			8 -> 7 [label="опред"]
+}

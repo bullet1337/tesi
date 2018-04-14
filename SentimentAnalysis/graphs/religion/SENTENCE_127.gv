@@ -1,0 +1,30 @@
+digraph SENTENCE_127 {
+	graph [label="Он являлся пастором Южной баптистской конвенции — крупнейшего объединения баптистов."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="являлся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пастором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Южной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="баптистской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="конвенции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="крупнейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="объединения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="баптистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="_2_компл"]
+			1 -> 8 [label="_1_компл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="аппоз"]
+}

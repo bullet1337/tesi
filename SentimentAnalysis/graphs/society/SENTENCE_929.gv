@@ -1,0 +1,54 @@
+digraph SENTENCE_929 {
+	graph [label="Глава МЧС России Владимир Пучков поздравил со 100-летним юбилеем ветерана пожарной охраны Москвы и участника двух войн Федора Чухломина."]
+	node [style=filled]
+		0 [label="Глава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Владимир Пучков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="поздравил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="100-летним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="юбилеем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ветерана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пожарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="охраны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="участника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="войн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Федора Чухломина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="_1_компл"]
+			5 -> 7 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			15 -> 14 [label="количест"]
+			12 -> 13 [label="соч_союзн"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="аппоз"]
+			8 -> 10 [label="аппоз"]
+			13 -> 15 [label="_1_компл"]
+			4 -> 0 [label="суб_копр"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 16 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+}

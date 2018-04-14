@@ -1,0 +1,66 @@
+digraph SENTENCE_794 {
+	graph [label="Она известна по роли Элис Хортон в телешоу \"Викарий из Дибли\" и Хани Тэкер в фильме \"Ноттинг-Хилл\", где она сыграла вместе с Джулией Робертс."]
+	node [style=filled]
+		0 [label="Она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="известна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Элис Хортон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="телешоу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Викарий
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Дибли
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Хани Тэкер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Ноттинг-Хилл
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Джулией Робертс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 13 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="атриб"]
+			15 -> 17 [label="аппоз"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="_2_компл"]
+			14 -> 15 [label="предл"]
+			8 -> 9 [label="атриб"]
+			8 -> 22 [label="релят"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 8 [label="разъяснит"]
+			2 -> 3 [label="предл"]
+			24 -> 25 [label="предл"]
+			5 -> 6 [label="предл"]
+			9 -> 10 [label="предл"]
+			23 -> 24 [label="_1_компл"]
+			22 -> 20 [label="обст"]
+			22 -> 21 [label="предик"]
+			22 -> 23 [label="обст"]
+}

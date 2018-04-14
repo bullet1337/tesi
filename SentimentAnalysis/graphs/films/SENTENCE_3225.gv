@@ -1,0 +1,27 @@
+digraph SENTENCE_3225 {
+	graph [label="Фильм без сценария и режиссёра — это не фильм."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сценария
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="режиссёра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="соч_союзн"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="атриб"]
+			0 -> 8 [label="ном_аппоз"]
+			2 -> 3 [label="сочин"]
+}

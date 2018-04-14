@@ -1,0 +1,69 @@
+digraph SENTENCE_214 {
+	graph [label="\"Сегодня на \"Зеленую линию\" Минприроды республики от жителей поселка Мизур поступил сигнал о том, что река Ардон окрасилась в необычный ярко-оранжевый цвет."]
+	node [style=filled]
+		1 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Зеленую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="линию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Минприроды
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="республики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поселка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мизур
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="поступил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сигнал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="река
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Ардон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="окрасилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="необычный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ярко-оранжевый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="цвет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="предл"]
+			16 -> 18 [label="эксплет"]
+			25 -> 23 [label="опред"]
+			25 -> 24 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			13 -> 1 [label="обст"]
+			13 -> 2 [label="обст"]
+			13 -> 14 [label="предик"]
+			14 -> 15 [label="_1_компл"]
+			7 -> 8 [label="квазиагент"]
+			15 -> 16 [label="предл"]
+			18 -> 21 [label="подч_союзн"]
+			19 -> 20 [label="аппоз"]
+			11 -> 12 [label="аппоз"]
+			22 -> 25 [label="предл"]
+			21 -> 19 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+			2 -> 5 [label="предл"]
+			2 -> 9 [label="сочин"]
+			10 -> 11 [label="_1_компл"]
+}

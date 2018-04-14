@@ -1,0 +1,36 @@
+digraph SENTENCE_7 {
+	graph [label="Памятник этот стал очень популярным, здесь постоянно фотографируются люди\", — сказал Ильичев."]
+	node [style=filled]
+		0 [label="Памятник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="популярным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="постоянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фотографируются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Ильичев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 6 [label="обст"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="предик"]
+			13 -> 14 [label="предик"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			2 -> 8 [label="сент_соч"]
+			2 -> 13 [label="вводн"]
+			4 -> 3 [label="огранич"]
+			0 -> 1 [label="опред"]
+}

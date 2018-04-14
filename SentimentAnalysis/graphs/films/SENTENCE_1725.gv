@@ -1,0 +1,35 @@
+digraph SENTENCE_1725 {
+	graph [label="Помимо очевидного «Мулен Руж», «Призрака Оперы» и «Чикаго», вспомнить-то, в общем, и нечего."]
+	node [style=filled]
+		0 [label="Помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="очевидного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мулен Руж
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Призрака Оперы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Чикаго
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="вспомнить-то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="общем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 19 [label="сочин"]
+			0 -> 3 [label="предл"]
+			9 -> 11 [label="соч_союзн"]
+			19 -> 20 [label="соч_союзн"]
+			14 -> 0 [label="обст"]
+			3 -> 1 [label="опред"]
+			3 -> 7 [label="сочин"]
+			16 -> 17 [label="предл"]
+			7 -> 9 [label="сочин"]
+}

@@ -1,0 +1,40 @@
+digraph SENTENCE_3893 {
+	graph [label="Анализировала, осмысливала-переосмысливала, стараясь если уж не принять, то хотя бы понять..   Что понравилось."]
+	node [style=filled]
+		0 [label="Анализировала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="осмысливала-переосмысливала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="стараясь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="принять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Что
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="понравилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="огранич"]
+			5 -> 8 [label="подч_союзн"]
+			13 -> 11 [label="огранич"]
+			13 -> 12 [label="аналит"]
+			2 -> 4 [label="обст"]
+			2 -> 5 [label="обст"]
+			0 -> 2 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			16 -> 13 [label="предик"]
+			16 -> 15 [label="_1_компл"]
+}

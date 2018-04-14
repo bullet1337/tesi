@@ -1,0 +1,69 @@
+digraph SENTENCE_128 {
+	graph [label="Авторы документа предлагают вообще исключить возможность использования каких-то других способов, что должно существенно ограничить возможные злоупотребления со стороны кредитных организаций, особенно микрофинансовых."]
+	node [style=filled]
+		0 [label="Авторы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="документа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="предлагают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="исключить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возможность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="использования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каких-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="способов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="существенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ограничить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="возможные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="злоупотребления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кредитных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="организаций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="микрофинансовых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 22 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			6 -> 9 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="атриб"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 12 [label="изъясн"]
+			18 -> 20 [label="квазиагент"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			20 -> 23 [label="опред"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="_1_компл"]
+			9 -> 7 [label="опред"]
+			9 -> 8 [label="опред"]
+			17 -> 18 [label="предл"]
+}

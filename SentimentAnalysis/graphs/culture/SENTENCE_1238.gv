@@ -1,0 +1,30 @@
+digraph SENTENCE_1238 {
+	graph [label="Актер Антон Васильев приехал на съемочную площадку вокального конкурса \"Ты супер!\"."]
+	node [style=filled]
+		0 [label="Актер Антон Васильев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="приехал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="съемочную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="площадку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вокального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Ты
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="супер
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="квазиагент"]
+			9 -> 8 [label="предик"]
+			6 -> 5 [label="опред"]
+			2 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 9 [label="сент_соч"]
+}

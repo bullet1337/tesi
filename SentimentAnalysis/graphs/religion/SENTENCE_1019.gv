@@ -1,0 +1,54 @@
+digraph SENTENCE_1019 {
+	graph [label="Этот праздник относится к древнейшим праздникам христианской церкви, однако до VI века он отмечался не так торжественно."]
+	node [style=filled]
+		0 [label="Этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="относится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="древнейшим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="праздникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="христианской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="VI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отмечался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="торжественно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			12 -> 11 [label="опред"]
+			16 -> 15 [label="огранич"]
+			7 -> 6 [label="опред"]
+			10 -> 12 [label="предл"]
+			14 -> 9 [label="огранич"]
+			14 -> 10 [label="обст"]
+			14 -> 13 [label="предик"]
+			14 -> 17 [label="обст"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="атриб"]
+			17 -> 16 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 14 [label="сочин"]
+			3 -> 5 [label="предл"]
+}

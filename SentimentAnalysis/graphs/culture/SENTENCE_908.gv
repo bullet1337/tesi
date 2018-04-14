@@ -1,0 +1,74 @@
+digraph SENTENCE_908 {
+	graph [label="Пресс-служба фильма в начале февраля сообщила, что фильм \"Лето\" будет завершен весной 2018 года, картина была смонтирована самим режиссером, который находится под домашним арестом."]
+	node [style=filled]
+		0 [label="Пресс-служба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Лето
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="завершен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="весной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="смонтирована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="самим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="режиссером
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="находится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="домашним
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="арестом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			26 -> 28 [label="предл"]
+			12 -> 10 [label="предик"]
+			12 -> 13
+			13 -> 14 [label="обст"]
+			14 -> 16 [label="атриб"]
+			20 -> 22 [label="агент"]
+			19 -> 18 [label="предик"]
+			19 -> 20
+			28 -> 27 [label="опред"]
+			3 -> 4 [label="квазиагент"]
+			0 -> 1 [label="квазиагент"]
+			8 -> 12 [label="релят"]
+			8 -> 19 [label="примыкат"]
+			8 -> 25 [label="релят"]
+			22 -> 21 [label="опред"]
+			2 -> 3 [label="предл"]
+			5 -> 0 [label="предик"]
+			5 -> 2 [label="обст"]
+			5 -> 7 [label="_1_компл"]
+			16 -> 15 [label="опред"]
+			25 -> 24 [label="предик"]
+			25 -> 26 [label="_1_компл"]
+}

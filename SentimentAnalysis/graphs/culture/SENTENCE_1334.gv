@@ -1,0 +1,72 @@
+digraph SENTENCE_1334 {
+	graph [label="В фильме музыкант в сотый раз отвечает на вопрос, почему назвал группу именно \"Ленинград\" (среди вариантов были также \"Север\", \"СССР\" и \"Чемпионы мира\")."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сотый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отвечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="группу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Ленинград
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вариантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Север
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		29 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="Чемпионы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			23 -> 27 [label="_1_компл"]
+			23 -> 29 [label="сочин"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			15 -> 13 [label="огранич"]
+			18 -> 19 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 2 [label="предик"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="_3_компл"]
+			6 -> 11 [label="_1_компл"]
+			31 -> 32 [label="_1_компл"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="_2_компл"]
+			11 -> 18 [label="обст"]
+			11 -> 20 [label="разъяснит"]
+			29 -> 31 [label="соч_союзн"]
+			20 -> 21 [label="огранич"]
+			20 -> 23 [label="предик"]
+			7 -> 8 [label="предл"]
+			0 -> 1 [label="предл"]
+}

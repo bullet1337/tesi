@@ -1,0 +1,33 @@
+digraph SENTENCE_343 {
+	graph [label="Виной героини Бьорк перед ребенком, который с рождения обречен ослепнуть."]
+	node [style=filled]
+		0 [label="Виной
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="героини
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ребенком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обречен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ослепнуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="квазиагент"]
+			0 -> 2 [label="аппоз"]
+			0 -> 3 [label="уточн"]
+			9 -> 0 [label="вводн"]
+			9 -> 6 [label="предик"]
+			9 -> 7 [label="вводн"]
+			9 -> 10 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			7 -> 8 [label="предл"]
+}

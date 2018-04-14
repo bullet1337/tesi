@@ -1,0 +1,30 @@
+digraph SENTENCE_764 {
+	graph [label="По словам режиссера, в \"Турандот\" перипетии героев часто комичны."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Турандот
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="перипетии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="героев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="часто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="комичны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 0 [label="вводн"]
+			11 -> 4 [label="обст"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="обст"]
+			1 -> 2 [label="квазиагент"]
+			8 -> 9 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			4 -> 6 [label="предл"]
+}

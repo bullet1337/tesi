@@ -1,0 +1,46 @@
+digraph SENTENCE_404 {
+	graph [label="Хороших и добрых, пытающихся помочь и протянуть руку помощи, и плохих, злых, коварных, хитрых, меркантильных."]
+	node [style=filled]
+		0 [label="Хороших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="добрых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пытающихся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="помочь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="протянуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="руку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="плохих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="злых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="коварных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="хитрых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="меркантильных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="сочин"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+			8 -> 9 [label="атриб"]
+			4 -> 5 [label="_1_компл"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 11 [label="сочин"]
+			12 -> 14 [label="сочин"]
+			16 -> 18 [label="сочин"]
+			14 -> 16 [label="сочин"]
+			18 -> 20 [label="сочин"]
+}

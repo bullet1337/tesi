@@ -1,0 +1,57 @@
+digraph SENTENCE_1000 {
+	graph [label="Праздник зародился еще в СССР, тогда 23 февраля ежегодно отмечался как всенародный День советской армии и военно-морского флота."]
+	node [style=filled]
+		0 [label="Праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="зародился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="СССР
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ежегодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отмечался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="всенародный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="советской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="военно-морского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="флота
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предл"]
+			15 -> 14 [label="опред"]
+			16 -> 18 [label="соч_союзн"]
+			7 -> 8 [label="атриб"]
+			11 -> 13 [label="сравн_союзн"]
+			13 -> 12 [label="опред"]
+			13 -> 15 [label="квазиагент"]
+			13 -> 16 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="обст"]
+			1 -> 10 [label="сент_соч"]
+			18 -> 17 [label="опред"]
+			10 -> 6 [label="обст"]
+			10 -> 7 [label="обст"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="сравнит"]
+}

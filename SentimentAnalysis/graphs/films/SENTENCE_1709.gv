@@ -1,0 +1,48 @@
+digraph SENTENCE_1709 {
+	graph [label="Всё кажется до тошноты неправдоподобным, сюжет схематичен, представляет из себя лишь наброски некоего устрашающего полотна."]
+	node [style=filled]
+		0 [label="Всё
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тошноты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неправдоподобным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="схематичен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="представляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="лишь
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="наброски
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="некоего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="устрашающего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="полотна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="огранич"]
+			13 -> 16 [label="_1_компл"]
+			6 -> 4 [label="опред"]
+			7 -> 2 [label="огранич"]
+			7 -> 6 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 13 [label="предик"]
+			10 -> 11 [label="предл"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 9 [label="сент_соч"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+}

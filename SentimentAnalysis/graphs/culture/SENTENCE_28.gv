@@ -1,0 +1,39 @@
+digraph SENTENCE_28 {
+	graph [label="Экспозиция, составленная из серии скульптурных арт-объектов, с непривычной стороны открывает тему любви."]
+	node [style=filled]
+		0 [label="Экспозиция
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="составленная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="серии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скульптурных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="арт-объектов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="непривычной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="открывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="_1_компл"]
+			4 -> 6 [label="квазиагент"]
+			2 -> 3 [label="_2_компл"]
+			3 -> 4 [label="предл"]
+			8 -> 10 [label="предл"]
+			0 -> 2 [label="опред"]
+			11 -> 0 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="атриб"]
+			10 -> 9 [label="опред"]
+}

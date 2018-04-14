@@ -1,0 +1,32 @@
+digraph SENTENCE_538 {
+	graph [label="\"Некоторым регионам невыгодно выявлять таких пациентов, особенно если они дорогостоящие."]
+	node [style=filled]
+		1 [label="Некоторым
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="регионам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="невыгодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выявлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пациентов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дорогостоящие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			2 -> 1 [label="опред"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="подч_союзн"]
+			11 -> 10 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 9 [label="обст"]
+}

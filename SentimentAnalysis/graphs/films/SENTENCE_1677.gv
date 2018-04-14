@@ -1,0 +1,42 @@
+digraph SENTENCE_1677 {
+	graph [label="Уже давно пошли титры, а ты сидишь в шоке и не можешь пошевелиться."]
+	node [style=filled]
+		0 [label="Уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="титры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сидишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="шоке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="можешь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пошевелиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 5 [label="сент_соч"]
+			10 -> 12 [label="соч_союзн"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="сочин"]
+			1 -> 0 [label="огранич"]
+			5 -> 7 [label="соч_союзн"]
+			8 -> 9 [label="предл"]
+}

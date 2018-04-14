@@ -1,0 +1,38 @@
+digraph SENTENCE_895 {
+	graph [label="Зальцбургский фестиваль – ежегодный летний музыкальный фестиваль, один из самых известных в мире."]
+	node [style=filled]
+		0 [label="Зальцбургский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ежегодный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="летний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="музыкальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фестиваль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="известных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="мире
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 3 [label="опред"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			12 -> 13 [label="предл"]
+			8 -> 1 [label="предик"]
+			8 -> 9 [label="электив"]
+			1 -> 0 [label="опред"]
+			1 -> 6 [label="_1_компл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="атриб"]
+}

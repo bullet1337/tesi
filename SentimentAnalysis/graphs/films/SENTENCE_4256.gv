@@ -1,0 +1,38 @@
+digraph SENTENCE_4256 {
+	graph [label="Началось всё с длинной, неумелой и местами вызывавшей тошноту проходкой со стедикамом."]
+	node [style=filled]
+		0 [label="Началось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="длинной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="неумелой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="местами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вызывавшей
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="тошноту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="проходкой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стедикамом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="_1_компл"]
+			6 -> 7 [label="соч_союзн"]
+			3 -> 5 [label="сочин"]
+			0 -> 1 [label="_2_компл"]
+			5 -> 6 [label="сочин"]
+			11 -> 12 [label="предл"]
+			7 -> 8 [label="опред"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="обст"]
+			10 -> 11 [label="атриб"]
+}

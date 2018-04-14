@@ -1,0 +1,78 @@
+digraph SENTENCE_735 {
+	graph [label="Если человек вкусно ел, веселился, пил, а на следующий день должен идти в церковь, много часов молиться, думать о своих грехах — это тяжело\", — говорит он."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вкусно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="веселился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="пил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="следующий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="идти
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="церковь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="часов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="молиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="думать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="грехах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="тяжело
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="_2_компл"]
+			0 -> 3 [label="подч_союзн"]
+			5 -> 0 [label="обст"]
+			5 -> 7 [label="сочин"]
+			5 -> 32 [label="вводн"]
+			20 -> 22 [label="_1_компл"]
+			25 -> 24 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 20 [label="предик"]
+			7 -> 9 [label="сочин"]
+			13 -> 10 [label="обст"]
+			13 -> 14 [label="_1_компл"]
+			23 -> 25 [label="предл"]
+			15 -> 16 [label="предл"]
+			9 -> 13 [label="соч_союзн"]
+			10 -> 12 [label="предл"]
+			22 -> 23 [label="_2_компл"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="обст"]
+			12 -> 11 [label="опред"]
+			32 -> 18 [label="обст"]
+			32 -> 27 [label="_1_компл"]
+			32 -> 28 [label="обст"]
+			32 -> 33 [label="предик"]
+}

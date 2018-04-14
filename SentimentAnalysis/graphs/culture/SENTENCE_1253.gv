@@ -1,0 +1,72 @@
+digraph SENTENCE_1253 {
+	graph [label="Фильм \"Довлатов\" рассказывает о нескольких днях из жизни советского писателя Сергея Довлатова и его друзей — художников, поэтов и музыкантов, которых не признавала советская власть."]
+	node [style=filled]
+		0 [label="Фильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Довлатов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="рассказывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нескольких
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="днях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="писателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сергея Довлатова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="друзей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="художников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="поэтов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="музыкантов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="признавала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="советская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="власть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="предл"]
+			19 -> 20 [label="сочин"]
+			0 -> 2 [label="аппоз"]
+			20 -> 21 [label="соч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 25 [label="_1_компл"]
+			13 -> 15 [label="соч_союзн"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="атриб"]
+			8 -> 9 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="аппоз"]
+			11 -> 13 [label="сочин"]
+			9 -> 11 [label="квазиагент"]
+			15 -> 14 [label="_1_компл"]
+			15 -> 17 [label="сочин"]
+			17 -> 19 [label="сочин"]
+			25 -> 23 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			25 -> 27 [label="предик"]
+			27 -> 26 [label="опред"]
+}

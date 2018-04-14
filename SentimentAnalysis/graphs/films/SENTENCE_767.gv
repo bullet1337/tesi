@@ -1,0 +1,21 @@
+digraph SENTENCE_767 {
+	graph [label="Но это совсем не тот случай."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="случай
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 1 [label="предик"]
+			5 -> 4 [label="опред"]
+			0 -> 5 [label="соч_союзн"]
+			3 -> 2 [label="огранич"]
+			4 -> 3 [label="огранич"]
+}

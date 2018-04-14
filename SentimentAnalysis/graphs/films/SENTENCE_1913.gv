@@ -1,0 +1,42 @@
+digraph SENTENCE_1913 {
+	graph [label="К счастью, в итоге она выступила в качестве актрисы и сыграла главную роль!"]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="счастью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выступила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сыграла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="главную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="роль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			0 -> 1 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 10 [label="сочин"]
+}

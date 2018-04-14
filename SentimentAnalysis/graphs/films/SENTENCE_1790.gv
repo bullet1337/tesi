@@ -1,0 +1,51 @@
+digraph SENTENCE_1790 {
+	graph [label="Да, поначалу фильм показался как раз нудноватым и затянутым, однако это всё оказалось иллюзиями и предрассудками."]
+	node [style=filled]
+		0 [label="Да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поначалу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="показался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нудноватым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="затянутым
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="оказалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="иллюзиями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="предрассудками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="сравнит"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 8 [label="сочин"]
+			4 -> 14 [label="сент_соч"]
+			14 -> 11 [label="огранич"]
+			14 -> 12 [label="предик"]
+			14 -> 15 [label="присвяз"]
+			8 -> 9 [label="соч_союзн"]
+			15 -> 16 [label="сочин"]
+			5 -> 6 [label="сравн_союзн"]
+			16 -> 17 [label="соч_союзн"]
+			12 -> 13 [label="опред"]
+}

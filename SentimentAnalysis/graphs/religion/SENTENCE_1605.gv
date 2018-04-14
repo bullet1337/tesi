@@ -1,0 +1,24 @@
+digraph SENTENCE_1605 {
+	graph [label="Первый день Великого поста именуется Чистым понедельником."]
+	node [style=filled]
+		0 [label="Первый
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Великого
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="именуется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Чистым
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="понедельником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="квазиагент"]
+			6 -> 5 [label="опред"]
+			4 -> 1 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+}

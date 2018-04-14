@@ -1,0 +1,60 @@
+digraph SENTENCE_2856 {
+	graph [label="Создатели видимо забыли, что «Гадкий Я 3» будут оценивать не только дети младшего школьного возраста, но и кое-кто постарше."]
+	node [style=filled]
+		0 [label="Создатели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="видимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="забыли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Гадкий
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оценивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="младшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="школьного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="возраста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="кое-кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="постарше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="вводн"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 19 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			4 -> 17 [label="подч_союзн"]
+			22 -> 21 [label="предик"]
+			17 -> 14 [label="предик"]
+			17 -> 15 [label="опред"]
+			17 -> 16 [label="опред"]
+			19 -> 20 [label="огранич"]
+			19 -> 22 [label="соч_союзн"]
+			6 -> 10 [label="примыкат"]
+			10 -> 7 [label="предик"]
+			10 -> 8
+			10 -> 11 [label="аналит"]
+			14 -> 6 [label="опред"]
+			14 -> 13 [label="огранич"]
+}

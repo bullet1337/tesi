@@ -1,0 +1,39 @@
+digraph SENTENCE_1067 {
+	graph [label="В этой музыке уже есть какие-то нотки того, что фильм закончится печально."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="какие-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нотки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="закончится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="печально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="эксплет"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="предик"]
+			9 -> 11 [label="подч_союзн"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+}

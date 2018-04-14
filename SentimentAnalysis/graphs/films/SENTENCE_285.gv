@@ -1,0 +1,18 @@
+digraph SENTENCE_285 {
+	graph [label="Лучше сыграть было просто невозможно."]
+	node [style=filled]
+		0 [label="Лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сыграть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="присвяз"]
+			4 -> 3 [label="огранич"]
+			1 -> 0 [label="_1_компл"]
+}

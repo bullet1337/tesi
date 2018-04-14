@@ -1,0 +1,51 @@
+digraph SENTENCE_127 {
+	graph [label="Праздник в честь великого хореографа состоится в день рождения Мариуса Ивановича 11 марта на исторической сцене театра."]
+	node [style=filled]
+		0 [label="Праздник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="великого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="хореографа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Мариуса Ивановича
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="11
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="исторической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			12 -> 14 [label="предл"]
+			0 -> 1 [label="атриб"]
+			0 -> 5 [label="релят"]
+			4 -> 3 [label="опред"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			9 -> 10 [label="аппоз"]
+			10 -> 11 [label="атриб"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 12 [label="_1_компл"]
+}

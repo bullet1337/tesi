@@ -1,0 +1,45 @@
+digraph SENTENCE_3312 {
+	graph [label="И даже нисколько не скрывал этого, а напротив- с удовольствием демонстрировал ее всем окружающим."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="нисколько
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="скрывал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="напротив
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="удовольствием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="демонстрировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="окружающим
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 12 [label="соч_союзн"]
+			0 -> 4 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="огранич"]
+			10 -> 11 [label="предл"]
+			12 -> 8 [label="вводн"]
+			12 -> 10 [label="обст"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 7 [label="сочин"]
+			15 -> 14 [label="опред"]
+}

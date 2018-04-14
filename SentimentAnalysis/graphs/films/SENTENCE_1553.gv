@@ -1,0 +1,18 @@
+digraph SENTENCE_1553 {
+	graph [label="Потому что слепнет твоя душа?"]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слепнет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="твоя
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="душа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="эксплет"]
+			2 -> 4 [label="предик"]
+			1 -> 2 [label="подч_союзн"]
+}

@@ -1,0 +1,78 @@
+digraph SENTENCE_1062 {
+	graph [label="Издавна в этот день на Руси верующие просят друг у друга прощения и готовятся вступить в \"святую и великую Четыредесятницу\" — самый строгий и продолжительный пост."]
+	node [style=filled]
+		0 [label="Издавна
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="верующие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="просят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="друг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="друга
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прощения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="готовятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вступить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="святую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="великую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Четыредесятницу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="самый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="строгий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="продолжительный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="пост
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			20 -> 17 [label="опред"]
+			9 -> 10 [label="предл"]
+			15 -> 20 [label="предл"]
+			7 -> 11 [label="_1_компл"]
+			7 -> 12 [label="сочин"]
+			6 -> 0 [label="обст"]
+			6 -> 1 [label="обст"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="сочин"]
+			11 -> 8
+			11 -> 9 [label="обст"]
+			18 -> 19 [label="соч_союзн"]
+			12 -> 13 [label="соч_союзн"]
+			24 -> 23 [label="опред"]
+			24 -> 25 [label="сочин"]
+			14 -> 15 [label="_1_компл"]
+			27 -> 24 [label="опред"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 27 [label="предик"]
+			17 -> 18 [label="сочин"]
+			4 -> 5 [label="предл"]
+			25 -> 26 [label="соч_союзн"]
+			1 -> 3 [label="предл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_1230 {
+	graph [label="Первая часть фильма \"О чем говорят мужчины\" вышла в 2010 году, продолжение \"О чем еще говорят мужчины\" — в 2011 году."]
+	node [style=filled]
+		0 [label="Первая
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="О
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мужчины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вышла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2010
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="продолжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="О
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="мужчины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="2011
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 12 [label="предл"]
+			14 -> 16 [label="ном_аппоз"]
+			20 -> 23 [label="атриб"]
+			2 -> 6 [label="релят"]
+			25 -> 24 [label="опред"]
+			4 -> 5 [label="предл"]
+			6 -> 4 [label="_3_компл"]
+			6 -> 7 [label="предик"]
+			9 -> 1 [label="предик"]
+			9 -> 10 [label="обст"]
+			9 -> 14 [label="суб_копр"]
+			9 -> 19 [label="вводн"]
+			16 -> 17 [label="предл"]
+			19 -> 18 [label="огранич"]
+			19 -> 20 [label="предик"]
+			12 -> 11 [label="опред"]
+			23 -> 25 [label="предл"]
+}

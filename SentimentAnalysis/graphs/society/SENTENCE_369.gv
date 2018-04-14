@@ -1,0 +1,48 @@
+digraph SENTENCE_369 {
+	graph [label="\"Семь великих побед, от Чудского озера, через поле Куликово, Полтаву, Бородино сражались за великую державу."]
+	node [style=filled]
+		1 [label="Семь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="великих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="побед
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Чудского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="озера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="через
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="поле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Куликово
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Полтаву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Бородино
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="сражались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="великую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="державу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			15 -> 13 [label="опред"]
+			19 -> 18 [label="опред"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			17 -> 19 [label="предл"]
+			9 -> 10 [label="предл"]
+			11 -> 3 [label="предик"]
+			11 -> 16 [label="сент_соч"]
+			5 -> 7 [label="предл"]
+			3 -> 1 [label="количест"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="квазиагент"]
+			3 -> 9 [label="атриб"]
+}

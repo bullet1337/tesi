@@ -1,0 +1,42 @@
+digraph SENTENCE_1427 {
+	graph [label="Сегодня не политкорректно говорить: \"Я не хочу, чтобы евреи жили в моей стране\"."]
+	node [style=filled]
+		0 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="политкорректно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="евреи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="жили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="моей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="стране
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="подч_союзн"]
+			15 -> 14 [label="опред"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="предик"]
+			2 -> 8 [label="сент_соч"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="_1_компл"]
+			13 -> 15 [label="предл"]
+}

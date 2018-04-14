@@ -1,0 +1,74 @@
+digraph SENTENCE_1174 {
+	graph [label="Это решение имеет для края большое значение, так как будет способствовать развитию не только межрегиональной, но и внутренней транспортной сети региона\", — сказал РИА Новости губернатор."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="решение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="имеет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="большое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="значение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="способствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="развитию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="межрегиональной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="внутренней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="транспортной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="губернатор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			9 -> 10 [label="сравн_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="обст"]
+			2 -> 11 [label="_1_компл"]
+			26 -> 21 [label="предик"]
+			26 -> 27 [label="_2_компл"]
+			26 -> 28 [label="_1_компл"]
+			11 -> 6 [label="_1_компл"]
+			11 -> 8 [label="обст"]
+			11 -> 9 [label="сравнит"]
+			11 -> 12 [label="_2_компл"]
+			14 -> 13 [label="огранич"]
+			6 -> 5 [label="опред"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="сочин"]
+			17 -> 18 [label="огранич"]
+			17 -> 26 [label="соч_союзн"]
+}

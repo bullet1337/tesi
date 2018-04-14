@@ -1,0 +1,51 @@
+digraph SENTENCE_1386 {
+	graph [label="\"Криминализация обрезания — очень серьезная мера, вызывающая глубокую озабоченность\", — приводит слова кардинала официальный сайт Конференции епископов ЕС."]
+	node [style=filled]
+		1 [label="Криминализация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обрезания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="серьезная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вызывающая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="глубокую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="озабоченность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="приводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="кардинала
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="официальный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сайт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Конференции
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="епископов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="ЕС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 20 [label="аппоз"]
+			8 -> 10 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 6 [label="сочин"]
+			2 -> 14 [label="вводн"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="сочин"]
+			20 -> 21 [label="кратн"]
+			14 -> 15 [label="предик"]
+			16 -> 18 [label="сочин"]
+			15 -> 16 [label="аппоз"]
+			10 -> 9 [label="опред"]
+			5 -> 4 [label="огранич"]
+}

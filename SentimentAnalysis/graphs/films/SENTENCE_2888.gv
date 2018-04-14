@@ -1,0 +1,39 @@
+digraph SENTENCE_2888 {
+	graph [label="Это я ожидала увидеть, но даже намека на это я не смогла разглядеть."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ожидала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="намека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смогла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разглядеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="сочин"]
+			7 -> 6 [label="огранич"]
+			12 -> 8 [label="обст"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+}

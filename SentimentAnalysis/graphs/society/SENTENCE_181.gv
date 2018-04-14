@@ -1,0 +1,75 @@
+digraph SENTENCE_181 {
+	graph [label="Ранее сообщалось, что следователи проверяют соблюдение требований охраны труда после падения воздушного гимнаста Антона Мартынова во время выступления в Элисте с высоты 5-6 метров."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сообщалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="следователи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="проверяют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="соблюдение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="требований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="охраны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="труда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="падения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="воздушного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="гимнаста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Антона Мартынова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="выступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Элисте
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="высоты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="подч_союзн"]
+			22 -> 24 [label="кратн"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="аппоз"]
+			17 -> 18 [label="атриб"]
+			11 -> 13 [label="квазиагент"]
+			11 -> 15 [label="атриб"]
+			1 -> 0 [label="обст"]
+			1 -> 3 [label="предик"]
+			21 -> 25 [label="компл_аппоз"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 10 [label="обст"]
+			5 -> 17 [label="_1_компл"]
+			5 -> 20 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			8 -> 9 [label="_1_компл"]
+			15 -> 16 [label="предл"]
+			20 -> 21 [label="предл"]
+			10 -> 11 [label="предл"]
+			25 -> 22 [label="количест"]
+			7 -> 8 [label="квазиагент"]
+}

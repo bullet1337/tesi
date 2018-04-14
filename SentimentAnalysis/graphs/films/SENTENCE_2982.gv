@@ -1,0 +1,45 @@
+digraph SENTENCE_2982 {
+	graph [label="Нет ничего удивительного, что он получил 3 премии «Оскар» — мы же должны быть толерантными!"]
+	node [style=filled]
+		0 [label="Нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="удивительного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="премии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Оскар
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="должны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="толерантными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="огранич"]
+			8 -> 7 [label="количест"]
+			8 -> 10 [label="аппоз"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			16 -> 17 [label="присвяз"]
+			15 -> 13 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			1 -> 2 [label="опред"]
+			4 -> 6 [label="подч_союзн"]
+			4 -> 15 [label="сент_соч"]
+			0 -> 1 [label="предик"]
+			0 -> 4 [label="сент_соч"]
+}

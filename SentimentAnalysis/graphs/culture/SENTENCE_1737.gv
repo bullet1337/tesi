@@ -1,0 +1,45 @@
+digraph SENTENCE_1737 {
+	graph [label="Прижизненные издания Закруткина, документы из личного архива и фотографии представлены в музее русско-армянской дружбы."]
+	node [style=filled]
+		0 [label="Прижизненные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="издания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Закруткина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="документы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="личного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="архива
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фотографии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="представлены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="музее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="русско-армянской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дружбы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			12 -> 14 [label="атриб"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			5 -> 7 [label="предл"]
+			4 -> 5 [label="атриб"]
+			10 -> 11 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="об_аппоз"]
+			2 -> 10 [label="вводн"]
+			14 -> 13 [label="опред"]
+			11 -> 12 [label="предл"]
+}

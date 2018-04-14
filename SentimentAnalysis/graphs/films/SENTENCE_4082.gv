@@ -1,0 +1,21 @@
+digraph SENTENCE_4082 {
+	graph [label="Он просто пропитан пресловутой тухлой политкорректностью."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пропитан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пресловутой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тухлой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="политкорректностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 5 [label="_2_компл"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+}

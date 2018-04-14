@@ -1,0 +1,54 @@
+digraph SENTENCE_365 {
+	graph [label="КПРФ провела массовую акцию в Москве в честь Дня защитника отечества и 100-летней годовщины создания Красной армии."]
+	node [style=filled]
+		0 [label="КПРФ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="провела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="массовую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="акцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Дня
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="отечества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="100-летней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="годовщины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="создания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Красной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			10 -> 11 [label="сочин"]
+			13 -> 12 [label="опред"]
+			4 -> 5 [label="предл"]
+			6 -> 7 [label="предл"]
+			11 -> 13 [label="соч_союзн"]
+			8 -> 9 [label="квазиагент"]
+			7 -> 8 [label="квазиагент"]
+			16 -> 15 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 4 [label="обст"]
+			1 -> 6 [label="обст"]
+			1 -> 10 [label="_1_компл"]
+			1 -> 14 [label="разъяснит"]
+}

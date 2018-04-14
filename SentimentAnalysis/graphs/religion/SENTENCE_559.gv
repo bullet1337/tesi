@@ -1,0 +1,33 @@
+digraph SENTENCE_559 {
+	graph [label="Христианская традиция считает, что Симеон скончался сразу после событий Сретения."]
+	node [style=filled]
+		0 [label="Христианская
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="традиция
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="считает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Симеон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="скончался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="событий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сретения
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="_1_компл"]
+			4 -> 6 [label="подч_союзн"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			1 -> 0 [label="опред"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 8 [label="обст"]
+}

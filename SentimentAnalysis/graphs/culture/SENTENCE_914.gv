@@ -1,0 +1,50 @@
+digraph SENTENCE_914 {
+	graph [label="Пресс-служба смотра отмечает, что Дефо снялся в более чем ста фильмах, обогащая их \"выразительной актерской игрой\"."]
+	node [style=filled]
+		0 [label="Пресс-служба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="смотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="отмечает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Дефо
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="снялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ста
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="обогащая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="выразительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="актерской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="игрой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="подч_союзн"]
+			9 -> 11 [label="сравн_союзн"]
+			8 -> 9 [label="сравнит"]
+			8 -> 13 [label="обст"]
+			18 -> 14 [label="квазиагент"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			2 -> 0 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			0 -> 1 [label="квазиагент"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			11 -> 10 [label="количест"]
+			13 -> 18 [label="_2_компл"]
+}

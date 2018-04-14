@@ -1,0 +1,31 @@
+digraph SENTENCE_2642 {
+	graph [label="Ну и пусть, что половина диалогов — претенциозная и нелепая чушь."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пусть
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="половина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="диалогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="претенциозная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нелепая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чушь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="квазиагент"]
+			1 -> 0 [label="вводн"]
+			8 -> 9 [label="сочин"]
+			11 -> 5 [label="предик"]
+			11 -> 8 [label="опред"]
+			4 -> 11 [label="подч_союзн"]
+			9 -> 10 [label="соч_союзн"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_4465 {
+	graph [label="И даже это можно было бы простить, если бы актёрский состав блистал."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="простить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="актёрский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="блистал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="присвяз"]
+			4 -> 5 [label="аналит"]
+			4 -> 6 [label="предик"]
+			2 -> 1 [label="огранич"]
+			11 -> 10 [label="опред"]
+			12 -> 9 [label="аналит"]
+			12 -> 11 [label="предик"]
+			6 -> 8 [label="обст"]
+			8 -> 12 [label="подч_союзн"]
+}

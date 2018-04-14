@@ -1,0 +1,30 @@
+digraph SENTENCE_4058 {
+	graph [label="С визуальной и технической точек зрения фильм не барахло."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="визуальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="технической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="точек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="барахло
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="опред"]
+			4 -> 5
+			8 -> 0 [label="вводн"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="огранич"]
+			1 -> 2 [label="сочин"]
+			2 -> 3 [label="соч_союзн"]
+			0 -> 4 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_1240 {
+	graph [label="Председатель СК РФ Александр Бастрыкин взял на личный контроль дело о стрельбе."]
+	node [style=filled]
+		0 [label="Председатель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="СК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Александр Бастрыкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="взял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="личный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="контроль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стрельбе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_3_компл"]
+			4 -> 8 [label="_1_компл"]
+			4 -> 9 [label="_3_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="предл"]
+			5 -> 7 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+}

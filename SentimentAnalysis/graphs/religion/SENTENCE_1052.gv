@@ -1,0 +1,69 @@
+digraph SENTENCE_1052 {
+	graph [label="Например, даже когда камеры нет, сотрудник ГИБДД не стоит, а очень хочется вот здесь срезать и повернуть, но я этого не делаю."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="камеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сотрудник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ГИБДД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="срезать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="повернуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="делаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="соч_союзн"]
+			12 -> 14 [label="соч_союзн"]
+			17 -> 18 [label="сочин"]
+			21 -> 25 [label="соч_союзн"]
+			16 -> 15 [label="огранич"]
+			14 -> 13 [label="огранич"]
+			14 -> 16 [label="_2_компл"]
+			14 -> 17 [label="сочин"]
+			14 -> 21 [label="сент_соч"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="подч_союзн"]
+			25 -> 22 [label="предик"]
+			25 -> 23 [label="_1_компл"]
+			25 -> 24 [label="огранич"]
+			10 -> 0 [label="вводн"]
+			10 -> 3 [label="обст"]
+			10 -> 7 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 12 [label="сочин"]
+			5 -> 4 [label="предик"]
+			7 -> 8 [label="_1_компл"]
+}

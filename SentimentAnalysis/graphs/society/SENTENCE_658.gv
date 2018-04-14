@@ -1,0 +1,66 @@
+digraph SENTENCE_658 {
+	graph [label="В начале февраля во время визита в Красноярск Путин отметил, что основными факторами ухудшения экологической обстановки в городе является растущий автопарк."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="визита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Красноярск
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="основными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="факторами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ухудшения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="экологической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обстановки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="растущий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="автопарк
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 18 [label="предл"]
+			3 -> 4 [label="предл"]
+			9 -> 0 [label="обст"]
+			9 -> 5 [label="_1_компл"]
+			9 -> 8 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="атриб"]
+			19 -> 13 [label="_1_компл"]
+			19 -> 21 [label="предик"]
+			21 -> 20 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			13 -> 12 [label="опред"]
+			13 -> 14 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			0 -> 3 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			14 -> 16 [label="квазиагент"]
+			11 -> 19 [label="подч_союзн"]
+}

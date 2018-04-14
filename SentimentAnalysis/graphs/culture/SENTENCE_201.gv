@@ -1,0 +1,51 @@
+digraph SENTENCE_201 {
+	graph [label="Среди его знаменитых киноработ — \"Травиата\" и \"Сельская честь\", в которых приняли участие Елена Образцова, Екатерина Максимова и Владимир Васильев."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="знаменитых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="киноработ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Травиата
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сельская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="честь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="приняли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="участие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Елена Образцова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Екатерина Максимова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Владимир Васильев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 15 [label="предл"]
+			16 -> 0 [label="обст"]
+			16 -> 14 [label="_1_несобст_компл"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="предик"]
+			21 -> 22 [label="соч_союзн"]
+			0 -> 3 [label="предл"]
+			20 -> 21 [label="сочин"]
+			8 -> 11 [label="соч_союзн"]
+			6 -> 8 [label="сочин"]
+			18 -> 20 [label="сочин"]
+			3 -> 1 [label="квазиагент"]
+			3 -> 2 [label="опред"]
+			3 -> 6 [label="сочин"]
+			11 -> 10 [label="опред"]
+}

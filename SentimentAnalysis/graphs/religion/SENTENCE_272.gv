@@ -1,0 +1,40 @@
+digraph SENTENCE_272 {
+	graph [label="Пустословие является опасным пороком… Оно передает слушающим то, что можно назвать отрицательной энергией."]
+	node [style=filled]
+		0 [label="Пустословие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="опасным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="пороком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Оно
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="передает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="слушающим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="назвать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отрицательной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="энергией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="_2_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 6 [label="сент_соч"]
+			3 -> 2 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			11 -> 12 [label="предик"]
+}

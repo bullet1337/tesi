@@ -1,0 +1,15 @@
+digraph SENTENCE_4496 {
+	graph [label="Плохие парни — это Гнусы."]
+	node [style=filled]
+		0 [label="Плохие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="парни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гнусы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 3 [label="предик"]
+			1 -> 0 [label="опред"]
+			3 -> 1 [label="пролепт"]
+}

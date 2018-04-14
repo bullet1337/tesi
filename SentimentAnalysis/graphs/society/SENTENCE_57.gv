@@ -1,0 +1,45 @@
+digraph SENTENCE_57 {
+	graph [label="Мы имеем полное право сравнивать его с героями, защитниками Брестской крепости, защитниками Москвы, Сталинграда."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="имеем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="полное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="право
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сравнивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="героями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="защитниками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Брестской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="крепости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="защитниками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Сталинграда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 9 [label="аппоз"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 14 [label="сочин"]
+			11 -> 10 [label="опред"]
+			14 -> 16 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			4 -> 13 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+}

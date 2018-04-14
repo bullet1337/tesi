@@ -1,0 +1,39 @@
+digraph SENTENCE_1030 {
+	graph [label="Депутат подчеркнул, что в Госдуме будут внимательно следить за ходом реализации программы."]
+	node [style=filled]
+		0 [label="Депутат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="подчеркнул
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Госдуме
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="будут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="внимательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="следить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ходом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="реализации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="программы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="подч_союзн"]
+			6 -> 4 [label="обст"]
+			6 -> 8 [label="аналит"]
+			10 -> 11 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			11 -> 12 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+}

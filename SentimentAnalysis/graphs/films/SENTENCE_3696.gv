@@ -1,0 +1,18 @@
+digraph SENTENCE_3696 {
+	graph [label="«Легенда N 17» — очень лживый фильм."]
+	node [style=filled]
+		1 [label="Легенда N
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="17
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лживый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 1 [label="предик"]
+			7 -> 6 [label="опред"]
+			6 -> 5 [label="огранич"]
+			1 -> 2 [label="нум_аппоз"]
+}

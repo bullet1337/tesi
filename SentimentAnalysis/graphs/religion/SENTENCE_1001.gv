@@ -1,0 +1,42 @@
+digraph SENTENCE_1001 {
+	graph [label="\"Мы надеялись, что в Сирии будет создан совместный фронт, но этого не произошло."]
+	node [style=filled]
+		1 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="надеялись
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совместный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фронт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="произошло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			7 -> 5 [label="обст"]
+			7 -> 8
+			7 -> 10 [label="предик"]
+			7 -> 12 [label="сент_соч"]
+			10 -> 9 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 7 [label="подч_союзн"]
+			12 -> 15 [label="соч_союзн"]
+			15 -> 13 [label="предик"]
+			15 -> 14 [label="огранич"]
+}

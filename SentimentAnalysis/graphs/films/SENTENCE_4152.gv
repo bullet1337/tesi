@@ -1,0 +1,27 @@
+digraph SENTENCE_4152 {
+	graph [label="Даже для второго плана это очень, очень мало."]
+	node [style=filled]
+		0 [label="Даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="второго
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="плана
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мало
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="предл"]
+			8 -> 1 [label="обст"]
+			8 -> 4 [label="предик"]
+			8 -> 5 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			3 -> 2 [label="опред"]
+}

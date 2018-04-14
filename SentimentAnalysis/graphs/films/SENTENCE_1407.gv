@@ -1,0 +1,33 @@
+digraph SENTENCE_1407 {
+	graph [label="Тот мир — это иллюзия, его нет, потому что не может быть."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мир
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иллюзия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			10 -> 12 [label="подч_союзн"]
+			4 -> 3 [label="предик"]
+			3 -> 1 [label="пролепт"]
+			9 -> 10 [label="эксплет"]
+}

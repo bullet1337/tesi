@@ -1,0 +1,63 @@
+digraph SENTENCE_206 {
+	graph [label="Ставлю фильму 5 звёдочек, или  10 из 10  За комбинацию отличной истории и прикрытого смысла, а также отличный техничный стиль."]
+	node [style=filled]
+		0 [label="Ставлю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="звёдочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="За
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="комбинацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="отличной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="прикрытого
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смысла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="отличный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="техничный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="стиль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			10 -> 12 [label="_1_компл"]
+			21 -> 19 [label="опред"]
+			21 -> 20 [label="опред"]
+			1 -> 3 [label="сочин"]
+			17 -> 21 [label="соч_союзн"]
+			5 -> 6 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			19 -> 18 [label="огранич"]
+			7 -> 8 [label="предл"]
+			14 -> 15 [label="_2_компл"]
+			14 -> 17 [label="сочин"]
+			6 -> 7 [label="электив"]
+			0 -> 1 [label="_2_компл"]
+			0 -> 9 [label="_1_компл"]
+			0 -> 13 [label="сочин"]
+			3 -> 2 [label="количест"]
+			3 -> 5 [label="сочин"]
+			13 -> 14 [label="соч_союзн"]
+}

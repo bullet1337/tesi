@@ -1,0 +1,24 @@
+digraph SENTENCE_4434 {
+	graph [label="Большинство из них я тупо не понял."]
+	node [style=filled]
+		0 [label="Большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тупо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="понял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="квазиагент"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="огранич"]
+}

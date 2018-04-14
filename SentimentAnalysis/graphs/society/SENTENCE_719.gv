@@ -1,0 +1,51 @@
+digraph SENTENCE_719 {
+	graph [label="\"Радиоприбор\" — пожалуй, самая острая (ситуация) даже в масштабах России, самые большие долги на предприятии\", — добавил Шмаков."]
+	node [style=filled]
+		1 [label="Радиоприбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пожалуй
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="острая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="масштабах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="самые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="большие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="долги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="предприятии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="добавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="Шмаков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 16 [label="опред"]
+			9 -> 1 [label="предик"]
+			9 -> 4 [label="вводн"]
+			9 -> 7 [label="опред"]
+			9 -> 12 [label="обст"]
+			9 -> 18 [label="сочин"]
+			9 -> 24 [label="вводн"]
+			19 -> 20 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="_2_компл"]
+			13 -> 14 [label="квазиагент"]
+			24 -> 25 [label="предик"]
+			7 -> 6 [label="опред"]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предл"]
+}

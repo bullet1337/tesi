@@ -1,0 +1,21 @@
+digraph SENTENCE_2704 {
+	graph [label="О персонажах и говорить особенно нечего."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="персонажах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нечего
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="соч_союзн"]
+			5 -> 0 [label="_3_компл"]
+			5 -> 4 [label="огранич"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+}

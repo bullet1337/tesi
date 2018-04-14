@@ -1,0 +1,78 @@
+digraph SENTENCE_353 {
+	graph [label="На церемонии передачи работы Сербской православной церкви присутствуют президент Александр Вучич, патриарх Сербский Ириней, митрополит Волоколамский Илларион, глава российского МИД Сергей Лавров и гендиректор \"Газпром нефти\" Александр Дюков."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="церемонии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="передачи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="работы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Сербской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="присутствуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="президент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Александр Вучич
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Сербский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Ириней
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="митрополит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Волоколамский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Илларион
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="МИД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="Сергей Лавров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="гендиректор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Газпром
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="нефти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Александр Дюков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 21 [label="_1_компл"]
+			19 -> 22 [label="аппоз"]
+			11 -> 12 [label="опред"]
+			11 -> 13 [label="аппоз"]
+			1 -> 2 [label="_1_компл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			24 -> 26 [label="_1_компл"]
+			24 -> 29 [label="аппоз"]
+			23 -> 24 [label="соч_союзн"]
+			21 -> 20 [label="опред"]
+			17 -> 16 [label="опред"]
+			8 -> 9 [label="аппоз"]
+			8 -> 11 [label="об_аппоз"]
+			8 -> 19 [label="аппоз"]
+			8 -> 23 [label="сочин"]
+			26 -> 27 [label="_1_компл"]
+			13 -> 15 [label="аппоз"]
+			0 -> 1 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			3 -> 6 [label="квазиагент"]
+			15 -> 17 [label="аппоз"]
+			7 -> 0 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+}

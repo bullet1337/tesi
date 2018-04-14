@@ -1,0 +1,72 @@
+digraph SENTENCE_355 {
+	graph [label="При нападении на православный храм, которое в Прощеное воскресенье устроил 22-летний Халил Халилов, погибли пять пожилых женщин, четверо были госпитализированы, сам нападавший был ликвидирован."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нападении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="православный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="храм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Прощеное
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="воскресенье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="устроил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="22-летний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Халил Халилов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="погибли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пять
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пожилых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="женщин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="четверо
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="госпитализированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="нападавший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="ликвидирован
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 17 [label="предик"]
+			14 -> 20 [label="сент_соч"]
+			2 -> 4 [label="предл"]
+			17 -> 15 [label="количест"]
+			17 -> 16 [label="опред"]
+			7 -> 9 [label="предл"]
+			12 -> 11 [label="опред"]
+			20 -> 19 [label="предик"]
+			20 -> 21
+			20 -> 25 [label="сент_соч"]
+			24 -> 23 [label="опред"]
+			9 -> 8 [label="опред"]
+			0 -> 1 [label="предл"]
+			1 -> 2 [label="_1_компл"]
+			25 -> 24 [label="предик"]
+			25 -> 26
+			10 -> 0 [label="обст"]
+			10 -> 6 [label="предик"]
+			10 -> 7 [label="обст"]
+			10 -> 12 [label="предик"]
+			10 -> 14 [label="разъяснит"]
+			4 -> 3 [label="опред"]
+}

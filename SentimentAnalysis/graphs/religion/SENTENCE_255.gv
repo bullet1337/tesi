@@ -1,0 +1,63 @@
+digraph SENTENCE_255 {
+	graph [label="Глава дипломатии ЕС Федерика Могерини призвала поскорее разобраться с проблемой и в довольно обтекаемой фразе дала понять, на чьей стороне Европа."]
+	node [style=filled]
+		0 [label="Глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дипломатии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ЕС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Федерика Могерини
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="призвала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поскорее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разобраться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проблемой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="обтекаемой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фразе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="чьей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="стороне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Европа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			14 -> 15 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			9 -> 10 [label="соч_союзн"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="квазиагент"]
+			4 -> 0 [label="предик"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 14 [label="_2_компл"]
+			6 -> 7 [label="_1_компл"]
+			15 -> 17 [label="обст"]
+			12 -> 11 [label="огранич"]
+			10 -> 13 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 3 [label="аппоз"]
+			7 -> 8 [label="предл"]
+			7 -> 9 [label="сочин"]
+			17 -> 19 [label="предл"]
+}

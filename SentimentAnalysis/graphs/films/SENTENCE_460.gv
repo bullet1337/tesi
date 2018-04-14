@@ -1,0 +1,30 @@
+digraph SENTENCE_460 {
+	graph [label="Не все в сценах мюзиклов веселятся с беспечными улыбками."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сценах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мюзиклов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="веселятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="беспечными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="улыбками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			3 -> 4 [label="квазиагент"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="огранич"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="предл"]
+			2 -> 5 [label="разъяснит"]
+}

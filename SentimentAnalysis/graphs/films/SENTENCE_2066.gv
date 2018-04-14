@@ -1,0 +1,36 @@
+digraph SENTENCE_2066 {
+	graph [label="Ловишь какие-то картинки, медленно движущиеся объекты, странно произносимые слова, и образы."]
+	node [style=filled]
+		0 [label="Ловишь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="какие-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="картинки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="медленно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="движущиеся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="объекты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="странно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="произносимые
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="образы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="обст"]
+			0 -> 2 [label="_1_компл"]
+			12 -> 13 [label="соч_союзн"]
+			10 -> 9 [label="опред"]
+			10 -> 12 [label="сочин"]
+			2 -> 1 [label="опред"]
+			2 -> 5 [label="опред"]
+			2 -> 10 [label="сочин"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="_1_компл"]
+}

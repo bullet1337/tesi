@@ -1,0 +1,36 @@
+digraph SENTENCE_438 {
+	graph [label="Явлинский участвовал в президентских выборах дважды: в 1996 и 2000 годах."]
+	node [style=filled]
+		0 [label="Явлинский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="участвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="президентских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выборах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дважды
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="1996
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="2000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="годах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 11 [label="длительн"]
+			5 -> 7 [label="атриб"]
+			9 -> 10 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			8 -> 9 [label="сочин"]
+			11 -> 5 [label="атриб"]
+			7 -> 8 [label="предл"]
+			2 -> 4 [label="предл"]
+}

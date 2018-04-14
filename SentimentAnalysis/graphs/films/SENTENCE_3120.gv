@@ -1,0 +1,79 @@
+digraph SENTENCE_3120 {
+	graph [label="Не буду обвинять в этом скучный сюжет (всю середину фильма, не несущую никакой смысловой нагрузки, из него можно спокойно выкинуть), всё-таки это дело рук автора рассказа."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="буду
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="обвинять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скучный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="середину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="несущую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смысловой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нагрузки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="выкинуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="всё-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="рук
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="автора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="рассказа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="предик"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 18 [label="_1_компл"]
+			18 -> 19 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 13 [label="сочин"]
+			27 -> 26 [label="опред"]
+			27 -> 28 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			29 -> 25 [label="огранич"]
+			29 -> 27 [label="предик"]
+			29 -> 30 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="аналит"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 6 [label="_1_компл"]
+			6 -> 5 [label="опред"]
+			6 -> 9 [label="сочин"]
+			22 -> 21 [label="обст"]
+			22 -> 29 [label="_1_компл"]
+}

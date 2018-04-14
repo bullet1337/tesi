@@ -1,0 +1,42 @@
+digraph SENTENCE_151 {
+	graph [label="По его словам, \"очень смешно читать заголовки о том, что \"Норкин избил Суворова\" <…>\"."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смешно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="читать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заголовки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Норкин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="избил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Суворова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 5 [label="огранич"]
+			2 -> 1 [label="квазиагент"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			12 -> 15 [label="подч_союзн"]
+			8 -> 9 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			10 -> 12 [label="эксплет"]
+			7 -> 0 [label="вводн"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+}

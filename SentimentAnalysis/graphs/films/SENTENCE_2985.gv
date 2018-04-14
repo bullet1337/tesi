@@ -1,0 +1,24 @@
+digraph SENTENCE_2985 {
+	graph [label="В таком состоянии организм очень быстро погибает."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="таком
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="состоянии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="организм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="быстро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="погибает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 4 [label="огранич"]
+			6 -> 0 [label="обст"]
+			6 -> 3 [label="предик"]
+			6 -> 5 [label="обст"]
+}

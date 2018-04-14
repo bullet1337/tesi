@@ -1,0 +1,36 @@
+digraph SENTENCE_159 {
+	graph [label="Он отметил, что \"изучение массового православия в современной России чрезвычайно актуально\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="изучение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="массового
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="православия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="современной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="чрезвычайно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актуально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="атриб"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			8 -> 10 [label="предл"]
+			12 -> 5 [label="предик"]
+			12 -> 11 [label="огранич"]
+			3 -> 12 [label="подч_союзн"]
+			10 -> 9 [label="опред"]
+			7 -> 6 [label="опред"]
+}

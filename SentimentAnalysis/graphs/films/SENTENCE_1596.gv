@@ -1,0 +1,24 @@
+digraph SENTENCE_1596 {
+	graph [label="Мне казалось, что я смотрю документальное кино."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="казалось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="смотрю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="документальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			3 -> 5 [label="подч_союзн"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 3 [label="предик"]
+}

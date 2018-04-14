@@ -1,0 +1,21 @@
+digraph SENTENCE_36 {
+	graph [label="Общество цинично, бюрократично и ужасающе бесчувственно."]
+	node [style=filled]
+		0 [label="Общество
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="цинично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бюрократично
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ужасающе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="бесчувственно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 1 [label="огранич"]
+			3 -> 4 [label="сочин"]
+			3 -> 6 [label="сент_соч"]
+}

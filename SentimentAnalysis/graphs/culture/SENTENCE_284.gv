@@ -1,0 +1,60 @@
+digraph SENTENCE_284 {
+	graph [label="По сюжету преуспевающий бизнес-консультант Гарри подбирает на обочине дороги Жоржа, молодого человека с синдромом Дауна, который сбегает из госпиталя."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сюжету
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="преуспевающий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="бизнес-консультант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Гарри
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="подбирает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="обочине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="дороги
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Жоржа
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="молодого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="синдромом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Дауна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сбегает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="госпиталя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			5 -> 8 [label="_1_компл"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			9 -> 12 [label="аппоз"]
+			13 -> 14 [label="предл"]
+			14 -> 15 [label="атриб"]
+			8 -> 9 [label="аппоз"]
+			8 -> 18 [label="релят"]
+			19 -> 20 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="аппоз"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="атриб"]
+			0 -> 1 [label="предл"]
+			6 -> 7 [label="предл"]
+}

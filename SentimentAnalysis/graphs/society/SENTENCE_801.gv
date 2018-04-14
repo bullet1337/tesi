@@ -1,0 +1,48 @@
+digraph SENTENCE_801 {
+	graph [label="ВС РФ ранее внес на рассмотрение Госдумы законопроект об оптимизации судопроизводства и упрощении судебных процедур."]
+	node [style=filled]
+		0 [label="ВС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="внес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="рассмотрение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Госдумы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="законопроект
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="оптимизации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="судопроизводства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="упрощении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="судебных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="процедур
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 6 [label="_1_компл"]
+			3 -> 7 [label="разъяснит"]
+			14 -> 13 [label="опред"]
+			4 -> 5 [label="предл"]
+			12 -> 14 [label="_1_компл"]
+			8 -> 9 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+			10 -> 11 [label="сочин"]
+			9 -> 10 [label="_1_компл"]
+}

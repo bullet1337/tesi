@@ -1,0 +1,41 @@
+digraph SENTENCE_1087 {
+	graph [label="Нарушением закона о рекламе была признана реклама, содержащая изображения детей и утверждение \"Мама!"]
+	node [style=filled]
+		0 [label="Нарушением
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="закона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рекламе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="признана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="реклама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="содержащая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="изображения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="утверждение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Мама
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 9 [label="_1_компл"]
+			1 -> 2 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 14 [label="сочин"]
+			6 -> 8 [label="опред"]
+			2 -> 3 [label="предл"]
+			4 -> 5
+			4 -> 6 [label="предик"]
+			10 -> 11 [label="сочин"]
+}

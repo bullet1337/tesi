@@ -1,0 +1,60 @@
+digraph SENTENCE_852 {
+	graph [label="— Он знает, чего хочет — он должен получить эти три карты, выиграть состояние, и тогда, в его представлении, наступит счастье."]
+	node [style=filled]
+		1 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="знает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="получить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="карты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="выиграть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="представлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="наступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="счастье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			22 -> 21 [label="квазиагент"]
+			9 -> 12 [label="_1_компл"]
+			9 -> 14 [label="сочин"]
+			11 -> 10 [label="опред"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 5 [label="_1_компл"]
+			2 -> 8 [label="сент_соч"]
+			20 -> 22 [label="предл"]
+			5 -> 4 [label="_1_компл"]
+			24 -> 18 [label="обст"]
+			24 -> 20 [label="обст"]
+			24 -> 25 [label="предик"]
+			17 -> 24 [label="соч_союзн"]
+			12 -> 11 [label="количест"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 17 [label="сочин"]
+}

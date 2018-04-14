@@ -1,0 +1,30 @@
+digraph SENTENCE_628 {
+	graph [label="В самом ведомстве на запрос РИА Новости пока не ответили."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="самом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ведомстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="запрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="пока
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ответили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="_3_компл"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+}

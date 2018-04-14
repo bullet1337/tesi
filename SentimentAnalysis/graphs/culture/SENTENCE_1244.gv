@@ -1,0 +1,36 @@
+digraph SENTENCE_1244 {
+	graph [label="Сейчас он живёт полноценной жизнью, поёт, выступает на сцене крупнейшего проекта!"]
+	node [style=filled]
+		0 [label="Сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="живёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полноценной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизнью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="поёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выступает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сцене
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="крупнейшего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="проекта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 8 [label="сочин"]
+			9 -> 10 [label="предл"]
+			4 -> 3 [label="опред"]
+			12 -> 11 [label="опред"]
+			8 -> 9 [label="обст"]
+			8 -> 12 [label="_1_компл"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="обст_тавт"]
+			2 -> 6 [label="сочин"]
+}

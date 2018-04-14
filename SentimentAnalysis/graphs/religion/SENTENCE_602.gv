@@ -1,0 +1,51 @@
+digraph SENTENCE_602 {
+	graph [label="Вода сразу превратилась в прекрасное озеро, в котором цвели огромные лотосы, наполнявшие своим благоуханием всю округу."]
+	node [style=filled]
+		0 [label="Вода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сразу
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="превратилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прекрасное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="озеро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="котором
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="цвели
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="огромные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="лотосы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="наполнявшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="своим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="благоуханием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="округу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 15 [label="_2_компл"]
+			13 -> 17 [label="_1_компл"]
+			3 -> 5 [label="предл"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 9 [label="сент_соч"]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			9 -> 7 [label="обст"]
+			9 -> 11 [label="предик"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="опред"]
+			17 -> 16 [label="опред"]
+			15 -> 14 [label="опред"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_454 {
+	graph [label="Ей, по сути, безразлично что хочет ее сын."]
+	node [style=filled]
+		0 [label="Ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сути
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="безразлично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сын
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="_1_компл"]
+			7 -> 9 [label="предик"]
+			2 -> 3 [label="предл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 2 [label="вводн"]
+			5 -> 6 [label="предик"]
+			6 -> 7 [label="подч_союзн"]
+}

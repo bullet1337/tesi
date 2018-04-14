@@ -1,0 +1,26 @@
+digraph SENTENCE_818 {
+	graph [label="Конфликт произошел во время обсуждения ситуации в Донбассе."]
+	node [style=filled]
+		0 [label="Конфликт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="произошел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обсуждения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Донбассе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+}

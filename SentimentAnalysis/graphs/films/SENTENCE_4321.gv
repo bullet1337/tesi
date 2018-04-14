@@ -1,0 +1,71 @@
+digraph SENTENCE_4321 {
+	graph [label="Первые две части полностью состоят из клише, на которые можно упомянуть десяток более лучших аналогов снятых ранее, но Оскара как-то вот не получивших."]
+	node [style=filled]
+		0 [label="Первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="две
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="части
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="состоят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="клише
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="упомянуть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="десяток
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лучших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="аналогов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="снятых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Оскара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="как-то
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="получивших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 10 [label="сент_соч"]
+			10 -> 8 [label="обст"]
+			10 -> 11 [label="предик"]
+			5 -> 6 [label="предл"]
+			22 -> 24 [label="опред"]
+			21 -> 22 [label="огранич"]
+			19 -> 20 [label="соч_союзн"]
+			14 -> 13 [label="огранич"]
+			1 -> 0 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			24 -> 23 [label="огранич"]
+			12 -> 15 [label="квазиагент"]
+			12 -> 16 [label="опред"]
+			12 -> 19 [label="сочин"]
+			2 -> 1 [label="количест"]
+			8 -> 9 [label="предл"]
+			16 -> 17 [label="обст"]
+}

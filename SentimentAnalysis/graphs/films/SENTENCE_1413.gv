@@ -1,0 +1,57 @@
+digraph SENTENCE_1413 {
+	graph [label="Катрин Денёв… Вне сомнений, Великая актриса, и здесь играет великолепно, но это не ее фильм, здесь не она Актриса."]
+	node [style=filled]
+		0 [label="Катрин Денёв
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Вне
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="сомнений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Великая
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="великолепно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="ее
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Актриса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 0 [label="предик"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+			13 -> 22 [label="соч_союзн"]
+			21 -> 20 [label="огранич"]
+			22 -> 17 [label="предик"]
+			22 -> 19 [label="обст"]
+			22 -> 21 [label="предик"]
+			6 -> 5 [label="опред"]
+			2 -> 3 [label="предл"]
+			0 -> 2 [label="атриб"]
+			0 -> 6 [label="сочин"]
+			17 -> 14 [label="предик"]
+			17 -> 15 [label="огранич"]
+			17 -> 16 [label="квазиагент"]
+}

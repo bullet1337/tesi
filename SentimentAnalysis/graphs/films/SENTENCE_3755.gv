@@ -1,0 +1,36 @@
+digraph SENTENCE_3755 {
+	graph [label="Видимо, авторам просто неохота было вникать, как там работают в ДЮСШ."]
+	node [style=filled]
+		0 [label="Видимо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="авторам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неохота
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вникать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="работают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ДЮСШ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="вводн"]
+			5 -> 4 [label="присвяз"]
+			5 -> 6 [label="предик"]
+			6 -> 8 [label="сравнит"]
+			4 -> 2 [label="дат_субъект"]
+			4 -> 3 [label="огранич"]
+			8 -> 10 [label="сравн_союзн"]
+			10 -> 9 [label="обст"]
+			10 -> 11 [label="обст"]
+			11 -> 12 [label="предл"]
+}

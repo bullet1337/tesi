@@ -1,0 +1,27 @@
+digraph SENTENCE_4266 {
+	graph [label="Очнитесь, репостеры, у вас должно быть своё мнение!"]
+	node [style=filled]
+		0 [label="Очнитесь
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="репостеры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="должно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мнение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			6 -> 4 [label="обст"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="предик"]
+			0 -> 2 [label="предик"]
+			0 -> 6 [label="сент_соч"]
+			9 -> 8 [label="опред"]
+}

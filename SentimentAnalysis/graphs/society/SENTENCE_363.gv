@@ -1,0 +1,48 @@
+digraph SENTENCE_363 {
+	graph [label="Многотысячный митинг Народной воли (до 30 тысяч участников) состоялся в Севастополе 23 февраля 2014 года."]
+	node [style=filled]
+		0 [label="Многотысячный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="митинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Народной
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="воли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="30
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="участников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="состоялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Севастополе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="23
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="2014
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="атриб"]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="атриб"]
+			1 -> 5 [label="атриб"]
+			11 -> 12 [label="предл"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="квазиагент"]
+			5 -> 7 [label="предл"]
+			13 -> 14 [label="атриб"]
+			10 -> 1 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 13 [label="обст"]
+			3 -> 2 [label="опред"]
+			16 -> 15 [label="опред"]
+}

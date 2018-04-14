@@ -1,0 +1,27 @@
+digraph SENTENCE_4996 {
+	graph [label="P. S.: Упомянутым мной выше японцам фильм понравился."]
+	node [style=filled]
+		0 [label="P
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="S
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Упомянутым
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="мной
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выше
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="японцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="понравился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="агент"]
+			5 -> 7 [label="обст"]
+			7 -> 8 [label="предл"]
+			10 -> 0 [label="предик"]
+			10 -> 5 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			0 -> 2 [label="аппоз"]
+}

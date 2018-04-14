@@ -1,0 +1,57 @@
+digraph SENTENCE_323 {
+	graph [label="На дискуссионных площадках речь пойдет о концепции продвижения региона, результатах применения инструментов развития ДФО, новых каналах доставки контента."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="дискуссионных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="площадках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="речь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пойдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="концепции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="продвижения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="результатах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="применения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="инструментов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ДФО
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="новых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="каналах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="доставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="контента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 17 [label="сочин"]
+			13 -> 14 [label="_1_компл"]
+			10 -> 11 [label="квазиагент"]
+			11 -> 12 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_несобст_компл"]
+			4 -> 10 [label="предик"]
+			17 -> 16 [label="опред"]
+			17 -> 18 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_390 {
+	graph [label="После взятия Антиохии персами мощи святого Игнатия Богоносца в VI веке были возвращены в Рим и положены в базилике святого Климента."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="взятия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Антиохии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="персами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Игнатия Богоносца
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="VI
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="веке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="возвращены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Рим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="положены
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="базилике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="святого
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Климента
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 0 [label="обст"]
+			10 -> 11
+			9 -> 8 [label="опред"]
+			17 -> 19 [label="аппоз"]
+			15 -> 16 [label="_2_компл"]
+			19 -> 18 [label="опред"]
+			12 -> 13 [label="предл"]
+			14 -> 15 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			0 -> 7 [label="сочин"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 3 [label="агент"]
+			1 -> 4 [label="_1_компл"]
+			1 -> 6 [label="атриб"]
+			7 -> 9 [label="предл"]
+			11 -> 12 [label="_3_компл"]
+			11 -> 14 [label="сочин"]
+			16 -> 17 [label="предл"]
+			6 -> 5 [label="опред"]
+}

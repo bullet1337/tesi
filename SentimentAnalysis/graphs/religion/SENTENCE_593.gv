@@ -1,0 +1,72 @@
+digraph SENTENCE_593 {
+	graph [label="При наступлении Нового года можно попросить ламу совершить обряд продления жизни: во время этого обряда лама призывает Будду долголетия Амитабху, который дарует долголетие."]
+	node [style=filled]
+		0 [label="При
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="наступлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Нового
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="попросить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ламу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="совершить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обряд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="продления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="обряда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="лама
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="призывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Будду
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="долголетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Амитабху
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="дарует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="долголетие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			17 -> 16 [label="предик"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 19 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="_4_компл"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="предик"]
+			4 -> 17 [label="разъяснит"]
+			15 -> 14 [label="опред"]
+			13 -> 15 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			19 -> 20 [label="аппоз"]
+			19 -> 23 [label="сент_соч"]
+			1 -> 3 [label="квазиагент"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="_2_компл"]
+			23 -> 22 [label="предик"]
+			23 -> 24 [label="_1_компл"]
+}

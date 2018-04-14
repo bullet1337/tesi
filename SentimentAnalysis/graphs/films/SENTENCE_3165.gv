@@ -1,0 +1,36 @@
+digraph SENTENCE_3165 {
+	graph [label="За всю грязь, в которой и утопили вашу Любовь, дорогие мои?"]
+	node [style=filled]
+		0 [label="За
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="грязь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="утопили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вашу
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Любовь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="дорогие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			4 -> 5 [label="предл"]
+			0 -> 2 [label="предл"]
+			9 -> 8 [label="опред"]
+			2 -> 1 [label="опред"]
+			7 -> 0 [label="обст"]
+			7 -> 4 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 12 [label="предик"]
+}

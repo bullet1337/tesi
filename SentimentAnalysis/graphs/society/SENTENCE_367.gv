@@ -1,0 +1,21 @@
+digraph SENTENCE_367 {
+	graph [label="Затем состоялся митинг на Площади Революции."]
+	node [style=filled]
+		0 [label="Затем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состоялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="митинг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Площади
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Революции
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="квазиагент"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="обст"]
+			1 -> 2 [label="предик"]
+			2 -> 3 [label="атриб"]
+}

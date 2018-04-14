@@ -1,0 +1,33 @@
+digraph SENTENCE_1237 {
+	graph [label="Путин пожелал успехов участникам форума и незабываемых впечатлений его гостям."]
+	node [style=filled]
+		0 [label="Путин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="пожелал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="успехов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участникам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="незабываемых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="впечатлений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="гостям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			4 -> 5 [label="сочин"]
+			5 -> 7 [label="соч_союзн"]
+			2 -> 3 [label="сочин"]
+			3 -> 4 [label="_1_компл"]
+			9 -> 8 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+}

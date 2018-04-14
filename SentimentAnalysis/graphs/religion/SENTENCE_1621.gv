@@ -1,0 +1,57 @@
+digraph SENTENCE_1621 {
+	graph [label="Помимо всем известной традиции выпекания блинов, Масленица знаменита и сжиганием чучела зимы – об этом обряде знают 58% россиян."]
+	node [style=filled]
+		0 [label="Помимо
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="известной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выпекания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="блинов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Масленица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="знаменита
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сжиганием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чучела
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="зимы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обряде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="58
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="россиян
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="предл"]
+			8 -> 9 [label="сочин"]
+			8 -> 11 [label="предик"]
+			8 -> 12 [label="_1_компл"]
+			20 -> 18 [label="количест"]
+			9 -> 10 [label="соч_союзн"]
+			7 -> 0 [label="обст"]
+			7 -> 4 [label="предик"]
+			7 -> 8 [label="разъяснит"]
+			7 -> 17 [label="сент_соч"]
+			16 -> 15 [label="опред"]
+			3 -> 2 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			14 -> 16 [label="предл"]
+			17 -> 14 [label="_2_компл"]
+			17 -> 20 [label="предик"]
+			2 -> 1 [label="_1_компл"]
+}

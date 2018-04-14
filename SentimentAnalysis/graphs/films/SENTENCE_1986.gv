@@ -1,0 +1,26 @@
+digraph SENTENCE_1986 {
+	graph [label="Особенно сейчас, когда восприятие подпорчено современным рваным монтажом."]
+	node [style=filled]
+		0 [label="Особенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="восприятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подпорчено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="современным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рваным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="монтажом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="подч_союзн"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			1 -> 0 [label="огранич"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="агент"]
+}

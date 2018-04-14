@@ -1,0 +1,21 @@
+digraph SENTENCE_80 {
+	graph [label="Ордена закрепят на знаменах воинских подразделений."]
+	node [style=filled]
+		0 [label="Ордена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="закрепят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="знаменах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="воинских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подразделений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="обст"]
+			5 -> 4 [label="опред"]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+}

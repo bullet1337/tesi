@@ -1,0 +1,24 @@
+digraph SENTENCE_1260 {
+	graph [label="Отдельного упоминания стоят музыкальные вставки в фильме."]
+	node [style=filled]
+		0 [label="Отдельного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="упоминания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стоят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="музыкальные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вставки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="предик"]
+			2 -> 4 [label="_1_компл"]
+			1 -> 0 [label="опред"]
+			5 -> 6 [label="предл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="атриб"]
+}

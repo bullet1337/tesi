@@ -1,0 +1,30 @@
+digraph SENTENCE_1659 {
+	graph [label="Он цепляется за твою душу и уже не отпускает."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="цепляется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="твою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="душу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="отпускает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="предл"]
+			5 -> 8 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="сочин"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1539 {
+	graph [label="И я не хочу растрачиваться на мужчину…  Заметили вы чёрствость и микро-предательство со стороны Сельмы?"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="растрачиваться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мужчину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Заметили
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чёрствость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="микро-предательство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="со
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="стороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 13 [label="атриб"]
+			11 -> 12 [label="соч_союзн"]
+			14 -> 15 [label="квазиагент"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="вводн"]
+			4 -> 5 [label="_2_компл"]
+			13 -> 14 [label="предл"]
+			5 -> 6 [label="предл"]
+			10 -> 11 [label="сочин"]
+			8 -> 9 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			0 -> 3 [label="соч_союзн"]
+}

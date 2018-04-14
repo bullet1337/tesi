@@ -1,0 +1,23 @@
+digraph SENTENCE_2085 {
+	graph [label="Лейтмотивом проходит этот тезис сквозь всю картину."]
+	node [style=filled]
+		0 [label="Лейтмотивом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="проходит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тезис
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сквозь
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всю
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+}

@@ -1,0 +1,63 @@
+digraph SENTENCE_1406 {
+	graph [label="На фоне усиления правых радикалов по всей Европе есть опасения, что вопрос об обрезании послужит одним из поводов для погромов."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фоне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="усиления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="правых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="радикалов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Европе
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="опасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="обрезании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="послужит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="поводов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="погромов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			2 -> 4 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+			18 -> 19 [label="_1_компл"]
+			1 -> 2 [label="квазиагент"]
+			4 -> 3 [label="опред"]
+			11 -> 15 [label="подч_союзн"]
+			17 -> 18 [label="предл"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+			12 -> 13 [label="_1_компл"]
+			9 -> 11 [label="_1_компл"]
+			15 -> 12 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			13 -> 14 [label="предл"]
+			8 -> 0 [label="обст"]
+			8 -> 5 [label="вводн"]
+			8 -> 9 [label="предик"]
+			16 -> 17 [label="электив"]
+}

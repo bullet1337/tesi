@@ -1,0 +1,43 @@
+digraph SENTENCE_1731 {
+	graph [label="У нас есть много возможностей художественного выражения, но показать время практически невозможно\", — пояснил режиссер."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="возможностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="художественного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выражения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="пояснил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="предл"]
+			8 -> 12 [label="соч_союзн"]
+			8 -> 16 [label="вводн"]
+			3 -> 4 [label="_1_компл"]
+			16 -> 17 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			12 -> 9 [label="предик"]
+			12 -> 11 [label="огранич"]
+}

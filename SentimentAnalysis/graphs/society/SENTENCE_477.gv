@@ -1,0 +1,33 @@
+digraph SENTENCE_477 {
+	graph [label="На Первом канале 5 марта в 01.10\", — говорится в сообщении."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="Первом
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="канале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="01.10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="говорится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="предл"]
+			10 -> 0 [label="обст"]
+			10 -> 3 [label="предик"]
+			10 -> 11 [label="обст"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="атриб"]
+			3 -> 5 [label="уточн"]
+}

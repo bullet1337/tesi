@@ -1,0 +1,21 @@
+digraph SENTENCE_1517 {
+	graph [label="Тогда он не заявлял ничего подобного."]
+	node [style=filled]
+		0 [label="Тогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заявлял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="подобного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="_1_компл"]
+			4 -> 5 [label="опред"]
+}

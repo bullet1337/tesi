@@ -1,0 +1,45 @@
+digraph SENTENCE_564 {
+	graph [label="Росстат планирует поднять тему обязательного участия граждан в переписи населения, сообщил глава ведомства Александр Суринов."]
+	node [style=filled]
+		0 [label="Росстат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="планирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поднять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тему
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обязательного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="участия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="граждан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="переписи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="населения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ведомства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Александр Суринов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="сент_соч"]
+			1 -> 11 [label="вводн"]
+			2 -> 3 [label="_1_компл"]
+			11 -> 12 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="аппоз"]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 7 [label="_1_компл"]
+}

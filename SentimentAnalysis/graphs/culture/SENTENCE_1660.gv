@@ -1,0 +1,54 @@
+digraph SENTENCE_1660 {
+	graph [label="Автором и исполнителем главной песни к фильму \"2 минуты жизни\" стал известный российский музыкант и композитор Леонид Агутин."]
+	node [style=filled]
+		0 [label="Автором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнителем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="главной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="песни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="минуты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="российский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="композитор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Леонид Агутин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 8 [label="количест"]
+			9 -> 10 [label="квазиагент"]
+			16 -> 17 [label="соч_союзн"]
+			0 -> 1 [label="сочин"]
+			0 -> 4 [label="_1_компл"]
+			0 -> 5 [label="атриб"]
+			0 -> 9 [label="примыкат"]
+			1 -> 2 [label="соч_союзн"]
+			4 -> 3 [label="опред"]
+			17 -> 18 [label="аппоз"]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+			12 -> 0 [label="присвяз"]
+			12 -> 15 [label="предик"]
+			5 -> 6 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_1534 {
+	graph [label="Но я любой ценой готова спасать своё будущее в виде будущего моего ребёнка."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="любой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="готова
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спасать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будущее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="виде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="будущего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="моего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ребёнка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="_2_компл"]
+			7 -> 6 [label="опред"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			9 -> 12 [label="квазиагент"]
+			8 -> 9 [label="предл"]
+}

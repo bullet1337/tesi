@@ -1,0 +1,51 @@
+digraph SENTENCE_291 {
+	graph [label="\"Недавно на факультете иностранных языков одного из университетов я спросил у студента: \"Кто написал \"Божественную комедию\"?"]
+	node [style=filled]
+		1 [label="Недавно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="факультете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="иностранных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="языков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="университетов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="спросил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="студента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Кто
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="написал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Божественную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="комедию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="электив"]
+			7 -> 8 [label="предл"]
+			3 -> 5 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			11 -> 12 [label="предл"]
+			2 -> 3 [label="предл"]
+			10 -> 1 [label="обст"]
+			10 -> 2 [label="обст"]
+			10 -> 6 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_2_компл"]
+			10 -> 16 [label="разъяснит"]
+			16 -> 15 [label="предик"]
+			16 -> 19 [label="_1_компл"]
+			19 -> 18 [label="опред"]
+}

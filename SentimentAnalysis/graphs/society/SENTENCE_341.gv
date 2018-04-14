@@ -1,0 +1,42 @@
+digraph SENTENCE_341 {
+	graph [label="В тот же день врач-терапевт в городской клинической больнице №4 расскажет об анемии."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="врач-терапевт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="городской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="клинической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="больнице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="расскажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="анемии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="огранич"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 10 [label="нум_аппоз"]
+			0 -> 3 [label="предл"]
+			12 -> 13 [label="предл"]
+			4 -> 5 [label="атриб"]
+			11 -> 0 [label="обст"]
+			11 -> 4 [label="предик"]
+			11 -> 12 [label="_3_компл"]
+			5 -> 8 [label="предл"]
+			3 -> 1 [label="опред"]
+}

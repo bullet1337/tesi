@@ -1,0 +1,81 @@
+digraph SENTENCE_685 {
+	graph [label="Макет является точной копией оригинального летательного аппарата, который был выведен на орбиту 4 октября 1957 года с полигона Тюра-Там, известного как космодром Байконур, уточняется в сообщении."]
+	node [style=filled]
+		0 [label="Макет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="является
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="точной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="копией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="оригинального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="летательного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="аппарата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="выведен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="орбиту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="4
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="октября
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="1957
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="полигона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Тюра-Там
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="известного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="космодром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Байконур
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="уточняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="сообщении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			13 -> 14 [label="атриб"]
+			12 -> 13 [label="атриб"]
+			3 -> 2 [label="опред"]
+			3 -> 6 [label="_1_компл"]
+			23 -> 24 [label="аппоз"]
+			10 -> 11 [label="_2_компл"]
+			14 -> 16 [label="атриб"]
+			14 -> 21 [label="опред"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			11 -> 12 [label="предл"]
+			21 -> 17 [label="_1_компл"]
+			21 -> 19 [label="огранич"]
+			21 -> 22 [label="_2_компл"]
+			22 -> 23 [label="сравн_союзн"]
+			26 -> 27 [label="обст"]
+			17 -> 18 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10
+			9 -> 26 [label="сент_соч"]
+			27 -> 28 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 9 [label="сент_соч"]
+}

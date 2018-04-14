@@ -1,0 +1,54 @@
+digraph SENTENCE_1466 {
+	graph [label="С 19 по 21 февраля в Российском доме науки и культуры в Берлине также пройдут дни \"Ленфильма\"."]
+	node [style=filled]
+		0 [label="С
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="19
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="21
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Российском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="доме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="науки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="культуры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="пройдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Ленфильма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 6 [label="опред"]
+			10 -> 11 [label="атриб"]
+			3 -> 4 [label="атриб"]
+			9 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="соотнос"]
+			0 -> 8 [label="сочин"]
+			8 -> 5 [label="огранич"]
+			8 -> 9 [label="сочин"]
+			5 -> 7 [label="предл"]
+			11 -> 12 [label="предл"]
+			14 -> 0 [label="предик"]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			15 -> 17 [label="квазиагент"]
+}

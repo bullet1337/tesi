@@ -1,0 +1,36 @@
+digraph SENTENCE_157 {
+	graph [label="Это одна из приоритетных задач исследований нашего факультета и кафедры социологии."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="одна
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приоритетных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="задач
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исследований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нашего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="факультета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="кафедры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="социологии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="электив"]
+			2 -> 4 [label="предл"]
+			9 -> 10 [label="_1_компл"]
+			5 -> 7 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="сочин"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			8 -> 9 [label="соч_союзн"]
+}

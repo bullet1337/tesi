@@ -1,0 +1,39 @@
+digraph SENTENCE_1935 {
+	graph [label="Можно много говорит об этом фильме, каждый должен сам посмотреть и оценить."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="каждый
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="должен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="оценить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="вводн"]
+			0 -> 2 [label="предик"]
+			0 -> 8 [label="разъяснит"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="суб_копр"]
+			10 -> 11 [label="сочин"]
+			3 -> 5 [label="предл"]
+			11 -> 12 [label="соч_союзн"]
+			5 -> 4 [label="опред"]
+			2 -> 3 [label="_3_компл"]
+}

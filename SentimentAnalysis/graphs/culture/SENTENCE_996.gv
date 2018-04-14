@@ -1,0 +1,45 @@
+digraph SENTENCE_996 {
+	graph [label="По окончании фестиваля 26 февраля маэстро Гергиев даст еще один концерт с Мюнхенским оркестром."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="окончании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="26
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="маэстро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Гергиев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="даст
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="один
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="концерт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Мюнхенским
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="оркестром
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="атриб"]
+			1 -> 2 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			11 -> 13 [label="предл"]
+			13 -> 12 [label="опред"]
+			3 -> 4 [label="атриб"]
+			0 -> 1 [label="предл"]
+			7 -> 0 [label="вводн"]
+			7 -> 3 [label="обст"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			7 -> 10 [label="_1_компл"]
+}

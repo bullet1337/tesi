@@ -1,0 +1,45 @@
+digraph SENTENCE_310 {
+	graph [label="Согласно закону, наказанию подлежит тот, кто \"публично, вопреки фактам, отрицает\" перечисленные в нем преступления."]
+	node [style=filled]
+		0 [label="Согласно
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="закону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="наказанию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подлежит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="публично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вопреки
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="фактам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="отрицает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="перечисленные
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="преступления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			19 -> 16 [label="опред"]
+			14 -> 7 [label="предик"]
+			14 -> 9 [label="обст"]
+			14 -> 11 [label="обст"]
+			14 -> 19 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			17 -> 18 [label="предл"]
+			5 -> 14 [label="релят"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 5 [label="предик"]
+			11 -> 12 [label="предл"]
+			16 -> 17 [label="обст"]
+}

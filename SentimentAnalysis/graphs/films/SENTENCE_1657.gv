@@ -1,0 +1,21 @@
+digraph SENTENCE_1657 {
+	graph [label="Смотреть или слушать сердцем, решать вам."]
+	node [style=filled]
+		0 [label="Смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="слушать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сердцем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="решать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			1 -> 2 [label="соч_союзн"]
+			0 -> 1 [label="сочин"]
+			0 -> 5 [label="_1_компл"]
+}

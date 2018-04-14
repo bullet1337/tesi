@@ -1,0 +1,54 @@
+digraph SENTENCE_4694 {
+	graph [label="Под конец я стал уже гладить Годзиллу по хвостику — не плачь милая, скоро этот бездарь уже успокоится."]
+	node [style=filled]
+		0 [label="Под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="конец
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="гладить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Годзиллу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="хвостику
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="плачь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="милая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="скоро
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="бездарь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="успокоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 7 [label="обст"]
+			18 -> 16 [label="_1_компл"]
+			18 -> 17 [label="огранич"]
+			3 -> 0 [label="обст"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="_1_компл"]
+			3 -> 11 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="вводн"]
+			11 -> 14 [label="обст"]
+			11 -> 18 [label="сент_соч"]
+			16 -> 15 [label="опред"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_5001 {
+	graph [label="2) Зачем, зная, что гнус излучает импульс, всё равно посылать к нему истребителей и др."]
+	node [style=filled]
+		0 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Зачем
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="зная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гнус
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="излучает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="импульс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="равно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="посылать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="истребителей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="др
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			4 -> 0
+			4 -> 2 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			16 -> 17 [label="сочин"]
+			12 -> 4 [label="обст"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="предик"]
+			17 -> 18 [label="соч_союзн"]
+			13 -> 14 [label="_4_компл"]
+			13 -> 16 [label="_1_компл"]
+			6 -> 8 [label="подч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+}

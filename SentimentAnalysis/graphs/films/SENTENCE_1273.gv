@@ -1,0 +1,31 @@
+digraph SENTENCE_1273 {
+	graph [label="Вопрос, вопрос, вопрос… Что же именно он сделал — смотрите кино."]
+	node [style=filled]
+		0 [label="Вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Что
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сделал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 6 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			9 -> 8 [label="огранич"]
+			12 -> 13 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			4 -> 10 [label="_1_компл"]
+			6 -> 7 [label="огранич"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_4415 {
+	graph [label="выведи их к нам; мы познаем их.» (Быт., гл."]
+	node [style=filled]
+		0 [label="выведи
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="познаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Быт
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="гл
+UNKN" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 14 [label="сочин"]
+			2 -> 3 [label="предл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 1 [label="_1_компл"]
+			0 -> 2 [label="_2_компл"]
+			0 -> 6 [label="_1_компл"]
+			0 -> 11 [label="сочин"]
+}

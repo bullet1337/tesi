@@ -1,0 +1,72 @@
+digraph SENTENCE_624 {
+	graph [label="В качестве ответчиков, по словам адвоката, выступят Министерство здравоохранения Пермского края, Минздрав и Министерство финансов России, правительство Пермского края и Пожвинская участковая больница."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="качестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ответчиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="адвоката
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выступят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Министерство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="здравоохранения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Пермского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Минздрав
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Министерство
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="финансов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="правительство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Пермского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="края
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Пожвинская
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="участковая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="больница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="обст"]
+			8 -> 4 [label="обст"]
+			8 -> 9 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 12 [label="квазиагент"]
+			9 -> 14 [label="_1_компл"]
+			9 -> 20 [label="сочин"]
+			20 -> 22 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+			12 -> 11 [label="опред"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			5 -> 6 [label="квазиагент"]
+			4 -> 5 [label="предл"]
+			22 -> 21 [label="опред"]
+			22 -> 23 [label="сочин"]
+			16 -> 17 [label="_1_компл"]
+			16 -> 18 [label="неакт_компл"]
+			26 -> 24 [label="опред"]
+			26 -> 25 [label="опред"]
+			14 -> 15 [label="сочин"]
+			23 -> 26 [label="соч_союзн"]
+}

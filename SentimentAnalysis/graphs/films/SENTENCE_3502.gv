@@ -1,0 +1,33 @@
+digraph SENTENCE_3502 {
+	graph [label="Ни холодно ни горячо, в меру кисло в меру сладко."]
+	node [style=filled]
+		0 [label="Ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="холодно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="горячо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кисло
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="меру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сладко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="предл"]
+			10 -> 0 [label="огранич"]
+			10 -> 7 [label="огранич"]
+			10 -> 8 [label="обст"]
+			7 -> 1 [label="обст"]
+			7 -> 5 [label="обст"]
+			1 -> 2 [label="сочин"]
+			5 -> 6 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+}

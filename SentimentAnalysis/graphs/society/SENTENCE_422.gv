@@ -1,0 +1,48 @@
+digraph SENTENCE_422 {
+	graph [label="На кадрах видно, что у него исчезли усы, а также изменилась форма носа и подбородка."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кадрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="видно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="исчезли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="усы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="изменилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="форма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="носа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="подбородка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="огранич"]
+			12 -> 13 [label="предик"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			10 -> 12 [label="соч_союзн"]
+			14 -> 15 [label="сочин"]
+			4 -> 7 [label="подч_союзн"]
+			2 -> 0 [label="обст"]
+			2 -> 4 [label="предик"]
+			5 -> 6 [label="предл"]
+			13 -> 14 [label="квазиагент"]
+			7 -> 5 [label="_1_компл"]
+			7 -> 8 [label="предик"]
+			7 -> 10 [label="сент_соч"]
+}

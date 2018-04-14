@@ -1,0 +1,45 @@
+digraph SENTENCE_1682 {
+	graph [label="В гениальности Бьорк как актрисы я убедилась окончательно, когда смотрела фильм в третий раз."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="гениальности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="актрисы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="убедилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="окончательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="смотрела
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			6 -> 9 [label="обст"]
+			3 -> 4 [label="сравн_союзн"]
+			14 -> 13 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="сравнит"]
+			2 -> 6 [label="разъяснит"]
+			9 -> 10 [label="подч_союзн"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="обст"]
+			0 -> 1 [label="предл"]
+			12 -> 14 [label="предл"]
+}

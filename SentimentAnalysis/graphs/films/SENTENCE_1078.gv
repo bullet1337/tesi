@@ -1,0 +1,39 @@
+digraph SENTENCE_1078 {
+	graph [label="Можно даже вспомнить «Рассекая волны» где женщина ради любви готова на всё."]
+	node [style=filled]
+		0 [label="Можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вспомнить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Рассекая
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="волны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="женщина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ради
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="любви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="готова
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="всё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			2 -> 4 [label="обст"]
+			9 -> 10 [label="предл"]
+			0 -> 2 [label="предик"]
+			12 -> 13 [label="предл"]
+			8 -> 9 [label="атриб"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 11 [label="_2_компл"]
+			11 -> 7 [label="обст"]
+			11 -> 8 [label="предик"]
+			11 -> 12 [label="_1_компл"]
+}

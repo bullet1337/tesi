@@ -1,0 +1,30 @@
+digraph SENTENCE_3756 {
+	graph [label="Вообще на протяжении всего просмотра возникает какое-то ощущение абсурдности."]
+	node [style=filled]
+		0 [label="Вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="протяжении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="просмотра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="возникает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="какое-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ощущение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="абсурдности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			2 -> 4 [label="квазиагент"]
+			5 -> 0 [label="вводн"]
+			5 -> 1 [label="_2_компл"]
+			5 -> 7 [label="предик"]
+			1 -> 2 [label="предл"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+}

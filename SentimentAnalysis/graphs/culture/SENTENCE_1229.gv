@@ -1,0 +1,48 @@
+digraph SENTENCE_1229 {
+	graph [label="Соответственно, такой компании есть о чем говорить, о чем дружить и ловить моменты\", — отметил он."]
+	node [style=filled]
+		0 [label="Соответственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чем
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="говорить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дружить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ловить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="моменты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="сочин"]
+			3 -> 2 [label="опред"]
+			4 -> 0 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 7 [label="предик"]
+			4 -> 18 [label="вводн"]
+			13 -> 14 [label="_1_компл"]
+			18 -> 9 [label="_2_компл"]
+			18 -> 11 [label="_1_компл"]
+			18 -> 19 [label="предик"]
+			12 -> 13 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			5 -> 6 [label="предл"]
+			7 -> 5 [label="_3_компл"]
+}

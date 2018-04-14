@@ -1,0 +1,30 @@
+digraph SENTENCE_635 {
+	graph [label="Во всех трех случаях суд встал на сторону потерпевших."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="трех
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="случаях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="суд
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="встал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сторону
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="потерпевших
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="количест"]
+			7 -> 8 [label="квазиагент"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_2_компл"]
+			6 -> 7 [label="предл"]
+			0 -> 3 [label="предл"]
+}

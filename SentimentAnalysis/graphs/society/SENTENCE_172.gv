@@ -1,0 +1,57 @@
+digraph SENTENCE_172 {
+	graph [label="Производители сыров Липецкой области презентовали \"Сырную карту\" региона в деревне Масловка Данковского района, сообщает пресс-служба администрации Липецкой области."]
+	node [style=filled]
+		0 [label="Производители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сыров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="презентовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сырную
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="карту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="региона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="деревне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Масловка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Данковского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="района
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сообщает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="пресс-служба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="администрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Липецкой
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="области
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			1 -> 3 [label="атриб"]
+			7 -> 6 [label="опред"]
+			14 -> 13 [label="опред"]
+			10 -> 11 [label="предл"]
+			4 -> 0 [label="предик"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 9 [label="обст"]
+			4 -> 10 [label="обст"]
+			4 -> 16 [label="вводн"]
+			16 -> 17 [label="предик"]
+			3 -> 2 [label="опред"]
+			20 -> 19 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			17 -> 18 [label="квазиагент"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="атриб"]
+}

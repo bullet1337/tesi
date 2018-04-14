@@ -1,0 +1,18 @@
+digraph SENTENCE_4113 {
+	graph [label="Фильм к просмотру не рекомендую."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просмотру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рекомендую
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			4 -> 0 [label="_1_компл"]
+			4 -> 1 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+}

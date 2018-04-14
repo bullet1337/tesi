@@ -1,0 +1,36 @@
+digraph SENTENCE_364 {
+	graph [label="Говорят, не меняются люди, меняется путь, что они идут по жизни\"."]
+	node [style=filled]
+		0 [label="Говорят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="меняются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="меняется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="путь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="идут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			9 -> 11 [label="подч_союзн"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 6 [label="сент_соч"]
+			6 -> 7 [label="предик"]
+			6 -> 9 [label="_1_компл"]
+			0 -> 3 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+}

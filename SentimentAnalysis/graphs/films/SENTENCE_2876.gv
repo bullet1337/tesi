@@ -1,0 +1,18 @@
+digraph SENTENCE_2876 {
+	graph [label="И это далеко не комплимент."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="комплимент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 4 [label="соч_союзн"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			3 -> 2 [label="огранич"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_181 {
+	graph [label="Это музыкант, ставший открытием ХV Международного конкурса имени Чайковского 2015 года."]
+	node [style=filled]
+		0 [label="Это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="музыкант
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ставший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="открытием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ХV
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Международного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="конкурса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Чайковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="присвяз"]
+			9 -> 11 [label="атриб"]
+			4 -> 5 [label="примыкат"]
+			8 -> 9 [label="квазиагент"]
+			5 -> 7 [label="атриб"]
+			11 -> 10 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+}

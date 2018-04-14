@@ -1,0 +1,60 @@
+digraph SENTENCE_781 {
+	graph [label="Девочка сбегает от тирании отца, предварительно разослав с его компьютера всем живущим на Земле информацию с датой их смерти."]
+	node [style=filled]
+		0 [label="Девочка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сбегает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="тирании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="предварительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="разослав
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="компьютера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="живущим
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Земле
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="информацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="датой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="смерти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="_1_компл"]
+			2 -> 3 [label="предл"]
+			13 -> 14 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 7 [label="обст"]
+			10 -> 9 [label="квазиагент"]
+			10 -> 12 [label="опред"]
+			8 -> 10 [label="предл"]
+			12 -> 11 [label="суб_копр"]
+			12 -> 13 [label="_1_компл"]
+			3 -> 4 [label="квазиагент"]
+			19 -> 18 [label="квазиагент"]
+			17 -> 19 [label="квазиагент"]
+			16 -> 17 [label="предл"]
+			7 -> 6 [label="обст"]
+			7 -> 8 [label="_2_компл"]
+			7 -> 15 [label="_1_компл"]
+}

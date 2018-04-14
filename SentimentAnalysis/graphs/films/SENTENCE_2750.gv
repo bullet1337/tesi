@@ -1,0 +1,33 @@
+digraph SENTENCE_2750 {
+	graph [label="Блейд-раннер Кей в исполнении Гослинга, раскапывает, что андроид смог родить ребёнка."]
+	node [style=filled]
+		0 [label="Блейд-раннер Кей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Гослинга
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="раскапывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="андроид
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="смог
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="родить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ребёнка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 9 [label="подч_союзн"]
+			1 -> 2 [label="предл"]
+			9 -> 8 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			0 -> 1 [label="атриб"]
+			5 -> 0 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			10 -> 11 [label="_1_компл"]
+}

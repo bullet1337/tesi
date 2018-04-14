@@ -1,0 +1,7 @@
+digraph SENTIMENT_GRAPH {
+rankdir=LR
+	"сильно" [label="сильно" fillcolor=green style=filled]
+		"сильно" -> "мощно" [label=<<font color="green">[(2, 2)]</font><font color="red">[]</font>W=1> color=green]
+	"мощно" [label="мощно" fillcolor=green style=filled]
+		"мощно" -> "сильно" [label=<<font color="green">[(2, 2)]</font><font color="red">[]</font>W=1> color=green]
+}

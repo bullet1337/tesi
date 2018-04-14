@@ -1,0 +1,21 @@
+digraph SENTENCE_1018 {
+	graph [label="Сегодня в Кизляре объявлен день траура."]
+	node [style=filled]
+		0 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Кизляре
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="объявлен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="траура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="квазиагент"]
+			3 -> 0 [label="обст"]
+			3 -> 1 [label="обст"]
+			3 -> 4 [label="предик"]
+			1 -> 2 [label="предл"]
+}

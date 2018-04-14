@@ -1,0 +1,30 @@
+digraph SENTENCE_220 {
+	graph [label="Ситуация остается под контролем Мизурской администрации\", — добавили в ведомстве."]
+	node [style=filled]
+		0 [label="Ситуация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="остается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="контролем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Мизурской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="администрации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="добавили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="ведомстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="присвяз"]
+			1 -> 9 [label="сочин"]
+			2 -> 3 [label="предл"]
+			3 -> 5 [label="квазиагент"]
+			5 -> 4 [label="опред"]
+			9 -> 10 [label="_2_компл"]
+			10 -> 11 [label="предл"]
+}

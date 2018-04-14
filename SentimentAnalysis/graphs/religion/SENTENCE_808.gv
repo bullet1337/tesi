@@ -1,0 +1,62 @@
+digraph SENTENCE_808 {
+	graph [label="Пережившая расцвет в начале ХХ века, когда сюда к знаменитым старцам ежедневно приезжали сотни паломников, при советской власти она была закрыта."]
+	node [style=filled]
+		0 [label="Пережившая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="расцвет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ХХ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="знаменитым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="старцам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ежедневно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="приезжали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сотни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="паломников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="советской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="власти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="закрыта
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="атриб"]
+			2 -> 3 [label="предл"]
+			13 -> 12 [label="обст"]
+			13 -> 14 [label="предик"]
+			17 -> 19 [label="предл"]
+			19 -> 18 [label="опред"]
+			3 -> 5 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="релят"]
+			21 -> 17 [label="обст"]
+			21 -> 20 [label="предик"]
+			21 -> 22
+			14 -> 15 [label="квазиагент"]
+			9 -> 11 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+}

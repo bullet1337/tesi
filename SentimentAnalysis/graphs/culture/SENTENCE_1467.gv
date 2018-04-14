@@ -1,0 +1,63 @@
+digraph SENTENCE_1467 {
+	graph [label="Там покажут исторический детектив о Гражданской войне \"Контрибуция\", фильм о блокаде \"Три дня до весны\", музыкальную мелодраму \"Птица\", киноальманах \"Петербург."]
+	node [style=filled]
+		0 [label="Там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="покажут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исторический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="детектив
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Гражданской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="войне
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Контрибуция
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="блокаде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Три
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="дня
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="весны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="музыкальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="мелодраму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Птица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="киноальманах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Петербург
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="предл"]
+			27 -> 29 [label="сочин"]
+			6 -> 5 [label="опред"]
+			8 -> 11 [label="сочин"]
+			24 -> 27 [label="сочин"]
+			22 -> 21 [label="опред"]
+			22 -> 24 [label="сочин"]
+			16 -> 15 [label="количест"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 16 [label="сочин"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 17 [label="обст"]
+			1 -> 22 [label="предик"]
+			12 -> 13 [label="предл"]
+			17 -> 18 [label="предл"]
+			3 -> 2 [label="опред"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 8 [label="сочин"]
+}

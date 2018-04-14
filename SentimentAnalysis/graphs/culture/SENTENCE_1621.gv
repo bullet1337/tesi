@@ -1,0 +1,34 @@
+digraph SENTENCE_1621 {
+	graph [label="По словам собеседника агентства, вручение \"Оскара\" Звягинцеву стало бы прекрасной новостью."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="собеседника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="агентства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вручение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Оскара
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="Звягинцеву
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="стало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="прекрасной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="новостью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			10 -> 11 [label="аналит"]
+			10 -> 13 [label="присвяз"]
+			2 -> 3 [label="_1_компл"]
+			5 -> 0 [label="вводн"]
+			5 -> 7 [label="квазиагент"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+}

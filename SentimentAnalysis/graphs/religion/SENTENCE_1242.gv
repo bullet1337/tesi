@@ -1,0 +1,30 @@
+digraph SENTENCE_1242 {
+	graph [label="Выражаем искренние соболезнования родным и близким погибших и пострадавших."]
+	node [style=filled]
+		0 [label="Выражаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="искренние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="соболезнования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="родным
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="близким
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="погибших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пострадавших
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			2 -> 3 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			3 -> 4 [label="сочин"]
+			6 -> 7 [label="сочин"]
+			4 -> 5 [label="соч_союзн"]
+			0 -> 2 [label="_1_компл"]
+}

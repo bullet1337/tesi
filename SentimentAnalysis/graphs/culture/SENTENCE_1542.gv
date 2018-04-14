@@ -1,0 +1,42 @@
+digraph SENTENCE_1542 {
+	graph [label="Его опережает только анимационная картина \"Остров собак\" Уэса Андерсона, которая открывала смотр в четверг."]
+	node [style=filled]
+		0 [label="Его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="опережает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="анимационная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="картина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Остров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Уэса Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="открывала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="смотр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="четверг
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 15 [label="предл"]
+			3 -> 2 [label="огранич"]
+			13 -> 14 [label="атриб"]
+			12 -> 11 [label="предик"]
+			12 -> 13 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 7 [label="аппоз"]
+			4 -> 9 [label="об_аппоз"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 4 [label="предик"]
+			1 -> 12 [label="сент_соч"]
+}

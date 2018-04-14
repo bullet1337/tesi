@@ -1,0 +1,24 @@
+digraph SENTENCE_4488 {
+	graph [label="И при этом Годзилла — это хороший парень!"]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="хороший
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="парень
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 3 [label="пролепт"]
+			0 -> 7 [label="соч_союзн"]
+			7 -> 1 [label="обст"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="опред"]
+			1 -> 2 [label="предл"]
+}

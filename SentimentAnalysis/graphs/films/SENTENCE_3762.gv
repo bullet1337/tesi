@@ -1,0 +1,54 @@
+digraph SENTENCE_3762 {
+	graph [label="Для детей это нормально, но такое ли это достойное занятие для взрослых, чтобы о нем фильм снимать?"]
+	node [style=filled]
+		0 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нормально
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="такое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="достойное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="занятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="взрослых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="снимать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="атриб"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="сент_соч"]
+			3 -> 10 [label="разъяснит"]
+			3 -> 14 [label="предик"]
+			5 -> 6 [label="соч_союзн"]
+			6 -> 7 [label="огранич"]
+			11 -> 12 [label="предл"]
+			0 -> 1 [label="предл"]
+			18 -> 15 [label="_3_компл"]
+			18 -> 17 [label="_1_компл"]
+			14 -> 18 [label="инф_союзн"]
+			15 -> 16 [label="предл"]
+}

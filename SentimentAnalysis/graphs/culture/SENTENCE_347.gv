@@ -1,0 +1,42 @@
+digraph SENTENCE_347 {
+	graph [label="Третий участник \"Центра\" Слим (Вадим Мотылев) заявил, что баттл — это продолжение истории самой группы."]
+	node [style=filled]
+		0 [label="Третий
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="участник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Центра
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Слим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Вадим Мотылев
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="баттл
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="продолжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="истории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="группы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 18 [label="сочин"]
+			5 -> 7 [label="аппоз"]
+			18 -> 17 [label="опред"]
+			11 -> 15 [label="подч_союзн"]
+			14 -> 12 [label="пролепт"]
+			9 -> 1 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			3 -> 5 [label="примыкат"]
+}

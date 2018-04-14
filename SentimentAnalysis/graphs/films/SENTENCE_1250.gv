@@ -1,0 +1,48 @@
+digraph SENTENCE_1250 {
+	graph [label="Если посмотреть «Танцующую в темноте», то у каждого в памяти отложится та или иная сцена."]
+	node [style=filled]
+		0 [label="Если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Танцующую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="каждого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="памяти
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отложится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="та
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="иная
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="сцена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 3 [label="суб_копр"]
+			13 -> 9 [label="_1_компл"]
+			13 -> 17 [label="предик"]
+			4 -> 5 [label="предл"]
+			0 -> 1 [label="инф_союзн"]
+			11 -> 12 [label="предл"]
+			9 -> 10 [label="предл"]
+			9 -> 11 [label="уточн"]
+			3 -> 4 [label="обст"]
+			3 -> 8 [label="огранич"]
+			1 -> 13 [label="_1_компл"]
+			15 -> 16 [label="соч_союзн"]
+			17 -> 14 [label="опред"]
+			14 -> 15 [label="сочин"]
+}

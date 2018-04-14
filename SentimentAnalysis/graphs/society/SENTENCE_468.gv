@@ -1,0 +1,60 @@
+digraph SENTENCE_468 {
+	graph [label="Кроме того, предусмотрена единовременная социальная выплата в размере 1,2 миллиона рублей при рождении или усыновлении троих и более детей."]
+	node [style=filled]
+		0 [label="Кроме
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="предусмотрена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="единовременная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="социальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="выплата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="размере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="1,2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="миллиона
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рублей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="рождении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="усыновлении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="троих
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			6 -> 12 [label="атриб"]
+			6 -> 19 [label="сочин"]
+			16 -> 17 [label="сочин"]
+			17 -> 18 [label="соч_союзн"]
+			10 -> 9 [label="количест"]
+			10 -> 11 [label="квазиагент"]
+			19 -> 16 [label="количест"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			3 -> 0 [label="вводн"]
+			3 -> 6 [label="предик"]
+			8 -> 10 [label="компл_аппоз"]
+			7 -> 8 [label="предл"]
+			12 -> 13 [label="предл"]
+}

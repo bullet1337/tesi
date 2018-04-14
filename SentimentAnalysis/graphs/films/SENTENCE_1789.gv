@@ -1,0 +1,48 @@
+digraph SENTENCE_1789 {
+	graph [label="Сегодня я увидел «Танцующую в темноте» и я ни разу не разочаровался в своей «тактике»."]
+	node [style=filled]
+		0 [label="Сегодня
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="увидел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Танцующую
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="темноте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="разу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="разочаровался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="тактике
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="обст"]
+			4 -> 8 [label="сочин"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 13 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			13 -> 4 [label="суб_копр"]
+			13 -> 11 [label="обст"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+			14 -> 17 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			17 -> 15 [label="опред"]
+			11 -> 10 [label="огранич"]
+}

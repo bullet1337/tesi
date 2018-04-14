@@ -1,0 +1,38 @@
+digraph SENTENCE_4572 {
+	graph [label="У этого самого голливуда уже есть совершенно потрясающий «Монстро», не требующий продолжения."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="самого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="голливуда
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="потрясающий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Монстро
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="требующий
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="продолжения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="обст"]
+			7 -> 13 [label="сочин"]
+			0 -> 3 [label="предл"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="_1_компл"]
+}

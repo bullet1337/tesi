@@ -1,0 +1,60 @@
+digraph SENTENCE_4949 {
+	graph [label="Честно говоря, хуже вообще не видел(не считая совсем уж низкобюджетный ширпотреб, на скорую руку конвертированный в 3D)."]
+	node [style=filled]
+		0 [label="Честно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="хуже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вообще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="видел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="считая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="совсем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="уж
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="низкобюджетный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ширпотреб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="скорую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="руку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="конвертированный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="D
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 4 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 9 [label="обст"]
+			12 -> 10 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			9 -> 13 [label="_1_компл"]
+			9 -> 15 [label="обст"]
+			9 -> 18 [label="_1_компл"]
+			1 -> 0 [label="обст"]
+			19 -> 21 [label="предл"]
+			17 -> 16 [label="опред"]
+			21 -> 20 [label="количест"]
+			15 -> 17 [label="предл"]
+			3 -> 1 [label="вводн"]
+			3 -> 6 [label="разъяснит"]
+			18 -> 19 [label="_3_компл"]
+			10 -> 11 [label="огранич"]
+			13 -> 12 [label="опред"]
+}

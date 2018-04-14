@@ -1,0 +1,39 @@
+digraph SENTENCE_1234 {
+	graph [label="Самой душераздирающей, мощной, откровенной киноленте из мною просмотренных хочется поставить «10000» из «10»."]
+	node [style=filled]
+		0 [label="Самой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="душераздирающей
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мощной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="откровенной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="киноленте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мною
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просмотренных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хочется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="поставить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="10000
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 1 [label="опред"]
+			6 -> 3 [label="опред"]
+			6 -> 5 [label="опред"]
+			7 -> 8 [label="предл"]
+			15 -> 17 [label="предл"]
+			1 -> 0 [label="опред"]
+			10 -> 11 [label="_2_компл"]
+			13 -> 15 [label="электив"]
+			11 -> 13 [label="_1_компл"]
+}

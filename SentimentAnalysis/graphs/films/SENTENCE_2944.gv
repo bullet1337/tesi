@@ -1,0 +1,66 @@
+digraph SENTENCE_2944 {
+	graph [label="Ну и далее братья отправляются исправлять ту самую неудачу… Где-то в середине основной сюжет распадается на составляющие, которые явно пошли перебором."]
+	node [style=filled]
+		0 [label="Ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="братья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отправляются
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="исправлять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="неудачу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Где-то
+ADVPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="середине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="основной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="распадается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="составляющие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="явно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="пошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="перебором
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 6 [label="опред"]
+			6 -> 7 [label="опред"]
+			1 -> 0 [label="вводн"]
+			1 -> 4 [label="соч_союзн"]
+			1 -> 15 [label="вводн"]
+			1 -> 21 [label="соч_союзн"]
+			16 -> 17 [label="предл"]
+			21 -> 16 [label="обст"]
+			21 -> 19 [label="предик"]
+			21 -> 20 [label="обст"]
+			21 -> 22 [label="обст"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			5 -> 8 [label="_1_компл"]
+			5 -> 11 [label="обст"]
+			12 -> 14 [label="квазиагент"]
+			14 -> 13 [label="опред"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="предл"]
+}

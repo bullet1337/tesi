@@ -1,0 +1,72 @@
+digraph SENTENCE_995 {
+	graph [label="По его словам, большая часть дополнительных средств будет направлена на оказание 141 пациенту высокотехнологичной медицинской помощи, которая не включена в базовую программу ОМС."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="словам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="большая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="часть
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дополнительных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="средств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="направлена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="оказание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="141
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пациенту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="высокотехнологичной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="медицинской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="включена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="базовую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="программу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="ОМС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 0 [label="вводн"]
+			8 -> 5 [label="предик"]
+			8 -> 9
+			8 -> 13 [label="предик"]
+			8 -> 20 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			0 -> 2 [label="предл"]
+			10 -> 11 [label="предл"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="квазиагент"]
+			23 -> 22 [label="опред"]
+			23 -> 24 [label="аппоз"]
+			21 -> 23 [label="предл"]
+			9 -> 10 [label="_4_компл"]
+			2 -> 1 [label="квазиагент"]
+			13 -> 12 [label="количест"]
+			13 -> 16 [label="атриб"]
+			16 -> 14 [label="опред"]
+			16 -> 15 [label="опред"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 21 [label="_2_компл"]
+}

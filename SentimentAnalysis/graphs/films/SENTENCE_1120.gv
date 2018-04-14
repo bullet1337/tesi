@@ -1,0 +1,112 @@
+digraph SENTENCE_1120 {
+	graph [label="Люди не всегда охотно подходят к картинам, которые очень тяжелые и не понятные, причина тому — сам режиссер, который слишком заигрывается из собственными идеями, и вкладывает в фильм то, что с первого раза может понять исключительно сам режиссер."]
+	node [style=filled]
+		0 [label="Люди
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="охотно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="подходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="картинам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="тяжелые
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="понятные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="причина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="слишком
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="заигрывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="собственными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="идеями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="вкладывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		37 [label="раза
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		39 [label="понять
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		40 [label="исключительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		41 [label="сам
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		42 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			29 -> 30 [label="_2_компл"]
+			2 -> 1 [label="огранич"]
+			28 -> 29 [label="соч_союзн"]
+			35 -> 37 [label="предл"]
+			30 -> 31 [label="предл"]
+			19 -> 23 [label="релят"]
+			34 -> 38 [label="подч_союзн"]
+			4 -> 0 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+			5 -> 6 [label="предл"]
+			37 -> 36 [label="опред"]
+			16 -> 18 [label="опред"]
+			13 -> 12 [label="огранич"]
+			11 -> 13 [label="соч_союзн"]
+			24 -> 26 [label="предл"]
+			26 -> 25 [label="опред"]
+			23 -> 21 [label="предик"]
+			23 -> 22 [label="огранич"]
+			23 -> 24 [label="_1_компл"]
+			23 -> 28 [label="сочин"]
+			38 -> 35 [label="обст"]
+			38 -> 39 [label="_1_компл"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="сочин"]
+			39 -> 42 [label="_1_компл"]
+			41 -> 40 [label="огранич"]
+			32 -> 19 [label="предик"]
+			32 -> 34 [label="эксплет"]
+			15 -> 10 [label="опред"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 32 [label="разъяснит"]
+			42 -> 41 [label="опред"]
+}

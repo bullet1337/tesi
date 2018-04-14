@@ -1,0 +1,30 @@
+digraph SENTENCE_1461 {
+	graph [label="В широкий прокат мультфильм выйдет только осенью 2018 года."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="широкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="мультфильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выйдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="осенью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="2018
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="атриб"]
+			0 -> 2 [label="предл"]
+			8 -> 7 [label="опред"]
+			2 -> 1 [label="опред"]
+}

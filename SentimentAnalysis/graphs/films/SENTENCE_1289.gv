@@ -1,0 +1,27 @@
+digraph SENTENCE_1289 {
+	graph [label="Ставлю  10 из 10  этому фильму без конца."]
+	node [style=filled]
+		0 [label="Ставлю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="этому
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="конца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="_1_компл"]
+			1 -> 2 [label="электив"]
+			5 -> 3 [label="количест"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			6 -> 7 [label="предл"]
+			2 -> 5 [label="предл"]
+}

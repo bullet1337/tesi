@@ -1,0 +1,66 @@
+digraph SENTENCE_1131 {
+	graph [label="В 2016 году патриарх Московский и всея Руси подписал обращение, призывающее запретить аборты на территории России, что вызвало острую общественную дискуссию."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="патриарх
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Московский
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всея
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Руси
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="подписал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обращение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="призывающее
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="запретить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="аборты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="территории
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="вызвало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="острую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="общественную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="дискуссию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="подч_союзн"]
+			11 -> 12 [label="_1_компл"]
+			4 -> 5 [label="сочин"]
+			3 -> 4 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			22 -> 20 [label="опред"]
+			22 -> 21 [label="опред"]
+			7 -> 6 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="обст"]
+			12 -> 18 [label="_1_компл"]
+			9 -> 11 [label="опред"]
+			14 -> 15 [label="предл"]
+			19 -> 22 [label="_1_компл"]
+			15 -> 16 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			5 -> 7 [label="соч_союзн"]
+}

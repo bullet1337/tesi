@@ -1,0 +1,36 @@
+digraph SENTENCE_3908 {
+	graph [label="Запомнился, кстати, монолог губернатора перед Алексом про «око за око», душевно."]
+	node [style=filled]
+		0 [label="Запомнился
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="кстати
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="монолог
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="губернатора
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Алексом
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="око
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="око
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="душевно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			8 -> 10 [label="предл"]
+			8 -> 11 [label="сочин"]
+			11 -> 12 [label="предл"]
+			11 -> 15 [label="сочин"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 6 [label="атриб"]
+			0 -> 2 [label="вводн"]
+			0 -> 4 [label="предик"]
+			0 -> 8 [label="разъяснит"]
+}

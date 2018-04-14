@@ -1,0 +1,33 @@
+digraph SENTENCE_139 {
+	graph [label="\"Не он приезжал к президентам, а президенты к нему домой."]
+	node [style=filled]
+		1 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="приезжал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="президентам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="президенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="домой
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="огранич"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="_2_компл"]
+			3 -> 7 [label="сент_соч"]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="вводн"]
+			7 -> 11 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			4 -> 5 [label="предл"]
+}

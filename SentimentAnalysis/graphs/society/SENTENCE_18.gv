@@ -1,0 +1,87 @@
+digraph SENTENCE_18 {
+	graph [label="Москвичам в ближайшие дни не стоит ждать весны, поскольку температура воздуха в первые дни марта будет ниже климатической нормы, сообщила РИА Новости главный специалист столичного метеобюро Татьяна Позднякова в понедельник."]
+	node [style=filled]
+		0 [label="Москвичам
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ближайшие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="стоит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ждать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="весны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поскольку
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="температура
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="воздуха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="первые
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ниже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="климатической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="нормы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сообщила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="главный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="специалист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="столичного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="метеобюро
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="Татьяна Позднякова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="понедельник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="предл"]
+			28 -> 29 [label="предл"]
+			24 -> 23 [label="опред"]
+			24 -> 26 [label="атриб"]
+			24 -> 27 [label="аппоз"]
+			9 -> 16 [label="подч_союзн"]
+			26 -> 25 [label="опред"]
+			5 -> 0 [label="_2_компл"]
+			5 -> 1 [label="обст"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предик"]
+			5 -> 21 [label="сент_соч"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 9 [label="обст"]
+			19 -> 18 [label="опред"]
+			16 -> 10 [label="предик"]
+			16 -> 17 [label="присвяз"]
+			21 -> 19 [label="предик"]
+			21 -> 22 [label="_2_компл"]
+			21 -> 24 [label="_3_компл"]
+			21 -> 28 [label="обст"]
+			1 -> 3 [label="предл"]
+			3 -> 2 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			10 -> 12 [label="атриб"]
+}

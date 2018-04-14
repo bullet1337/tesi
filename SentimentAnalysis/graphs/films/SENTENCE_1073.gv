@@ -1,0 +1,56 @@
+digraph SENTENCE_1073 {
+	graph [label="В принципе с председателями жюри можно согласится, однако хотелось бы всё разложить по полочкам если никто не против."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="принципе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="председателями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="согласится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="однако
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="разложить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="полочкам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="никто
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="против
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предик"]
+			5 -> 9 [label="сент_соч"]
+			3 -> 4 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			0 -> 2 [label="сочин"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="аналит"]
+			9 -> 11 [label="_2_компл"]
+			9 -> 12 [label="сочин"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 15 [label="обст"]
+			2 -> 3 [label="предл"]
+			18 -> 16 [label="предик"]
+			18 -> 17 [label="огранич"]
+			15 -> 18 [label="подч_союзн"]
+			13 -> 14 [label="предл"]
+}

@@ -1,0 +1,50 @@
+digraph SENTENCE_1331 {
+	graph [label="Например, \"Экспонат\" он сочинял целый год, хотя растиражированный пассаж о лабутенах и Ван Гоге придумал давно."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Экспонат
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сочинял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="целый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="растиражированный
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="пассаж
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="лабутенах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Гоге
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="придумал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="давно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 18 [label="соч_союзн"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="обст"]
+			13 -> 14 [label="предл"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="сочин"]
+			8 -> 7 [label="опред"]
+			18 -> 16 [label="огранич"]
+			18 -> 17 [label="_1_компл"]
+			18 -> 19 [label="обст"]
+}

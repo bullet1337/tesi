@@ -1,0 +1,66 @@
+digraph SENTENCE_4123 {
+	graph [label="Драма режиссера Барри Дженкинса довольно таки скучное, сонное кино о жизни чернокожего мальчика из бедных районов какого-то города великой и прекрасной Америки."]
+	node [style=filled]
+		0 [label="Драма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Барри Дженкинса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="довольно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скучное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сонное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="чернокожего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мальчика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="бедных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="районов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="какого-то
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="великой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="прекрасной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Америки
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 4 [label="огранич"]
+			4 -> 3 [label="огранич"]
+			18 -> 19 [label="сочин"]
+			10 -> 11 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			15 -> 17 [label="квазиагент"]
+			0 -> 1 [label="квазиагент"]
+			8 -> 0 [label="предик"]
+			8 -> 5 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			13 -> 15 [label="предл"]
+			17 -> 16 [label="опред"]
+			17 -> 21 [label="аппоз"]
+			1 -> 2 [label="аппоз"]
+			19 -> 20 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			21 -> 18 [label="опред"]
+			12 -> 13 [label="атриб"]
+			11 -> 12 [label="аппоз"]
+}

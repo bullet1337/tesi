@@ -1,0 +1,57 @@
+digraph SENTENCE_753 {
+	graph [label="Над ней работали 90 российских и сербских мастеров под руководством члена Российской академии искусств, народного художника России Николая Мухина."]
+	node [style=filled]
+		0 [label="Над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="90
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="российских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сербских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мастеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="под
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="руководством
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="члена
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="академии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="искусств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="народного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="художника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Николая Мухина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="предл"]
+			2 -> 0 [label="обст"]
+			2 -> 7 [label="предик"]
+			13 -> 16 [label="сочин"]
+			8 -> 9 [label="предл"]
+			4 -> 5 [label="сочин"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="сочин"]
+			16 -> 18 [label="аппоз"]
+			5 -> 6 [label="соч_союзн"]
+			7 -> 3 [label="количест"]
+			7 -> 4 [label="опред"]
+			7 -> 8 [label="атриб"]
+			7 -> 10 [label="аппоз"]
+			7 -> 12 [label="сочин"]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="сочин"]
+}

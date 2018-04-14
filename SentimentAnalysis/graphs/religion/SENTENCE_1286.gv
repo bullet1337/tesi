@@ -1,0 +1,56 @@
+digraph SENTENCE_1286 {
+	graph [label="Ситуацию комментировали мэр Москвы Сергей Собянин, вице-премьер Ольга Голодец, глава президентского Совета по правам человека Михаил Федотов и другие высокопоставленные лица."]
+	node [style=filled]
+		0 [label="Ситуацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="комментировали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мэр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Москвы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Сергей Собянин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="вице-премьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Ольга Голодец
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="президентского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Совета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="правам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Михаил Федотов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="высокопоставленные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="лица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+			6 -> 7 [label="аппоз"]
+			6 -> 9 [label="сочин"]
+			16 -> 19 [label="соч_союзн"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_2_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 15 [label="аппоз"]
+			9 -> 16 [label="сочин"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="аппоз"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+}

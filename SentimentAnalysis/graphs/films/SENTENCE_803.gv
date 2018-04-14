@@ -1,0 +1,32 @@
+digraph SENTENCE_803 {
+	graph [label="Да что там переживать!Я чувствовала с ней полное единение."]
+	node [style=filled]
+		0 [label="Да
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="переживать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="чувствовала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ней
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="полное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="единение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="_1_компл"]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="обст"]
+			1 -> 0 [label="огранич"]
+			7 -> 8 [label="предл"]
+			10 -> 6 [label="пролепт"]
+			10 -> 9 [label="опред"]
+}

@@ -1,0 +1,22 @@
+digraph SENTENCE_225 {
+	graph [label="10 из 10
+Трилогия «Золотое сердце»."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Трилогия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="Золотое
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="количест"]
+			3 -> 6 [label="разъяснит"]
+			6 -> 5 [label="опред"]
+			0 -> 1 [label="электив"]
+			1 -> 3 [label="предл"]
+}

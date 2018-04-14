@@ -1,0 +1,63 @@
+digraph SENTENCE_936 {
+	graph [label="\"Для меня кино кроет в себе много возможностей, и я считаю, что фильмы обладают особой силой, которой нет у телевидения."]
+	node [style=filled]
+		1 [label="Для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="кроет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="себе
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="возможностей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="считаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="обладают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="особой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="силой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="телевидения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 16 [label="подч_союзн"]
+			21 -> 20 [label="предик"]
+			21 -> 22 [label="_1_компл"]
+			22 -> 23 [label="предл"]
+			4 -> 1 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 7 [label="_1_компл"]
+			4 -> 10 [label="сент_соч"]
+			10 -> 12 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			12 -> 11 [label="предик"]
+			12 -> 14 [label="_1_компл"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="релят"]
+			1 -> 2 [label="предл"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+}

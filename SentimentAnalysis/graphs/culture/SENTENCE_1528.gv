@@ -1,0 +1,68 @@
+digraph SENTENCE_1528 {
+	graph [label="Надеюсь, что он по-прежнему будет сниматься в России, чтобы жить, потому что там он вряд ли кому-то нужен\", — сказал режиссер в интервью."]
+	node [style=filled]
+		0 [label="Надеюсь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по-прежнему
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сниматься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="там
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вряд
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="кому-то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="нужен
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="интервью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			24 -> 25 [label="предик"]
+			2 -> 5 [label="подч_союзн"]
+			26 -> 27 [label="предл"]
+			11 -> 13 [label="обст"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 24 [label="вводн"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="обст"]
+			5 -> 6 [label="аналит"]
+			5 -> 10 [label="обст"]
+			20 -> 15 [label="обст"]
+			20 -> 16 [label="предик"]
+			20 -> 17 [label="обст"]
+			20 -> 19 [label="_2_компл"]
+			13 -> 14 [label="эксплет"]
+			17 -> 18 [label="огранич"]
+			7 -> 8 [label="предл"]
+			10 -> 11 [label="инф_союзн"]
+			14 -> 20 [label="подч_союзн"]
+			6 -> 7 [label="обст"]
+}

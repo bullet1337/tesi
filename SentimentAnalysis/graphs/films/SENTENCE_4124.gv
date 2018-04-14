@@ -1,0 +1,54 @@
+digraph SENTENCE_4124 {
+	graph [label="Как правило, в таких персонажей нету отца, точнее они его не знают и, наверняка, никогда не увидят."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="персонажей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="нету
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="точнее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="они
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="знают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="наверняка
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="никогда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="увидят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 16 [label="обст"]
+			20 -> 18 [label="обст"]
+			20 -> 19 [label="огранич"]
+			13 -> 9 [label="вводн"]
+			13 -> 10 [label="предик"]
+			13 -> 11 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			13 -> 20 [label="_1_компл"]
+			16 -> 14 [label="огранич"]
+			0 -> 1 [label="сравн_союзн"]
+			3 -> 5 [label="предл"]
+			5 -> 4 [label="опред"]
+			6 -> 0 [label="вводн"]
+			6 -> 3 [label="обст"]
+			6 -> 7 [label="предик"]
+			6 -> 13 [label="сент_соч"]
+}

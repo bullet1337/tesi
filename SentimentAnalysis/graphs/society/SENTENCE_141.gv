@@ -1,0 +1,51 @@
+digraph SENTENCE_141 {
+	graph [label="В 1949 году участвовал во встрече представителя ЦК ВКП(б) Ивана Ковалева с Мао Цзэдуном, Чжоу Эньлаем, Лю Шаоци, Чжу Дэ."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1949
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участвовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="встрече
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="представителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ЦК
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="ВКП
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="б
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Ивана Ковалева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Мао Цзэдуном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Чжоу Эньлаем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Лю Шаоци
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Чжу Дэ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="квазиагент"]
+			18 -> 20 [label="сочин"]
+			0 -> 2 [label="предл"]
+			4 -> 5 [label="предл"]
+			13 -> 14 [label="предл"]
+			13 -> 16 [label="сочин"]
+			12 -> 13 [label="об_аппоз"]
+			16 -> 18 [label="сочин"]
+			6 -> 7 [label="_1_компл"]
+			6 -> 10 [label="аппоз"]
+			2 -> 1 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 0 [label="_1_компл"]
+			3 -> 4 [label="обст"]
+			3 -> 12 [label="предик"]
+}

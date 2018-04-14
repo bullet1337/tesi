@@ -1,0 +1,18 @@
+digraph SENTENCE_1284 {
+	graph [label="Приговор врачу-гематологу вызвал широкий резонанс."]
+	node [style=filled]
+		0 [label="Приговор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="врачу-гематологу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="вызвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="широкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="резонанс
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="_2_компл"]
+			2 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+}

@@ -1,0 +1,105 @@
+digraph SENTENCE_640 {
+	graph [label="Минобороны РФ прорабатывает вопрос развития в регионах системы подготовки девочек в довузовских военных учебных заведениях, сообщил министр обороны РФ генерал армии Сергей Шойгу на Первом Всероссийском молодежном патриотическом форуме \"Я — Юнармия\" в подмосковном парке \"Патриот\"."]
+	node [style=filled]
+		0 [label="Минобороны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="прорабатывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="развития
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="регионах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="системы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="подготовки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="девочек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="довузовских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="военных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="учебных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заведениях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сообщил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="обороны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="генерал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="армии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Сергей Шойгу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Первом
+ANUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Всероссийском
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="молодежном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="патриотическом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="форуме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		32 [label="Юнармия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		34 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="подмосковном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="парке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		38 [label="Патриот
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 5 [label="атриб"]
+			7 -> 8 [label="квазиагент"]
+			0 -> 1 [label="квазиагент"]
+			34 -> 36 [label="предл"]
+			3 -> 4 [label="_1_компл"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 7 [label="сент_соч"]
+			2 -> 16 [label="вводн"]
+			2 -> 22 [label="вводн"]
+			2 -> 23 [label="обст"]
+			2 -> 32 [label="сент_соч"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 10 [label="атриб"]
+			36 -> 35 [label="опред"]
+			32 -> 30 [label="предик"]
+			32 -> 34 [label="атриб"]
+			32 -> 38 [label="сочин"]
+			10 -> 14 [label="предл"]
+			20 -> 21 [label="аппоз"]
+			5 -> 6 [label="предл"]
+			14 -> 11 [label="опред"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			17 -> 18 [label="_1_компл"]
+			17 -> 20 [label="аппоз"]
+			16 -> 17 [label="предик"]
+			28 -> 24 [label="опред"]
+			28 -> 25 [label="опред"]
+			28 -> 26 [label="опред"]
+			28 -> 27 [label="опред"]
+			18 -> 19 [label="_1_компл"]
+			23 -> 28 [label="предл"]
+}

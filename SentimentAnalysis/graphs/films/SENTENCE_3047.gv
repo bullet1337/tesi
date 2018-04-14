@@ -1,0 +1,54 @@
+digraph SENTENCE_3047 {
+	graph [label="Где тот фон, который так цепляет в начале «Звёздных войн» или, скажем, в апогее «Я тоже хочу…»?"]
+	node [style=filled]
+		0 [label="Где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="цепляет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="начале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Звёздных
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="войн
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="скажем
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="апогее
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Я
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="хочу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="предл"]
+			7 -> 13 [label="сочин"]
+			2 -> 1 [label="опред"]
+			6 -> 4 [label="предик"]
+			6 -> 5 [label="обст"]
+			6 -> 7 [label="обст"]
+			6 -> 22 [label="сент_соч"]
+			13 -> 17 [label="соч_союзн"]
+			8 -> 11 [label="квазиагент"]
+			11 -> 10 [label="опред"]
+			22 -> 20 [label="предик"]
+			22 -> 21 [label="огранич"]
+			17 -> 15 [label="вводн"]
+			17 -> 18 [label="предл"]
+			0 -> 2 [label="предик"]
+			0 -> 6 [label="сент_соч"]
+}

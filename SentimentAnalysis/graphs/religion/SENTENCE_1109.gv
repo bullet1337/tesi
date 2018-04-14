@@ -1,0 +1,48 @@
+digraph SENTENCE_1109 {
+	graph [label=") в том, что, если мы не сделаем ничего для спасения ближнего, мы сами не спасемся."]
+	node [style=filled]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сделаем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="спасения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ближнего
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="сами
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="спасемся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 4 [label="эксплет"]
+			9 -> 7 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			9 -> 11 [label="обст"]
+			11 -> 12 [label="предл"]
+			6 -> 9 [label="подч_союзн"]
+			15 -> 16 [label="опред"]
+			18 -> 6 [label="обст"]
+			18 -> 15 [label="предик"]
+			18 -> 17 [label="огранич"]
+			1 -> 2 [label="предл"]
+			4 -> 18 [label="подч_союзн"]
+			12 -> 13 [label="_1_компл"]
+}

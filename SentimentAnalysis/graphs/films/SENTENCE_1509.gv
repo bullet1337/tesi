@@ -1,0 +1,37 @@
+digraph SENTENCE_1509 {
+	graph [label="Жена Билла самая комичная, она как будто вырезана из дешевых женских романов."]
+	node [style=filled]
+		0 [label="Жена
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Билла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="самая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="комичная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="будто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="вырезана
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="дешевых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="женских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="романов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+			6 -> 7
+			0 -> 1 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			9 -> 12 [label="предл"]
+			7 -> 8 [label="сравн_союзн"]
+}

@@ -1,0 +1,57 @@
+digraph SENTENCE_1906 {
+	graph [label="В итоге я не то чтобы разочарована — я просто ожидала от этого фильма сильных эмоций, которых не получила."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="итоге
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="разочарована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ожидала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="этого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="сильных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="получила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 14 [label="опред"]
+			5 -> 6 [label="подч_союзн"]
+			13 -> 12 [label="опред"]
+			4 -> 0 [label="обст"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="эксплет"]
+			4 -> 10 [label="разъяснит"]
+			4 -> 19 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			11 -> 13 [label="предл"]
+			10 -> 8 [label="предик"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+			19 -> 15 [label="предик"]
+			19 -> 17 [label="_1_компл"]
+			19 -> 18 [label="огранич"]
+}

@@ -1,0 +1,66 @@
+digraph SENTENCE_739 {
+	graph [label="Американский режиссер Гас Ван Сент представил драму \"Не волнуйся, он далеко не уйдет\", которая участвует в основном конкурсе международного Берлинского кинофестиваля."]
+	node [style=filled]
+		0 [label="Американский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гас
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="Ван
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Сент
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="представил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="драму
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Не
+PART" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="волнуйся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="далеко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="уйдет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="участвует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="основном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="международного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Берлинского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="кинофестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			14 -> 18 [label="сент_соч"]
+			9 -> 8 [label="огранич"]
+			9 -> 11 [label="предик"]
+			9 -> 14 [label="сент_соч"]
+			19 -> 20 [label="предл"]
+			21 -> 24 [label="_1_компл"]
+			13 -> 12 [label="огранич"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="релят"]
+			24 -> 22 [label="опред"]
+			24 -> 23 [label="опред"]
+			6 -> 9 [label="разъяснит"]
+			18 -> 17 [label="предик"]
+			18 -> 19 [label="_1_компл"]
+			18 -> 21 [label="сент_соч"]
+			4 -> 2 [label="опред"]
+			4 -> 3
+}

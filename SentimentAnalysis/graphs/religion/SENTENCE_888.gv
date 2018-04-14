@@ -1,0 +1,81 @@
+digraph SENTENCE_888 {
+	graph [label="Поэтому я призываю к тому, чтобы насилие сейчас же было прекращено, был дан доступ к гуманитарной помощи (продовольствию и медикаментам) и были эвакуированы раненые и больные."]
+	node [style=filled]
+		0 [label="Поэтому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="призываю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="чтобы
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="насилие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сейчас
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прекращено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="дан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="доступ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="гуманитарной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="помощи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="продовольствию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="медикаментам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="эвакуированы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="раненые
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="больные
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16 [label="_1_компл"]
+			13 -> 14
+			13 -> 15 [label="предик"]
+			13 -> 24 [label="сент_соч"]
+			28 -> 29 [label="соч_союзн"]
+			10 -> 7 [label="предик"]
+			10 -> 8 [label="обст"]
+			10 -> 11
+			6 -> 10 [label="подч_союзн"]
+			8 -> 9 [label="огранич"]
+			25 -> 26
+			25 -> 27 [label="предик"]
+			20 -> 21 [label="сочин"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			27 -> 28 [label="сочин"]
+			24 -> 25 [label="соч_союзн"]
+			4 -> 6 [label="эксплет"]
+			2 -> 0 [label="обст"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 13 [label="_1_компл"]
+			21 -> 22 [label="соч_союзн"]
+			16 -> 18 [label="предл"]
+			3 -> 4 [label="предл"]
+}

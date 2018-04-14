@@ -1,0 +1,30 @@
+digraph SENTENCE_734 {
+	graph [label="Я что сказал, то и сказал\", — цитирует его слова."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="цитирует
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="его
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="слова
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 12 [label="_1_компл"]
+			12 -> 11 [label="квазиагент"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 4 [label="_1_компл"]
+			6 -> 5 [label="огранич"]
+			6 -> 10 [label="_1_компл"]
+			4 -> 6 [label="эксплет"]
+}

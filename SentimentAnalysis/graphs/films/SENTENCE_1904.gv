@@ -1,0 +1,60 @@
+digraph SENTENCE_1904 {
+	graph [label="Надо сказать, что триеровский «Догвилль» — один из моих любимых фильмов — в своё время произвёл неизгладимое впечатление и потряс меня."]
+	node [style=filled]
+		0 [label="Надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="сказать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="триеровский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Догвилль
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="моих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="любимых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="фильмов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="своё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="произвёл
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="неизгладимое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="потряс
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			21 -> 22 [label="соч_союзн"]
+			6 -> 4 [label="опред"]
+			3 -> 9 [label="подч_союзн"]
+			22 -> 23 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			9 -> 6 [label="предик"]
+			9 -> 10 [label="электив"]
+			9 -> 15 [label="обст"]
+			13 -> 11 [label="опред"]
+			13 -> 12 [label="опред"]
+			1 -> 3 [label="_1_компл"]
+			0 -> 1 [label="предик"]
+			0 -> 18 [label="вводн"]
+			15 -> 17 [label="предл"]
+			10 -> 13 [label="предл"]
+			17 -> 16 [label="опред"]
+			18 -> 20 [label="_1_компл"]
+			18 -> 21 [label="сочин"]
+}

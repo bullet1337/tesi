@@ -1,0 +1,24 @@
+digraph SENTENCE_4747 {
+	graph [label="Вся паника и напряжение в фильме надуманы."]
+	node [style=filled]
+		0 [label="Вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="паника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="напряжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="надуманы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			2 -> 3 [label="соч_союзн"]
+			3 -> 4 [label="атриб"]
+			6 -> 1 [label="предик"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="сочин"]
+}

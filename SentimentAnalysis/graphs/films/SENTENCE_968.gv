@@ -1,0 +1,30 @@
+digraph SENTENCE_968 {
+	graph [label="Лица крупным планом, акцент на эмоции и переживания — замечательно."]
+	node [style=filled]
+		0 [label="Лица
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="крупным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="планом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="акцент
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эмоции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="переживания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="замечательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 8 [label="соч_союзн"]
+			4 -> 5 [label="атриб"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="_1_компл"]
+			2 -> 10 [label="атриб"]
+}

@@ -1,0 +1,30 @@
+digraph SENTENCE_1806 {
+	graph [label="Её цель — заработать достаточно денег на операцию своему ребенку."]
+	node [style=filled]
+		0 [label="Её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="цель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="заработать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="денег
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="операцию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ребенку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 1 [label="_1_компл"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			4 -> 6 [label="_2_компл"]
+			1 -> 0 [label="квазиагент"]
+			6 -> 7 [label="предл"]
+			9 -> 8 [label="опред"]
+			7 -> 9 [label="_1_компл"]
+}

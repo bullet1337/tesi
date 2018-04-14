@@ -1,0 +1,33 @@
+digraph SENTENCE_825 {
+	graph [label="Потому что КПП закрыт и есть приказ никого не пропускать."]
+	node [style=filled]
+		0 [label="Потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="КПП
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="закрыт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приказ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="никого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="пропускать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 9 [label="_1_компл"]
+			1 -> 3 [label="подч_союзн"]
+			0 -> 1 [label="эксплет"]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="сент_соч"]
+			4 -> 5 [label="соч_союзн"]
+			9 -> 7 [label="_1_компл"]
+			9 -> 8 [label="огранич"]
+			5 -> 6 [label="предик"]
+}

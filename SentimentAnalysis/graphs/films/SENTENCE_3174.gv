@@ -1,0 +1,59 @@
+digraph SENTENCE_3174 {
+	graph [label="Не может режиссёр, снявший банального «Халка» (и то ужасно снявшего) и «Крадущегося тигра», родить хорошее кино, касающееся гомосексуальной проблематики."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="режиссёр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="снявший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="банального
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Халка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ужасно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="снявшего
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Крадущегося
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="тигра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="родить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="хорошее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="кино
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="касающееся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="гомосексуальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="проблематики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="предик"]
+			1 -> 10 [label="сент_соч"]
+			4 -> 7 [label="_1_компл"]
+			2 -> 4 [label="опред"]
+			25 -> 27 [label="_1_компл"]
+			21 -> 23 [label="_1_компл"]
+			23 -> 22 [label="опред"]
+			23 -> 25 [label="опред"]
+			18 -> 15 [label="огранич"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="_1_компл"]
+			11 -> 13 [label="опред"]
+			27 -> 26 [label="опред"]
+			7 -> 5 [label="опред"]
+			13 -> 12 [label="обст"]
+			13 -> 18 [label="_1_компл"]
+}

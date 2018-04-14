@@ -1,0 +1,39 @@
+digraph SENTENCE_4746 {
+	graph [label="Просто возьмите поп-корна, колы и смотрите, как Годзилла разделывается с двумя монстрами."]
+	node [style=filled]
+		0 [label="Просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="возьмите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="поп-корна
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="колы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смотрите
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="разделывается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="двумя
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="монстрами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="огранич"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="сочин"]
+			1 -> 5 [label="сочин"]
+			1 -> 10 [label="сент_соч"]
+			5 -> 6 [label="соч_союзн"]
+			13 -> 12 [label="количест"]
+			10 -> 8 [label="обст"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			11 -> 13 [label="предл"]
+}

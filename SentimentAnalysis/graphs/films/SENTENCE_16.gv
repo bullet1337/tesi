@@ -1,0 +1,85 @@
+digraph SENTENCE_16 {
+	graph [label="Как ни странно это может прозвучать, лично мне было очень интересно смотреть, чего же Ларс Фон Триер не покажет, что он захочет вырезать, убрать при монтаже за ненадобностью."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="странно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прозвучать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="лично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="интересно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ларс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Фон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Триер
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="покажет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="захочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="вырезать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="убрать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="монтаже
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="ненадобностью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 14 [label="вводн"]
+			20 -> 16 [label="предик"]
+			20 -> 17 [label="_1_компл"]
+			20 -> 18 [label="предик"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="_1_компл"]
+			25 -> 27 [label="_1_компл"]
+			27 -> 28 [label="обст"]
+			9 -> 11 [label="присвяз"]
+			9 -> 12 [label="предик"]
+			9 -> 20 [label="сент_соч"]
+			22 -> 24 [label="подч_союзн"]
+			24 -> 23 [label="предик"]
+			24 -> 25 [label="_1_компл"]
+			28 -> 29 [label="предл"]
+			2 -> 0 [label="огранич"]
+			2 -> 1 [label="огранич"]
+			4 -> 2 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="_1_компл"]
+			14 -> 15 [label="огранич"]
+			29 -> 30 [label="_1_компл"]
+			30 -> 31 [label="предл"]
+			8 -> 7 [label="огранич"]
+			11 -> 10 [label="огранич"]
+}

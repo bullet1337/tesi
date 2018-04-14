@@ -1,0 +1,54 @@
+digraph SENTENCE_869 {
+	graph [label="В 2016 году стала возможна защита работ по этой дисциплине, когда были созданы диссертационный и экспертный советы."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="возможна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="защита
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="работ
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="дисциплине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="были
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="созданы
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="диссертационный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="экспертный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="советы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="_1_компл"]
+			17 -> 14 [label="опред"]
+			11 -> 12 [label="подч_союзн"]
+			15 -> 16 [label="соч_союзн"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="присвяз"]
+			3 -> 5 [label="предик"]
+			7 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 11 [label="атриб"]
+			2 -> 1 [label="опред"]
+			14 -> 15 [label="сочин"]
+			12 -> 13
+			12 -> 17 [label="предик"]
+			0 -> 2 [label="предл"]
+}

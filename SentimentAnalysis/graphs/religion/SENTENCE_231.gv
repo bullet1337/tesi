@@ -1,0 +1,69 @@
+digraph SENTENCE_231 {
+	graph [label="Более того, большинство правительственных зданий в городе находятся на землях, арендованных на 99 лет у патриархата, что еще сильнее запутывает налоговый скандал."]
+	node [style=filled]
+		0 [label="Более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="того
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="большинство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правительственных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="зданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="городе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="находятся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="землях
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="арендованных
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="99
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="патриархата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="запутывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="налоговый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="скандал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="обст"]
+			12 -> 16 [label="_2_компл"]
+			22 -> 19 [label="обст"]
+			22 -> 24 [label="предик"]
+			24 -> 23 [label="опред"]
+			21 -> 20 [label="огранич"]
+			10 -> 12 [label="опред"]
+			16 -> 17 [label="предл"]
+			0 -> 1 [label="сравнит"]
+			6 -> 7 [label="предл"]
+			15 -> 14 [label="количест"]
+			3 -> 5 [label="квазиагент"]
+			8 -> 0 [label="вводн"]
+			8 -> 3 [label="предик"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 22 [label="сент_соч"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="атриб"]
+			19 -> 21 [label="подч_союзн"]
+			13 -> 15 [label="предл"]
+			9 -> 10 [label="предл"]
+}

@@ -1,0 +1,27 @@
+digraph SENTENCE_390 {
+	graph [label="\"А ты для меня все еще близкий, прикинь."]
+	node [style=filled]
+		1 [label="А
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ты
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="близкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="прикинь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 7 [label="оп_опред"]
+			6 -> 5 [label="огранич"]
+			7 -> 3 [label="_1_компл"]
+			7 -> 6 [label="огранич"]
+			1 -> 9 [label="соч_союзн"]
+			9 -> 2 [label="предик"]
+			3 -> 4 [label="предл"]
+}

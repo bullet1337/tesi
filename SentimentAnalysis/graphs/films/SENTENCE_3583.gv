@@ -1,0 +1,42 @@
+digraph SENTENCE_3583 {
+	graph [label="Образы канадцев в концовке ну просто смехотворны, я очень сытно смеялся над этим !"]
+	node [style=filled]
+		0 [label="Образы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="канадцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="концовке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ну
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="смехотворны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сытно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смеялся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="этим
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 2 [label="обст"]
+			6 -> 5 [label="огранич"]
+			6 -> 11 [label="сент_соч"]
+			2 -> 3 [label="предл"]
+			5 -> 4 [label="огранич"]
+			10 -> 9 [label="огранич"]
+			0 -> 1 [label="квазиагент"]
+			11 -> 8 [label="предик"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="_1_компл"]
+}

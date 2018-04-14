@@ -1,0 +1,62 @@
+digraph SENTENCE_4522 {
+	graph [label="Мы привыкли считать, что Годзилла — чудовище, которое вкушает людей и громит здания просто потому, что ей не спится в океане."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="привыкли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="считать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="чудовище
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="которое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вкушает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="людей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="громит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="здания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="потому
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="спится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="океане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="_1_компл"]
+			10 -> 12 [label="сочин"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			22 -> 23 [label="предл"]
+			5 -> 7 [label="аппоз"]
+			5 -> 10 [label="релят"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 16 [label="обст"]
+			12 -> 13 [label="соч_союзн"]
+			2 -> 4 [label="_1_компл"]
+			18 -> 21 [label="подч_союзн"]
+			21 -> 19 [label="_1_компл"]
+			21 -> 20 [label="огранич"]
+			21 -> 22 [label="обст"]
+			16 -> 15 [label="огранич"]
+			16 -> 18 [label="эксплет"]
+}

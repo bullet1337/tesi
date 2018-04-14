@@ -1,0 +1,57 @@
+digraph SENTENCE_1389 {
+	graph [label="К тому же есть прецеденты: в прошлом году обрезание детям до 16 лет уже пытались запретить в Норвегии."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прецеденты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="прошлом
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="обрезание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="детям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="уже
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="пытались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="запретить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Норвегии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 0 [label="вводн"]
+			3 -> 4 [label="предик"]
+			3 -> 11 [label="обст"]
+			3 -> 15 [label="сент_соч"]
+			17 -> 18 [label="предл"]
+			0 -> 1 [label="предл"]
+			13 -> 12 [label="количест"]
+			9 -> 10 [label="сочин"]
+			4 -> 6 [label="атриб"]
+			4 -> 9 [label="разъяснит"]
+			15 -> 14 [label="огранич"]
+			15 -> 16 [label="_1_компл"]
+			1 -> 2 [label="огранич"]
+			16 -> 17 [label="обст"]
+			11 -> 13 [label="предл"]
+			8 -> 7 [label="опред"]
+			6 -> 8 [label="предл"]
+}

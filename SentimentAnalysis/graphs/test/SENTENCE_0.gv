@@ -1,0 +1,12 @@
+digraph SENTENCE_0 {
+	graph [label="Ингмар Бергман - хороший режиссер."]
+	node [style=filled]
+		0 [label="Ингмар Бергман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="хороший
+A" color="" fillcolor=green penwidth=1 shape=ellipse]
+		3 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="опред"]
+}

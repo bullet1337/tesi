@@ -1,0 +1,63 @@
+digraph SENTENCE_1562 {
+	graph [label="В 1920 году был рукоположен в cан священника, после чего вскоре переехал в Рим для изучения канонического права и философии."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="1920
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="рукоположен
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="cан
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="священника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="чего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вскоре
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="переехал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Рим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="изучения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="канонического
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="права
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="философии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="_1_компл"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="сочин"]
+			13 -> 14 [label="предл"]
+			19 -> 20 [label="соч_союзн"]
+			9 -> 10 [label="предл"]
+			12 -> 9 [label="обст"]
+			12 -> 11 [label="обст"]
+			12 -> 13 [label="_2_компл"]
+			12 -> 15 [label="обст"]
+			15 -> 16 [label="предл"]
+			4 -> 5 [label="_2_компл"]
+			3 -> 0 [label="обст"]
+			3 -> 4
+			3 -> 12 [label="сент_соч"]
+			0 -> 2 [label="предл"]
+			5 -> 6 [label="предл"]
+			6 -> 7 [label="квазиагент"]
+			2 -> 1 [label="опред"]
+}

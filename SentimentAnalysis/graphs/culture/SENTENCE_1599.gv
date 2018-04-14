@@ -1,0 +1,63 @@
+digraph SENTENCE_1599 {
+	graph [label="Актеры Билл Мюррей, Брайан Крэнстон, актриса Грета Гервиг и сценарист Джейсон Шварцман, которые работали вместе над анимационным фильмом Уэса Андерсона \"Остров собак\", рассказали про своих питомцев."]
+	node [style=filled]
+		0 [label="Актеры Билл Мюррей
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Брайан Крэнстон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="актриса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Грета Гервиг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сценарист
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Джейсон Шварцман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="которые
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="работали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="над
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="анимационным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="фильмом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Уэса Андерсона
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="Остров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="собак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="рассказали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="питомцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 13 [label="_1_компл"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="обст"]
+			4 -> 5 [label="аппоз"]
+			4 -> 6 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			22 -> 18 [label="предик"]
+			22 -> 19 [label="_1_компл"]
+			22 -> 23 [label="обст"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="аппоз"]
+			13 -> 15 [label="предл"]
+			0 -> 4 [label="об_аппоз"]
+			0 -> 8 [label="аппоз"]
+			0 -> 11 [label="релят"]
+			0 -> 22 [label="примыкат"]
+			0 -> 2 [label="аппоз"]
+			25 -> 24 [label="опред"]
+			23 -> 25 [label="предл"]
+}

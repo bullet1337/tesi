@@ -1,0 +1,27 @@
+digraph SENTENCE_1187 {
+	graph [label="В руках глава государства нес букет красных гвоздик."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="руках
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="глава
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="государства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="нес
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="букет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="красных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гвоздик
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="сент_соч"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="квазиагент"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_384 {
+	graph [label="Во тьме, в которой оказалась Сельма."]
+	node [style=filled]
+		0 [label="Во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тьме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="которой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оказалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Сельма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 3 [label="присвяз"]
+			5 -> 6 [label="предик"]
+			0 -> 1 [label="предл"]
+}

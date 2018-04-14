@@ -1,0 +1,63 @@
+digraph SENTENCE_1094 {
+	graph [label="Ранее, в 2015 году, управление ФАС России признало незаконной рекламу Центрального детского мира \"Хорошие родители водят своих детей на Лубянку."]
+	node [style=filled]
+		0 [label="Ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="2015
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="году
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="управление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ФАС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="признало
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="незаконной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="рекламу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Центрального
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="детского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мира
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Хорошие
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="родители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="водят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="своих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="детей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Лубянку
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			17 -> 16 [label="опред"]
+			4 -> 3 [label="опред"]
+			9 -> 0 [label="обст"]
+			9 -> 2 [label="обст"]
+			9 -> 6 [label="предик"]
+			9 -> 11 [label="_1_компл"]
+			9 -> 17 [label="предик"]
+			9 -> 18 [label="разъяснит"]
+			20 -> 19 [label="опред"]
+			6 -> 7 [label="_1_компл"]
+			14 -> 12 [label="опред"]
+			14 -> 13 [label="опред"]
+			21 -> 22 [label="предл"]
+			2 -> 4 [label="предл"]
+			18 -> 20 [label="_1_компл"]
+			18 -> 21 [label="_4_компл"]
+			11 -> 10 [label="опред"]
+			11 -> 14 [label="_1_компл"]
+			7 -> 8 [label="квазиагент"]
+}

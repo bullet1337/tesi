@@ -1,0 +1,54 @@
+digraph SENTENCE_1757 {
+	graph [label="\"Доктор, который спас мою жизнь, сказал, что у меня была полностью заблокирована левая нисходящая артерия (\"создательница вдов\")."]
+	node [style=filled]
+		1 [label="Доктор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спас
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="мою
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="жизнь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="заблокирована
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="левая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нисходящая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="артерия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="создательница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="вдов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 11 [label="_1_компл"]
+			13 -> 15
+			13 -> 18 [label="предик"]
+			15 -> 14 [label="огранич"]
+			4 -> 1 [label="вводн"]
+			4 -> 3 [label="предик"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 8 [label="сент_соч"]
+			18 -> 16 [label="опред"]
+			18 -> 17 [label="опред"]
+			18 -> 21 [label="сочин"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			10 -> 13 [label="подч_союзн"]
+			21 -> 22 [label="сочин"]
+}

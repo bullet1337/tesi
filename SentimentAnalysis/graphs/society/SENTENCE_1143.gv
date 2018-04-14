@@ -1,0 +1,99 @@
+digraph SENTENCE_1143 {
+	graph [label="В середине колонны движутся активисты партии \"Яблоко\", среди которых сооснователь партии, кандидат в президенты России Григорий Явлинский и председатель партии Эмилия Слабунова, сопредседатель Общественного штаба поддержки кандидата Владимир Рыжков и руководитель московского отделения партии Сергей Митрохин."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="середине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="колонны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="движутся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="активисты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Яблоко
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="которых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="сооснователь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кандидат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="президенты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Григорий Явлинский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Эмилия Слабунова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="сопредседатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Общественного
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		27 [label="штаба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		28 [label="поддержки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="кандидата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="Владимир Рыжков
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		31 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="руководитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="московского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="отделения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		35 [label="партии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		36 [label="Сергей Митрохин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			31 -> 32 [label="соч_союзн"]
+			20 -> 21 [label="соч_союзн"]
+			34 -> 33 [label="опред"]
+			34 -> 35 [label="квазиагент"]
+			32 -> 34 [label="_1_компл"]
+			32 -> 36 [label="аппоз"]
+			17 -> 18 [label="_1_компл"]
+			28 -> 29 [label="_1_компл"]
+			5 -> 7 [label="ном_аппоз"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 15 [label="аппоз"]
+			12 -> 20 [label="сочин"]
+			15 -> 16 [label="_1_компл"]
+			15 -> 19 [label="аппоз"]
+			27 -> 26 [label="опред"]
+			27 -> 28 [label="_1_компл"]
+			27 -> 31 [label="сочин"]
+			4 -> 5 [label="_1_компл"]
+			16 -> 17 [label="предл"]
+			25 -> 10 [label="обст"]
+			25 -> 12 [label="предик"]
+			25 -> 27 [label="сочин"]
+			0 -> 1 [label="предл"]
+			21 -> 22 [label="_1_компл"]
+			21 -> 23 [label="аппоз"]
+			1 -> 2 [label="квазиагент"]
+			10 -> 11 [label="предл"]
+			3 -> 0 [label="обст"]
+			3 -> 4 [label="предик"]
+			3 -> 25 [label="сент_соч"]
+			29 -> 30 [label="аппоз"]
+}

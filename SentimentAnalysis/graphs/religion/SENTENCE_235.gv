@@ -1,0 +1,84 @@
+digraph SENTENCE_235 {
+	graph [label="Например, если на 100 квадратных метрах возвести тысячу квадратных метров жилья, то эта земля будет стоить 200-300 тысяч долларов\", — рассказал РИА Новости Павел Ойгман, представитель израильской консалтинговой компании."]
+	node [style=filled]
+		0 [label="Например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="100
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="квадратных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="метрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="возвести
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="тысячу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="квадратных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="метров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жилья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="то
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="эта
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="земля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="стоить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="200
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="300
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="тысяч
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="долларов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="Павел Ойгман
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		30 [label="представитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="израильской
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="консалтинговой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="компании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 6 [label="предл"]
+			26 -> 27 [label="предик"]
+			2 -> 7 [label="инф_союзн"]
+			2 -> 13 [label="соотнос"]
+			17 -> 21 [label="_1_компл"]
+			18 -> 20 [label="кратн"]
+			33 -> 31 [label="опред"]
+			33 -> 32 [label="опред"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="квазиагент"]
+			15 -> 14 [label="опред"]
+			7 -> 3 [label="обст"]
+			7 -> 8 [label="_1_компл"]
+			16 -> 0 [label="вводн"]
+			16 -> 2 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="аналит"]
+			16 -> 26 [label="вводн"]
+			16 -> 28 [label="предик"]
+			6 -> 4 [label="количест"]
+			6 -> 5 [label="опред"]
+			8 -> 10 [label="квазиагент"]
+			28 -> 30 [label="об_аппоз"]
+			21 -> 18 [label="количест"]
+			21 -> 22 [label="квазиагент"]
+			30 -> 33 [label="_1_компл"]
+}

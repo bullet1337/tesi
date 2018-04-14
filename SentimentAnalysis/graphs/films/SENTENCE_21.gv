@@ -1,0 +1,59 @@
+digraph SENTENCE_21 {
+	graph [label="Увиденный впервые в «среднем школьном возрасте», он произвел невероятное впечатление скорее атмосферой и голосом Бьорк, нежели тематикой и смыслом."]
+	node [style=filled]
+		0 [label="Увиденный
+V" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="впервые
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="среднем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="школьном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="возрасте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="произвел
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="невероятное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="скорее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="атмосферой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="голосом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="нежели
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="тематикой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="смыслом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="огранич"]
+			14 -> 15 [label="сочин"]
+			14 -> 17 [label="сочин"]
+			2 -> 6 [label="предл"]
+			15 -> 16 [label="соч_союзн"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			12 -> 11 [label="опред"]
+			12 -> 14 [label="сочин"]
+			21 -> 22 [label="соч_союзн"]
+			20 -> 21 [label="сочин"]
+			1 -> 2 [label="атриб"]
+			0 -> 1 [label="обст"]
+			19 -> 20 [label="сравн_союзн"]
+			10 -> 0 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="предик"]
+}

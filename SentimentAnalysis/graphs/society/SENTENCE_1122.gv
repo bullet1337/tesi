@@ -1,0 +1,69 @@
+digraph SENTENCE_1122 {
+	graph [label="Среди молодых западных специалистов становится модным приезжать в Россию постигать фундаментальную науку, заявил вице-премьер РФ Дмитрий Рогозин в ходе научно-практической конференции в МГУ."]
+	node [style=filled]
+		0 [label="Среди
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="молодых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="западных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="специалистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="модным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="приезжать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Россию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="постигать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фундаментальную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="науку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="вице-премьер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="РФ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Дмитрий Рогозин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="ходе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="научно-практической
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="конференции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="МГУ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="предл"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="сочин"]
+			18 -> 20 [label="квазиагент"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="аппоз"]
+			14 -> 17 [label="атриб"]
+			0 -> 3 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 5 [label="присвяз"]
+			4 -> 6 [label="предик"]
+			4 -> 13 [label="вводн"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			21 -> 22 [label="предл"]
+			13 -> 14 [label="предик"]
+			11 -> 10 [label="опред"]
+			9 -> 11 [label="_1_компл"]
+			20 -> 19 [label="опред"]
+			20 -> 21 [label="атриб"]
+			17 -> 18 [label="предл"]
+}

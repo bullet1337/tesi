@@ -1,0 +1,54 @@
+digraph SENTENCE_577 {
+	graph [label="В международном конкурсе также будет представлено восемь картин из Италии, Франции, Португалии, Бразилии, Кореи, Германии и Польши."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="международном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="конкурсе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="представлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="восемь
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Италии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Франции
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Португалии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="Бразилии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="Кореи
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		19 [label="Германии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Польши
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5
+			4 -> 7 [label="предик"]
+			13 -> 15 [label="сочин"]
+			2 -> 1 [label="опред"]
+			20 -> 21 [label="соч_союзн"]
+			17 -> 19 [label="сочин"]
+			19 -> 20 [label="сочин"]
+			11 -> 13 [label="сочин"]
+			15 -> 17 [label="сочин"]
+			9 -> 11 [label="сочин"]
+			7 -> 6 [label="количест"]
+			7 -> 8 [label="атриб"]
+}

@@ -1,0 +1,20 @@
+digraph SENTENCE_2381 {
+	graph [label="Не полностью, но в значительной степени."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="полностью
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="значительной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="степени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="предл"]
+			6 -> 5 [label="опред"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="сент_соч"]
+}

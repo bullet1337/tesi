@@ -1,0 +1,24 @@
+digraph SENTENCE_4874 {
+	graph [label="О том, что любовь сильнее всех бедствий?"]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="любовь
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сильнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="бедствий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="предл"]
+			7 -> 6 [label="опред"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="сравнит"]
+			3 -> 5 [label="подч_союзн"]
+			1 -> 3 [label="эксплет"]
+}

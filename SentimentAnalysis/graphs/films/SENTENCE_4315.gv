@@ -1,0 +1,21 @@
+digraph SENTENCE_4315 {
+	graph [label="В «Лунном свете» нет ни-че-го."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Лунном
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="свете
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ни-че
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="го
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="_1_компл"]
+			5 -> 6 [label="предик"]
+			0 -> 3 [label="предл"]
+			6 -> 8 [label="атриб"]
+}

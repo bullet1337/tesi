@@ -1,0 +1,59 @@
+digraph SENTENCE_628 {
+	graph [label="В фильме снимались участники \"Квартета И\" Леонид Барац, Ростислав Хаит, Камиль Ларин, Александр Демидов, а так же Алексей Барабаш, Елена Подкаминская, Татьяна Догилева, Леонид Каневский и другие."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снимались
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="участники
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Квартета
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="И
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Леонид Барац
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="Ростислав Хаит
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="Камиль Ларин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="Александр Демидов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Алексей Барабаш
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="Елена Подкаминская
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		23 [label="Татьяна Догилева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Леонид Каневский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		26 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="другие
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="_1_компл"]
+			10 -> 12 [label="аппоз"]
+			2 -> 0 [label="обст"]
+			2 -> 3 [label="предик"]
+			2 -> 6 [label="сент_соч"]
+			23 -> 17 [label="огранич"]
+			23 -> 25 [label="аппоз"]
+			23 -> 26 [label="сочин"]
+			19 -> 21 [label="аппоз"]
+			17 -> 18 [label="огранич"]
+			17 -> 19 [label="вводн"]
+			8 -> 10 [label="аппоз"]
+			8 -> 14 [label="об_аппоз"]
+			8 -> 16 [label="сочин"]
+			0 -> 1 [label="предл"]
+			16 -> 23 [label="соч_союзн"]
+			26 -> 27 [label="соч_союзн"]
+}

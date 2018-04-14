@@ -1,0 +1,71 @@
+digraph SENTENCE_10 {
+	graph [label="Как рассказал адвокат актера Евгений Парфенов, \"установлено, что она собирала и распространяла в СМИ информацию о его личной и семейной жизни без его согласия\"."]
+	node [style=filled]
+		0 [label="Как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="рассказал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="адвокат
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="актера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Евгений Парфенов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="установлено
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="собирала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="распространяла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="информацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="личной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="семейной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="согласия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="аппоз"]
+			12 -> 13 [label="соч_союзн"]
+			11 -> 10 [label="предик"]
+			11 -> 12 [label="сочин"]
+			13 -> 14 [label="_2_компл"]
+			13 -> 16 [label="_1_компл"]
+			7 -> 0 [label="вводн"]
+			7 -> 9 [label="предик"]
+			22 -> 18 [label="квазиагент"]
+			22 -> 19 [label="опред"]
+			19 -> 20 [label="сочин"]
+			1 -> 2 [label="предик"]
+			16 -> 17 [label="_1_компл"]
+			0 -> 1 [label="сравн_союзн"]
+			25 -> 24 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			3 -> 4 [label="аппоз"]
+			9 -> 11 [label="подч_союзн"]
+			17 -> 22 [label="предл"]
+			23 -> 25 [label="предл"]
+			20 -> 21 [label="соч_союзн"]
+}

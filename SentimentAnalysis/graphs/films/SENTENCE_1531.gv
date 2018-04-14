@@ -1,0 +1,21 @@
+digraph SENTENCE_1531 {
+	graph [label="Это неправедное счастье, счастье любой ценой."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неправедное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="счастье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="счастье
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ценой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 6 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="сочин"]
+			6 -> 5 [label="опред"]
+}

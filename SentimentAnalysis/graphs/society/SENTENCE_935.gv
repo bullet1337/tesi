@@ -1,0 +1,60 @@
+digraph SENTENCE_935 {
+	graph [label="Министр вручил юбиляру нагрудный знак МЧС России \"Ветеран МЧС России\", наручные часы и проигрыватель для виниловых пластинок и компакт-дисков."]
+	node [style=filled]
+		0 [label="Министр
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="вручил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="юбиляру
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="нагрудный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знак
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Ветеран
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="МЧС
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="наручные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="часы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="проигрыватель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="виниловых
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="пластинок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="компакт-дисков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="_1_компл"]
+			15 -> 16 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+			4 -> 3 [label="опред"]
+			4 -> 5 [label="квазиагент"]
+			4 -> 8 [label="сочин"]
+			9 -> 10 [label="квазиагент"]
+			9 -> 14 [label="сочин"]
+			17 -> 19 [label="предл"]
+			19 -> 18 [label="опред"]
+			19 -> 20 [label="сочин"]
+			5 -> 6 [label="квазиагент"]
+			16 -> 17 [label="атриб"]
+			14 -> 13 [label="опред"]
+			14 -> 15 [label="сочин"]
+			20 -> 21 [label="соч_союзн"]
+}

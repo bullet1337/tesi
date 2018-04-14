@@ -1,0 +1,66 @@
+digraph SENTENCE_412 {
+	graph [label="И не просто так она лишена зрения — правила игры на земле ей не знакомы (да она и не хочет их знать)."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="лишена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="зрения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="правила
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="земле
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ей
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="знакомы
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="хочет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="знать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			6 -> 14 [label="релят"]
+			8 -> 9 [label="квазиагент"]
+			14 -> 8 [label="предик"]
+			14 -> 12 [label="_1_компл"]
+			14 -> 13 [label="огранич"]
+			22 -> 21 [label="_1_компл"]
+			20 -> 17 [label="предик"]
+			20 -> 18 [label="огранич"]
+			20 -> 19 [label="огранич"]
+			20 -> 22 [label="_1_компл"]
+			5 -> 3 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="предик"]
+			5 -> 16 [label="сент_соч"]
+			10 -> 11 [label="предл"]
+			16 -> 20 [label="соч_союзн"]
+			9 -> 10 [label="_2_компл"]
+			0 -> 5 [label="соч_союзн"]
+			2 -> 1 [label="огранич"]
+}

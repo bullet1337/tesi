@@ -1,0 +1,48 @@
+digraph SENTENCE_4799 {
+	graph [label="2 из 10  за Годзилу, которую нарисовали лучше, и за мифический бюджет, и правда фантастика!"]
+	node [style=filled]
+		0 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Годзилу
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="которую
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нарисовали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мифический
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бюджет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="правда
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="фантастика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 0 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 10 [label="сочин"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="атриб"]
+			15 -> 16 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			1 -> 2 [label="предл"]
+			11 -> 13 [label="предл"]
+			11 -> 15 [label="сочин"]
+			0 -> 1 [label="электив"]
+			17 -> 11 [label="предик"]
+			10 -> 17 [label="соч_союзн"]
+}

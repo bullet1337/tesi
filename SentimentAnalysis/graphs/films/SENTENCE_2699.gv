@@ -1,0 +1,69 @@
+digraph SENTENCE_2699 {
+	graph [label="В оригинале 1982 года сюжет был не менее плохим, но хотя бы пытался претендовать на глубину и философию, пускай и абсолютно надуманную."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оригинале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="1982
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сюжет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="менее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="плохим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="хотя
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пытался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="претендовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="глубину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="философию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="пускай
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="абсолютно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="надуманную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 12 [label="аналит"]
+			13 -> 14 [label="_1_компл"]
+			16 -> 17 [label="сочин"]
+			8 -> 7 [label="огранич"]
+			1 -> 3 [label="атриб"]
+			14 -> 15 [label="_1_компл"]
+			23 -> 11 [label="огранич"]
+			23 -> 13 [label="_1_компл"]
+			23 -> 20 [label="огранич"]
+			23 -> 21 [label="огранич"]
+			23 -> 22 [label="огранич"]
+			0 -> 1 [label="предл"]
+			3 -> 2 [label="опред"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 8 [label="присвяз"]
+			5 -> 10 [label="сент_соч"]
+			10 -> 23 [label="соч_союзн"]
+			17 -> 18 [label="соч_союзн"]
+			15 -> 16 [label="предл"]
+			7 -> 6 [label="огранич"]
+}

@@ -1,0 +1,37 @@
+digraph SENTENCE_1633 {
+	graph [label="8 из 10
+Какое же оно великое, это настоящее материнское сердце!"]
+	node [style=filled]
+		0 [label="8
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Какое
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="великое
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="материнское
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сердце
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="электив"]
+			6 -> 3 [label="опред"]
+			6 -> 5 [label="предик"]
+			11 -> 0 [label="предик"]
+			11 -> 6 [label="опред"]
+			11 -> 8 [label="предик"]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			1 -> 2 [label="предл"]
+			3 -> 4 [label="огранич"]
+}

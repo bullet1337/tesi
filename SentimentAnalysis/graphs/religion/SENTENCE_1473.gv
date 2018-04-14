@@ -1,0 +1,51 @@
+digraph SENTENCE_1473 {
+	graph [label="О первом из них известно только то, что он погиб в Карфагене вместе с группой единоверцев."]
+	node [style=filled]
+		0 [label="О
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="первом
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="них
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="известно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="только
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="погиб
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Карфагене
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="вместе
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="группой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="единоверцев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="электив"]
+			4 -> 0 [label="_2_компл"]
+			4 -> 6 [label="предик"]
+			15 -> 16 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			13 -> 14 [label="_1_компл"]
+			8 -> 10 [label="подч_союзн"]
+			0 -> 1 [label="предл"]
+			11 -> 12 [label="предл"]
+			6 -> 5 [label="огранич"]
+			6 -> 8 [label="эксплет"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="обст"]
+			10 -> 13 [label="обст"]
+			2 -> 3 [label="предл"]
+}

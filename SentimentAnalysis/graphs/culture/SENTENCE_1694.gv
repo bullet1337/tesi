@@ -1,0 +1,57 @@
+digraph SENTENCE_1694 {
+	graph [label="Меня поразило то, что его дети приемные, он усыновил двух мальчишек — я об этом не знал, это трогает."]
+	node [style=filled]
+		0 [label="Меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="поразило
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="дети
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="приемные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="усыновил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="мальчишек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="об
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="этом
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="знал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="трогает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="_1_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 12 [label="_1_компл"]
+			10 -> 18 [label="разъяснит"]
+			4 -> 7 [label="подч_союзн"]
+			18 -> 14 [label="предик"]
+			18 -> 15 [label="_2_компл"]
+			18 -> 17 [label="огранич"]
+			18 -> 21 [label="_1_компл"]
+			7 -> 6 [label="предик"]
+			21 -> 20 [label="предик"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 2 [label="предик"]
+			1 -> 10 [label="разъяснит"]
+			12 -> 11 [label="количест"]
+			2 -> 4 [label="эксплет"]
+			15 -> 16 [label="предл"]
+}

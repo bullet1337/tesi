@@ -1,0 +1,39 @@
+digraph SENTENCE_1398 {
+	graph [label="Дежавю\" — у него есть все шансы повторить мировой успех двух предыдущих частей."]
+	node [style=filled]
+		0 [label="Дежавю
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="все
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="шансы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="повторить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="мировой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="успех
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="двух
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="предыдущих
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="частей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 0 [label="предик"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 7 [label="присвяз"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 13 [label="квазиагент"]
+			13 -> 11 [label="количест"]
+			13 -> 12 [label="опред"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_540 {
+	graph [label="Будь это даже просто танцы на заводе это все равно сказка."]
+	node [style=filled]
+		0 [label="Будь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="танцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="заводе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="равно
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="сказка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="огранич"]
+			9 -> 7 [label="предик"]
+			9 -> 10 [label="_1_компл"]
+			4 -> 0 [label="вводн"]
+			4 -> 1 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="атриб"]
+			4 -> 9 [label="релят"]
+			7 -> 8 [label="опред"]
+			5 -> 6 [label="предл"]
+}

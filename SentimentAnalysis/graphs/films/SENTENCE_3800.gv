@@ -1,0 +1,24 @@
+digraph SENTENCE_3800 {
+	graph [label=") подвергается гонениям от тех, кого погонял ранее."]
+	node [style=filled]
+		1 [label="подвергается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="гонениям
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кого
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="погонял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="ранее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			7 -> 6 [label="_1_компл"]
+			7 -> 8 [label="обст"]
+			1 -> 2 [label="_1_компл"]
+			2 -> 3 [label="_1_компл"]
+			4 -> 7 [label="релят"]
+}

@@ -1,0 +1,24 @@
+digraph SENTENCE_1328 {
+	graph [label="Единственное, что ее спасает, мечты о музыке."]
+	node [style=filled]
+		0 [label="Единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ее
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="спасает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="мечты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="музыке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="_1_компл"]
+			4 -> 6 [label="_1_компл"]
+			6 -> 7 [label="_1_компл"]
+			0 -> 4 [label="релят"]
+			7 -> 8 [label="предл"]
+}

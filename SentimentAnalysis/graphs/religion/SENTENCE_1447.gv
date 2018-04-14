@@ -1,0 +1,54 @@
+digraph SENTENCE_1447 {
+	graph [label="Стрельба произошла в школе в городке в 60 км к северу от Майами днем в минувшую среду."]
+	node [style=filled]
+		0 [label="Стрельба
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="произошла
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="школе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="городке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="60
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="км
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="северу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Майами
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="минувшую
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="среду
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 15 [label="опред"]
+			2 -> 3 [label="предл"]
+			9 -> 10 [label="предл"]
+			6 -> 8 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 4 [label="обст"]
+			1 -> 14 [label="обст"]
+			4 -> 5 [label="предл"]
+			10 -> 11 [label="атриб"]
+			5 -> 6 [label="_1_компл"]
+			5 -> 13 [label="аппоз"]
+			8 -> 7 [label="количест"]
+			8 -> 9 [label="атриб"]
+			11 -> 12 [label="предл"]
+			14 -> 16 [label="предл"]
+}

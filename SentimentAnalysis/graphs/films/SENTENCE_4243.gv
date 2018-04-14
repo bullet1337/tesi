@@ -1,0 +1,51 @@
+digraph SENTENCE_4243 {
+	graph [label="Весь фильм держал для себя планку в 6 баллов, но последний тайм скип меня просто добил."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="держал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="себя
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="планку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="баллов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="последний
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тайм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="скип
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="просто
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="добил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="опред"]
+			10 -> 16 [label="соч_союзн"]
+			8 -> 7 [label="количест"]
+			12 -> 11 [label="опред"]
+			16 -> 12 [label="_1_компл"]
+			16 -> 13 [label="предик"]
+			16 -> 14 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			2 -> 1 [label="_1_компл"]
+			2 -> 3 [label="_2_компл"]
+			2 -> 5 [label="предик"]
+			2 -> 6 [label="обст"]
+			2 -> 10 [label="сент_соч"]
+			6 -> 8 [label="предл"]
+}

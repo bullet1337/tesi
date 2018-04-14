@@ -1,0 +1,39 @@
+digraph SENTENCE_625 {
+	graph [label="Увидевшие муки ада смутились, и Будда вновь продолжил проповедовать собравшимся свое Учение."]
+	node [style=filled]
+		0 [label="Увидевшие
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="муки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="ада
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="смутились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Будда
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="вновь
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="продолжил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="проповедовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="собравшимся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="свое
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Учение
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="_1_компл"]
+			5 -> 8 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="сент_соч"]
+			9 -> 12 [label="_1_компл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			8 -> 6 [label="предик"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			1 -> 2 [label="атриб"]
+}

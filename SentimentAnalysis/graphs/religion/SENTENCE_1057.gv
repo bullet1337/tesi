@@ -1,0 +1,39 @@
+digraph SENTENCE_1057 {
+	graph [label="Предстоятель РПЦ на первой неделе поста по традиции будет совершать ежедневные богослужения."]
+	node [style=filled]
+		0 [label="Предстоятель
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="РПЦ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="первой
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="неделе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поста
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="совершать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ежедневные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="богослужения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 10 [label="опред"]
+			6 -> 7 [label="предл"]
+			8 -> 5 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="аналит"]
+			4 -> 3 [label="опред"]
+			0 -> 1 [label="атриб"]
+			0 -> 2 [label="атриб"]
+			0 -> 8 [label="релят"]
+			2 -> 4 [label="предл"]
+			9 -> 11 [label="_1_компл"]
+}

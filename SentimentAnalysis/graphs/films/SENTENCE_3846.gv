@@ -1,0 +1,54 @@
+digraph SENTENCE_3846 {
+	graph [label="Ко всему прочему, никакого «ультранасилия» в фильме нет (по крайней мере, не такого, как в «Необратимости» Гаспара Ноэ)."]
+	node [style=filled]
+		0 [label="Ко
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="всему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="прочему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="никакого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="ультранасилия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="крайней
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="мере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="такого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Необратимости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Гаспара Ноэ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			19 -> 20 [label="сравн_союзн"]
+			0 -> 1 [label="предл"]
+			12 -> 14 [label="предл"]
+			10 -> 0 [label="_1_компл"]
+			10 -> 6 [label="предик"]
+			10 -> 17 [label="предик"]
+			14 -> 13 [label="опред"]
+			8 -> 9 [label="предл"]
+			17 -> 12 [label="обст"]
+			17 -> 16 [label="огранич"]
+			17 -> 19 [label="сравнит"]
+			17 -> 24 [label="аппоз"]
+			6 -> 2 [label="опред"]
+			6 -> 4 [label="опред"]
+			6 -> 8 [label="атриб"]
+			20 -> 22 [label="предл"]
+}

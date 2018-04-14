@@ -1,0 +1,60 @@
+digraph SENTENCE_710 {
+	graph [label="Не знаю, отважусь ли посмотреть эту картину во второй раз… Но и одного было достаточно, чтоб прочувствовать и восхититься."]
+	node [style=filled]
+		0 [label="Не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="отважусь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="ли
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="картину
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="второй
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Но
+CONJ" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="одного
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="было
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="достаточно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="чтоб
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="прочувствовать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="восхититься
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="огранич"]
+			15 -> 14 [label="предик"]
+			15 -> 16 [label="присвяз"]
+			19 -> 20 [label="сочин"]
+			8 -> 10 [label="предл"]
+			10 -> 9 [label="опред"]
+			5 -> 7 [label="_1_компл"]
+			5 -> 8 [label="обст"]
+			3 -> 4 [label="огранич"]
+			3 -> 5 [label="_1_компл"]
+			7 -> 6 [label="опред"]
+			12 -> 15 [label="соч_союзн"]
+			1 -> 0 [label="огранич"]
+			1 -> 3 [label="_1_компл"]
+			1 -> 12 [label="сент_соч"]
+			18 -> 19 [label="инф_союзн"]
+			16 -> 18 [label="_2_компл"]
+			20 -> 21 [label="соч_союзн"]
+}

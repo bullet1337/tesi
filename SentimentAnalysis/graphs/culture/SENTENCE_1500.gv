@@ -1,0 +1,30 @@
+digraph SENTENCE_1500 {
+	graph [label="\"Это не один из главных призов, но все-таки приз."]
+	node [style=filled]
+		1 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="главных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="призов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="все-таки
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="приз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 5 [label="опред"]
+			4 -> 6 [label="предл"]
+			10 -> 9 [label="огранич"]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 1 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="электив"]
+			3 -> 8 [label="сент_соч"]
+}

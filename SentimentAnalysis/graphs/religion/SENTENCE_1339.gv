@@ -1,0 +1,51 @@
+digraph SENTENCE_1339 {
+	graph [label="Мы празднуем день рождения основателя нашей традиции, как если бы это был Новый год\", — продолжает Тэло Тулку Ринпоче."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="празднуем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="день
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="рождения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="основателя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нашей
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="традиции
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Новый
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="год
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="продолжает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="Тэло Тулку Ринпоче
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			12 -> 10 [label="аналит"]
+			12 -> 11 [label="предик"]
+			8 -> 9 [label="сравн_союзн"]
+			6 -> 5 [label="опред"]
+			6 -> 8 [label="сравнит"]
+			18 -> 14 [label="длительн"]
+			18 -> 19 [label="предик"]
+			9 -> 12 [label="подч_союзн"]
+			2 -> 3 [label="квазиагент"]
+			3 -> 4 [label="квазиагент"]
+			4 -> 6 [label="_1_компл"]
+			14 -> 13 [label="опред"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 18 [label="вводн"]
+}

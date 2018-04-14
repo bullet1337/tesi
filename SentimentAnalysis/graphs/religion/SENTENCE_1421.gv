@@ -1,0 +1,36 @@
+digraph SENTENCE_1421 {
+	graph [label="Иудеи и мусульмане постоянно выходят на улицы, требуя соблюдения их прав."]
+	node [style=filled]
+		0 [label="Иудеи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="мусульмане
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="постоянно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="выходят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="улицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="требуя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="соблюдения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="прав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="предик"]
+			4 -> 3 [label="обст"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 8 [label="обст"]
+			9 -> 11 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			5 -> 6 [label="предл"]
+			11 -> 10 [label="квазиагент"]
+			0 -> 1 [label="сочин"]
+			1 -> 2 [label="соч_союзн"]
+}

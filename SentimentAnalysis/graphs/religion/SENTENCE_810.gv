@@ -1,0 +1,27 @@
+digraph SENTENCE_810 {
+	graph [label="В монастыре же всего 14 насельников, включая настоятеля."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="монастыре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="всего
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="насельников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="включая
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="настоятеля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="огранич"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="количест"]
+			5 -> 7 [label="атриб"]
+			1 -> 2 [label="огранич"]
+			7 -> 8 [label="_1_компл"]
+}

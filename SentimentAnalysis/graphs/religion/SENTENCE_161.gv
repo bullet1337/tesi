@@ -1,0 +1,57 @@
+digraph SENTENCE_161 {
+	graph [label="Это, может быть, один из самых важных вопросов в сфере взаимодействия современного российского общества и Русской православной церкви."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="может
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="быть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="самых
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="важных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="вопросов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="сфере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="взаимодействия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="современного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="российского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="общества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Русской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		18 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 13 [label="опред"]
+			15 -> 14 [label="опред"]
+			15 -> 16 [label="сочин"]
+			2 -> 0 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			19 -> 17 [label="опред"]
+			19 -> 18 [label="опред"]
+			8 -> 7 [label="опред"]
+			5 -> 6 [label="электив"]
+			5 -> 12 [label="сочин"]
+			12 -> 15 [label="квазиагент"]
+			3 -> 5 [label="присвяз"]
+			6 -> 9 [label="предл"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="атриб"]
+			16 -> 19 [label="соч_союзн"]
+			10 -> 11 [label="предл"]
+}

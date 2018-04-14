@@ -1,0 +1,30 @@
+digraph SENTENCE_1440 {
+	graph [label="Параллельно с фестивалем в Берлине пройдут Дни киностудии \"Ленфильм\"."]
+	node [style=filled]
+		0 [label="Параллельно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фестивалем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Берлине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="пройдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Дни
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="киностудии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Ленфильм
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			1 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 6 [label="предик"]
+			6 -> 7 [label="квазиагент"]
+			7 -> 9 [label="аппоз"]
+			0 -> 1 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			2 -> 3 [label="атриб"]
+}

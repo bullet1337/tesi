@@ -1,0 +1,39 @@
+digraph SENTENCE_319 {
+	graph [label="Хотя её покорность перед правосудием ближе к концу заставляло поверить в обратное."]
+	node [style=filled]
+		0 [label="Хотя
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="её
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="покорность
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="правосудием
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ближе
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="концу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="заставляло
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поверить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="обратное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="квазиагент"]
+			2 -> 3 [label="_2_компл"]
+			0 -> 5 [label="подч_союзн"]
+			0 -> 8 [label="разъяснит"]
+			9 -> 10 [label="_1_компл"]
+			8 -> 9 [label="_2_компл"]
+			10 -> 11 [label="предл"]
+			6 -> 7 [label="предл"]
+			3 -> 4 [label="предл"]
+			5 -> 2 [label="предик"]
+			5 -> 6 [label="_1_компл"]
+}

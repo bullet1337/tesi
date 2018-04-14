@@ -1,0 +1,42 @@
+digraph SENTENCE_4660 {
+	graph [label="Нам долго показывают завязку, выстроенную вокруг главного героя, которая не несёт никакой нагрузки."]
+	node [style=filled]
+		0 [label="Нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="долго
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="показывают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="завязку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="выстроенную
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="которая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="несёт
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="никакой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="нагрузки
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="_2_компл"]
+			2 -> 1 [label="обст"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 12 [label="сент_соч"]
+			5 -> 6 [label="обст"]
+			14 -> 13 [label="опред"]
+			3 -> 5 [label="опред"]
+			6 -> 8 [label="предл"]
+			8 -> 7 [label="опред"]
+			12 -> 10 [label="предик"]
+			12 -> 11 [label="огранич"]
+			12 -> 14 [label="_1_компл"]
+}

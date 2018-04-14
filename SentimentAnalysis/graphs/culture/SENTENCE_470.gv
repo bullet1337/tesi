@@ -1,0 +1,21 @@
+digraph SENTENCE_470 {
+	graph [label="Их оружие — ум, логика и компьютер."]
+	node [style=filled]
+		0 [label="Их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="оружие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="логика
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="компьютер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="квазиагент"]
+			1 -> 3 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			3 -> 5 [label="сочин"]
+}

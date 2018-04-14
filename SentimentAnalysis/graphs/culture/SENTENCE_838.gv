@@ -1,0 +1,39 @@
+digraph SENTENCE_838 {
+	graph [label="Премьерные показы пройдут с 15 по 18 февраля, сообщили в пресс-службе театра."]
+	node [style=filled]
+		0 [label="Премьерные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="показы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пройдут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="с
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="18
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="пресс-службе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 10 [label="обст"]
+			5 -> 6 [label="предл"]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			6 -> 7 [label="атриб"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 5 [label="обст"]
+			2 -> 9 [label="вводн"]
+			10 -> 11 [label="предл"]
+}

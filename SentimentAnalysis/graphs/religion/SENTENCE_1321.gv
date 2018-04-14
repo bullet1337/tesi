@@ -1,0 +1,72 @@
+digraph SENTENCE_1321 {
+	graph [label="В период правления императрицы Елизаветы Петровны буддизм получил официальное признание, а к началу ХХ века Россия стала одним из крупнейших центров изучения этой религии."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="период
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="правления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="императрицы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Елизаветы Петровны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="буддизм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="получил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="официальное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="признание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="началу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="ХХ
+UNKN" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="века
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Россия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="стала
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="одним
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="крупнейших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="центров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="изучения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="этой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="религии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			14 -> 13 [label="опред"]
+			10 -> 16 [label="соч_союзн"]
+			3 -> 4 [label="аппоз"]
+			16 -> 11 [label="обст"]
+			16 -> 15 [label="предик"]
+			16 -> 17 [label="присвяз"]
+			23 -> 22 [label="опред"]
+			20 -> 19 [label="опред"]
+			18 -> 20 [label="предл"]
+			8 -> 7 [label="опред"]
+			11 -> 12 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			6 -> 10 [label="сочин"]
+			12 -> 14 [label="квазиагент"]
+			0 -> 1 [label="предл"]
+			17 -> 18 [label="электив"]
+			17 -> 21 [label="разъяснит"]
+			2 -> 3 [label="_1_компл"]
+			21 -> 23 [label="сочин"]
+			1 -> 2 [label="квазиагент"]
+}

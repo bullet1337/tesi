@@ -1,0 +1,35 @@
+digraph SENTENCE_3358 {
+	graph [label="По факту, если посмотреть без эмоций, именно так всё и есть."]
+	node [style=filled]
+		0 [label="По
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="факту
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="если
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="посмотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="эмоций
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="всё
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="соч_союзн"]
+			4 -> 5 [label="обст"]
+			4 -> 10 [label="_1_компл"]
+			4 -> 11 [label="сочин"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="инф_союзн"]
+			10 -> 9 [label="огранич"]
+			9 -> 8 [label="огранич"]
+			5 -> 6 [label="предл"]
+}

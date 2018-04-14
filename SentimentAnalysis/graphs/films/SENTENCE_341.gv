@@ -1,0 +1,21 @@
+digraph SENTENCE_341 {
+	graph [label="Весь фильм пропитан болью и любовью."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="пропитан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="болью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="любовью
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			3 -> 4 [label="сочин"]
+}

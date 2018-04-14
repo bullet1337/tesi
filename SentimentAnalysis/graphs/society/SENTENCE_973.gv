@@ -1,0 +1,45 @@
+digraph SENTENCE_973 {
+	graph [label="И именно Фалин был тем человеком, который сделал эту встречу очень и очень теплой."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="именно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Фалин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="тем
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="человеком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сделал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="встречу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="очень
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="теплой
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 3 [label="соч_союзн"]
+			14 -> 11 [label="огранич"]
+			5 -> 4 [label="опред"]
+			5 -> 8 [label="релят"]
+			12 -> 13 [label="соч_союзн"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			10 -> 9 [label="опред"]
+			10 -> 14 [label="сочин"]
+			3 -> 2 [label="предик"]
+			3 -> 5 [label="присвяз"]
+			2 -> 1 [label="огранич"]
+			11 -> 12 [label="сочин"]
+}

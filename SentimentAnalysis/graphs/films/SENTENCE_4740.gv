@@ -1,0 +1,60 @@
+digraph SENTENCE_4740 {
+	graph [label="Здесь же Годзилла это такой миленький толстячок с маленькими лапками, головой и пухлым телом, разница между фильмами 16 лет."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Годзилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="такой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="миленький
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="толстячок
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="маленькими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="лапками
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="головой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="пухлым
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="телом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="разница
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильмами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="16
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 12 [label="сочин"]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="предик"]
+			6 -> 3 [label="предик"]
+			6 -> 4 [label="опред"]
+			6 -> 5 [label="опред"]
+			6 -> 7 [label="атриб"]
+			6 -> 16 [label="сочин"]
+			9 -> 8 [label="опред"]
+			9 -> 11 [label="сочин"]
+			14 -> 13 [label="опред"]
+			12 -> 14 [label="соч_союзн"]
+			17 -> 18 [label="предл"]
+			7 -> 9 [label="предл"]
+			2 -> 6 [label="разъяснит"]
+			16 -> 17 [label="квазиагент"]
+			18 -> 20 [label="квазиагент"]
+			20 -> 19 [label="количест"]
+}

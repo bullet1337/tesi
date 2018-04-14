@@ -1,0 +1,39 @@
+digraph SENTENCE_734 {
+	graph [label="С 2002 года День защитника Отечества в России стал нерабочим праздничным днем."]
+	node [style=filled]
+		0 [label="С
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="2002
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="День
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="защитника
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Отечества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="нерабочим
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="праздничным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			11 -> 9 [label="опред"]
+			11 -> 10 [label="опред"]
+			6 -> 7 [label="предл"]
+			2 -> 1 [label="опред"]
+			0 -> 2 [label="предл"]
+			3 -> 4 [label="квазиагент"]
+			3 -> 5 [label="кратн"]
+			8 -> 0 [label="обст"]
+			8 -> 3 [label="предик"]
+			8 -> 6 [label="обст"]
+			8 -> 11 [label="присвяз"]
+}

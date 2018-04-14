@@ -1,0 +1,24 @@
+digraph SENTENCE_649 {
+	graph [label="Свои обстоятельства, совершенно не похожие на других."]
+	node [style=filled]
+		0 [label="Свои
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обстоятельства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="совершенно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="похожие
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			1 -> 0 [label="опред"]
+			1 -> 5 [label="оп_опред"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="_1_компл"]
+			4 -> 3 [label="огранич"]
+}

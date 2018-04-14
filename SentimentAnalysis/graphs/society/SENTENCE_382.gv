@@ -1,0 +1,27 @@
+digraph SENTENCE_382 {
+	graph [label="Двадцать третьего февраля 1944 года Сталин это сделал."]
+	node [style=filled]
+		0 [label="Двадцать
+NUM" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="третьего
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="1944
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Сталин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сделал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="колич_вспом"]
+			4 -> 3 [label="опред"]
+			2 -> 1 [label="опред"]
+			2 -> 4 [label="атриб"]
+			7 -> 2 [label="_1_компл"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="_1_компл"]
+}

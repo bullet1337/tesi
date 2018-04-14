@@ -1,0 +1,84 @@
+digraph SENTENCE_822 {
+	graph [label=")…, не знаю, но я думаю, что при формировании списков на роли в таких фильмах, финансируемых за счет бюджета Российской Федерации…, надо более внимательно подходить к отбору актеров."]
+	node [style=filled]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="знаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="думаю
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="при
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="формировании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="списков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="роли
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="таких
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="фильмах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="финансируемых
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="счет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="бюджета
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="Российской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="Федерации
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		28 [label="надо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="более
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		30 [label="внимательно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		31 [label="подходить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		32 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		33 [label="отбору
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		34 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 21 [label="обст"]
+			10 -> 28 [label="подч_союзн"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="сент_соч"]
+			21 -> 22 [label="предл"]
+			22 -> 23 [label="квазиагент"]
+			14 -> 15 [label="предл"]
+			11 -> 12 [label="предл"]
+			32 -> 33 [label="предл"]
+			30 -> 29 [label="огранич"]
+			31 -> 30 [label="обст"]
+			31 -> 32 [label="_2_компл"]
+			25 -> 24 [label="опред"]
+			12 -> 13 [label="_1_компл"]
+			12 -> 14 [label="_2_компл"]
+			15 -> 16 [label="_2_компл"]
+			33 -> 34 [label="_1_компл"]
+			23 -> 25 [label="квазиагент"]
+			28 -> 11 [label="обст"]
+			28 -> 31 [label="предик"]
+			8 -> 7 [label="предик"]
+			8 -> 10 [label="_1_компл"]
+			6 -> 8 [label="соч_союзн"]
+			16 -> 18 [label="предл"]
+			18 -> 17 [label="опред"]
+			18 -> 20 [label="опред"]
+}

@@ -1,0 +1,48 @@
+digraph SENTENCE_1193 {
+	graph [label="Прощание с актрисой состоится в театре имени Маяковского, дата и место похорон станут известны позже."]
+	node [style=filled]
+		0 [label="Прощание
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="актрисой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="состоится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="театре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="имени
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Маяковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="дата
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="место
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="похорон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="станут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="известны
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="позже
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 11 [label="соч_союзн"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="_1_компл"]
+			3 -> 9 [label="разъяснит"]
+			3 -> 13 [label="сочин"]
+			4 -> 5 [label="предл"]
+			14 -> 15 [label="атриб"]
+			6 -> 7 [label="квазиагент"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			5 -> 6 [label="атриб"]
+			9 -> 10 [label="сочин"]
+			11 -> 12 [label="квазиагент"]
+			13 -> 14 [label="присвяз"]
+}

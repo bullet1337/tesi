@@ -1,0 +1,60 @@
+digraph SENTENCE_801 {
+	graph [label="В США в последние месяцы прозвучали обвинения в домогательстве в адрес множества актеров, политиков, журналистов и других известных лиц."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="США
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="последние
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="месяцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="прозвучали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="обвинения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="домогательстве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="адрес
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="множества
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="актеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="политиков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="журналистов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="других
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="известных
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="лиц
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 14 [label="сочин"]
+			14 -> 16 [label="сочин"]
+			4 -> 3 [label="опред"]
+			11 -> 12 [label="квазиагент"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			6 -> 7 [label="_2_компл"]
+			8 -> 9 [label="атриб"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 6 [label="предик"]
+			5 -> 11 [label="разъяснит"]
+			17 -> 20 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			9 -> 10 [label="предл"]
+			16 -> 17 [label="сочин"]
+			2 -> 4 [label="предл"]
+}

@@ -1,0 +1,69 @@
+digraph SENTENCE_308 {
+	graph [label="Председателем жюри стал режиссер Николай Досталь, также в состав жюри вошли композитор Максим Дунаевский, режиссер Александр Адабашьян, заслуженная артистка России Полина Кутепова, кинооператор Илья Демин, писатель Татьяна Устинова."]
+	node [style=filled]
+		0 [label="Председателем
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Николай Досталь
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="также
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="состав
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="жюри
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="композитор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Максим Дунаевский
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="режиссер
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Александр Адабашьян
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="заслуженная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="артистка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="России
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		20 [label="Полина Кутепова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		22 [label="кинооператор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Илья Демин
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		25 [label="писатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Татьяна Устинова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 6 [label="огранич"]
+			7 -> 8 [label="предл"]
+			11 -> 12 [label="аппоз"]
+			11 -> 14 [label="сочин"]
+			0 -> 1 [label="_1_компл"]
+			2 -> 0 [label="присвяз"]
+			2 -> 3 [label="предик"]
+			2 -> 7 [label="обст"]
+			2 -> 10 [label="вводн"]
+			2 -> 22 [label="предик"]
+			2 -> 23 [label="разъяснит"]
+			14 -> 15 [label="аппоз"]
+			14 -> 18 [label="сочин"]
+			25 -> 26 [label="аппоз"]
+			23 -> 25 [label="сочин"]
+			8 -> 9 [label="квазиагент"]
+			3 -> 4 [label="аппоз"]
+			10 -> 11 [label="предик"]
+			18 -> 17 [label="опред"]
+			18 -> 19 [label="атриб"]
+			18 -> 20 [label="сочин"]
+}

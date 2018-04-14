@@ -1,0 +1,51 @@
+digraph SENTENCE_3374 {
+	graph [label="Фильм же Н. Лебедева фактически навязывает нам обратную ситуацию, образуя вокруг главного героя практически полный вакуум."]
+	node [style=filled]
+		0 [label="Фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="же
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Н
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Лебедева
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="фактически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="навязывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нам
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="обратную
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ситуацию
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="образуя
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="вокруг
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="главного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="героя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="практически
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="полный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="вакуум
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 1 [label="огранич"]
+			0 -> 2 [label="квазиагент"]
+			14 -> 13 [label="опред"]
+			14 -> 17 [label="_1_компл"]
+			16 -> 15 [label="огранич"]
+			2 -> 4 [label="аппоз"]
+			11 -> 12 [label="обст"]
+			17 -> 16 [label="опред"]
+			12 -> 14 [label="предл"]
+			6 -> 0 [label="предик"]
+			6 -> 5 [label="огранич"]
+			6 -> 7 [label="_2_компл"]
+			6 -> 9 [label="_1_компл"]
+			6 -> 11 [label="обст"]
+			9 -> 8 [label="опред"]
+}

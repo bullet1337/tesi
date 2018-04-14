@@ -1,0 +1,45 @@
+digraph SENTENCE_2370 {
+	graph [label="Кто-то называет это «музыкальным почерком», но для меня это ни что иное как застой."]
+	node [style=filled]
+		0 [label="Кто-то
+SPRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="называет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="музыкальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="почерком
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="иное
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="застой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 4 [label="опред"]
+			13 -> 9 [label="обст"]
+			13 -> 11 [label="предик"]
+			13 -> 12 [label="огранич"]
+			13 -> 14 [label="опред"]
+			14 -> 15 [label="сравнит"]
+			8 -> 13 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 5 [label="_2_компл"]
+			1 -> 8 [label="сент_соч"]
+			15 -> 16 [label="сравн_союзн"]
+			9 -> 10 [label="предл"]
+}

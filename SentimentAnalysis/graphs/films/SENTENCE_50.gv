@@ -1,0 +1,15 @@
+digraph SENTENCE_50 {
+	graph [label="Он мягкий, но горький."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="мягкий
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="горький
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="сочин"]
+			3 -> 4 [label="соч_союзн"]
+}

@@ -1,0 +1,32 @@
+digraph SENTENCE_4650 {
+	graph [label="Жаль, их не так много в кадре, как хотелось бы."]
+	node [style=filled]
+		0 [label="Жаль
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="кадре
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хотелось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 7 [label="предл"]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="предик"]
+			0 -> 5 [label="разъяснит"]
+			10 -> 11 [label="аналит"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="примыкат"]
+			9 -> 10 [label="сравн_союзн"]
+}

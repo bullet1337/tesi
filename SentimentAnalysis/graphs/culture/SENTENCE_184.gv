@@ -1,0 +1,48 @@
+digraph SENTENCE_184 {
+	graph [label="На этот раз Люка Дебарг выступит в Москве 5 и 6 марта в Концертном зале им."]
+	node [style=filled]
+		0 [label="На
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="этот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="раз
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Люка Дебарг
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="выступит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Москве
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="5
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="6
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="марта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Концертном
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="зале
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="им
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 6 [label="предл"]
+			7 -> 8 [label="сочин"]
+			7 -> 10 [label="атриб"]
+			11 -> 7 [label="предик"]
+			11 -> 13 [label="предл"]
+			11 -> 14 [label="дат_субъект"]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			4 -> 11 [label="сент_соч"]
+			0 -> 2 [label="предл"]
+			8 -> 9 [label="соч_союзн"]
+			2 -> 1 [label="опред"]
+			13 -> 12 [label="опред"]
+}

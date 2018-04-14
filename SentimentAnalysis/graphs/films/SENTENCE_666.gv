@@ -1,0 +1,43 @@
+digraph SENTENCE_666 {
+	graph [label="Сцены, снятые ручной камерой, пренебрежением светом и монтажом, всё это можно увидеть в картине."]
+	node [style=filled]
+		0 [label="Сцены
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="снятые
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ручной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="камерой
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="пренебрежением
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="светом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="монтажом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="всё
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="картине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			13 -> 14 [label="предик"]
+			4 -> 3 [label="опред"]
+			12 -> 11 [label="опред"]
+			7 -> 8 [label="сочин"]
+			2 -> 4 [label="агент"]
+			2 -> 6 [label="обст"]
+			8 -> 9 [label="соч_союзн"]
+			0 -> 2 [label="опред"]
+			6 -> 7 [label="сочин"]
+			14 -> 15 [label="обст"]
+			15 -> 16 [label="предл"]
+}

@@ -1,0 +1,21 @@
+digraph SENTENCE_366 {
+	graph [label="Демонстранты прошли колонной по улице Петровка."]
+	node [style=filled]
+		0 [label="Демонстранты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="прошли
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="колонной
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="улице
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Петровка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 4 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="обст"]
+			1 -> 3 [label="обст"]
+			1 -> 5 [label="_1_компл"]
+}

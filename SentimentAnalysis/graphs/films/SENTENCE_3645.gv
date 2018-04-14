@@ -1,0 +1,53 @@
+digraph SENTENCE_3645 {
+	graph [label="Тарасов в исполнении Олега Менщикова странное дело, ни как не производит впечатление советского человека, какого угодно, но не советского."]
+	node [style=filled]
+		0 [label="Тарасов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Олега Менщикова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="странное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ни
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="производит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="впечатление
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="человека
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="какого
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="угодно
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="советского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			15 -> 16
+			15 -> 18 [label="сочин"]
+			18 -> 20 [label="соч_союзн"]
+			13 -> 12 [label="опред"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="предик"]
+			8 -> 10 [label="сравн_союзн"]
+			5 -> 4 [label="опред"]
+			1 -> 2 [label="предл"]
+			11 -> 13 [label="_1_компл"]
+			0 -> 1 [label="атриб"]
+			0 -> 3 [label="аппоз"]
+			20 -> 19 [label="огранич"]
+}

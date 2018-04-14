@@ -1,0 +1,51 @@
+digraph SENTENCE_971 {
+	graph [label="Спектакль в постановке режиссера Алвиса Херманиса (Латвия) будет показан в основной программе форума 24 и 25 февраля."]
+	node [style=filled]
+		0 [label="Спектакль
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="постановке
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="Алвиса Херманиса
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="Латвия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="показан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="основной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="программе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="форума
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="24
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="25
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			12 -> 11 [label="опред"]
+			12 -> 13 [label="аппоз"]
+			14 -> 15 [label="сочин"]
+			9 -> 10 [label="обст"]
+			10 -> 12 [label="предл"]
+			1 -> 2 [label="предл"]
+			2 -> 3 [label="_1_компл"]
+			15 -> 16 [label="соч_союзн"]
+			4 -> 6 [label="аппоз"]
+			8 -> 0 [label="предик"]
+			8 -> 1 [label="обст"]
+			8 -> 9
+			8 -> 17 [label="разъяснит"]
+			17 -> 14 [label="количест"]
+			3 -> 4 [label="аппоз"]
+}

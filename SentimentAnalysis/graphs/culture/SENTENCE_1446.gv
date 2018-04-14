@@ -1,0 +1,63 @@
+digraph SENTENCE_1446 {
+	graph [label="Весь реквизит фильма — предметы быта и костюмы — аутентичные вещи 1970-х, так что зрители могут максимально приблизиться к атмосфере той эпохи."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="реквизит
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="предметы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="быта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="костюмы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="аутентичные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="вещи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1970-х
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="зрители
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="максимально
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="приблизиться
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="атмосфере
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="той
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="эпохи
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			20 -> 22 [label="квазиагент"]
+			14 -> 13
+			14 -> 16 [label="подч_союзн"]
+			18 -> 17 [label="обст"]
+			18 -> 19 [label="_2_компл"]
+			10 -> 1 [label="предик"]
+			10 -> 9 [label="опред"]
+			10 -> 11 [label="разъяснит"]
+			10 -> 14 [label="обст"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			1 -> 4 [label="сочин"]
+			4 -> 5 [label="сочин"]
+			6 -> 7 [label="соч_союзн"]
+			5 -> 6 [label="сочин"]
+			22 -> 21 [label="опред"]
+			16 -> 15 [label="предик"]
+			16 -> 18 [label="_1_компл"]
+			19 -> 20 [label="предл"]
+}

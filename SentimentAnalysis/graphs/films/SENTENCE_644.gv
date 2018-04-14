@@ -1,0 +1,45 @@
+digraph SENTENCE_644 {
+	graph [label="У неё есть друзья по работе, да и с хозяевами дома тоже отлично ладит."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="неё
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="друзья
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="работе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="да
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="хозяевами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="дома
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="тоже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="отлично
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="ладит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="предл"]
+			7 -> 8 [label="огранич"]
+			7 -> 9 [label="соч_союзн"]
+			14 -> 13 [label="обст"]
+			9 -> 10 [label="предл"]
+			0 -> 1 [label="предл"]
+			3 -> 4 [label="атриб"]
+			3 -> 7 [label="сочин"]
+			2 -> 0 [label="_1_компл"]
+			2 -> 3 [label="предик"]
+			2 -> 14 [label="сент_соч"]
+			13 -> 12 [label="огранич"]
+			10 -> 11 [label="_1_компл"]
+}

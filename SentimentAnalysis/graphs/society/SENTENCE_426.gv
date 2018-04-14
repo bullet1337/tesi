@@ -1,0 +1,57 @@
+digraph SENTENCE_426 {
+	graph [label="Глава Чеченской Республики Рамзан Кадыров, вспоминая о депортации чеченского и ингушского народов 1944 года, проклял Иосифа Сталина и назвал его тираном."]
+	node [style=filled]
+		0 [label="Глава
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Чеченской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Республики Рамзан Кадыров
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="вспоминая
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="депортации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="чеченского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ингушского
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="народов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="1944
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="проклял
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Иосифа Сталина
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="назвал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="его
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="тираном
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			6 -> 10 [label="_1_компл"]
+			14 -> 0 [label="предик"]
+			14 -> 4 [label="обст"]
+			14 -> 15 [label="_1_компл"]
+			14 -> 16 [label="сочин"]
+			0 -> 2 [label="_1_компл"]
+			7 -> 8 [label="сочин"]
+			5 -> 6 [label="предл"]
+			16 -> 17 [label="соч_союзн"]
+			4 -> 5 [label="_2_компл"]
+			19 -> 18 [label="_1_компл"]
+			12 -> 11 [label="опред"]
+			17 -> 19 [label="_2_компл"]
+			2 -> 1 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			10 -> 7 [label="опред"]
+			10 -> 12 [label="атриб"]
+}

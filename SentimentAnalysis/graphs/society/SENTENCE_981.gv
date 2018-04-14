@@ -1,0 +1,30 @@
+digraph SENTENCE_981 {
+	graph [label="Говоря о Фалине, она добавила, что \"это был человек-глыба\"."]
+	node [style=filled]
+		0 [label="Говоря
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Фалине
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="она
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="добавила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="человек-глыба
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			5 -> 0 [label="обст"]
+			5 -> 4 [label="предик"]
+			5 -> 7 [label="_1_компл"]
+			0 -> 1 [label="_3_компл"]
+			10 -> 9 [label="предик"]
+			10 -> 11 [label="присвяз"]
+			7 -> 10 [label="подч_союзн"]
+}

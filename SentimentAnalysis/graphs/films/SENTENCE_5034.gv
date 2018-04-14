@@ -1,0 +1,27 @@
+digraph SENTENCE_5034 {
+	graph [label="3D ничем не отличается от 2D."]
+	node [style=filled]
+		0 [label="3
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="D
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="ничем
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="отличается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="2
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="D
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			6 -> 7 [label="аппоз"]
+			1 -> 0 [label="количест"]
+			5 -> 6 [label="предл"]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="_2_компл"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="_1_компл"]
+}

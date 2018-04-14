@@ -1,0 +1,24 @@
+digraph SENTENCE_4428 {
+	graph [label="Он обращён к чувствам, как настоящее искусство."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="обращён
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="чувствам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="настоящее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="искусство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			5 -> 7 [label="сравн_союзн"]
+			7 -> 6 [label="опред"]
+			2 -> 3 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 5 [label="сравнит"]
+}

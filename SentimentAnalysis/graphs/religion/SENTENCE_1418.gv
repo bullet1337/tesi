@@ -1,0 +1,69 @@
+digraph SENTENCE_1418 {
+	graph [label="В ряде европейских государств практикуют компромиссные варианты: например, в Словакии, Австрии и Эстонии животное оглушают после перерезания ему горла, как требуют каноны."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="ряде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="европейских
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="государств
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="практикуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="компромиссные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="варианты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="например
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Словакии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		13 [label="Австрии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		14 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="Эстонии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="животное
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оглушают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="перерезания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ему
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="горла
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		24 [label="требуют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="каноны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			18 -> 19 [label="предл"]
+			23 -> 24 [label="сравн_союзн"]
+			13 -> 14 [label="сочин"]
+			14 -> 15 [label="соч_союзн"]
+			21 -> 20 [label="неакт_компл"]
+			1 -> 3 [label="квазиагент"]
+			10 -> 8 [label="вводн"]
+			10 -> 11 [label="предл"]
+			4 -> 0 [label="обст"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 10 [label="обст"]
+			4 -> 17 [label="сент_соч"]
+			11 -> 13 [label="сочин"]
+			6 -> 5 [label="опред"]
+			24 -> 25 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			17 -> 16 [label="_1_компл"]
+			17 -> 18 [label="обст"]
+			17 -> 21 [label="предик"]
+			17 -> 23 [label="вводн"]
+			0 -> 1 [label="предл"]
+}

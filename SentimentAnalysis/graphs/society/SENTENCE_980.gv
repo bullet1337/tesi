@@ -1,0 +1,43 @@
+digraph SENTENCE_980 {
+	graph [label="Вот, какая у меня была удивительная была встреча с нашим послом, дипломатом\", — подытожила Батова."]
+	node [style=filled]
+		0 [label="Вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="какая
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="меня
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="удивительная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="была
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="нашим
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="послом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дипломатом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="подытожила
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="Батова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			11 -> 10 [label="опред"]
+			11 -> 13 [label="аппоз"]
+			8 -> 9 [label="_1_компл"]
+			2 -> 0 [label="огранич"]
+			7 -> 6 [label="присвяз"]
+			7 -> 8 [label="предик"]
+			7 -> 17 [label="сент_соч"]
+			5 -> 3 [label="_1_компл"]
+			3 -> 4 [label="предл"]
+			17 -> 18 [label="предик"]
+			9 -> 11 [label="предл"]
+}

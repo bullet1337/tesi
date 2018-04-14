@@ -1,0 +1,45 @@
+digraph SENTENCE_300 {
+	graph [label="Нетаньяху заявил Моравецкому, что нет оснований сравнивать действия поляков и евреев во время Холокоста."]
+	node [style=filled]
+		0 [label="Нетаньяху
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="заявил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Моравецкому
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="нет
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="оснований
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сравнивать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="действия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="поляков
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="евреев
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="во
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="время
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Холокоста
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			7 -> 8 [label="_1_компл"]
+			7 -> 12 [label="_2_компл"]
+			7 -> 14 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			10 -> 11 [label="соч_союзн"]
+			4 -> 5 [label="подч_союзн"]
+			5 -> 6 [label="предик"]
+			9 -> 10 [label="сочин"]
+			8 -> 9 [label="квазиагент"]
+			6 -> 7 [label="_1_компл"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="_2_компл"]
+			1 -> 4 [label="_1_компл"]
+}

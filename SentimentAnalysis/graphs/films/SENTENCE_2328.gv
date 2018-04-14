@@ -1,0 +1,33 @@
+digraph SENTENCE_2328 {
+	graph [label="Может, оно, конечно, так и правдоподобнее — но смотреть же невозможно!"]
+	node [style=filled]
+		0 [label="Может
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="оно
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="конечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="правдоподобнее
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="смотреть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="невозможно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 0 [label="вводн"]
+			8 -> 2 [label="предик"]
+			8 -> 4 [label="вводн"]
+			8 -> 6 [label="огранич"]
+			8 -> 7 [label="огранич"]
+			8 -> 10 [label="сент_соч"]
+			11 -> 12 [label="огранич"]
+			11 -> 13 [label="_1_компл"]
+			10 -> 11 [label="соч_союзн"]
+}

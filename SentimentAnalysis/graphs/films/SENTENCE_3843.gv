@@ -1,0 +1,29 @@
+digraph SENTENCE_3843 {
+	graph [label="Но никак не то, что в фильме показывает Кубрик."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="никак
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="то
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="показывает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Кубрик
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 6 [label="обст"]
+			8 -> 9 [label="предик"]
+			3 -> 2 [label="огранич"]
+			3 -> 5 [label="эксплет"]
+			5 -> 8 [label="подч_союзн"]
+			2 -> 1 [label="огранич"]
+			6 -> 7 [label="предл"]
+}

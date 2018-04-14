@@ -1,0 +1,45 @@
+digraph SENTENCE_1048 {
+	graph [label="К еде это не сводится, есть же еще ограничения на развлечения\", — говорит протоиерей Максим Козлов."]
+	node [style=filled]
+		0 [label="К
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="еде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сводится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="есть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ограничения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="развлечения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="говорит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="протоиерей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Максим Козлов
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			10 -> 11 [label="предл"]
+			6 -> 7 [label="огранич"]
+			4 -> 0 [label="вводн"]
+			4 -> 2 [label="предик"]
+			4 -> 3 [label="огранич"]
+			4 -> 6 [label="_1_компл"]
+			4 -> 9 [label="предик"]
+			4 -> 15 [label="вводн"]
+			0 -> 1 [label="предл"]
+			15 -> 16 [label="предик"]
+			9 -> 8 [label="огранич"]
+			9 -> 10 [label="_1_компл"]
+			16 -> 17 [label="аппоз"]
+}

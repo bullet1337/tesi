@@ -1,0 +1,21 @@
+digraph SENTENCE_1112 {
+	graph [label="Примеров тому много в жизни святых."]
+	node [style=filled]
+		0 [label="Примеров
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="тому
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="много
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="святых
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 2 [label="предик"]
+			3 -> 4 [label="предл"]
+			4 -> 5 [label="квазиагент"]
+			2 -> 1 [label="неакт_компл"]
+			0 -> 3 [label="примыкат"]
+}

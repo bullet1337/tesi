@@ -1,0 +1,48 @@
+digraph SENTENCE_1667 {
+	graph [label="После своего дебютного фильма \"Каникулы\" Джон Фрэнсис Дейли и Джон Голдстейн снова стали со-режиссерами детективной комедии \"Ночные игры\"."]
+	node [style=filled]
+		0 [label="После
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="дебютного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="фильма
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Каникулы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Джон Фрэнсис Дейли
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Джон Голдстейн
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		10 [label="снова
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="стали
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="со-режиссерами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="детективной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="комедии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Ночные
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="игры
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			17 -> 16 [label="опред"]
+			8 -> 9 [label="соч_союзн"]
+			0 -> 3 [label="предл"]
+			3 -> 1 [label="опред"]
+			3 -> 2 [label="опред"]
+			3 -> 5 [label="ном_аппоз"]
+			7 -> 0 [label="обст"]
+			7 -> 8 [label="сочин"]
+			7 -> 11 [label="сент_соч"]
+			11 -> 10 [label="обст"]
+			11 -> 12 [label="присвяз"]
+			11 -> 14 [label="предик"]
+			14 -> 13 [label="опред"]
+			14 -> 17 [label="сочин"]
+}

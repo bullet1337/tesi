@@ -1,0 +1,45 @@
+digraph SENTENCE_796 {
+	graph [label="Здесь был создан солдатский церковный хор — победитель многих фестивалей и конкурсов, участник патриарших богослужений."]
+	node [style=filled]
+		0 [label="Здесь
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="был
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="создан
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="солдатский
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="церковный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="хор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="победитель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="многих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="фестивалей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="конкурсов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="участник
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="патриарших
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="богослужений
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="сочин"]
+			7 -> 9 [label="сочин"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="сочин"]
+			10 -> 11 [label="соч_союзн"]
+			1 -> 0 [label="обст"]
+			1 -> 2
+			1 -> 5 [label="предик"]
+			13 -> 15 [label="_1_компл"]
+			15 -> 14 [label="опред"]
+			11 -> 13 [label="аппоз"]
+}

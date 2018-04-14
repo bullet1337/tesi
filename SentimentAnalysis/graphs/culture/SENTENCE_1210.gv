@@ -1,0 +1,29 @@
+digraph SENTENCE_1210 {
+	graph [label="Продолжение\" можно будет увидеть в кинотеатрах с 22 февраля."]
+	node [style=filled]
+		0 [label="Продолжение
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="можно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="будет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="увидеть
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="кинотеатрах
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="22
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			8 -> 9 [label="атриб"]
+			4 -> 5 [label="обст"]
+			4 -> 7 [label="обст"]
+			3 -> 2 [label="присвяз"]
+			3 -> 4 [label="предик"]
+			5 -> 6 [label="предл"]
+			7 -> 8 [label="предл"]
+}

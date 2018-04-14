@@ -1,0 +1,33 @@
+digraph SENTENCE_2779 {
+	graph [label="Агента играет знаменитый Харрисон Форд, известный большинству по сериалу «Индиана Джонс»."]
+	node [style=filled]
+		0 [label="Агента
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="играет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="знаменитый
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Харрисон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Форд
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="известный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="большинству
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сериалу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="Индиана Джонс
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 2 [label="опред"]
+			1 -> 0 [label="_1_компл"]
+			1 -> 3 [label="предик"]
+			1 -> 11 [label="разъяснит"]
+			11 -> 7 [label="_2_компл"]
+			8 -> 9 [label="предл"]
+			7 -> 4 [label="опред"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+}

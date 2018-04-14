@@ -1,0 +1,39 @@
+digraph SENTENCE_4478 {
+	graph [label="Лучше бы Гнус раздавил бы эту парочку, а не Бинош с Крэйтоном."]
+	node [style=filled]
+		0 [label="Лучше
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Гнус
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="раздавил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="бы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="эту
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="парочку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="а
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Бинош
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Крэйтоном
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			8 -> 10 [label="соч_союзн"]
+			3 -> 4 [label="аналит"]
+			10 -> 9 [label="огранич"]
+			10 -> 11 [label="атриб"]
+			11 -> 12 [label="предл"]
+			0 -> 1 [label="аналит"]
+			0 -> 2 [label="предик"]
+			0 -> 3 [label="вводн"]
+			0 -> 6 [label="предик"]
+			0 -> 8 [label="сент_соч"]
+			6 -> 5 [label="опред"]
+}

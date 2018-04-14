@@ -1,0 +1,51 @@
+digraph SENTENCE_2658 {
+	graph [label="Причина проста — по мнению всех этих ребят, сайт значительно влияет на сборы картин и их оценку."]
+	node [style=filled]
+		0 [label="Причина
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="проста
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="мнению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="всех
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="ребят
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="сайт
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="значительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="влияет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сборы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="картин
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="их
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="оценку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 4 [label="предл"]
+			15 -> 17 [label="соч_союзн"]
+			1 -> 0 [label="предик"]
+			1 -> 11 [label="разъяснит"]
+			11 -> 3 [label="вводн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="огранич"]
+			11 -> 12 [label="_1_компл"]
+			11 -> 15 [label="сент_соч"]
+			7 -> 5 [label="опред"]
+			7 -> 6 [label="опред"]
+			4 -> 7 [label="квазиагент"]
+			13 -> 14 [label="квазиагент"]
+			17 -> 16 [label="квазиагент"]
+			12 -> 13 [label="предл"]
+}

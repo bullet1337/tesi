@@ -1,0 +1,63 @@
+digraph SENTENCE_2130 {
+	graph [label="Тот шквал писем, обрушившийся на режиссера после выхода картины, не смотря на негативные и злобные высказывания, укрепил и обрадовал Тарковского."]
+	node [style=filled]
+		0 [label="Тот
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="шквал
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="писем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="обрушившийся
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="режиссера
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="выхода
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="картины
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="смотря
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="на
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="негативные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="злобные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="высказывания
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="укрепил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="обрадовал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Тарковского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="соч_союзн"]
+			21 -> 22 [label="_1_компл"]
+			4 -> 5 [label="_2_компл"]
+			4 -> 12 [label="обст"]
+			4 -> 13 [label="_2_компл"]
+			13 -> 17 [label="предл"]
+			7 -> 8 [label="предл"]
+			8 -> 9 [label="квазиагент"]
+			20 -> 21 [label="соч_союзн"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="_1_компл"]
+			1 -> 4 [label="опред"]
+			19 -> 1 [label="предик"]
+			19 -> 20 [label="сочин"]
+			12 -> 7 [label="обст"]
+			12 -> 11 [label="огранич"]
+			14 -> 15 [label="сочин"]
+			5 -> 6 [label="предл"]
+			17 -> 14 [label="опред"]
+}

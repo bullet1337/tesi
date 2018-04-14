@@ -1,0 +1,38 @@
+digraph SENTENCE_2424 {
+	graph [label="Но, к сожалению, фильм не оправдал моих ожиданий, далее объясню, почему же."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="к
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сожалению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="оправдал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="моих
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="ожиданий
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="далее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="объясню
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="почему
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="же
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 3 [label="предл"]
+			7 -> 2 [label="вводн"]
+			7 -> 5 [label="предик"]
+			7 -> 6 [label="огранич"]
+			7 -> 9 [label="_1_компл"]
+			7 -> 12 [label="разъяснит"]
+			12 -> 11 [label="обст"]
+			9 -> 8 [label="опред"]
+			14 -> 15 [label="огранич"]
+			0 -> 7 [label="соч_союзн"]
+}

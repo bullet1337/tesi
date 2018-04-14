@@ -1,0 +1,56 @@
+digraph SENTENCE_213 {
+	graph [label="Историческая встреча патриарха Кирилла и папы Римского Франциска состоялась 12 февраля 2016 года в здании международного аэропорта Гаваны."]
+	node [style=filled]
+		0 [label="Историческая
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="патриарха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Кирилла
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="папы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Римского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="Франциска
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="состоялась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="12
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="2016
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="здании
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="международного
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="аэропорта
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="Гаваны
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			9 -> 10 [label="атриб"]
+			8 -> 1 [label="предик"]
+			8 -> 9 [label="обст"]
+			2 -> 3 [label="аппоз"]
+			5 -> 7 [label="аппоз"]
+			3 -> 4 [label="сочин"]
+			14 -> 16 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+			1 -> 2 [label="квазиагент"]
+			7 -> 6 [label="опред"]
+			10 -> 12 [label="атриб"]
+			12 -> 11 [label="опред"]
+			16 -> 15 [label="опред"]
+			16 -> 17 [label="аппоз"]
+			13 -> 14 [label="предл"]
+			4 -> 5 [label="соч_союзн"]
+}

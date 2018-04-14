@@ -1,0 +1,57 @@
+digraph SENTENCE_351 {
+	graph [label="У него всегда все прямо в лоб, жестко и, как правило, не смешно, но, наверное, обидно\", — прогнозировал Слим."]
+	node [style=filled]
+		0 [label="У
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="него
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="всегда
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="все
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="прямо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="лоб
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жестко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="как
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="правило
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="смешно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="наверное
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="обидно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="прогнозировал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="Слим
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			5 -> 0 [label="обст"]
+			5 -> 2 [label="обст"]
+			5 -> 3 [label="предик"]
+			5 -> 4 [label="огранич"]
+			5 -> 6 [label="предл"]
+			5 -> 8 [label="обст"]
+			5 -> 9 [label="сент_соч"]
+			15 -> 11 [label="вводн"]
+			15 -> 14 [label="огранич"]
+			15 -> 17 [label="сочин"]
+			11 -> 12 [label="сравн_союзн"]
+			25 -> 19 [label="вводн"]
+			25 -> 21 [label="обст"]
+			25 -> 26 [label="предик"]
+			0 -> 1 [label="предл"]
+			17 -> 25 [label="соч_союзн"]
+			9 -> 15 [label="соч_союзн"]
+}

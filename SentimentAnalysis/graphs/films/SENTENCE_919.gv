@@ -1,0 +1,28 @@
+digraph SENTENCE_919 {
+	graph [label="10 из 10
+Мое первое знакомство с Бьорк."]
+	node [style=filled]
+		0 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="10
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="Мое
+APRO" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="первое
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="знакомство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Бьорк
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			0 -> 1 [label="электив"]
+			5 -> 2 [label="количест"]
+			5 -> 3 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			6 -> 7 [label="предл"]
+			1 -> 5 [label="предл"]
+}

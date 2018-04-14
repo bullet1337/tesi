@@ -1,0 +1,29 @@
+digraph SENTENCE_611 {
+	graph [label="Весь фильм просто потрясает блаженная и отстраненная глупость Сельмы."]
+	node [style=filled]
+		0 [label="Весь
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="фильм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="просто
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="потрясает
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="блаженная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="отстраненная
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="глупость
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="Сельмы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			3 -> 1 [label="_1_компл"]
+			3 -> 2 [label="огранич"]
+			3 -> 4 [label="предик"]
+			3 -> 5 [label="сент_соч"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="квазиагент"]
+			1 -> 0 [label="опред"]
+}

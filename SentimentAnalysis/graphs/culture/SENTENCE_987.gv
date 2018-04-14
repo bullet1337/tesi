@@ -1,0 +1,57 @@
+digraph SENTENCE_987 {
+	graph [label="В их исполнении прозвучат фортепианные сонаты, рэгтайм, музыка балетов \"Жар-птица\", \"Весна священная\", \"Петрушка\" (в переложении для фортепиано) Стравинского."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="их
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="исполнении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="прозвучат
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="фортепианные
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="сонаты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="рэгтайм
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="музыка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="балетов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="Жар-птица
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		16 [label="Весна
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		17 [label="священная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="Петрушка
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		25 [label="переложении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		26 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		27 [label="фортепиано
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		29 [label="Стравинского
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 17 [label="опред"]
+			7 -> 9 [label="сочин"]
+			16 -> 21 [label="сочин"]
+			2 -> 1 [label="_1_компл"]
+			5 -> 4 [label="опред"]
+			5 -> 7 [label="разъяснит"]
+			9 -> 10 [label="сочин"]
+			26 -> 27 [label="предл"]
+			0 -> 2 [label="предл"]
+			10 -> 12 [label="сочин"]
+			3 -> 0 [label="обст"]
+			3 -> 5 [label="предик"]
+			3 -> 24 [label="обст"]
+			3 -> 26 [label="обст"]
+			27 -> 29 [label="квазиагент"]
+			12 -> 16 [label="сочин"]
+			24 -> 25 [label="предл"]
+}

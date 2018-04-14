@@ -1,0 +1,39 @@
+digraph SENTENCE_133 {
+	graph [label="В результате, третье лицо без своего согласия становится заложником ситуации с долгом."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="результате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="третье
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="лицо
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="своего
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="согласия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="становится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="заложником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="ситуации
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="долгом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="опред"]
+			8 -> 0 [label="обст"]
+			8 -> 4 [label="предик"]
+			8 -> 5 [label="обст"]
+			8 -> 9 [label="присвяз"]
+			7 -> 6 [label="опред"]
+			9 -> 10 [label="_1_компл"]
+			0 -> 1 [label="предл"]
+			5 -> 7 [label="предл"]
+			11 -> 12 [label="предл"]
+			10 -> 11 [label="_1_компл"]
+}

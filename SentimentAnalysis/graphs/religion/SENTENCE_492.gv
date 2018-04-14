@@ -1,0 +1,54 @@
+digraph SENTENCE_492 {
+	graph [label="Он отметил, что \"вопрос восстановления нормальной жизни в Сирии станет приоритетным для Московской патриархии в межконфессиональной сотрудничестве\"."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="отметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="вопрос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="восстановления
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="нормальной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="жизни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="Сирии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="станет
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="приоритетным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="Московской
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="патриархии
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="межконфессиональной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="сотрудничестве
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			16 -> 18 [label="предл"]
+			15 -> 14 [label="опред"]
+			5 -> 6 [label="_1_компл"]
+			9 -> 10 [label="предл"]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			6 -> 8 [label="_1_компл"]
+			3 -> 11 [label="подч_союзн"]
+			11 -> 5 [label="предик"]
+			11 -> 9 [label="обст"]
+			11 -> 12 [label="присвяз"]
+			11 -> 13 [label="обст"]
+			11 -> 16 [label="обст"]
+			8 -> 7 [label="опред"]
+			13 -> 15 [label="предл"]
+			18 -> 17 [label="опред"]
+}

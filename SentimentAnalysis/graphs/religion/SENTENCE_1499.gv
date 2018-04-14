@@ -1,0 +1,36 @@
+digraph SENTENCE_1499 {
+	graph [label="Итальянцы 14 февраля называют сладким днем и дарят сладости и конфеты."]
+	node [style=filled]
+		0 [label="Итальянцы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="14
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="называют
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сладким
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="днем
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дарят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сладости
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="конфеты
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="атриб"]
+			3 -> 0 [label="предик"]
+			3 -> 5 [label="_2_компл"]
+			3 -> 6 [label="сочин"]
+			5 -> 4 [label="опред"]
+			6 -> 7 [label="соч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			8 -> 9 [label="сочин"]
+			9 -> 10 [label="соч_союзн"]
+			0 -> 1 [label="атриб"]
+}

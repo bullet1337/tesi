@@ -1,0 +1,61 @@
+digraph SENTENCE_1312 {
+	graph [label="Это состояние, когда вы находитесь словно в помещении без окон и без дверей, где нет ни света, ни доступа воздуха."]
+	node [style=filled]
+		0 [label="Это
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="состояние
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="когда
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="вы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="находитесь
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="словно
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="помещении
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="окон
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="без
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="дверей
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="где
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="нет
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="света
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="ни
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="доступа
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="воздуха
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			3 -> 5 [label="подч_союзн"]
+			20 -> 21 [label="соч_союзн"]
+			7 -> 8 [label="предл"]
+			16 -> 1 [label="предик"]
+			16 -> 3 [label="обст"]
+			16 -> 15 [label="_1_компл"]
+			12 -> 13 [label="предл"]
+			5 -> 4 [label="предик"]
+			5 -> 6 [label="сравнит"]
+			5 -> 9 [label="_1_компл"]
+			11 -> 12 [label="соч_союзн"]
+			21 -> 22 [label="квазиагент"]
+			9 -> 10 [label="предл"]
+			9 -> 11 [label="сочин"]
+			18 -> 20 [label="сочин"]
+			6 -> 7 [label="сравн_союзн"]
+			1 -> 0 [label="опред"]
+}

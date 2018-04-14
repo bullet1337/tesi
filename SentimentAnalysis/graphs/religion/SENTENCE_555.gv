@@ -1,0 +1,48 @@
+digraph SENTENCE_555 {
+	graph [label="Согласно Протоевангелию Иакова, Симеон стал священником Иерусалимского Храма после убийства в нем Захарии, отца Иоанна Крестителя."]
+	node [style=filled]
+		0 [label="Согласно
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		1 [label="Протоевангелию
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="Иакова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="Симеон
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		5 [label="стал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="священником
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="Иерусалимского
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="Храма
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		9 [label="после
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="убийства
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="нем
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Захарии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		15 [label="отца
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="Иоанна Крестителя
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			15 -> 16 [label="аппоз"]
+			6 -> 8 [label="_1_компл"]
+			5 -> 0 [label="обст"]
+			5 -> 6 [label="присвяз"]
+			9 -> 10 [label="предл"]
+			1 -> 2 [label="квазиагент"]
+			2 -> 4 [label="аппоз"]
+			10 -> 11 [label="атриб"]
+			10 -> 13 [label="агент"]
+			10 -> 15 [label="_1_компл"]
+			11 -> 12 [label="предл"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="атриб"]
+			0 -> 1 [label="предл"]
+}

@@ -1,0 +1,36 @@
+digraph SENTENCE_1323 {
+	graph [label="Он даже проводит параллель между текстами Шнурова и поэзией Велимира Хлебникова, обэриутов."]
+	node [style=filled]
+		0 [label="Он
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="даже
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="проводит
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="параллель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="между
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="текстами
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Шнурова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		7 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="поэзией
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Велимира Хлебникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="обэриутов
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 0 [label="предик"]
+			2 -> 1 [label="огранич"]
+			2 -> 3 [label="_1_компл"]
+			2 -> 4 [label="обст"]
+			5 -> 6 [label="квазиагент"]
+			5 -> 9 [label="сочин"]
+			6 -> 7 [label="сочин"]
+			4 -> 5 [label="предл"]
+			9 -> 11 [label="сочин"]
+			7 -> 8 [label="соч_союзн"]
+}

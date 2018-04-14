@@ -1,0 +1,15 @@
+digraph SENTENCE_3667 {
+	graph [label="Агитка перед Олимпиадой удалась."]
+	node [style=filled]
+		0 [label="Агитка
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="перед
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="Олимпиадой
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="удалась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_2_компл"]
+			3 -> 0 [label="предик"]
+}

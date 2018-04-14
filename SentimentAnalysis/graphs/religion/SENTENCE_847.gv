@@ -1,0 +1,32 @@
+digraph SENTENCE_847 {
+	graph [label="Я читал, что освящают автоматы Калашникова — вот это явный перебор."]
+	node [style=filled]
+		0 [label="Я
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="читал
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="освящают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="автоматы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="Калашникова
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		8 [label="вот
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="явный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="перебор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 0 [label="предик"]
+			1 -> 3 [label="_1_компл"]
+			3 -> 4 [label="подч_союзн"]
+			11 -> 9 [label="предик"]
+			11 -> 10 [label="опред"]
+			5 -> 6 [label="атриб"]
+			4 -> 5 [label="предик"]
+			9 -> 8 [label="огранич"]
+}

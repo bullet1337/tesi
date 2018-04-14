@@ -1,0 +1,75 @@
+digraph SENTENCE_1162 {
+	graph [label="В марте 2017 года в СМИ появились сообщения о якобы решенном вопросе о переезде театра кукол из центра города в Северный район Ростова-на-Дону."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="марте
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="2017
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="года
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="СМИ
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="появились
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="сообщения
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="якобы
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="решенном
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="вопросе
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="о
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="переезде
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="театра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="кукол
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="из
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="центра
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="города
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="Северный
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		21 [label="район
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="Ростова-на
+PR" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Дону
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			22 -> 24 [label="предл"]
+			8 -> 11 [label="предл"]
+			11 -> 10 [label="опред"]
+			11 -> 12 [label="_1_компл"]
+			3 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			6 -> 0 [label="обст"]
+			6 -> 4 [label="_2_компл"]
+			6 -> 7 [label="предик"]
+			13 -> 14 [label="_1_компл"]
+			13 -> 15 [label="аппоз"]
+			10 -> 9 [label="огранич"]
+			15 -> 16 [label="атриб"]
+			17 -> 18 [label="квазиагент"]
+			1 -> 3 [label="атриб"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 19 [label="атриб"]
+			7 -> 22 [label="атриб"]
+			16 -> 17 [label="предл"]
+			19 -> 21 [label="предл"]
+			21 -> 20 [label="опред"]
+			4 -> 5 [label="предл"]
+			12 -> 13 [label="предл"]
+}

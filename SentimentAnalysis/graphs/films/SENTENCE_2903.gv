@@ -1,0 +1,21 @@
+digraph SENTENCE_2903 {
+	graph [label="Встреча с братом неинтересна и поверхностна."]
+	node [style=filled]
+		0 [label="Встреча
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="братом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="неинтересна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="поверхностна
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="соч_союзн"]
+			1 -> 2 [label="предл"]
+			0 -> 1 [label="_1_компл"]
+			3 -> 0 [label="предик"]
+			3 -> 4 [label="сочин"]
+}

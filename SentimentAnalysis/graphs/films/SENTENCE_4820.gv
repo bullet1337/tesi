@@ -1,0 +1,21 @@
+digraph SENTENCE_4820 {
+	graph [label="Про актерку хорошего ничего не скажу."]
+	node [style=filled]
+		0 [label="Про
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="актерку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="хорошего
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="ничего
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="скажу
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			1 -> 2 [label="опред"]
+			0 -> 1 [label="предл"]
+			5 -> 0 [label="_3_компл"]
+			5 -> 3 [label="_1_компл"]
+			5 -> 4 [label="огранич"]
+}

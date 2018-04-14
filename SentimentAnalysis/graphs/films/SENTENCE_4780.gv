@@ -1,0 +1,33 @@
+digraph SENTENCE_4780 {
+	graph [label="Но бате 15 лет жить спокойно не дают, эти мерзавцы."]
+	node [style=filled]
+		0 [label="Но
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="бате
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="15
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="лет
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="жить
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="спокойно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="не
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="дают
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="эти
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="мерзавцы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			10 -> 9 [label="опред"]
+			0 -> 3 [label="соч_союзн"]
+			7 -> 4 [label="_1_компл"]
+			7 -> 5 [label="обст"]
+			7 -> 6 [label="огранич"]
+			7 -> 10 [label="предик"]
+			3 -> 1 [label="дат_субъект"]
+			3 -> 2 [label="количест"]
+			3 -> 7 [label="релят"]
+}

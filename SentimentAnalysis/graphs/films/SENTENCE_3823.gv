@@ -1,0 +1,24 @@
+digraph SENTENCE_3823 {
+	graph [label="Это единственное, что получилось в этом фильме."]
+	node [style=filled]
+		0 [label="Это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="единственное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="получилось
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="этом
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="фильме
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 3 [label="предик"]
+			4 -> 5 [label="обст"]
+			1 -> 0 [label="предик"]
+			1 -> 4 [label="разъяснит"]
+			7 -> 6 [label="опред"]
+			5 -> 7 [label="предл"]
+}

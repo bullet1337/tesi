@@ -1,0 +1,57 @@
+digraph SENTENCE_1545 {
+	graph [label="В областном УМВД РИА Новости сообщили, что проводят проверку по заявлению жительницы деревни, подчеркнув, что это вся официальная информация."]
+	node [style=filled]
+		0 [label="В
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="областном
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="УМВД
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="РИА Новости
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		4 [label="сообщили
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="проводят
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="проверку
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="по
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="заявлению
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="жительницы
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="деревни
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="подчеркнув
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="это
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="вся
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="официальная
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="информация
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 0 [label="обст"]
+			4 -> 3 [label="_2_компл"]
+			4 -> 6 [label="_1_компл"]
+			14 -> 16 [label="_1_компл"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 12 [label="аппоз"]
+			6 -> 7 [label="подч_союзн"]
+			20 -> 17 [label="предик"]
+			20 -> 18 [label="опред"]
+			20 -> 19 [label="опред"]
+			16 -> 20 [label="подч_союзн"]
+			7 -> 8 [label="_1_компл"]
+			7 -> 14 [label="обст"]
+			10 -> 11 [label="квазиагент"]
+			0 -> 2 [label="предл"]
+			2 -> 1 [label="опред"]
+			9 -> 10 [label="предл"]
+}

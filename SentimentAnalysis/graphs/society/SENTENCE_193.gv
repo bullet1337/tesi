@@ -1,0 +1,48 @@
+digraph SENTENCE_193 {
+	graph [label="\"Сергей Павлович запомнится коллегам как человек, искренне веривший в возможности образования и бесконечно преданный своему делу."]
+	node [style=filled]
+		1 [label="Сергей Павлович
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		2 [label="запомнится
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="коллегам
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="как
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="человек
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="искренне
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="веривший
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="возможности
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="образования
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="бесконечно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="преданный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="своему
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="делу
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 5 [label="сравн_союзн"]
+			3 -> 4 [label="сравнит"]
+			14 -> 13 [label="огранич"]
+			9 -> 10 [label="предл"]
+			5 -> 8 [label="опред"]
+			12 -> 14 [label="соч_союзн"]
+			8 -> 7 [label="обст"]
+			8 -> 9 [label="_1_компл"]
+			8 -> 12 [label="сочин"]
+			8 -> 16 [label="_2_компл"]
+			10 -> 11 [label="_1_компл"]
+			2 -> 1 [label="предик"]
+			2 -> 3 [label="_2_компл"]
+			16 -> 15 [label="опред"]
+}

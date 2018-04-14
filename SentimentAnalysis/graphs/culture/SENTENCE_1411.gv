@@ -1,0 +1,36 @@
+digraph SENTENCE_1411 {
+	graph [label="Отдать свой голос за победителя киноакадемики могут до 27 февраля включительно."]
+	node [style=filled]
+		0 [label="Отдать
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="свой
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="голос
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="за
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="победителя
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="киноакадемики
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="могут
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="до
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="27
+NUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="февраля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="включительно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			0 -> 2 [label="_1_компл"]
+			0 -> 3 [label="обст"]
+			2 -> 1 [label="опред"]
+			7 -> 8 [label="предл"]
+			6 -> 0 [label="_1_компл"]
+			6 -> 5 [label="предик"]
+			6 -> 7 [label="обст"]
+			8 -> 9 [label="атриб"]
+			8 -> 10 [label="огранич"]
+			3 -> 4 [label="предл"]
+}

@@ -1,0 +1,39 @@
+digraph SENTENCE_602 {
+	graph [label="Мне кажется, это один единственно правильный выбор для открытия фестиваля\", — заметил председатель."]
+	node [style=filled]
+		0 [label="Мне
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="кажется
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="один
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="единственно
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="правильный
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="выбор
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="для
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="открытия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="фестиваля
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="заметил
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="председатель
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			7 -> 3 [label="предик"]
+			7 -> 4 [label="количест"]
+			7 -> 6 [label="опред"]
+			7 -> 8 [label="атриб"]
+			8 -> 9 [label="предл"]
+			6 -> 5 [label="огранич"]
+			1 -> 0 [label="_2_компл"]
+			1 -> 7 [label="_1_компл"]
+			1 -> 14 [label="вводн"]
+			9 -> 10 [label="_1_компл"]
+			14 -> 15 [label="предик"]
+}

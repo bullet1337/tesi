@@ -1,0 +1,39 @@
+digraph SENTENCE_1337 {
+	graph [label="Дело в том, что Калмыкия расположена гораздо южнее Бурятии, Тувы и Монголии."]
+	node [style=filled]
+		0 [label="Дело
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="том
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="Калмыкия
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		6 [label="расположена
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="гораздо
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="южнее
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="Бурятии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		11 [label="Тувы
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		12 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="Монголии
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			4 -> 6 [label="подч_союзн"]
+			12 -> 13 [label="соч_союзн"]
+			2 -> 4 [label="эксплет"]
+			1 -> 0 [label="предик"]
+			1 -> 2 [label="предл"]
+			6 -> 5 [label="предик"]
+			6 -> 8 [label="_1_компл"]
+			8 -> 7 [label="огранич"]
+			8 -> 9 [label="_1_компл"]
+			11 -> 12 [label="сочин"]
+			9 -> 11 [label="сочин"]
+}

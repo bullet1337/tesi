@@ -1,0 +1,51 @@
+digraph SENTENCE_1036 {
+	graph [label="\"Странно, что пьеса с таким неординарным сюжетом и прекрасными актерскими ролями так редко ставилась у нас."]
+	node [style=filled]
+		1 [label="Странно
+ADV" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		3 [label="что
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="пьеса
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="неординарным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="сюжетом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="прекрасными
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		11 [label="актерскими
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="ролями
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="редко
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="ставилась
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="у
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="нас
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			9 -> 12 [label="соч_союзн"]
+			4 -> 5 [label="атриб"]
+			3 -> 15 [label="подч_союзн"]
+			1 -> 3 [label="предик"]
+			5 -> 8 [label="предл"]
+			12 -> 10 [label="опред"]
+			12 -> 11 [label="опред"]
+			16 -> 17 [label="предл"]
+			15 -> 4 [label="предик"]
+			15 -> 14 [label="обст"]
+			15 -> 16 [label="_2_компл"]
+			8 -> 6 [label="опред"]
+			8 -> 7 [label="опред"]
+			8 -> 9 [label="сочин"]
+			14 -> 13 [label="огранич"]
+}

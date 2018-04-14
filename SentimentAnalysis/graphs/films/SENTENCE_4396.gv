@@ -1,0 +1,21 @@
+digraph SENTENCE_4396 {
+	graph [label="И это так и понимается ими."]
+	node [style=filled]
+		0 [label="И
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="это
+PART" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="так
+ADVPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="и
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="понимается
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="ими
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			4 -> 1 [label="предик"]
+			4 -> 2 [label="обст"]
+			4 -> 3 [label="огранич"]
+			4 -> 5 [label="агент"]
+			0 -> 4 [label="соч_союзн"]
+}

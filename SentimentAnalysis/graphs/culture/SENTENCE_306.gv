@@ -1,0 +1,24 @@
+digraph SENTENCE_306 {
+	graph [label="Мы таким образом сшиваем культурное пространство страны."]
+	node [style=filled]
+		0 [label="Мы
+SPRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		1 [label="таким
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="образом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="сшиваем
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="культурное
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="пространство
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="страны
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+			2 -> 1 [label="опред"]
+			5 -> 4 [label="опред"]
+			5 -> 6 [label="квазиагент"]
+			3 -> 0 [label="предик"]
+			3 -> 2 [label="обст"]
+			3 -> 5 [label="_1_компл"]
+}

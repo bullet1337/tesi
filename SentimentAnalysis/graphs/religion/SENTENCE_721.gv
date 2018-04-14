@@ -1,0 +1,72 @@
+digraph SENTENCE_721 {
+	graph [label="\"Понятие масленичной или сырной недели связано с пасхальным циклом праздников, который сформировался в православной церкви еще в середине первого тысячелетия от Рождества Христова."]
+	node [style=filled]
+		1 [label="Понятие
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		2 [label="масленичной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		3 [label="или
+CONJ" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		4 [label="сырной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		5 [label="недели
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		6 [label="связано
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		7 [label="с
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		8 [label="пасхальным
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		9 [label="циклом
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		10 [label="праздников
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		12 [label="который
+APRO" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		13 [label="сформировался
+V" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		14 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		15 [label="православной
+A" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		16 [label="церкви
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		17 [label="еще
+ADV" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		18 [label="в
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		19 [label="середине
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		20 [label="первого
+ANUM" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		21 [label="тысячелетия
+S" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		22 [label="от
+PR" color="" fillcolor=lightgray penwidth=1 shape=ellipse]
+		23 [label="Рождества
+S" color=blue fillcolor=lightgray penwidth=3 shape=box]
+		24 [label="Христова
+A" color=blue fillcolor=lightgray penwidth=3 shape=box]
+			21 -> 20 [label="опред"]
+			21 -> 22 [label="атриб"]
+			16 -> 15 [label="опред"]
+			1 -> 5 [label="ном_аппоз"]
+			5 -> 2 [label="опред"]
+			23 -> 24 [label="опред"]
+			9 -> 8 [label="опред"]
+			9 -> 10 [label="квазиагент"]
+			14 -> 16 [label="предл"]
+			22 -> 23 [label="предл"]
+			19 -> 21 [label="квазиагент"]
+			10 -> 13 [label="релят"]
+			18 -> 17 [label="огранич"]
+			18 -> 19 [label="предл"]
+			13 -> 12 [label="предик"]
+			13 -> 14 [label="обст"]
+			13 -> 18 [label="обст"]
+			3 -> 4 [label="соч_союзн"]
+			7 -> 9 [label="предл"]
+			6 -> 1 [label="предик"]
+			6 -> 7 [label="_2_компл"]
+			2 -> 3 [label="сочин"]
+}
